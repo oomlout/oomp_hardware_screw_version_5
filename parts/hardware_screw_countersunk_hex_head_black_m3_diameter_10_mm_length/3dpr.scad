@@ -1,6 +1,6 @@
 $fn = 50;
 
-use <github_belfryscad_bosl2_screw_raw.scad>;
+use <../scad_reference/github_belfryscad_bosl2_screw_raw.scad>;
 
 difference() {
 	union() {

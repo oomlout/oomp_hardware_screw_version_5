@@ -29,7 +29,7 @@ bip_39_full_space: argue accident bamboo mass list you trip similar walk faint u
     genre
 bip_39_full_underscore: argue_accident_bamboo_mass_list_you_trip_similar_walk_faint_unit_genre
 directory: parts/hardware_screw_socket_cap_hex_head_black_m5_diameter_16_mm_length
-generate_stl: false
+file_input: ''
 id: hardware_screw_socket_cap_hex_head_black_m5_diameter_16_mm_length
 id_no_class: hardware_screw_socket_cap_hex_head_black_m5_diameter_16_mm_length
 id_no_size: hardware_screw_socket_cap_hex_head_black_m5_diameter_16_mm_length
@@ -116,10 +116,6 @@ oomlout_ai_roboclick_2: &id003
         search_and_replace: []
     file_test: label_oomp.svg
 oomp_key: oomp_hardware_screw_socket_cap_hex_head_black_m5_diameter_16_mm_length
-run_action: true
-run_oomp: true
-run_oomp_populate: true
-run_scad: true
 screw_style: screw_socket_cap
 taxonomy_1: hardware
 taxonomy_10: ''

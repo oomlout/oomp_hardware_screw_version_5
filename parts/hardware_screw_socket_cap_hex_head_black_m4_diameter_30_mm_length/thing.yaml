@@ -137,7 +137,7 @@ oomlout_ai_roboclick_2: &id003
     search_and_replace: []
   file_test: label_oomp.svg
 oomp_key: oomp_hardware_screw_socket_cap_hex_head_black_m4_diameter_30_mm_length
-project_name: C:\gh\project_base
+project_name: C:\gh\oomp_hardware_screw_version_5
 run_action: true
 run_oomp: true
 run_oomp_populate: true
@@ -243,20 +243,20 @@ thing:
         - 0
         - 0
         shape: raw_scad
-        source: "include <C:/gh/oomlout_oobb_version_5/git/BOSL2/std.scad>\ninclude\
-          \ <C:/gh/oomlout_oobb_version_5/git/BOSL2/screws.scad>\n\nmodule github_belfryscad_bosl2_screw_raw(\n\
-          \    spec=\"M3,12\",\n    head=\"socket\",\n    drive=\"none\",\n    length=12,\n\
-          \    thread=\"coarse\",\n    drive_size=undef,\n    thread_len=undef,\n\
-          \    undersize=undef,\n    shaft_undersize=undef,\n    head_undersize=undef,\n\
-          \    tolerance=undef,\n    blunt_start=true,\n    details=false,\n    atype=\"\
-          screw\",\n    anchor=\"center\"\n) {\n    let(\n        $tags_shown=\"ALL\"\
-          ,\n        $tags_hidden=[],\n        $tag=\"\",\n        $tags=\"\"\n  \
-          \  )\n    screw(\n        spec=spec,\n        head=head,\n        drive=drive,\n\
-          \        thread=thread,\n        drive_size=drive_size,\n        length=length,\n\
-          \        thread_len=thread_len,\n        undersize=undersize,\n        shaft_undersize=shaft_undersize,\n\
+        source: "include <git/BOSL2/std.scad>\ninclude <git/BOSL2/screws.scad>\n\n\
+          module github_belfryscad_bosl2_screw_raw(\n    spec=\"M3,12\",\n    head=\"\
+          socket\",\n    drive=\"none\",\n    length=12,\n    thread=\"coarse\",\n\
+          \    drive_size=undef,\n    thread_len=undef,\n    undersize=undef,\n  \
+          \  shaft_undersize=undef,\n    head_undersize=undef,\n    tolerance=undef,\n\
+          \    blunt_start=true,\n    details=false,\n    atype=\"screw\",\n    anchor=\"\
+          center\"\n) {{\n    let(\n        $tags_shown=\"ALL\",\n        $tags_hidden=[],\n\
+          \        $tag=\"\",\n        $tags=\"\"\n    )\n    screw(\n        spec=spec,\n\
+          \        head=head,\n        drive=drive,\n        thread=thread,\n    \
+          \    drive_size=drive_size,\n        length=length,\n        thread_len=thread_len,\n\
+          \        undersize=undersize,\n        shaft_undersize=shaft_undersize,\n\
           \        head_undersize=head_undersize,\n        tolerance=tolerance,\n\
           \        blunt_start=blunt_start,\n        details=details,\n        atype=atype,\n\
-          \        anchor=anchor\n    );\n}\n"
+          \        anchor=anchor\n    );\n}}\n"
         type: positive
   components_objects:
   - drive_style: hex_head
@@ -285,7 +285,7 @@ thing:
     thread_size: m4_diameter
     type: positive
   components_string:
-  - oobb_screw_exact_shape_positive_type_true_run_oomp_populate_true_run_oomp_true_run_action_true_run_scad_false_generate_stl_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_hex_head_drive_style_30_mm_length_length_screw_oobb_name_black_screw_colour_socket_cap_screw_style_m4_diameter_thread_size
+  - oobb_screw_exact_shape_positive_type_true_run_oomp_populate_true_run_oomp_true_run_scad_true_run_action_false_generate_stl_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_hex_head_drive_style_30_mm_length_length_screw_oobb_name_black_screw_colour_socket_cap_screw_style_m4_diameter_thread_size
   description: default screw 0x0x0
   description_extra: ''
   description_main: ''

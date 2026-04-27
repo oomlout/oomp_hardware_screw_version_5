@@ -29,7 +29,7 @@ bip_39_full_space: other century coil clump brown manual economy mansion mansion
     video across
 bip_39_full_underscore: other_century_coil_clump_brown_manual_economy_mansion_mansion_ivory_video_across
 directory: parts/hardware_screw_countersunk_hex_head_black_m4_diameter_12_mm_length
-generate_stl: false
+file_input: ''
 id: hardware_screw_countersunk_hex_head_black_m4_diameter_12_mm_length
 id_no_class: hardware_screw_countersunk_hex_head_black_m4_diameter_12_mm_length
 id_no_size: hardware_screw_countersunk_hex_head_black_m4_diameter_12_mm_length
@@ -112,10 +112,6 @@ oomlout_ai_roboclick_2: &id003
         search_and_replace: []
     file_test: label_oomp.svg
 oomp_key: oomp_hardware_screw_countersunk_hex_head_black_m4_diameter_12_mm_length
-run_action: true
-run_oomp: true
-run_oomp_populate: true
-run_scad: true
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
