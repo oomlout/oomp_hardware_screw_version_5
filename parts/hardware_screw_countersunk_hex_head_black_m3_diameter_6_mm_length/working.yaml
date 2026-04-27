@@ -29,7 +29,7 @@ bip_39_full_space: open leave charge salon behind around rotate ranch rice tiny 
     episode
 bip_39_full_underscore: open_leave_charge_salon_behind_around_rotate_ranch_rice_tiny_paper_episode
 directory: parts/hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length
-file_input: ''
+generate_stl: false
 id: hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length
 id_no_class: hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length
 id_no_size: hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length
@@ -112,6 +112,10 @@ oomlout_ai_roboclick_2: &id003
         search_and_replace: []
     file_test: label_oomp.svg
 oomp_key: oomp_hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
