@@ -1,0 +1,459 @@
+bip_39_2_word_array:
+- lamp
+- immune
+bip_39_2_word_no_space: lampimmune
+bip_39_2_word_space: lamp immune
+bip_39_2_word_underscore: lamp_immune
+bip_39_3_word_array:
+- lamp
+- immune
+- asset
+bip_39_3_word_no_space: lampimmuneasset
+bip_39_3_word_space: lamp immune asset
+bip_39_3_word_underscore: lamp_immune_asset
+bip_39_full_array:
+- lamp
+- immune
+- asset
+- minimum
+- behind
+- spend
+- travel
+- manual
+- horror
+- more
+- sting
+- usual
+bip_39_full_no_space: lampimmuneassetminimumbehindspendtravelmanualhorrormorestingusual
+bip_39_full_space: lamp immune asset minimum behind spend travel manual horror more
+  sting usual
+bip_39_full_underscore: lamp_immune_asset_minimum_behind_spend_travel_manual_horror_more_sting_usual
+directory: parts/hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+generate_stl: false
+id: hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+id_no_class: hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+id_no_size: hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+id_no_type: hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+id_oobb: hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+kwargs:
+  drive_style: hex_head
+  filter: ''
+  generate_stl: false
+  length: 80_mm_length
+  modes:
+  - 3dpr
+  navigation: false
+  oobb_name: screw
+  oomp_description_extra: ''
+  oomp_description_main: screw_
+  oomp_mode: project
+  oomp_run: false
+  overwrite: true
+  run_action: true
+  run_oomp: true
+  run_oomp_populate: true
+  run_scad: true
+  screw_colour: black
+  screw_style: socket_cap
+  thread_size: m5_diameter
+  type: default_screw
+length: 80
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+md5: 7cce3436c68149a2b9e43b6db1fb57f8
+md5_10: 7cce3436c6
+md5_10_upper: 7CCE3436C6
+md5_5: 7cce3
+md5_5_upper: 7CCE3
+md5_6: 7cce34
+md5_6_alpha: 4vb5g
+md5_6_alpha_upper: 4VB5G
+md5_6_upper: 7CCE34
+name: Hardware Screw Socket Cap Hex Head Black M5 Diameter 80 Mm Length
+name_no_class: Hardware Screw Socket Cap Hex Head Black M5 Diameter 80 Mm Length
+name_no_size: Hardware Screw Socket Cap Hex Head Black M5 Diameter 80 Mm Length
+name_no_type: Hardware Screw Socket Cap Hex Head Black M5 Diameter 80 Mm Length
+name_proper: Hardware Screw Socket Cap Hex Head Black M5 Diameter 80 Mm Length
+name_space: hardware screw socket cap hex head black m5 diameter 80 mm length
+name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M5 DIAMETER 80 MM LENGTH
+oobb_details: &id001
+  drive_style: hex_head
+  length: 80_mm_length
+  oobb_name: screw
+  screw_colour: black
+  screw_style: socket_cap
+  thread_size: m5_diameter
+oobb_name: screw
+oomlout_ai_roboclick_1: &id002
+  actions:
+  - command: ai_skill_image_laser_cut_logo_full
+    file_destination: initial_generated_icon.png
+    image_detail: an image of hardware screw socket cap hex head black m5 diameter
+      80 mm length please include the thread size and length in the image as text,
+      add extra icons in the back, one that ryhmes with the diameter and one or two
+      that rhymes with the length, if the length is less than 14 just one if it is
+      greater do two, one rhyming for each part of the number ie for twenty five one
+      that rhymes with twenty and one that rhymes with five. Put some time into searching
+      to find the rhymes
+    mode_ai_wait: slow
+  - command: close_tab
+  file_test: initial_generated_icon.png
+oomlout_ai_roboclick_2: &id003
+  actions:
+  - command: jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      directory: parts\hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+      length: 80
+      name: hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+      name_proper: Hardware Screw Socket Cap Hex Head Black M5 Diameter 80 Mm Length
+      name_space: hardware screw socket cap hex head black m5 diameter 80 mm length
+      name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M5 DIAMETER 80 MM LENGTH
+      oobb_details: *id001
+      oomlout_ai_roboclick_1: *id002
+      oomlout_ai_roboclick_2: *id003
+      screw_style: screw_socket_cap
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: screw
+      taxonomy_3: socket_cap
+      taxonomy_4: hex_head
+      taxonomy_5: black
+      taxonomy_6: m5_diameter
+      taxonomy_7: 80_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      thread_size: m5
+      url_chat: https://chatgpt.com/c/69ee8ae3-9ac0-83eb-b133-15375dfa3578
+    file_output: label_oomp.svg
+    file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.svg
+oomp_key: oomp_hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+project_name: C:\gh\project_base
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+screw_style: screw_socket_cap
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_upper: HARDWARE
+taxonomy_2: screw
+taxonomy_2_capital: Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_upper: SCREW
+taxonomy_3: socket_cap
+taxonomy_3_capital: Socket Cap
+taxonomy_3_first_letter: s
+taxonomy_3_first_letter_upper: S
+taxonomy_3_upper: SOCKET_CAP
+taxonomy_4: hex_head
+taxonomy_4_capital: Hex Head
+taxonomy_4_first_letter: h
+taxonomy_4_first_letter_upper: H
+taxonomy_4_upper: HEX_HEAD
+taxonomy_5: black
+taxonomy_5_capital: Black
+taxonomy_5_first_letter: b
+taxonomy_5_first_letter_upper: B
+taxonomy_5_upper: BLACK
+taxonomy_6: m5_diameter
+taxonomy_6_capital: M5 Diameter
+taxonomy_6_first_letter: m
+taxonomy_6_first_letter_upper: M
+taxonomy_6_upper: M5_DIAMETER
+taxonomy_7: 80_mm_length
+taxonomy_7_capital: 80 mm Length
+taxonomy_7_first_letter: '8'
+taxonomy_7_first_letter_upper: '8'
+taxonomy_7_upper: 80_MM_LENGTH
+taxonomy_8: ''
+taxonomy_9: ''
+thing:
+  bip_39_2_word_array:
+  - lamp
+  - immune
+  bip_39_2_word_no_space: lampimmune
+  bip_39_2_word_space: lamp immune
+  bip_39_2_word_underscore: lamp_immune
+  bip_39_3_word_array:
+  - lamp
+  - immune
+  - asset
+  bip_39_3_word_no_space: lampimmuneasset
+  bip_39_3_word_space: lamp immune asset
+  bip_39_3_word_underscore: lamp_immune_asset
+  bip_39_full_array:
+  - lamp
+  - immune
+  - asset
+  - minimum
+  - behind
+  - spend
+  - travel
+  - manual
+  - horror
+  - more
+  - sting
+  - usual
+  bip_39_full_no_space: lampimmuneassetminimumbehindspendtravelmanualhorrormorestingusual
+  bip_39_full_space: lamp immune asset minimum behind spend travel manual horror more
+    sting usual
+  bip_39_full_underscore: lamp_immune_asset_minimum_behind_spend_travel_manual_horror_more_sting_usual
+  classification: oobb
+  color: ''
+  components:
+  - - - color: '#444444'
+        inclusion: 3dpr
+        m: ''
+        module: github_belfryscad_bosl2_screw_raw
+        module_kwargs:
+          anchor: center
+          atype: screw
+          blunt_start: true
+          details: false
+          drive: hex
+          head: socket
+          length: 80.0
+          spec: M5,80
+          thread: coarse
+        pos:
+        - 0
+        - 0
+        - 0
+        rot:
+        - 0
+        - 0
+        - 0
+        shape: raw_scad
+        source: "include <C:/gh/oomlout_oobb_version_5/git/BOSL2/std.scad>\ninclude\
+          \ <C:/gh/oomlout_oobb_version_5/git/BOSL2/screws.scad>\n\nmodule github_belfryscad_bosl2_screw_raw(\n\
+          \    spec=\"M3,12\",\n    head=\"socket\",\n    drive=\"none\",\n    length=12,\n\
+          \    thread=\"coarse\",\n    drive_size=undef,\n    thread_len=undef,\n\
+          \    undersize=undef,\n    shaft_undersize=undef,\n    head_undersize=undef,\n\
+          \    tolerance=undef,\n    blunt_start=true,\n    details=false,\n    atype=\"\
+          screw\",\n    anchor=\"center\"\n) {\n    let(\n        $tags_shown=\"ALL\"\
+          ,\n        $tags_hidden=[],\n        $tag=\"\",\n        $tags=\"\"\n  \
+          \  )\n    screw(\n        spec=spec,\n        head=head,\n        drive=drive,\n\
+          \        thread=thread,\n        drive_size=drive_size,\n        length=length,\n\
+          \        thread_len=thread_len,\n        undersize=undersize,\n        shaft_undersize=shaft_undersize,\n\
+          \        head_undersize=head_undersize,\n        tolerance=tolerance,\n\
+          \        blunt_start=blunt_start,\n        details=details,\n        atype=atype,\n\
+          \        anchor=anchor\n    );\n}\n"
+        type: positive
+  components_objects:
+  - drive_style: hex_head
+    filter: ''
+    generate_stl: false
+    length: 80_mm_length
+    modes:
+    - 3dpr
+    navigation: false
+    oobb_name: screw
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0
+    run_action: true
+    run_oomp: true
+    run_oomp_populate: true
+    run_scad: true
+    save_type: none
+    screw_colour: black
+    screw_style: socket_cap
+    shape: oobb_screw_exact
+    thread_size: m5_diameter
+    type: positive
+  components_string:
+  - oobb_screw_exact_shape_positive_type_true_run_oomp_populate_true_run_oomp_true_run_action_true_run_scad_false_generate_stl_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_hex_head_drive_style_80_mm_length_length_screw_oobb_name_black_screw_colour_socket_cap_screw_style_m5_diameter_thread_size
+  description: default screw 0x0x0
+  description_extra: ''
+  description_main: ''
+  directory: parts/hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+  generate_stl: false
+  id: hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+  id_no_class: hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+  id_no_size: hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+  id_no_type: hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+  kwargs:
+    drive_style: hex_head
+    filter: ''
+    generate_stl: false
+    length: 80_mm_length
+    modes:
+    - 3dpr
+    navigation: false
+    oobb_name: screw
+    oomp_description_extra: ''
+    oomp_description_main: screw_
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    run_action: true
+    run_oomp: true
+    run_oomp_populate: true
+    run_scad: true
+    save_type: none
+    screw_colour: black
+    screw_style: socket_cap
+    thread_size: m5_diameter
+    type: default_screw
+  length: 80
+  link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+  link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+  manufacturer: ''
+  md5: 7cce3436c68149a2b9e43b6db1fb57f8
+  md5_10: 7cce3436c6
+  md5_10_upper: 7CCE3436C6
+  md5_5: 7cce3
+  md5_5_upper: 7CCE3
+  md5_6: 7cce34
+  md5_6_alpha: 4vb5g
+  md5_6_alpha_upper: 4VB5G
+  md5_6_upper: 7CCE34
+  name: Hardware Screw Socket Cap Hex Head Black M5 Diameter 80 Mm Length
+  name_no_class: Hardware Screw Socket Cap Hex Head Black M5 Diameter 80 Mm Length
+  name_no_size: Hardware Screw Socket Cap Hex Head Black M5 Diameter 80 Mm Length
+  name_no_type: Hardware Screw Socket Cap Hex Head Black M5 Diameter 80 Mm Length
+  name_proper: Hardware Screw Socket Cap Hex Head Black M5 Diameter 80 Mm Length
+  name_short: Default Screw
+  name_space: hardware screw socket cap hex head black m5 diameter 80 mm length
+  name_text: Oobb Part Default Screw
+  name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M5 DIAMETER 80 MM LENGTH
+  oobb_details: &id004
+    drive_style: hex_head
+    length: 80_mm_length
+    oobb_name: screw
+    screw_colour: black
+    screw_style: socket_cap
+    thread_size: m5_diameter
+  oobb_name: screw
+  oomlout_ai_roboclick_1: &id005
+    actions:
+    - command: ai_skill_image_laser_cut_logo_full
+      file_destination: initial_generated_icon.png
+      image_detail: an image of hardware screw socket cap hex head black m5 diameter
+        80 mm length please include the thread size and length in the image as text,
+        add extra icons in the back, one that ryhmes with the diameter and one or
+        two that rhymes with the length, if the length is less than 14 just one if
+        it is greater do two, one rhyming for each part of the number ie for twenty
+        five one that rhymes with twenty and one that rhymes with five. Put some time
+        into searching to find the rhymes
+      mode_ai_wait: slow
+    - command: close_tab
+    file_test: initial_generated_icon.png
+  oomlout_ai_roboclick_2: &id006
+    actions:
+    - command: jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      dict_data:
+        directory: parts\hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+        length: 80
+        name: hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+        name_proper: Hardware Screw Socket Cap Hex Head Black M5 Diameter 80 Mm Length
+        name_space: hardware screw socket cap hex head black m5 diameter 80 mm length
+        name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M5 DIAMETER 80 MM LENGTH
+        oobb_details: *id004
+        oomlout_ai_roboclick_1: *id005
+        oomlout_ai_roboclick_2: *id006
+        screw_style: screw_socket_cap
+        taxonomy_1: hardware
+        taxonomy_10: ''
+        taxonomy_11: ''
+        taxonomy_12: ''
+        taxonomy_13: ''
+        taxonomy_14: ''
+        taxonomy_15: ''
+        taxonomy_2: screw
+        taxonomy_3: socket_cap
+        taxonomy_4: hex_head
+        taxonomy_5: black
+        taxonomy_6: m5_diameter
+        taxonomy_7: 80_mm_length
+        taxonomy_8: ''
+        taxonomy_9: ''
+        thread_size: m5
+        url_chat: https://chatgpt.com/c/69ee8ae3-9ac0-83eb-b133-15375dfa3578
+      file_output: label_oomp.svg
+      file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+      search_and_replace: []
+    file_test: label_oomp.svg
+  oomp_key: oomp_hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length
+  part_number: ''
+  run_action: true
+  run_oomp: true
+  run_oomp_populate: true
+  run_scad: true
+  screw_style: screw_socket_cap
+  short_name: ''
+  size: default_screw
+  taxonomy_1: hardware
+  taxonomy_10: ''
+  taxonomy_11: ''
+  taxonomy_12: ''
+  taxonomy_13: ''
+  taxonomy_14: ''
+  taxonomy_15: ''
+  taxonomy_1_capital: Hardware
+  taxonomy_1_first_letter: h
+  taxonomy_1_first_letter_upper: H
+  taxonomy_1_upper: HARDWARE
+  taxonomy_2: screw
+  taxonomy_2_capital: Screw
+  taxonomy_2_first_letter: s
+  taxonomy_2_first_letter_upper: S
+  taxonomy_2_upper: SCREW
+  taxonomy_3: socket_cap
+  taxonomy_3_capital: Socket Cap
+  taxonomy_3_first_letter: s
+  taxonomy_3_first_letter_upper: S
+  taxonomy_3_upper: SOCKET_CAP
+  taxonomy_4: hex_head
+  taxonomy_4_capital: Hex Head
+  taxonomy_4_first_letter: h
+  taxonomy_4_first_letter_upper: H
+  taxonomy_4_upper: HEX_HEAD
+  taxonomy_5: black
+  taxonomy_5_capital: Black
+  taxonomy_5_first_letter: b
+  taxonomy_5_first_letter_upper: B
+  taxonomy_5_upper: BLACK
+  taxonomy_6: m5_diameter
+  taxonomy_6_capital: M5 Diameter
+  taxonomy_6_first_letter: m
+  taxonomy_6_first_letter_upper: M
+  taxonomy_6_upper: M5_DIAMETER
+  taxonomy_7: 80_mm_length
+  taxonomy_7_capital: 80 mm Length
+  taxonomy_7_first_letter: '8'
+  taxonomy_7_first_letter_upper: '8'
+  taxonomy_7_upper: 80_MM_LENGTH
+  taxonomy_8: ''
+  taxonomy_9: ''
+  thread_size: m5
+  type: part
+  url_chat: https://chatgpt.com/c/69ee8ae3-9ac0-83eb-b133-15375dfa3578
+thread_size: m5
+url_chat: https://chatgpt.com/c/69ee8ae3-9ac0-83eb-b133-15375dfa3578

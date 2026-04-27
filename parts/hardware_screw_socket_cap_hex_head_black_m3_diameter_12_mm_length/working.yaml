@@ -1,0 +1,168 @@
+bip_39_2_word_array:
+- hat
+- wonder
+bip_39_2_word_no_space: hatwonder
+bip_39_2_word_space: hat wonder
+bip_39_2_word_underscore: hat_wonder
+bip_39_3_word_array:
+- hat
+- wonder
+- crater
+bip_39_3_word_no_space: hatwondercrater
+bip_39_3_word_space: hat wonder crater
+bip_39_3_word_underscore: hat_wonder_crater
+bip_39_full_array:
+- hat
+- wonder
+- crater
+- dinosaur
+- shy
+- earn
+- across
+- flip
+- under
+- demise
+- energy
+- blouse
+bip_39_full_no_space: hatwondercraterdinosaurshyearnacrossflipunderdemiseenergyblouse
+bip_39_full_space: hat wonder crater dinosaur shy earn across flip under demise energy
+    blouse
+bip_39_full_underscore: hat_wonder_crater_dinosaur_shy_earn_across_flip_under_demise_energy_blouse
+directory: parts/hardware_screw_socket_cap_hex_head_black_m3_diameter_12_mm_length
+generate_stl: false
+id: hardware_screw_socket_cap_hex_head_black_m3_diameter_12_mm_length
+id_no_class: hardware_screw_socket_cap_hex_head_black_m3_diameter_12_mm_length
+id_no_size: hardware_screw_socket_cap_hex_head_black_m3_diameter_12_mm_length
+id_no_type: hardware_screw_socket_cap_hex_head_black_m3_diameter_12_mm_length
+length: 12
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m3_diameter_12_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m3_diameter_12_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m3_diameter_12_mm_length
+md5: 699fa0ca1f3c788a8092c8ecc749280c
+md5_10: 699fa0ca1f
+md5_10_upper: 699FA0CA1F
+md5_5: 699fa
+md5_5_upper: 699FA
+md5_6: 699fa0
+md5_6_alpha: 44d5s
+md5_6_alpha_upper: 44D5S
+md5_6_upper: 699FA0
+name: Hardware Screw Socket Cap Hex Head Black M3 Diameter 12 Mm Length
+name_no_class: Hardware Screw Socket Cap Hex Head Black M3 Diameter 12 Mm Length
+name_no_size: Hardware Screw Socket Cap Hex Head Black M3 Diameter 12 Mm Length
+name_no_type: Hardware Screw Socket Cap Hex Head Black M3 Diameter 12 Mm Length
+name_proper: Hardware Screw Socket Cap Hex Head Black M3 Diameter 12 Mm Length
+name_space: hardware screw socket cap hex head black m3 diameter 12 mm length
+name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M3 DIAMETER 12 MM LENGTH
+oobb_details: &id001
+    drive_style: hex_head
+    length: 12_mm_length
+    oobb_name: screw
+    screw_colour: black
+    screw_style: socket_cap
+    thread_size: m3_diameter
+oomlout_ai_roboclick_1: &id002
+    actions:
+    -   command: ai_skill_image_laser_cut_logo_full
+        file_destination: initial_generated_icon.png
+        image_detail: an image of hardware screw socket cap hex head black m3 diameter
+            12 mm length please include the thread size and length in the image as
+            text, add extra icons in the back, one that ryhmes with the diameter and
+            one or two that rhymes with the length, if the length is less than 14
+            just one if it is greater do two, one rhyming for each part of the number
+            ie for twenty five one that rhymes with twenty and one that rhymes with
+            five. Put some time into searching to find the rhymes
+        mode_ai_wait: slow
+    -   command: close_tab
+    file_test: initial_generated_icon.png
+oomlout_ai_roboclick_2: &id003
+    actions:
+    -   command: jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_screw_socket_cap_hex_head_black_m3_diameter_12_mm_length
+            length: 12
+            name: hardware_screw_socket_cap_hex_head_black_m3_diameter_12_mm_length
+            name_proper: Hardware Screw Socket Cap Hex Head Black M3 Diameter 12 Mm
+                Length
+            name_space: hardware screw socket cap hex head black m3 diameter 12 mm
+                length
+            name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M3 DIAMETER 12 MM
+                LENGTH
+            oobb_details: *id001
+            oomlout_ai_roboclick_1: *id002
+            oomlout_ai_roboclick_2: *id003
+            screw_style: screw_socket_cap
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: socket_cap
+            taxonomy_4: hex_head
+            taxonomy_5: black
+            taxonomy_6: m3_diameter
+            taxonomy_7: 12_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            thread_size: m3
+            url_chat: https://chatgpt.com/c/69ed70cd-05c4-83eb-92be-ff7cd2cc07f1
+        file_output: label_oomp.svg
+        file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.svg
+oomp_key: oomp_hardware_screw_socket_cap_hex_head_black_m3_diameter_12_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+screw_style: screw_socket_cap
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_upper: HARDWARE
+taxonomy_2: screw
+taxonomy_2_capital: Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_upper: SCREW
+taxonomy_3: socket_cap
+taxonomy_3_capital: Socket Cap
+taxonomy_3_first_letter: s
+taxonomy_3_first_letter_upper: S
+taxonomy_3_upper: SOCKET_CAP
+taxonomy_4: hex_head
+taxonomy_4_capital: Hex Head
+taxonomy_4_first_letter: h
+taxonomy_4_first_letter_upper: H
+taxonomy_4_upper: HEX_HEAD
+taxonomy_5: black
+taxonomy_5_capital: Black
+taxonomy_5_first_letter: b
+taxonomy_5_first_letter_upper: B
+taxonomy_5_upper: BLACK
+taxonomy_6: m3_diameter
+taxonomy_6_capital: M3 Diameter
+taxonomy_6_first_letter: m
+taxonomy_6_first_letter_upper: M
+taxonomy_6_upper: M3_DIAMETER
+taxonomy_7: 12_mm_length
+taxonomy_7_capital: 12 mm Length
+taxonomy_7_first_letter: '1'
+taxonomy_7_first_letter_upper: '1'
+taxonomy_7_upper: 12_MM_LENGTH
+taxonomy_8: ''
+taxonomy_9: ''
+thread_size: m3
+url_chat: https://chatgpt.com/c/69ed70cd-05c4-83eb-92be-ff7cd2cc07f1

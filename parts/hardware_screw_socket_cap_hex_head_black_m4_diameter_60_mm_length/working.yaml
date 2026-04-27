@@ -1,0 +1,168 @@
+bip_39_2_word_array:
+- atom
+- kick
+bip_39_2_word_no_space: atomkick
+bip_39_2_word_space: atom kick
+bip_39_2_word_underscore: atom_kick
+bip_39_3_word_array:
+- atom
+- kick
+- dry
+bip_39_3_word_no_space: atomkickdry
+bip_39_3_word_space: atom kick dry
+bip_39_3_word_underscore: atom_kick_dry
+bip_39_full_array:
+- atom
+- kick
+- dry
+- include
+- icon
+- walnut
+- harvest
+- wedding
+- olive
+- someone
+- pause
+- question
+bip_39_full_no_space: atomkickdryincludeiconwalnutharvestweddingolivesomeonepausequestion
+bip_39_full_space: atom kick dry include icon walnut harvest wedding olive someone
+    pause question
+bip_39_full_underscore: atom_kick_dry_include_icon_walnut_harvest_wedding_olive_someone_pause_question
+directory: parts/hardware_screw_socket_cap_hex_head_black_m4_diameter_60_mm_length
+generate_stl: false
+id: hardware_screw_socket_cap_hex_head_black_m4_diameter_60_mm_length
+id_no_class: hardware_screw_socket_cap_hex_head_black_m4_diameter_60_mm_length
+id_no_size: hardware_screw_socket_cap_hex_head_black_m4_diameter_60_mm_length
+id_no_type: hardware_screw_socket_cap_hex_head_black_m4_diameter_60_mm_length
+length: 60
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m4_diameter_60_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m4_diameter_60_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m4_diameter_60_mm_length
+md5: 0e4f450eb93705ed9a5fc79a39e285d7
+md5_10: 0e4f450eb9
+md5_10_upper: 0E4F450EB9
+md5_5: 0e4f4
+md5_5_upper: 0E4F4
+md5_6: 0e4f45
+md5_6_alpha: k3lx
+md5_6_alpha_upper: K3LX
+md5_6_upper: 0E4F45
+name: Hardware Screw Socket Cap Hex Head Black M4 Diameter 60 Mm Length
+name_no_class: Hardware Screw Socket Cap Hex Head Black M4 Diameter 60 Mm Length
+name_no_size: Hardware Screw Socket Cap Hex Head Black M4 Diameter 60 Mm Length
+name_no_type: Hardware Screw Socket Cap Hex Head Black M4 Diameter 60 Mm Length
+name_proper: Hardware Screw Socket Cap Hex Head Black M4 Diameter 60 Mm Length
+name_space: hardware screw socket cap hex head black m4 diameter 60 mm length
+name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M4 DIAMETER 60 MM LENGTH
+oobb_details: &id001
+    drive_style: hex_head
+    length: 60_mm_length
+    oobb_name: screw
+    screw_colour: black
+    screw_style: socket_cap
+    thread_size: m4_diameter
+oomlout_ai_roboclick_1: &id002
+    actions:
+    -   command: ai_skill_image_laser_cut_logo_full
+        file_destination: initial_generated_icon.png
+        image_detail: an image of hardware screw socket cap hex head black m4 diameter
+            60 mm length please include the thread size and length in the image as
+            text, add extra icons in the back, one that ryhmes with the diameter and
+            one or two that rhymes with the length, if the length is less than 14
+            just one if it is greater do two, one rhyming for each part of the number
+            ie for twenty five one that rhymes with twenty and one that rhymes with
+            five. Put some time into searching to find the rhymes
+        mode_ai_wait: slow
+    -   command: close_tab
+    file_test: initial_generated_icon.png
+oomlout_ai_roboclick_2: &id003
+    actions:
+    -   command: jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_screw_socket_cap_hex_head_black_m4_diameter_60_mm_length
+            length: 60
+            name: hardware_screw_socket_cap_hex_head_black_m4_diameter_60_mm_length
+            name_proper: Hardware Screw Socket Cap Hex Head Black M4 Diameter 60 Mm
+                Length
+            name_space: hardware screw socket cap hex head black m4 diameter 60 mm
+                length
+            name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M4 DIAMETER 60 MM
+                LENGTH
+            oobb_details: *id001
+            oomlout_ai_roboclick_1: *id002
+            oomlout_ai_roboclick_2: *id003
+            screw_style: screw_socket_cap
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: socket_cap
+            taxonomy_4: hex_head
+            taxonomy_5: black
+            taxonomy_6: m4_diameter
+            taxonomy_7: 60_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            thread_size: m4
+            url_chat: https://chatgpt.com/c/69ee0255-b0e8-83eb-8d95-0288e226a4b6
+        file_output: label_oomp.svg
+        file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.svg
+oomp_key: oomp_hardware_screw_socket_cap_hex_head_black_m4_diameter_60_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+screw_style: screw_socket_cap
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_upper: HARDWARE
+taxonomy_2: screw
+taxonomy_2_capital: Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_upper: SCREW
+taxonomy_3: socket_cap
+taxonomy_3_capital: Socket Cap
+taxonomy_3_first_letter: s
+taxonomy_3_first_letter_upper: S
+taxonomy_3_upper: SOCKET_CAP
+taxonomy_4: hex_head
+taxonomy_4_capital: Hex Head
+taxonomy_4_first_letter: h
+taxonomy_4_first_letter_upper: H
+taxonomy_4_upper: HEX_HEAD
+taxonomy_5: black
+taxonomy_5_capital: Black
+taxonomy_5_first_letter: b
+taxonomy_5_first_letter_upper: B
+taxonomy_5_upper: BLACK
+taxonomy_6: m4_diameter
+taxonomy_6_capital: M4 Diameter
+taxonomy_6_first_letter: m
+taxonomy_6_first_letter_upper: M
+taxonomy_6_upper: M4_DIAMETER
+taxonomy_7: 60_mm_length
+taxonomy_7_capital: 60 mm Length
+taxonomy_7_first_letter: '6'
+taxonomy_7_first_letter_upper: '6'
+taxonomy_7_upper: 60_MM_LENGTH
+taxonomy_8: ''
+taxonomy_9: ''
+thread_size: m4
+url_chat: https://chatgpt.com/c/69ee0255-b0e8-83eb-8d95-0288e226a4b6

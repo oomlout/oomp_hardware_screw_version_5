@@ -1,0 +1,162 @@
+bip_39_2_word_array:
+- defense
+- planet
+bip_39_2_word_no_space: defenseplanet
+bip_39_2_word_space: defense planet
+bip_39_2_word_underscore: defense_planet
+bip_39_3_word_array:
+- defense
+- planet
+- pumpkin
+bip_39_3_word_no_space: defenseplanetpumpkin
+bip_39_3_word_space: defense planet pumpkin
+bip_39_3_word_underscore: defense_planet_pumpkin
+bip_39_full_array:
+- defense
+- planet
+- pumpkin
+- easy
+- dice
+- impact
+- faint
+- adjust
+- brush
+- truck
+- verify
+- digital
+bip_39_full_no_space: defenseplanetpumpkineasydiceimpactfaintadjustbrushtruckverifydigital
+bip_39_full_space: defense planet pumpkin easy dice impact faint adjust brush truck
+    verify digital
+bip_39_full_underscore: defense_planet_pumpkin_easy_dice_impact_faint_adjust_brush_truck_verify_digital
+directory: parts/hardware_screw_countersunk_hex_head_black_m2_diameter_8_mm_length
+generate_stl: false
+id: hardware_screw_countersunk_hex_head_black_m2_diameter_8_mm_length
+id_no_class: hardware_screw_countersunk_hex_head_black_m2_diameter_8_mm_length
+id_no_size: hardware_screw_countersunk_hex_head_black_m2_diameter_8_mm_length
+id_no_type: hardware_screw_countersunk_hex_head_black_m2_diameter_8_mm_length
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_countersunk_hex_head_black_m2_diameter_8_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_countersunk_hex_head_black_m2_diameter_8_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_countersunk_hex_head_black_m2_diameter_8_mm_length
+md5: 3974beb6a2e3d6e394781c1d3d27ca9e
+md5_10: 3974beb6a2
+md5_10_upper: 3974BEB6A2
+md5_5: 3974b
+md5_5_upper: 3974B
+md5_6: 3974be
+md5_6_alpha: 28pfi
+md5_6_alpha_upper: 28PFI
+md5_6_upper: 3974BE
+name: Hardware Screw Countersunk Hex Head Black M2 Diameter 8 Mm Length
+name_no_class: Hardware Screw Countersunk Hex Head Black M2 Diameter 8 Mm Length
+name_no_size: Hardware Screw Countersunk Hex Head Black M2 Diameter 8 Mm Length
+name_no_type: Hardware Screw Countersunk Hex Head Black M2 Diameter 8 Mm Length
+name_proper: Hardware Screw Countersunk Hex Head Black M2 Diameter 8 Mm Length
+name_space: hardware screw countersunk hex head black m2 diameter 8 mm length
+name_upper: HARDWARE SCREW COUNTERSUNK HEX HEAD BLACK M2 DIAMETER 8 MM LENGTH
+oobb_details: &id001
+    drive_style: hex_head
+    length: 8_mm_length
+    oobb_name: screw
+    screw_colour: black
+    screw_style: countersunk
+    thread_size: m2_diameter
+oomlout_ai_roboclick_1: &id002
+    actions:
+    -   command: ai_skill_image_laser_cut_logo_full
+        file_destination: initial_generated_icon.png
+        image_detail: an image of hardware screw countersunk hex head black m2 diameter
+            8 mm length please include the thread size and length in the image as
+            text, add extra icons in the back, one that ryhmes with the diameter and
+            one or two that rhymes with the length, if the length is less than 14
+            just one if it is greater do two, one rhyming for each part of the number
+            ie for twenty five one that rhymes with twenty and one that rhymes with
+            five. Put some time into searching to find the rhymes
+        mode_ai_wait: slow
+    -   command: close_tab
+    file_test: initial_generated_icon.png
+oomlout_ai_roboclick_2: &id003
+    actions:
+    -   command: jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_screw_countersunk_hex_head_black_m2_diameter_8_mm_length
+            name: hardware_screw_countersunk_hex_head_black_m2_diameter_8_mm_length
+            name_proper: Hardware Screw Countersunk Hex Head Black M2 Diameter 8 Mm
+                Length
+            name_space: hardware screw countersunk hex head black m2 diameter 8 mm
+                length
+            name_upper: HARDWARE SCREW COUNTERSUNK HEX HEAD BLACK M2 DIAMETER 8 MM
+                LENGTH
+            oobb_details: *id001
+            oomlout_ai_roboclick_1: *id002
+            oomlout_ai_roboclick_2: *id003
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: countersunk
+            taxonomy_4: hex_head
+            taxonomy_5: black
+            taxonomy_6: m2_diameter
+            taxonomy_7: 8_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: https://chatgpt.com/c/69ec2db9-2eb0-83eb-8d44-2d03a6e8aea5
+        file_output: label_oomp.svg
+        file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.svg
+oomp_key: oomp_hardware_screw_countersunk_hex_head_black_m2_diameter_8_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_upper: HARDWARE
+taxonomy_2: screw
+taxonomy_2_capital: Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_upper: SCREW
+taxonomy_3: countersunk
+taxonomy_3_capital: Countersunk
+taxonomy_3_first_letter: c
+taxonomy_3_first_letter_upper: C
+taxonomy_3_upper: COUNTERSUNK
+taxonomy_4: hex_head
+taxonomy_4_capital: Hex Head
+taxonomy_4_first_letter: h
+taxonomy_4_first_letter_upper: H
+taxonomy_4_upper: HEX_HEAD
+taxonomy_5: black
+taxonomy_5_capital: Black
+taxonomy_5_first_letter: b
+taxonomy_5_first_letter_upper: B
+taxonomy_5_upper: BLACK
+taxonomy_6: m2_diameter
+taxonomy_6_capital: M2 Diameter
+taxonomy_6_first_letter: m
+taxonomy_6_first_letter_upper: M
+taxonomy_6_upper: M2_DIAMETER
+taxonomy_7: 8_mm_length
+taxonomy_7_capital: 8 mm Length
+taxonomy_7_first_letter: '8'
+taxonomy_7_first_letter_upper: '8'
+taxonomy_7_upper: 8_MM_LENGTH
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: https://chatgpt.com/c/69ec2db9-2eb0-83eb-8d44-2d03a6e8aea5
