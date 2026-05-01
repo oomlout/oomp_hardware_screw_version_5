@@ -71,6 +71,13 @@ def create_generic(**kwargs):
             oomp_helper.add_icon(part=part, count=count, mode_ai_wait=mode_ai_wait, icon_detail=icon_detail)
 
         #folder_project = "helen_personal_chart_bribe_bank"
+        #iomage)chibi
+        test_image_chibi = part.get("content_string", "") != ""
+        if test_image_chibi:
+            content_string = part.get("content_string", "")    
+            count += 1
+            chibi_detail = "please include the thread size and length in the image as text, add extra icons in the back, one that ryhmes with the diameter and one or two that rhymes with the length, if the length is less than 14 just one if it is greater do two, one rhyming for each part of the number ie for twenty five one that rhymes with twenty and one that rhymes with five. Put some time into searching to find the rhymes"
+            oomp_helper.add_image_chibi(part=part, count=count, mode_ai_wait=mode_ai_wait, chibi_detail=chibi_detail)       
 
         #jinja_template replace
         if True:
