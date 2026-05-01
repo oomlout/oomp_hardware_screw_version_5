@@ -72,7 +72,7 @@ def create_generic(**kwargs):
 
         #folder_project = "helen_personal_chart_bribe_bank"
         #iomage)chibi
-        test_image_chibi = part.get("content_string", "") != ""
+        test_image_chibi = True
         if test_image_chibi:
             content_string = part.get("content_string", "")    
             count += 1
