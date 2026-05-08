@@ -90,7 +90,7 @@ def get_build_variables(typ, filter=""):
         return {
             "filter": "",
             "save_type": "none",
-            "navigation": False,
+            "navigation": True,
             "overwrite": True,
             "modes": ["3dpr"],
             "oomp_run": False,
@@ -115,13 +115,17 @@ def get_build_variables(typ, filter=""):
     raise ValueError(f"Unknown typ: {typ}")
 
 
-def get_navigation_sort():
+def get_navigation_sort(oobb_style=False):
     sort = []
-    #sort.append("extra")
-    sort.append("oobb_name") 
-    sort.append("width")
-    sort.append("height")
-    sort.append("thickness")
+    if oobb_style:
+        #sort.append("extra")
+        sort.append("oobb_name") 
+        sort.append("width")
+        sort.append("height")
+        sort.append("thickness")
+    else:
+        for i in range(1, 10):
+            sort.append(f"taxonomy_{i}")
     return sort
 
 
@@ -323,6 +327,8 @@ def generate_navigation(folder="parts", sort=["width", "height", "thickness"]):
                         ex = part.get("oobb_name", "default")
                     else:                        
                         ex = kwarg_copy.get(s, "default")
+                        if ex == "default":
+                            ex = part.get(s, "default")
                         #if ex is a list
                         if isinstance(ex, list):
                             ex_string = ""
@@ -330,7 +336,11 @@ def generate_navigation(folder="parts", sort=["width", "height", "thickness"]):
                                 ex_string += f"{e}_"
                             ex = ex_string[:-1]
                             ex = ex.replace(".","d")                            
-                    folder_extra += f"{s}_{ex}/"
+                    if ex != "default" and ex != "":
+                        if "taxonomy_" in s:
+                            folder_extra += f"{ex}/"
+                        else:
+                            folder_extra += f"{s}_{ex}/"
 
                 #replace "." with d
                 folder_extra = folder_extra.replace(".","d")            
