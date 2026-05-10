@@ -907,7 +907,7 @@ oomp_key: oomp_hardware_screw_socket_cap_hex_head_black_m3_diameter_30_mm_length
 run_action: true
 run_oomp: true
 run_oomp_populate: true
-run_scad: true
+run_scad: false
 screw_style: screw_socket_cap
 taxonomy_1: hardware
 taxonomy_10: ''
