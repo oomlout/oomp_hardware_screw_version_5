@@ -1,9 +1,19 @@
 import copy
-import itertools
-
-from requests import options
 
 from oomp_populate_helper import write_extras
+from working_oomp_populate_countersunk import generate as generate_countersunk
+from working_oomp_populate_countersunk_pozi import generate as generate_countersunk_pozi
+from working_oomp_populate_countersunk_philips import generate as generate_countersunk_philips
+from working_oomp_populate_socket_cap import generate as generate_socket_cap
+from working_oomp_populate_socket_cap_low_head import generate as generate_socket_cap_low_head
+from working_oomp_populate_socket_cap_low_head_ultra import generate as generate_socket_cap_low_head_ultra
+from working_oomp_populate_flat_head import generate as generate_flat_head
+from working_oomp_populate_button_head import generate as generate_button_head
+from working_oomp_populate_grub import generate as generate_grub
+from working_oomp_populate_machine_screw import generate as generate_machine_screw
+from working_oomp_populate_self_tapping import generate as generate_self_tapping
+from working_oomp_populate_thread_forming import generate as generate_thread_forming
+from working_oomp_populate_wood import generate as generate_wood
 
 
 def main(**kwargs):
@@ -49,54 +59,19 @@ def main(**kwargs):
         
 
     #################### for this project
-    #countersunk hex head black
-    if True:        
-        current_taxonomy_3 = "countersunk"
-        current_taxonomy_4 = "hex_head"
-        current_taxonomy_5 = "black"
-        extras_sizes = {}
-        extras_sizes["m2"] = [3,5,6,8,10,12,14,16,20,22,25]
-        extras_sizes["m3"] = [4,5,6,8,10,12,16,20,25,30,35]
-        extras_sizes["m4"] = [6,8,10,12,16,20,25,30,35,40]   
-
-        for extra_size in extras_sizes:
-            for extra_size2 in extras_sizes[extra_size]:
-                option = {}
-                option["taxonomy_3"] = current_taxonomy_3
-                option["taxonomy_4"] = current_taxonomy_4
-                option["taxonomy_5"] = current_taxonomy_5
-                option["taxonomy_6"] = f"{extra_size}_diameter"
-                option["taxonomy_7"] = f"{extra_size2}_mm_length"
-                options.append(copy.deepcopy(option))
-    
-    #socket_cap hex head black
-    if True:        
-        current_taxonomy_3 = "socket_cap"
-        current_taxonomy_4 = "hex_head"
-        current_taxonomy_5 = "black"
-        extras_sizes = {}
-        extras_sizes["m2"] = [3,4,5,6,8,10,12,14,16,18,20,25]
-        extras_sizes["m2_5"] = [4,5,6,8,10,12,16,20,25]
-        extras_sizes["m3"] = [5,6,8,10,12,18,16,20,25,30,35,40,45,50,60]
-        extras_sizes["m4"] = [4,6,8,10,12,14,16,20,25,30,35,40,45,50,60,65,70,75]
-        extras_sizes["m5"] = [6,8,10,12,14,16,20,25,30,35,40,45,50,60,65,70,75,80,90,100,110,120]
-        extras_sizes["m6"] = [8,12,16,20,25,30,35,40,45,50,60,65,70,80,90,100]  
-
-        for extra_size in extras_sizes:
-            for extra_size2 in extras_sizes[extra_size]:
-                option = {}
-                option["taxonomy_3"] = current_taxonomy_3
-                option["taxonomy_4"] = current_taxonomy_4
-                option["taxonomy_5"] = current_taxonomy_5
-                option["taxonomy_6"] = f"{extra_size}_diameter"
-                option["taxonomy_7"] = f"{extra_size2}_mm_length"
-                #### extra specific ones
-                if True:
-                    option["thread_size"] = extra_size
-                    option["length"] = extra_size2
-                    screw_style = f"{default_input['taxonomy_2']}_{option['taxonomy_3']}"
-                    option["screw_style"] = screw_style                    
-                options.append(copy.deepcopy(option))
+    options += generate_countersunk()
+    options += generate_countersunk_pozi()
+    options += generate_countersunk_philips()
+    options += generate_socket_cap()
+    options += generate_socket_cap_low_head()
+    options += generate_socket_cap_low_head_ultra()
+    options += generate_flat_head()
+    options += generate_button_head()
+    options += generate_grub()
+    options += generate_machine_screw()
+    options += generate_self_tapping()
+    options += generate_thread_forming()
+    options += generate_wood()
 
 
     #add oobb_details
