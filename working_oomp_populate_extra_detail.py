@@ -46,10 +46,10 @@ def main(**kwargs):
                 if oomp_id in extras_dict:
                     extras_dict[oomp_id]["color_band_project_bolt_1"] = band_1
                     extras_dict[oomp_id]["color_band_taxonomy_3"] = band_1
-                    extras_dict[oomp_id]["color_band_project_bolt_2"] = band_2
-                    extras_dict[oomp_id]["color_band_taxonomy_7"] = band_2                    
-                    extras_dict[oomp_id]["color_band_project_bolt_3"] = band_3
-                    extras_dict[oomp_id]["color_band_taxonomy_6"] = band_3
+                    extras_dict[oomp_id]["color_band_project_bolt_2"] = band_3
+                    extras_dict[oomp_id]["color_band_taxonomy_7"] = band_3                    
+                    extras_dict[oomp_id]["color_band_project_bolt_3"] = band_2
+                    extras_dict[oomp_id]["color_band_taxonomy_6"] = band_2
                     extras_dict[oomp_id]["color_band_string_project_bolt"] = f"colour_band_{band_1}_{band_2}_{band_3}"
     pass
                 
