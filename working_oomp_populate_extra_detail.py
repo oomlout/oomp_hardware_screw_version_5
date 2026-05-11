@@ -24,17 +24,30 @@ def main(**kwargs):
         band_2["20_mm_length"] = "blue"
         band_2["25_mm_length"] = "purple"
         styles["countersunk"]["band_2"] = band_2
-    
+        band_3 = {}
+        band_3["m2"] = "brown"
+        band_3["m2_5"] = "red"
+        band_3["m2_7"] = "orange"
+        band_3["m3"] = "yellow"
+        band_3["m4"] = "green"
+        band_3["m5"] = "blue"
+        band_3["m6"] = "purple"
+        band_3["m8"] = "grey"
+        band_3["m10"] = "white"
+        styles["countersunk"]["band_3"] = band_3
     for option in styles:
         style = option
         band_1 = styles[option]["band_1"]
         for option2 in styles[option]["band_2"]:
             band_2 = styles[option]["band_2"][option2]
-            oomp_id = f"hardware_screw_{style}_hex_head_black_m3_diameter_{option2}"
-            if oomp_id in extras_dict:
-                extras_dict[oomp_id]["band_1"] = band_1
-                extras_dict[oomp_id]["band_2"] = band_2
-                extras_dict[oomp_id]["band_string"] = f"colour_band_{band_1}_{band_2}"
+            for option3 in styles[option]["band_3"]:
+                band_3 = styles[option]["band_3"][option3]
+                oomp_id = f"hardware_screw_{style}_hex_head_black_{option3}_diameter_{option2}"
+                if oomp_id in extras_dict:
+                    extras_dict[oomp_id]["band_1"] = band_1
+                    extras_dict[oomp_id]["band_2"] = band_2
+                    extras_dict[oomp_id]["band_3"] = band_3
+                    extras_dict[oomp_id]["band_string"] = f"colour_band_{band_1}_{band_2}_{band_3}"
     pass
                 
         
