@@ -28,13 +28,13 @@ bip_39_full_no_space: missacrossretreatloyalcurtaindepthclienthammershadowrender
 bip_39_full_space: miss across retreat loyal curtain depth client hammer shadow render
     reflect task
 bip_39_full_underscore: miss_across_retreat_loyal_curtain_depth_client_hammer_shadow_render_reflect_task
-color_band_1_project_bolt: red
-color_band_1_taxonomy_3: red
-color_band_2_project_bolt: green
-color_band_2_taxonomy_7: green
-color_band_3_project_bolt: yellow
-color_band_3_taxonomy_6: yellow
+color_band_project_bolt_1: red
+color_band_project_bolt_2: green
+color_band_project_bolt_3: yellow
 color_band_string_project_bolt: colour_band_red_green_yellow
+color_band_taxonomy_3: red
+color_band_taxonomy_6: yellow
+color_band_taxonomy_7: green
 directory: parts/hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length
 id: hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length
 id_no_class: hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length
@@ -278,13 +278,13 @@ oomlout_ai_roboclick_2:
         convert_to_pdf: false
         convert_to_png: false
         dict_data:
-            color_band_1_project_bolt: red
-            color_band_1_taxonomy_3: red
-            color_band_2_project_bolt: green
-            color_band_2_taxonomy_7: green
-            color_band_3_project_bolt: yellow
-            color_band_3_taxonomy_6: yellow
+            color_band_project_bolt_1: red
+            color_band_project_bolt_2: green
+            color_band_project_bolt_3: yellow
             color_band_string_project_bolt: colour_band_red_green_yellow
+            color_band_taxonomy_3: red
+            color_band_taxonomy_6: yellow
+            color_band_taxonomy_7: green
             directory: parts\hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length
             name: hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length
             name_proper: Hardware Screw Countersunk Hex Head Black M3 Diameter 16

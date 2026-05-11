@@ -28,13 +28,13 @@ bip_39_full_no_space: briskpowermutualbundleliquidsqueezetrayacidobscureparenttr
 bip_39_full_space: brisk power mutual bundle liquid squeeze tray acid obscure parent
     track giant
 bip_39_full_underscore: brisk_power_mutual_bundle_liquid_squeeze_tray_acid_obscure_parent_track_giant
-color_band_1_project_bolt: red
-color_band_1_taxonomy_3: red
-color_band_2_project_bolt: brown
-color_band_2_taxonomy_7: brown
-color_band_3_project_bolt: green
-color_band_3_taxonomy_6: green
+color_band_project_bolt_1: red
+color_band_project_bolt_2: brown
+color_band_project_bolt_3: green
 color_band_string_project_bolt: colour_band_red_brown_green
+color_band_taxonomy_3: red
+color_band_taxonomy_6: green
+color_band_taxonomy_7: brown
 directory: parts/hardware_screw_countersunk_hex_head_black_m4_diameter_6_mm_length
 id: hardware_screw_countersunk_hex_head_black_m4_diameter_6_mm_length
 id_no_class: hardware_screw_countersunk_hex_head_black_m4_diameter_6_mm_length
@@ -278,13 +278,13 @@ oomlout_ai_roboclick_2:
         convert_to_pdf: false
         convert_to_png: false
         dict_data:
-            color_band_1_project_bolt: red
-            color_band_1_taxonomy_3: red
-            color_band_2_project_bolt: brown
-            color_band_2_taxonomy_7: brown
-            color_band_3_project_bolt: green
-            color_band_3_taxonomy_6: green
+            color_band_project_bolt_1: red
+            color_band_project_bolt_2: brown
+            color_band_project_bolt_3: green
             color_band_string_project_bolt: colour_band_red_brown_green
+            color_band_taxonomy_3: red
+            color_band_taxonomy_6: green
+            color_band_taxonomy_7: brown
             directory: parts\hardware_screw_countersunk_hex_head_black_m4_diameter_6_mm_length
             name: hardware_screw_countersunk_hex_head_black_m4_diameter_6_mm_length
             name_proper: Hardware Screw Countersunk Hex Head Black M4 Diameter 6 Mm

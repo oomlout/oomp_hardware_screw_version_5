@@ -28,13 +28,13 @@ bip_39_full_no_space: kangaroocontrolbalconyafraidaircornadaptmiddleelitedriftem
 bip_39_full_space: kangaroo control balcony afraid air corn adapt middle elite drift
     employ mass
 bip_39_full_underscore: kangaroo_control_balcony_afraid_air_corn_adapt_middle_elite_drift_employ_mass
-color_band_1_project_bolt: red
-color_band_1_taxonomy_3: red
-color_band_2_project_bolt: purple
-color_band_2_taxonomy_7: purple
-color_band_3_project_bolt: green
-color_band_3_taxonomy_6: green
+color_band_project_bolt_1: red
+color_band_project_bolt_2: purple
+color_band_project_bolt_3: green
 color_band_string_project_bolt: colour_band_red_purple_green
+color_band_taxonomy_3: red
+color_band_taxonomy_6: green
+color_band_taxonomy_7: purple
 directory: parts/hardware_screw_countersunk_hex_head_black_m4_diameter_25_mm_length
 id: hardware_screw_countersunk_hex_head_black_m4_diameter_25_mm_length
 id_no_class: hardware_screw_countersunk_hex_head_black_m4_diameter_25_mm_length
@@ -278,13 +278,13 @@ oomlout_ai_roboclick_2:
         convert_to_pdf: false
         convert_to_png: false
         dict_data:
-            color_band_1_project_bolt: red
-            color_band_1_taxonomy_3: red
-            color_band_2_project_bolt: purple
-            color_band_2_taxonomy_7: purple
-            color_band_3_project_bolt: green
-            color_band_3_taxonomy_6: green
+            color_band_project_bolt_1: red
+            color_band_project_bolt_2: purple
+            color_band_project_bolt_3: green
             color_band_string_project_bolt: colour_band_red_purple_green
+            color_band_taxonomy_3: red
+            color_band_taxonomy_6: green
+            color_band_taxonomy_7: purple
             directory: parts\hardware_screw_countersunk_hex_head_black_m4_diameter_25_mm_length
             name: hardware_screw_countersunk_hex_head_black_m4_diameter_25_mm_length
             name_proper: Hardware Screw Countersunk Hex Head Black M4 Diameter 25
