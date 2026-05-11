@@ -1,6 +1,6 @@
 import copy
 
-from oomp_populate_helper import write_extras
+from oomp_populate_helper import write_extras, build_oomp_id
 from working_oomp_populate_countersunk import generate as generate_countersunk
 from working_oomp_populate_countersunk_pozi import generate as generate_countersunk_pozi
 from working_oomp_populate_countersunk_philips import generate as generate_countersunk_philips
@@ -106,10 +106,12 @@ def main(**kwargs):
     for option in options:
         extra = copy.deepcopy(default_input)
         extra.update(option)
-        
-        
         extras.append(extra)
 
+    
+    ######### add notes from an id string
+    import working_oomp_populate_extra_detail
+    working_oomp_populate_extra_detail.main(extras=extras)
 
 
     write_extras(extras, default_input)
