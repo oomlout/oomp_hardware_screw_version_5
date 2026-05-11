@@ -44,12 +44,12 @@ def main(**kwargs):
                 band_3 = styles[option]["band_3"][option3]
                 oomp_id = f"hardware_screw_{style}_hex_head_black_{option3}_diameter_{option2}"
                 if oomp_id in extras_dict:
-                    extras_dict[oomp_id]["color_band_1_project_bolt"] = band_1
-                    extras_dict[oomp_id]["color_band_1_taxonomy_3"] = band_1
-                    extras_dict[oomp_id]["color_band_2_project_bolt"] = band_2
-                    extras_dict[oomp_id]["color_band_2_taxonomy_7"] = band_2                    
-                    extras_dict[oomp_id]["color_band_3_project_bolt"] = band_3
-                    extras_dict[oomp_id]["color_band_3_taxonomy_6"] = band_3
+                    extras_dict[oomp_id]["color_band_project_bolt_1"] = band_1
+                    extras_dict[oomp_id]["color_band_taxonomy_3"] = band_1
+                    extras_dict[oomp_id]["color_band_project_bolt_2"] = band_2
+                    extras_dict[oomp_id]["color_band_taxonomy_7"] = band_2                    
+                    extras_dict[oomp_id]["color_band_project_bolt_3"] = band_3
+                    extras_dict[oomp_id]["color_band_taxonomy_6"] = band_3
                     extras_dict[oomp_id]["color_band_string_project_bolt"] = f"colour_band_{band_1}_{band_2}_{band_3}"
     pass
                 

@@ -60,6 +60,9 @@ def create_generic(**kwargs):
         files_to_trace = []
         count = 0
 
+        if thing == "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length":
+            pass
+
         #mode_ai_wait = "fast"
         mode_ai_wait = "slow"
 

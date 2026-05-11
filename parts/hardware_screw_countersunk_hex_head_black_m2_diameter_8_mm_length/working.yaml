@@ -28,6 +28,13 @@ bip_39_full_no_space: defenseplanetpumpkineasydiceimpactfaintadjustbrushtruckver
 bip_39_full_space: defense planet pumpkin easy dice impact faint adjust brush truck
     verify digital
 bip_39_full_underscore: defense_planet_pumpkin_easy_dice_impact_faint_adjust_brush_truck_verify_digital
+color_band_1_project_bolt: red
+color_band_1_taxonomy_3: red
+color_band_2_project_bolt: red
+color_band_2_taxonomy_7: red
+color_band_3_project_bolt: brown
+color_band_3_taxonomy_6: brown
+color_band_string_project_bolt: colour_band_red_red_brown
 directory: parts/hardware_screw_countersunk_hex_head_black_m2_diameter_8_mm_length
 id: hardware_screw_countersunk_hex_head_black_m2_diameter_8_mm_length
 id_no_class: hardware_screw_countersunk_hex_head_black_m2_diameter_8_mm_length
@@ -271,6 +278,13 @@ oomlout_ai_roboclick_2:
         convert_to_pdf: false
         convert_to_png: false
         dict_data:
+            color_band_1_project_bolt: red
+            color_band_1_taxonomy_3: red
+            color_band_2_project_bolt: red
+            color_band_2_taxonomy_7: red
+            color_band_3_project_bolt: brown
+            color_band_3_taxonomy_6: brown
+            color_band_string_project_bolt: colour_band_red_red_brown
             directory: parts\hardware_screw_countersunk_hex_head_black_m2_diameter_8_mm_length
             name: hardware_screw_countersunk_hex_head_black_m2_diameter_8_mm_length
             name_proper: Hardware Screw Countersunk Hex Head Black M2 Diameter 8 Mm
