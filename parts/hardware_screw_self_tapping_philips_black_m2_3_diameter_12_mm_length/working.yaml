@@ -29,6 +29,7 @@ bip_39_full_space: almost chimney youth chalk similar minimum thunder cloud bris
     pluck scorpion mother
 bip_39_full_underscore: almost_chimney_youth_chalk_similar_minimum_thunder_cloud_brisk_pluck_scorpion_mother
 directory: parts/hardware_screw_self_tapping_philips_black_m2_3_diameter_12_mm_length
+generate_stl: false
 id: hardware_screw_self_tapping_philips_black_m2_3_diameter_12_mm_length
 id_no_class: hardware_screw_self_tapping_philips_black_m2_3_diameter_12_mm_length
 id_no_size: hardware_screw_self_tapping_philips_black_m2_3_diameter_12_mm_length
@@ -529,6 +530,10 @@ oomlout_ai_roboclick_2:
         search_and_replace: []
     file_test: label_oomp.pdf
 oomp_key: oomp_hardware_screw_self_tapping_philips_black_m2_3_diameter_12_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''

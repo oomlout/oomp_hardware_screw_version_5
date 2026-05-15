@@ -29,6 +29,7 @@ bip_39_full_space: tattoo rescue decide grab hybrid degree face minor later curt
     chronic trim
 bip_39_full_underscore: tattoo_rescue_decide_grab_hybrid_degree_face_minor_later_curtain_chronic_trim
 directory: parts/hardware_screw_grub_hex_head_black_m5_diameter_35_mm_length
+generate_stl: false
 id: hardware_screw_grub_hex_head_black_m5_diameter_35_mm_length
 id_no_class: hardware_screw_grub_hex_head_black_m5_diameter_35_mm_length
 id_no_size: hardware_screw_grub_hex_head_black_m5_diameter_35_mm_length
@@ -526,6 +527,10 @@ oomlout_ai_roboclick_2:
         search_and_replace: []
     file_test: label_oomp.pdf
 oomp_key: oomp_hardware_screw_grub_hex_head_black_m5_diameter_35_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''

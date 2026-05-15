@@ -29,6 +29,7 @@ bip_39_full_space: slender beauty hammer image portion whip certain edit control
     endless awesome
 bip_39_full_underscore: slender_beauty_hammer_image_portion_whip_certain_edit_control_caution_endless_awesome
 directory: parts/hardware_screw_wood_pozidriv_bright_zinc_plated_m5_diameter_12_mm_length
+generate_stl: false
 id: hardware_screw_wood_pozidriv_bright_zinc_plated_m5_diameter_12_mm_length
 id_no_class: hardware_screw_wood_pozidriv_bright_zinc_plated_m5_diameter_12_mm_length
 id_no_size: hardware_screw_wood_pozidriv_bright_zinc_plated_m5_diameter_12_mm_length
@@ -529,6 +530,10 @@ oomlout_ai_roboclick_2:
         search_and_replace: []
     file_test: label_oomp.pdf
 oomp_key: oomp_hardware_screw_wood_pozidriv_bright_zinc_plated_m5_diameter_12_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''

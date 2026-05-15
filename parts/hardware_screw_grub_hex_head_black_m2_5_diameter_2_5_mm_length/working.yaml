@@ -28,6 +28,7 @@ bip_39_full_no_space: whalerulewildbridgealmostpetmixthankdashridenarrowcycle
 bip_39_full_space: whale rule wild bridge almost pet mix thank dash ride narrow cycle
 bip_39_full_underscore: whale_rule_wild_bridge_almost_pet_mix_thank_dash_ride_narrow_cycle
 directory: parts/hardware_screw_grub_hex_head_black_m2_5_diameter_2_5_mm_length
+generate_stl: false
 id: hardware_screw_grub_hex_head_black_m2_5_diameter_2_5_mm_length
 id_no_class: hardware_screw_grub_hex_head_black_m2_5_diameter_2_5_mm_length
 id_no_size: hardware_screw_grub_hex_head_black_m2_5_diameter_2_5_mm_length
@@ -519,12 +520,16 @@ oomlout_ai_roboclick_2:
             taxonomy_7: 2_5_mm_length
             taxonomy_8: ''
             taxonomy_9: ''
-            url_chat: ''
+            url_chat: https://chatgpt.com/c/6a06c248-d730-83eb-b152-629d9f2c8d2e
         file_output: label_oomp.svg
         file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
         search_and_replace: []
     file_test: label_oomp.pdf
 oomp_key: oomp_hardware_screw_grub_hex_head_black_m2_5_diameter_2_5_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -638,4 +643,4 @@ taxonomy_7_upper_length_4: '2_5_'
 taxonomy_7_upper_length_5: 2_5_M
 taxonomy_8: ''
 taxonomy_9: ''
-url_chat: ''
+url_chat: https://chatgpt.com/c/6a06c248-d730-83eb-b152-629d9f2c8d2e

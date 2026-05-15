@@ -29,6 +29,7 @@ bip_39_full_space: other worth strike pitch idle length satisfy ahead voice othe
     screen slim
 bip_39_full_underscore: other_worth_strike_pitch_idle_length_satisfy_ahead_voice_other_screen_slim
 directory: parts/hardware_screw_socket_cap_low_head_hex_head_black_m4_diameter_16_mm_length
+generate_stl: false
 id: hardware_screw_socket_cap_low_head_hex_head_black_m4_diameter_16_mm_length
 id_no_class: hardware_screw_socket_cap_low_head_hex_head_black_m4_diameter_16_mm_length
 id_no_size: hardware_screw_socket_cap_low_head_hex_head_black_m4_diameter_16_mm_length
@@ -532,6 +533,10 @@ oomlout_ai_roboclick_2:
         search_and_replace: []
     file_test: label_oomp.pdf
 oomp_key: oomp_hardware_screw_socket_cap_low_head_hex_head_black_m4_diameter_16_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''

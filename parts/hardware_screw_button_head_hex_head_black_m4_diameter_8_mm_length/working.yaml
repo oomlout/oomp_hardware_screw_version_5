@@ -29,6 +29,7 @@ bip_39_full_space: subway motor ranch caught thing slide ribbon scrub indoor fun
     drill
 bip_39_full_underscore: subway_motor_ranch_caught_thing_slide_ribbon_scrub_indoor_fun_dwarf_drill
 directory: parts/hardware_screw_button_head_hex_head_black_m4_diameter_8_mm_length
+generate_stl: false
 id: hardware_screw_button_head_hex_head_black_m4_diameter_8_mm_length
 id_no_class: hardware_screw_button_head_hex_head_black_m4_diameter_8_mm_length
 id_no_size: hardware_screw_button_head_hex_head_black_m4_diameter_8_mm_length
@@ -523,12 +524,16 @@ oomlout_ai_roboclick_2:
             taxonomy_7: 8_mm_length
             taxonomy_8: ''
             taxonomy_9: ''
-            url_chat: ''
+            url_chat: https://chatgpt.com/c/6a02349e-dec0-83eb-8e8a-33b900202a95
         file_output: label_oomp.svg
         file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
         search_and_replace: []
     file_test: label_oomp.pdf
 oomp_key: oomp_hardware_screw_button_head_hex_head_black_m4_diameter_8_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -642,4 +647,4 @@ taxonomy_7_upper_length_4: 8_MM
 taxonomy_7_upper_length_5: 8_MM_
 taxonomy_8: ''
 taxonomy_9: ''
-url_chat: ''
+url_chat: https://chatgpt.com/c/6a02349e-dec0-83eb-8e8a-33b900202a95

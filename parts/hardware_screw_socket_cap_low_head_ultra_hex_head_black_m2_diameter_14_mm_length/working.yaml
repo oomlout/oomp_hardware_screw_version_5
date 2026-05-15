@@ -29,6 +29,7 @@ bip_39_full_space: current depart supreme apple help hollow filter woman join lo
     come sorry
 bip_39_full_underscore: current_depart_supreme_apple_help_hollow_filter_woman_join_load_come_sorry
 directory: parts/hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_diameter_14_mm_length
+generate_stl: false
 id: hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_diameter_14_mm_length
 id_no_class: hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_diameter_14_mm_length
 id_no_size: hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_diameter_14_mm_length
@@ -535,6 +536,10 @@ oomlout_ai_roboclick_2:
         search_and_replace: []
     file_test: label_oomp.pdf
 oomp_key: oomp_hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_diameter_14_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''

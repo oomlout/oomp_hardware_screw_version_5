@@ -29,6 +29,7 @@ bip_39_full_space: tone phone neutral tiger goddess ostrich warrior achieve verb
     century chef
 bip_39_full_underscore: tone_phone_neutral_tiger_goddess_ostrich_warrior_achieve_verb_involve_century_chef
 directory: parts/hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_6_mm_length
+generate_stl: false
 id: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_6_mm_length
 id_no_class: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_6_mm_length
 id_no_size: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_6_mm_length
@@ -529,12 +530,16 @@ oomlout_ai_roboclick_2:
             taxonomy_7: 6_mm_length
             taxonomy_8: ''
             taxonomy_9: ''
-            url_chat: ''
+            url_chat: https://chatgpt.com/c/6a048e7d-6d60-8385-a89b-e8d5b744eda6
         file_output: label_oomp.svg
         file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
         search_and_replace: []
     file_test: label_oomp.pdf
 oomp_key: oomp_hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_6_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -648,4 +653,4 @@ taxonomy_7_upper_length_4: 6_MM
 taxonomy_7_upper_length_5: 6_MM_
 taxonomy_8: ''
 taxonomy_9: ''
-url_chat: ''
+url_chat: https://chatgpt.com/c/6a048e7d-6d60-8385-a89b-e8d5b744eda6

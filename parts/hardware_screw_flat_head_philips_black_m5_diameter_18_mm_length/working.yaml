@@ -29,6 +29,7 @@ bip_39_full_space: worry dwarf bright feature cabbage cancel charge amazing kiss
     reduce crack
 bip_39_full_underscore: worry_dwarf_bright_feature_cabbage_cancel_charge_amazing_kiss_bullet_reduce_crack
 directory: parts/hardware_screw_flat_head_philips_black_m5_diameter_18_mm_length
+generate_stl: false
 id: hardware_screw_flat_head_philips_black_m5_diameter_18_mm_length
 id_no_class: hardware_screw_flat_head_philips_black_m5_diameter_18_mm_length
 id_no_size: hardware_screw_flat_head_philips_black_m5_diameter_18_mm_length
@@ -521,12 +522,16 @@ oomlout_ai_roboclick_2:
             taxonomy_7: 18_mm_length
             taxonomy_8: ''
             taxonomy_9: ''
-            url_chat: ''
+            url_chat: https://chatgpt.com/c/6a06328d-b4b4-83eb-89ac-a2f014d2cc3e
         file_output: label_oomp.svg
         file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
         search_and_replace: []
     file_test: label_oomp.pdf
 oomp_key: oomp_hardware_screw_flat_head_philips_black_m5_diameter_18_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -640,4 +645,4 @@ taxonomy_7_upper_length_4: 18_M
 taxonomy_7_upper_length_5: 18_MM
 taxonomy_8: ''
 taxonomy_9: ''
-url_chat: ''
+url_chat: https://chatgpt.com/c/6a06328d-b4b4-83eb-89ac-a2f014d2cc3e

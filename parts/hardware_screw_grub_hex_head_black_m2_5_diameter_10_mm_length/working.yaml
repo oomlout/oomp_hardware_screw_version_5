@@ -29,6 +29,7 @@ bip_39_full_space: author interest deal sort hood museum remain solution network
     phrase general
 bip_39_full_underscore: author_interest_deal_sort_hood_museum_remain_solution_network_open_phrase_general
 directory: parts/hardware_screw_grub_hex_head_black_m2_5_diameter_10_mm_length
+generate_stl: false
 id: hardware_screw_grub_hex_head_black_m2_5_diameter_10_mm_length
 id_no_class: hardware_screw_grub_hex_head_black_m2_5_diameter_10_mm_length
 id_no_size: hardware_screw_grub_hex_head_black_m2_5_diameter_10_mm_length
@@ -520,12 +521,16 @@ oomlout_ai_roboclick_2:
             taxonomy_7: 10_mm_length
             taxonomy_8: ''
             taxonomy_9: ''
-            url_chat: ''
+            url_chat: https://chatgpt.com/c/6a06b502-c8d4-83eb-b61a-88adc3039287
         file_output: label_oomp.svg
         file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
         search_and_replace: []
     file_test: label_oomp.pdf
 oomp_key: oomp_hardware_screw_grub_hex_head_black_m2_5_diameter_10_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -639,4 +644,4 @@ taxonomy_7_upper_length_4: 10_M
 taxonomy_7_upper_length_5: 10_MM
 taxonomy_8: ''
 taxonomy_9: ''
-url_chat: ''
+url_chat: https://chatgpt.com/c/6a06b502-c8d4-83eb-b61a-88adc3039287

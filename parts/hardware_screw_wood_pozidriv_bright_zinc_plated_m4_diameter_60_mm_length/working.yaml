@@ -29,6 +29,7 @@ bip_39_full_space: pond sample angry split dynamic sign chalk shadow sentence ho
     live grant
 bip_39_full_underscore: pond_sample_angry_split_dynamic_sign_chalk_shadow_sentence_hockey_live_grant
 directory: parts/hardware_screw_wood_pozidriv_bright_zinc_plated_m4_diameter_60_mm_length
+generate_stl: false
 id: hardware_screw_wood_pozidriv_bright_zinc_plated_m4_diameter_60_mm_length
 id_no_class: hardware_screw_wood_pozidriv_bright_zinc_plated_m4_diameter_60_mm_length
 id_no_size: hardware_screw_wood_pozidriv_bright_zinc_plated_m4_diameter_60_mm_length
@@ -529,6 +530,10 @@ oomlout_ai_roboclick_2:
         search_and_replace: []
     file_test: label_oomp.pdf
 oomp_key: oomp_hardware_screw_wood_pozidriv_bright_zinc_plated_m4_diameter_60_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''

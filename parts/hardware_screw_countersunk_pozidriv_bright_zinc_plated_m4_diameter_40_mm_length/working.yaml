@@ -28,6 +28,7 @@ bip_39_full_no_space: wishurbanerodedrillenrollaffairtossalleywestarmykidattack
 bip_39_full_space: wish urban erode drill enroll affair toss alley west army kid attack
 bip_39_full_underscore: wish_urban_erode_drill_enroll_affair_toss_alley_west_army_kid_attack
 directory: parts/hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_40_mm_length
+generate_stl: false
 id: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_40_mm_length
 id_no_class: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_40_mm_length
 id_no_size: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_40_mm_length
@@ -528,12 +529,16 @@ oomlout_ai_roboclick_2:
             taxonomy_7: 40_mm_length
             taxonomy_8: ''
             taxonomy_9: ''
-            url_chat: ''
+            url_chat: https://chatgpt.com/c/6a048153-91dc-838e-aa28-ffc612747327
         file_output: label_oomp.svg
         file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
         search_and_replace: []
     file_test: label_oomp.pdf
 oomp_key: oomp_hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_40_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -647,4 +652,4 @@ taxonomy_7_upper_length_4: 40_M
 taxonomy_7_upper_length_5: 40_MM
 taxonomy_8: ''
 taxonomy_9: ''
-url_chat: ''
+url_chat: https://chatgpt.com/c/6a048153-91dc-838e-aa28-ffc612747327

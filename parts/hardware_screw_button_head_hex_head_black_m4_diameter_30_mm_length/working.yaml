@@ -29,6 +29,7 @@ bip_39_full_space: also vote check dune goddess purse organ potato enlist detail
     palace
 bip_39_full_underscore: also_vote_check_dune_goddess_purse_organ_potato_enlist_detail_future_palace
 directory: parts/hardware_screw_button_head_hex_head_black_m4_diameter_30_mm_length
+generate_stl: false
 id: hardware_screw_button_head_hex_head_black_m4_diameter_30_mm_length
 id_no_class: hardware_screw_button_head_hex_head_black_m4_diameter_30_mm_length
 id_no_size: hardware_screw_button_head_hex_head_black_m4_diameter_30_mm_length
@@ -523,12 +524,16 @@ oomlout_ai_roboclick_2:
             taxonomy_7: 30_mm_length
             taxonomy_8: ''
             taxonomy_9: ''
-            url_chat: ''
+            url_chat: https://chatgpt.com/c/6a021ed3-3400-83eb-a5be-f7c353e6d9c5
         file_output: label_oomp.svg
         file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
         search_and_replace: []
     file_test: label_oomp.pdf
 oomp_key: oomp_hardware_screw_button_head_hex_head_black_m4_diameter_30_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -642,4 +647,4 @@ taxonomy_7_upper_length_4: 30_M
 taxonomy_7_upper_length_5: 30_MM
 taxonomy_8: ''
 taxonomy_9: ''
-url_chat: ''
+url_chat: https://chatgpt.com/c/6a021ed3-3400-83eb-a5be-f7c353e6d9c5

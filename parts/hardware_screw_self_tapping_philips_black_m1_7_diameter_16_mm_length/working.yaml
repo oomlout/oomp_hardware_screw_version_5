@@ -29,6 +29,7 @@ bip_39_full_space: robot when pet unfold hub flag traffic razor coil divide cens
     allow
 bip_39_full_underscore: robot_when_pet_unfold_hub_flag_traffic_razor_coil_divide_census_allow
 directory: parts/hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length
+generate_stl: false
 id: hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length
 id_no_class: hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length
 id_no_size: hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length
@@ -529,6 +530,10 @@ oomlout_ai_roboclick_2:
         search_and_replace: []
     file_test: label_oomp.pdf
 oomp_key: oomp_hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''

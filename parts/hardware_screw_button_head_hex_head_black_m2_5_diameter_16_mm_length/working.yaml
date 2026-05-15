@@ -29,6 +29,7 @@ bip_39_full_space: cloud pattern switch deer destroy member real vocal grow mini
     fan parent
 bip_39_full_underscore: cloud_pattern_switch_deer_destroy_member_real_vocal_grow_minimum_fan_parent
 directory: parts/hardware_screw_button_head_hex_head_black_m2_5_diameter_16_mm_length
+generate_stl: false
 id: hardware_screw_button_head_hex_head_black_m2_5_diameter_16_mm_length
 id_no_class: hardware_screw_button_head_hex_head_black_m2_5_diameter_16_mm_length
 id_no_size: hardware_screw_button_head_hex_head_black_m2_5_diameter_16_mm_length
@@ -523,12 +524,16 @@ oomlout_ai_roboclick_2:
             taxonomy_7: 16_mm_length
             taxonomy_8: ''
             taxonomy_9: ''
-            url_chat: ''
+            url_chat: https://chatgpt.com/c/6a00f0a9-8e40-83eb-a894-90dfc6078ee5
         file_output: label_oomp.svg
         file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
         search_and_replace: []
     file_test: label_oomp.pdf
 oomp_key: oomp_hardware_screw_button_head_hex_head_black_m2_5_diameter_16_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -642,4 +647,4 @@ taxonomy_7_upper_length_4: 16_M
 taxonomy_7_upper_length_5: 16_MM
 taxonomy_8: ''
 taxonomy_9: ''
-url_chat: ''
+url_chat: https://chatgpt.com/c/6a00f0a9-8e40-83eb-a894-90dfc6078ee5

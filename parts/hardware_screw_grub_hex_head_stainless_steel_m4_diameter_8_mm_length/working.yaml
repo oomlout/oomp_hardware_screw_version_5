@@ -29,6 +29,7 @@ bip_39_full_space: prize defy rabbit enough wealth just firm leopard today banan
     eager coil
 bip_39_full_underscore: prize_defy_rabbit_enough_wealth_just_firm_leopard_today_banana_eager_coil
 directory: parts/hardware_screw_grub_hex_head_stainless_steel_m4_diameter_8_mm_length
+generate_stl: false
 id: hardware_screw_grub_hex_head_stainless_steel_m4_diameter_8_mm_length
 id_no_class: hardware_screw_grub_hex_head_stainless_steel_m4_diameter_8_mm_length
 id_no_size: hardware_screw_grub_hex_head_stainless_steel_m4_diameter_8_mm_length
@@ -529,6 +530,10 @@ oomlout_ai_roboclick_2:
         search_and_replace: []
     file_test: label_oomp.pdf
 oomp_key: oomp_hardware_screw_grub_hex_head_stainless_steel_m4_diameter_8_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''

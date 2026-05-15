@@ -29,6 +29,7 @@ bip_39_full_space: middle drum boring cross frame claim there garage evoke defy 
     vanish
 bip_39_full_underscore: middle_drum_boring_cross_frame_claim_there_garage_evoke_defy_parent_vanish
 directory: parts/hardware_screw_self_tapping_philips_black_m1_diameter_5_mm_length
+generate_stl: false
 id: hardware_screw_self_tapping_philips_black_m1_diameter_5_mm_length
 id_no_class: hardware_screw_self_tapping_philips_black_m1_diameter_5_mm_length
 id_no_size: hardware_screw_self_tapping_philips_black_m1_diameter_5_mm_length
@@ -529,6 +530,10 @@ oomlout_ai_roboclick_2:
         search_and_replace: []
     file_test: label_oomp.pdf
 oomp_key: oomp_hardware_screw_self_tapping_philips_black_m1_diameter_5_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''

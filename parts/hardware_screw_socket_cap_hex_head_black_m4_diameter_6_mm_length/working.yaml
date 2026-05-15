@@ -28,6 +28,7 @@ bip_39_full_no_space: supplysnowsupplysenioragepetpoetlimbcablemimicuseddelay
 bip_39_full_space: supply snow supply senior age pet poet limb cable mimic used delay
 bip_39_full_underscore: supply_snow_supply_senior_age_pet_poet_limb_cable_mimic_used_delay
 directory: parts/hardware_screw_socket_cap_hex_head_black_m4_diameter_6_mm_length
+generate_stl: false
 id: hardware_screw_socket_cap_hex_head_black_m4_diameter_6_mm_length
 id_no_class: hardware_screw_socket_cap_hex_head_black_m4_diameter_6_mm_length
 id_no_size: hardware_screw_socket_cap_hex_head_black_m4_diameter_6_mm_length
@@ -532,6 +533,10 @@ oomlout_ai_roboclick_2:
         search_and_replace: []
     file_test: label_oomp.pdf
 oomp_key: oomp_hardware_screw_socket_cap_hex_head_black_m4_diameter_6_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
 screw_style: screw_socket_cap
 taxonomy_1: hardware
 taxonomy_10: ''
