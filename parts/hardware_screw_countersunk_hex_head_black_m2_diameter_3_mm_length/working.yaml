@@ -1,0 +1,304 @@
+bip_39_2_word_array:
+- tent
+- junior
+bip_39_2_word_no_space: tentjunior
+bip_39_2_word_space: tent junior
+bip_39_2_word_underscore: tent_junior
+bip_39_3_word_array:
+- tent
+- junior
+- cash
+bip_39_3_word_no_space: tentjuniorcash
+bip_39_3_word_space: tent junior cash
+bip_39_3_word_underscore: tent_junior_cash
+bip_39_full_array:
+- tent
+- junior
+- cash
+- member
+- filter
+- dust
+- journey
+- focus
+- liquid
+- token
+- raven
+- zone
+bip_39_full_no_space: tentjuniorcashmemberfilterdustjourneyfocusliquidtokenravenzone
+bip_39_full_space: tent junior cash member filter dust journey focus liquid token
+    raven zone
+bip_39_full_underscore: tent_junior_cash_member_filter_dust_journey_focus_liquid_token_raven_zone
+directory: parts/hardware_screw_countersunk_hex_head_black_m2_diameter_3_mm_length
+generate_stl: false
+id: hardware_screw_countersunk_hex_head_black_m2_diameter_3_mm_length
+id_no_class: hardware_screw_countersunk_hex_head_black_m2_diameter_3_mm_length
+id_no_size: hardware_screw_countersunk_hex_head_black_m2_diameter_3_mm_length
+id_no_type: hardware_screw_countersunk_hex_head_black_m2_diameter_3_mm_length
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_countersunk_hex_head_black_m2_diameter_3_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_countersunk_hex_head_black_m2_diameter_3_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_countersunk_hex_head_black_m2_diameter_3_mm_length
+md5: df4f248d456566889e1ad1825c7ec9ff
+md5_10: df4f248d45
+md5_10_upper: DF4F248D45
+md5_5: df4f2
+md5_5_upper: DF4F2
+md5_6: df4f24
+md5_6_alpha: 8po9w
+md5_6_alpha_upper: 8PO9W
+md5_6_upper: DF4F24
+name: Hardware Screw Countersunk Hex Head Black M2 Diameter 3 Mm Length
+name_no_class: Hardware Screw Countersunk Hex Head Black M2 Diameter 3 Mm Length
+name_no_size: Hardware Screw Countersunk Hex Head Black M2 Diameter 3 Mm Length
+name_no_type: Hardware Screw Countersunk Hex Head Black M2 Diameter 3 Mm Length
+name_proper: Hardware Screw Countersunk Hex Head Black M2 Diameter 3 Mm Length
+name_space: hardware screw countersunk hex head black m2 diameter 3 mm length
+name_upper: HARDWARE SCREW COUNTERSUNK HEX HEAD BLACK M2 DIAMETER 3 MM LENGTH
+oobb_details:
+    drive_style: hex_head
+    length: 3_mm_length
+    oobb_name: screw
+    screw_colour: black
+    screw_style: countersunk
+    thread_size: m2_diameter
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_screw_countersunk_hex_head_black_m2_diameter_3_mm_length
+            name: hardware_screw_countersunk_hex_head_black_m2_diameter_3_mm_length
+            name_proper: Hardware Screw Countersunk Hex Head Black M2 Diameter 3 Mm
+                Length
+            name_space: hardware screw countersunk hex head black m2 diameter 3 mm
+                length
+            name_upper: HARDWARE SCREW COUNTERSUNK HEX HEAD BLACK M2 DIAMETER 3 MM
+                LENGTH
+            oobb_details:
+                drive_style: hex_head
+                length: 3_mm_length
+                oobb_name: screw
+                screw_colour: black
+                screw_style: countersunk
+                thread_size: m2_diameter
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: countersunk
+            taxonomy_4: hex_head
+            taxonomy_5: black
+            taxonomy_6: m2_diameter
+            taxonomy_7: 3_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: https://chatgpt.com/c/69f53247-6b84-83eb-b66e-33b943b92448
+        file_output: label_oomp.svg
+        file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_screw_countersunk_hex_head_black_m2_diameter_3_mm_length
+            name: hardware_screw_countersunk_hex_head_black_m2_diameter_3_mm_length
+            name_proper: Hardware Screw Countersunk Hex Head Black M2 Diameter 3 Mm
+                Length
+            name_space: hardware screw countersunk hex head black m2 diameter 3 mm
+                length
+            name_upper: HARDWARE SCREW COUNTERSUNK HEX HEAD BLACK M2 DIAMETER 3 MM
+                LENGTH
+            oobb_details:
+                drive_style: hex_head
+                length: 3_mm_length
+                oobb_name: screw
+                screw_colour: black
+                screw_style: countersunk
+                thread_size: m2_diameter
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_screw_countersunk_hex_head_black_m2_diameter_3_mm_length
+                        name: hardware_screw_countersunk_hex_head_black_m2_diameter_3_mm_length
+                        name_proper: Hardware Screw Countersunk Hex Head Black M2
+                            Diameter 3 Mm Length
+                        name_space: hardware screw countersunk hex head black m2 diameter
+                            3 mm length
+                        name_upper: HARDWARE SCREW COUNTERSUNK HEX HEAD BLACK M2 DIAMETER
+                            3 MM LENGTH
+                        oobb_details:
+                            drive_style: hex_head
+                            length: 3_mm_length
+                            oobb_name: screw
+                            screw_colour: black
+                            screw_style: countersunk
+                            thread_size: m2_diameter
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: screw
+                        taxonomy_3: countersunk
+                        taxonomy_4: hex_head
+                        taxonomy_5: black
+                        taxonomy_6: m2_diameter
+                        taxonomy_7: 3_mm_length
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        url_chat: https://chatgpt.com/c/69f53247-6b84-83eb-b66e-33b943b92448
+                    file_output: label_oomp.svg
+                    file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: countersunk
+            taxonomy_4: hex_head
+            taxonomy_5: black
+            taxonomy_6: m2_diameter
+            taxonomy_7: 3_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: https://chatgpt.com/c/69f53247-6b84-83eb-b66e-33b943b92448
+        file_output: label_bolt_image.svg
+        file_template: source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+oomp_key: oomp_hardware_screw_countersunk_hex_head_black_m2_diameter_3_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: screw
+taxonomy_2_capital: Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: sc
+taxonomy_2_length_3: scr
+taxonomy_2_length_4: scre
+taxonomy_2_length_5: screw
+taxonomy_2_upper: SCREW
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: SC
+taxonomy_2_upper_length_3: SCR
+taxonomy_2_upper_length_4: SCRE
+taxonomy_2_upper_length_5: SCREW
+taxonomy_3: countersunk
+taxonomy_3_capital: Countersunk
+taxonomy_3_first_letter: c
+taxonomy_3_first_letter_upper: C
+taxonomy_3_length_1: c
+taxonomy_3_length_2: co
+taxonomy_3_length_3: cou
+taxonomy_3_length_4: coun
+taxonomy_3_length_5: count
+taxonomy_3_upper: COUNTERSUNK
+taxonomy_3_upper_length_1: C
+taxonomy_3_upper_length_2: CO
+taxonomy_3_upper_length_3: COU
+taxonomy_3_upper_length_4: COUN
+taxonomy_3_upper_length_5: COUNT
+taxonomy_4: hex_head
+taxonomy_4_capital: Hex Head
+taxonomy_4_first_letter: h
+taxonomy_4_first_letter_upper: H
+taxonomy_4_length_1: h
+taxonomy_4_length_2: he
+taxonomy_4_length_3: hex
+taxonomy_4_length_4: hex_
+taxonomy_4_length_5: hex_h
+taxonomy_4_upper: HEX_HEAD
+taxonomy_4_upper_length_1: H
+taxonomy_4_upper_length_2: HE
+taxonomy_4_upper_length_3: HEX
+taxonomy_4_upper_length_4: HEX_
+taxonomy_4_upper_length_5: HEX_H
+taxonomy_5: black
+taxonomy_5_capital: Black
+taxonomy_5_first_letter: b
+taxonomy_5_first_letter_upper: B
+taxonomy_5_length_1: b
+taxonomy_5_length_2: bl
+taxonomy_5_length_3: bla
+taxonomy_5_length_4: blac
+taxonomy_5_length_5: black
+taxonomy_5_upper: BLACK
+taxonomy_5_upper_length_1: B
+taxonomy_5_upper_length_2: BL
+taxonomy_5_upper_length_3: BLA
+taxonomy_5_upper_length_4: BLAC
+taxonomy_5_upper_length_5: BLACK
+taxonomy_6: m2_diameter
+taxonomy_6_capital: M2 Diameter
+taxonomy_6_first_letter: m
+taxonomy_6_first_letter_upper: M
+taxonomy_6_length_1: m
+taxonomy_6_length_2: m2
+taxonomy_6_length_3: m2_
+taxonomy_6_length_4: m2_d
+taxonomy_6_length_5: m2_di
+taxonomy_6_upper: M2_DIAMETER
+taxonomy_6_upper_length_1: M
+taxonomy_6_upper_length_2: M2
+taxonomy_6_upper_length_3: M2_
+taxonomy_6_upper_length_4: M2_D
+taxonomy_6_upper_length_5: M2_DI
+taxonomy_7: 3_mm_length
+taxonomy_7_capital: 3 mm Length
+taxonomy_7_first_letter: '3'
+taxonomy_7_first_letter_upper: '3'
+taxonomy_7_length_1: '3'
+taxonomy_7_length_2: '3_'
+taxonomy_7_length_3: 3_m
+taxonomy_7_length_4: 3_mm
+taxonomy_7_length_5: 3_mm_
+taxonomy_7_upper: 3_MM_LENGTH
+taxonomy_7_upper_length_1: '3'
+taxonomy_7_upper_length_2: '3_'
+taxonomy_7_upper_length_3: 3_M
+taxonomy_7_upper_length_4: 3_MM
+taxonomy_7_upper_length_5: 3_MM_
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: https://chatgpt.com/c/69f53247-6b84-83eb-b66e-33b943b92448

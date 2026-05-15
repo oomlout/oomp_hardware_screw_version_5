@@ -1,0 +1,300 @@
+bip_39_2_word_array:
+- tide
+- suspect
+bip_39_2_word_no_space: tidesuspect
+bip_39_2_word_space: tide suspect
+bip_39_2_word_underscore: tide_suspect
+bip_39_3_word_array:
+- tide
+- suspect
+- cricket
+bip_39_3_word_no_space: tidesuspectcricket
+bip_39_3_word_space: tide suspect cricket
+bip_39_3_word_underscore: tide_suspect_cricket
+bip_39_full_array:
+- tide
+- suspect
+- cricket
+- toe
+- drastic
+- void
+- capital
+- tuition
+- stem
+- mango
+- duty
+- release
+bip_39_full_no_space: tidesuspectcrickettoedrasticvoidcapitaltuitionstemmangodutyrelease
+bip_39_full_space: tide suspect cricket toe drastic void capital tuition stem mango
+    duty release
+bip_39_full_underscore: tide_suspect_cricket_toe_drastic_void_capital_tuition_stem_mango_duty_release
+directory: parts/hardware_screw_flat_head_philips_black_m4_diameter_22_mm_length
+generate_stl: false
+id: hardware_screw_flat_head_philips_black_m4_diameter_22_mm_length
+id_no_class: hardware_screw_flat_head_philips_black_m4_diameter_22_mm_length
+id_no_size: hardware_screw_flat_head_philips_black_m4_diameter_22_mm_length
+id_no_type: hardware_screw_flat_head_philips_black_m4_diameter_22_mm_length
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_flat_head_philips_black_m4_diameter_22_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_flat_head_philips_black_m4_diameter_22_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_flat_head_philips_black_m4_diameter_22_mm_length
+md5: e1db58cdf1c425eb088751d550e5125a
+md5_10: e1db58cdf1
+md5_10_upper: E1DB58CDF1
+md5_5: e1db5
+md5_5_upper: E1DB5
+md5_6: e1db58
+md5_6_alpha: 8t93s
+md5_6_alpha_upper: 8T93S
+md5_6_upper: E1DB58
+name: Hardware Screw Flat Head Philips Black M4 Diameter 22 Mm Length
+name_no_class: Hardware Screw Flat Head Philips Black M4 Diameter 22 Mm Length
+name_no_size: Hardware Screw Flat Head Philips Black M4 Diameter 22 Mm Length
+name_no_type: Hardware Screw Flat Head Philips Black M4 Diameter 22 Mm Length
+name_proper: Hardware Screw Flat Head Philips Black M4 Diameter 22 Mm Length
+name_space: hardware screw flat head philips black m4 diameter 22 mm length
+name_upper: HARDWARE SCREW FLAT HEAD PHILIPS BLACK M4 DIAMETER 22 MM LENGTH
+oobb_details:
+    drive_style: philips
+    length: 22_mm_length
+    oobb_name: screw
+    screw_colour: black
+    screw_style: flat_head
+    thread_size: m4_diameter
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_screw_flat_head_philips_black_m4_diameter_22_mm_length
+            name: hardware_screw_flat_head_philips_black_m4_diameter_22_mm_length
+            name_proper: Hardware Screw Flat Head Philips Black M4 Diameter 22 Mm
+                Length
+            name_space: hardware screw flat head philips black m4 diameter 22 mm length
+            name_upper: HARDWARE SCREW FLAT HEAD PHILIPS BLACK M4 DIAMETER 22 MM LENGTH
+            oobb_details:
+                drive_style: philips
+                length: 22_mm_length
+                oobb_name: screw
+                screw_colour: black
+                screw_style: flat_head
+                thread_size: m4_diameter
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: flat_head
+            taxonomy_4: philips
+            taxonomy_5: black
+            taxonomy_6: m4_diameter
+            taxonomy_7: 22_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: https://chatgpt.com/c/6a05fdd9-8c40-83eb-8b8b-2ee54e6ea780
+        file_output: label_oomp.svg
+        file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_screw_flat_head_philips_black_m4_diameter_22_mm_length
+            name: hardware_screw_flat_head_philips_black_m4_diameter_22_mm_length
+            name_proper: Hardware Screw Flat Head Philips Black M4 Diameter 22 Mm
+                Length
+            name_space: hardware screw flat head philips black m4 diameter 22 mm length
+            name_upper: HARDWARE SCREW FLAT HEAD PHILIPS BLACK M4 DIAMETER 22 MM LENGTH
+            oobb_details:
+                drive_style: philips
+                length: 22_mm_length
+                oobb_name: screw
+                screw_colour: black
+                screw_style: flat_head
+                thread_size: m4_diameter
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_screw_flat_head_philips_black_m4_diameter_22_mm_length
+                        name: hardware_screw_flat_head_philips_black_m4_diameter_22_mm_length
+                        name_proper: Hardware Screw Flat Head Philips Black M4 Diameter
+                            22 Mm Length
+                        name_space: hardware screw flat head philips black m4 diameter
+                            22 mm length
+                        name_upper: HARDWARE SCREW FLAT HEAD PHILIPS BLACK M4 DIAMETER
+                            22 MM LENGTH
+                        oobb_details:
+                            drive_style: philips
+                            length: 22_mm_length
+                            oobb_name: screw
+                            screw_colour: black
+                            screw_style: flat_head
+                            thread_size: m4_diameter
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: screw
+                        taxonomy_3: flat_head
+                        taxonomy_4: philips
+                        taxonomy_5: black
+                        taxonomy_6: m4_diameter
+                        taxonomy_7: 22_mm_length
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        url_chat: https://chatgpt.com/c/6a05fdd9-8c40-83eb-8b8b-2ee54e6ea780
+                    file_output: label_oomp.svg
+                    file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: flat_head
+            taxonomy_4: philips
+            taxonomy_5: black
+            taxonomy_6: m4_diameter
+            taxonomy_7: 22_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: https://chatgpt.com/c/6a05fdd9-8c40-83eb-8b8b-2ee54e6ea780
+        file_output: label_bolt_image.svg
+        file_template: source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+oomp_key: oomp_hardware_screw_flat_head_philips_black_m4_diameter_22_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: screw
+taxonomy_2_capital: Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: sc
+taxonomy_2_length_3: scr
+taxonomy_2_length_4: scre
+taxonomy_2_length_5: screw
+taxonomy_2_upper: SCREW
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: SC
+taxonomy_2_upper_length_3: SCR
+taxonomy_2_upper_length_4: SCRE
+taxonomy_2_upper_length_5: SCREW
+taxonomy_3: flat_head
+taxonomy_3_capital: Flat Head
+taxonomy_3_first_letter: f
+taxonomy_3_first_letter_upper: F
+taxonomy_3_length_1: f
+taxonomy_3_length_2: fl
+taxonomy_3_length_3: fla
+taxonomy_3_length_4: flat
+taxonomy_3_length_5: flat_
+taxonomy_3_upper: FLAT_HEAD
+taxonomy_3_upper_length_1: F
+taxonomy_3_upper_length_2: FL
+taxonomy_3_upper_length_3: FLA
+taxonomy_3_upper_length_4: FLAT
+taxonomy_3_upper_length_5: FLAT_
+taxonomy_4: philips
+taxonomy_4_capital: Philips
+taxonomy_4_first_letter: p
+taxonomy_4_first_letter_upper: P
+taxonomy_4_length_1: p
+taxonomy_4_length_2: ph
+taxonomy_4_length_3: phi
+taxonomy_4_length_4: phil
+taxonomy_4_length_5: phili
+taxonomy_4_upper: PHILIPS
+taxonomy_4_upper_length_1: P
+taxonomy_4_upper_length_2: PH
+taxonomy_4_upper_length_3: PHI
+taxonomy_4_upper_length_4: PHIL
+taxonomy_4_upper_length_5: PHILI
+taxonomy_5: black
+taxonomy_5_capital: Black
+taxonomy_5_first_letter: b
+taxonomy_5_first_letter_upper: B
+taxonomy_5_length_1: b
+taxonomy_5_length_2: bl
+taxonomy_5_length_3: bla
+taxonomy_5_length_4: blac
+taxonomy_5_length_5: black
+taxonomy_5_upper: BLACK
+taxonomy_5_upper_length_1: B
+taxonomy_5_upper_length_2: BL
+taxonomy_5_upper_length_3: BLA
+taxonomy_5_upper_length_4: BLAC
+taxonomy_5_upper_length_5: BLACK
+taxonomy_6: m4_diameter
+taxonomy_6_capital: M4 Diameter
+taxonomy_6_first_letter: m
+taxonomy_6_first_letter_upper: M
+taxonomy_6_length_1: m
+taxonomy_6_length_2: m4
+taxonomy_6_length_3: m4_
+taxonomy_6_length_4: m4_d
+taxonomy_6_length_5: m4_di
+taxonomy_6_upper: M4_DIAMETER
+taxonomy_6_upper_length_1: M
+taxonomy_6_upper_length_2: M4
+taxonomy_6_upper_length_3: M4_
+taxonomy_6_upper_length_4: M4_D
+taxonomy_6_upper_length_5: M4_DI
+taxonomy_7: 22_mm_length
+taxonomy_7_capital: 22 mm Length
+taxonomy_7_first_letter: '2'
+taxonomy_7_first_letter_upper: '2'
+taxonomy_7_length_1: '2'
+taxonomy_7_length_2: '22'
+taxonomy_7_length_3: '22_'
+taxonomy_7_length_4: 22_m
+taxonomy_7_length_5: 22_mm
+taxonomy_7_upper: 22_MM_LENGTH
+taxonomy_7_upper_length_1: '2'
+taxonomy_7_upper_length_2: '22'
+taxonomy_7_upper_length_3: '22_'
+taxonomy_7_upper_length_4: 22_M
+taxonomy_7_upper_length_5: 22_MM
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: https://chatgpt.com/c/6a05fdd9-8c40-83eb-8b8b-2ee54e6ea780

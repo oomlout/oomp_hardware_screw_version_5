@@ -1,0 +1,310 @@
+bip_39_2_word_array:
+- force
+- risk
+bip_39_2_word_no_space: forcerisk
+bip_39_2_word_space: force risk
+bip_39_2_word_underscore: force_risk
+bip_39_3_word_array:
+- force
+- risk
+- blind
+bip_39_3_word_no_space: forceriskblind
+bip_39_3_word_space: force risk blind
+bip_39_3_word_underscore: force_risk_blind
+bip_39_full_array:
+- force
+- risk
+- blind
+- rule
+- grief
+- veteran
+- leader
+- moon
+- bus
+- cause
+- below
+- matrix
+bip_39_full_no_space: forceriskblindrulegriefveteranleadermoonbuscausebelowmatrix
+bip_39_full_space: force risk blind rule grief veteran leader moon bus cause below
+    matrix
+bip_39_full_underscore: force_risk_blind_rule_grief_veteran_leader_moon_bus_cause_below_matrix
+directory: parts/hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_12_mm_length
+generate_stl: false
+id: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_12_mm_length
+id_no_class: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_12_mm_length
+id_no_size: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_12_mm_length
+id_no_type: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_12_mm_length
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_12_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_12_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_12_mm_length
+md5: 5b174c5f5e9669e65fa47c1ee4905344
+md5_10: 5b174c5f5e
+md5_10_upper: 5B174C5F5E
+md5_5: 5b174
+md5_5_upper: 5B174
+md5_6: 5b174c
+md5_6_alpha: 3jya4
+md5_6_alpha_upper: 3JYA4
+md5_6_upper: 5B174C
+name: Hardware Screw Countersunk Pozidriv Bright Zinc Plated M6 Diameter 12 Mm Length
+name_no_class: Hardware Screw Countersunk Pozidriv Bright Zinc Plated M6 Diameter
+    12 Mm Length
+name_no_size: Hardware Screw Countersunk Pozidriv Bright Zinc Plated M6 Diameter 12
+    Mm Length
+name_no_type: Hardware Screw Countersunk Pozidriv Bright Zinc Plated M6 Diameter 12
+    Mm Length
+name_proper: Hardware Screw Countersunk Pozidriv Bright Zinc Plated M6 Diameter 12
+    Mm Length
+name_space: hardware screw countersunk pozidriv bright zinc plated m6 diameter 12
+    mm length
+name_upper: HARDWARE SCREW COUNTERSUNK POZIDRIV BRIGHT ZINC PLATED M6 DIAMETER 12
+    MM LENGTH
+oobb_details:
+    drive_style: pozidriv
+    length: 12_mm_length
+    oobb_name: screw
+    screw_colour: bright_zinc_plated
+    screw_style: countersunk
+    thread_size: m6_diameter
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_12_mm_length
+            name: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_12_mm_length
+            name_proper: Hardware Screw Countersunk Pozidriv Bright Zinc Plated M6
+                Diameter 12 Mm Length
+            name_space: hardware screw countersunk pozidriv bright zinc plated m6
+                diameter 12 mm length
+            name_upper: HARDWARE SCREW COUNTERSUNK POZIDRIV BRIGHT ZINC PLATED M6
+                DIAMETER 12 MM LENGTH
+            oobb_details:
+                drive_style: pozidriv
+                length: 12_mm_length
+                oobb_name: screw
+                screw_colour: bright_zinc_plated
+                screw_style: countersunk
+                thread_size: m6_diameter
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: countersunk
+            taxonomy_4: pozidriv
+            taxonomy_5: bright_zinc_plated
+            taxonomy_6: m6_diameter
+            taxonomy_7: 12_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: https://chatgpt.com/c/6a04e4a9-15d0-83eb-9a50-e484cf1ba8aa
+        file_output: label_oomp.svg
+        file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_12_mm_length
+            name: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_12_mm_length
+            name_proper: Hardware Screw Countersunk Pozidriv Bright Zinc Plated M6
+                Diameter 12 Mm Length
+            name_space: hardware screw countersunk pozidriv bright zinc plated m6
+                diameter 12 mm length
+            name_upper: HARDWARE SCREW COUNTERSUNK POZIDRIV BRIGHT ZINC PLATED M6
+                DIAMETER 12 MM LENGTH
+            oobb_details:
+                drive_style: pozidriv
+                length: 12_mm_length
+                oobb_name: screw
+                screw_colour: bright_zinc_plated
+                screw_style: countersunk
+                thread_size: m6_diameter
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_12_mm_length
+                        name: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_12_mm_length
+                        name_proper: Hardware Screw Countersunk Pozidriv Bright Zinc
+                            Plated M6 Diameter 12 Mm Length
+                        name_space: hardware screw countersunk pozidriv bright zinc
+                            plated m6 diameter 12 mm length
+                        name_upper: HARDWARE SCREW COUNTERSUNK POZIDRIV BRIGHT ZINC
+                            PLATED M6 DIAMETER 12 MM LENGTH
+                        oobb_details:
+                            drive_style: pozidriv
+                            length: 12_mm_length
+                            oobb_name: screw
+                            screw_colour: bright_zinc_plated
+                            screw_style: countersunk
+                            thread_size: m6_diameter
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: screw
+                        taxonomy_3: countersunk
+                        taxonomy_4: pozidriv
+                        taxonomy_5: bright_zinc_plated
+                        taxonomy_6: m6_diameter
+                        taxonomy_7: 12_mm_length
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        url_chat: https://chatgpt.com/c/6a04e4a9-15d0-83eb-9a50-e484cf1ba8aa
+                    file_output: label_oomp.svg
+                    file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: countersunk
+            taxonomy_4: pozidriv
+            taxonomy_5: bright_zinc_plated
+            taxonomy_6: m6_diameter
+            taxonomy_7: 12_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: https://chatgpt.com/c/6a04e4a9-15d0-83eb-9a50-e484cf1ba8aa
+        file_output: label_bolt_image.svg
+        file_template: source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+oomp_key: oomp_hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_12_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: screw
+taxonomy_2_capital: Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: sc
+taxonomy_2_length_3: scr
+taxonomy_2_length_4: scre
+taxonomy_2_length_5: screw
+taxonomy_2_upper: SCREW
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: SC
+taxonomy_2_upper_length_3: SCR
+taxonomy_2_upper_length_4: SCRE
+taxonomy_2_upper_length_5: SCREW
+taxonomy_3: countersunk
+taxonomy_3_capital: Countersunk
+taxonomy_3_first_letter: c
+taxonomy_3_first_letter_upper: C
+taxonomy_3_length_1: c
+taxonomy_3_length_2: co
+taxonomy_3_length_3: cou
+taxonomy_3_length_4: coun
+taxonomy_3_length_5: count
+taxonomy_3_upper: COUNTERSUNK
+taxonomy_3_upper_length_1: C
+taxonomy_3_upper_length_2: CO
+taxonomy_3_upper_length_3: COU
+taxonomy_3_upper_length_4: COUN
+taxonomy_3_upper_length_5: COUNT
+taxonomy_4: pozidriv
+taxonomy_4_capital: Pozidriv
+taxonomy_4_first_letter: p
+taxonomy_4_first_letter_upper: P
+taxonomy_4_length_1: p
+taxonomy_4_length_2: po
+taxonomy_4_length_3: poz
+taxonomy_4_length_4: pozi
+taxonomy_4_length_5: pozid
+taxonomy_4_upper: POZIDRIV
+taxonomy_4_upper_length_1: P
+taxonomy_4_upper_length_2: PO
+taxonomy_4_upper_length_3: POZ
+taxonomy_4_upper_length_4: POZI
+taxonomy_4_upper_length_5: POZID
+taxonomy_5: bright_zinc_plated
+taxonomy_5_capital: Bright Zinc Plated
+taxonomy_5_first_letter: b
+taxonomy_5_first_letter_upper: B
+taxonomy_5_length_1: b
+taxonomy_5_length_2: br
+taxonomy_5_length_3: bri
+taxonomy_5_length_4: brig
+taxonomy_5_length_5: brigh
+taxonomy_5_upper: BRIGHT_ZINC_PLATED
+taxonomy_5_upper_length_1: B
+taxonomy_5_upper_length_2: BR
+taxonomy_5_upper_length_3: BRI
+taxonomy_5_upper_length_4: BRIG
+taxonomy_5_upper_length_5: BRIGH
+taxonomy_6: m6_diameter
+taxonomy_6_capital: M6 Diameter
+taxonomy_6_first_letter: m
+taxonomy_6_first_letter_upper: M
+taxonomy_6_length_1: m
+taxonomy_6_length_2: m6
+taxonomy_6_length_3: m6_
+taxonomy_6_length_4: m6_d
+taxonomy_6_length_5: m6_di
+taxonomy_6_upper: M6_DIAMETER
+taxonomy_6_upper_length_1: M
+taxonomy_6_upper_length_2: M6
+taxonomy_6_upper_length_3: M6_
+taxonomy_6_upper_length_4: M6_D
+taxonomy_6_upper_length_5: M6_DI
+taxonomy_7: 12_mm_length
+taxonomy_7_capital: 12 mm Length
+taxonomy_7_first_letter: '1'
+taxonomy_7_first_letter_upper: '1'
+taxonomy_7_length_1: '1'
+taxonomy_7_length_2: '12'
+taxonomy_7_length_3: '12_'
+taxonomy_7_length_4: 12_m
+taxonomy_7_length_5: 12_mm
+taxonomy_7_upper: 12_MM_LENGTH
+taxonomy_7_upper_length_1: '1'
+taxonomy_7_upper_length_2: '12'
+taxonomy_7_upper_length_3: '12_'
+taxonomy_7_upper_length_4: 12_M
+taxonomy_7_upper_length_5: 12_MM
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: https://chatgpt.com/c/6a04e4a9-15d0-83eb-9a50-e484cf1ba8aa

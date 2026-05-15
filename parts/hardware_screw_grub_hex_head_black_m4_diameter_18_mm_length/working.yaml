@@ -1,0 +1,298 @@
+bip_39_2_word_array:
+- erase
+- obtain
+bip_39_2_word_no_space: eraseobtain
+bip_39_2_word_space: erase obtain
+bip_39_2_word_underscore: erase_obtain
+bip_39_3_word_array:
+- erase
+- obtain
+- enact
+bip_39_3_word_no_space: eraseobtainenact
+bip_39_3_word_space: erase obtain enact
+bip_39_3_word_underscore: erase_obtain_enact
+bip_39_full_array:
+- erase
+- obtain
+- enact
+- laugh
+- good
+- only
+- traffic
+- steak
+- urge
+- sight
+- stamp
+- enhance
+bip_39_full_no_space: eraseobtainenactlaughgoodonlytrafficsteakurgesightstampenhance
+bip_39_full_space: erase obtain enact laugh good only traffic steak urge sight stamp
+    enhance
+bip_39_full_underscore: erase_obtain_enact_laugh_good_only_traffic_steak_urge_sight_stamp_enhance
+directory: parts/hardware_screw_grub_hex_head_black_m4_diameter_18_mm_length
+generate_stl: false
+id: hardware_screw_grub_hex_head_black_m4_diameter_18_mm_length
+id_no_class: hardware_screw_grub_hex_head_black_m4_diameter_18_mm_length
+id_no_size: hardware_screw_grub_hex_head_black_m4_diameter_18_mm_length
+id_no_type: hardware_screw_grub_hex_head_black_m4_diameter_18_mm_length
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_grub_hex_head_black_m4_diameter_18_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_grub_hex_head_black_m4_diameter_18_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_grub_hex_head_black_m4_diameter_18_mm_length
+md5: 4c731125bec6473639b6a8ef790751a5
+md5_10: 4c731125be
+md5_10_upper: 4C731125BE
+md5_5: 4c731
+md5_5_upper: 4C731
+md5_6: 4c7311
+md5_6_alpha: 2zdw1
+md5_6_alpha_upper: 2ZDW1
+md5_6_upper: 4C7311
+name: Hardware Screw Grub Hex Head Black M4 Diameter 18 Mm Length
+name_no_class: Hardware Screw Grub Hex Head Black M4 Diameter 18 Mm Length
+name_no_size: Hardware Screw Grub Hex Head Black M4 Diameter 18 Mm Length
+name_no_type: Hardware Screw Grub Hex Head Black M4 Diameter 18 Mm Length
+name_proper: Hardware Screw Grub Hex Head Black M4 Diameter 18 Mm Length
+name_space: hardware screw grub hex head black m4 diameter 18 mm length
+name_upper: HARDWARE SCREW GRUB HEX HEAD BLACK M4 DIAMETER 18 MM LENGTH
+oobb_details:
+    drive_style: hex_head
+    length: 18_mm_length
+    oobb_name: screw
+    screw_colour: black
+    screw_style: grub
+    thread_size: m4_diameter
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_screw_grub_hex_head_black_m4_diameter_18_mm_length
+            name: hardware_screw_grub_hex_head_black_m4_diameter_18_mm_length
+            name_proper: Hardware Screw Grub Hex Head Black M4 Diameter 18 Mm Length
+            name_space: hardware screw grub hex head black m4 diameter 18 mm length
+            name_upper: HARDWARE SCREW GRUB HEX HEAD BLACK M4 DIAMETER 18 MM LENGTH
+            oobb_details:
+                drive_style: hex_head
+                length: 18_mm_length
+                oobb_name: screw
+                screw_colour: black
+                screw_style: grub
+                thread_size: m4_diameter
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: grub
+            taxonomy_4: hex_head
+            taxonomy_5: black
+            taxonomy_6: m4_diameter
+            taxonomy_7: 18_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: https://chatgpt.com/c/6a075991-6f70-83eb-a855-93b8dd861a24
+        file_output: label_oomp.svg
+        file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_screw_grub_hex_head_black_m4_diameter_18_mm_length
+            name: hardware_screw_grub_hex_head_black_m4_diameter_18_mm_length
+            name_proper: Hardware Screw Grub Hex Head Black M4 Diameter 18 Mm Length
+            name_space: hardware screw grub hex head black m4 diameter 18 mm length
+            name_upper: HARDWARE SCREW GRUB HEX HEAD BLACK M4 DIAMETER 18 MM LENGTH
+            oobb_details:
+                drive_style: hex_head
+                length: 18_mm_length
+                oobb_name: screw
+                screw_colour: black
+                screw_style: grub
+                thread_size: m4_diameter
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_screw_grub_hex_head_black_m4_diameter_18_mm_length
+                        name: hardware_screw_grub_hex_head_black_m4_diameter_18_mm_length
+                        name_proper: Hardware Screw Grub Hex Head Black M4 Diameter
+                            18 Mm Length
+                        name_space: hardware screw grub hex head black m4 diameter
+                            18 mm length
+                        name_upper: HARDWARE SCREW GRUB HEX HEAD BLACK M4 DIAMETER
+                            18 MM LENGTH
+                        oobb_details:
+                            drive_style: hex_head
+                            length: 18_mm_length
+                            oobb_name: screw
+                            screw_colour: black
+                            screw_style: grub
+                            thread_size: m4_diameter
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: screw
+                        taxonomy_3: grub
+                        taxonomy_4: hex_head
+                        taxonomy_5: black
+                        taxonomy_6: m4_diameter
+                        taxonomy_7: 18_mm_length
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        url_chat: https://chatgpt.com/c/6a075991-6f70-83eb-a855-93b8dd861a24
+                    file_output: label_oomp.svg
+                    file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: grub
+            taxonomy_4: hex_head
+            taxonomy_5: black
+            taxonomy_6: m4_diameter
+            taxonomy_7: 18_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: https://chatgpt.com/c/6a075991-6f70-83eb-a855-93b8dd861a24
+        file_output: label_bolt_image.svg
+        file_template: source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+oomp_key: oomp_hardware_screw_grub_hex_head_black_m4_diameter_18_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: screw
+taxonomy_2_capital: Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: sc
+taxonomy_2_length_3: scr
+taxonomy_2_length_4: scre
+taxonomy_2_length_5: screw
+taxonomy_2_upper: SCREW
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: SC
+taxonomy_2_upper_length_3: SCR
+taxonomy_2_upper_length_4: SCRE
+taxonomy_2_upper_length_5: SCREW
+taxonomy_3: grub
+taxonomy_3_capital: Grub
+taxonomy_3_first_letter: g
+taxonomy_3_first_letter_upper: G
+taxonomy_3_length_1: g
+taxonomy_3_length_2: gr
+taxonomy_3_length_3: gru
+taxonomy_3_length_4: grub
+taxonomy_3_length_5: grub
+taxonomy_3_upper: GRUB
+taxonomy_3_upper_length_1: G
+taxonomy_3_upper_length_2: GR
+taxonomy_3_upper_length_3: GRU
+taxonomy_3_upper_length_4: GRUB
+taxonomy_3_upper_length_5: GRUB
+taxonomy_4: hex_head
+taxonomy_4_capital: Hex Head
+taxonomy_4_first_letter: h
+taxonomy_4_first_letter_upper: H
+taxonomy_4_length_1: h
+taxonomy_4_length_2: he
+taxonomy_4_length_3: hex
+taxonomy_4_length_4: hex_
+taxonomy_4_length_5: hex_h
+taxonomy_4_upper: HEX_HEAD
+taxonomy_4_upper_length_1: H
+taxonomy_4_upper_length_2: HE
+taxonomy_4_upper_length_3: HEX
+taxonomy_4_upper_length_4: HEX_
+taxonomy_4_upper_length_5: HEX_H
+taxonomy_5: black
+taxonomy_5_capital: Black
+taxonomy_5_first_letter: b
+taxonomy_5_first_letter_upper: B
+taxonomy_5_length_1: b
+taxonomy_5_length_2: bl
+taxonomy_5_length_3: bla
+taxonomy_5_length_4: blac
+taxonomy_5_length_5: black
+taxonomy_5_upper: BLACK
+taxonomy_5_upper_length_1: B
+taxonomy_5_upper_length_2: BL
+taxonomy_5_upper_length_3: BLA
+taxonomy_5_upper_length_4: BLAC
+taxonomy_5_upper_length_5: BLACK
+taxonomy_6: m4_diameter
+taxonomy_6_capital: M4 Diameter
+taxonomy_6_first_letter: m
+taxonomy_6_first_letter_upper: M
+taxonomy_6_length_1: m
+taxonomy_6_length_2: m4
+taxonomy_6_length_3: m4_
+taxonomy_6_length_4: m4_d
+taxonomy_6_length_5: m4_di
+taxonomy_6_upper: M4_DIAMETER
+taxonomy_6_upper_length_1: M
+taxonomy_6_upper_length_2: M4
+taxonomy_6_upper_length_3: M4_
+taxonomy_6_upper_length_4: M4_D
+taxonomy_6_upper_length_5: M4_DI
+taxonomy_7: 18_mm_length
+taxonomy_7_capital: 18 mm Length
+taxonomy_7_first_letter: '1'
+taxonomy_7_first_letter_upper: '1'
+taxonomy_7_length_1: '1'
+taxonomy_7_length_2: '18'
+taxonomy_7_length_3: '18_'
+taxonomy_7_length_4: 18_m
+taxonomy_7_length_5: 18_mm
+taxonomy_7_upper: 18_MM_LENGTH
+taxonomy_7_upper_length_1: '1'
+taxonomy_7_upper_length_2: '18'
+taxonomy_7_upper_length_3: '18_'
+taxonomy_7_upper_length_4: 18_M
+taxonomy_7_upper_length_5: 18_MM
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: https://chatgpt.com/c/6a075991-6f70-83eb-a855-93b8dd861a24

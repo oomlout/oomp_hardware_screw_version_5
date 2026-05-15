@@ -1,0 +1,310 @@
+bip_39_2_word_array:
+- danger
+- glide
+bip_39_2_word_no_space: dangerglide
+bip_39_2_word_space: danger glide
+bip_39_2_word_underscore: danger_glide
+bip_39_3_word_array:
+- danger
+- glide
+- upset
+bip_39_3_word_no_space: dangerglideupset
+bip_39_3_word_space: danger glide upset
+bip_39_3_word_underscore: danger_glide_upset
+bip_39_full_array:
+- danger
+- glide
+- upset
+- lecture
+- shift
+- lumber
+- during
+- crucial
+- fetch
+- trouble
+- panther
+- accident
+bip_39_full_no_space: dangerglideupsetlectureshiftlumberduringcrucialfetchtroublepantheraccident
+bip_39_full_space: danger glide upset lecture shift lumber during crucial fetch trouble
+    panther accident
+bip_39_full_underscore: danger_glide_upset_lecture_shift_lumber_during_crucial_fetch_trouble_panther_accident
+directory: parts/hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_16_mm_length
+generate_stl: false
+id: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_16_mm_length
+id_no_class: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_16_mm_length
+id_no_size: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_16_mm_length
+id_no_type: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_16_mm_length
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_16_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_16_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_16_mm_length
+md5: 376c63bcbf8c5d09d109a3555d227f00
+md5_10: 376c63bcbf
+md5_10_upper: 376C63BCBF
+md5_5: 376c6
+md5_5_upper: 376C6
+md5_6: 376c63
+md5_6_alpha: 25un7
+md5_6_alpha_upper: 25UN7
+md5_6_upper: 376C63
+name: Hardware Screw Countersunk Pozidriv Bright Zinc Plated M4 Diameter 16 Mm Length
+name_no_class: Hardware Screw Countersunk Pozidriv Bright Zinc Plated M4 Diameter
+    16 Mm Length
+name_no_size: Hardware Screw Countersunk Pozidriv Bright Zinc Plated M4 Diameter 16
+    Mm Length
+name_no_type: Hardware Screw Countersunk Pozidriv Bright Zinc Plated M4 Diameter 16
+    Mm Length
+name_proper: Hardware Screw Countersunk Pozidriv Bright Zinc Plated M4 Diameter 16
+    Mm Length
+name_space: hardware screw countersunk pozidriv bright zinc plated m4 diameter 16
+    mm length
+name_upper: HARDWARE SCREW COUNTERSUNK POZIDRIV BRIGHT ZINC PLATED M4 DIAMETER 16
+    MM LENGTH
+oobb_details:
+    drive_style: pozidriv
+    length: 16_mm_length
+    oobb_name: screw
+    screw_colour: bright_zinc_plated
+    screw_style: countersunk
+    thread_size: m4_diameter
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_16_mm_length
+            name: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_16_mm_length
+            name_proper: Hardware Screw Countersunk Pozidriv Bright Zinc Plated M4
+                Diameter 16 Mm Length
+            name_space: hardware screw countersunk pozidriv bright zinc plated m4
+                diameter 16 mm length
+            name_upper: HARDWARE SCREW COUNTERSUNK POZIDRIV BRIGHT ZINC PLATED M4
+                DIAMETER 16 MM LENGTH
+            oobb_details:
+                drive_style: pozidriv
+                length: 16_mm_length
+                oobb_name: screw
+                screw_colour: bright_zinc_plated
+                screw_style: countersunk
+                thread_size: m4_diameter
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: countersunk
+            taxonomy_4: pozidriv
+            taxonomy_5: bright_zinc_plated
+            taxonomy_6: m4_diameter
+            taxonomy_7: 16_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: https://chatgpt.com/c/6a047037-ff28-8391-9ca8-a6b664f6e374
+        file_output: label_oomp.svg
+        file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_16_mm_length
+            name: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_16_mm_length
+            name_proper: Hardware Screw Countersunk Pozidriv Bright Zinc Plated M4
+                Diameter 16 Mm Length
+            name_space: hardware screw countersunk pozidriv bright zinc plated m4
+                diameter 16 mm length
+            name_upper: HARDWARE SCREW COUNTERSUNK POZIDRIV BRIGHT ZINC PLATED M4
+                DIAMETER 16 MM LENGTH
+            oobb_details:
+                drive_style: pozidriv
+                length: 16_mm_length
+                oobb_name: screw
+                screw_colour: bright_zinc_plated
+                screw_style: countersunk
+                thread_size: m4_diameter
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_16_mm_length
+                        name: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_16_mm_length
+                        name_proper: Hardware Screw Countersunk Pozidriv Bright Zinc
+                            Plated M4 Diameter 16 Mm Length
+                        name_space: hardware screw countersunk pozidriv bright zinc
+                            plated m4 diameter 16 mm length
+                        name_upper: HARDWARE SCREW COUNTERSUNK POZIDRIV BRIGHT ZINC
+                            PLATED M4 DIAMETER 16 MM LENGTH
+                        oobb_details:
+                            drive_style: pozidriv
+                            length: 16_mm_length
+                            oobb_name: screw
+                            screw_colour: bright_zinc_plated
+                            screw_style: countersunk
+                            thread_size: m4_diameter
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: screw
+                        taxonomy_3: countersunk
+                        taxonomy_4: pozidriv
+                        taxonomy_5: bright_zinc_plated
+                        taxonomy_6: m4_diameter
+                        taxonomy_7: 16_mm_length
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        url_chat: https://chatgpt.com/c/6a047037-ff28-8391-9ca8-a6b664f6e374
+                    file_output: label_oomp.svg
+                    file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: countersunk
+            taxonomy_4: pozidriv
+            taxonomy_5: bright_zinc_plated
+            taxonomy_6: m4_diameter
+            taxonomy_7: 16_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: https://chatgpt.com/c/6a047037-ff28-8391-9ca8-a6b664f6e374
+        file_output: label_bolt_image.svg
+        file_template: source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+oomp_key: oomp_hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_16_mm_length
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: screw
+taxonomy_2_capital: Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: sc
+taxonomy_2_length_3: scr
+taxonomy_2_length_4: scre
+taxonomy_2_length_5: screw
+taxonomy_2_upper: SCREW
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: SC
+taxonomy_2_upper_length_3: SCR
+taxonomy_2_upper_length_4: SCRE
+taxonomy_2_upper_length_5: SCREW
+taxonomy_3: countersunk
+taxonomy_3_capital: Countersunk
+taxonomy_3_first_letter: c
+taxonomy_3_first_letter_upper: C
+taxonomy_3_length_1: c
+taxonomy_3_length_2: co
+taxonomy_3_length_3: cou
+taxonomy_3_length_4: coun
+taxonomy_3_length_5: count
+taxonomy_3_upper: COUNTERSUNK
+taxonomy_3_upper_length_1: C
+taxonomy_3_upper_length_2: CO
+taxonomy_3_upper_length_3: COU
+taxonomy_3_upper_length_4: COUN
+taxonomy_3_upper_length_5: COUNT
+taxonomy_4: pozidriv
+taxonomy_4_capital: Pozidriv
+taxonomy_4_first_letter: p
+taxonomy_4_first_letter_upper: P
+taxonomy_4_length_1: p
+taxonomy_4_length_2: po
+taxonomy_4_length_3: poz
+taxonomy_4_length_4: pozi
+taxonomy_4_length_5: pozid
+taxonomy_4_upper: POZIDRIV
+taxonomy_4_upper_length_1: P
+taxonomy_4_upper_length_2: PO
+taxonomy_4_upper_length_3: POZ
+taxonomy_4_upper_length_4: POZI
+taxonomy_4_upper_length_5: POZID
+taxonomy_5: bright_zinc_plated
+taxonomy_5_capital: Bright Zinc Plated
+taxonomy_5_first_letter: b
+taxonomy_5_first_letter_upper: B
+taxonomy_5_length_1: b
+taxonomy_5_length_2: br
+taxonomy_5_length_3: bri
+taxonomy_5_length_4: brig
+taxonomy_5_length_5: brigh
+taxonomy_5_upper: BRIGHT_ZINC_PLATED
+taxonomy_5_upper_length_1: B
+taxonomy_5_upper_length_2: BR
+taxonomy_5_upper_length_3: BRI
+taxonomy_5_upper_length_4: BRIG
+taxonomy_5_upper_length_5: BRIGH
+taxonomy_6: m4_diameter
+taxonomy_6_capital: M4 Diameter
+taxonomy_6_first_letter: m
+taxonomy_6_first_letter_upper: M
+taxonomy_6_length_1: m
+taxonomy_6_length_2: m4
+taxonomy_6_length_3: m4_
+taxonomy_6_length_4: m4_d
+taxonomy_6_length_5: m4_di
+taxonomy_6_upper: M4_DIAMETER
+taxonomy_6_upper_length_1: M
+taxonomy_6_upper_length_2: M4
+taxonomy_6_upper_length_3: M4_
+taxonomy_6_upper_length_4: M4_D
+taxonomy_6_upper_length_5: M4_DI
+taxonomy_7: 16_mm_length
+taxonomy_7_capital: 16 mm Length
+taxonomy_7_first_letter: '1'
+taxonomy_7_first_letter_upper: '1'
+taxonomy_7_length_1: '1'
+taxonomy_7_length_2: '16'
+taxonomy_7_length_3: '16_'
+taxonomy_7_length_4: 16_m
+taxonomy_7_length_5: 16_mm
+taxonomy_7_upper: 16_MM_LENGTH
+taxonomy_7_upper_length_1: '1'
+taxonomy_7_upper_length_2: '16'
+taxonomy_7_upper_length_3: '16_'
+taxonomy_7_upper_length_4: 16_M
+taxonomy_7_upper_length_5: 16_MM
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: https://chatgpt.com/c/6a047037-ff28-8391-9ca8-a6b664f6e374
