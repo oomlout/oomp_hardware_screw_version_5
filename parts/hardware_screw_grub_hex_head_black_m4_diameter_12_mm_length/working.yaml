@@ -1189,3 +1189,34 @@ taxonomy_7_upper_length_5: 12_MM
 taxonomy_8: ''
 taxonomy_9: ''
 url_chat: https://chatgpt.com/c/6a074ceb-f3c0-83eb-ba83-617de9ebb758
+# BEGIN GENERATED LABEL_DRAWER
+label_drawer: &id001
+  code: SC
+  thread: M4
+  length: '12'
+  name: Grub screw
+  diagram: <path d="M2 5V9 M2 7H4"/><path d="M2 5H18V9H2"/><path d="M3 5L2 9 M5 5L4
+    9 M7 5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+  description: Grub screw / M4 / 12 mm / Hex socket / Black
+  name_lines:
+  - Grub screw
+  name_size: 3.2
+  detail_lines:
+  - Hex socket / Black
+  detail_size: 2.05
+  detail_y: 24.1
+  thread_size: 6.5
+  length_size: 7.8
+  length_x: 18.02234375
+oomlout_ai_roboclick_4:
+  actions:
+  - command: text_jinja_template
+    description: label_drawer
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_output: label_drawer.svg
+    dict_data:
+      label_drawer: *id001
+    convert_to_pdf: false
+    convert_to_png: false
+  file_test: ''
+# END GENERATED LABEL_DRAWER

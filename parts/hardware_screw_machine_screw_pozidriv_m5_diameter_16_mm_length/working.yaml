@@ -1175,3 +1175,35 @@ taxonomy_7_upper_length_5: 16_MM
 taxonomy_8: ''
 taxonomy_9: ''
 url_chat: https://chatgpt.com/c/6a0bf2e5-6dcc-83eb-9666-71a110437459
+# BEGIN GENERATED LABEL_DRAWER
+label_drawer: &id001
+  code: SC
+  thread: M5
+  length: '16'
+  name: Machine screw
+  diagram: <path d="M2 3H6V11H2Z M2 6H2.8V8H2"/><path d="M6 5H18V9H6"/><path d="M7
+    5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+  description: Machine screw / M5 / 16 mm / Pozidriv
+  name_lines:
+  - Machine
+  - screw
+  name_size: 3.2
+  detail_lines:
+  - Pozidriv
+  detail_size: 2.05
+  detail_y: 24.1
+  thread_size: 6.5
+  length_size: 7.8
+  length_x: 18.02234375
+oomlout_ai_roboclick_4:
+  actions:
+  - command: text_jinja_template
+    description: label_drawer
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_output: label_drawer.svg
+    dict_data:
+      label_drawer: *id001
+    convert_to_pdf: false
+    convert_to_png: false
+  file_test: ''
+# END GENERATED LABEL_DRAWER
