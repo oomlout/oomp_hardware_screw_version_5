@@ -1203,6 +1203,11 @@ label_drawer: &id001
   name: Wood screw
   diagram: <path d="M2 3H6V11H2Z M2 6H2.8V8H2"/><path d="M6 5H15L19 7L15 9H6"/><path
     d="M7 5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9"/>
+  drive_symbol: <circle cx="5" cy="5" r="4.5" fill="#ffffff"/><path d="M4 1.7H6V4H8.3V6H6V8.3H4V6H1.7V4H4Z"
+    fill="#000000"/><path d="M1.9 1.9L3.3 3.3 M6.7 6.7L8.1 8.1 M1.9 8.1L3.3 6.7 M6.7
+    3.3L8.1 1.9" stroke="#000000" stroke-width="0.5"/>
+  bip39: blame seminar people
+  bip39_size: 2.142
   description: Wood screw / M5 / 16 mm / Pozidriv / Bright zinc plated
   name_lines:
   - Wood screw
@@ -1211,7 +1216,7 @@ label_drawer: &id001
   - Pozidriv
   - Bright zinc plated
   detail_size: 2.05
-  detail_y: 21.900000000000002
+  detail_y: 18.900000000000002
   thread_size: 6.5
   length_size: 7.8
   length_x: 18.02234375

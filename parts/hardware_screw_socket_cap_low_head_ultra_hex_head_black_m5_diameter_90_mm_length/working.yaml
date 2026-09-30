@@ -1209,6 +1209,10 @@ label_drawer: &id001
   name: Ultra low head socket cap screw
   diagram: <path d="M4.5 3H6V11H4.5Z M4.5 6H5.3V8H4.5"/><path d="M6 5H18V9H6"/><path
     d="M7 5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+  drive_symbol: <circle cx="5" cy="5" r="4.5" fill="#ffffff"/><path d="M5 1L8.46 3V7L5
+    9L1.54 7V3Z" transform="translate(1.5 1.5) scale(0.7)" fill="#000000"/>
+  bip39: tennis dream okay
+  bip39_size: 2.35
   description: Ultra low head socket cap screw / M5 / 90 mm / Hex socket / Black
   name_lines:
   - Ultra low head
@@ -1217,7 +1221,7 @@ label_drawer: &id001
   detail_lines:
   - Hex socket / Black
   detail_size: 2.05
-  detail_y: 24.1
+  detail_y: 21.1
   thread_size: 6.5
   length_size: 7.8
   length_x: 18.02234375

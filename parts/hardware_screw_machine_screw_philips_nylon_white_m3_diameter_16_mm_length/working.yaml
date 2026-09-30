@@ -1204,6 +1204,10 @@ label_drawer: &id001
   name: Machine screw
   diagram: <path d="M2 3H6V11H2Z M2 6H2.8V8H2"/><path d="M6 5H18V9H6"/><path d="M7
     5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+  drive_symbol: <circle cx="5" cy="5" r="4.5" fill="#ffffff"/><path d="M4 1.7H6V4H8.3V6H6V8.3H4V6H1.7V4H4Z"
+    fill="#000000"/>
+  bip39: loud ceiling velvet
+  bip39_size: 2.35
   description: Machine screw / M3 / 16 mm / Phillips / Nylon white
   name_lines:
   - Machine
@@ -1212,7 +1216,7 @@ label_drawer: &id001
   detail_lines:
   - Phillips / Nylon white
   detail_size: 2.05
-  detail_y: 24.1
+  detail_y: 21.1
   thread_size: 6.5
   length_size: 7.8
   length_x: 18.02234375

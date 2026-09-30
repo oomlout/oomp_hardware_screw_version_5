@@ -1203,6 +1203,10 @@ label_drawer: &id001
   name: Self-tapping screw
   diagram: <path d="M2 3H6V11H2Z M2 6H2.8V8H2"/><path d="M6 5H15L19 7L15 9H6"/><path
     d="M7 5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9"/>
+  drive_symbol: <circle cx="5" cy="5" r="4.5" fill="#ffffff"/><path d="M4 1.7H6V4H8.3V6H6V8.3H4V6H1.7V4H4Z"
+    fill="#000000"/>
+  bip39: census clarify morning
+  bip39_size: 2.055
   description: Self-tapping screw / M1.4 / 5 mm / Phillips / Black
   name_lines:
   - Self-tapping
@@ -1211,7 +1215,7 @@ label_drawer: &id001
   detail_lines:
   - Phillips / Black
   detail_size: 2.05
-  detail_y: 24.1
+  detail_y: 21.1
   thread_size: 4.408
   length_size: 7.8
   length_x: 20.191353125
