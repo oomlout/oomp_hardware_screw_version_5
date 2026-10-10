@@ -33,6 +33,10 @@ def run(**kwargs):
         import working_oomp
         working_oomp.main(**kwargs)
 
+    if kwargs.get("run_svg", True):
+        import working_svg
+        working_svg.main(**kwargs)
+
     if kwargs.get("run_scad", True):        
         kwargs2 = copy.deepcopy(kwargs)
         if kwargs.get("generate_stl", False):

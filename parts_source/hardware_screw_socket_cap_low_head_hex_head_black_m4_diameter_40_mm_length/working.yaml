@@ -5,6 +5,23 @@ oobb_details:
   screw_colour: black
   screw_style: socket_cap_low_head
   thread_size: m4_diameter
+svg_details:
+  diameter_mm: 4.0
+  drive_style: hex_head
+  drive_symbol_gap_mm: 2.4
+  head_diameter_mm: 6.8
+  head_rim_mm: 0.3
+  length_mm: 40.0
+  screw_style: socket_cap_low_head
+  socket_depth_mm: 1.3
+  socket_width_mm: 2.6
+  stylesheet: project_bolt
+  svg_name: screw_diagrams
+  thread_pitch_mm: 0.7
+  variants:
+    plain: diagram_plain.svg
+    solid: diagram_solid.svg
+    threaded: diagram_threaded.svg
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -20,3 +37,9 @@ taxonomy_6: m4_diameter
 taxonomy_7: 40_mm_length
 taxonomy_8: ''
 taxonomy_9: ''
+generator_label_details:
+  schema_version: 1
+  geometry_file: generator_label.json
+  svg_file: generator_label.svg
+  title: M4 × 40
+  source: Catalogue diagram_solid.svg

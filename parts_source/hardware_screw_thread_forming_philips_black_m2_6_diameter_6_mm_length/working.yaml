@@ -5,6 +5,23 @@ oobb_details:
   screw_colour: black
   screw_style: thread_forming
   thread_size: m2_6_diameter
+svg_details:
+  diameter_mm: 2.6
+  drive_style: philips
+  drive_symbol_gap_mm: 1.56
+  head_diameter_mm: 5.2
+  head_rim_mm: 0.195
+  length_mm: 6.0
+  screw_style: thread_forming
+  socket_depth_mm: 0.8450000000000001
+  socket_width_mm: 1.6900000000000002
+  stylesheet: project_bolt
+  svg_name: screw_diagrams
+  thread_pitch_mm: 1.04
+  variants:
+    plain: diagram_plain.svg
+    solid: diagram_solid.svg
+    threaded: diagram_threaded.svg
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -20,3 +37,9 @@ taxonomy_6: m2_6_diameter
 taxonomy_7: 6_mm_length
 taxonomy_8: ''
 taxonomy_9: ''
+generator_label_details:
+  schema_version: 1
+  geometry_file: generator_label.json
+  svg_file: generator_label.svg
+  title: M2.6 × 6
+  source: Catalogue diagram_solid.svg

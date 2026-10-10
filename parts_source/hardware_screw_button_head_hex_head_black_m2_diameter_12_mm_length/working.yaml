@@ -5,6 +5,23 @@ oobb_details:
   screw_colour: black
   screw_style: button_head
   thread_size: m2_diameter
+svg_details:
+  diameter_mm: 2.0
+  drive_style: hex_head
+  drive_symbol_gap_mm: 1.2
+  head_diameter_mm: 4.0
+  head_rim_mm: 0.15
+  length_mm: 12.0
+  screw_style: button_head
+  socket_depth_mm: 0.65
+  socket_width_mm: 1.3
+  stylesheet: project_bolt
+  svg_name: screw_diagrams
+  thread_pitch_mm: 0.4
+  variants:
+    plain: diagram_plain.svg
+    solid: diagram_solid.svg
+    threaded: diagram_threaded.svg
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -20,3 +37,9 @@ taxonomy_6: m2_diameter
 taxonomy_7: 12_mm_length
 taxonomy_8: ''
 taxonomy_9: ''
+generator_label_details:
+  schema_version: 1
+  geometry_file: generator_label.json
+  svg_file: generator_label.svg
+  title: M2 × 12
+  source: Catalogue diagram_solid.svg

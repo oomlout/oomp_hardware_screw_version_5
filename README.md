@@ -34,7 +34,45 @@ python working.py
 python action_make_all.py
 ```
 
-From the source files, `working.py` orchestrates the populate, metadata, SCAD, and action steps.
+From the source files, `working.py` orchestrates the populate, metadata, SVG, SCAD, and action steps.
+
+## Per-part screw diagrams
+
+Population attaches `svg_details` to every screw definition. The local
+`working_svg.py` stage reads these persisted recipes after OOMP creates the
+part folders and saves `diagram_threaded.svg`, `diagram_plain.svg` and
+`diagram_solid.svg` in each `parts/<full_oomp_id>/` folder. All variants share
+the same length-specific profile; the threaded variant adds constant-pitch
+marks. Line drawings show the drive geometry inside a circle beside the screw;
+solid drawings use a filled silhouette and the filled drive geometry alone.
+Hex, Phillips and Pozidriv glyphs follow the part's stored drive type.
+New parts and sizes
+are included automatically on the next `python working.py` run.
+
+These are schematic side elevations in millimetres. Countersunk length includes
+the head; other headed screws use length below the head. Appearance is loaded
+dynamically from the shared working_svg `project_bolt` stylesheet using `opsvg`.
+The `hardware-diagram` group contains native millimetre paths for consumers,
+with identity, dimensions, drive type and variant recorded in SVG metadata.
+`profile_bounds` describes the screw alone; `artwork_bounds` includes the drive
+symbol and should be used by consumers to centre and fit the complete artwork.
+Solid fills resolve dynamically through the `diagram.solid` stylesheet style.
+
+Regenerate saved recipes without CAD work:
+
+```powershell
+python working_svg.py
+```
+
+To add recipes to existing metadata without running full population:
+
+```powershell
+python working_svg_screw_diagrams.py --update-metadata --filter "hardware_screw_countersunk_hex_head_black_m2_diameter_*"
+```
+
+The migration changes only `svg_details` in `parts_source` and `parts` metadata.
+Normal population defines recipes in `working_oomp_populate.py`; customize
+profiles in `working_svg_screw_diagrams.py`.
 
 ## Repository Structure
 

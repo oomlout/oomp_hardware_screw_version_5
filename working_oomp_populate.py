@@ -1,6 +1,7 @@
 import copy
 
 from oomp_populate_helper import write_extras, build_oomp_id
+from working_svg_screw_diagrams import add_definition as add_svg_diagram_definition
 from working_oomp_populate_countersunk import generate as generate_countersunk
 from working_oomp_populate_countersunk_pozi import generate as generate_countersunk_pozi
 from working_oomp_populate_countersunk_philips import generate as generate_countersunk_philips
@@ -86,6 +87,7 @@ def main(**kwargs):
             oobb_details["screw_style"] = option.get("taxonomy_3", "default")
             oobb_details["screw_colour"] = option.get("taxonomy_5", "default")
             option["oobb_details"] = oobb_details
+            add_svg_diagram_definition(option)
 
     #define loop parts here
     if False:
