@@ -1,0 +1,2790 @@
+{
+  "repaired": 348,
+  "backup_directory": "C:\\gh\\oomp_hardware_screw_version_5\\metadata_recovery_backups\\20261012_083907_b956ayww",
+  "parts": [
+    {
+      "part": "hardware_screw_button_head_hex_head_black_m2_5_diameter_25_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65377,
+      "restored_bytes": 239955,
+      "original_sha256": "f8db62737393f6947778a6f84506f5c7e4e0ddcaf381b23612a0986c3384a048",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_button_head_hex_head_black_m2_5_diameter_25_mm_length\\working.yaml: invalid YAML at line 999, column 66: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_button_head_hex_head_black_m2_5_diameter_4_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24550,
+      "restored_bytes": 239710,
+      "original_sha256": "68d421ffc8747f96520942085cf54db8e69dc0545efbcabd57b82af89ff0c16b",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_button_head_hex_head_black_m2_5_diameter_4_mm_length\\working.yaml: invalid YAML at line 357, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_button_head_hex_head_black_m2_5_diameter_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 239734,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_button_head_hex_head_black_m2_5_diameter_5_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_button_head_hex_head_black_m2_diameter_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8186,
+      "restored_bytes": 239322,
+      "original_sha256": "3497fa84211e462c7291d40c22647258ddd0501c3143495bdee781897ba919b9",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_button_head_hex_head_black_m2_diameter_5_mm_length\\working.yaml: invalid YAML at line 146, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_button_head_hex_head_black_m3_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65407,
+      "restored_bytes": 240227,
+      "original_sha256": "8165285b088be50d60b11e79da5fc1cd10203ba0c59e392ef01afbd9f69fbe98",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_button_head_hex_head_black_m3_diameter_16_mm_length\\working.yaml: invalid YAML at line 1001, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_button_head_hex_head_black_m3_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8136,
+      "restored_bytes": 240335,
+      "original_sha256": "9f33fde022dec169eca8ec570966186db216ce022dedb191a06d24e40c90f060",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_button_head_hex_head_black_m3_diameter_20_mm_length\\working.yaml: invalid YAML at line 145, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_button_head_hex_head_black_m3_diameter_30_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8132,
+      "restored_bytes": 240327,
+      "original_sha256": "17cc8a476f2cb96118096f1dd276a485a0b785cc8986579d5187b25eea820dff",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_button_head_hex_head_black_m3_diameter_30_mm_length\\working.yaml: invalid YAML at line 145, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_button_head_hex_head_black_m4_diameter_18_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24478,
+      "restored_bytes": 240099,
+      "original_sha256": "111c941fb9173f7fe27e1758b9db3109824b027e29fb1bee915a75123f46eb6c",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_button_head_hex_head_black_m4_diameter_18_mm_length\\working.yaml: invalid YAML at line 356, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_button_head_hex_head_black_m4_diameter_22_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65390,
+      "restored_bytes": 240101,
+      "original_sha256": "252d91812a03e66adcebc581b2f1ef6b87f6eb7e088b577dc04fe04ecf9a856f",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_button_head_hex_head_black_m4_diameter_22_mm_length\\working.yaml: invalid YAML at line 1002, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_button_head_hex_head_black_m4_diameter_30_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8171,
+      "restored_bytes": 239925,
+      "original_sha256": "cd1214edc5d0550d6f5dc7ed1c397d8591971c33b28ef9f6a86c95e6cccba072",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_button_head_hex_head_black_m4_diameter_30_mm_length\\working.yaml: invalid YAML at line 146, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_button_head_hex_head_black_m4_diameter_35_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65422,
+      "restored_bytes": 239929,
+      "original_sha256": "0312289eef4bbaa4e420b9509582bdca00e7aa2f58e486f5d237c565aea80e51",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_button_head_hex_head_black_m4_diameter_35_mm_length\\working.yaml: invalid YAML at line 1003, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_button_head_hex_head_black_m5_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8126,
+      "restored_bytes": 240427,
+      "original_sha256": "aa92ebd64710864ecea08a2f3737e29e53d0daaf2f0eada01029b74cc326178c",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_button_head_hex_head_black_m5_diameter_12_mm_length\\working.yaml: invalid YAML at line 145, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_button_head_hex_head_black_m5_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73584,
+      "restored_bytes": 240357,
+      "original_sha256": "d285b570d95be63479ec556a77ed5a2f85aa564eccde2d212a944fcc248afb9e",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_button_head_hex_head_black_m5_diameter_16_mm_length\\working.yaml: invalid YAML at line 1099, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_button_head_hex_head_black_m5_diameter_30_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8143,
+      "restored_bytes": 240461,
+      "original_sha256": "35f0fb5bc72ce68c4dad4f20af49680ed36c27ce6de895a97d5557affe61ffca",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_button_head_hex_head_black_m5_diameter_30_mm_length\\working.yaml: invalid YAML at line 145, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_button_head_hex_head_black_m5_diameter_35_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8185,
+      "restored_bytes": 240403,
+      "original_sha256": "49f75c8e90844b6562c2c937a4336f3af61ca2b249fe017a3306795001a3b456",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_button_head_hex_head_black_m5_diameter_35_mm_length\\working.yaml: invalid YAML at line 146, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_button_head_hex_head_black_m6_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8124,
+      "restored_bytes": 240999,
+      "original_sha256": "e7f401f660eabe9b2df2cf1cd49cc0358060893630fa7712ac28c266e37c4671",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_button_head_hex_head_black_m6_diameter_20_mm_length\\working.yaml: invalid YAML at line 145, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_button_head_hex_head_black_m6_diameter_40_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65402,
+      "restored_bytes": 240913,
+      "original_sha256": "6016606fd53fa420411c832bab267fa61a54752d7698b9c198439c12afad2dd9",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_button_head_hex_head_black_m6_diameter_40_mm_length\\working.yaml: invalid YAML at line 1004, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_button_head_hex_head_black_m6_diameter_45_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24475,
+      "restored_bytes": 241005,
+      "original_sha256": "26b3031a073c7f3c211a690af5069d0a2350a235b908b33157b421ebcac56e8c",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_button_head_hex_head_black_m6_diameter_45_mm_length\\working.yaml: invalid YAML at line 356, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24540,
+      "restored_bytes": 299583,
+      "original_sha256": "389bb41f9d748da19648e53108eb5dfc1ce98c6bac95805babe3cab35c852047",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length\\working.yaml: invalid YAML at line 366, column 78: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8192,
+      "restored_bytes": 262394,
+      "original_sha256": "0c341d142d5433136773b1eadbe6a4d5096c5857ced6a8a77d015406077e8386",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length\\working.yaml: invalid YAML at line 146, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_countersunk_hex_head_black_m4_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 258203,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_hex_head_black_m4_diameter_10_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_countersunk_hex_head_black_m4_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73629,
+      "restored_bytes": 260867,
+      "original_sha256": "f54081100af5f6c1e3b512779238292b10d45287ef9c64f357a90d3aa0d27339",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_hex_head_black_m4_diameter_12_mm_length\\working.yaml: invalid YAML at line 1124, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_countersunk_hex_head_black_m4_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8142,
+      "restored_bytes": 260811,
+      "original_sha256": "cd3ce127bc522b577fa743ad289e9242a17efc4e162ad37251ac55e18de1684d",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_hex_head_black_m4_diameter_16_mm_length\\working.yaml: invalid YAML at line 151, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_countersunk_hex_head_black_m4_diameter_25_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24529,
+      "restored_bytes": 260953,
+      "original_sha256": "4a91de54b3802ba6fa6d452782050a7e2d264f5fbe584650f1886f734cd21dcb",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_hex_head_black_m4_diameter_25_mm_length\\working.yaml: invalid YAML at line 366, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_countersunk_hex_head_black_m4_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 260634,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_hex_head_black_m4_diameter_8_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_countersunk_philips_black_m1_4_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65349,
+      "restored_bytes": 168812,
+      "original_sha256": "7e4764c371a822c33c2018544943a139fbac988d0ddd73831a81595cfe19739e",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_philips_black_m1_4_diameter_10_mm_length\\working.yaml: invalid YAML at line 897, column 54: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_countersunk_philips_black_m1_4_diameter_3_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8181,
+      "restored_bytes": 168607,
+      "original_sha256": "0d1217e9a0b6f316ec9176a51415a856d44eac41a7f7b7b1b218b68c50b3dcbd",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_philips_black_m1_4_diameter_3_mm_length\\working.yaml: invalid YAML at line 146, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_countersunk_philips_black_m1_4_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 168545,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_philips_black_m1_4_diameter_8_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_countersunk_philips_black_m1_6_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8191,
+      "restored_bytes": 250330,
+      "original_sha256": "5205756a5c32949f54b8f8ae6e659d1f0931d9ecdb217c057dbf594515d352b9",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_philips_black_m1_6_diameter_10_mm_length\\working.yaml: invalid YAML at line 145, column 82: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_countersunk_philips_black_m1_6_diameter_3_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 250075,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_philips_black_m1_6_diameter_3_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_countersunk_philips_black_m2_diameter_18_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8147,
+      "restored_bytes": 251636,
+      "original_sha256": "ccd0230ec15c97f65f36e2b66ed34815958a362c16b52b822c2362b98b26a40f",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_philips_black_m2_diameter_18_mm_length\\working.yaml: invalid YAML at line 146, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_countersunk_philips_black_m2_diameter_30_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 251574,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_philips_black_m2_diameter_30_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_countersunk_philips_black_m2_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8163,
+      "restored_bytes": 251431,
+      "original_sha256": "eed1a6f922ce119305b2ecf4bf2dbf4dbb3915b05be858ee73217ed84d2f27d2",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_philips_black_m2_diameter_8_mm_length\\working.yaml: invalid YAML at line 146, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_countersunk_pozidriv_bright_zinc_plated_m2_5_diameter_6_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 254123,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m2_5_diameter_6_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_countersunk_pozidriv_bright_zinc_plated_m3_5_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8136,
+      "restored_bytes": 253852,
+      "original_sha256": "aff300e0eb6b6bb9f5dd7b8e5f56f6b31a38a40eff4a4365f355b21c4d177053",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m3_5_diameter_12_mm_length\\working.yaml: invalid YAML at line 149, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_countersunk_pozidriv_bright_zinc_plated_m3_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73613,
+      "restored_bytes": 255334,
+      "original_sha256": "3fcb99036af72e5b6639731fe0000622259fb81f838451fe6f03bdb95e536c88",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m3_diameter_10_mm_length\\working.yaml: invalid YAML at line 1104, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65411,
+      "restored_bytes": 255066,
+      "original_sha256": "0c43c70ad54f733cddcec862a8e9946feaa36d3b22baefa5faed0e0d2db89937",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_20_mm_length\\working.yaml: invalid YAML at line 1010, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_25_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65395,
+      "restored_bytes": 255034,
+      "original_sha256": "72f15ad438ac497c99a5597f44cd4b7e1d443c14de102a160263a899ec0e2b3d",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_25_mm_length\\working.yaml: invalid YAML at line 1010, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_30_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 255066,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m4_diameter_30_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_countersunk_pozidriv_bright_zinc_plated_m5_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 180448,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m5_diameter_12_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_countersunk_pozidriv_bright_zinc_plated_m5_diameter_14_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8133,
+      "restored_bytes": 180462,
+      "original_sha256": "ef8fe600b1ae21a55c09d4f46b21cf60d931b94c967e32765d60bb6f026c2769",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m5_diameter_14_mm_length\\working.yaml: invalid YAML at line 149, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_countersunk_pozidriv_bright_zinc_plated_m5_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8144,
+      "restored_bytes": 180462,
+      "original_sha256": "9b073b001346e0aed769550df8041bf724781d415c3cdbc98cef75b6547d9c9e",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m5_diameter_16_mm_length\\working.yaml: invalid YAML at line 149, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_countersunk_pozidriv_bright_zinc_plated_m5_diameter_25_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65462,
+      "restored_bytes": 180376,
+      "original_sha256": "7250adcaa6d5e13e048df60996d5411376e95bf3c0f67c577d684b0ad8aa6524",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m5_diameter_25_mm_length\\working.yaml: invalid YAML at line 1011, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_countersunk_pozidriv_bright_zinc_plated_m5_diameter_35_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 180522,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m5_diameter_35_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_countersunk_pozidriv_bright_zinc_plated_m5_diameter_70_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24485,
+      "restored_bytes": 180434,
+      "original_sha256": "c72b406bec67e6c24523cd26c106b0925150ed424a90208be52ed923637179a2",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m5_diameter_70_mm_length\\working.yaml: invalid YAML at line 359, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_countersunk_pozidriv_bright_zinc_plated_m5_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73608,
+      "restored_bytes": 180430,
+      "original_sha256": "66c2163b17efda41837a3197df9d0c99b84270ae7ab27686f9f276a0f75ea04f",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m5_diameter_8_mm_length\\working.yaml: invalid YAML at line 1105, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_100_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 181064,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_100_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8187,
+      "restored_bytes": 180756,
+      "original_sha256": "e1f6917f9b76a0a43334ea9acddc5d23bba1dd13936756b497b44d6192929cb8",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_10_mm_length\\working.yaml: invalid YAML at line 150, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73602,
+      "restored_bytes": 180824,
+      "original_sha256": "b2790adf2bd73beefd8b5614f4496fe37003deded57db86eb0a1b4be1f3affc4",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_16_mm_length\\working.yaml: invalid YAML at line 1103, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m2_5_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8179,
+      "restored_bytes": 178398,
+      "original_sha256": "7fed303d719cd313d4f13b8830c9e7e03514a44fd5a0097f22f2fe764c0f108b",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m2_5_diameter_10_mm_length\\working.yaml: invalid YAML at line 147, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m2_5_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178536,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m2_5_diameter_12_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m2_5_diameter_14_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65439,
+      "restored_bytes": 178458,
+      "original_sha256": "15f3d0a57f4b457815b862495c1e09d235c199f97ed45ceb641c825d017348e9",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m2_5_diameter_14_mm_length\\working.yaml: invalid YAML at line 1008, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m2_5_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8150,
+      "restored_bytes": 178512,
+      "original_sha256": "0a990fc8297e6a66868137b097993c2bbb7eb9251b9eb7df496eab449a84a688",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m2_5_diameter_16_mm_length\\working.yaml: invalid YAML at line 146, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m2_5_diameter_22_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73533,
+      "restored_bytes": 178506,
+      "original_sha256": "a5ac737b4504cc2c3d9e223032c4a75d0784c55ea6b15d555d87ed897f387ddd",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m2_5_diameter_22_mm_length\\working.yaml: invalid YAML at line 1102, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m2_5_diameter_25_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73527,
+      "restored_bytes": 178494,
+      "original_sha256": "d2a4e2b75276b811bf7020cd69a4d96ce0d3105e11599d5dc4d9905c48b50c03",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m2_5_diameter_25_mm_length\\working.yaml: invalid YAML at line 1102, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m2_5_diameter_3_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8187,
+      "restored_bytes": 178322,
+      "original_sha256": "2ab6bfd87aab41017a587d99e01c371ee9a24815bcf27d962b221b358d5ac789",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m2_5_diameter_3_mm_length\\working.yaml: invalid YAML at line 147, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m2_5_diameter_4_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8126,
+      "restored_bytes": 178372,
+      "original_sha256": "99e49f6aea9a0af15d99ced666bb6304f99f317ff28f3893248d43d0c58c9d52",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m2_5_diameter_4_mm_length\\working.yaml: invalid YAML at line 146, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m2_5_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65445,
+      "restored_bytes": 178338,
+      "original_sha256": "b9842f0cf9bfe84e857c657ea1efe84e35841ed4526c4709e9a8168812745ffa",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m2_5_diameter_8_mm_length\\working.yaml: invalid YAML at line 1009, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m2_diameter_14_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65340,
+      "restored_bytes": 178006,
+      "original_sha256": "800e76cd4c393a89307a9c5fbece6a2ef41a78e222961bda391df1944ea5a5a1",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m2_diameter_14_mm_length\\working.yaml: invalid YAML at line 1004, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m2_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8126,
+      "restored_bytes": 178184,
+      "original_sha256": "16c8ed30b4e948591b715291bc1b9bd1ad1be2c685d361d54e5302bc856116c1",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m2_diameter_16_mm_length\\working.yaml: invalid YAML at line 146, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m2_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8182,
+      "restored_bytes": 178150,
+      "original_sha256": "381f0a14f4b54b7ee38cb73fe5739c9af3f6cc68b0a9f286217d4d75364fe93d",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m2_diameter_20_mm_length\\working.yaml: invalid YAML at line 147, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m2_diameter_22_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178234,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m2_diameter_22_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m2_diameter_4_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65329,
+      "restored_bytes": 178074,
+      "original_sha256": "21efff7647c648463151b9702581994183177a1d9d5ab4bf0e0819b1e041d857",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m2_diameter_4_mm_length\\working.yaml: invalid YAML at line 1002, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m2_diameter_6_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24528,
+      "restored_bytes": 177972,
+      "original_sha256": "db4b42fc709011baed6899ad62b3be5f876751c62a403fa9c05dc5e801225188",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m2_diameter_6_mm_length\\working.yaml: invalid YAML at line 356, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m3_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65436,
+      "restored_bytes": 178794,
+      "original_sha256": "c8d5d3904dd7d65112b6bb85f0934ce40ff571b558843a52b948c343491424cd",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m3_diameter_12_mm_length\\working.yaml: invalid YAML at line 1011, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m3_diameter_14_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178824,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m3_diameter_14_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m3_diameter_22_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8190,
+      "restored_bytes": 178808,
+      "original_sha256": "73fb28cf9cf379e79c495028fdd417a7fff518b64f0cd3a0ebc0e6ac02b3a197",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m3_diameter_22_mm_length\\working.yaml: invalid YAML at line 147, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m3_diameter_25_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24576,
+      "restored_bytes": 178814,
+      "original_sha256": "da5fa04849d812c84bd796fed5bf1e5ee3d4e2195914ebb93cc1f192c9f4b32f",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m3_diameter_25_mm_length\\working.yaml: invalid YAML at line 357, column 25: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m3_diameter_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65368,
+      "restored_bytes": 178730,
+      "original_sha256": "05a5455b37b4db59478c0880fbeae03f1190edfee8e111afe01df3912023ea7e",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m3_diameter_5_mm_length\\working.yaml: invalid YAML at line 1009, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m4_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24564,
+      "restored_bytes": 178372,
+      "original_sha256": "e96434151d150725ca1e5e1115ef0b72d86faca01f9196fb4bb0fe200e701f0e",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m4_diameter_10_mm_length\\working.yaml: invalid YAML at line 357, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m4_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 49065,
+      "restored_bytes": 178384,
+      "original_sha256": "b0e1eff6aea2c991cc647285da09584ecfa756d9e742c0557d68f42bc763d62c",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m4_diameter_12_mm_length\\working.yaml: invalid YAML at line 807, column 54: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m4_diameter_14_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178314,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m4_diameter_14_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m4_diameter_25_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73655,
+      "restored_bytes": 178354,
+      "original_sha256": "b72af4822542d48377b8fa7a35b57a4ccff3462dacf3f13663e8a7bff251439e",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m4_diameter_25_mm_length\\working.yaml: invalid YAML at line 1108, column 37: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m4_diameter_40_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24528,
+      "restored_bytes": 178424,
+      "original_sha256": "14f18da56bd21b52e6f7c37f65f277d0457a13d084adf1cfa525701b18c90afc",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m4_diameter_40_mm_length\\working.yaml: invalid YAML at line 356, column 25: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m4_diameter_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8176,
+      "restored_bytes": 178136,
+      "original_sha256": "510295c854873739ebc57553792e64c34d6fa22ddf4e1d7e9512c5ea42f1e4f8",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m4_diameter_5_mm_length\\working.yaml: invalid YAML at line 147, column 41: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m4_diameter_6_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178188,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m4_diameter_6_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m4_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65378,
+      "restored_bytes": 178182,
+      "original_sha256": "3585cb1aa88a5707549d927db9b697ae91f3468f4e896cd00a4a1d4f0d9e0324",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m4_diameter_8_mm_length\\working.yaml: invalid YAML at line 1011, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m5_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178376,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m5_diameter_12_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m5_diameter_14_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178444,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m5_diameter_14_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m5_diameter_22_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178390,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m5_diameter_22_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m5_diameter_25_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178494,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m5_diameter_25_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m5_diameter_40_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65445,
+      "restored_bytes": 178376,
+      "original_sha256": "3a101f122c3bcce1c6829ec88ca823b698fed0c647d984db73f51d899abad981",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m5_diameter_40_mm_length\\working.yaml: invalid YAML at line 1012, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m5_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178218,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m5_diameter_8_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m6_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8177,
+      "restored_bytes": 178750,
+      "original_sha256": "0d08433fec3e98b86745f3dbef6acf58ee017a7db39f05b4d770b512523b0dd5",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m6_diameter_10_mm_length\\working.yaml: invalid YAML at line 147, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m6_diameter_14_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24572,
+      "restored_bytes": 178774,
+      "original_sha256": "2a3e51217ed40ccdb17088bb2f030f6163877e6e7969acfa56b39134ebffb133",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m6_diameter_14_mm_length\\working.yaml: invalid YAML at line 357, column 25: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m6_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24528,
+      "restored_bytes": 178858,
+      "original_sha256": "e2cc1c723fc784a8926492414a4ee23164d640a4f9573458ddc27515b8584180",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m6_diameter_20_mm_length\\working.yaml: invalid YAML at line 356, column 25: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m6_diameter_22_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24526,
+      "restored_bytes": 178680,
+      "original_sha256": "b01a201a6ac7721d40f6b4cce343b2b4a24d028965694d6c4e13f7be88cc44f3",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m6_diameter_22_mm_length\\working.yaml: invalid YAML at line 357, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m6_diameter_35_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65434,
+      "restored_bytes": 178806,
+      "original_sha256": "0160689c5ec2502c408f26ed56a0522e5817c1527271c30e8cc08a2cfadb1d59",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m6_diameter_35_mm_length\\working.yaml: invalid YAML at line 1010, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m6_diameter_45_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8140,
+      "restored_bytes": 178848,
+      "original_sha256": "c688917c16f09a8e2f38da9e6a91a110ee0c9637d395fbf61482100e82c5d2b7",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m6_diameter_45_mm_length\\working.yaml: invalid YAML at line 146, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_flat_head_philips_black_m6_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8181,
+      "restored_bytes": 178470,
+      "original_sha256": "b1979a2ae45e76598eec2d3c0e35b42662efc994ccae645c99f767bfb9c61a12",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_flat_head_philips_black_m6_diameter_8_mm_length\\working.yaml: invalid YAML at line 147, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m1_6_diameter_2_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73627,
+      "restored_bytes": 176866,
+      "original_sha256": "7d4f87f4e8582f05226ca571ecde2c8ef3b4055fe3183c99f904a69b2fb349bd",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m1_6_diameter_2_5_mm_length\\working.yaml: invalid YAML at line 1092, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m1_6_diameter_3_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 176616,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m1_6_diameter_3_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m1_6_diameter_4_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 176732,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m1_6_diameter_4_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m1_6_diameter_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 176732,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m1_6_diameter_5_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m2_5_diameter_14_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65422,
+      "restored_bytes": 176880,
+      "original_sha256": "4ca5fe1b006d4cd8092c1b5e1ea06f3acdf7c8046d24188db46409421ff69407",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m2_5_diameter_14_mm_length\\working.yaml: invalid YAML at line 998, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m2_5_diameter_2_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73576,
+      "restored_bytes": 176910,
+      "original_sha256": "c4c00bab34f318f002f50fcc4d17a40314819272dfb6fc38c807e9e1aa225094",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m2_5_diameter_2_5_mm_length\\working.yaml: invalid YAML at line 1092, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m2_5_diameter_4_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73517,
+      "restored_bytes": 176728,
+      "original_sha256": "efa5efcf3d3f3317e298fa150d2a0bbcd6e1168e9f1b1e02ff40cddfbd63a214",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m2_5_diameter_4_mm_length\\working.yaml: invalid YAML at line 1093, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m2_5_diameter_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 176814,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m2_5_diameter_5_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m2_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65411,
+      "restored_bytes": 176652,
+      "original_sha256": "1b6f19e8fa70f3df8e5188fd217b3b40a198585a3a56da29054b42e7b5625782",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m2_diameter_10_mm_length\\working.yaml: invalid YAML at line 999, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m2_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 176734,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m2_diameter_12_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m2_diameter_14_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8171,
+      "restored_bytes": 176592,
+      "original_sha256": "6d8a937326852bd4e2dd041aff0f7d520e97c543261bdda269d644353fb25aa5",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m2_diameter_14_mm_length\\working.yaml: invalid YAML at line 146, column 41: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m2_diameter_2_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8187,
+      "restored_bytes": 176794,
+      "original_sha256": "9c7109381bc399fda2add6d6233564fd7c42f21f6d3b60f4972cddbf6a074290",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m2_diameter_2_5_mm_length\\working.yaml: invalid YAML at line 146, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m2_diameter_6_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8192,
+      "restored_bytes": 176480,
+      "original_sha256": "77c8895e5eca9eab7bd2ab1ce22fab8ad887fdb1bd3c7fdfc6e9b33918629b4f",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m2_diameter_6_mm_length\\working.yaml: invalid YAML at line 146, column 41: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m3_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8187,
+      "restored_bytes": 177066,
+      "original_sha256": "9b2cac6e5b2ae248708f870d630818f534654df0d7a469b7dbd9d7d9713ba47d",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m3_diameter_12_mm_length\\working.yaml: invalid YAML at line 147, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m3_diameter_14_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73612,
+      "restored_bytes": 177076,
+      "original_sha256": "97df14dda865a4c2dd2c2fb7d71e037582e192ad84357ff462adb3d52aff1f06",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m3_diameter_14_mm_length\\working.yaml: invalid YAML at line 1100, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m3_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 177202,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m3_diameter_16_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m3_diameter_3_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8156,
+      "restored_bytes": 176966,
+      "original_sha256": "f045e28bd4d1327476c6ca6d66ecabb6504ef995ea4ff7ba7d5d5e58218edfe5",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m3_diameter_3_mm_length\\working.yaml: invalid YAML at line 146, column 41: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m3_diameter_4_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 176950,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m3_diameter_4_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m4_diameter_14_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8191,
+      "restored_bytes": 176656,
+      "original_sha256": "744037a8bd125acdc1126466bb7b90dc8f45054e4de598cd58c5c12a45293fa8",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m4_diameter_14_mm_length\\working.yaml: invalid YAML at line 146, column 80: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m4_diameter_3_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65438,
+      "restored_bytes": 176552,
+      "original_sha256": "0f5d1ae4e0babdf41c40237a920fb041f7260ddb6453fb649ab1898612af38d6",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m4_diameter_3_mm_length\\working.yaml: invalid YAML at line 1007, column 69: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m4_diameter_4_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8167,
+      "restored_bytes": 176438,
+      "original_sha256": "43a1d21bfb4df1d50103da1716073a4490606abcbe2b7dfc40b63b9915142f45",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m4_diameter_4_mm_length\\working.yaml: invalid YAML at line 147, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m4_diameter_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65462,
+      "restored_bytes": 176662,
+      "original_sha256": "c7c75655a1301052fde9ce937050b811dd406b9a769ad61f5dd8a4dff14cfcbc",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m4_diameter_5_mm_length\\working.yaml: invalid YAML at line 1007, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m4_diameter_6_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 176502,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m4_diameter_6_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m5_diameter_14_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73592,
+      "restored_bytes": 176604,
+      "original_sha256": "33d27c9e2d0569dab97bf1e51d9e8bc10462b1a53f04500e29cad1984f7badde",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m5_diameter_14_mm_length\\working.yaml: invalid YAML at line 1101, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m5_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 176584,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m5_diameter_16_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m5_diameter_18_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8156,
+      "restored_bytes": 176684,
+      "original_sha256": "256ed9aa02004b2b48f14fe3d98514bb623cceece2df7908a26738b1c7ade5f7",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m5_diameter_18_mm_length\\working.yaml: invalid YAML at line 146, column 41: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m5_diameter_35_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65421,
+      "restored_bytes": 176732,
+      "original_sha256": "fd577d2c171f16d3c4e2d50e112123b76b142189a15cb7d5979f05868bf8e7e1",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m5_diameter_35_mm_length\\working.yaml: invalid YAML at line 1005, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m5_diameter_4_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8172,
+      "restored_bytes": 176584,
+      "original_sha256": "6166123b3dbe1c57a2c6b15c947e5a46308d6531b0aa4bebac6fa0d8164913ca",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m5_diameter_4_mm_length\\working.yaml: invalid YAML at line 146, column 41: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m5_diameter_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 176606,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m5_diameter_5_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m6_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24571,
+      "restored_bytes": 177088,
+      "original_sha256": "5baa602b4a02377b9a92d05117bdc3cc2a3ee00c02e4a74d7fed4dfdf929fbb5",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m6_diameter_10_mm_length\\working.yaml: invalid YAML at line 356, column 64: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m6_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65484,
+      "restored_bytes": 177076,
+      "original_sha256": "e735b56aa34f45b5b51a8545aea597b91e60029066a31b8b0fe59fa00e6decc4",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m6_diameter_12_mm_length\\working.yaml: invalid YAML at line 1007, column 69: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m6_diameter_14_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 177198,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m6_diameter_14_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m6_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65467,
+      "restored_bytes": 177104,
+      "original_sha256": "70ad1eb4803a59d8758f604772764d3aad0361207dca84146664ca2727928f4b",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m6_diameter_20_mm_length\\working.yaml: invalid YAML at line 1007, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m6_diameter_40_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65430,
+      "restored_bytes": 177208,
+      "original_sha256": "03aff4fb4227daba827b8fc2f36fa197ea53e813072ae0087889d56f166dee95",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m6_diameter_40_mm_length\\working.yaml: invalid YAML at line 1006, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_black_m6_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 177064,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_black_m6_diameter_8_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m1_6_diameter_2_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178090,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m1_6_diameter_2_5_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m1_6_diameter_4_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24512,
+      "restored_bytes": 177888,
+      "original_sha256": "a805d19e9811f3f0ddaa9ee5d502cf7e8de4607df6f929eb6c980218ea4eb759",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m1_6_diameter_4_mm_length\\working.yaml: invalid YAML at line 355, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m2_5_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65429,
+      "restored_bytes": 178154,
+      "original_sha256": "589b6642d606facd50ee57c6db719411b4f8ee4b9392994cee1646707fc6d2b2",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m2_5_diameter_10_mm_length\\working.yaml: invalid YAML at line 999, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m2_5_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24546,
+      "restored_bytes": 178196,
+      "original_sha256": "036cd9bb530ba2f2a21e914bd1ca96bf66aeec1386f68f48a0016d8cd35791e4",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m2_5_diameter_12_mm_length\\working.yaml: invalid YAML at line 355, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m2_5_diameter_14_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178086,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m2_5_diameter_14_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m2_5_diameter_3_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 177956,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m2_5_diameter_3_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m2_5_diameter_4_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24550,
+      "restored_bytes": 177916,
+      "original_sha256": "12bcf2060646926de36b735c80534926ef167d634cc0fca42a9f5413ce7e3d80",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m2_5_diameter_4_mm_length\\working.yaml: invalid YAML at line 356, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m2_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65400,
+      "restored_bytes": 177760,
+      "original_sha256": "69abaae469906f4b368ff7891e8d92a496fbee49c99358bf12132f2909be5fb0",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m2_diameter_10_mm_length\\working.yaml: invalid YAML at line 1001, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m2_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24523,
+      "restored_bytes": 177786,
+      "original_sha256": "70642b0a62c492916ca1eb27e13cffccd6708d0424a8f98bc3fde8ba6028bf1c",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m2_diameter_12_mm_length\\working.yaml: invalid YAML at line 356, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m2_diameter_2_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73548,
+      "restored_bytes": 177636,
+      "original_sha256": "4e9ab0bc5e668977a3d952b262b99273978c238b28d1ca54c54e39bbeb679d4b",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m2_diameter_2_mm_length\\working.yaml: invalid YAML at line 1096, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m2_diameter_3_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73532,
+      "restored_bytes": 177604,
+      "original_sha256": "588fda002505e949121345fb680cbec1ced6d3d07e80f1e7b057055b69bfae51",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m2_diameter_3_mm_length\\working.yaml: invalid YAML at line 1096, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m2_diameter_4_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73539,
+      "restored_bytes": 177618,
+      "original_sha256": "b28a18fdc228cc20c1796dbf7caffd7cbfb28a47c9ffcaa2d39ce67445d23ead",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m2_diameter_4_mm_length\\working.yaml: invalid YAML at line 1096, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m2_diameter_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 177688,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m2_diameter_5_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m3_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24499,
+      "restored_bytes": 178450,
+      "original_sha256": "44547d00975bbd0e05befa88482db1b8023c2dc458e92fe9c48ef5b56802f17b",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m3_diameter_16_mm_length\\working.yaml: invalid YAML at line 355, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m3_diameter_18_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24566,
+      "restored_bytes": 178426,
+      "original_sha256": "e906411930471cb882a11b590180242aa83e9faf6d3138ec62cfc51329bc4448",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m3_diameter_18_mm_length\\working.yaml: invalid YAML at line 356, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m3_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8166,
+      "restored_bytes": 178342,
+      "original_sha256": "c12a26717b17c07f05319f69abc41955970068dc6c48cede045a8741cf149739",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m3_diameter_20_mm_length\\working.yaml: invalid YAML at line 145, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m3_diameter_2_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8182,
+      "restored_bytes": 178474,
+      "original_sha256": "54f958e9367a7b52e9d025ca044e57c5cafbe11fbdf3a6e3a1c9af07d946602e",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m3_diameter_2_5_mm_length\\working.yaml: invalid YAML at line 145, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m3_diameter_2_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65476,
+      "restored_bytes": 178302,
+      "original_sha256": "04c799e4d6acd16f97aa0d6ee71e3bec8e3af59ba9c21866e824a27df76e3bcd",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m3_diameter_2_mm_length\\working.yaml: invalid YAML at line 1006, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m3_diameter_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73594,
+      "restored_bytes": 178148,
+      "original_sha256": "8520ccb7b78c9c3375d1f3fe8df3fb272080149cae403c3561896ffe24db887d",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m3_diameter_5_mm_length\\working.yaml: invalid YAML at line 1101, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m3_diameter_6_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24544,
+      "restored_bytes": 178274,
+      "original_sha256": "5142cc1e9c917f5d9b9ebb425c66137093ec4837fad7d7f54af6201f6ee8d55d",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m3_diameter_6_mm_length\\working.yaml: invalid YAML at line 356, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m4_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178006,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m4_diameter_10_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m4_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8181,
+      "restored_bytes": 177942,
+      "original_sha256": "a0c4fab4c7376441b2d5f08170105836ce7dac21aed66e3e76647e27472122f2",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m4_diameter_16_mm_length\\working.yaml: invalid YAML at line 145, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m4_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65448,
+      "restored_bytes": 177956,
+      "original_sha256": "d6bd58a2cce4ba563032050f26736f4cae8e30bc72456fb1142c7e8a60734f5e",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m4_diameter_20_mm_length\\working.yaml: invalid YAML at line 1008, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m4_diameter_3_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 177794,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m4_diameter_3_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m4_diameter_6_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8161,
+      "restored_bytes": 177802,
+      "original_sha256": "1300a987028877dcca7663d7482fd251d2d6f20c58f476ccfd675e0dc2b712ca",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m4_diameter_6_mm_length\\working.yaml: invalid YAML at line 145, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m4_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 57221,
+      "restored_bytes": 177744,
+      "original_sha256": "485ac352c6e0dfaa81c679320ff981c543816cb558cdbb34ad8709ae8f51ebc7",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m4_diameter_8_mm_length\\working.yaml: invalid YAML at line 900, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m5_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65454,
+      "restored_bytes": 177946,
+      "original_sha256": "f5d54a8251c021c9211075b6a541ddb0ee70cc45a8769f0d67d41782d03a61fa",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m5_diameter_12_mm_length\\working.yaml: invalid YAML at line 1007, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m5_diameter_14_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 32703,
+      "restored_bytes": 177872,
+      "original_sha256": "739b99c0905a467cef2fe548820c83ea986f673eb1f4f37e25a7e8a3c8af1611",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m5_diameter_14_mm_length\\working.yaml: invalid YAML at line 476, column 30: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m5_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65444,
+      "restored_bytes": 177926,
+      "original_sha256": "dec2c28380410e10bab55894a1abf75246aff01b1f9378725dff898f4338d9ee",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m5_diameter_16_mm_length\\working.yaml: invalid YAML at line 1007, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m5_diameter_18_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65488,
+      "restored_bytes": 178014,
+      "original_sha256": "123e155d175f87f482f2d125cee2b3ce6d21021a1b937e03627e67cde8f252c4",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m5_diameter_18_mm_length\\working.yaml: invalid YAML at line 1007, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m5_diameter_30_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65413,
+      "restored_bytes": 178034,
+      "original_sha256": "5aa1690f90425206ad92794607833bed9a91b18dc4260a9fcd03d5ffcc67e674",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m5_diameter_30_mm_length\\working.yaml: invalid YAML at line 1006, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m5_diameter_35_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65401,
+      "restored_bytes": 177840,
+      "original_sha256": "b62bd655e8369221d24996bbaba75a366e5643aa727d66436f5d8ab0ae2b3aa1",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m5_diameter_35_mm_length\\working.yaml: invalid YAML at line 1007, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m5_diameter_3_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65411,
+      "restored_bytes": 177814,
+      "original_sha256": "b6dfcc8aa8963afac4fa913e09c14ae01b11ae2c0b7bec6147ea101edd9bc402",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m5_diameter_3_mm_length\\working.yaml: invalid YAML at line 1007, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m5_diameter_4_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65426,
+      "restored_bytes": 177718,
+      "original_sha256": "73f985eefec96ab13d7ff8d9be5f2d8b4a815294d2cf73761b4bbf07c985090d",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m5_diameter_4_mm_length\\working.yaml: invalid YAML at line 1007, column 64: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m5_diameter_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 177834,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m5_diameter_5_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m6_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65366,
+      "restored_bytes": 178476,
+      "original_sha256": "05355c983cf3cf32f9f39969a314855eaab710385fe21e2cbcf9fbbbdfa3cb9c",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m6_diameter_12_mm_length\\working.yaml: invalid YAML at line 1006, column 52: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m6_diameter_14_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178350,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m6_diameter_14_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m6_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178336,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m6_diameter_16_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m6_diameter_40_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178386,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m6_diameter_40_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_grub_hex_head_stainless_steel_m6_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24494,
+      "restored_bytes": 178210,
+      "original_sha256": "d9096383083bb2f85219c5e1c85154ffc8793c0078d4d5a799dad372dca3751f",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_grub_hex_head_stainless_steel_m6_diameter_8_mm_length\\working.yaml: invalid YAML at line 356, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_machine_screw_philips_nylon_white_m3_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65353,
+      "restored_bytes": 180363,
+      "original_sha256": "6c595dc900792ef16e6ce35fef89721108267b134b483a3ac43e0737dbb60e2a",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_philips_nylon_white_m3_diameter_16_mm_length\\working.yaml: invalid YAML at line 1009, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_machine_screw_philips_nylon_white_m3_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8192,
+      "restored_bytes": 180305,
+      "original_sha256": "1015687a7fdd00dc63864795e13c118819c6476d3b06b19c0240e8e81f3773e0",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_philips_nylon_white_m3_diameter_20_mm_length\\working.yaml: invalid YAML at line 146, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m2_diameter_4_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8185,
+      "restored_bytes": 177953,
+      "original_sha256": "cdb4cfecea37bba50829770865b51a9dc87f08cab5b6b313c985a49e8c006514",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m2_diameter_4_mm_length\\working.yaml: invalid YAML at line 147, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m2_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 177935,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m2_diameter_8_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m3_5_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8192,
+      "restored_bytes": 178153,
+      "original_sha256": "678a243cb0685deb099b8e366aa9d1a2a67f99906f9bc340f122e7927b3a66ed",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m3_5_diameter_20_mm_length\\working.yaml: invalid YAML at line 147, column 13: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m3_5_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178043,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m3_5_diameter_8_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m3_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24560,
+      "restored_bytes": 178673,
+      "original_sha256": "a7cfc5068c55f6ebd1e50768b0a8456645573eb3c5c38235a8e1c25688abc27b",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m3_diameter_10_mm_length\\working.yaml: invalid YAML at line 356, column 25: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m3_diameter_25_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178579,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m3_diameter_25_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m3_diameter_30_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178599,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m3_diameter_30_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m3_diameter_4_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65376,
+      "restored_bytes": 178457,
+      "original_sha256": "c5685cb8e8405929e4977c790bb24b6f2f8b7e719d2cfe8479286b6932f3f3f3",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m3_diameter_4_mm_length\\working.yaml: invalid YAML at line 1009, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m3_diameter_6_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24540,
+      "restored_bytes": 178721,
+      "original_sha256": "ae444564dc2002b92242984ac81ce1d2453e8cccd4ca4edf462ec6dd58418233",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m3_diameter_6_mm_length\\working.yaml: invalid YAML at line 355, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m3_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73592,
+      "restored_bytes": 178513,
+      "original_sha256": "367b0e937188c312503f10676fb3a2d46553ae6fbdb0d12bd1d77e579940954d",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m3_diameter_8_mm_length\\working.yaml: invalid YAML at line 1104, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m4_diameter_100_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65427,
+      "restored_bytes": 178405,
+      "original_sha256": "c168e916b3f25a8a3f96961214f579e2bac1ba0ee5b543f85123d5fc3d250e45",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m4_diameter_100_mm_length\\working.yaml: invalid YAML at line 1010, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m4_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8128,
+      "restored_bytes": 178217,
+      "original_sha256": "f5ac8b92aa51c8f925d8c9ee3c6494f882de23b5b0926099c5002aea06ac41c0",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m4_diameter_12_mm_length\\working.yaml: invalid YAML at line 146, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m4_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65371,
+      "restored_bytes": 178217,
+      "original_sha256": "b2226747cca8d92a8a77823a2c5c0f0d83d974354d720defe2685fa7e266eab0",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m4_diameter_16_mm_length\\working.yaml: invalid YAML at line 1008, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m4_diameter_35_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178283,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m4_diameter_35_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m4_diameter_60_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65401,
+      "restored_bytes": 178105,
+      "original_sha256": "1fb38f9e5ddd6e19638104f73e72855eabe7487971b910defd1fd5d3a36bc3ff",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m4_diameter_60_mm_length\\working.yaml: invalid YAML at line 1009, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m4_diameter_6_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8192,
+      "restored_bytes": 178087,
+      "original_sha256": "d96ea245a36740596bbf9465797f873988cf8a302c0a214ecc45c29f13b49e89",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m4_diameter_6_mm_length\\working.yaml: invalid YAML at line 147, column 13: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m4_diameter_70_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73544,
+      "restored_bytes": 178255,
+      "original_sha256": "de1eea5ec2fb2cd7fc6e6c19662ca2424646ea7a7f397fe4ab4d70650192e5c6",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m4_diameter_70_mm_length\\working.yaml: invalid YAML at line 1103, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m4_diameter_80_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65413,
+      "restored_bytes": 178203,
+      "original_sha256": "c576da28d30e281873ed9b7f44a028c144f9b73e4024a113d6dce5835adaf13c",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m4_diameter_80_mm_length\\working.yaml: invalid YAML at line 1009, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m4_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65377,
+      "restored_bytes": 178191,
+      "original_sha256": "f05ed07462ed7e956f580422bd0ab1280daa6fd7d27167c454b04dfdef51f364",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m4_diameter_8_mm_length\\working.yaml: invalid YAML at line 1008, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m4_diameter_90_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8170,
+      "restored_bytes": 178155,
+      "original_sha256": "0f7fba64ca937596a65b5ba746205961031837537f17164dd5e92a87533d9f8a",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m4_diameter_90_mm_length\\working.yaml: invalid YAML at line 147, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m5_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8186,
+      "restored_bytes": 178189,
+      "original_sha256": "ca7174552a79b691403462b72a62620546d5b19df302b629c74773ebfb272e56",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m5_diameter_20_mm_length\\working.yaml: invalid YAML at line 147, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m5_diameter_25_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178247,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m5_diameter_25_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m5_diameter_30_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178277,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m5_diameter_30_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m5_diameter_50_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8172,
+      "restored_bytes": 178161,
+      "original_sha256": "7172c4bac9d6b2f39cc8225d60d599dd1fbaf4e61c5c16f48cdcb39f293d12a6",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m5_diameter_50_mm_length\\working.yaml: invalid YAML at line 147, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m5_diameter_6_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178081,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m5_diameter_6_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m6_diameter_100_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8165,
+      "restored_bytes": 178769,
+      "original_sha256": "88948fb5ee7109401a1a21a5ff8a97a958e74e033416b8a0e35d7d456724eaf9",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m6_diameter_100_mm_length\\working.yaml: invalid YAML at line 146, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m6_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8124,
+      "restored_bytes": 178541,
+      "original_sha256": "8371dc0ce2ba82ce5ac5367c30d2204cc5d9a727963498378f14c5d925d9551a",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m6_diameter_10_mm_length\\working.yaml: invalid YAML at line 146, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m6_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65397,
+      "restored_bytes": 178443,
+      "original_sha256": "1f9d641930c7e9535c31536ceedfa2c9eaec3edf8891feb5674be063f0391a4f",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m6_diameter_12_mm_length\\working.yaml: invalid YAML at line 1003, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m6_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24569,
+      "restored_bytes": 178539,
+      "original_sha256": "f38781426cee03d1e354d7d055f755cee9c928166d39ffe054f030cb00209a99",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m6_diameter_16_mm_length\\working.yaml: invalid YAML at line 356, column 25: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m6_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65400,
+      "restored_bytes": 178449,
+      "original_sha256": "27a5fc9f4fd58431cb37c09caec57178a6613d7cbe3cce53d0320d18037317db",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m6_diameter_20_mm_length\\working.yaml: invalid YAML at line 1003, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m6_diameter_25_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178593,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m6_diameter_25_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m6_diameter_30_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178485,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m6_diameter_30_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m6_diameter_35_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178573,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m6_diameter_35_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m6_diameter_40_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178469,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m6_diameter_40_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_machine_screw_pozidriv_m6_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178393,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_machine_screw_pozidriv_m6_diameter_8_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_self_tapping_philips_black_m1_2_diameter_3_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8191,
+      "restored_bytes": 164670,
+      "original_sha256": "1e81e77276341d2838fcdda13d0759d15c8c5d074e96fa628caf50a838c0a07e",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_self_tapping_philips_black_m1_2_diameter_3_mm_length\\working.yaml: invalid YAML at line 145, column 82: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_self_tapping_philips_black_m1_2_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8181,
+      "restored_bytes": 164646,
+      "original_sha256": "f2e507737aae13dd516a6e871c067020936f99b127ecfc2472d9e09e6917411c",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_self_tapping_philips_black_m1_2_diameter_8_mm_length\\working.yaml: invalid YAML at line 146, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_self_tapping_philips_black_m1_7_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8158,
+      "restored_bytes": 164700,
+      "original_sha256": "7e64eaf5cb789a7a754e972b59cc3c1206707b50a85866710602ad105919b2cd",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_self_tapping_philips_black_m1_7_diameter_10_mm_length\\working.yaml: invalid YAML at line 146, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_self_tapping_philips_black_m1_7_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 164516,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_self_tapping_philips_black_m1_7_diameter_8_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_self_tapping_philips_black_m1_diameter_3_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65396,
+      "restored_bytes": 164328,
+      "original_sha256": "484fe72f14605869e1f2a45bd8784beb24f5d611dd00260e1718aedebe0e7081",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_self_tapping_philips_black_m1_diameter_3_mm_length\\working.yaml: invalid YAML at line 901, column 37: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_self_tapping_philips_black_m2_3_diameter_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65477,
+      "restored_bytes": 164970,
+      "original_sha256": "291dc97643ad5c507dc5dbbc4e761ac27bf00d5251745ad4056ef37adfa91f4a",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_self_tapping_philips_black_m2_3_diameter_5_mm_length\\working.yaml: invalid YAML at line 900, column 37: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_self_tapping_philips_black_m2_3_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65442,
+      "restored_bytes": 164900,
+      "original_sha256": "31785419d7abec8a4c62a651629bf48c14854333f619914d6c7ec7d71d420eb9",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_self_tapping_philips_black_m2_3_diameter_8_mm_length\\working.yaml: invalid YAML at line 900, column 37: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_self_tapping_philips_black_m2_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 164540,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_self_tapping_philips_black_m2_diameter_12_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_self_tapping_philips_black_m2_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8188,
+      "restored_bytes": 164330,
+      "original_sha256": "d81ff77382d98d4ad2ad7a2c364c662c6692f919e48bc7511b1db91bb14050c3",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_self_tapping_philips_black_m2_diameter_8_mm_length\\working.yaml: invalid YAML at line 147, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m2_5_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73572,
+      "restored_bytes": 181880,
+      "original_sha256": "a0be4f919de91d31657bcb4643daf7879528eb5153702419c4eae7f7d146dc02",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m2_5_diameter_20_mm_length\\working.yaml: invalid YAML at line 1123, column 69: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m2_5_diameter_4_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65428,
+      "restored_bytes": 177772,
+      "original_sha256": "9b16e07458f636a6ee81c99156245e1f5fe1e8a533f0302f252c31fe9070eb87",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m2_5_diameter_4_mm_length\\working.yaml: invalid YAML at line 1012, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m2_5_diameter_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 177724,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m2_5_diameter_5_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m2_5_diameter_6_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 181896,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m2_5_diameter_6_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m2_5_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8157,
+      "restored_bytes": 181862,
+      "original_sha256": "57a51305c93c4770fc9543cc2fa3d0c76f2a72af13517d72e50b0df9977919f9",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m2_5_diameter_8_mm_length\\working.yaml: invalid YAML at line 152, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m2_diameter_25_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 181694,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m2_diameter_25_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m2_diameter_3_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 177442,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m2_diameter_3_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m3_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73571,
+      "restored_bytes": 182288,
+      "original_sha256": "cee805f634e89a14443e741c6aa14b5e8aec86d79d4c79f92e421de205b531c1",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m3_diameter_20_mm_length\\working.yaml: invalid YAML at line 1153, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m3_diameter_35_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8169,
+      "restored_bytes": 178074,
+      "original_sha256": "88c2c41765803d2a5b1b53e836cccc85bcd2619dfab0a4a1f64684de589e64fd",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m3_diameter_35_mm_length\\working.yaml: invalid YAML at line 147, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m3_diameter_40_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8146,
+      "restored_bytes": 178196,
+      "original_sha256": "5b0eb2112f75a669706c7522bf4f812a877fc5f22decfa18b1d971be7dc68e18",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m3_diameter_40_mm_length\\working.yaml: invalid YAML at line 146, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m3_diameter_45_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65406,
+      "restored_bytes": 178162,
+      "original_sha256": "7e9db916d69f5be9c76bac56b0fc4f5a7903a45e0c999f612562f0403ebc0173",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m3_diameter_45_mm_length\\working.yaml: invalid YAML at line 1009, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m3_diameter_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65391,
+      "restored_bytes": 177966,
+      "original_sha256": "1201213b86b61c396ec942cb5a9c650e8486995836026c6fad6d7ef2a730ac18",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m3_diameter_5_mm_length\\working.yaml: invalid YAML at line 1042, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m3_diameter_60_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24541,
+      "restored_bytes": 178074,
+      "original_sha256": "ca3ec39da90885019713b4b8da48943465040fd25558e1f0a5c3ffb4f5779b8f",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m3_diameter_60_mm_length\\working.yaml: invalid YAML at line 359, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m3_diameter_6_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 182056,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m3_diameter_6_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m4_diameter_14_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8150,
+      "restored_bytes": 177714,
+      "original_sha256": "78a75a254df8d76465a3b48a3b6271c0bacfaf8f016df86ab86162ef88949229",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m4_diameter_14_mm_length\\working.yaml: invalid YAML at line 146, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m4_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 181868,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m4_diameter_16_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m4_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8163,
+      "restored_bytes": 181778,
+      "original_sha256": "dfd860f5e04c390555fbf1f8718376536cb0a304b62b20afbc89aff38607fadf",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m4_diameter_20_mm_length\\working.yaml: invalid YAML at line 152, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m4_diameter_35_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65417,
+      "restored_bytes": 177538,
+      "original_sha256": "2fec0efe533e0555dc5ff471960fe800c8cfc6d78d97f2da00058482e2ea4868",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m4_diameter_35_mm_length\\working.yaml: invalid YAML at line 1010, column 91: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m4_diameter_45_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 177632,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m4_diameter_45_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m4_diameter_65_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65432,
+      "restored_bytes": 177624,
+      "original_sha256": "0a867da0e2932d16183bb72b09d5fa30fa3f7a01ea75f3d57c0d698044332ee3",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m4_diameter_65_mm_length\\working.yaml: invalid YAML at line 1010, column 64: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m4_diameter_6_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65422,
+      "restored_bytes": 181528,
+      "original_sha256": "4ffd756c218a8f49b92950421fad0c84a6db6749428f5fcd48dba43ada8a34f9",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m4_diameter_6_mm_length\\working.yaml: invalid YAML at line 1025, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m4_diameter_70_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8171,
+      "restored_bytes": 177588,
+      "original_sha256": "fde37a330c207178c30e3f1259495dccf11ac7c444b09481983049b09271c670",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m4_diameter_70_mm_length\\working.yaml: invalid YAML at line 147, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m4_diameter_75_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8191,
+      "restored_bytes": 177628,
+      "original_sha256": "e8f56f6481cd6fc2878f1284b9ee27dbcdbf0ed35d0754661b1d4edee9886a81",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m4_diameter_75_mm_length\\working.yaml: invalid YAML at line 147, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m5_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8136,
+      "restored_bytes": 181812,
+      "original_sha256": "17ab1a333a0de8f5f1348ef70707cf995bd29f7d8a9ea7f9bc1949f4cbd99a93",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m5_diameter_10_mm_length\\working.yaml: invalid YAML at line 152, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m5_diameter_120_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 177814,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m5_diameter_120_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m5_diameter_14_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 177820,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m5_diameter_14_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m5_diameter_30_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73579,
+      "restored_bytes": 247712,
+      "original_sha256": "e345d9a057feb33661c435447f54bb1780390f2d65fd3cd45f43344bc856ab22",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m5_diameter_30_mm_length\\working.yaml: invalid YAML at line 1106, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m5_diameter_50_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24569,
+      "restored_bytes": 247662,
+      "original_sha256": "31faf3e521e0754573ed16e69713a25804e374ac06a892f4475614ea3fdfc6ed",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m5_diameter_50_mm_length\\working.yaml: invalid YAML at line 359, column 25: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m5_diameter_60_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8169,
+      "restored_bytes": 247854,
+      "original_sha256": "96f228c8a9167a2e277de1b21e343f8dd311acb699d4d57b6e59a07150722716",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m5_diameter_60_mm_length\\working.yaml: invalid YAML at line 147, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m5_diameter_70_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65430,
+      "restored_bytes": 247828,
+      "original_sha256": "779d7503f8d02a0e9ca03e9df4d20905601d4b1797a1f380daf7d66332a681c6",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m5_diameter_70_mm_length\\working.yaml: invalid YAML at line 1011, column 64: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m5_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 181670,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m5_diameter_8_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m6_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8191,
+      "restored_bytes": 182450,
+      "original_sha256": "a6eb7ab1e74051244c75fb9776812329474e8473dd5385ca8afd36d5d583aa1e",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m6_diameter_12_mm_length\\working.yaml: invalid YAML at line 151, column 83: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m6_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73551,
+      "restored_bytes": 182362,
+      "original_sha256": "c90f1fc2dfd8b3a749ef5bbf5b04798bd63f30d9409f294c51e3c7ca78109d2a",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m6_diameter_16_mm_length\\working.yaml: invalid YAML at line 1120, column 72: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m6_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8146,
+      "restored_bytes": 182294,
+      "original_sha256": "3aa578c31e76cb8e58dc0b938faa4ab701448a2e625f809a4d611bf654354c7c",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m6_diameter_20_mm_length\\working.yaml: invalid YAML at line 152, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m6_diameter_45_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65428,
+      "restored_bytes": 178058,
+      "original_sha256": "9215f477c75c11348575fd7f27895bf50f52551ae0b47c8a38dda4f5219d0d30",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m6_diameter_45_mm_length\\working.yaml: invalid YAML at line 1012, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m6_diameter_60_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178114,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m6_diameter_60_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m6_diameter_65_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24506,
+      "restored_bytes": 178046,
+      "original_sha256": "ea56bd66e39f2ed9b49b2418dd9435e49fdc75a3e6918358c7ecd514ef547912",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m6_diameter_65_mm_length\\working.yaml: invalid YAML at line 359, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m6_diameter_70_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65438,
+      "restored_bytes": 178174,
+      "original_sha256": "808d697f58e30b22ebe00cd332a01d22d29bececae5b66f98b33a2448d67e07a",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m6_diameter_70_mm_length\\working.yaml: invalid YAML at line 1011, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_hex_head_black_m6_diameter_80_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178114,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_hex_head_black_m6_diameter_80_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m2_5_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65328,
+      "restored_bytes": 177937,
+      "original_sha256": "e7b85bde155d010d4f6d8bf5e3feb7c6caccced1c8d58f3a074edb2470773821",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m2_5_diameter_10_mm_length\\working.yaml: invalid YAML at line 997, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m2_5_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178065,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m2_5_diameter_12_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m2_5_diameter_4_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73538,
+      "restored_bytes": 177895,
+      "original_sha256": "6dd3324cea87e66283ad59d99a37fbeba2e876a407d7c1df5ba002384122d53b",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m2_5_diameter_4_mm_length\\working.yaml: invalid YAML at line 1091, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m2_5_diameter_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8133,
+      "restored_bytes": 177871,
+      "original_sha256": "2cf9e24ccb388dda594ff018eed2326c64692a2be2575427e0914ddc3c9d1584",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m2_5_diameter_5_mm_length\\working.yaml: invalid YAML at line 147, column 13: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m2_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65421,
+      "restored_bytes": 177629,
+      "original_sha256": "04279da7dd96ed517196278b9c8bdab959af4223e2a82cd6578184f8f232cab8",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m2_diameter_10_mm_length\\working.yaml: invalid YAML at line 996, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m2_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 177721,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m2_diameter_12_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m2_diameter_14_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65456,
+      "restored_bytes": 177699,
+      "original_sha256": "c50bd4d9564fe8a962314cee5f6905e3da170c71336724f5c938216ca842cf88",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m2_diameter_14_mm_length\\working.yaml: invalid YAML at line 996, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m2_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8117,
+      "restored_bytes": 177755,
+      "original_sha256": "9b2873db9d3bb26e82b4812bfda898d99b6dd2f6cd64425a46d70fb249860825",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m2_diameter_16_mm_length\\working.yaml: invalid YAML at line 146, column 13: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m2_diameter_6_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 177517,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m2_diameter_6_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m2_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8130,
+      "restored_bytes": 177497,
+      "original_sha256": "5a65af141431aac48db489965abd2da3cc865e8f8f724ec826ae70195b40cf9d",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m2_diameter_8_mm_length\\working.yaml: invalid YAML at line 145, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m3_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178221,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m3_diameter_10_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m3_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65481,
+      "restored_bytes": 178155,
+      "original_sha256": "c867df4481dba338c337cee0b673389c2caabd936bd4f9b4b9854a6328a83f9e",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m3_diameter_16_mm_length\\working.yaml: invalid YAML at line 997, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m3_diameter_18_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8192,
+      "restored_bytes": 178211,
+      "original_sha256": "6c9c5ea17cf84ace81c4a60d5dd3076c8c7c21cb4ad34041bc0adb224027ce69",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m3_diameter_18_mm_length\\working.yaml: invalid YAML at line 147, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m3_diameter_25_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8145,
+      "restored_bytes": 178299,
+      "original_sha256": "82a5caa55947ea3bc0c6f5b71c62d77429a81222518460d852bae8065feb8f8d",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m3_diameter_25_mm_length\\working.yaml: invalid YAML at line 146, column 13: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m3_diameter_40_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8142,
+      "restored_bytes": 178293,
+      "original_sha256": "f51f88f44842a44cbcbbc43dbb6beace2ddc6e62f959df224f7b14a6f5a5b216",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m3_diameter_40_mm_length\\working.yaml: invalid YAML at line 146, column 13: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m3_diameter_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24542,
+      "restored_bytes": 178099,
+      "original_sha256": "3ddf33aa4ba4558ceec934e78c8c6e7a914d0a6fb1997cc4d5972d9b524a1d21",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m3_diameter_5_mm_length\\working.yaml: invalid YAML at line 356, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m3_diameter_60_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178251,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m3_diameter_60_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m4_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73619,
+      "restored_bytes": 177771,
+      "original_sha256": "46ffaa58ae2fdc5b02de3d0b1cb9a261a84e0edbea30b90202fab7837ed513e9",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m4_diameter_10_mm_length\\working.yaml: invalid YAML at line 1093, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m4_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8171,
+      "restored_bytes": 177687,
+      "original_sha256": "716f9269a64cb59bfc1f9ea8bcbbb45bdd4518ab0419075ba451cac07dba586e",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m4_diameter_12_mm_length\\working.yaml: invalid YAML at line 147, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m4_diameter_45_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73573,
+      "restored_bytes": 177785,
+      "original_sha256": "cfc21681d3f8d2729e4719a62a3457935669c19c84af9c2d88e09d8657cd4295",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m4_diameter_45_mm_length\\working.yaml: invalid YAML at line 1092, column 39: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m4_diameter_4_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65418,
+      "restored_bytes": 177711,
+      "original_sha256": "591eedfa8bf7c242cc991c11ef1d46ce0e693e9816798cbdb25c5718b4d399a8",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m4_diameter_4_mm_length\\working.yaml: invalid YAML at line 995, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m4_diameter_50_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 177789,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m4_diameter_50_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m4_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8149,
+      "restored_bytes": 177569,
+      "original_sha256": "02ca21dafea7589074a4112075087f062f498db8809f31f71cb0b5827ad59b4d",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m4_diameter_8_mm_length\\working.yaml: invalid YAML at line 145, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_100_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 177989,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_100_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73602,
+      "restored_bytes": 177851,
+      "original_sha256": "e30b66ae60f230232c177c8b56625e2fe9c3d8752df2ebe436626f69c77c98ee",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_10_mm_length\\working.yaml: invalid YAML at line 1093, column 39: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_110_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 177947,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_110_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65456,
+      "restored_bytes": 177725,
+      "original_sha256": "10564916629430b7ada621cbdfeba77ee96b6d9a4c67ba34d807b07e1ce65319",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_12_mm_length\\working.yaml: invalid YAML at line 999, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65463,
+      "restored_bytes": 177739,
+      "original_sha256": "6d40cf73943f63659efdacb26bbde9bbda5d5c8660b6a5b38eef534590e14031",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_16_mm_length\\working.yaml: invalid YAML at line 999, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_30_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65439,
+      "restored_bytes": 177909,
+      "original_sha256": "5a7129d81c7534c1d754d660896953bda77e3092ed4df3d29e7849708d2b22e0",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_30_mm_length\\working.yaml: invalid YAML at line 997, column 66: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_35_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24560,
+      "restored_bytes": 177775,
+      "original_sha256": "dcd3ed613c8108b58866a5eaec9cba6780362daf502716fc54ba3ea51fa54009",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_35_mm_length\\working.yaml: invalid YAML at line 358, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_45_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 177823,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_45_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_50_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 177887,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_50_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_6_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24550,
+      "restored_bytes": 177711,
+      "original_sha256": "b7a05d1204a9f1adaca290bb1db669ef710c9bd01070b35b2f5140adbdbd216c",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_6_mm_length\\working.yaml: invalid YAML at line 356, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_90_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8128,
+      "restored_bytes": 177861,
+      "original_sha256": "6aad9ee49a72c40ae061dac7ce0410cc1136c650fd73a93294f689e446d29314",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m5_diameter_90_mm_length\\working.yaml: invalid YAML at line 146, column 13: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m6_diameter_100_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24478,
+      "restored_bytes": 178469,
+      "original_sha256": "f1add0e5e7d16d9b9db249e74b564b27a419a658b8359b4f30b7c4bdf2350ad9",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m6_diameter_100_mm_length\\working.yaml: invalid YAML at line 357, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m6_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178253,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m6_diameter_12_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m6_diameter_30_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65457,
+      "restored_bytes": 178231,
+      "original_sha256": "3d0ed4dfb7d032e2a688aa94eec40519f9f834ef8b52f8dd6029feb8e8ab800d",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m6_diameter_30_mm_length\\working.yaml: invalid YAML at line 999, column 66: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m6_diameter_35_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178281,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m6_diameter_35_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m6_diameter_50_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178307,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m6_diameter_50_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m6_diameter_60_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73586,
+      "restored_bytes": 178355,
+      "original_sha256": "3a8c5454c15726d4b5b365b9a5ae8daab7f01715b42d8dcc8ce7d9550e8b3477",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m6_diameter_60_mm_length\\working.yaml: invalid YAML at line 1094, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m6_diameter_65_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73566,
+      "restored_bytes": 178315,
+      "original_sha256": "bf62740aa7b21007c96958eb3a77a5c8c8b145aa8432493036ce7b91b99ee41f",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m6_diameter_65_mm_length\\working.yaml: invalid YAML at line 1094, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_hex_head_black_m6_diameter_80_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24555,
+      "restored_bytes": 178255,
+      "original_sha256": "c1a1036a392e9e0ca1c4ac2fd74d238b6d00c6ac80d323d669e399bb3a842342",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_hex_head_black_m6_diameter_80_mm_length\\working.yaml: invalid YAML at line 358, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8182,
+      "restored_bytes": 178971,
+      "original_sha256": "60f121403ff9324c47622c878c6e267adf2b9f82e393cc4fa530edeb51f73fb1",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_12_mm_length\\working.yaml: invalid YAML at line 149, column 51: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65458,
+      "restored_bytes": 179171,
+      "original_sha256": "ddf85a4750ebf52fb350471f9bd9d79337102a6ce3ad8503c4d19b6c5fe75389",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_16_mm_length\\working.yaml: invalid YAML at line 995, column 52: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73638,
+      "restored_bytes": 179003,
+      "original_sha256": "15ddf60f3d0a581ec56a4ea38206ef6592d57ac31c5d4ecc0bbaece7a023ed5d",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_20_mm_length\\working.yaml: invalid YAML at line 1091, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_25_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8164,
+      "restored_bytes": 179031,
+      "original_sha256": "0f418e1886252493ac62076dfe5bee231c3c2440c4617a3d018e75225b1222a1",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_25_mm_length\\working.yaml: invalid YAML at line 149, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8166,
+      "restored_bytes": 178729,
+      "original_sha256": "91d64af67090d355201a92b95994e8049c7b229536880216a08c4446f5236ba0",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_diameter_10_mm_length\\working.yaml: invalid YAML at line 148, column 51: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178821,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_diameter_12_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65487,
+      "restored_bytes": 178877,
+      "original_sha256": "95e80b9351e84fe67ec4929ec851e7c2917e22d8553ec99f6643fa13a8451f96",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_diameter_16_mm_length\\working.yaml: invalid YAML at line 995, column 88: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24533,
+      "restored_bytes": 178839,
+      "original_sha256": "6770ec5ef2366e71f236debf14ee2cb1b9b74572dc1446f51565b36a48aac082",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_diameter_20_mm_length\\working.yaml: invalid YAML at line 358, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_diameter_25_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178717,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_diameter_25_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24545,
+      "restored_bytes": 179211,
+      "original_sha256": "c1e78bf7dd854a7fce9794b4fa8aa9d7c52407db13dc60ec08e48f3e777eced0",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_10_mm_length\\working.yaml: invalid YAML at line 358, column 84: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65482,
+      "restored_bytes": 179205,
+      "original_sha256": "d770ccc848d79d7a807b163f94b84f4cc3d07a39578ce32d9dccd6ace4d58bcd",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_12_mm_length\\working.yaml: invalid YAML at line 995, column 88: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 179329,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_16_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24565,
+      "restored_bytes": 179369,
+      "original_sha256": "911d5f292dfa5beb408928b674aa9a10794b175d4336b2b333a46ccdb9c05a42",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_20_mm_length\\working.yaml: invalid YAML at line 358, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_25_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 179323,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_25_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_35_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8179,
+      "restored_bytes": 179265,
+      "original_sha256": "36b615c7d6a362eff04a03a41a5817a3398e0991c5238cfbb13a8da6eb6c6109",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_35_mm_length\\working.yaml: invalid YAML at line 148, column 51: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_50_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73628,
+      "restored_bytes": 179307,
+      "original_sha256": "619d1e8822db93607c584d7b038922d01c980ac9e62e80b2367b38d2e2165106",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_50_mm_length\\working.yaml: invalid YAML at line 1091, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65442,
+      "restored_bytes": 179183,
+      "original_sha256": "ab1a4b7bd640d106cd263a90eea86a609e9e66ca449226aab3d031cd32ab040b",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_5_mm_length\\working.yaml: invalid YAML at line 996, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_6_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65447,
+      "restored_bytes": 179193,
+      "original_sha256": "b444725e24955f8424a22a2605badfb244dd0f327dc87fd1050b6005e63a8e8e",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_6_mm_length\\working.yaml: invalid YAML at line 996, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m4_diameter_14_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178937,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m4_diameter_14_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m4_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24569,
+      "restored_bytes": 178817,
+      "original_sha256": "ac38bc644989beebe8df1f6437ed3a8c89575c5b888d3727c61a3a10e82f6781",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m4_diameter_20_mm_length\\working.yaml: invalid YAML at line 358, column 76: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m4_diameter_25_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8183,
+      "restored_bytes": 178865,
+      "original_sha256": "aac63fca5b5f4dad4546959627c8226cbe9ebcdc1ab5757e2a95eee3f1622bc0",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m4_diameter_25_mm_length\\working.yaml: invalid YAML at line 148, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m4_diameter_30_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65465,
+      "restored_bytes": 178777,
+      "original_sha256": "17ae683479bc8199684edc30f0f809b5187836776a4cb58d33d61cd50ea89fd8",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m4_diameter_30_mm_length\\working.yaml: invalid YAML at line 997, column 88: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m4_diameter_4_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178769,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m4_diameter_4_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m4_diameter_50_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8138,
+      "restored_bytes": 178973,
+      "original_sha256": "bdb5692756f3ab75c689e243aeb67d7586ad69a129a9ce1447546af0d42b5ff0",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m4_diameter_50_mm_length\\working.yaml: invalid YAML at line 147, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m4_diameter_6_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24540,
+      "restored_bytes": 178609,
+      "original_sha256": "5dab21c411a17c3d7faaf16cbab5dd70d0bbb2d5b95048009828fab69700e4ce",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m4_diameter_6_mm_length\\working.yaml: invalid YAML at line 359, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m4_diameter_75_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24547,
+      "restored_bytes": 178895,
+      "original_sha256": "8b19dbb1f2c85c9f7f6a54213bbb6438dc0b6786a24dfabf0ba57f0505fa10d5",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m4_diameter_75_mm_length\\working.yaml: invalid YAML at line 358, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m4_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24518,
+      "restored_bytes": 178743,
+      "original_sha256": "b716481cd345e4510c919ea6ce1d9613068ef08988425b9eb5c0a08ea1ae49a5",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m4_diameter_8_mm_length\\working.yaml: invalid YAML at line 358, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m5_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73567,
+      "restored_bytes": 178983,
+      "original_sha256": "be9fb180850311dd2d51f9ec4a6274d1e56ab9d2f396936483962eef1cb2f283",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m5_diameter_10_mm_length\\working.yaml: invalid YAML at line 1092, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m5_diameter_120_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 178935,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m5_diameter_120_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m5_diameter_14_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73665,
+      "restored_bytes": 178803,
+      "original_sha256": "7dbae4738232d7a26cb8d91cd949db1515adace0941cf6240a55afb5431d4a7d",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m5_diameter_14_mm_length\\working.yaml: invalid YAML at line 1094, column 53: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m5_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65472,
+      "restored_bytes": 178799,
+      "original_sha256": "9fc18d1bf387830f3ef127b5f0fa45665c1734462ef3a053e8787ec85ac6933b",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m5_diameter_20_mm_length\\working.yaml: invalid YAML at line 998, column 88: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m5_diameter_25_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8188,
+      "restored_bytes": 178857,
+      "original_sha256": "c18132ec66a3b65c48ca8ac193a2fecb08f8f56e4d48d9292188c182e26c0ad3",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m5_diameter_25_mm_length\\working.yaml: invalid YAML at line 148, column 51: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m5_diameter_40_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8187,
+      "restored_bytes": 178779,
+      "original_sha256": "9a519c909f5c0828601e72f03e58644b85879aeeacb9d7b39389220e25446c77",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m5_diameter_40_mm_length\\working.yaml: invalid YAML at line 149, column 13: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m5_diameter_65_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8192,
+      "restored_bytes": 178819,
+      "original_sha256": "6a88d171c50fe9e2a5a618fc2d4e13c8b17a35e723449bc58bfd9548bf540ebd",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m5_diameter_65_mm_length\\working.yaml: invalid YAML at line 148, column 85: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m5_diameter_75_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24549,
+      "restored_bytes": 178837,
+      "original_sha256": "bf8b6432dd4b7826b8d499afca2c9781df1fa687c63c21874f4d8cf9c7fea0b8",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m5_diameter_75_mm_length\\working.yaml: invalid YAML at line 358, column 84: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m5_diameter_80_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8191,
+      "restored_bytes": 178893,
+      "original_sha256": "ecad0309f8dd17cffe5f5d7627fd85fd5406786354fdff3115b1d104bba5e104",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m5_diameter_80_mm_length\\working.yaml: invalid YAML at line 148, column 47: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m6_diameter_20_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 73679,
+      "restored_bytes": 247158,
+      "original_sha256": "e25f3e06f312e9f03c57086fdb03421a8d3fa4f10c14f84e9a582d5feba52cd3",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m6_diameter_20_mm_length\\working.yaml: invalid YAML at line 1095, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m6_diameter_35_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8192,
+      "restored_bytes": 247250,
+      "original_sha256": "6358555fcde148eeab6e5427c35223e01c57dda88908f0d4644399ad008073e5",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m6_diameter_35_mm_length\\working.yaml: invalid YAML at line 148, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m6_diameter_65_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24559,
+      "restored_bytes": 179325,
+      "original_sha256": "39a173c5b894f57a962dfd72e6754a84339758f18965b52d6b5ad61c7e6b6885",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m6_diameter_65_mm_length\\working.yaml: invalid YAML at line 358, column 84: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m6_diameter_80_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24528,
+      "restored_bytes": 179381,
+      "original_sha256": "01194ce6aad7c86d412d90f4bb5eaca65947173c46f275ffbd17415867a4d507",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m6_diameter_80_mm_length\\working.yaml: invalid YAML at line 358, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_socket_cap_low_head_ultra_hex_head_black_m6_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 179247,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m6_diameter_8_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_wood_pozidriv_bright_zinc_plated_m2_5_diameter_10_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24544,
+      "restored_bytes": 164594,
+      "original_sha256": "16fab99657ec25e449fe0d56e5d9c9643af46f8937568ef6420729dcdcb47eb9",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_wood_pozidriv_bright_zinc_plated_m2_5_diameter_10_mm_length\\working.yaml: invalid YAML at line 358, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_wood_pozidriv_bright_zinc_plated_m2_diameter_4_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65469,
+      "restored_bytes": 164146,
+      "original_sha256": "ed0290e7a0b154e10b944a677cb720740cbb7c053fc57c2406e8e1d127619aa3",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_wood_pozidriv_bright_zinc_plated_m2_diameter_4_mm_length\\working.yaml: invalid YAML at line 897, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_wood_pozidriv_bright_zinc_plated_m3_5_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65403,
+      "restored_bytes": 164604,
+      "original_sha256": "eccb978f1d1b3da6494baa9ef93368794b152019fc2b0b0efb06ac465960f416",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_wood_pozidriv_bright_zinc_plated_m3_5_diameter_8_mm_length\\working.yaml: invalid YAML at line 896, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_wood_pozidriv_bright_zinc_plated_m3_diameter_12_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8185,
+      "restored_bytes": 164908,
+      "original_sha256": "f534210557525be557cf4a4a5f6aa145b0f9272b10363fba280c6d5f2831fe16",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_wood_pozidriv_bright_zinc_plated_m3_diameter_12_mm_length\\working.yaml: invalid YAML at line 145, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_wood_pozidriv_bright_zinc_plated_m3_diameter_5_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24480,
+      "restored_bytes": 164834,
+      "original_sha256": "f82cccb0e73137b0932644ca96693d927c45429196018fa58a18015024bccd00",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_wood_pozidriv_bright_zinc_plated_m3_diameter_5_mm_length\\working.yaml: invalid YAML at line 355, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_wood_pozidriv_bright_zinc_plated_m3_diameter_6_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65372,
+      "restored_bytes": 164840,
+      "original_sha256": "749a246be4958eeea6df78c79d06a300b810491e5002d68c15f2d3e01a6eecb3",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_wood_pozidriv_bright_zinc_plated_m3_diameter_6_mm_length\\working.yaml: invalid YAML at line 894, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_wood_pozidriv_bright_zinc_plated_m4_diameter_16_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65392,
+      "restored_bytes": 164204,
+      "original_sha256": "59d7c405b8548fa51b30c325f0f1bcc1ccd96f38c8d6bfd5709b6348957c3337",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_wood_pozidriv_bright_zinc_plated_m4_diameter_16_mm_length\\working.yaml: invalid YAML at line 896, column 37: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_wood_pozidriv_bright_zinc_plated_m4_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 24569,
+      "restored_bytes": 164186,
+      "original_sha256": "126edcf1b8b553d8a851f177f9073c16a54f1b113c7fe691749308939eeb6f5a",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_wood_pozidriv_bright_zinc_plated_m4_diameter_8_mm_length\\working.yaml: invalid YAML at line 356, column 25: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_wood_pozidriv_bright_zinc_plated_m5_diameter_60_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65337,
+      "restored_bytes": 164374,
+      "original_sha256": "899472abbc2aeacbeb8d545f826e16e70834c71f480a65295ff9fa4140bcdf6f",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_wood_pozidriv_bright_zinc_plated_m5_diameter_60_mm_length\\working.yaml: invalid YAML at line 895, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_wood_pozidriv_bright_zinc_plated_m5_diameter_70_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65375,
+      "restored_bytes": 164450,
+      "original_sha256": "4717a9659e7c00d15754effea0b625e88810b419858115198471ceb9ccd2d0bc",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_wood_pozidriv_bright_zinc_plated_m5_diameter_70_mm_length\\working.yaml: invalid YAML at line 895, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_wood_pozidriv_bright_zinc_plated_m5_diameter_80_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 65414,
+      "restored_bytes": 164358,
+      "original_sha256": "36f89ff3c412c25e7c41eaeb3dd84a3887de0d3f09b67cc07eb36fd60b805f7b",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_wood_pozidriv_bright_zinc_plated_m5_diameter_80_mm_length\\working.yaml: invalid YAML at line 896, column 1: found unexpected end of stream"
+    },
+    {
+      "part": "hardware_screw_wood_pozidriv_bright_zinc_plated_m5_diameter_8_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 164260,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_wood_pozidriv_bright_zinc_plated_m5_diameter_8_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_wood_pozidriv_bright_zinc_plated_m6_diameter_25_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 8189,
+      "restored_bytes": 164898,
+      "original_sha256": "34e9d3f356b74168232906839c0d9f3dbcbf6063f293e75b4502905f05155a60",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_wood_pozidriv_bright_zinc_plated_m6_diameter_25_mm_length\\working.yaml: invalid YAML at line 145, column 13: found unknown escape character"
+    },
+    {
+      "part": "hardware_screw_wood_pozidriv_bright_zinc_plated_m6_diameter_40_mm_length",
+      "recovered_from": "thing.yaml",
+      "original_bytes": 0,
+      "restored_bytes": 164854,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "C:\\gh\\oomp_hardware_screw_version_5\\parts\\hardware_screw_wood_pozidriv_bright_zinc_plated_m6_diameter_40_mm_length\\working.yaml: expected a YAML metadata mapping"
+    },
+    {
+      "part": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "recovered_from": "thing.yaml three_d_model_details",
+      "original_bytes": 137982,
+      "restored_bytes": 140710,
+      "original_sha256": "7948a7939678b62f9e4afac5efc8690104323f6f16e6bbdd4690c262198a3328",
+      "error": "Syntactically valid truncated recipe: missing length_mm and schema fields"
+    }
+  ]
+}

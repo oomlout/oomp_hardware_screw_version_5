@@ -1,0 +1,146 @@
+bip_39_2_word_array:
+- aware
+- junior
+bip_39_2_word_no_space: awarejunior
+bip_39_2_word_space: aware junior
+bip_39_2_word_underscore: aware_junior
+bip_39_3_word_array:
+- aware
+- junior
+- choice
+bip_39_3_word_no_space: awarejuniorchoice
+bip_39_3_word_space: aware junior choice
+bip_39_3_word_underscore: aware_junior_choice
+bip_39_full_array:
+- aware
+- junior
+- choice
+- curtain
+- course
+- vital
+- output
+- loop
+- capable
+- talent
+- tortoise
+- figure
+bip_39_full_no_space: awarejuniorchoicecurtaincoursevitaloutputloopcapabletalenttortoisefigure
+bip_39_full_space: aware junior choice curtain course vital output loop capable talent
+    tortoise figure
+bip_39_full_underscore: aware_junior_choice_curtain_course_vital_output_loop_capable_talent_tortoise_figure
+directory: parts/hardware_screw_flat_head_philips_black_m6_diameter_45_mm_length
+generate_stl: true
+id: hardware_screw_flat_head_philips_black_m6_diameter_45_mm_length
+id_no_class: hardware_screw_flat_head_philips_black_m6_diameter_45_mm_length
+id_no_size: hardware_screw_flat_head_philips_black_m6_diameter_45_mm_length
+id_no_type: hardware_screw_flat_head_philips_black_m6_diameter_45_mm_length
+label_drawer: &id001
+    bip39: aware junior choice
+    bip39_size: 2.35
+    code: SC
+    description: Flat head screw / M6 / 45 mm / Phillips / Black
+    detail_lines:
+    - Phillips / Black
+    detail_size: 2.05
+    detail_y: 21.1
+    diagram: <path d="M2 2.5L6 5V9L2 11.5Z M2 6H3.5V8H2"/><path d="M6 5H18V9H6"/><path
+        d="M7 5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+    drive_symbol: <circle cx="5" cy="5" r="4.5" fill="#ffffff"/><path d="M4 1.7H6V4H8.3V6H6V8.3H4V6H1.7V4H4Z"
+        fill="#000000"/>
+    length: '45'
+    length_size: 7.8
+    length_x: 18.02234375
+    name: Flat head screw
+    name_lines:
+    - Flat head
+    - screw
+    name_size: 3.2
+    thread: M6
+    thread_size: 6.5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_flat_head_philips_black_m6_diameter_45_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_flat_head_philips_black_m6_diameter_45_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_flat_head_philips_black_m6_diameter_45_mm_length
+md5: 104f24a09b1315ea275c1f21fbaf962b
+md5_10: 104f24a09b
+md5_10_upper: 104F24A09B
+md5_5: 104f2
+md5_5_upper: 104F2
+md5_6: 104f24
+md5_6_alpha: mwpw
+md5_6_alpha_upper: MWPW
+md5_6_upper: 104F24
+name: Hardware Screw Flat Head Philips Black M6 Diameter 45 Mm Length
+name_no_class: Hardware Screw Flat Head Philips Black M6 Diameter 45 Mm Length
+name_no_size: Hardware Screw Flat Head Philips Black M6 Diameter 45 Mm Length
+name_no_type: Hardware Screw Flat Head Philips Black M6 Diameter 45 Mm Length
+name_proper: Hardware Screw Flat Head Philips Black M6 Diameter 45 Mm Length
+name_space: hardware screw flat head philips black m6 diameter 45 mm length
+name_upper: HARDWARE SCREW FLAT HEAD PHILIPS BLACK M6 DIAMETER 45 MM LENGTH
+oobb_details:
+    drive_style: philips
+    length: 45_mm_length
+    oobb_name: screw
+    screw_colour: black
+    screw_style: flat_head
+    thread_size: m6_diameter
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: new_chat
+        description: step_1_create_icon
+    -   command: ai_query
+        delay: '180'
+        mode_ai_wait: slow
+        text: "## READ THIS FIRST \u2014 no theme is coming in this message, and that\
+            \ is correct\n\nThis is **step 1 of 2**. It is deliberately theme-free.\
+            \ You are building a reusable house style, not designing a specific logo.\n\
+            \nThe theme arrives in step 2. Do **not** ask what the theme is. Do **not**\
+            \ ask any clarifying questions. Do **not** write a final image-generation\
+            \ prompt yet \u2014 you cannot, and attempting one is a failure of this\
+            \ step. Do **not** invent a placeholder theme and design for it. If you\
+            \ feel information is missing, that is expected: the missing information\
+            \ is the theme, it is coming next, and nothing in this step requires it.\n\
+            \nYour entire output for this step is a **house style guide** that will\
+            \ be applied to whatever theme arrives next.\n\n---\n\n## The product\
+            \ this style serves\n\n**Intended use:** a square, single-colour, pure-black-on-pure-white\
+            \ mascot logo, generated as a raster image, then **auto-traced to vector\
+            \ and cut/engraved on a laser cutter**. The trace step is unforgiving\
+            \ \u2014 it is the hardest constraint in this brief and should shape most\
+            \ of your recommendations.\n\n**Target feel:** charming, original, cute,\
+            \ polished, instantly readable at ~20 mm. A designed branded icon, not\
+            \ a doodle page and not generic kawaii clip art.\n\n---\n\n## What to\
+            \ produce\n\nWrite these six sections. **Budget: about 900 words total,\
+            \ 1,100 hard ceiling.** That is roughly 100\u2013150 words per section,\
+            \ with section 6 allowed the most. This is a working reference, not an\
+            \ essay \u2014 every line should be a rule someone could check a drawing\
+            \ against. Prefer tight bullets over prose paragraphs, and cut any sentence\
+            \ that only restates the brief back at me.\n\n**1. Line language menu**\n\
+            Exactly three distinct black-on-white line-art approaches (e.g. uniform\
+            \ monoline, weight-varied outline with sparse interior, chunky sticker-outline,\
+            \ geometric constructed line). One or two lines each: what it does for\
+            \ charm, how it survives auto-tracing, what it costs.\n\n**2. Cuteness\
+            \ that isn't generic**\nThe handful of levers that make a line mascot\
+            \ lovable \u2014 eye shape and spacing, head-to-body ratio, pose energy,\
+            \ mouth simplicity, restraint on blush marks \u2014 each as a one-line\
+            \ rule with a number where a number applies. Then a short do-not list\
+            \ of the clich\xE9s that make an AI mascot look stock (dead-centre symmetrical\
+            \ stare, sparkle confetti, floating hearts, blob bodies), each with its\
+            \ one-line replacement.\n\n**3. Trace-safety rules**\nA flat list of concrete,\
+            \ checkable rules for the auto-trace-to-cut pipeline \u2014 one line each,\
+            \ no explanatory paragraphs:\n- minimum stroke thickness relative to the\
+            \ square's width, stated as a fraction (so it scales)\n- minimum gap between\
+            \ two adjacent strokes before they blur into one traced blob\n- why every\
+            \ shape should read as a closed path, and how to spot one that won't\n\
+            - island/floating-part handling and where to add connective bridges\n\
+            - what to do about interior detail that a tracer will turn into noise\
+            \ (crosshatching, stippling, tapering hairlines, single stray dots)\n\
+            - why large solid black fills are avoided here, and the acceptable exceptions\
+            \ (small eyes, pupils, a tiny accent shape)\n\n**4. Composition and hierarchy**\n\
+            Bulleted rules only: square framing, margin as a fraction of the square,\
+            \ centre of visual mass, minimum negative space, the mascot-leads / props-support\
+            \ / text-reinforces hierarchy, and the shared traits that make it read\
+            \ as one illustrator's hand (same stroke weight, same corner radius, same\
+            \ eye style, same spacing rhythm).\n\n**5. Text and badge treatments**\n\
+            Text is **optional**. Briefly: when a word helps versus clutters, a maximum\
+            \ letter count that stays cuttable, how to specify literal text so it\
+            \ renders verbatim (quotes, exact casing), the letterform to ask for,\
+            \
