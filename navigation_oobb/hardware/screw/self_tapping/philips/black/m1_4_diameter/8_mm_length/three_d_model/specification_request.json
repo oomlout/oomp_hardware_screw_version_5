@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "generator": "unresolved",
+  "generation_status": "needs_specification",
+  "family": "self_tapping",
+  "priority": 10,
+  "output_folder": "three_d_model",
+  "units": "mm",
+  "parameters": {
+    "diameter_mm": 1.4,
+    "length_mm": 8.0,
+    "finish": "black",
+    "drive_style": "philips"
+  },
+  "candidate_standards": [
+    "supplier miniature tapping specification"
+  ],
+  "missing_specification": [
+    "actual tapping thread designation and pitch (not inferred from m label)",
+    "head dimensions, core profile, point form and cross recess dimensions"
+  ],
+  "selection": {
+    "supplier_url": "https://www.aliexpress.com/item/1005004774076999.html",
+    "reference_urls": [
+      "https://www.ebay.co.uk/itm/383102775525"
+    ],
+    "head_style": "pan",
+    "finish_identity": "black_zinc",
+    "identity_note": "User references checked 2026-10-11. eBay confirms Phillips pan head, black zinc carbon steel sheet-metal tapping screws; no pitch, core or head dimension table is supplied. Miniature sizes still need a drawing."
+  },
+  "note": "No approximate solid is generated. Select a sourced dimension table in three_d_model_selection."
+}
