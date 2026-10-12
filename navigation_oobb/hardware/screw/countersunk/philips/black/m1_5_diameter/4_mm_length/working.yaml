@@ -1120,24 +1120,38 @@ taxonomy_7_upper_length_5: 4_MM_
 taxonomy_8: ''
 taxonomy_9: ''
 three_d_model_details:
-  candidate_standards:
-  - DIN 965
-  - ISO 7046-1
-  - ISO 7046-2
-  family: countersunk
-  generation_status: needs_specification
+  schema_version: 1
   generator: unresolved
-  missing_specification:
-  - sourced cross recess and head dimensions
-  note: No approximate solid is generated. Select a sourced dimension table in three_d_model_selection.
+  generation_status: needs_specification
+  family: countersunk
+  priority: 5
   output_folder: three_d_model
+  units: mm
   parameters:
     diameter_mm: 1.5
-    drive_style: philips
-    finish: black
     length_mm: 4.0
-  priority: 5
-  schema_version: 1
-  selection: {}
-  units: mm
+    finish: black
+    drive_style: philips
+  candidate_standards:
+  - M1.5 supplier-specific drawing
+  missing_specification:
+  - M1.5 supplier drawing confirming the thread pitch
+  - M1.5 head diameter, height, angle, recess mouth and penetration limits
+  selection:
+    research_profile: miniature_m1_5
+  note: 'M1.5 remains unresolved: obtain a supplier dimensioned drawing or measure
+    a physical sample.'
+  checked_on: '2026-10-12'
+  sources:
+  - title: Micro Fastenings countersunk machine screw range
+    url: https://www.microfastenings.com/countersunk-phillips-machine-screws/
+    use: Published range includes M1.4 and M1.6, but no M1.5 row.
+  - title: PTS miniature countersunk range
+    url: https://www.pts-uk.com/products/machine-screws/phillips-countersunk-machine-screws/metric-a2/a96501404h
+    use: M1.4 dimensions available; cannot be interpolated into an M1.5 specification.
+  known_specification: {}
+  research_notes:
+  - No complete primary M1.5 dimensional drawing found in this research. M1.4/M1.6
+    rows are not interpolated.
+  implementation_requirements: []
 url_chat: https://chatgpt.com/c/6a037557-e454-838f-a49a-20265f18e37b
