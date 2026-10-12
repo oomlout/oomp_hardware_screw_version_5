@@ -26,61 +26,37 @@ bip_39_full_array:
 - salon
 bip_39_full_no_space: sandoffsleepsillyincomepalmsweetarmorfrownpromotearoundsalon
 bip_39_full_space: sand off sleep silly income palm sweet armor frown promote around
-  salon
+    salon
 bip_39_full_underscore: sand_off_sleep_silly_income_palm_sweet_armor_frown_promote_around_salon
 directory: parts/hardware_screw_socket_cap_hex_head_black_m6_diameter_50_mm_length
-generate_stl: false
+generate_stl: true
 id: hardware_screw_socket_cap_hex_head_black_m6_diameter_50_mm_length
 id_no_class: hardware_screw_socket_cap_hex_head_black_m6_diameter_50_mm_length
 id_no_size: hardware_screw_socket_cap_hex_head_black_m6_diameter_50_mm_length
 id_no_type: hardware_screw_socket_cap_hex_head_black_m6_diameter_50_mm_length
-id_oobb: hardware_screw_socket_cap_hex_head_black_m6_diameter_50_mm_length
-kwargs:
-  drive_style: hex_head
-  filter: ''
-  generate_stl: false
-  length: 50_mm_length
-  modes:
-  - 3dpr
-  navigation: true
-  oobb_name: screw
-  oomp_description_extra: ''
-  oomp_description_main: screw_
-  oomp_mode: project
-  oomp_run: false
-  overwrite: true
-  run_action: false
-  run_oomp: false
-  run_oomp_populate: false
-  run_scad: true
-  run_svg: false
-  screw_colour: black
-  screw_style: socket_cap
-  thread_size: m6_diameter
-  type: default_screw
 label_drawer: &id001
-  bip39: sand off sleep
-  bip39_size: 2.35
-  code: SC
-  description: Socket cap screw / M6 / 50 mm / Hex socket / Black
-  detail_lines:
-  - Hex socket / Black
-  detail_size: 2.05
-  detail_y: 21.1
-  diagram: <path d="M2 3H6V11H2Z M2 6H2.8V8H2"/><path d="M6 5H18V9H6"/><path d="M7
-    5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
-  drive_symbol: <circle cx="5" cy="5" r="4.5" fill="#ffffff"/><path d="M5 1L8.46 3V7L5
-    9L1.54 7V3Z" transform="translate(1.5 1.5) scale(0.7)" fill="#000000"/>
-  length: '50'
-  length_size: 7.8
-  length_x: 18.02234375
-  name: Socket cap screw
-  name_lines:
-  - Socket cap
-  - screw
-  name_size: 3.2
-  thread: M6
-  thread_size: 6.5
+    bip39: sand off sleep
+    bip39_size: 2.35
+    code: SC
+    description: Socket cap screw / M6 / 50 mm / Hex socket / Black
+    detail_lines:
+    - Hex socket / Black
+    detail_size: 2.05
+    detail_y: 21.1
+    diagram: <path d="M2 3H6V11H2Z M2 6H2.8V8H2"/><path d="M6 5H18V9H6"/><path d="M7
+        5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+    drive_symbol: <circle cx="5" cy="5" r="4.5" fill="#ffffff"/><path d="M5 1L8.46
+        3V7L5 9L1.54 7V3Z" transform="translate(1.5 1.5) scale(0.7)" fill="#000000"/>
+    length: '50'
+    length_size: 7.8
+    length_x: 18.02234375
+    name: Socket cap screw
+    name_lines:
+    - Socket cap
+    - screw
+    name_size: 3.2
+    thread: M6
+    thread_size: 6.5
 length: 50
 link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m6_diameter_50_mm_length
 link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m6_diameter_50_mm_length
@@ -102,754 +78,650 @@ name_proper: Hardware Screw Socket Cap Hex Head Black M6 Diameter 50 Mm Length
 name_space: hardware screw socket cap hex head black m6 diameter 50 mm length
 name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M6 DIAMETER 50 MM LENGTH
 oobb_details:
-  drive_style: hex_head
-  length: 50_mm_length
-  oobb_name: screw
-  screw_colour: black
-  screw_style: socket_cap
-  thread_size: m6_diameter
-oobb_name: screw
+    drive_style: hex_head
+    length: 50_mm_length
+    oobb_name: screw
+    screw_colour: black
+    screw_style: socket_cap
+    thread_size: m6_diameter
 oomlout_ai_roboclick_1:
-  actions:
-  - command: new_chat
-    description: step_1_create_icon
-  - command: ai_query
-    delay: '180'
-    mode_ai_wait: slow
-    text: "## READ THIS FIRST \u2014 no theme is coming in this message, and that\
-      \ is correct\n\nThis is **step 1 of 2**. It is deliberately theme-free. You\
-      \ are building a reusable house style, not designing a specific logo.\n\nThe\
-      \ theme arrives in step 2. Do **not** ask what the theme is. Do **not** ask\
-      \ any clarifying questions. Do **not** write a final image-generation prompt\
-      \ yet \u2014 you cannot, and attempting one is a failure of this step. Do **not**\
-      \ invent a placeholder theme and design for it. If you feel information is missing,\
-      \ that is expected: the missing information is the theme, it is coming next,\
-      \ and nothing in this step requires it.\n\nYour entire output for this step\
-      \ is a **house style guide** that will be applied to whatever theme arrives\
-      \ next.\n\n---\n\n## The product this style serves\n\n**Intended use:** a square,\
-      \ single-colour, pure-black-on-pure-white mascot logo, generated as a raster\
-      \ image, then **auto-traced to vector and cut/engraved on a laser cutter**.\
-      \ The trace step is unforgiving \u2014 it is the hardest constraint in this\
-      \ brief and should shape most of your recommendations.\n\n**Target feel:** charming,\
-      \ original, cute, polished, instantly readable at ~20 mm. A designed branded\
-      \ icon, not a doodle page and not generic kawaii clip art.\n\n---\n\n## What\
-      \ to produce\n\nWrite these six sections. **Budget: about 900 words total, 1,100\
-      \ hard ceiling.** That is roughly 100\u2013150 words per section, with section\
-      \ 6 allowed the most. This is a working reference, not an essay \u2014 every\
-      \ line should be a rule someone could check a drawing against. Prefer tight\
-      \ bullets over prose paragraphs, and cut any sentence that only restates the\
-      \ brief back at me.\n\n**1. Line language menu**\nExactly three distinct black-on-white\
-      \ line-art approaches (e.g. uniform monoline, weight-varied outline with sparse\
-      \ interior, chunky sticker-outline, geometric constructed line). One or two\
-      \ lines each: what it does for charm, how it survives auto-tracing, what it\
-      \ costs.\n\n**2. Cuteness that isn't generic**\nThe handful of levers that make\
-      \ a line mascot lovable \u2014 eye shape and spacing, head-to-body ratio, pose\
-      \ energy, mouth simplicity, restraint on blush marks \u2014 each as a one-line\
-      \ rule with a number where a number applies. Then a short do-not list of the\
-      \ clich\xE9s that make an AI mascot look stock (dead-centre symmetrical stare,\
-      \ sparkle confetti, floating hearts, blob bodies), each with its one-line replacement.\n\
-      \n**3. Trace-safety rules**\nA flat list of concrete, checkable rules for the\
-      \ auto-trace-to-cut pipeline \u2014 one line each, no explanatory paragraphs:\n\
-      - minimum stroke thickness relative to the square's width, stated as a fraction\
-      \ (so it scales)\n- minimum gap between two adjacent strokes before they blur\
-      \ into one traced blob\n- why every shape should read as a closed path, and\
-      \ how to spot one that won't\n- island/floating-part handling and where to add\
-      \ connective bridges\n- what to do about interior detail that a tracer will\
-      \ turn into noise (crosshatching, stippling, tapering hairlines, single stray\
-      \ dots)\n- why large solid black fills are avoided here, and the acceptable\
-      \ exceptions (small eyes, pupils, a tiny accent shape)\n\n**4. Composition and\
-      \ hierarchy**\nBulleted rules only: square framing, margin as a fraction of\
-      \ the square, centre of visual mass, minimum negative space, the mascot-leads\
-      \ / props-support / text-reinforces hierarchy, and the shared traits that make\
-      \ it read as one illustrator's hand (same stroke weight, same corner radius,\
-      \ same eye style, same spacing rhythm).\n\n**5. Text and badge treatments**\n\
-      Text is **optional**. Briefly: when a word helps versus clutters, a maximum\
-      \ letter count that stays cuttable, how to specify literal text so it renders\
-      \ verbatim (quotes, exact casing), the letterform to ask for, and when a badge\
-      \ ring earns its place versus just boxing the mark in. Six bullets is plenty.\n\
-      \n**6. Prompt architecture for step 2**\nThe most important section, so spend\
-      \ your words here. Specify the exact template the step-2 final prompt must follow\
-      \ \u2014 and state that the finished prompt should land at **180\u2013250 words**,\
-      \ long enough to carry the spec, short enough that no single instruction gets\
-      \ diluted. Order it to match how the image model weights a prompt:\n\n1. **Medium\
-      \ and style up front** \u2014 the first sentence states it is a square black-and-white\
-      \ line-art mascot logo, because opening words set the mode for everything after.\n\
-      2. **Subject** \u2014 the mascot, its identity, expression, pose.\n3. **Key\
-      \ details** \u2014 props, supporting motifs, any literal text in quotes.\n4.\
-      \ **Layout** \u2014 centring, margins, hierarchy, where each element sits.\n\
-      5. **Line and manufacturing spec** \u2014 stroke weight, closed paths, interior-detail\
-      \ limits.\n6. **Exclusions last** \u2014 negatives go at the very end, after\
-      \ every positive descriptor, because a model reading them early tends to treat\
-      \ them as things to compose rather than things to omit.\n\nGive the canonical\
-      \ exclusion list to close with (no grey, no shading, no gradients, no halftone,\
-      \ no dithering, no texture, no colour, no transparency, no background scene,\
-      \ no drop shadow, no outer glow, no frame border unless specified, no watermark,\
-      \ no signature, no extra text beyond what is quoted).\n\nAlso state the two\
-      \ facts the prompt must say in plain words no matter what: the image is **square**,\
-      \ and it is **pure black on a pure white background**.\n\n---\n\n## Response\
-      \ style and length\n\n**About 900 words, 1,100 absolute maximum.** Bullets over\
-      \ prose. Concrete and checkable over abstract and aspirational \u2014 \"stroke\
-      \ no thinner than 1/100 of the square's width\" beats \"confident lines\". No\
-      \ preamble, no restating this brief back at me, no summary of what you are about\
-      \ to do. Skip the caveats and the reasoning behind each rule; just state the\
-      \ rule.\n\nClose with a checklist of the rules, 12 lines at most, so step 2\
-      \ can be graded against it.\n\nThen stop. No final image prompt, no questions,\
-      \ no theme.\n"
-  - command: ai_query
-    delay: '180'
-    mode_ai_wait: slow
-    text: "## Step 2 of 2 \u2014 the theme\n\nThe theme is: **an image of hardware\
-      \ screw socket cap hex head black m6 diameter 50 mm length please include the\
-      \ thread size and length in the image as text, add extra icons in the back,\
-      \ one that ryhmes with the diameter and one or two that rhymes with the length,\
-      \ if the length is less than 14 just one if it is greater do two, one rhyming\
-      \ for each part of the number ie for twenty five one that rhymes with twenty\
-      \ and one that rhymes with five. Put some time into searching to find the rhymes**\n\
-      \nApply the house style you just wrote to this theme. Everything you need is\
-      \ now in hand \u2014 do not ask questions, just work.\n\n---\n\n## Part A \u2014\
-      \ exploration\n\n**Budget: about 450 words, 600 hard ceiling.** Push past the\
-      \ theme's first obvious reading, but do it briskly. No preamble, no restating\
-      \ the theme back at me.\n\n- **Angles:** exactly four mascot interpretations,\
-      \ **one or two sentences each**. Include at least one that anthropomorphises\
-      \ an object or concept from the theme rather than reaching for the obvious animal,\
-      \ and at least one built on a visual pun. Then name your pick in a single sentence\
-      \ saying why it beats the other three \u2014 no full comparison table.\n- **The\
-      \ chosen design:** one short paragraph fixing the pose, expression, props, and\
-      \ line strategy. Prefer gesture or a moment of character over a static front-on\
-      \ stare. Cut any prop that is decoration rather than signal.\n- **Text:** one\
-      \ line \u2014 the exact string in quotes with exact casing, or \"no text\".\
-      \ Text is optional and a clean wordless mark often wins.\n- **Trace and small-size\
-      \ check:** a short bullet list of fixes only \u2014 every stroke to thicken,\
-      \ gap to widen, island to bridge, detail to delete. Just the fixes, not the\
-      \ reasoning, and not a description of what the design looks like at size.\n\n\
-      Skip anything not on that list: no tradeoff essays, no runner-up post-mortems,\
-      \ no notes on your own process.\n\n## Part B \u2014 the final prompt\n\nEnd\
-      \ your response with the final image-generation prompt for the chosen direction,\
-      \ and nothing after it.\n\nFormat it as a single fenced code block labelled\
-      \ `FINAL IMAGE PROMPT`, so it can be copied cleanly. Follow the six-part architecture\
-      \ from step 1 exactly, in order: medium and style \u2192 subject \u2192 key\
-      \ details \u2192 layout \u2192 line and manufacturing spec \u2192 exclusions\
-      \ last.\n\n**Length: 180\u2013250 words.** Long enough to carry the full spec,\
-      \ short enough that no single instruction gets diluted. If you are over, cut\
-      \ adjectives and repeated style words before you cut any manufacturing rule.\n\
-      \nHard requirements for that prompt:\n\n- It opens by stating it is a **square\
-      \ black-and-white line-art mascot logo**.\n- It says in plain words that the\
-      \ image is **square** and **pure black on a pure white background**.\n- It states\
-      \ stroke weight as a fraction of the image width, and requires every shape to\
-      \ be a **closed path** with **no floating disconnected islands**.\n- It caps\
-      \ interior detail explicitly and forbids crosshatching, stippling, and hairline\
-      \ tapers.\n- Any literal text appears in quotes with exact casing, spelled out\
-      \ character by character if it is unusual.\n- The exclusion list comes **last**,\
-      \ after every positive descriptor.\n- It is self-contained: someone pasting\
-      \ it cold, with no memory of this conversation, gets the same image. No \"as\
-      \ discussed above\", no \"the mascot from earlier\".\n- One prompt only. No\
-      \ variants, no alternates, no commentary after the code block.\n"
-  - command: ai_query
-    delay: '300'
-    mode_ai_wait: slow
-    text: Generate the image take all the time you need
-  - command: save_image_generated
-    file_name: initial_generated_icon.png
-    mode_ai_wait: slow
-  - command: close_tab
-  file_test: initial_generated_icon.png
-  retries_until_complete: 0
+    actions:
+    -   command: new_chat
+        description: step_1_create_icon
+    -   command: ai_query
+        delay: '180'
+        mode_ai_wait: slow
+        text: '## READ THIS FIRST — no theme is coming in this message, and that is
+            correct
+
+
+            This is **step 1 of 2**. It is deliberately theme-free. You are building
+            a reusable house style, not designing a specific logo.
+
+
+            The theme arrives in step 2. Do **not** ask what the theme is. Do **not**
+            ask any clarifying questions. Do **not** write a final image-generation
+            prompt yet — you cannot, and attempting one is a failure of this step.
+            Do **not** invent a placeholder theme and design for it. If you feel information
+            is missing, that is expected: the missing information is the theme, it
+            is coming next, and nothing in this step requires it.
+
+
+            Your entire output for this step is a **house style guide** that will
+            be applied to whatever theme arrives next.
+
+
+            ---
+
+
+            ## The product this style serves
+
+
+            **Intended use:** a square, single-colour, pure-black-on-pure-white mascot
+            logo, generated as a raster image, then **auto-traced to vector and cut/engraved
+            on a laser cutter**. The trace step is unforgiving — it is the hardest
+            constraint in this brief and should shape most of your recommendations.
+
+
+            **Target feel:** charming, original, cute, polished, instantly readable
+            at ~20 mm. A designed branded icon, not a doodle page and not generic
+            kawaii clip art.
+
+
+            ---
+
+
+            ## What to produce
+
+
+            Write these six sections. **Budget: about 900 words total, 1,100 hard
+            ceiling.** That is roughly 100–150 words per section, with section 6 allowed
+            the most. This is a working reference, not an essay — every line should
+            be a rule someone could check a drawing against. Prefer tight bullets
+            over prose paragraphs, and cut any sentence that only restates the brief
+            back at me.
+
+
+            **1. Line language menu**
+
+            Exactly three distinct black-on-white line-art approaches (e.g. uniform
+            monoline, weight-varied outline with sparse interior, chunky sticker-outline,
+            geometric constructed line). One or two lines each: what it does for charm,
+            how it survives auto-tracing, what it costs.
+
+
+            **2. Cuteness that isn''t generic**
+
+            The handful of levers that make a line mascot lovable — eye shape and
+            spacing, head-to-body ratio, pose energy, mouth simplicity, restraint
+            on blush marks — each as a one-line rule with a number where a number
+            applies. Then a short do-not list of the clichés that make an AI mascot
+            look stock (dead-centre symmetrical stare, sparkle confetti, floating
+            hearts, blob bodies), each with its one-line replacement.
+
+
+            **3. Trace-safety rules**
+
+            A flat list of concrete, checkable rules for the auto-trace-to-cut pipeline
+            — one line each, no explanatory paragraphs:
+
+            - minimum stroke thickness relative to the square''s width, stated as
+            a fraction (so it scales)
+
+            - minimum gap between two adjacent strokes before they blur into one traced
+            blob
+
+            - why every shape should read as a closed path, and how to spot one that
+            won''t
+
+            - island/floating-part handling and where to add connective bridges
+
+            - what to do about interior detail that a tracer will turn into noise
+            (crosshatching, stippling, tapering hairlines, single stray dots)
+
+            - why large solid black fills are avoided here, and the acceptable exceptions
+            (small eyes, pupils, a tiny accent shape)
+
+
+            **4. Composition and hierarchy**
+
+            Bulleted rules only: square framing, margin as a fraction of the square,
+            centre of visual mass, minimum negative space, the mascot-leads / props-support
+            / text-reinforces hierarchy, and the shared traits that make it read as
+            one illustrator''s hand (same stroke weight, same corner radius, same
+            eye style, same spacing rhythm).
+
+
+            **5. Text and badge treatments**
+
+            Text is **optional**. Briefly: when a word helps versus clutters, a maximum
+            letter count that stays cuttable, how to specify literal text so it renders
+            verbatim (quotes, exact casing), the letterform to ask for, and when a
+            badge ring earns its place versus just boxing the mark in. Six bullets
+            is plenty.
+
+
+            **6. Prompt architecture for step 2**
+
+            The most important section, so spend your words here. Specify the exact
+            template the step-2 final prompt must follow — and state that the finished
+            prompt should land at **180–250 words**, long enough to carry the spec,
+            short enough that no single instruction gets diluted. Order it to match
+            how the image model weights a prompt:
+
+
+            1. **Medium and style up front** — the first sentence states it is a square
+            black-and-white line-art mascot logo, because opening words set the mode
+            for everything after.
+
+            2. **Subject** — the mascot, its identity, expression, pose.
+
+            3. **Key details** — props, supporting motifs, any literal text in quotes.
+
+            4. **Layout** — centring, margins, hierarchy, where each element sits.
+
+            5. **Line and manufacturing spec** — stroke weight, closed paths, interior-detail
+            limits.
+
+            6. **Exclusions last** — negatives go at the very end, after every positive
+            descriptor, because a model reading them early tends to treat them as
+            things to compose rather than things to omit.
+
+
+            Give the canonical exclusion list to close with (no grey, no shading,
+            no gradients, no halftone, no dithering, no texture, no colour, no transparency,
+            no background scene, no drop shadow, no outer glow, no frame border unless
+            specified, no watermark, no signature, no extra text beyond what is quoted).
+
+
+            Also state the two facts the prompt must say in plain words no matter
+            what: the image is **square**, and it is **pure black on a pure white
+            background**.
+
+
+            ---
+
+
+            ## Response style and length
+
+
+            **About 900 words, 1,100 absolute maximum.** Bullets over prose. Concrete
+            and checkable over abstract and aspirational — "stroke no thinner than
+            1/100 of the square''s width" beats "confident lines". No preamble, no
+            restating this brief back at me, no summary of what you are about to do.
+            Skip the caveats and the reasoning behind each rule; just state the rule.
+
+
+            Close with a checklist of the rules, 12 lines at most, so step 2 can be
+            graded against it.
+
+
+            Then stop. No final image prompt, no questions, no theme.
+
+            '
+    -   command: ai_query
+        delay: '180'
+        mode_ai_wait: slow
+        text: '## Step 2 of 2 — the theme
+
+
+            The theme is: **an image of hardware screw socket cap hex head black m6
+            diameter 50 mm length please include the thread size and length in the
+            image as text, add extra icons in the back, one that ryhmes with the diameter
+            and one or two that rhymes with the length, if the length is less than
+            14 just one if it is greater do two, one rhyming for each part of the
+            number ie for twenty five one that rhymes with twenty and one that rhymes
+            with five. Put some time into searching to find the rhymes**
+
+
+            Apply the house style you just wrote to this theme. Everything you need
+            is now in hand — do not ask questions, just work.
+
+
+            ---
+
+
+            ## Part A — exploration
+
+
+            **Budget: about 450 words, 600 hard ceiling.** Push past the theme''s
+            first obvious reading, but do it briskly. No preamble, no restating the
+            theme back at me.
+
+
+            - **Angles:** exactly four mascot interpretations, **one or two sentences
+            each**. Include at least one that anthropomorphises an object or concept
+            from the theme rather than reaching for the obvious animal, and at least
+            one built on a visual pun. Then name your pick in a single sentence saying
+            why it beats the other three — no full comparison table.
+
+            - **The chosen design:** one short paragraph fixing the pose, expression,
+            props, and line strategy. Prefer gesture or a moment of character over
+            a static front-on stare. Cut any prop that is decoration rather than signal.
+
+            - **Text:** one line — the exact string in quotes with exact casing, or
+            "no text". Text is optional and a clean wordless mark often wins.
+
+            - **Trace and small-size check:** a short bullet list of fixes only —
+            every stroke to thicken, gap to widen, island to bridge, detail to delete.
+            Just the fixes, not the reasoning, and not a description of what the design
+            looks like at size.
+
+
+            Skip anything not on that list: no tradeoff essays, no runner-up post-mortems,
+            no notes on your own process.
+
+
+            ## Part B — the final prompt
+
+
+            End your response with the final image-generation prompt for the chosen
+            direction, and nothing after it.
+
+
+            Format it as a single fenced code block labelled `FINAL IMAGE PROMPT`,
+            so it can be copied cleanly. Follow the six-part architecture from step
+            1 exactly, in order: medium and style → subject → key details → layout
+            → line and manufacturing spec → exclusions last.
+
+
+            **Length: 180–250 words.** Long enough to carry the full spec, short enough
+            that no single instruction gets diluted. If you are over, cut adjectives
+            and repeated style words before you cut any manufacturing rule.
+
+
+            Hard requirements for that prompt:
+
+
+            - It opens by stating it is a **square black-and-white line-art mascot
+            logo**.
+
+            - It says in plain words that the image is **square** and **pure black
+            on a pure white background**.
+
+            - It states stroke weight as a fraction of the image width, and requires
+            every shape to be a **closed path** with **no floating disconnected islands**.
+
+            - It caps interior detail explicitly and forbids crosshatching, stippling,
+            and hairline tapers.
+
+            - Any literal text appears in quotes with exact casing, spelled out character
+            by character if it is unusual.
+
+            - The exclusion list comes **last**, after every positive descriptor.
+
+            - It is self-contained: someone pasting it cold, with no memory of this
+            conversation, gets the same image. No "as discussed above", no "the mascot
+            from earlier".
+
+            - One prompt only. No variants, no alternates, no commentary after the
+            code block.
+
+            '
+    -   command: ai_query
+        delay: '300'
+        mode_ai_wait: slow
+        text: Generate the image take all the time you need
+    -   command: save_image_generated
+        file_name: initial_generated_icon.png
+        mode_ai_wait: slow
+    -   command: close_tab
+    file_test: initial_generated_icon.png
+    retries_until_complete: 0
 oomlout_ai_roboclick_2:
-  actions:
-  - command: text_jinja_template
-    convert_to_pdf: false
-    convert_to_png: false
-    dict_data:
-      directory: parts\hardware_screw_socket_cap_hex_head_black_m6_diameter_50_mm_length
-      length: 50
-      name: hardware_screw_socket_cap_hex_head_black_m6_diameter_50_mm_length
-      name_proper: Hardware Screw Socket Cap Hex Head Black M6 Diameter 50 Mm Length
-      name_space: hardware screw socket cap hex head black m6 diameter 50 mm length
-      name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M6 DIAMETER 50 MM LENGTH
-      oobb_details:
-        drive_style: hex_head
-        length: 50_mm_length
-        oobb_name: screw
-        screw_colour: black
-        screw_style: socket_cap
-        thread_size: m6_diameter
-      oomlout_ai_roboclick_1:
-        actions:
-        - command: new_chat
-          description: step_1_create_icon
-        - command: ai_query
-          delay: '180'
-          mode_ai_wait: slow
-          text: "## READ THIS FIRST \u2014 no theme is coming in this message, and\
-            \ that is correct\n\nThis is **step 1 of 2**. It is deliberately theme-free.\
-            \ You are building a reusable house style, not designing a specific logo.\n\
-            \nThe theme arrives in step 2. Do **not** ask what the theme is. Do **not**\
-            \ ask any clarifying questions. Do **not** write a final image-generation\
-            \ prompt yet \u2014 you cannot, and attempting one is a failure of this\
-            \ step. Do **not** invent a placeholder theme and design for it. If you\
-            \ feel information is missing, that is expected: the missing information\
-            \ is the theme, it is coming next, and nothing in this step requires it.\n\
-            \nYour entire output for this step is a **house style guide** that will\
-            \ be applied to whatever theme arrives next.\n\n---\n\n## The product\
-            \ this style serves\n\n**Intended use:** a square, single-colour, pure-black-on-pure-white\
-            \ mascot logo, generated as a raster image, then **auto-traced to vector\
-            \ and cut/engraved on a laser cutter**. The trace step is unforgiving\
-            \ \u2014 it is the hardest constraint in this brief and should shape most\
-            \ of your recommendations.\n\n**Target feel:** charming, original, cute,\
-            \ polished, instantly readable at ~20 mm. A designed branded icon, not\
-            \ a doodle page and not generic kawaii clip art.\n\n---\n\n## What to\
-            \ produce\n\nWrite these six sections. **Budget: about 900 words total,\
-            \ 1,100 hard ceiling.** That is roughly 100\u2013150 words per section,\
-            \ with section 6 allowed the most. This is a working reference, not an\
-            \ essay \u2014 every line should be a rule someone could check a drawing\
-            \ against. Prefer tight bullets over prose paragraphs, and cut any sentence\
-            \ that only restates the brief back at me.\n\n**1. Line language menu**\n\
-            Exactly three distinct black-on-white line-art approaches (e.g. uniform\
-            \ monoline, weight-varied outline with sparse interior, chunky sticker-outline,\
-            \ geometric constructed line). One or two lines each: what it does for\
-            \ charm, how it survives auto-tracing, what it costs.\n\n**2. Cuteness\
-            \ that isn't generic**\nThe handful of levers that make a line mascot\
-            \ lovable \u2014 eye shape and spacing, head-to-body ratio, pose energy,\
-            \ mouth simplicity, restraint on blush marks \u2014 each as a one-line\
-            \ rule with a number where a number applies. Then a short do-not list\
-            \ of the clich\xE9s that make an AI mascot look stock (dead-centre symmetrical\
-            \ stare, sparkle confetti, floating hearts, blob bodies), each with its\
-            \ one-line replacement.\n\n**3. Trace-safety rules**\nA flat list of concrete,\
-            \ checkable rules for the auto-trace-to-cut pipeline \u2014 one line each,\
-            \ no explanatory paragraphs:\n- minimum stroke thickness relative to the\
-            \ square's width, stated as a fraction (so it scales)\n- minimum gap between\
-            \ two adjacent strokes before they blur into one traced blob\n- why every\
-            \ shape should read as a closed path, and how to spot one that won't\n\
-            - island/floating-part handling and where to add connective bridges\n\
-            - what to do about interior detail that a tracer will turn into noise\
-            \ (crosshatching, stippling, tapering hairlines, single stray dots)\n\
-            - why large solid black fills are avoided here, and the acceptable exceptions\
-            \ (small eyes, pupils, a tiny accent shape)\n\n**4. Composition and hierarchy**\n\
-            Bulleted rules only: square framing, margin as a fraction of the square,\
-            \ centre of visual mass, minimum negative space, the mascot-leads / props-support\
-            \ / text-reinforces hierarchy, and the shared traits that make it read\
-            \ as one illustrator's hand (same stroke weight, same corner radius, same\
-            \ eye style, same spacing rhythm).\n\n**5. Text and badge treatments**\n\
-            Text is **optional**. Briefly: when a word helps versus clutters, a maximum\
-            \ letter count that stays cuttable, how to specify literal text so it\
-            \ renders verbatim (quotes, exact casing), the letterform to ask for,\
-            \ and when a badge ring earns its place versus just boxing the mark in.\
-            \ Six bullets is plenty.\n\n**6. Prompt architecture for step 2**\nThe\
-            \ most important section, so spend your words here. Specify the exact\
-            \ template the step-2 final prompt must follow \u2014 and state that the\
-            \ finished prompt should land at **180\u2013250 words**, long enough to\
-            \ carry the spec, short enough that no single instruction gets diluted.\
-            \ Order it to match how the image model weights a prompt:\n\n1. **Medium\
-            \ and style up front** \u2014 the first sentence states it is a square\
-            \ black-and-white line-art mascot logo, because opening words set the\
-            \ mode for everything after.\n2. **Subject** \u2014 the mascot, its identity,\
-            \ expression, pose.\n3. **Key details** \u2014 props, supporting motifs,\
-            \ any literal text in quotes.\n4. **Layout** \u2014 centring, margins,\
-            \ hierarchy, where each element sits.\n5. **Line and manufacturing spec**\
-            \ \u2014 stroke weight, closed paths, interior-detail limits.\n6. **Exclusions\
-            \ last** \u2014 negatives go at the very end, after every positive descriptor,\
-            \ because a model reading them early tends to treat them as things to\
-            \ compose rather than things to omit.\n\nGive the canonical exclusion\
-            \ list to close with (no grey, no shading, no gradients, no halftone,\
-            \ no dithering, no texture, no colour, no transparency, no background\
-            \ scene, no drop shadow, no outer glow, no frame border unless specified,\
-            \ no watermark, no signature, no extra text beyond what is quoted).\n\n\
-            Also state the two facts the prompt must say in plain words no matter\
-            \ what: the image is **square**, and it is **pure black on a pure white\
-            \ background**.\n\n---\n\n## Response style and length\n\n**About 900\
-            \ words, 1,100 absolute maximum.** Bullets over prose. Concrete and checkable\
-            \ over abstract and aspirational \u2014 \"stroke no thinner than 1/100\
-            \ of the square's width\" beats \"confident lines\". No preamble, no restating\
-            \ this brief back at me, no summary of what you are about to do. Skip\
-            \ the caveats and the reasoning behind each rule; just state the rule.\n\
-            \nClose with a checklist of the rules, 12 lines at most, so step 2 can\
-            \ be graded against it.\n\nThen stop. No final image prompt, no questions,\
-            \ no theme.\n"
-        - command: ai_query
-          delay: '180'
-          mode_ai_wait: slow
-          text: "## Step 2 of 2 \u2014 the theme\n\nThe theme is: **an image of hardware\
-            \ screw socket cap hex head black m6 diameter 50 mm length please include\
-            \ the thread size and length in the image as text, add extra icons in\
-            \ the back, one that ryhmes with the diameter and one or two that rhymes\
-            \ with the length, if the length is less than 14 just one if it is greater\
-            \ do two, one rhyming for each part of the number ie for twenty five one\
-            \ that rhymes with twenty and one that rhymes with five. Put some time\
-            \ into searching to find the rhymes**\n\nApply the house style you just\
-            \ wrote to this theme. Everything you need is now in hand \u2014 do not\
-            \ ask questions, just work.\n\n---\n\n## Part A \u2014 exploration\n\n\
-            **Budget: about 450 words, 600 hard ceiling.** Push past the theme's first\
-            \ obvious reading, but do it briskly. No preamble, no restating the theme\
-            \ back at me.\n\n- **Angles:** exactly four mascot interpretations, **one\
-            \ or two sentences each**. Include at least one that anthropomorphises\
-            \ an object or concept from the theme rather than reaching for the obvious\
-            \ animal, and at least one built on a visual pun. Then name your pick\
-            \ in a single sentence saying why it beats the other three \u2014 no full\
-            \ comparison table.\n- **The chosen design:** one short paragraph fixing\
-            \ the pose, expression, props, and line strategy. Prefer gesture or a\
-            \ moment of character over a static front-on stare. Cut any prop that\
-            \ is decoration rather than signal.\n- **Text:** one line \u2014 the exact\
-            \ string in quotes with exact casing, or \"no text\". Text is optional\
-            \ and a clean wordless mark often wins.\n- **Trace and small-size check:**\
-            \ a short bullet list of fixes only \u2014 every stroke to thicken, gap\
-            \ to widen, island to bridge, detail to delete. Just the fixes, not the\
-            \ reasoning, and not a description of what the design looks like at size.\n\
-            \nSkip anything not on that list: no tradeoff essays, no runner-up post-mortems,\
-            \ no notes on your own process.\n\n## Part B \u2014 the final prompt\n\
-            \nEnd your response with the final image-generation prompt for the chosen\
-            \ direction, and nothing after it.\n\nFormat it as a single fenced code\
-            \ block labelled `FINAL IMAGE PROMPT`, so it can be copied cleanly. Follow\
-            \ the six-part architecture from step 1 exactly, in order: medium and\
-            \ style \u2192 subject \u2192 key details \u2192 layout \u2192 line and\
-            \ manufacturing spec \u2192 exclusions last.\n\n**Length: 180\u2013250\
-            \ words.** Long enough to carry the full spec, short enough that no single\
-            \ instruction gets diluted. If you are over, cut adjectives and repeated\
-            \ style words before you cut any manufacturing rule.\n\nHard requirements\
-            \ for that prompt:\n\n- It opens by stating it is a **square black-and-white\
-            \ line-art mascot logo**.\n- It says in plain words that the image is\
-            \ **square** and **pure black on a pure white background**.\n- It states\
-            \ stroke weight as a fraction of the image width, and requires every shape\
-            \ to be a **closed path** with **no floating disconnected islands**.\n\
-            - It caps interior detail explicitly and forbids crosshatching, stippling,\
-            \ and hairline tapers.\n- Any literal text appears in quotes with exact\
-            \ casing, spelled out character by character if it is unusual.\n- The\
-            \ exclusion list comes **last**, after every positive descriptor.\n- It\
-            \ is self-contained: someone pasting it cold, with no memory of this conversation,\
-            \ gets the same image. No \"as discussed above\", no \"the mascot from\
-            \ earlier\".\n- One prompt only. No variants, no alternates, no commentary\
-            \ after the code block.\n"
-        - command: ai_query
-          delay: '300'
-          mode_ai_wait: slow
-          text: Generate the image take all the time you need
-        - command: save_image_generated
-          file_name: initial_generated_icon.png
-          mode_ai_wait: slow
-        - command: close_tab
-        file_test: initial_generated_icon.png
-        retries_until_complete: 0
-      screw_style: screw_socket_cap
-      svg_details:
-        diameter_mm: 6.0
-        drive_style: hex_head
-        drive_symbol_gap_mm: 3.5999999999999996
-        head_diameter_mm: 10.2
-        head_rim_mm: 0.44999999999999996
-        length_mm: 50.0
-        screw_style: socket_cap
-        socket_depth_mm: 1.9500000000000002
-        socket_width_mm: 3.9000000000000004
-        stylesheet: project_bolt
-        svg_name: screw_diagrams
-        thread_pitch_mm: 1
-        variants:
-          plain: diagram_plain.svg
-          solid: diagram_solid.svg
-          threaded: diagram_threaded.svg
-      taxonomy_1: hardware
-      taxonomy_10: ''
-      taxonomy_11: ''
-      taxonomy_12: ''
-      taxonomy_13: ''
-      taxonomy_14: ''
-      taxonomy_15: ''
-      taxonomy_2: screw
-      taxonomy_3: socket_cap
-      taxonomy_4: hex_head
-      taxonomy_5: black
-      taxonomy_6: m6_diameter
-      taxonomy_7: 50_mm_length
-      taxonomy_8: ''
-      taxonomy_9: ''
-      thread_size: m6
-      url_chat: https://chatgpt.com/c/69f76f53-85bc-83eb-a63c-282ae2e8776a
-    dict_data_files: {}
-    dict_data_files_exists: {}
-    file_output: label_oomp.svg
-    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
-    search_and_replace: []
-  file_test: label_oomp.pdf
-  retries_until_complete: 0
-oomlout_ai_roboclick_3:
-  actions:
-  - command: text_jinja_template
-    convert_to_pdf: false
-    convert_to_png: false
-    dict_data:
-      directory: parts\hardware_screw_socket_cap_hex_head_black_m6_diameter_50_mm_length
-      length: 50
-      name: hardware_screw_socket_cap_hex_head_black_m6_diameter_50_mm_length
-      name_proper: Hardware Screw Socket Cap Hex Head Black M6 Diameter 50 Mm Length
-      name_space: hardware screw socket cap hex head black m6 diameter 50 mm length
-      name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M6 DIAMETER 50 MM LENGTH
-      oobb_details:
-        drive_style: hex_head
-        length: 50_mm_length
-        oobb_name: screw
-        screw_colour: black
-        screw_style: socket_cap
-        thread_size: m6_diameter
-      oomlout_ai_roboclick_1:
-        actions:
-        - command: new_chat
-          description: step_1_create_icon
-        - command: ai_query
-          delay: '180'
-          mode_ai_wait: slow
-          text: "## READ THIS FIRST \u2014 no theme is coming in this message, and\
-            \ that is correct\n\nThis is **step 1 of 2**. It is deliberately theme-free.\
-            \ You are building a reusable house style, not designing a specific logo.\n\
-            \nThe theme arrives in step 2. Do **not** ask what the theme is. Do **not**\
-            \ ask any clarifying questions. Do **not** write a final image-generation\
-            \ prompt yet \u2014 you cannot, and attempting one is a failure of this\
-            \ step. Do **not** invent a placeholder theme and design for it. If you\
-            \ feel information is missing, that is expected: the missing information\
-            \ is the theme, it is coming next, and nothing in this step requires it.\n\
-            \nYour entire output for this step is a **house style guide** that will\
-            \ be applied to whatever theme arrives next.\n\n---\n\n## The product\
-            \ this style serves\n\n**Intended use:** a square, single-colour, pure-black-on-pure-white\
-            \ mascot logo, generated as a raster image, then **auto-traced to vector\
-            \ and cut/engraved on a laser cutter**. The trace step is unforgiving\
-            \ \u2014 it is the hardest constraint in this brief and should shape most\
-            \ of your recommendations.\n\n**Target feel:** charming, original, cute,\
-            \ polished, instantly readable at ~20 mm. A designed branded icon, not\
-            \ a doodle page and not generic kawaii clip art.\n\n---\n\n## What to\
-            \ produce\n\nWrite these six sections. **Budget: about 900 words total,\
-            \ 1,100 hard ceiling.** That is roughly 100\u2013150 words per section,\
-            \ with section 6 allowed the most. This is a working reference, not an\
-            \ essay \u2014 every line should be a rule someone could check a drawing\
-            \ against. Prefer tight bullets over prose paragraphs, and cut any sentence\
-            \ that only restates the brief back at me.\n\n**1. Line language menu**\n\
-            Exactly three distinct black-on-white line-art approaches (e.g. uniform\
-            \ monoline, weight-varied outline with sparse interior, chunky sticker-outline,\
-            \ geometric constructed line). One or two lines each: what it does for\
-            \ charm, how it survives auto-tracing, what it costs.\n\n**2. Cuteness\
-            \ that isn't generic**\nThe handful of levers that make a line mascot\
-            \ lovable \u2014 eye shape and spacing, head-to-body ratio, pose energy,\
-            \ mouth simplicity, restraint on blush marks \u2014 each as a one-line\
-            \ rule with a number where a number applies. Then a short do-not list\
-            \ of the clich\xE9s that make an AI mascot look stock (dead-centre symmetrical\
-            \ stare, sparkle confetti, floating hearts, blob bodies), each with its\
-            \ one-line replacement.\n\n**3. Trace-safety rules**\nA flat list of concrete,\
-            \ checkable rules for the auto-trace-to-cut pipeline \u2014 one line each,\
-            \ no explanatory paragraphs:\n- minimum stroke thickness relative to the\
-            \ square's width, stated as a fraction (so it scales)\n- minimum gap between\
-            \ two adjacent strokes before they blur into one traced blob\n- why every\
-            \ shape should read as a closed path, and how to spot one that won't\n\
-            - island/floating-part handling and where to add connective bridges\n\
-            - what to do about interior detail that a tracer will turn into noise\
-            \ (crosshatching, stippling, tapering hairlines, single stray dots)\n\
-            - why large solid black fills are avoided here, and the acceptable exceptions\
-            \ (small eyes, pupils, a tiny accent shape)\n\n**4. Composition and hierarchy**\n\
-            Bulleted rules only: square framing, margin as a fraction of the square,\
-            \ centre of visual mass, minimum negative space, the mascot-leads / props-support\
-            \ / text-reinforces hierarchy, and the shared traits that make it read\
-            \ as one illustrator's hand (same stroke weight, same corner radius, same\
-            \ eye style, same spacing rhythm).\n\n**5. Text and badge treatments**\n\
-            Text is **optional**. Briefly: when a word helps versus clutters, a maximum\
-            \ letter count that stays cuttable, how to specify literal text so it\
-            \ renders verbatim (quotes, exact casing), the letterform to ask for,\
-            \ and when a badge ring earns its place versus just boxing the mark in.\
-            \ Six bullets is plenty.\n\n**6. Prompt architecture for step 2**\nThe\
-            \ most important section, so spend your words here. Specify the exact\
-            \ template the step-2 final prompt must follow \u2014 and state that the\
-            \ finished prompt should land at **180\u2013250 words**, long enough to\
-            \ carry the spec, short enough that no single instruction gets diluted.\
-            \ Order it to match how the image model weights a prompt:\n\n1. **Medium\
-            \ and style up front** \u2014 the first sentence states it is a square\
-            \ black-and-white line-art mascot logo, because opening words set the\
-            \ mode for everything after.\n2. **Subject** \u2014 the mascot, its identity,\
-            \ expression, pose.\n3. **Key details** \u2014 props, supporting motifs,\
-            \ any literal text in quotes.\n4. **Layout** \u2014 centring, margins,\
-            \ hierarchy, where each element sits.\n5. **Line and manufacturing spec**\
-            \ \u2014 stroke weight, closed paths, interior-detail limits.\n6. **Exclusions\
-            \ last** \u2014 negatives go at the very end, after every positive descriptor,\
-            \ because a model reading them early tends to treat them as things to\
-            \ compose rather than things to omit.\n\nGive the canonical exclusion\
-            \ list to close with (no grey, no shading, no gradients, no halftone,\
-            \ no dithering, no texture, no colour, no transparency, no background\
-            \ scene, no drop shadow, no outer glow, no frame border unless specified,\
-            \ no watermark, no signature, no extra text beyond what is quoted).\n\n\
-            Also state the two facts the prompt must say in plain words no matter\
-            \ what: the image is **square**, and it is **pure black on a pure white\
-            \ background**.\n\n---\n\n## Response style and length\n\n**About 900\
-            \ words, 1,100 absolute maximum.** Bullets over prose. Concrete and checkable\
-            \ over abstract and aspirational \u2014 \"stroke no thinner than 1/100\
-            \ of the square's width\" beats \"confident lines\". No preamble, no restating\
-            \ this brief back at me, no summary of what you are about to do. Skip\
-            \ the caveats and the reasoning behind each rule; just state the rule.\n\
-            \nClose with a checklist of the rules, 12 lines at most, so step 2 can\
-            \ be graded against it.\n\nThen stop. No final image prompt, no questions,\
-            \ no theme.\n"
-        - command: ai_query
-          delay: '180'
-          mode_ai_wait: slow
-          text: "## Step 2 of 2 \u2014 the theme\n\nThe theme is: **an image of hardware\
-            \ screw socket cap hex head black m6 diameter 50 mm length please include\
-            \ the thread size and length in the image as text, add extra icons in\
-            \ the back, one that ryhmes with the diameter and one or two that rhymes\
-            \ with the length, if the length is less than 14 just one if it is greater\
-            \ do two, one rhyming for each part of the number ie for twenty five one\
-            \ that rhymes with twenty and one that rhymes with five. Put some time\
-            \ into searching to find the rhymes**\n\nApply the house style you just\
-            \ wrote to this theme. Everything you need is now in hand \u2014 do not\
-            \ ask questions, just work.\n\n---\n\n## Part A \u2014 exploration\n\n\
-            **Budget: about 450 words, 600 hard ceiling.** Push past the theme's first\
-            \ obvious reading, but do it briskly. No preamble, no restating the theme\
-            \ back at me.\n\n- **Angles:** exactly four mascot interpretations, **one\
-            \ or two sentences each**. Include at least one that anthropomorphises\
-            \ an object or concept from the theme rather than reaching for the obvious\
-            \ animal, and at least one built on a visual pun. Then name your pick\
-            \ in a single sentence saying why it beats the other three \u2014 no full\
-            \ comparison table.\n- **The chosen design:** one short paragraph fixing\
-            \ the pose, expression, props, and line strategy. Prefer gesture or a\
-            \ moment of character over a static front-on stare. Cut any prop that\
-            \ is decoration rather than signal.\n- **Text:** one line \u2014 the exact\
-            \ string in quotes with exact casing, or \"no text\". Text is optional\
-            \ and a clean wordless mark often wins.\n- **Trace and small-size check:**\
-            \ a short bullet list of fixes only \u2014 every stroke to thicken, gap\
-            \ to widen, island to bridge, detail to delete. Just the fixes, not the\
-            \ reasoning, and not a description of what the design looks like at size.\n\
-            \nSkip anything not on that list: no tradeoff essays, no runner-up post-mortems,\
-            \ no notes on your own process.\n\n## Part B \u2014 the final prompt\n\
-            \nEnd your response with the final image-generation prompt for the chosen\
-            \ direction, and nothing after it.\n\nFormat it as a single fenced code\
-            \ block labelled `FINAL IMAGE PROMPT`, so it can be copied cleanly. Follow\
-            \ the six-part architecture from step 1 exactly, in order: medium and\
-            \ style \u2192 subject \u2192 key details \u2192 layout \u2192 line and\
-            \ manufacturing spec \u2192 exclusions last.\n\n**Length: 180\u2013250\
-            \ words.** Long enough to carry the full spec, short enough that no single\
-            \ instruction gets diluted. If you are over, cut adjectives and repeated\
-            \ style words before you cut any manufacturing rule.\n\nHard requirements\
-            \ for that prompt:\n\n- It opens by stating it is a **square black-and-white\
-            \ line-art mascot logo**.\n- It says in plain words that the image is\
-            \ **square** and **pure black on a pure white background**.\n- It states\
-            \ stroke weight as a fraction of the image width, and requires every shape\
-            \ to be a **closed path** with **no floating disconnected islands**.\n\
-            - It caps interior detail explicitly and forbids crosshatching, stippling,\
-            \ and hairline tapers.\n- Any literal text appears in quotes with exact\
-            \ casing, spelled out character by character if it is unusual.\n- The\
-            \ exclusion list comes **last**, after every positive descriptor.\n- It\
-            \ is self-contained: someone pasting it cold, with no memory of this conversation,\
-            \ gets the same image. No \"as discussed above\", no \"the mascot from\
-            \ earlier\".\n- One prompt only. No variants, no alternates, no commentary\
-            \ after the code block.\n"
-        - command: ai_query
-          delay: '300'
-          mode_ai_wait: slow
-          text: Generate the image take all the time you need
-        - command: save_image_generated
-          file_name: initial_generated_icon.png
-          mode_ai_wait: slow
-        - command: close_tab
-        file_test: initial_generated_icon.png
-        retries_until_complete: 0
-      oomlout_ai_roboclick_2:
-        actions:
-        - command: text_jinja_template
-          convert_to_pdf: false
-          convert_to_png: false
-          dict_data:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
             directory: parts\hardware_screw_socket_cap_hex_head_black_m6_diameter_50_mm_length
             length: 50
             name: hardware_screw_socket_cap_hex_head_black_m6_diameter_50_mm_length
             name_proper: Hardware Screw Socket Cap Hex Head Black M6 Diameter 50 Mm
-              Length
+                Length
             name_space: hardware screw socket cap hex head black m6 diameter 50 mm
-              length
+                length
             name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M6 DIAMETER 50 MM
-              LENGTH
+                LENGTH
             oobb_details:
-              drive_style: hex_head
-              length: 50_mm_length
-              oobb_name: screw
-              screw_colour: black
-              screw_style: socket_cap
-              thread_size: m6_diameter
+                drive_style: hex_head
+                length: 50_mm_length
+                oobb_name: screw
+                screw_colour: black
+                screw_style: socket_cap
+                thread_size: m6_diameter
             oomlout_ai_roboclick_1:
-              actions:
-              - command: new_chat
-                description: step_1_create_icon
-              - command: ai_query
-                delay: '180'
-                mode_ai_wait: slow
-                text: "## READ THIS FIRST \u2014 no theme is coming in this message,\
-                  \ and that is correct\n\nThis is **step 1 of 2**. It is deliberately\
-                  \ theme-free. You are building a reusable house style, not designing\
-                  \ a specific logo.\n\nThe theme arrives in step 2. Do **not** ask\
-                  \ what the theme is. Do **not** ask any clarifying questions. Do\
-                  \ **not** write a final image-generation prompt yet \u2014 you cannot,\
-                  \ and attempting one is a failure of this step. Do **not** invent\
-                  \ a placeholder theme and design for it. If you feel information\
-                  \ is missing, that is expected: the missing information is the theme,\
-                  \ it is coming next, and nothing in this step requires it.\n\nYour\
-                  \ entire output for this step is a **house style guide** that will\
-                  \ be applied to whatever theme arrives next.\n\n---\n\n## The product\
-                  \ this style serves\n\n**Intended use:** a square, single-colour,\
-                  \ pure-black-on-pure-white mascot logo, generated as a raster image,\
-                  \ then **auto-traced to vector and cut/engraved on a laser cutter**.\
-                  \ The trace step is unforgiving \u2014 it is the hardest constraint\
-                  \ in this brief and should shape most of your recommendations.\n\
-                  \n**Target feel:** charming, original, cute, polished, instantly\
-                  \ readable at ~20 mm. A designed branded icon, not a doodle page\
-                  \ and not generic kawaii clip art.\n\n---\n\n## What to produce\n\
-                  \nWrite these six sections. **Budget: about 900 words total, 1,100\
-                  \ hard ceiling.** That is roughly 100\u2013150 words per section,\
-                  \ with section 6 allowed the most. This is a working reference,\
-                  \ not an essay \u2014 every line should be a rule someone could\
-                  \ check a drawing against. Prefer tight bullets over prose paragraphs,\
-                  \ and cut any sentence that only restates the brief back at me.\n\
-                  \n**1. Line language menu**\nExactly three distinct black-on-white\
-                  \ line-art approaches (e.g. uniform monoline, weight-varied outline\
-                  \ with sparse interior, chunky sticker-outline, geometric constructed\
-                  \ line). One or two lines each: what it does for charm, how it survives\
-                  \ auto-tracing, what it costs.\n\n**2. Cuteness that isn't generic**\n\
-                  The handful of levers that make a line mascot lovable \u2014 eye\
-                  \ shape and spacing, head-to-body ratio, pose energy, mouth simplicity,\
-                  \ restraint on blush marks \u2014 each as a one-line rule with a\
-                  \ number where a number applies. Then a short do-not list of the\
-                  \ clich\xE9s that make an AI mascot look stock (dead-centre symmetrical\
-                  \ stare, sparkle confetti, floating hearts, blob bodies), each with\
-                  \ its one-line replacement.\n\n**3. Trace-safety rules**\nA flat\
-                  \ list of concrete, checkable rules for the auto-trace-to-cut pipeline\
-                  \ \u2014 one line each, no explanatory paragraphs:\n- minimum stroke\
-                  \ thickness relative to the square's width, stated as a fraction\
-                  \ (so it scales)\n- minimum gap between two adjacent strokes before\
-                  \ they blur into one traced blob\n- why every shape should read\
-                  \ as a closed path, and how to spot one that won't\n- island/floating-part\
-                  \ handling and where to add connective bridges\n- what to do about\
-                  \ interior detail that a tracer will turn into noise (crosshatching,\
-                  \ stippling, tapering hairlines, single stray dots)\n- why large\
-                  \ solid black fills are avoided here, and the acceptable exceptions\
-                  \ (small eyes, pupils, a tiny accent shape)\n\n**4. Composition\
-                  \ and hierarchy**\nBulleted rules only: square framing, margin as\
-                  \ a fraction of the square, centre of visual mass, minimum negative\
-                  \ space, the mascot-leads / props-support / text-reinforces hierarchy,\
-                  \ and the shared traits that make it read as one illustrator's hand\
-                  \ (same stroke weight, same corner radius, same eye style, same\
-                  \ spacing rhythm).\n\n**5. Text and badge treatments**\nText is\
-                  \ **optional**. Briefly: when a word helps versus clutters, a maximum\
-                  \ letter count that stays cuttable, how to specify literal text\
-                  \ so it renders verbatim (quotes, exact casing), the letterform\
-                  \ to ask for, and when a badge ring earns its place versus just\
-                  \ boxing the mark in. Six bullets is plenty.\n\n**6. Prompt architecture\
-                  \ for step 2**\nThe most important section, so spend your words\
-                  \ here. Specify the exact template the step-2 final prompt must\
-                  \ follow \u2014 and state that the finished prompt should land at\
-                  \ **180\u2013250 words**, long enough to carry the spec, short enough\
-                  \ that no single instruction gets diluted. Order it to match how\
-                  \ the image model weights a prompt:\n\n1. **Medium and style up\
-                  \ front** \u2014 the first sentence states it is a square black-and-white\
-                  \ line-art mascot logo, because opening words set the mode for everything\
-                  \ after.\n2. **Subject** \u2014 the mascot, its identity, expression,\
-                  \ pose.\n3. **Key details** \u2014 props, supporting motifs, any\
-                  \ literal text in quotes.\n4. **Layout** \u2014 centring, margins,\
-                  \ hierarchy, where each element sits.\n5. **Line and manufacturing\
-                  \ spec** \u2014 stroke weight, closed paths, interior-detail limits.\n\
-                  6. **Exclusions last** \u2014 negatives go at the very end, after\
-                  \ every positive descriptor, because a model reading them early\
-                  \ tends to treat them as things to compose rather than things to\
-                  \ omit.\n\nGive the canonical exclusion list to close with (no grey,\
-                  \ no shading, no gradients, no halftone, no dithering, no texture,\
-                  \ no colour, no transparency, no background scene, no drop shadow,\
-                  \ no outer glow, no frame border unless specified, no watermark,\
-                  \ no signature, no extra text beyond what is quoted).\n\nAlso state\
-                  \ the two facts the prompt must say in plain words no matter what:\
-                  \ the image is **square**, and it is **pure black on a pure white\
-                  \ background**.\n\n---\n\n## Response style and length\n\n**About\
-                  \ 900 words, 1,100 absolute maximum.** Bullets over prose. Concrete\
-                  \ and checkable over abstract and aspirational \u2014 \"stroke no\
-                  \ thinner than 1/100 of the square's width\" beats \"confident lines\"\
-                  . No preamble, no restating this brief back at me, no summary of\
-                  \ what you are about to do. Skip the caveats and the reasoning behind\
-                  \ each rule; just state the rule.\n\nClose with a checklist of the\
-                  \ rules, 12 lines at most, so step 2 can be graded against it.\n\
-                  \nThen stop. No final image prompt, no questions, no theme.\n"
-              - command: ai_query
-                delay: '180'
-                mode_ai_wait: slow
-                text: "## Step 2 of 2 \u2014 the theme\n\nThe theme is: **an image\
-                  \ of hardware screw socket cap hex head black m6 diameter 50 mm\
-                  \ length please include the thread size and length in the image\
-                  \ as text, add extra icons in the back, one that ryhmes with the\
-                  \ diameter and one or two that rhymes with the length, if the length\
-                  \ is less than 14 just one if it is greater do two, one rhyming\
-                  \ for each part of the number ie for twenty five one that rhymes\
-                  \ with twenty and one that rhymes with five. Put some time into\
-                  \ searching to find the rhymes**\n\nApply the house style you just\
-                  \ wrote to this theme. Everything you need is now in hand \u2014\
-                  \ do not ask questions, just work.\n\n---\n\n## Part A \u2014 exploration\n\
-                  \n**Budget: about 450 words, 600 hard ceiling.** Push past the theme's\
-                  \ first obvious reading, but do it briskly. No preamble, no restating\
-                  \ the theme back at me.\n\n- **Angles:** exactly four mascot interpretations,\
-                  \ **one or two sentences each**. Include at least one that anthropomorphises\
-                  \ an object or concept from the theme rather than reaching for the\
-                  \ obvious animal, and at least one built on a visual pun. Then name\
-                  \ your pick in a single sentence saying why it beats the other three\
-                  \ \u2014 no full comparison table.\n- **The chosen design:** one\
-                  \ short paragraph fixing the pose, expression, props, and line strategy.\
-                  \ Prefer gesture or a moment of character over a static front-on\
-                  \ stare. Cut any prop that is decoration rather than signal.\n-\
-                  \ **Text:** one line \u2014 the exact string in quotes with exact\
-                  \ casing, or \"no text\". Text is optional and a clean wordless\
-                  \ mark often wins.\n- **Trace and small-size check:** a short bullet\
-                  \ list of fixes only \u2014 every stroke to thicken, gap to widen,\
-                  \ island to bridge, detail to delete. Just the fixes, not the reasoning,\
-                  \ and not a description of what the design looks like at size.\n\
-                  \nSkip anything not on that list: no tradeoff essays, no runner-up\
-                  \ post-mortems, no notes on your own process.\n\n## Part B \u2014\
-                  \ the final prompt\n\nEnd your response with the final image-generation\
-                  \ prompt for the chosen direction, and nothing after it.\n\nFormat\
-                  \ it as a single fenced code block labelled `FINAL IMAGE PROMPT`,\
-                  \ so it can be copied cleanly. Follow the six-part architecture\
-                  \ from step 1 exactly, in order: medium and style \u2192 subject\
-                  \ \u2192 key details \u2192 layout \u2192 line and manufacturing\
-                  \ spec \u2192 exclusions last.\n\n**Length: 180\u2013250 words.**\
-                  \ Long enough to carry the full spec, short enough that no single\
-                  \ instruction gets diluted. If you are over, cut adjectives and\
-                  \ repeated style words before you cut any manufacturing rule.\n\n\
-                  Hard requirements for that prompt:\n\n- It opens by stating it is\
-                  \ a **square black-and-white line-art mascot logo**.\n- It says\
-                  \ in plain words that the image is **square** and **pure black on\
-                  \ a pure white background**.\n- It states stroke weight as a fraction\
-                  \ of the image width, and requires every shape to be a **closed\
-                  \ path** with **no floating disconnected islands**.\n- It caps interior\
-                  \ detail explicitly and forbids crosshatching, stippling, and hairline\
-                  \ tapers.\n- Any literal text appears in quotes with exact casing,\
-                  \ spelled out character by character if it is unusual.\n- The exclusion\
-                  \ list comes **last**, after every positive descriptor.\n- It is\
-                  \ self-contained: someone pasting it cold, with no memory of this\
-                  \ conversation, gets the same image. No \"as discussed above\",\
-                  \ no \"the mascot from earlier\".\n- One prompt only. No variants,\
-                  \ no alternates, no commentary after the code block.\n"
-              - command: ai_query
-                delay: '300'
-                mode_ai_wait: slow
-                text: Generate the image take all the time you need
-              - command: save_image_generated
-                file_name: initial_generated_icon.png
-                mode_ai_wait: slow
-              - command: close_tab
-              file_test: initial_generated_icon.png
-              retries_until_complete: 0
+                actions:
+                -   command: new_chat
+                    description: step_1_create_icon
+                -   command: ai_query
+                    delay: '180'
+                    mode_ai_wait: slow
+                    text: '## READ THIS FIRST — no theme is coming in this message,
+                        and that is correct
+
+
+                        This is **step 1 of 2**. It is deliberately theme-free. You
+                        are building a reusable house style, not designing a specific
+                        logo.
+
+
+                        The theme arrives in step 2. Do **not** ask what the theme
+                        is. Do **not** ask any clarifying questions. Do **not** write
+                        a final image-generation prompt yet — you cannot, and attempting
+                        one is a failure of this step. Do **not** invent a placeholder
+                        theme and design for it. If you feel information is missing,
+                        that is expected: the missing information is the theme, it
+                        is coming next, and nothing in this step requires it.
+
+
+                        Your entire output for this step is a **house style guide**
+                        that will be applied to whatever theme arrives next.
+
+
+                        ---
+
+
+                        ## The product this style serves
+
+
+                        **Intended use:** a square, single-colour, pure-black-on-pure-white
+                        mascot logo, generated as a raster image, then **auto-traced
+                        to vector and cut/engraved on a laser cutter**. The trace
+                        step is unforgiving — it is the hardest constraint in this
+                        brief and should shape most of your recommendations.
+
+
+                        **Target feel:** charming, original, cute, polished, instantly
+                        readable at ~20 mm. A designed branded icon, not a doodle
+                        page and not generic kawaii clip art.
+
+
+                        ---
+
+
+                        ## What to produce
+
+
+                        Write these six sections. **Budget: about 900 words total,
+                        1,100 hard ceiling.** That is roughly 100–150 words per section,
+                        with section 6 allowed the most. This is a working reference,
+                        not an essay — every line should be a rule someone could check
+                        a drawing against. Prefer tight bullets over prose paragraphs,
+                        and cut any sentence that only restates the brief back at
+                        me.
+
+
+                        **1. Line language menu**
+
+                        Exactly three distinct black-on-white line-art approaches
+                        (e.g. uniform monoline, weight-varied outline with sparse
+                        interior, chunky sticker-outline, geometric constructed line).
+                        One or two lines each: what it does for charm, how it survives
+                        auto-tracing, what it costs.
+
+
+                        **2. Cuteness that isn''t generic**
+
+                        The handful of levers that make a line mascot lovable — eye
+                        shape and spacing, head-to-body ratio, pose energy, mouth
+                        simplicity, restraint on blush marks — each as a one-line
+                        rule with a number where a number applies. Then a short do-not
+                        list of the clichés that make an AI mascot look stock (dead-centre
+                        symmetrical stare, sparkle confetti, floating hearts, blob
+                        bodies), each with its one-line replacement.
+
+
+                        **3. Trace-safety rules**
+
+                        A flat list of concrete, checkable rules for the auto-trace-to-cut
+                        pipeline — one line each, no explanatory paragraphs:
+
+                        - minimum stroke thickness relative to the square''s width,
+                        stated as a fraction (so it scales)
+
+                        - minimum gap between two adjacent strokes before they blur
+                        into one traced blob
+
+                        - why every shape should read as a closed path, and how to
+                        spot one that won''t
+
+                        - island/floating-part handling and where to add connective
+                        bridges
+
+                        - what to do about interior detail that a tracer will turn
+                        into noise (crosshatching, stippling, tapering hairlines,
+                        single stray dots)
+
+                        - why large solid black fills are avoided here, and the acceptable
+                        exceptions (small eyes, pupils, a tiny accent shape)
+
+
+                        **4. Composition and hierarchy**
+
+                        Bulleted rules only: square framing, margin as a fraction
+                        of the square, centre of visual mass, minimum negative space,
+                        the mascot-leads / props-support / text-reinforces hierarchy,
+                        and the shared traits that make it read as one illustrator''s
+                        hand (same stroke weight, same corner radius, same eye style,
+                        same spacing rhythm).
+
+
+                        **5. Text and badge treatments**
+
+                        Text is **optional**. Briefly: when a word helps versus clutters,
+                        a maximum letter count that stays cuttable, how to specify
+                        literal text so it renders verbatim (quotes, exact casing),
+                        the letterform to ask for, and when a badge ring earns its
+                        place versus just boxing the mark in. Six bullets is plenty.
+
+
+                        **6. Prompt architecture for step 2**
+
+                        The most important section, so spend your words here. Specify
+                        the exact template the step-2 final prompt must follow — and
+                        state that the finished prompt should land at **180–250 words**,
+                        long enough to carry the spec, short enough that no single
+                        instruction gets diluted. Order it to match how the image
+                        model weights a prompt:
+
+
+                        1. **Medium and style up front** — the first sentence states
+                        it is a square black-and-white line-art mascot logo, because
+                        opening words set the mode for everything after.
+
+                        2. **Subject** — the mascot, its identity, expression, pose.
+
+                        3. **Key details** — props, supporting motifs, any literal
+                        text in quotes.
+
+                        4. **Layout** — centring, margins, hierarchy, where each element
+                        sits.
+
+                        5. **Line and manufacturing spec** — stroke weight, closed
+                        paths, interior-detail limits.
+
+                        6. **Exclusions last** — negatives go at the very end, after
+                        every positive descriptor, because a model reading them early
+                        tends to treat them as things to compose rather than things
+                        to omit.
+
+
+                        Give the canonical exclusion list to close with (no grey,
+                        no shading, no gradients, no halftone, no dithering, no texture,
+                        no colour, no transparency, no background scene, no drop shadow,
+                        no outer glow, no frame border unless specified, no watermark,
+                        no signature, no extra text beyond what is quoted).
+
+
+                        Also state the two facts the prompt must say in plain words
+                        no matter what: the image is **square**, and it is **pure
+                        black on a pure white background**.
+
+
+                        ---
+
+
+                        ## Response style and length
+
+
+                        **About 900 words, 1,100 absolute maximum.** Bullets over
+                        prose. Concrete and checkable over abstract and aspirational
+                        — "stroke no thinner than 1/100 of the square''s width" beats
+                        "confident lines". No preamble, no restating this brief back
+                        at me, no summary of what you are about to do. Skip the caveats
+                        and the reasoning behind each rule; just state the rule.
+
+
+                        Close with a checklist of the rules, 12 lines at most, so
+                        step 2 can be graded against it.
+
+
+                        Then stop. No final image prompt, no questions, no theme.
+
+                        '
+                -   command: ai_query
+                    delay: '180'
+                    mode_ai_wait: slow
+                    text: '## Step 2 of 2 — the theme
+
+
+                        The theme is: **an image of hardware screw socket cap hex
+                        head black m6 diameter 50 mm length please include the thread
+                        size and length in the image as text, add extra icons in the
+                        back, one that ryhmes with the diameter and one or two that
+                        rhymes with the length, if the length is less than 14 just
+                        one if it is greater do two, one rhyming for each part of
+                        the number ie for twenty five one that rhymes with twenty
+                        and one that rhymes with five. Put some time into searching
+                        to find the rhymes**
+
+
+                        Apply the house style you just wrote to this theme. Everything
+                        you need is now in hand — do not ask questions, just work.
+
+
+                        ---
+
+
+                        ## Part A — exploration
+
+
+                        **Budget: about 450 words, 600 hard ceiling.** Push past the
+                        theme''s first obvious reading, but do it briskly. No preamble,
+                        no restating the theme back at me.
+
+
+                        - **Angles:** exactly four mascot interpretations, **one or
+                        two sentences each**. Include at least one that anthropomorphises
+                        an object or concept from the theme rather than reaching for
+                        the obvious animal, and at least one built on a visual pun.
+                        Then name your pick in a single sentence saying why it beats
+                        the other three — no full comparison table.
+
+                        - **The chosen design:** one short paragraph fixing the pose,
+                        expression, props, and line strategy. Prefer gesture or a
+                        moment of character over a static front-on stare. Cut any
+                        prop that is decoration rather than signal.
+
+                        - **Text:** one line — the exact string in quotes with exact
+                        casing, or "no text". Text is optional and a clean wordless
+                        mark often wins.
+
+                        - **Trace and small-size check:** a short bullet list of fixes
+                        only — every stroke to thicken, gap to widen, island to bridge,
+                        detail to delete. Just the fixes, not the reasoning, and not
+                        a description of what the design looks like at size.
+
+
+                        Skip anything not on that list: no tradeoff essays, no runner-up
+                        post-mortems, no notes on your own process.
+
+
+                        ## Part B — the final prompt
+
+
+                        End your response with the final image-generation prompt for
+                        the chosen direction, and nothing after it.
+
+
+                        Format it as a single fenced code block labelled `FINAL IMAGE
+                        PROMPT`, so it can be copied cleanly. Follow the six-part
+                        architecture from step 1 exactly, in order: medium and style
+                        → subject → key details → layout → line and manufacturing
+                        spec → exclusions last.
+
+
+                        **Length: 180–250 words.** Long enough to carry the full spec,
+                        short enough that no single instruction gets diluted. If you
+                        are over, cut adjectives and repeated style words before you
+                        cut any manufacturing rule.
+
+
+                        Hard requirements for that prompt:
+
+
+                        - It opens by stating it is a **square black-and-white line-art
+                        mascot logo**.
+
+                        - It says in plain words that the image is **square** and
+                        **pure black on a pure white background**.
+
+                        - It states stroke weight as a fraction of the image width,
+                        and requires every shape to be a **closed path** with **no
+                        floating disconnected islands**.
+
+                        - It caps interior detail explicitly and forbids crosshatching,
+                        stippling, and hairline tapers.
+
+                        - Any literal text appears in quotes with exact casing, spelled
+                        out character by character if it is unusual.
+
+                        - The exclusion list comes **last**, after every positive
+                        descriptor.
+
+                        - It is self-contained: someone pasting it cold, with no memory
+                        of this conversation, gets the same image. No "as discussed
+                        above", no "the mascot from earlier".
+
+                        - One prompt only. No variants, no alternates, no commentary
+                        after the code block.
+
+                        '
+                -   command: ai_query
+                    delay: '300'
+                    mode_ai_wait: slow
+                    text: Generate the image take all the time you need
+                -   command: save_image_generated
+                    file_name: initial_generated_icon.png
+                    mode_ai_wait: slow
+                -   command: close_tab
+                file_test: initial_generated_icon.png
+                retries_until_complete: 0
             screw_style: screw_socket_cap
+            supplier_data:
+                orbitalfasteners:
+                    supplier: orbitalfasteners
+                    supplier_id: '1891360'
+                    supplier_part_number: '1891360'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m6-x-50-socket-cap-screw-high-tensile-grade-12-9-self-colour
             svg_details:
-              diameter_mm: 6.0
-              drive_style: hex_head
-              drive_symbol_gap_mm: 3.5999999999999996
-              head_diameter_mm: 10.2
-              head_rim_mm: 0.44999999999999996
-              length_mm: 50.0
-              screw_style: socket_cap
-              socket_depth_mm: 1.9500000000000002
-              socket_width_mm: 3.9000000000000004
-              stylesheet: project_bolt
-              svg_name: screw_diagrams
-              thread_pitch_mm: 1
-              variants:
-                plain: diagram_plain.svg
-                solid: diagram_solid.svg
-                threaded: diagram_threaded.svg
+                diameter_mm: 6.0
+                drive_style: hex_head
+                drive_symbol_gap_mm: 3.5999999999999996
+                head_diameter_mm: 10.2
+                head_rim_mm: 0.44999999999999996
+                length_mm: 50.0
+                screw_style: socket_cap
+                socket_depth_mm: 1.9500000000000002
+                socket_width_mm: 3.9000000000000004
+                stylesheet: project_bolt
+                svg_name: screw_diagrams
+                thread_pitch_mm: 1
+                variants:
+                    plain: diagram_plain.svg
+                    solid: diagram_solid.svg
+                    threaded: diagram_threaded.svg
             taxonomy_1: hardware
             taxonomy_10: ''
             taxonomy_11: ''
@@ -866,92 +738,1559 @@ oomlout_ai_roboclick_3:
             taxonomy_8: ''
             taxonomy_9: ''
             thread_size: m6
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                commercial_lengths_mm: []
+                coordinate_system:
+                    axis: +Z towards head
+                    glb_units: metres
+                    glb_up_axis: Y
+                    head_top_z_mm: 56.0
+                    length_convention: under_head
+                    origin: tip centre
+                    stl_units: mm
+                dimension_status: standard_dimensions
+                dimensional_specification: Hexagon socket head cap screws
+                family: socket_cap
+                generation_status: ready
+                generator: parametric_screw
+                length_status: standard_length
+                material:
+                    base_colour_srgb:
+                    - 0.205
+                    - 0.218
+                    - 0.235
+                    coat_roughness: 0.28
+                    coat_weight: 0.08
+                    metallic: 0.8
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Black oxide steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.31
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    catalogue_length: Unlisted lengths use the sourced size profile
+                        at the catalogue length and are explicitly marked as extensions.
+                    certification: Nominal catalogue geometry; not manufacturing certification.
+                    display: Smooth nominal thread envelope with the same head and
+                        recessed drive.
+                    edges: Permitted 45 degree edge chamfers, selected small values;
+                        circular countersink at socket mouth.
+                    head: Plain cylindrical head; no knurling or unidentified manufacturer/property-class
+                        stamps.
+                    markings: Unidentified manufacturer and property-class stamps
+                        omitted.
+                    runout: One-pitch taper; incomplete thread remains within 2P.
+                    socket: Across-flats midpoint of ISO limits; minimum penetration,
+                        permissible flat bottom.
+                    thread: Nominal right-hand external metric profile; 60 degree
+                        flanks, H/6 rounded root; no ISO 965 tolerance offsets.
+                    thread_coverage: ISO shank/grip table selects partial lengths;
+                        full-thread commercial alternatives can be selected with thread_coverage=full.
+                    tip: Selected 45 degree chamfer of P/2.
+                output_folder: three_d_model
+                parameters:
+                    diameter_mm: 6.0
+                    drive_style: hex_head
+                    finish: black
+                    handedness: right
+                    head_diameter_mm: 10.0
+                    head_edge_chamfer_mm: 0.3
+                    head_height_mm: 6.0
+                    head_style: cylindrical
+                    head_top_z_mm: 56.0
+                    hex_key_mm: 5.0
+                    length_convention: under_head
+                    length_mm: 50.0
+                    overall_length_mm: 56.0
+                    partial_thread_from_length_mm: 40
+                    pitch_mm: 1.0
+                    socket_across_flats_mm: 5.08
+                    socket_depth_mm: 3.0
+                    standard: ISO 4762:2004
+                    thread_coverage: standard_reference
+                    thread_flank_angle_deg: 60.0
+                    thread_length_reference_mm: 24
+                    thread_minor_diameter_mm: 4.773130677972045
+                    thread_pitch_diameter_mm: 5.350480947161671
+                    thread_root_radius_mm: 0.14433756729740643
+                    thread_starts: 1
+                    tip_chamfer_mm: 0.5
+                    underhead_fillet_mm: 0.25
+                priority: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                sources:
+                -   title: ISO 4762:2004, Figure 1 and Table 1, pages 2–5
+                    url: https://cdn.standards.iteh.ai/samples/34460/06335046afaf46fb8e84d91a3eda001d/ISO-4762-2004.pdf
+                    use: Plain head dk, k, s limits, minimum t/r, b, shank/grip table
+                        and standard length combinations.
+                -   title: ISO 4762 scope and current edition
+                    url: https://www.iso.org/standard/34460.html
+                    use: Coarse metric M1.6–M64; M2 and M2.5 are within scope.
+                -   title: Bossard BN 2052 fully threaded DIN 912 / ISO 4762 screws
+                    url: https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-head-cap-screws-fully-threaded/p/2052/
+                    use: Fully threaded commercial alternative; catalogue does not
+                        specify which threading option was purchased.
+                standard: ISO 4762:2004
+                standard_lengths_mm:
+                - 10
+                - 12
+                - 16
+                - 20
+                - 25
+                - 30
+                - 35
+                - 40
+                - 45
+                - 50
+                - 55
+                - 60
+                standard_limits:
+                    head_diameter_mm:
+                    - 9.78
+                    - 10.0
+                    socket_across_flats_mm:
+                    - 5.02
+                    - 5.14
+                    socket_depth_min_mm: 3.0
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: tip down, head up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: lying on side, head to left
+                            projection: orthographic
+                            support: Head rim and threaded shaft rest on ground; solve
+                                tilt from mesh.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 32
+                        fillet_segments: 4
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
             url_chat: https://chatgpt.com/c/69f76f53-85bc-83eb-a63c-282ae2e8776a
-          dict_data_files: {}
-          dict_data_files_exists: {}
-          file_output: label_oomp.svg
-          file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
-          search_and_replace: []
-        file_test: label_oomp.pdf
-        retries_until_complete: 0
-      screw_style: screw_socket_cap
-      svg_details:
-        diameter_mm: 6.0
-        drive_style: hex_head
-        drive_symbol_gap_mm: 3.5999999999999996
-        head_diameter_mm: 10.2
-        head_rim_mm: 0.44999999999999996
-        length_mm: 50.0
-        screw_style: socket_cap
-        socket_depth_mm: 1.9500000000000002
-        socket_width_mm: 3.9000000000000004
-        stylesheet: project_bolt
-        svg_name: screw_diagrams
-        thread_pitch_mm: 1
-        variants:
-          plain: diagram_plain.svg
-          solid: diagram_solid.svg
-          threaded: diagram_threaded.svg
-      taxonomy_1: hardware
-      taxonomy_10: ''
-      taxonomy_11: ''
-      taxonomy_12: ''
-      taxonomy_13: ''
-      taxonomy_14: ''
-      taxonomy_15: ''
-      taxonomy_2: screw
-      taxonomy_3: socket_cap
-      taxonomy_4: hex_head
-      taxonomy_5: black
-      taxonomy_6: m6_diameter
-      taxonomy_7: 50_mm_length
-      taxonomy_8: ''
-      taxonomy_9: ''
-      thread_size: m6
-      url_chat: https://chatgpt.com/c/69f76f53-85bc-83eb-a63c-282ae2e8776a
-    dict_data_files: {}
-    dict_data_files_exists: {}
-    file_output: label_bolt_image.svg
-    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
-    search_and_replace: []
-  file_test: label_bolt_image.pdf
-  retries_until_complete: 0
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_screw_socket_cap_hex_head_black_m6_diameter_50_mm_length
+            length: 50
+            name: hardware_screw_socket_cap_hex_head_black_m6_diameter_50_mm_length
+            name_proper: Hardware Screw Socket Cap Hex Head Black M6 Diameter 50 Mm
+                Length
+            name_space: hardware screw socket cap hex head black m6 diameter 50 mm
+                length
+            name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M6 DIAMETER 50 MM
+                LENGTH
+            oobb_details:
+                drive_style: hex_head
+                length: 50_mm_length
+                oobb_name: screw
+                screw_colour: black
+                screw_style: socket_cap
+                thread_size: m6_diameter
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: new_chat
+                    description: step_1_create_icon
+                -   command: ai_query
+                    delay: '180'
+                    mode_ai_wait: slow
+                    text: '## READ THIS FIRST — no theme is coming in this message,
+                        and that is correct
+
+
+                        This is **step 1 of 2**. It is deliberately theme-free. You
+                        are building a reusable house style, not designing a specific
+                        logo.
+
+
+                        The theme arrives in step 2. Do **not** ask what the theme
+                        is. Do **not** ask any clarifying questions. Do **not** write
+                        a final image-generation prompt yet — you cannot, and attempting
+                        one is a failure of this step. Do **not** invent a placeholder
+                        theme and design for it. If you feel information is missing,
+                        that is expected: the missing information is the theme, it
+                        is coming next, and nothing in this step requires it.
+
+
+                        Your entire output for this step is a **house style guide**
+                        that will be applied to whatever theme arrives next.
+
+
+                        ---
+
+
+                        ## The product this style serves
+
+
+                        **Intended use:** a square, single-colour, pure-black-on-pure-white
+                        mascot logo, generated as a raster image, then **auto-traced
+                        to vector and cut/engraved on a laser cutter**. The trace
+                        step is unforgiving — it is the hardest constraint in this
+                        brief and should shape most of your recommendations.
+
+
+                        **Target feel:** charming, original, cute, polished, instantly
+                        readable at ~20 mm. A designed branded icon, not a doodle
+                        page and not generic kawaii clip art.
+
+
+                        ---
+
+
+                        ## What to produce
+
+
+                        Write these six sections. **Budget: about 900 words total,
+                        1,100 hard ceiling.** That is roughly 100–150 words per section,
+                        with section 6 allowed the most. This is a working reference,
+                        not an essay — every line should be a rule someone could check
+                        a drawing against. Prefer tight bullets over prose paragraphs,
+                        and cut any sentence that only restates the brief back at
+                        me.
+
+
+                        **1. Line language menu**
+
+                        Exactly three distinct black-on-white line-art approaches
+                        (e.g. uniform monoline, weight-varied outline with sparse
+                        interior, chunky sticker-outline, geometric constructed line).
+                        One or two lines each: what it does for charm, how it survives
+                        auto-tracing, what it costs.
+
+
+                        **2. Cuteness that isn''t generic**
+
+                        The handful of levers that make a line mascot lovable — eye
+                        shape and spacing, head-to-body ratio, pose energy, mouth
+                        simplicity, restraint on blush marks — each as a one-line
+                        rule with a number where a number applies. Then a short do-not
+                        list of the clichés that make an AI mascot look stock (dead-centre
+                        symmetrical stare, sparkle confetti, floating hearts, blob
+                        bodies), each with its one-line replacement.
+
+
+                        **3. Trace-safety rules**
+
+                        A flat list of concrete, checkable rules for the auto-trace-to-cut
+                        pipeline — one line each, no explanatory paragraphs:
+
+                        - minimum stroke thickness relative to the square''s width,
+                        stated as a fraction (so it scales)
+
+                        - minimum gap between two adjacent strokes before they blur
+                        into one traced blob
+
+                        - why every shape should read as a closed path, and how to
+                        spot one that won''t
+
+                        - island/floating-part handling and where to add connective
+                        bridges
+
+                        - what to do about interior detail that a tracer will turn
+                        into noise (crosshatching, stippling, tapering hairlines,
+                        single stray dots)
+
+                        - why large solid black fills are avoided here, and the acceptable
+                        exceptions (small eyes, pupils, a tiny accent shape)
+
+
+                        **4. Composition and hierarchy**
+
+                        Bulleted rules only: square framing, margin as a fraction
+                        of the square, centre of visual mass, minimum negative space,
+                        the mascot-leads / props-support / text-reinforces hierarchy,
+                        and the shared traits that make it read as one illustrator''s
+                        hand (same stroke weight, same corner radius, same eye style,
+                        same spacing rhythm).
+
+
+                        **5. Text and badge treatments**
+
+                        Text is **optional**. Briefly: when a word helps versus clutters,
+                        a maximum letter count that stays cuttable, how to specify
+                        literal text so it renders verbatim (quotes, exact casing),
+                        the letterform to ask for, and when a badge ring earns its
+                        place versus just boxing the mark in. Six bullets is plenty.
+
+
+                        **6. Prompt architecture for step 2**
+
+                        The most important section, so spend your words here. Specify
+                        the exact template the step-2 final prompt must follow — and
+                        state that the finished prompt should land at **180–250 words**,
+                        long enough to carry the spec, short enough that no single
+                        instruction gets diluted. Order it to match how the image
+                        model weights a prompt:
+
+
+                        1. **Medium and style up front** — the first sentence states
+                        it is a square black-and-white line-art mascot logo, because
+                        opening words set the mode for everything after.
+
+                        2. **Subject** — the mascot, its identity, expression, pose.
+
+                        3. **Key details** — props, supporting motifs, any literal
+                        text in quotes.
+
+                        4. **Layout** — centring, margins, hierarchy, where each element
+                        sits.
+
+                        5. **Line and manufacturing spec** — stroke weight, closed
+                        paths, interior-detail limits.
+
+                        6. **Exclusions last** — negatives go at the very end, after
+                        every positive descriptor, because a model reading them early
+                        tends to treat them as things to compose rather than things
+                        to omit.
+
+
+                        Give the canonical exclusion list to close with (no grey,
+                        no shading, no gradients, no halftone, no dithering, no texture,
+                        no colour, no transparency, no background scene, no drop shadow,
+                        no outer glow, no frame border unless specified, no watermark,
+                        no signature, no extra text beyond what is quoted).
+
+
+                        Also state the two facts the prompt must say in plain words
+                        no matter what: the image is **square**, and it is **pure
+                        black on a pure white background**.
+
+
+                        ---
+
+
+                        ## Response style and length
+
+
+                        **About 900 words, 1,100 absolute maximum.** Bullets over
+                        prose. Concrete and checkable over abstract and aspirational
+                        — "stroke no thinner than 1/100 of the square''s width" beats
+                        "confident lines". No preamble, no restating this brief back
+                        at me, no summary of what you are about to do. Skip the caveats
+                        and the reasoning behind each rule; just state the rule.
+
+
+                        Close with a checklist of the rules, 12 lines at most, so
+                        step 2 can be graded against it.
+
+
+                        Then stop. No final image prompt, no questions, no theme.
+
+                        '
+                -   command: ai_query
+                    delay: '180'
+                    mode_ai_wait: slow
+                    text: '## Step 2 of 2 — the theme
+
+
+                        The theme is: **an image of hardware screw socket cap hex
+                        head black m6 diameter 50 mm length please include the thread
+                        size and length in the image as text, add extra icons in the
+                        back, one that ryhmes with the diameter and one or two that
+                        rhymes with the length, if the length is less than 14 just
+                        one if it is greater do two, one rhyming for each part of
+                        the number ie for twenty five one that rhymes with twenty
+                        and one that rhymes with five. Put some time into searching
+                        to find the rhymes**
+
+
+                        Apply the house style you just wrote to this theme. Everything
+                        you need is now in hand — do not ask questions, just work.
+
+
+                        ---
+
+
+                        ## Part A — exploration
+
+
+                        **Budget: about 450 words, 600 hard ceiling.** Push past the
+                        theme''s first obvious reading, but do it briskly. No preamble,
+                        no restating the theme back at me.
+
+
+                        - **Angles:** exactly four mascot interpretations, **one or
+                        two sentences each**. Include at least one that anthropomorphises
+                        an object or concept from the theme rather than reaching for
+                        the obvious animal, and at least one built on a visual pun.
+                        Then name your pick in a single sentence saying why it beats
+                        the other three — no full comparison table.
+
+                        - **The chosen design:** one short paragraph fixing the pose,
+                        expression, props, and line strategy. Prefer gesture or a
+                        moment of character over a static front-on stare. Cut any
+                        prop that is decoration rather than signal.
+
+                        - **Text:** one line — the exact string in quotes with exact
+                        casing, or "no text". Text is optional and a clean wordless
+                        mark often wins.
+
+                        - **Trace and small-size check:** a short bullet list of fixes
+                        only — every stroke to thicken, gap to widen, island to bridge,
+                        detail to delete. Just the fixes, not the reasoning, and not
+                        a description of what the design looks like at size.
+
+
+                        Skip anything not on that list: no tradeoff essays, no runner-up
+                        post-mortems, no notes on your own process.
+
+
+                        ## Part B — the final prompt
+
+
+                        End your response with the final image-generation prompt for
+                        the chosen direction, and nothing after it.
+
+
+                        Format it as a single fenced code block labelled `FINAL IMAGE
+                        PROMPT`, so it can be copied cleanly. Follow the six-part
+                        architecture from step 1 exactly, in order: medium and style
+                        → subject → key details → layout → line and manufacturing
+                        spec → exclusions last.
+
+
+                        **Length: 180–250 words.** Long enough to carry the full spec,
+                        short enough that no single instruction gets diluted. If you
+                        are over, cut adjectives and repeated style words before you
+                        cut any manufacturing rule.
+
+
+                        Hard requirements for that prompt:
+
+
+                        - It opens by stating it is a **square black-and-white line-art
+                        mascot logo**.
+
+                        - It says in plain words that the image is **square** and
+                        **pure black on a pure white background**.
+
+                        - It states stroke weight as a fraction of the image width,
+                        and requires every shape to be a **closed path** with **no
+                        floating disconnected islands**.
+
+                        - It caps interior detail explicitly and forbids crosshatching,
+                        stippling, and hairline tapers.
+
+                        - Any literal text appears in quotes with exact casing, spelled
+                        out character by character if it is unusual.
+
+                        - The exclusion list comes **last**, after every positive
+                        descriptor.
+
+                        - It is self-contained: someone pasting it cold, with no memory
+                        of this conversation, gets the same image. No "as discussed
+                        above", no "the mascot from earlier".
+
+                        - One prompt only. No variants, no alternates, no commentary
+                        after the code block.
+
+                        '
+                -   command: ai_query
+                    delay: '300'
+                    mode_ai_wait: slow
+                    text: Generate the image take all the time you need
+                -   command: save_image_generated
+                    file_name: initial_generated_icon.png
+                    mode_ai_wait: slow
+                -   command: close_tab
+                file_test: initial_generated_icon.png
+                retries_until_complete: 0
+            oomlout_ai_roboclick_2:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_screw_socket_cap_hex_head_black_m6_diameter_50_mm_length
+                        length: 50
+                        name: hardware_screw_socket_cap_hex_head_black_m6_diameter_50_mm_length
+                        name_proper: Hardware Screw Socket Cap Hex Head Black M6 Diameter
+                            50 Mm Length
+                        name_space: hardware screw socket cap hex head black m6 diameter
+                            50 mm length
+                        name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M6 DIAMETER
+                            50 MM LENGTH
+                        oobb_details:
+                            drive_style: hex_head
+                            length: 50_mm_length
+                            oobb_name: screw
+                            screw_colour: black
+                            screw_style: socket_cap
+                            thread_size: m6_diameter
+                        oomlout_ai_roboclick_1:
+                            actions:
+                            -   command: new_chat
+                                description: step_1_create_icon
+                            -   command: ai_query
+                                delay: '180'
+                                mode_ai_wait: slow
+                                text: '## READ THIS FIRST — no theme is coming in
+                                    this message, and that is correct
+
+
+                                    This is **step 1 of 2**. It is deliberately theme-free.
+                                    You are building a reusable house style, not designing
+                                    a specific logo.
+
+
+                                    The theme arrives in step 2. Do **not** ask what
+                                    the theme is. Do **not** ask any clarifying questions.
+                                    Do **not** write a final image-generation prompt
+                                    yet — you cannot, and attempting one is a failure
+                                    of this step. Do **not** invent a placeholder
+                                    theme and design for it. If you feel information
+                                    is missing, that is expected: the missing information
+                                    is the theme, it is coming next, and nothing in
+                                    this step requires it.
+
+
+                                    Your entire output for this step is a **house
+                                    style guide** that will be applied to whatever
+                                    theme arrives next.
+
+
+                                    ---
+
+
+                                    ## The product this style serves
+
+
+                                    **Intended use:** a square, single-colour, pure-black-on-pure-white
+                                    mascot logo, generated as a raster image, then
+                                    **auto-traced to vector and cut/engraved on a
+                                    laser cutter**. The trace step is unforgiving
+                                    — it is the hardest constraint in this brief and
+                                    should shape most of your recommendations.
+
+
+                                    **Target feel:** charming, original, cute, polished,
+                                    instantly readable at ~20 mm. A designed branded
+                                    icon, not a doodle page and not generic kawaii
+                                    clip art.
+
+
+                                    ---
+
+
+                                    ## What to produce
+
+
+                                    Write these six sections. **Budget: about 900
+                                    words total, 1,100 hard ceiling.** That is roughly
+                                    100–150 words per section, with section 6 allowed
+                                    the most. This is a working reference, not an
+                                    essay — every line should be a rule someone could
+                                    check a drawing against. Prefer tight bullets
+                                    over prose paragraphs, and cut any sentence that
+                                    only restates the brief back at me.
+
+
+                                    **1. Line language menu**
+
+                                    Exactly three distinct black-on-white line-art
+                                    approaches (e.g. uniform monoline, weight-varied
+                                    outline with sparse interior, chunky sticker-outline,
+                                    geometric constructed line). One or two lines
+                                    each: what it does for charm, how it survives
+                                    auto-tracing, what it costs.
+
+
+                                    **2. Cuteness that isn''t generic**
+
+                                    The handful of levers that make a line mascot
+                                    lovable — eye shape and spacing, head-to-body
+                                    ratio, pose energy, mouth simplicity, restraint
+                                    on blush marks — each as a one-line rule with
+                                    a number where a number applies. Then a short
+                                    do-not list of the clichés that make an AI mascot
+                                    look stock (dead-centre symmetrical stare, sparkle
+                                    confetti, floating hearts, blob bodies), each
+                                    with its one-line replacement.
+
+
+                                    **3. Trace-safety rules**
+
+                                    A flat list of concrete, checkable rules for the
+                                    auto-trace-to-cut pipeline — one line each, no
+                                    explanatory paragraphs:
+
+                                    - minimum stroke thickness relative to the square''s
+                                    width, stated as a fraction (so it scales)
+
+                                    - minimum gap between two adjacent strokes before
+                                    they blur into one traced blob
+
+                                    - why every shape should read as a closed path,
+                                    and how to spot one that won''t
+
+                                    - island/floating-part handling and where to add
+                                    connective bridges
+
+                                    - what to do about interior detail that a tracer
+                                    will turn into noise (crosshatching, stippling,
+                                    tapering hairlines, single stray dots)
+
+                                    - why large solid black fills are avoided here,
+                                    and the acceptable exceptions (small eyes, pupils,
+                                    a tiny accent shape)
+
+
+                                    **4. Composition and hierarchy**
+
+                                    Bulleted rules only: square framing, margin as
+                                    a fraction of the square, centre of visual mass,
+                                    minimum negative space, the mascot-leads / props-support
+                                    / text-reinforces hierarchy, and the shared traits
+                                    that make it read as one illustrator''s hand (same
+                                    stroke weight, same corner radius, same eye style,
+                                    same spacing rhythm).
+
+
+                                    **5. Text and badge treatments**
+
+                                    Text is **optional**. Briefly: when a word helps
+                                    versus clutters, a maximum letter count that stays
+                                    cuttable, how to specify literal text so it renders
+                                    verbatim (quotes, exact casing), the letterform
+                                    to ask for, and when a badge ring earns its place
+                                    versus just boxing the mark in. Six bullets is
+                                    plenty.
+
+
+                                    **6. Prompt architecture for step 2**
+
+                                    The most important section, so spend your words
+                                    here. Specify the exact template the step-2 final
+                                    prompt must follow — and state that the finished
+                                    prompt should land at **180–250 words**, long
+                                    enough to carry the spec, short enough that no
+                                    single instruction gets diluted. Order it to match
+                                    how the image model weights a prompt:
+
+
+                                    1. **Medium and style up front** — the first sentence
+                                    states it is a square black-and-white line-art
+                                    mascot logo, because opening words set the mode
+                                    for everything after.
+
+                                    2. **Subject** — the mascot, its identity, expression,
+                                    pose.
+
+                                    3. **Key details** — props, supporting motifs,
+                                    any literal text in quotes.
+
+                                    4. **Layout** — centring, margins, hierarchy,
+                                    where each element sits.
+
+                                    5. **Line and manufacturing spec** — stroke weight,
+                                    closed paths, interior-detail limits.
+
+                                    6. **Exclusions last** — negatives go at the very
+                                    end, after every positive descriptor, because
+                                    a model reading them early tends to treat them
+                                    as things to compose rather than things to omit.
+
+
+                                    Give the canonical exclusion list to close with
+                                    (no grey, no shading, no gradients, no halftone,
+                                    no dithering, no texture, no colour, no transparency,
+                                    no background scene, no drop shadow, no outer
+                                    glow, no frame border unless specified, no watermark,
+                                    no signature, no extra text beyond what is quoted).
+
+
+                                    Also state the two facts the prompt must say in
+                                    plain words no matter what: the image is **square**,
+                                    and it is **pure black on a pure white background**.
+
+
+                                    ---
+
+
+                                    ## Response style and length
+
+
+                                    **About 900 words, 1,100 absolute maximum.** Bullets
+                                    over prose. Concrete and checkable over abstract
+                                    and aspirational — "stroke no thinner than 1/100
+                                    of the square''s width" beats "confident lines".
+                                    No preamble, no restating this brief back at me,
+                                    no summary of what you are about to do. Skip the
+                                    caveats and the reasoning behind each rule; just
+                                    state the rule.
+
+
+                                    Close with a checklist of the rules, 12 lines
+                                    at most, so step 2 can be graded against it.
+
+
+                                    Then stop. No final image prompt, no questions,
+                                    no theme.
+
+                                    '
+                            -   command: ai_query
+                                delay: '180'
+                                mode_ai_wait: slow
+                                text: '## Step 2 of 2 — the theme
+
+
+                                    The theme is: **an image of hardware screw socket
+                                    cap hex head black m6 diameter 50 mm length please
+                                    include the thread size and length in the image
+                                    as text, add extra icons in the back, one that
+                                    ryhmes with the diameter and one or two that rhymes
+                                    with the length, if the length is less than 14
+                                    just one if it is greater do two, one rhyming
+                                    for each part of the number ie for twenty five
+                                    one that rhymes with twenty and one that rhymes
+                                    with five. Put some time into searching to find
+                                    the rhymes**
+
+
+                                    Apply the house style you just wrote to this theme.
+                                    Everything you need is now in hand — do not ask
+                                    questions, just work.
+
+
+                                    ---
+
+
+                                    ## Part A — exploration
+
+
+                                    **Budget: about 450 words, 600 hard ceiling.**
+                                    Push past the theme''s first obvious reading,
+                                    but do it briskly. No preamble, no restating the
+                                    theme back at me.
+
+
+                                    - **Angles:** exactly four mascot interpretations,
+                                    **one or two sentences each**. Include at least
+                                    one that anthropomorphises an object or concept
+                                    from the theme rather than reaching for the obvious
+                                    animal, and at least one built on a visual pun.
+                                    Then name your pick in a single sentence saying
+                                    why it beats the other three — no full comparison
+                                    table.
+
+                                    - **The chosen design:** one short paragraph fixing
+                                    the pose, expression, props, and line strategy.
+                                    Prefer gesture or a moment of character over a
+                                    static front-on stare. Cut any prop that is decoration
+                                    rather than signal.
+
+                                    - **Text:** one line — the exact string in quotes
+                                    with exact casing, or "no text". Text is optional
+                                    and a clean wordless mark often wins.
+
+                                    - **Trace and small-size check:** a short bullet
+                                    list of fixes only — every stroke to thicken,
+                                    gap to widen, island to bridge, detail to delete.
+                                    Just the fixes, not the reasoning, and not a description
+                                    of what the design looks like at size.
+
+
+                                    Skip anything not on that list: no tradeoff essays,
+                                    no runner-up post-mortems, no notes on your own
+                                    process.
+
+
+                                    ## Part B — the final prompt
+
+
+                                    End your response with the final image-generation
+                                    prompt for the chosen direction, and nothing after
+                                    it.
+
+
+                                    Format it as a single fenced code block labelled
+                                    `FINAL IMAGE PROMPT`, so it can be copied cleanly.
+                                    Follow the six-part architecture from step 1 exactly,
+                                    in order: medium and style → subject → key details
+                                    → layout → line and manufacturing spec → exclusions
+                                    last.
+
+
+                                    **Length: 180–250 words.** Long enough to carry
+                                    the full spec, short enough that no single instruction
+                                    gets diluted. If you are over, cut adjectives
+                                    and repeated style words before you cut any manufacturing
+                                    rule.
+
+
+                                    Hard requirements for that prompt:
+
+
+                                    - It opens by stating it is a **square black-and-white
+                                    line-art mascot logo**.
+
+                                    - It says in plain words that the image is **square**
+                                    and **pure black on a pure white background**.
+
+                                    - It states stroke weight as a fraction of the
+                                    image width, and requires every shape to be a
+                                    **closed path** with **no floating disconnected
+                                    islands**.
+
+                                    - It caps interior detail explicitly and forbids
+                                    crosshatching, stippling, and hairline tapers.
+
+                                    - Any literal text appears in quotes with exact
+                                    casing, spelled out character by character if
+                                    it is unusual.
+
+                                    - The exclusion list comes **last**, after every
+                                    positive descriptor.
+
+                                    - It is self-contained: someone pasting it cold,
+                                    with no memory of this conversation, gets the
+                                    same image. No "as discussed above", no "the mascot
+                                    from earlier".
+
+                                    - One prompt only. No variants, no alternates,
+                                    no commentary after the code block.
+
+                                    '
+                            -   command: ai_query
+                                delay: '300'
+                                mode_ai_wait: slow
+                                text: Generate the image take all the time you need
+                            -   command: save_image_generated
+                                file_name: initial_generated_icon.png
+                                mode_ai_wait: slow
+                            -   command: close_tab
+                            file_test: initial_generated_icon.png
+                            retries_until_complete: 0
+                        screw_style: screw_socket_cap
+                        supplier_data:
+                            orbitalfasteners:
+                                supplier: orbitalfasteners
+                                supplier_id: '1891360'
+                                supplier_part_number: '1891360'
+                                supplier_website: https://www.orbitalfasteners.co.uk/products/m6-x-50-socket-cap-screw-high-tensile-grade-12-9-self-colour
+                        svg_details:
+                            diameter_mm: 6.0
+                            drive_style: hex_head
+                            drive_symbol_gap_mm: 3.5999999999999996
+                            head_diameter_mm: 10.2
+                            head_rim_mm: 0.44999999999999996
+                            length_mm: 50.0
+                            screw_style: socket_cap
+                            socket_depth_mm: 1.9500000000000002
+                            socket_width_mm: 3.9000000000000004
+                            stylesheet: project_bolt
+                            svg_name: screw_diagrams
+                            thread_pitch_mm: 1
+                            variants:
+                                plain: diagram_plain.svg
+                                solid: diagram_solid.svg
+                                threaded: diagram_threaded.svg
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: screw
+                        taxonomy_3: socket_cap
+                        taxonomy_4: hex_head
+                        taxonomy_5: black
+                        taxonomy_6: m6_diameter
+                        taxonomy_7: 50_mm_length
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        thread_size: m6
+                        three_d_model_details:
+                            checked_on: '2026-10-11'
+                            commercial_lengths_mm: []
+                            coordinate_system:
+                                axis: +Z towards head
+                                glb_units: metres
+                                glb_up_axis: Y
+                                head_top_z_mm: 56.0
+                                length_convention: under_head
+                                origin: tip centre
+                                stl_units: mm
+                            dimension_status: standard_dimensions
+                            dimensional_specification: Hexagon socket head cap screws
+                            family: socket_cap
+                            generation_status: ready
+                            generator: parametric_screw
+                            length_status: standard_length
+                            material:
+                                base_colour_srgb:
+                                - 0.205
+                                - 0.218
+                                - 0.235
+                                coat_roughness: 0.28
+                                coat_weight: 0.08
+                                metallic: 0.8
+                                microtexture_height_um: 0.8
+                                microtexture_spacing_mm: 0.025
+                                name: Black oxide steel
+                                note: Visual finish approximation; catalogue specifies
+                                    colour only.
+                                roughness: 0.31
+                                roughness_variation: 0.045
+                            model_formats:
+                            - stl
+                            - glb
+                            modelling_choices:
+                                catalogue_length: Unlisted lengths use the sourced
+                                    size profile at the catalogue length and are explicitly
+                                    marked as extensions.
+                                certification: Nominal catalogue geometry; not manufacturing
+                                    certification.
+                                display: Smooth nominal thread envelope with the same
+                                    head and recessed drive.
+                                edges: Permitted 45 degree edge chamfers, selected
+                                    small values; circular countersink at socket mouth.
+                                head: Plain cylindrical head; no knurling or unidentified
+                                    manufacturer/property-class stamps.
+                                markings: Unidentified manufacturer and property-class
+                                    stamps omitted.
+                                runout: One-pitch taper; incomplete thread remains
+                                    within 2P.
+                                socket: Across-flats midpoint of ISO limits; minimum
+                                    penetration, permissible flat bottom.
+                                thread: Nominal right-hand external metric profile;
+                                    60 degree flanks, H/6 rounded root; no ISO 965
+                                    tolerance offsets.
+                                thread_coverage: ISO shank/grip table selects partial
+                                    lengths; full-thread commercial alternatives can
+                                    be selected with thread_coverage=full.
+                                tip: Selected 45 degree chamfer of P/2.
+                            output_folder: three_d_model
+                            parameters:
+                                diameter_mm: 6.0
+                                drive_style: hex_head
+                                finish: black
+                                handedness: right
+                                head_diameter_mm: 10.0
+                                head_edge_chamfer_mm: 0.3
+                                head_height_mm: 6.0
+                                head_style: cylindrical
+                                head_top_z_mm: 56.0
+                                hex_key_mm: 5.0
+                                length_convention: under_head
+                                length_mm: 50.0
+                                overall_length_mm: 56.0
+                                partial_thread_from_length_mm: 40
+                                pitch_mm: 1.0
+                                socket_across_flats_mm: 5.08
+                                socket_depth_mm: 3.0
+                                standard: ISO 4762:2004
+                                thread_coverage: standard_reference
+                                thread_flank_angle_deg: 60.0
+                                thread_length_reference_mm: 24
+                                thread_minor_diameter_mm: 4.773130677972045
+                                thread_pitch_diameter_mm: 5.350480947161671
+                                thread_root_radius_mm: 0.14433756729740643
+                                thread_starts: 1
+                                tip_chamfer_mm: 0.5
+                                underhead_fillet_mm: 0.25
+                            priority: 1
+                            renders:
+                                high:
+                                    file: render_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: isometric
+                                low:
+                                    file: render_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: isometric
+                                product_high:
+                                    file: render_product_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: product
+                                product_low:
+                                    file: render_product_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: product
+                            schema_version: 1
+                            sources:
+                            -   title: ISO 4762:2004, Figure 1 and Table 1, pages
+                                    2–5
+                                url: https://cdn.standards.iteh.ai/samples/34460/06335046afaf46fb8e84d91a3eda001d/ISO-4762-2004.pdf
+                                use: Plain head dk, k, s limits, minimum t/r, b, shank/grip
+                                    table and standard length combinations.
+                            -   title: ISO 4762 scope and current edition
+                                url: https://www.iso.org/standard/34460.html
+                                use: Coarse metric M1.6–M64; M2 and M2.5 are within
+                                    scope.
+                            -   title: Bossard BN 2052 fully threaded DIN 912 / ISO
+                                    4762 screws
+                                url: https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-head-cap-screws-fully-threaded/p/2052/
+                                use: Fully threaded commercial alternative; catalogue
+                                    does not specify which threading option was purchased.
+                            standard: ISO 4762:2004
+                            standard_lengths_mm:
+                            - 10
+                            - 12
+                            - 16
+                            - 20
+                            - 25
+                            - 30
+                            - 35
+                            - 40
+                            - 45
+                            - 50
+                            - 55
+                            - 60
+                            standard_limits:
+                                head_diameter_mm:
+                                - 9.78
+                                - 10.0
+                                socket_across_flats_mm:
+                                - 5.02
+                                - 5.14
+                                socket_depth_min_mm: 3.0
+                            studio:
+                                adaptive_threshold: 0.015
+                                denoise: true
+                                device: auto
+                                engine: cycles
+                                exposure: 0.0
+                                floor_colour_srgb:
+                                - 0.93
+                                - 0.935
+                                - 0.94
+                                floor_roughness: 0.55
+                                framing_margin: 0.13
+                                high_samples: 160
+                                lights:
+                                -   colour:
+                                    - 1.0
+                                    - 0.96
+                                    - 0.9
+                                    height: 5.0
+                                    name: Key softbox
+                                    position:
+                                    - -3
+                                    - -4
+                                    - 6
+                                    power: 650.0
+                                    width: 4.0
+                                -   colour:
+                                    - 0.9
+                                    - 0.95
+                                    - 1.0
+                                    height: 4.0
+                                    name: Fill softbox
+                                    position:
+                                    - 4
+                                    - -1
+                                    - 3
+                                    power: 330.0
+                                    width: 3.0
+                                -   colour:
+                                    - 1.0
+                                    - 1.0
+                                    - 1.0
+                                    height: 5.0
+                                    name: Rim strip
+                                    position:
+                                    - 1
+                                    - 4
+                                    - 4
+                                    power: 850.0
+                                    width: 1.2
+                                low_samples: 48
+                                poses:
+                                    isometric:
+                                        camera_eye:
+                                        - 1
+                                        - -1
+                                        - 1
+                                        orientation: tip down, head up
+                                        projection: orthographic
+                                    product:
+                                        camera_eye:
+                                        - -6
+                                        - -10
+                                        - 6
+                                        orientation: lying on side, head to left
+                                        projection: orthographic
+                                        support: Head rim and threaded shaft rest
+                                            on ground; solve tilt from mesh.
+                                        yaw_degrees: -12.0
+                                seed: 7991
+                                view_transform: AgX
+                                world_colour:
+                                - 0.78
+                                - 0.82
+                                - 0.9
+                                world_strength: 0.35
+                            units: mm
+                            variants:
+                                display:
+                                    angular_segments: 32
+                                    fillet_segments: 4
+                                    samples_per_pitch: 1
+                                full:
+                                    angular_segments: 96
+                                    fillet_segments: 12
+                                    samples_per_pitch: 32
+                            views:
+                            - isometric
+                            - front
+                            - back
+                            - left
+                            - right
+                            - top
+                            - bottom
+                        url_chat: https://chatgpt.com/c/69f76f53-85bc-83eb-a63c-282ae2e8776a
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            screw_style: screw_socket_cap
+            supplier_data:
+                orbitalfasteners:
+                    supplier: orbitalfasteners
+                    supplier_id: '1891360'
+                    supplier_part_number: '1891360'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m6-x-50-socket-cap-screw-high-tensile-grade-12-9-self-colour
+            svg_details:
+                diameter_mm: 6.0
+                drive_style: hex_head
+                drive_symbol_gap_mm: 3.5999999999999996
+                head_diameter_mm: 10.2
+                head_rim_mm: 0.44999999999999996
+                length_mm: 50.0
+                screw_style: socket_cap
+                socket_depth_mm: 1.9500000000000002
+                socket_width_mm: 3.9000000000000004
+                stylesheet: project_bolt
+                svg_name: screw_diagrams
+                thread_pitch_mm: 1
+                variants:
+                    plain: diagram_plain.svg
+                    solid: diagram_solid.svg
+                    threaded: diagram_threaded.svg
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: socket_cap
+            taxonomy_4: hex_head
+            taxonomy_5: black
+            taxonomy_6: m6_diameter
+            taxonomy_7: 50_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            thread_size: m6
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                commercial_lengths_mm: []
+                coordinate_system:
+                    axis: +Z towards head
+                    glb_units: metres
+                    glb_up_axis: Y
+                    head_top_z_mm: 56.0
+                    length_convention: under_head
+                    origin: tip centre
+                    stl_units: mm
+                dimension_status: standard_dimensions
+                dimensional_specification: Hexagon socket head cap screws
+                family: socket_cap
+                generation_status: ready
+                generator: parametric_screw
+                length_status: standard_length
+                material:
+                    base_colour_srgb:
+                    - 0.205
+                    - 0.218
+                    - 0.235
+                    coat_roughness: 0.28
+                    coat_weight: 0.08
+                    metallic: 0.8
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Black oxide steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.31
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    catalogue_length: Unlisted lengths use the sourced size profile
+                        at the catalogue length and are explicitly marked as extensions.
+                    certification: Nominal catalogue geometry; not manufacturing certification.
+                    display: Smooth nominal thread envelope with the same head and
+                        recessed drive.
+                    edges: Permitted 45 degree edge chamfers, selected small values;
+                        circular countersink at socket mouth.
+                    head: Plain cylindrical head; no knurling or unidentified manufacturer/property-class
+                        stamps.
+                    markings: Unidentified manufacturer and property-class stamps
+                        omitted.
+                    runout: One-pitch taper; incomplete thread remains within 2P.
+                    socket: Across-flats midpoint of ISO limits; minimum penetration,
+                        permissible flat bottom.
+                    thread: Nominal right-hand external metric profile; 60 degree
+                        flanks, H/6 rounded root; no ISO 965 tolerance offsets.
+                    thread_coverage: ISO shank/grip table selects partial lengths;
+                        full-thread commercial alternatives can be selected with thread_coverage=full.
+                    tip: Selected 45 degree chamfer of P/2.
+                output_folder: three_d_model
+                parameters:
+                    diameter_mm: 6.0
+                    drive_style: hex_head
+                    finish: black
+                    handedness: right
+                    head_diameter_mm: 10.0
+                    head_edge_chamfer_mm: 0.3
+                    head_height_mm: 6.0
+                    head_style: cylindrical
+                    head_top_z_mm: 56.0
+                    hex_key_mm: 5.0
+                    length_convention: under_head
+                    length_mm: 50.0
+                    overall_length_mm: 56.0
+                    partial_thread_from_length_mm: 40
+                    pitch_mm: 1.0
+                    socket_across_flats_mm: 5.08
+                    socket_depth_mm: 3.0
+                    standard: ISO 4762:2004
+                    thread_coverage: standard_reference
+                    thread_flank_angle_deg: 60.0
+                    thread_length_reference_mm: 24
+                    thread_minor_diameter_mm: 4.773130677972045
+                    thread_pitch_diameter_mm: 5.350480947161671
+                    thread_root_radius_mm: 0.14433756729740643
+                    thread_starts: 1
+                    tip_chamfer_mm: 0.5
+                    underhead_fillet_mm: 0.25
+                priority: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                sources:
+                -   title: ISO 4762:2004, Figure 1 and Table 1, pages 2–5
+                    url: https://cdn.standards.iteh.ai/samples/34460/06335046afaf46fb8e84d91a3eda001d/ISO-4762-2004.pdf
+                    use: Plain head dk, k, s limits, minimum t/r, b, shank/grip table
+                        and standard length combinations.
+                -   title: ISO 4762 scope and current edition
+                    url: https://www.iso.org/standard/34460.html
+                    use: Coarse metric M1.6–M64; M2 and M2.5 are within scope.
+                -   title: Bossard BN 2052 fully threaded DIN 912 / ISO 4762 screws
+                    url: https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-head-cap-screws-fully-threaded/p/2052/
+                    use: Fully threaded commercial alternative; catalogue does not
+                        specify which threading option was purchased.
+                standard: ISO 4762:2004
+                standard_lengths_mm:
+                - 10
+                - 12
+                - 16
+                - 20
+                - 25
+                - 30
+                - 35
+                - 40
+                - 45
+                - 50
+                - 55
+                - 60
+                standard_limits:
+                    head_diameter_mm:
+                    - 9.78
+                    - 10.0
+                    socket_across_flats_mm:
+                    - 5.02
+                    - 5.14
+                    socket_depth_min_mm: 3.0
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: tip down, head up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: lying on side, head to left
+                            projection: orthographic
+                            support: Head rim and threaded shaft rest on ground; solve
+                                tilt from mesh.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 32
+                        fillet_segments: 4
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: https://chatgpt.com/c/69f76f53-85bc-83eb-a63c-282ae2e8776a
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_bolt_image.svg
+        file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
 oomlout_ai_roboclick_4:
-  actions:
-  - command: text_jinja_template
-    convert_to_pdf: false
-    convert_to_png: false
-    description: label_drawer
-    dict_data:
-      label_drawer: *id001
-    file_output: label_drawer.svg
-    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
-  file_test: ''
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        description: label_drawer
+        dict_data:
+            label_drawer: *id001
+        file_output: label_drawer.svg
+        file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
 oomp_key: oomp_hardware_screw_socket_cap_hex_head_black_m6_diameter_50_mm_length
-project_name: C:\gh\oomp_hardware_screw_version_5
-run_action: false
+run_action: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
-run_svg: true
 screw_style: screw_socket_cap
+supplier_data:
+    orbitalfasteners:
+        supplier: orbitalfasteners
+        supplier_id: '1891360'
+        supplier_part_number: '1891360'
+        supplier_website: https://www.orbitalfasteners.co.uk/products/m6-x-50-socket-cap-screw-high-tensile-grade-12-9-self-colour
 svg_details:
-  diameter_mm: 6.0
-  drive_style: hex_head
-  drive_symbol_gap_mm: 3.5999999999999996
-  head_diameter_mm: 10.2
-  head_rim_mm: 0.44999999999999996
-  length_mm: 50.0
-  screw_style: socket_cap
-  socket_depth_mm: 1.9500000000000002
-  socket_width_mm: 3.9000000000000004
-  stylesheet: project_bolt
-  svg_name: screw_diagrams
-  thread_pitch_mm: 1
-  variants:
-    plain: diagram_plain.svg
-    solid: diagram_solid.svg
-    threaded: diagram_threaded.svg
+    diameter_mm: 6.0
+    drive_style: hex_head
+    drive_symbol_gap_mm: 3.5999999999999996
+    head_diameter_mm: 10.2
+    head_rim_mm: 0.44999999999999996
+    length_mm: 50.0
+    screw_style: socket_cap
+    socket_depth_mm: 1.9500000000000002
+    socket_width_mm: 3.9000000000000004
+    stylesheet: project_bolt
+    svg_name: screw_diagrams
+    thread_pitch_mm: 1
+    variants:
+        plain: diagram_plain.svg
+        solid: diagram_solid.svg
+        threaded: diagram_threaded.svg
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -1066,4 +2405,236 @@ taxonomy_7_upper_length_5: 50_MM
 taxonomy_8: ''
 taxonomy_9: ''
 thread_size: m6
+three_d_model_details:
+    checked_on: '2026-10-11'
+    commercial_lengths_mm: []
+    coordinate_system:
+        axis: +Z towards head
+        glb_units: metres
+        glb_up_axis: Y
+        head_top_z_mm: 56.0
+        length_convention: under_head
+        origin: tip centre
+        stl_units: mm
+    dimension_status: standard_dimensions
+    dimensional_specification: Hexagon socket head cap screws
+    family: socket_cap
+    generation_status: ready
+    generator: parametric_screw
+    length_status: standard_length
+    material:
+        base_colour_srgb:
+        - 0.205
+        - 0.218
+        - 0.235
+        coat_roughness: 0.28
+        coat_weight: 0.08
+        metallic: 0.8
+        microtexture_height_um: 0.8
+        microtexture_spacing_mm: 0.025
+        name: Black oxide steel
+        note: Visual finish approximation; catalogue specifies colour only.
+        roughness: 0.31
+        roughness_variation: 0.045
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+        catalogue_length: Unlisted lengths use the sourced size profile at the catalogue
+            length and are explicitly marked as extensions.
+        certification: Nominal catalogue geometry; not manufacturing certification.
+        display: Smooth nominal thread envelope with the same head and recessed drive.
+        edges: Permitted 45 degree edge chamfers, selected small values; circular
+            countersink at socket mouth.
+        head: Plain cylindrical head; no knurling or unidentified manufacturer/property-class
+            stamps.
+        markings: Unidentified manufacturer and property-class stamps omitted.
+        runout: One-pitch taper; incomplete thread remains within 2P.
+        socket: Across-flats midpoint of ISO limits; minimum penetration, permissible
+            flat bottom.
+        thread: Nominal right-hand external metric profile; 60 degree flanks, H/6
+            rounded root; no ISO 965 tolerance offsets.
+        thread_coverage: ISO shank/grip table selects partial lengths; full-thread
+            commercial alternatives can be selected with thread_coverage=full.
+        tip: Selected 45 degree chamfer of P/2.
+    output_folder: three_d_model
+    parameters:
+        diameter_mm: 6.0
+        drive_style: hex_head
+        finish: black
+        handedness: right
+        head_diameter_mm: 10.0
+        head_edge_chamfer_mm: 0.3
+        head_height_mm: 6.0
+        head_style: cylindrical
+        head_top_z_mm: 56.0
+        hex_key_mm: 5.0
+        length_convention: under_head
+        length_mm: 50.0
+        overall_length_mm: 56.0
+        partial_thread_from_length_mm: 40
+        pitch_mm: 1.0
+        socket_across_flats_mm: 5.08
+        socket_depth_mm: 3.0
+        standard: ISO 4762:2004
+        thread_coverage: standard_reference
+        thread_flank_angle_deg: 60.0
+        thread_length_reference_mm: 24
+        thread_minor_diameter_mm: 4.773130677972045
+        thread_pitch_diameter_mm: 5.350480947161671
+        thread_root_radius_mm: 0.14433756729740643
+        thread_starts: 1
+        tip_chamfer_mm: 0.5
+        underhead_fillet_mm: 0.25
+    priority: 1
+    renders:
+        high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+        low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+        product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+        product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+    schema_version: 1
+    sources:
+    -   title: ISO 4762:2004, Figure 1 and Table 1, pages 2–5
+        url: https://cdn.standards.iteh.ai/samples/34460/06335046afaf46fb8e84d91a3eda001d/ISO-4762-2004.pdf
+        use: Plain head dk, k, s limits, minimum t/r, b, shank/grip table and standard
+            length combinations.
+    -   title: ISO 4762 scope and current edition
+        url: https://www.iso.org/standard/34460.html
+        use: Coarse metric M1.6–M64; M2 and M2.5 are within scope.
+    -   title: Bossard BN 2052 fully threaded DIN 912 / ISO 4762 screws
+        url: https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-head-cap-screws-fully-threaded/p/2052/
+        use: Fully threaded commercial alternative; catalogue does not specify which
+            threading option was purchased.
+    standard: ISO 4762:2004
+    standard_lengths_mm:
+    - 10
+    - 12
+    - 16
+    - 20
+    - 25
+    - 30
+    - 35
+    - 40
+    - 45
+    - 50
+    - 55
+    - 60
+    standard_limits:
+        head_diameter_mm:
+        - 9.78
+        - 10.0
+        socket_across_flats_mm:
+        - 5.02
+        - 5.14
+        socket_depth_min_mm: 3.0
+    studio:
+        adaptive_threshold: 0.015
+        denoise: true
+        device: auto
+        engine: cycles
+        exposure: 0.0
+        floor_colour_srgb:
+        - 0.93
+        - 0.935
+        - 0.94
+        floor_roughness: 0.55
+        framing_margin: 0.13
+        high_samples: 160
+        lights:
+        -   colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+        -   colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+        -   colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+        low_samples: 48
+        poses:
+            isometric:
+                camera_eye:
+                - 1
+                - -1
+                - 1
+                orientation: tip down, head up
+                projection: orthographic
+            product:
+                camera_eye:
+                - -6
+                - -10
+                - 6
+                orientation: lying on side, head to left
+                projection: orthographic
+                support: Head rim and threaded shaft rest on ground; solve tilt from
+                    mesh.
+                yaw_degrees: -12.0
+        seed: 7991
+        view_transform: AgX
+        world_colour:
+        - 0.78
+        - 0.82
+        - 0.9
+        world_strength: 0.35
+    units: mm
+    variants:
+        display:
+            angular_segments: 32
+            fillet_segments: 4
+            samples_per_pitch: 1
+        full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
 url_chat: https://chatgpt.com/c/69f76f53-85bc-83eb-a63c-282ae2e8776a
