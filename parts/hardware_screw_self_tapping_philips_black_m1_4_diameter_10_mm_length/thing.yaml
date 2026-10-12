@@ -30,6 +30,12 @@ bip_39_full_space: minimum crowd aim drift test few enrich song apart series rom
 bip_39_full_underscore: minimum_crowd_aim_drift_test_few_enrich_song_apart_series_romance_critic
 directory: parts/hardware_screw_self_tapping_philips_black_m1_4_diameter_10_mm_length
 generate_stl: false
+generator_label_details:
+  geometry_file: generator_label.json
+  schema_version: 1
+  source: Catalogue diagram_solid.svg
+  svg_file: generator_label.svg
+  title: "M1.4 \xD7 10"
 id: hardware_screw_self_tapping_philips_black_m1_4_diameter_10_mm_length
 id_no_class: hardware_screw_self_tapping_philips_black_m1_4_diameter_10_mm_length
 id_no_size: hardware_screw_self_tapping_philips_black_m1_4_diameter_10_mm_length
@@ -50,14 +56,15 @@ kwargs:
   oomp_run: false
   overwrite: true
   run_action: false
-  run_oomp: false
-  run_oomp_populate: false
+  run_oomp: true
+  run_oomp_populate: true
   run_scad: true
-  run_svg: false
+  run_svg: true
   screw_colour: black
   screw_style: self_tapping
   thread_size: m1_4_diameter
-  type: default_screw
+  typ: all
+  type: C:\gh\oomp_hardware_screw_version_5_screw
 label_drawer: &id001
   bip39: minimum crowd aim
   bip39_size: 2.327
@@ -1135,6 +1142,8 @@ thing:
     - 3dpr
     navigation: true
     oobb_name: screw
+    oomp_description_extra: ''
+    oomp_description_main: screw_
     oomp_mode: project
     oomp_run: false
     overwrite: true
@@ -1143,27 +1152,35 @@ thing:
     - 0
     - 0
     run_action: false
-    run_oomp: false
-    run_oomp_populate: false
+    run_oomp: true
+    run_oomp_populate: true
     run_scad: true
-    run_svg: false
-    save_type: none
+    run_svg: true
+    save_type: all
     screw_colour: black
     screw_style: self_tapping
     shape: oobb_screw_exact
     thread_size: m1_4_diameter
+    typ: all
     type: positive
   components_string:
-  - oobb_screw_exact_shape_positive_type_false_run_oomp_populate_false_run_oomp_false_run_svg_true_run_scad_false_generate_stl_false_run_action_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_philips_drive_style_10_mm_length_length_screw_oobb_name_black_screw_colour_self_tapping_screw_style_m1_4_diameter_thread_size
-  description: default screw 0x0x0
+  - oobb_screw_exact_shape_positive_type_true_run_oomp_populate_true_run_oomp_false_run_action_true_run_scad_false_generate_stl_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_philips_drive_style_10_mm_length_length_screw_oobb_name_screw__oomp_description_main_true_run_svg_black_screw_colour_self_tapping_screw_style_m1_4_diameter_thread_size
+  description: C:\gh\oomp hardware screw version 5 screw 0x0x0
   description_extra: ''
   description_main: ''
   directory: parts/hardware_screw_self_tapping_philips_black_m1_4_diameter_10_mm_length
   generate_stl: false
+  generator_label_details:
+    geometry_file: generator_label.json
+    schema_version: 1
+    source: Catalogue diagram_solid.svg
+    svg_file: generator_label.svg
+    title: "M1.4 \xD7 10"
   id: hardware_screw_self_tapping_philips_black_m1_4_diameter_10_mm_length
   id_no_class: hardware_screw_self_tapping_philips_black_m1_4_diameter_10_mm_length
   id_no_size: hardware_screw_self_tapping_philips_black_m1_4_diameter_10_mm_length
   id_no_type: hardware_screw_self_tapping_philips_black_m1_4_diameter_10_mm_length
+  id_oobb: hardware_screw_self_tapping_philips_black_m1_4_diameter_10_mm_length
   kwargs:
     drive_style: philips
     filter: ''
@@ -1179,15 +1196,16 @@ thing:
     oomp_run: false
     overwrite: true
     run_action: false
-    run_oomp: false
-    run_oomp_populate: false
+    run_oomp: true
+    run_oomp_populate: true
     run_scad: true
-    run_svg: false
-    save_type: none
+    run_svg: true
+    save_type: all
     screw_colour: black
     screw_style: self_tapping
     thread_size: m1_4_diameter
-    type: default_screw
+    typ: all
+    type: C:\gh\oomp_hardware_screw_version_5_screw
   label_drawer: &id002
     bip39: minimum crowd aim
     bip39_size: 2.327
@@ -1229,9 +1247,9 @@ thing:
   name_no_size: Hardware Screw Self Tapping Philips Black M1 4 Diameter 10 Mm Length
   name_no_type: Hardware Screw Self Tapping Philips Black M1 4 Diameter 10 Mm Length
   name_proper: Hardware Screw Self Tapping Philips Black M1 4 Diameter 10 Mm Length
-  name_short: Default Screw
+  name_short: C:\Gh\Oomp Hardware Screw Version 5
   name_space: hardware screw self tapping philips black m1 4 diameter 10 mm length
-  name_text: Oobb Part Default Screw
+  name_text: Oobb Part C:\Gh\Oomp Hardware Screw Version 5 Screw
   name_upper: HARDWARE SCREW SELF TAPPING PHILIPS BLACK M1 4 DIAMETER 10 MM LENGTH
   oobb_details:
     drive_style: philips
@@ -2071,13 +2089,14 @@ thing:
     file_test: ''
   oomp_key: oomp_hardware_screw_self_tapping_philips_black_m1_4_diameter_10_mm_length
   part_number: ''
+  project_name: C:\gh\oomp_hardware_screw_version_5
   run_action: false
   run_oomp: true
   run_oomp_populate: true
   run_scad: true
   run_svg: true
   short_name: ''
-  size: default_screw
+  size: C:\gh\oomp_hardware_screw_version_5_screw
   svg_details:
     diameter_mm: 1.4
     drive_style: philips
@@ -2208,6 +2227,62 @@ thing:
   taxonomy_7_upper_length_5: 10_MM
   taxonomy_8: ''
   taxonomy_9: ''
+  three_d_model_details:
+    candidate_standards:
+    - supplier miniature tapping specification
+    family: self_tapping
+    generation_status: needs_specification
+    generator: unresolved
+    missing_specification:
+    - actual tapping thread designation and pitch (not inferred from m label)
+    - head dimensions, core profile, point form and cross recess dimensions
+    note: No approximate solid is generated. Select a sourced dimension table in three_d_model_selection.
+    output_folder: three_d_model
+    parameters:
+      diameter_mm: 1.4
+      drive_style: philips
+      finish: black
+      length_mm: 10.0
+    priority: 10
+    schema_version: 1
+    selection:
+      finish_identity: black_zinc
+      head_style: pan
+      identity_note: User references checked 2026-10-11. eBay confirms Phillips pan
+        head, black zinc carbon steel sheet-metal tapping screws; no pitch, core or
+        head dimension table is supplied. Miniature sizes still need a drawing.
+      reference_urls:
+      - https://www.ebay.co.uk/itm/383102775525
+      supplier_url: https://www.aliexpress.com/item/1005004774076999.html
+    units: mm
   type: part
   url_chat: https://chatgpt.com/c/6a0e42e2-6268-83eb-8c67-05db1406744e
+three_d_model_details:
+  candidate_standards:
+  - supplier miniature tapping specification
+  family: self_tapping
+  generation_status: needs_specification
+  generator: unresolved
+  missing_specification:
+  - actual tapping thread designation and pitch (not inferred from m label)
+  - head dimensions, core profile, point form and cross recess dimensions
+  note: No approximate solid is generated. Select a sourced dimension table in three_d_model_selection.
+  output_folder: three_d_model
+  parameters:
+    diameter_mm: 1.4
+    drive_style: philips
+    finish: black
+    length_mm: 10.0
+  priority: 10
+  schema_version: 1
+  selection:
+    finish_identity: black_zinc
+    head_style: pan
+    identity_note: User references checked 2026-10-11. eBay confirms Phillips pan
+      head, black zinc carbon steel sheet-metal tapping screws; no pitch, core or
+      head dimension table is supplied. Miniature sizes still need a drawing.
+    reference_urls:
+    - https://www.ebay.co.uk/itm/383102775525
+    supplier_url: https://www.aliexpress.com/item/1005004774076999.html
+  units: mm
 url_chat: https://chatgpt.com/c/6a0e42e2-6268-83eb-8c67-05db1406744e
