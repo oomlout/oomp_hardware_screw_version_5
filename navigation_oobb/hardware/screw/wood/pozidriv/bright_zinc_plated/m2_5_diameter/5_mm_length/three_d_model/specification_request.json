@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generator": "unresolved",
+  "generation_status": "needs_specification",
+  "family": "wood",
+  "priority": 9,
+  "output_folder": "three_d_model",
+  "units": "mm",
+  "parameters": {
+    "diameter_mm": 2.5,
+    "length_mm": 5.0,
+    "finish": "bright_zinc_plated",
+    "drive_style": "pozidriv"
+  },
+  "candidate_standards": [
+    "DIN 7997 if countersunk Pozidriv"
+  ],
+  "missing_specification": [
+    "confirm product identity and length availability",
+    "head and cross recess dimensions",
+    "thread pitch, core profile, threaded length, taper and point"
+  ],
+  "selection": {},
+  "note": "No approximate solid is generated. Select a sourced dimension table in three_d_model_selection."
+}
