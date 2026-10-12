@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generator": "unresolved",
+  "generation_status": "needs_specification",
+  "family": "countersunk",
+  "priority": 5,
+  "output_folder": "three_d_model",
+  "units": "mm",
+  "parameters": {
+    "diameter_mm": 1.5,
+    "length_mm": 4.0,
+    "finish": "black",
+    "drive_style": "philips"
+  },
+  "candidate_standards": [
+    "DIN 965",
+    "ISO 7046-1",
+    "ISO 7046-2"
+  ],
+  "missing_specification": [
+    "sourced cross recess and head dimensions"
+  ],
+  "selection": {},
+  "note": "No approximate solid is generated. Select a sourced dimension table in three_d_model_selection."
+}

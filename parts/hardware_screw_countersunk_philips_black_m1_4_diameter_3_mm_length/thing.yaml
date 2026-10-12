@@ -29,7 +29,7 @@ bip_39_full_space: vacant orchard file sphere ethics saddle hope river tell sun 
   success
 bip_39_full_underscore: vacant_orchard_file_sphere_ethics_saddle_hope_river_tell_sun_shuffle_success
 directory: parts/hardware_screw_countersunk_philips_black_m1_4_diameter_3_mm_length
-generate_stl: false
+generate_stl: true
 id: hardware_screw_countersunk_philips_black_m1_4_diameter_3_mm_length
 id_no_class: hardware_screw_countersunk_philips_black_m1_4_diameter_3_mm_length
 id_no_size: hardware_screw_countersunk_philips_black_m1_4_diameter_3_mm_length
@@ -38,7 +38,7 @@ id_oobb: hardware_screw_countersunk_philips_black_m1_4_diameter_3_mm_length
 kwargs:
   drive_style: philips
   filter: ''
-  generate_stl: false
+  generate_stl: true
   length: 3_mm_length
   modes:
   - 3dpr
@@ -47,16 +47,16 @@ kwargs:
   oomp_description_extra: ''
   oomp_description_main: screw_
   oomp_mode: project
-  oomp_run: false
+  oomp_run: true
   overwrite: true
-  run_action: false
-  run_oomp: false
-  run_oomp_populate: false
+  run_action: true
+  run_oomp: true
+  run_oomp_populate: true
   run_scad: true
-  run_svg: false
   screw_colour: black
   screw_style: countersunk
   thread_size: m1_4_diameter
+  typ: all
   type: default_screw
 label_drawer: &id001
   bip39: vacant orchard file
@@ -458,6 +458,28 @@ oomlout_ai_roboclick_2:
       taxonomy_7: 3_mm_length
       taxonomy_8: ''
       taxonomy_9: ''
+      three_d_model_details:
+        candidate_standards:
+        - DIN 965
+        - ISO 7046-1
+        - ISO 7046-2
+        family: countersunk
+        generation_status: needs_specification
+        generator: unresolved
+        missing_specification:
+        - sourced cross recess and head dimensions
+        note: No approximate solid is generated. Select a sourced dimension table
+          in three_d_model_selection.
+        output_folder: three_d_model
+        parameters:
+          diameter_mm: 1.4
+          drive_style: philips
+          finish: black
+          length_mm: 3.0
+        priority: 5
+        schema_version: 1
+        selection: {}
+        units: mm
       url_chat: https://chatgpt.com/c/6a02b5d9-9fe0-83eb-bcd8-29612a34f5e1
     dict_data_files: {}
     dict_data_files_exists: {}
@@ -858,6 +880,28 @@ oomlout_ai_roboclick_3:
             taxonomy_7: 3_mm_length
             taxonomy_8: ''
             taxonomy_9: ''
+            three_d_model_details:
+              candidate_standards:
+              - DIN 965
+              - ISO 7046-1
+              - ISO 7046-2
+              family: countersunk
+              generation_status: needs_specification
+              generator: unresolved
+              missing_specification:
+              - sourced cross recess and head dimensions
+              note: No approximate solid is generated. Select a sourced dimension
+                table in three_d_model_selection.
+              output_folder: three_d_model
+              parameters:
+                diameter_mm: 1.4
+                drive_style: philips
+                finish: black
+                length_mm: 3.0
+              priority: 5
+              schema_version: 1
+              selection: {}
+              units: mm
             url_chat: https://chatgpt.com/c/6a02b5d9-9fe0-83eb-bcd8-29612a34f5e1
           dict_data_files: {}
           dict_data_files_exists: {}
@@ -898,6 +942,28 @@ oomlout_ai_roboclick_3:
       taxonomy_7: 3_mm_length
       taxonomy_8: ''
       taxonomy_9: ''
+      three_d_model_details:
+        candidate_standards:
+        - DIN 965
+        - ISO 7046-1
+        - ISO 7046-2
+        family: countersunk
+        generation_status: needs_specification
+        generator: unresolved
+        missing_specification:
+        - sourced cross recess and head dimensions
+        note: No approximate solid is generated. Select a sourced dimension table
+          in three_d_model_selection.
+        output_folder: three_d_model
+        parameters:
+          diameter_mm: 1.4
+          drive_style: philips
+          finish: black
+          length_mm: 3.0
+        priority: 5
+        schema_version: 1
+        selection: {}
+        units: mm
       url_chat: https://chatgpt.com/c/6a02b5d9-9fe0-83eb-bcd8-29612a34f5e1
     dict_data_files: {}
     dict_data_files_exists: {}
@@ -919,11 +985,10 @@ oomlout_ai_roboclick_4:
   file_test: ''
 oomp_key: oomp_hardware_screw_countersunk_philips_black_m1_4_diameter_3_mm_length
 project_name: C:\gh\oomp_hardware_screw_version_5
-run_action: false
+run_action: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
-run_svg: true
 svg_details:
   diameter_mm: 1.4
   drive_style: philips
@@ -1129,37 +1194,37 @@ thing:
   components_objects:
   - drive_style: philips
     filter: ''
-    generate_stl: false
+    generate_stl: true
     length: 3_mm_length
     modes:
     - 3dpr
     navigation: true
     oobb_name: screw
     oomp_mode: project
-    oomp_run: false
+    oomp_run: true
     overwrite: true
     pos:
     - 0
     - 0
     - 0
-    run_action: false
-    run_oomp: false
-    run_oomp_populate: false
+    run_action: true
+    run_oomp: true
+    run_oomp_populate: true
     run_scad: true
-    run_svg: false
-    save_type: none
+    save_type: all
     screw_colour: black
     screw_style: countersunk
     shape: oobb_screw_exact
     thread_size: m1_4_diameter
+    typ: all
     type: positive
   components_string:
-  - oobb_screw_exact_shape_positive_type_false_run_oomp_populate_false_run_oomp_false_run_svg_true_run_scad_false_generate_stl_false_run_action_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_philips_drive_style_3_mm_length_length_screw_oobb_name_black_screw_colour_countersunk_screw_style_m1_4_diameter_thread_size
+  - oobb_screw_exact_shape_positive_type_true_run_oomp_populate_true_run_oomp_true_run_action_true_run_scad_true_generate_stl_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_philips_drive_style_3_mm_length_length_screw_oobb_name_black_screw_colour_countersunk_screw_style_m1_4_diameter_thread_size
   description: default screw 0x0x0
   description_extra: ''
   description_main: ''
   directory: parts/hardware_screw_countersunk_philips_black_m1_4_diameter_3_mm_length
-  generate_stl: false
+  generate_stl: true
   id: hardware_screw_countersunk_philips_black_m1_4_diameter_3_mm_length
   id_no_class: hardware_screw_countersunk_philips_black_m1_4_diameter_3_mm_length
   id_no_size: hardware_screw_countersunk_philips_black_m1_4_diameter_3_mm_length
@@ -1167,7 +1232,7 @@ thing:
   kwargs:
     drive_style: philips
     filter: ''
-    generate_stl: false
+    generate_stl: true
     length: 3_mm_length
     modes:
     - 3dpr
@@ -1176,17 +1241,17 @@ thing:
     oomp_description_extra: ''
     oomp_description_main: screw_
     oomp_mode: project
-    oomp_run: false
+    oomp_run: true
     overwrite: true
-    run_action: false
-    run_oomp: false
-    run_oomp_populate: false
+    run_action: true
+    run_oomp: true
+    run_oomp_populate: true
     run_scad: true
-    run_svg: false
-    save_type: none
+    save_type: all
     screw_colour: black
     screw_style: countersunk
     thread_size: m1_4_diameter
+    typ: all
     type: default_screw
   label_drawer: &id002
     bip39: vacant orchard file
@@ -1596,6 +1661,28 @@ thing:
         taxonomy_7: 3_mm_length
         taxonomy_8: ''
         taxonomy_9: ''
+        three_d_model_details:
+          candidate_standards:
+          - DIN 965
+          - ISO 7046-1
+          - ISO 7046-2
+          family: countersunk
+          generation_status: needs_specification
+          generator: unresolved
+          missing_specification:
+          - sourced cross recess and head dimensions
+          note: No approximate solid is generated. Select a sourced dimension table
+            in three_d_model_selection.
+          output_folder: three_d_model
+          parameters:
+            diameter_mm: 1.4
+            drive_style: philips
+            finish: black
+            length_mm: 3.0
+          priority: 5
+          schema_version: 1
+          selection: {}
+          units: mm
         url_chat: https://chatgpt.com/c/6a02b5d9-9fe0-83eb-bcd8-29612a34f5e1
       dict_data_files: {}
       dict_data_files_exists: {}
@@ -2004,6 +2091,28 @@ thing:
               taxonomy_7: 3_mm_length
               taxonomy_8: ''
               taxonomy_9: ''
+              three_d_model_details:
+                candidate_standards:
+                - DIN 965
+                - ISO 7046-1
+                - ISO 7046-2
+                family: countersunk
+                generation_status: needs_specification
+                generator: unresolved
+                missing_specification:
+                - sourced cross recess and head dimensions
+                note: No approximate solid is generated. Select a sourced dimension
+                  table in three_d_model_selection.
+                output_folder: three_d_model
+                parameters:
+                  diameter_mm: 1.4
+                  drive_style: philips
+                  finish: black
+                  length_mm: 3.0
+                priority: 5
+                schema_version: 1
+                selection: {}
+                units: mm
               url_chat: https://chatgpt.com/c/6a02b5d9-9fe0-83eb-bcd8-29612a34f5e1
             dict_data_files: {}
             dict_data_files_exists: {}
@@ -2044,6 +2153,28 @@ thing:
         taxonomy_7: 3_mm_length
         taxonomy_8: ''
         taxonomy_9: ''
+        three_d_model_details:
+          candidate_standards:
+          - DIN 965
+          - ISO 7046-1
+          - ISO 7046-2
+          family: countersunk
+          generation_status: needs_specification
+          generator: unresolved
+          missing_specification:
+          - sourced cross recess and head dimensions
+          note: No approximate solid is generated. Select a sourced dimension table
+            in three_d_model_selection.
+          output_folder: three_d_model
+          parameters:
+            diameter_mm: 1.4
+            drive_style: philips
+            finish: black
+            length_mm: 3.0
+          priority: 5
+          schema_version: 1
+          selection: {}
+          units: mm
         url_chat: https://chatgpt.com/c/6a02b5d9-9fe0-83eb-bcd8-29612a34f5e1
       dict_data_files: {}
       dict_data_files_exists: {}
@@ -2065,11 +2196,10 @@ thing:
     file_test: ''
   oomp_key: oomp_hardware_screw_countersunk_philips_black_m1_4_diameter_3_mm_length
   part_number: ''
-  run_action: false
+  run_action: true
   run_oomp: true
   run_oomp_populate: true
   run_scad: true
-  run_svg: true
   short_name: ''
   size: default_screw
   svg_details:
@@ -2202,6 +2332,48 @@ thing:
   taxonomy_7_upper_length_5: 3_MM_
   taxonomy_8: ''
   taxonomy_9: ''
+  three_d_model_details:
+    candidate_standards:
+    - DIN 965
+    - ISO 7046-1
+    - ISO 7046-2
+    family: countersunk
+    generation_status: needs_specification
+    generator: unresolved
+    missing_specification:
+    - sourced cross recess and head dimensions
+    note: No approximate solid is generated. Select a sourced dimension table in three_d_model_selection.
+    output_folder: three_d_model
+    parameters:
+      diameter_mm: 1.4
+      drive_style: philips
+      finish: black
+      length_mm: 3.0
+    priority: 5
+    schema_version: 1
+    selection: {}
+    units: mm
   type: part
   url_chat: https://chatgpt.com/c/6a02b5d9-9fe0-83eb-bcd8-29612a34f5e1
+three_d_model_details:
+  candidate_standards:
+  - DIN 965
+  - ISO 7046-1
+  - ISO 7046-2
+  family: countersunk
+  generation_status: needs_specification
+  generator: unresolved
+  missing_specification:
+  - sourced cross recess and head dimensions
+  note: No approximate solid is generated. Select a sourced dimension table in three_d_model_selection.
+  output_folder: three_d_model
+  parameters:
+    diameter_mm: 1.4
+    drive_style: philips
+    finish: black
+    length_mm: 3.0
+  priority: 5
+  schema_version: 1
+  selection: {}
+  units: mm
 url_chat: https://chatgpt.com/c/6a02b5d9-9fe0-83eb-bcd8-29612a34f5e1
