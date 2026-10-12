@@ -30,6 +30,12 @@ bip_39_full_space: because holiday vague name when argue axis vendor rural outpu
 bip_39_full_underscore: because_holiday_vague_name_when_argue_axis_vendor_rural_output_vacant_purchase
 directory: parts/hardware_screw_machine_screw_pozidriv_m2_diameter_12_mm_length
 generate_stl: false
+generator_label_details:
+  geometry_file: generator_label.json
+  schema_version: 1
+  source: Catalogue diagram_solid.svg
+  svg_file: generator_label.svg
+  title: "M2 \xD7 12"
 id: hardware_screw_machine_screw_pozidriv_m2_diameter_12_mm_length
 id_no_class: hardware_screw_machine_screw_pozidriv_m2_diameter_12_mm_length
 id_no_size: hardware_screw_machine_screw_pozidriv_m2_diameter_12_mm_length
@@ -50,14 +56,15 @@ kwargs:
   oomp_run: false
   overwrite: true
   run_action: false
-  run_oomp: false
-  run_oomp_populate: false
+  run_oomp: true
+  run_oomp_populate: true
   run_scad: true
-  run_svg: false
+  run_svg: true
   screw_colour: ''
   screw_style: machine_screw
   thread_size: m2_diameter
-  type: default_screw
+  typ: all
+  type: C:\gh\oomp_hardware_screw_version_5_screw
 label_drawer: &id001
   bip39: because holiday vague
   bip39_size: 2.055
@@ -1119,6 +1126,8 @@ thing:
     - 3dpr
     navigation: true
     oobb_name: screw
+    oomp_description_extra: ''
+    oomp_description_main: screw_
     oomp_mode: project
     oomp_run: false
     overwrite: true
@@ -1127,27 +1136,35 @@ thing:
     - 0
     - 0
     run_action: false
-    run_oomp: false
-    run_oomp_populate: false
+    run_oomp: true
+    run_oomp_populate: true
     run_scad: true
-    run_svg: false
-    save_type: none
+    run_svg: true
+    save_type: all
     screw_colour: ''
     screw_style: machine_screw
     shape: oobb_screw_exact
     thread_size: m2_diameter
+    typ: all
     type: positive
   components_string:
-  - oobb_screw_exact_shape_positive_type_false_run_oomp_populate_false_run_oomp_false_run_svg_true_run_scad_false_generate_stl_false_run_action_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_pozidriv_drive_style_12_mm_length_length_screw_oobb_name_machine_screw_screw_style_m2_diameter_thread_size
-  description: default screw 0x0x0
+  - oobb_screw_exact_shape_positive_type_true_run_oomp_populate_true_run_oomp_false_run_action_true_run_scad_false_generate_stl_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_pozidriv_drive_style_12_mm_length_length_screw_oobb_name_screw__oomp_description_main_true_run_svg_machine_screw_screw_style_m2_diameter_thread_size
+  description: C:\gh\oomp hardware screw version 5 screw 0x0x0
   description_extra: ''
   description_main: ''
   directory: parts/hardware_screw_machine_screw_pozidriv_m2_diameter_12_mm_length
   generate_stl: false
+  generator_label_details:
+    geometry_file: generator_label.json
+    schema_version: 1
+    source: Catalogue diagram_solid.svg
+    svg_file: generator_label.svg
+    title: "M2 \xD7 12"
   id: hardware_screw_machine_screw_pozidriv_m2_diameter_12_mm_length
   id_no_class: hardware_screw_machine_screw_pozidriv_m2_diameter_12_mm_length
   id_no_size: hardware_screw_machine_screw_pozidriv_m2_diameter_12_mm_length
   id_no_type: hardware_screw_machine_screw_pozidriv_m2_diameter_12_mm_length
+  id_oobb: hardware_screw_machine_screw_pozidriv_m2_diameter_12_mm_length
   kwargs:
     drive_style: pozidriv
     filter: ''
@@ -1163,15 +1180,16 @@ thing:
     oomp_run: false
     overwrite: true
     run_action: false
-    run_oomp: false
-    run_oomp_populate: false
+    run_oomp: true
+    run_oomp_populate: true
     run_scad: true
-    run_svg: false
-    save_type: none
+    run_svg: true
+    save_type: all
     screw_colour: ''
     screw_style: machine_screw
     thread_size: m2_diameter
-    type: default_screw
+    typ: all
+    type: C:\gh\oomp_hardware_screw_version_5_screw
   label_drawer: &id002
     bip39: because holiday vague
     bip39_size: 2.055
@@ -1214,9 +1232,9 @@ thing:
   name_no_size: Hardware Screw Machine Screw Pozidriv M2 Diameter 12 Mm Length
   name_no_type: Hardware Screw Machine Screw Pozidriv M2 Diameter 12 Mm Length
   name_proper: Hardware Screw Machine Screw Pozidriv M2 Diameter 12 Mm Length
-  name_short: Default Screw
+  name_short: C:\Gh\Oomp Hardware Screw Version 5
   name_space: hardware screw machine screw pozidriv m2 diameter 12 mm length
-  name_text: Oobb Part Default Screw
+  name_text: Oobb Part C:\Gh\Oomp Hardware Screw Version 5 Screw
   name_upper: HARDWARE SCREW MACHINE SCREW POZIDRIV M2 DIAMETER 12 MM LENGTH
   oobb_details:
     drive_style: pozidriv
@@ -2050,13 +2068,14 @@ thing:
     file_test: ''
   oomp_key: oomp_hardware_screw_machine_screw_pozidriv_m2_diameter_12_mm_length
   part_number: ''
+  project_name: C:\gh\oomp_hardware_screw_version_5
   run_action: false
   run_oomp: true
   run_oomp_populate: true
   run_scad: true
   run_svg: true
   short_name: ''
-  size: default_screw
+  size: C:\gh\oomp_hardware_screw_version_5_screw
   svg_details:
     diameter_mm: 2.0
     drive_style: pozidriv
@@ -2173,6 +2192,488 @@ thing:
   taxonomy_7_upper_length_5: 12_MM
   taxonomy_8: ''
   taxonomy_9: ''
+  three_d_model_details:
+    checked_on: '2026-10-11'
+    commercial_lengths_mm:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 8
+    - 10
+    - 12
+    - 16
+    - 20
+    coordinate_system:
+      axis: +Z towards head
+      glb_units: metres
+      glb_up_axis: Y
+      head_top_z_mm: 13.72
+      length_convention: under_head
+      origin: tip centre
+      stl_units: mm
+    dimension_status: supplier_dimensions
+    dimensional_specification: DIN 7985 pan-head machine screws with H or Z recess
+    family: machine_screw
+    generation_status: ready
+    generator: parametric_screw
+    length_status: supplier_length
+    material:
+      base_colour_srgb:
+      - 0.62
+      - 0.65
+      - 0.69
+      coat_roughness: 0.28
+      coat_weight: 0.02
+      metallic: 1.0
+      microtexture_height_um: 0.8
+      microtexture_spacing_mm: 0.025
+      name: Satin steel
+      note: Satin steel visual placeholder because the catalogue does not identify
+        material or finish.
+      roughness: 0.26
+      roughness_variation: 0.045
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+      catalogue_length: Unlisted lengths use the sourced size profile at the catalogue
+        length and are explicitly marked as extensions.
+      certification: Nominal catalogue geometry; not manufacturing certification.
+      display: Smooth nominal thread envelope with the same head and recessed drive.
+      head: Pan profile uses the published approximate spherical crown radius rf over
+        a cylindrical skirt; k and dk use the supplier maximum dimensions. The recess
+        removes the theoretical crown apex. Head edge die-flow rounding is omitted.
+      identity: User confirmed pan head on 2026-10-11.
+      markings: Unidentified manufacturer and property-class stamps omitted.
+      material: Empty finish labels use a satin steel visual placeholder; this does
+        not identify the actual product finish.
+      recess: Published m and midpoint gauge penetration t select a nominal visual
+        cavity. ISO 4757 wing width and taper guide a four-wing punch with a rounded
+        centre and a conical floor; Z additionally has four shallow diagonal identification
+        grooves. Die-flow radii and gauge conformity are not certified.
+      runout: One-pitch taper; incomplete thread remains within 2P.
+      thread: Nominal right-hand external metric profile; 60 degree flanks, H/6 rounded
+        root; no ISO 965 tolerance offsets.
+      thread_coverage: Full thread to head follows the Bossard product descriptions.
+        Longer catalogue entries are marked as extensions.
+      tip: Selected 45 degree chamfer of P/2.
+    output_folder: three_d_model
+    parameters:
+      diameter_mm: 2.0
+      drive_style: pozidriv
+      finish: ''
+      handedness: right
+      head_crown_radius_mm: 4
+      head_diameter_mm: 4
+      head_height_mm: 1.72
+      head_style: pan
+      head_top_z_mm: 13.72
+      length_convention: under_head
+      length_mm: 12.0
+      overall_length_mm: 13.72
+      partial_thread_from_length_mm: null
+      pitch_mm: 0.4
+      recess_core_width_mm: 1.27
+      recess_depth_mm: 1.225
+      recess_diameter_mm: 2.4
+      recess_floor_angle_deg: 28
+      recess_identification_width_mm: 0.13
+      recess_number: 1
+      recess_outer_slope_deg: 26.5
+      recess_type: Z
+      recess_wall_taper_deg: 7
+      recess_wing_width_mm: 0.7275
+      standard: DIN 7985 A
+      thread_coverage: standard_reference
+      thread_flank_angle_deg: 60.0
+      thread_length_reference_mm: null
+      thread_minor_diameter_mm: 1.509252271188818
+      thread_pitch_diameter_mm: 1.7401923788646685
+      thread_root_radius_mm: 0.057735026918962574
+      thread_starts: 1
+      tip_chamfer_mm: 0.2
+      underhead_fillet_mm: 0.1
+    priority: 7
+    renders:
+      high:
+        file: render_high.png
+        pixels: 2048
+        variant: full
+        view: isometric
+      low:
+        file: render_low.png
+        pixels: 512
+        variant: display
+        view: isometric
+      product_high:
+        file: render_product_high.png
+        pixels: 2048
+        variant: full
+        view: product
+      product_low:
+        file: render_product_low.png
+        pixels: 512
+        variant: display
+        view: product
+    schema_version: 1
+    sources:
+    - title: Bossard BN 384 Phillips pan-head dimension table
+      url: https://www.tme.eu/Document/6dcfa6f98cf6e40290aa56258c19b5d6/BN384.pdf
+      use: DIN head maximum diameter and height, H recess and fully threaded commercial
+        products.
+    - title: Bossard BN 3311 Pozidriv pan-head dimension table
+      url: https://www.tme.eu/Document/193f9ad1cddd45cf9c89db8245477de8/BN3311-DE.pdf
+      use: Z recess dimensions.
+    - title: DIN 7985:1990 original Table 1, hosted by Shenzhen Fine Technology
+      url: https://www.finesz.com/pic/DIN7985.pdf
+      use: M3.5 Z recess m=4, t=1.65 to 2.11; approximate head crown radii rf and
+        under-head radius bounds. Handwritten alterations in this scan are ignored.
+    - title: ISO 4757:1983, clauses 2 and 3, H and Z dimension tables and sections
+      url: https://cdn.standards.iteh.ai/samples/10742/d878fa0371e041b39de75de4d4426928/ISO-4757-1983.pdf
+      use: Wing width f selected at the middle of the tolerance band, centre width
+        b at its nominal value, outer wing slope 26 degrees 30 minutes, floor cone
+        28 degrees. Simplified visualization rather than a gauge-certified punch.
+    standard: DIN 7985 A
+    standard_lengths_mm: []
+    standard_limits:
+      cross_penetration_mm:
+      - 1.1
+      - 1.35
+    studio:
+      adaptive_threshold: 0.015
+      denoise: true
+      device: auto
+      engine: cycles
+      exposure: 0.0
+      floor_colour_srgb:
+      - 0.93
+      - 0.935
+      - 0.94
+      floor_roughness: 0.55
+      framing_margin: 0.13
+      high_samples: 160
+      lights:
+      - colour:
+        - 1.0
+        - 0.96
+        - 0.9
+        height: 5.0
+        name: Key softbox
+        position:
+        - -3
+        - -4
+        - 6
+        power: 650.0
+        width: 4.0
+      - colour:
+        - 0.9
+        - 0.95
+        - 1.0
+        height: 4.0
+        name: Fill softbox
+        position:
+        - 4
+        - -1
+        - 3
+        power: 330.0
+        width: 3.0
+      - colour:
+        - 1.0
+        - 1.0
+        - 1.0
+        height: 5.0
+        name: Rim strip
+        position:
+        - 1
+        - 4
+        - 4
+        power: 850.0
+        width: 1.2
+      low_samples: 48
+      poses:
+        isometric:
+          camera_eye:
+          - 1
+          - -1
+          - 1
+          orientation: tip down, head up
+          projection: orthographic
+        product:
+          camera_eye:
+          - -6
+          - -10
+          - 6
+          orientation: lying on side, head to left
+          projection: orthographic
+          support: Head rim and threaded shaft rest on ground; solve tilt from mesh.
+          yaw_degrees: -12.0
+      seed: 7991
+      view_transform: AgX
+      world_colour:
+      - 0.78
+      - 0.82
+      - 0.9
+      world_strength: 0.35
+    units: mm
+    variants:
+      display:
+        angular_segments: 32
+        fillet_segments: 4
+        samples_per_pitch: 1
+      full:
+        angular_segments: 96
+        fillet_segments: 12
+        samples_per_pitch: 32
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
   type: part
   url_chat: https://chatgpt.com/c/6a0ae1a0-5100-8389-a176-d0559b3d6baf
+three_d_model_details:
+  checked_on: '2026-10-11'
+  commercial_lengths_mm:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 8
+  - 10
+  - 12
+  - 16
+  - 20
+  coordinate_system:
+    axis: +Z towards head
+    glb_units: metres
+    glb_up_axis: Y
+    head_top_z_mm: 13.72
+    length_convention: under_head
+    origin: tip centre
+    stl_units: mm
+  dimension_status: supplier_dimensions
+  dimensional_specification: DIN 7985 pan-head machine screws with H or Z recess
+  family: machine_screw
+  generation_status: ready
+  generator: parametric_screw
+  length_status: supplier_length
+  material:
+    base_colour_srgb:
+    - 0.62
+    - 0.65
+    - 0.69
+    coat_roughness: 0.28
+    coat_weight: 0.02
+    metallic: 1.0
+    microtexture_height_um: 0.8
+    microtexture_spacing_mm: 0.025
+    name: Satin steel
+    note: Satin steel visual placeholder because the catalogue does not identify material
+      or finish.
+    roughness: 0.26
+    roughness_variation: 0.045
+  model_formats:
+  - stl
+  - glb
+  modelling_choices:
+    catalogue_length: Unlisted lengths use the sourced size profile at the catalogue
+      length and are explicitly marked as extensions.
+    certification: Nominal catalogue geometry; not manufacturing certification.
+    display: Smooth nominal thread envelope with the same head and recessed drive.
+    head: Pan profile uses the published approximate spherical crown radius rf over
+      a cylindrical skirt; k and dk use the supplier maximum dimensions. The recess
+      removes the theoretical crown apex. Head edge die-flow rounding is omitted.
+    identity: User confirmed pan head on 2026-10-11.
+    markings: Unidentified manufacturer and property-class stamps omitted.
+    material: Empty finish labels use a satin steel visual placeholder; this does
+      not identify the actual product finish.
+    recess: Published m and midpoint gauge penetration t select a nominal visual cavity.
+      ISO 4757 wing width and taper guide a four-wing punch with a rounded centre
+      and a conical floor; Z additionally has four shallow diagonal identification
+      grooves. Die-flow radii and gauge conformity are not certified.
+    runout: One-pitch taper; incomplete thread remains within 2P.
+    thread: Nominal right-hand external metric profile; 60 degree flanks, H/6 rounded
+      root; no ISO 965 tolerance offsets.
+    thread_coverage: Full thread to head follows the Bossard product descriptions.
+      Longer catalogue entries are marked as extensions.
+    tip: Selected 45 degree chamfer of P/2.
+  output_folder: three_d_model
+  parameters:
+    diameter_mm: 2.0
+    drive_style: pozidriv
+    finish: ''
+    handedness: right
+    head_crown_radius_mm: 4
+    head_diameter_mm: 4
+    head_height_mm: 1.72
+    head_style: pan
+    head_top_z_mm: 13.72
+    length_convention: under_head
+    length_mm: 12.0
+    overall_length_mm: 13.72
+    partial_thread_from_length_mm: null
+    pitch_mm: 0.4
+    recess_core_width_mm: 1.27
+    recess_depth_mm: 1.225
+    recess_diameter_mm: 2.4
+    recess_floor_angle_deg: 28
+    recess_identification_width_mm: 0.13
+    recess_number: 1
+    recess_outer_slope_deg: 26.5
+    recess_type: Z
+    recess_wall_taper_deg: 7
+    recess_wing_width_mm: 0.7275
+    standard: DIN 7985 A
+    thread_coverage: standard_reference
+    thread_flank_angle_deg: 60.0
+    thread_length_reference_mm: null
+    thread_minor_diameter_mm: 1.509252271188818
+    thread_pitch_diameter_mm: 1.7401923788646685
+    thread_root_radius_mm: 0.057735026918962574
+    thread_starts: 1
+    tip_chamfer_mm: 0.2
+    underhead_fillet_mm: 0.1
+  priority: 7
+  renders:
+    high:
+      file: render_high.png
+      pixels: 2048
+      variant: full
+      view: isometric
+    low:
+      file: render_low.png
+      pixels: 512
+      variant: display
+      view: isometric
+    product_high:
+      file: render_product_high.png
+      pixels: 2048
+      variant: full
+      view: product
+    product_low:
+      file: render_product_low.png
+      pixels: 512
+      variant: display
+      view: product
+  schema_version: 1
+  sources:
+  - title: Bossard BN 384 Phillips pan-head dimension table
+    url: https://www.tme.eu/Document/6dcfa6f98cf6e40290aa56258c19b5d6/BN384.pdf
+    use: DIN head maximum diameter and height, H recess and fully threaded commercial
+      products.
+  - title: Bossard BN 3311 Pozidriv pan-head dimension table
+    url: https://www.tme.eu/Document/193f9ad1cddd45cf9c89db8245477de8/BN3311-DE.pdf
+    use: Z recess dimensions.
+  - title: DIN 7985:1990 original Table 1, hosted by Shenzhen Fine Technology
+    url: https://www.finesz.com/pic/DIN7985.pdf
+    use: M3.5 Z recess m=4, t=1.65 to 2.11; approximate head crown radii rf and under-head
+      radius bounds. Handwritten alterations in this scan are ignored.
+  - title: ISO 4757:1983, clauses 2 and 3, H and Z dimension tables and sections
+    url: https://cdn.standards.iteh.ai/samples/10742/d878fa0371e041b39de75de4d4426928/ISO-4757-1983.pdf
+    use: Wing width f selected at the middle of the tolerance band, centre width b
+      at its nominal value, outer wing slope 26 degrees 30 minutes, floor cone 28
+      degrees. Simplified visualization rather than a gauge-certified punch.
+  standard: DIN 7985 A
+  standard_lengths_mm: []
+  standard_limits:
+    cross_penetration_mm:
+    - 1.1
+    - 1.35
+  studio:
+    adaptive_threshold: 0.015
+    denoise: true
+    device: auto
+    engine: cycles
+    exposure: 0.0
+    floor_colour_srgb:
+    - 0.93
+    - 0.935
+    - 0.94
+    floor_roughness: 0.55
+    framing_margin: 0.13
+    high_samples: 160
+    lights:
+    - colour:
+      - 1.0
+      - 0.96
+      - 0.9
+      height: 5.0
+      name: Key softbox
+      position:
+      - -3
+      - -4
+      - 6
+      power: 650.0
+      width: 4.0
+    - colour:
+      - 0.9
+      - 0.95
+      - 1.0
+      height: 4.0
+      name: Fill softbox
+      position:
+      - 4
+      - -1
+      - 3
+      power: 330.0
+      width: 3.0
+    - colour:
+      - 1.0
+      - 1.0
+      - 1.0
+      height: 5.0
+      name: Rim strip
+      position:
+      - 1
+      - 4
+      - 4
+      power: 850.0
+      width: 1.2
+    low_samples: 48
+    poses:
+      isometric:
+        camera_eye:
+        - 1
+        - -1
+        - 1
+        orientation: tip down, head up
+        projection: orthographic
+      product:
+        camera_eye:
+        - -6
+        - -10
+        - 6
+        orientation: lying on side, head to left
+        projection: orthographic
+        support: Head rim and threaded shaft rest on ground; solve tilt from mesh.
+        yaw_degrees: -12.0
+    seed: 7991
+    view_transform: AgX
+    world_colour:
+    - 0.78
+    - 0.82
+    - 0.9
+    world_strength: 0.35
+  units: mm
+  variants:
+    display:
+      angular_segments: 32
+      fillet_segments: 4
+      samples_per_pitch: 1
+    full:
+      angular_segments: 96
+      fillet_segments: 12
+      samples_per_pitch: 32
+  views:
+  - isometric
+  - front
+  - back
+  - left
+  - right
+  - top
+  - bottom
 url_chat: https://chatgpt.com/c/6a0ae1a0-5100-8389-a176-d0559b3d6baf
