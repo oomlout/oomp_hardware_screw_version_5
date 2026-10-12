@@ -1765,11 +1765,13 @@ three_d_model_details:
     finish: black
     drive_style: philips
   candidate_standards:
-  - supplier miniature tapping specification
+  - Exact miniature sheet-metal tapping supplier drawing
   missing_specification:
-  - actual tapping thread designation and pitch (not inferred from m label)
-  - head dimensions, core profile, point form and cross recess dimensions
+  - Exact supplier drawing for each diameter, including tapping pitch/lead and core
+    profile
+  - Head diameter/height, point/taper, threaded length and recess dimensions
   selection:
+    research_profile: miniature_self_tapping
     supplier_url: https://www.aliexpress.com/item/1005004774076999.html
     reference_urls:
     - https://www.ebay.co.uk/itm/383102775525
@@ -1778,5 +1780,37 @@ three_d_model_details:
     identity_note: User references checked 2026-10-11. eBay confirms Phillips pan
       head, black zinc carbon steel sheet-metal tapping screws; no pitch, core or
       head dimension table is supplied. Miniature sizes still need a drawing.
-  note: No approximate solid is generated. Select a sourced dimension table in three_d_model_selection.
+  note: Seller identity is retained. Alternative sourced tapping tables do not establish
+    a match to the user-supplied product; no pitch or point has been guessed.
+  checked_on: '2026-10-12'
+  sources:
+  - title: User reference eBay 383102775525
+    url: https://www.ebay.co.uk/itm/383102775525
+    use: Phillips pan head, black-zinc carbon steel sheet-metal tapping screws. M2
+      and M2.3 listed; no dimension table in seller text.
+  - title: User reference AliExpress 1005004774076999
+    url: https://www.aliexpress.com/item/1005004774076999.html
+    use: Could not retrieve the product page during this research; no dimensions inferred.
+  - title: Screw Express micro plastic screw 1.4 x 5
+    url: https://www.screw-express.com/micro-screw-self-tapping-pan-head-phillips-steel/61840-530259-self-tapping-screw-linch-pin-plastic-pan-head-phillips-0-14x5-black-zinc-plated-micro-screw.html
+    use: 'Alternative plastic-screw candidate only: 1.4 pitch 0.5, 2 pitch 0.79, 2.3
+      pitch 0.91; not a verified match to the sheet-metal listing.'
+  - title: Japanese Screws supplier brochure, printed pages 6-7
+    url: https://prokcssmedia.blob.core.windows.net/sys-master-images/h22/hd6/9138373263390/JAP%20SCREWS%20Brochure.pdf
+    use: Different triangular thread types P, B and S have different pitches at the
+      same diameter; these cannot identify the pointed sheet-metal product.
+  known_specification:
+    head_style: pan
+    drive_style: philips
+    reference_finish: black zinc
+    material: carbon steel
+    application: sheet metal (seller description)
+  research_notes:
+  - Supplier M labels are diameter labels, not proof of a metric machine thread.
+  - The alternative plastic screw dimensions are research leads, not selected geometry.
+    At 1.4 mm the Japanese brochure lists Type P pitch 0.50 (or 0.61 special), B 0.45
+    and S 0.30.
+  implementation_requirements:
+  - A dedicated non-metric tapping profile and point builder after dimensions are
+    confirmed.
 url_chat: https://chatgpt.com/c/6a0c9bef-0054-8388-ac0a-1b3029ebc1ff
