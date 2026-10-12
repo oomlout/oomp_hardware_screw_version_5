@@ -30,6 +30,12 @@ bip_39_full_space: quality slow prevent famous virtual scissors thing patch huge
 bip_39_full_underscore: quality_slow_prevent_famous_virtual_scissors_thing_patch_huge_stumble_pyramid_manual
 directory: parts/hardware_screw_grub_hex_head_black_m5_diameter_10_mm_length
 generate_stl: false
+generator_label_details:
+  geometry_file: generator_label.json
+  schema_version: 1
+  source: Catalogue diagram_solid.svg
+  svg_file: generator_label.svg
+  title: "M5 \xD7 10"
 id: hardware_screw_grub_hex_head_black_m5_diameter_10_mm_length
 id_no_class: hardware_screw_grub_hex_head_black_m5_diameter_10_mm_length
 id_no_size: hardware_screw_grub_hex_head_black_m5_diameter_10_mm_length
@@ -50,14 +56,15 @@ kwargs:
   oomp_run: false
   overwrite: true
   run_action: false
-  run_oomp: false
-  run_oomp_populate: false
+  run_oomp: true
+  run_oomp_populate: true
   run_scad: true
-  run_svg: false
+  run_svg: true
   screw_colour: black
   screw_style: grub
   thread_size: m5_diameter
-  type: default_screw
+  typ: all
+  type: C:\gh\oomp_hardware_screw_version_5_screw
 label_drawer: &id001
   bip39: quality slow prevent
   bip39_size: 2.341
@@ -1131,6 +1138,8 @@ thing:
     - 3dpr
     navigation: true
     oobb_name: screw
+    oomp_description_extra: ''
+    oomp_description_main: screw_
     oomp_mode: project
     oomp_run: false
     overwrite: true
@@ -1139,27 +1148,35 @@ thing:
     - 0
     - 0
     run_action: false
-    run_oomp: false
-    run_oomp_populate: false
+    run_oomp: true
+    run_oomp_populate: true
     run_scad: true
-    run_svg: false
-    save_type: none
+    run_svg: true
+    save_type: all
     screw_colour: black
     screw_style: grub
     shape: oobb_screw_exact
     thread_size: m5_diameter
+    typ: all
     type: positive
   components_string:
-  - oobb_screw_exact_shape_positive_type_false_run_oomp_populate_false_run_oomp_false_run_svg_true_run_scad_false_generate_stl_false_run_action_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_hex_head_drive_style_10_mm_length_length_screw_oobb_name_black_screw_colour_grub_screw_style_m5_diameter_thread_size
-  description: default screw 0x0x0
+  - oobb_screw_exact_shape_positive_type_true_run_oomp_populate_true_run_oomp_false_run_action_true_run_scad_false_generate_stl_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_hex_head_drive_style_10_mm_length_length_screw_oobb_name_screw__oomp_description_main_true_run_svg_black_screw_colour_grub_screw_style_m5_diameter_thread_size
+  description: C:\gh\oomp hardware screw version 5 screw 0x0x0
   description_extra: ''
   description_main: ''
   directory: parts/hardware_screw_grub_hex_head_black_m5_diameter_10_mm_length
   generate_stl: false
+  generator_label_details:
+    geometry_file: generator_label.json
+    schema_version: 1
+    source: Catalogue diagram_solid.svg
+    svg_file: generator_label.svg
+    title: "M5 \xD7 10"
   id: hardware_screw_grub_hex_head_black_m5_diameter_10_mm_length
   id_no_class: hardware_screw_grub_hex_head_black_m5_diameter_10_mm_length
   id_no_size: hardware_screw_grub_hex_head_black_m5_diameter_10_mm_length
   id_no_type: hardware_screw_grub_hex_head_black_m5_diameter_10_mm_length
+  id_oobb: hardware_screw_grub_hex_head_black_m5_diameter_10_mm_length
   kwargs:
     drive_style: hex_head
     filter: ''
@@ -1175,15 +1192,16 @@ thing:
     oomp_run: false
     overwrite: true
     run_action: false
-    run_oomp: false
-    run_oomp_populate: false
+    run_oomp: true
+    run_oomp_populate: true
     run_scad: true
-    run_svg: false
-    save_type: none
+    run_svg: true
+    save_type: all
     screw_colour: black
     screw_style: grub
     thread_size: m5_diameter
-    type: default_screw
+    typ: all
+    type: C:\gh\oomp_hardware_screw_version_5_screw
   label_drawer: &id002
     bip39: quality slow prevent
     bip39_size: 2.341
@@ -1224,9 +1242,9 @@ thing:
   name_no_size: Hardware Screw Grub Hex Head Black M5 Diameter 10 Mm Length
   name_no_type: Hardware Screw Grub Hex Head Black M5 Diameter 10 Mm Length
   name_proper: Hardware Screw Grub Hex Head Black M5 Diameter 10 Mm Length
-  name_short: Default Screw
+  name_short: C:\Gh\Oomp Hardware Screw Version 5
   name_space: hardware screw grub hex head black m5 diameter 10 mm length
-  name_text: Oobb Part Default Screw
+  name_text: Oobb Part C:\Gh\Oomp Hardware Screw Version 5 Screw
   name_upper: HARDWARE SCREW GRUB HEX HEAD BLACK M5 DIAMETER 10 MM LENGTH
   oobb_details:
     drive_style: hex_head
@@ -2057,13 +2075,14 @@ thing:
     file_test: ''
   oomp_key: oomp_hardware_screw_grub_hex_head_black_m5_diameter_10_mm_length
   part_number: ''
+  project_name: C:\gh\oomp_hardware_screw_version_5
   run_action: false
   run_oomp: true
   run_oomp_populate: true
   run_scad: true
   run_svg: true
   short_name: ''
-  size: default_screw
+  size: C:\gh\oomp_hardware_screw_version_5_screw
   svg_details:
     diameter_mm: 5.0
     drive_style: hex_head
@@ -2194,6 +2213,477 @@ thing:
   taxonomy_7_upper_length_5: 10_MM
   taxonomy_8: ''
   taxonomy_9: ''
+  three_d_model_details:
+    checked_on: '2026-10-11'
+    commercial_lengths_mm:
+    - 5
+    - 6
+    - 8
+    - 10
+    - 12
+    - 14
+    - 16
+    - 20
+    - 22
+    - 25
+    - 30
+    - 35
+    - 40
+    coordinate_system:
+      axis: +Z towards head
+      glb_units: metres
+      glb_up_axis: Y
+      head_top_z_mm: 10.0
+      length_convention: overall
+      origin: tip centre
+      stl_units: mm
+    dimension_status: supplier_dimensions
+    dimensional_specification: Cup-point hexagon socket set screws, sourced supplier
+      dimensions
+    family: grub
+    generation_status: ready
+    generator: parametric_screw
+    length_status: supplier_length
+    material:
+      base_colour_srgb:
+      - 0.205
+      - 0.218
+      - 0.235
+      coat_roughness: 0.28
+      coat_weight: 0.08
+      metallic: 0.8
+      microtexture_height_um: 0.8
+      microtexture_spacing_mm: 0.025
+      name: Black oxide steel
+      note: Visual finish approximation; catalogue specifies colour only.
+      roughness: 0.31
+      roughness_variation: 0.045
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+      catalogue_length: Unlisted lengths use the sourced size profile at the catalogue
+        length and are explicitly marked as extensions.
+      certification: Nominal catalogue geometry; not manufacturing certification.
+      display: Smooth nominal thread envelope with the same head and recessed drive.
+      end: Socket-end face diameter uses the nominal external thread minor diameter
+        with a 45 degree chamfer. Manufacturer marks and socket drill-tip detail are
+        omitted.
+      identity: User confirmed cup point DIN 916 / ISO 4029 on 2026-10-11.
+      markings: Unidentified manufacturer and property-class stamps omitted.
+      point: Cup diameter uses the middle of the published dv range. A selected 0.025
+        mm radial annular land prevents a zero-width edge; the concavity uses a 120
+        degree cone.
+      runout: Thread envelope terminates at the 45 degree cup bevel and socket-end
+        chamfer.
+      socket: Minimum published t for the applicable short/long length category; flat
+        floor is a visualization choice.
+      thread: Nominal right-hand external metric profile; 60 degree flanks, H/6 rounded
+        root; no ISO 965 tolerance offsets.
+      tip: Concave 120 degree cup with a small selected annular land and 45 degree
+        outer bevel.
+    output_folder: three_d_model
+    parameters:
+      cup_angle_deg: 120
+      cup_diameter_mm: 2.375
+      cup_land_mm: 0.025
+      diameter_mm: 5.0
+      drive_style: hex_head
+      finish: black
+      handedness: right
+      head_diameter_mm: 5.0
+      head_height_mm: 0.0
+      head_style: headless
+      head_top_z_mm: 10.0
+      hex_key_mm: 2.5
+      length_convention: overall
+      length_mm: 10.0
+      overall_length_mm: 10.0
+      partial_thread_from_length_mm: null
+      pitch_mm: 0.8
+      socket_across_flats_mm: 2.54
+      socket_depth_mm: 3
+      standard: DIN 916 / ISO 4029
+      thread_coverage: standard_reference
+      thread_flank_angle_deg: 60.0
+      thread_length_reference_mm: null
+      thread_minor_diameter_mm: 4.018504542377636
+      thread_pitch_diameter_mm: 4.480384757729337
+      thread_root_radius_mm: 0.11547005383792515
+      thread_starts: 1
+      tip_chamfer_mm: 1.3125
+      underhead_fillet_mm: 0.0
+    priority: 4
+    renders:
+      high:
+        file: render_high.png
+        pixels: 2048
+        variant: full
+        view: isometric
+      low:
+        file: render_low.png
+        pixels: 512
+        variant: display
+        view: isometric
+      product_high:
+        file: render_product_high.png
+        pixels: 2048
+        variant: full
+        view: product
+      product_low:
+        file: render_product_low.png
+        pixels: 512
+        variant: display
+        view: product
+    schema_version: 1
+    sources:
+    - title: Bossard BN 27 cup-point set screw dimension table
+      url: https://media.distrelec.com/Web/Downloads/_t/ds/1032143_eng_tds.pdf
+      use: Point diameter ranges, key size and length-dependent socket depth for M1.6
+        through M6. Steel black reference dimensions, not a claim of product provenance.
+    - title: Aspen Fasteners DIN 916 dimension table and figure
+      url: https://www.aspenfasteners.com/content/pdf/Metric_DIN_916_spec.pdf
+      use: Socket across-flats tolerance range, short depth for catalogue extensions
+        and nominal 120 degree concave cup, 45 degree point bevel. M2 and M2.5 socket
+        ranges are below the nominal key size in this source; the model uses the key
+        size and flags this discrepancy rather than reproducing an undersize socket.
+    standard: DIN 916 / ISO 4029
+    standard_lengths_mm: []
+    standard_limits:
+      cup_diameter_mm:
+      - 2.25
+      - 2.5
+      socket_across_flats_mm:
+      - 2.52
+      - 2.56
+    studio:
+      adaptive_threshold: 0.015
+      denoise: true
+      device: auto
+      engine: cycles
+      exposure: 0.0
+      floor_colour_srgb:
+      - 0.93
+      - 0.935
+      - 0.94
+      floor_roughness: 0.55
+      framing_margin: 0.13
+      high_samples: 160
+      lights:
+      - colour:
+        - 1.0
+        - 0.96
+        - 0.9
+        height: 5.0
+        name: Key softbox
+        position:
+        - -3
+        - -4
+        - 6
+        power: 650.0
+        width: 4.0
+      - colour:
+        - 0.9
+        - 0.95
+        - 1.0
+        height: 4.0
+        name: Fill softbox
+        position:
+        - 4
+        - -1
+        - 3
+        power: 330.0
+        width: 3.0
+      - colour:
+        - 1.0
+        - 1.0
+        - 1.0
+        height: 5.0
+        name: Rim strip
+        position:
+        - 1
+        - 4
+        - 4
+        power: 850.0
+        width: 1.2
+      low_samples: 48
+      poses:
+        isometric:
+          camera_eye:
+          - 1
+          - -1
+          - 1
+          orientation: tip down, head up
+          projection: orthographic
+        product:
+          camera_eye:
+          - -6
+          - -10
+          - 6
+          orientation: lying on side, head to left
+          projection: orthographic
+          support: Head rim and threaded shaft rest on ground; solve tilt from mesh.
+          yaw_degrees: -12.0
+      seed: 7991
+      view_transform: AgX
+      world_colour:
+      - 0.78
+      - 0.82
+      - 0.9
+      world_strength: 0.35
+    units: mm
+    variants:
+      display:
+        angular_segments: 32
+        fillet_segments: 4
+        samples_per_pitch: 1
+      full:
+        angular_segments: 96
+        fillet_segments: 12
+        samples_per_pitch: 32
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
   type: part
   url_chat: https://chatgpt.com/c/6a077744-99ac-83eb-b6e1-47c7d0a76383
+three_d_model_details:
+  checked_on: '2026-10-11'
+  commercial_lengths_mm:
+  - 5
+  - 6
+  - 8
+  - 10
+  - 12
+  - 14
+  - 16
+  - 20
+  - 22
+  - 25
+  - 30
+  - 35
+  - 40
+  coordinate_system:
+    axis: +Z towards head
+    glb_units: metres
+    glb_up_axis: Y
+    head_top_z_mm: 10.0
+    length_convention: overall
+    origin: tip centre
+    stl_units: mm
+  dimension_status: supplier_dimensions
+  dimensional_specification: Cup-point hexagon socket set screws, sourced supplier
+    dimensions
+  family: grub
+  generation_status: ready
+  generator: parametric_screw
+  length_status: supplier_length
+  material:
+    base_colour_srgb:
+    - 0.205
+    - 0.218
+    - 0.235
+    coat_roughness: 0.28
+    coat_weight: 0.08
+    metallic: 0.8
+    microtexture_height_um: 0.8
+    microtexture_spacing_mm: 0.025
+    name: Black oxide steel
+    note: Visual finish approximation; catalogue specifies colour only.
+    roughness: 0.31
+    roughness_variation: 0.045
+  model_formats:
+  - stl
+  - glb
+  modelling_choices:
+    catalogue_length: Unlisted lengths use the sourced size profile at the catalogue
+      length and are explicitly marked as extensions.
+    certification: Nominal catalogue geometry; not manufacturing certification.
+    display: Smooth nominal thread envelope with the same head and recessed drive.
+    end: Socket-end face diameter uses the nominal external thread minor diameter
+      with a 45 degree chamfer. Manufacturer marks and socket drill-tip detail are
+      omitted.
+    identity: User confirmed cup point DIN 916 / ISO 4029 on 2026-10-11.
+    markings: Unidentified manufacturer and property-class stamps omitted.
+    point: Cup diameter uses the middle of the published dv range. A selected 0.025
+      mm radial annular land prevents a zero-width edge; the concavity uses a 120
+      degree cone.
+    runout: Thread envelope terminates at the 45 degree cup bevel and socket-end chamfer.
+    socket: Minimum published t for the applicable short/long length category; flat
+      floor is a visualization choice.
+    thread: Nominal right-hand external metric profile; 60 degree flanks, H/6 rounded
+      root; no ISO 965 tolerance offsets.
+    tip: Concave 120 degree cup with a small selected annular land and 45 degree outer
+      bevel.
+  output_folder: three_d_model
+  parameters:
+    cup_angle_deg: 120
+    cup_diameter_mm: 2.375
+    cup_land_mm: 0.025
+    diameter_mm: 5.0
+    drive_style: hex_head
+    finish: black
+    handedness: right
+    head_diameter_mm: 5.0
+    head_height_mm: 0.0
+    head_style: headless
+    head_top_z_mm: 10.0
+    hex_key_mm: 2.5
+    length_convention: overall
+    length_mm: 10.0
+    overall_length_mm: 10.0
+    partial_thread_from_length_mm: null
+    pitch_mm: 0.8
+    socket_across_flats_mm: 2.54
+    socket_depth_mm: 3
+    standard: DIN 916 / ISO 4029
+    thread_coverage: standard_reference
+    thread_flank_angle_deg: 60.0
+    thread_length_reference_mm: null
+    thread_minor_diameter_mm: 4.018504542377636
+    thread_pitch_diameter_mm: 4.480384757729337
+    thread_root_radius_mm: 0.11547005383792515
+    thread_starts: 1
+    tip_chamfer_mm: 1.3125
+    underhead_fillet_mm: 0.0
+  priority: 4
+  renders:
+    high:
+      file: render_high.png
+      pixels: 2048
+      variant: full
+      view: isometric
+    low:
+      file: render_low.png
+      pixels: 512
+      variant: display
+      view: isometric
+    product_high:
+      file: render_product_high.png
+      pixels: 2048
+      variant: full
+      view: product
+    product_low:
+      file: render_product_low.png
+      pixels: 512
+      variant: display
+      view: product
+  schema_version: 1
+  sources:
+  - title: Bossard BN 27 cup-point set screw dimension table
+    url: https://media.distrelec.com/Web/Downloads/_t/ds/1032143_eng_tds.pdf
+    use: Point diameter ranges, key size and length-dependent socket depth for M1.6
+      through M6. Steel black reference dimensions, not a claim of product provenance.
+  - title: Aspen Fasteners DIN 916 dimension table and figure
+    url: https://www.aspenfasteners.com/content/pdf/Metric_DIN_916_spec.pdf
+    use: Socket across-flats tolerance range, short depth for catalogue extensions
+      and nominal 120 degree concave cup, 45 degree point bevel. M2 and M2.5 socket
+      ranges are below the nominal key size in this source; the model uses the key
+      size and flags this discrepancy rather than reproducing an undersize socket.
+  standard: DIN 916 / ISO 4029
+  standard_lengths_mm: []
+  standard_limits:
+    cup_diameter_mm:
+    - 2.25
+    - 2.5
+    socket_across_flats_mm:
+    - 2.52
+    - 2.56
+  studio:
+    adaptive_threshold: 0.015
+    denoise: true
+    device: auto
+    engine: cycles
+    exposure: 0.0
+    floor_colour_srgb:
+    - 0.93
+    - 0.935
+    - 0.94
+    floor_roughness: 0.55
+    framing_margin: 0.13
+    high_samples: 160
+    lights:
+    - colour:
+      - 1.0
+      - 0.96
+      - 0.9
+      height: 5.0
+      name: Key softbox
+      position:
+      - -3
+      - -4
+      - 6
+      power: 650.0
+      width: 4.0
+    - colour:
+      - 0.9
+      - 0.95
+      - 1.0
+      height: 4.0
+      name: Fill softbox
+      position:
+      - 4
+      - -1
+      - 3
+      power: 330.0
+      width: 3.0
+    - colour:
+      - 1.0
+      - 1.0
+      - 1.0
+      height: 5.0
+      name: Rim strip
+      position:
+      - 1
+      - 4
+      - 4
+      power: 850.0
+      width: 1.2
+    low_samples: 48
+    poses:
+      isometric:
+        camera_eye:
+        - 1
+        - -1
+        - 1
+        orientation: tip down, head up
+        projection: orthographic
+      product:
+        camera_eye:
+        - -6
+        - -10
+        - 6
+        orientation: lying on side, head to left
+        projection: orthographic
+        support: Head rim and threaded shaft rest on ground; solve tilt from mesh.
+        yaw_degrees: -12.0
+    seed: 7991
+    view_transform: AgX
+    world_colour:
+    - 0.78
+    - 0.82
+    - 0.9
+    world_strength: 0.35
+  units: mm
+  variants:
+    display:
+      angular_segments: 32
+      fillet_segments: 4
+      samples_per_pitch: 1
+    full:
+      angular_segments: 96
+      fillet_segments: 12
+      samples_per_pitch: 32
+  views:
+  - isometric
+  - front
+  - back
+  - left
+  - right
+  - top
+  - bottom
 url_chat: https://chatgpt.com/c/6a077744-99ac-83eb-b6e1-47c7d0a76383
