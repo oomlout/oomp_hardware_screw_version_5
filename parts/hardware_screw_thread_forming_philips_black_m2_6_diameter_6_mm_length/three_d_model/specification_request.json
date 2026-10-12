@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "generator": "unresolved",
+  "generation_status": "excluded",
+  "family": "thread_forming",
+  "priority": 11,
+  "output_folder": "three_d_model",
+  "units": "mm",
+  "parameters": {
+    "diameter_mm": 2.6,
+    "length_mm": 6.0,
+    "finish": "black",
+    "drive_style": "philips"
+  },
+  "note": "User requested skipping this family on 2026-10-11."
+}
