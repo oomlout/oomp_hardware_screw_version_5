@@ -1,0 +1,41 @@
+schema_version: 1
+standard: Japanese Screws JCIS Type 3 supplier reference
+title: M1.4 large countersunk cross-recess machine screw, nominal supplier profile
+units: mm
+head_style: countersunk
+length_convention: overall
+checked_on: '2026-10-12'
+sources:
+  - title: Heads & All Threads Japanese Screws brochure, printed page 5, Type 3 M1.4
+    url: https://prokcssmedia.blob.core.windows.net/sys-master-images/h22/hd6/9138373263390/JAP%20SCREWS%20Brochure.pdf
+    local_file: references/japanese_screws_brochure.pdf
+    use: Pitch, nominal head diameter and height, 90 degree cone, recess mouth and penetration limits. Visually checked on PDF page 3 (printed page 5).
+modelling_choices:
+  identity: Selected supplier reference for visualization; the catalogue does not identify its manufacturer. This is not DIN 965 and is not a measured match to stocked screws.
+  head: Type 3 large head, nominal D and H; selected 0.04 mm underhead fillet and derived positive rim.
+  thread_coverage: Full nominal metric thread to the head; no supplier-specific runout claimed.
+  recess: Supplier JCIS No.0 mouth and penetration midpoints. Existing ISO 4757 H0 wing/taper construction is used only as a simplified visual cavity, not as proof of JCIS/Phillips gauge equivalence.
+sizes:
+  '1.4':
+    dimension_status: supplier_dimensions
+    pitch_mm: 0.3
+    head_diameter_mm: 2.5
+    head_height_mm: 0.7
+    countersink_angle_deg: 90
+    underhead_fillet_mm: 0.04
+    thread_length_reference_mm: null
+    partial_thread_from_length_mm: null
+    standard_limits:
+      head_diameter_mm: [2.4, 2.55]
+      head_height_mm: [0.65, 0.7]
+      recess_mouth_mm: [1.5, 1.65]
+      countersink_angle_deg: [90, 92]
+      supplier_production_length_range_mm: [1.4, 10]
+    recesses:
+      philips:
+        recess_type: H
+        recess_number: 0
+        recess_diameter_mm: 1.575
+        recess_depth_mm: 0.7
+        penetration_limits_mm: [0.56, 0.84]
+        commercial_lengths_mm: []

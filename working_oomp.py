@@ -3,6 +3,35 @@ import oomp_helper
 import copy
 import oomlout_roboclick
 import working_label_drawer
+from pathlib import Path
+
+from working_metadata import write_yaml
+
+
+def register_parts(parts, **kwargs):
+    """Complete each registration before publishing its generated metadata.
+
+    The shared OOMP add_parts starts unjoined threads and add_part streams directly
+    into working.yaml. Use its synchronous registration with file writing disabled,
+    then serialize and publish through this repository's atomic writer.
+    """
+    for part in parts:
+        options = dict(part)
+        options.update(kwargs)
+        make_files = options.pop('make_files', True)
+        registered = oomp.add_part(**options, make_files=False)
+        if not registered or not registered.get('id'):
+            continue
+        if 'make_files' in part or 'make_files' in kwargs:
+            registered['make_files'] = make_files
+        else:
+            registered.pop('make_files', None)
+        if make_files:
+            directory = Path('parts' if make_files is True else make_files)
+            metadata = copy.deepcopy(registered)
+            metadata.pop('make_files', None)
+            metadata.pop('counter', None)
+            write_yaml(directory/registered['id']/'working.yaml', metadata)
 
 def main(**kwargs):
     load_parts(**kwargs)
@@ -32,7 +61,7 @@ def create_generic(**kwargs):
             import yaml
             #go through directories and load working.yaml files
             # only load .yaml files
-            if "working.yaml" in filename:
+            if filename == "working.yaml":
                 file_path = os.path.join(directory_full, filename)
                 with open(file_path, 'r', encoding='utf-8') as file:
                     data = yaml.safe_load(file)
@@ -189,7 +218,7 @@ def create_generic(**kwargs):
 
 
 
-    oomp.add_parts(parts, **kwargs)
+    register_parts(parts, **kwargs)
 
     #dd file copy
     for part in parts:
@@ -206,9 +235,6 @@ def create_generic(**kwargs):
                         shutil.copyfile(file_source, file_destination)
                     except Exception as e:
                         print(f"      error copying file: {e}") 
-
-    import time
-    time.sleep(2)
 
 
 

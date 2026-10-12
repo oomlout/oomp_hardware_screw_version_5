@@ -1,0 +1,375 @@
+schema_version: 1
+units: mm
+sources:
+- &id001
+  title: Tite-Fix Screw-Tite manufacturer technical table
+  url: https://www.tite-fix.co.uk/product/screw-tite-multipurpose-screw/
+  use: Exact diameter/length rows, head diameter limits, drive, thread coverage, material
+    and finish. Does not specify pitch or Tri-Lock section.
+- &id002
+  title: Screwfix Screw-Tite 2 4 x 50, 127FY
+  url: https://www.screwfix.com/p/screw-tite-2-pz-double-countersunk-thread-cutting-screws-4mm-x-50mm-200-pack/127fy
+  use: User-preferred retailer; identifies double countersunk ribbed head, yellow
+    Net-Coat, wax coating and single/twin thread.
+- &id003
+  title: Accu TFSTZ4050
+  url: https://www.accu.co.uk/pozi-countersunk-wood-screws/771036-TFSTZ4050
+  use: 'Separate zinc-plated 4 x 50 reference: D=7.8 +/-0.2, H=3.8, angle=90, PZ2,
+    minimum thread length=28.5. Not assumed identical to Screw-Tite 2.'
+- &id004
+  title: User reference eBay 383102775525
+  url: https://www.ebay.co.uk/itm/383102775525
+  use: Phillips pan head, black-zinc carbon steel sheet-metal tapping screws. M2 and
+    M2.3 listed; no dimension table in seller text.
+- &id005
+  title: User reference AliExpress 1005004774076999
+  url: https://www.aliexpress.com/item/1005004774076999.html
+  use: Could not retrieve the product page during this research; no dimensions inferred.
+- &id006
+  title: Screw Express micro plastic screw 1.4 x 5
+  url: https://www.screw-express.com/micro-screw-self-tapping-pan-head-phillips-steel/61840-530259-self-tapping-screw-linch-pin-plastic-pan-head-phillips-0-14x5-black-zinc-plated-micro-screw.html
+  use: 'Alternative plastic-screw candidate only: 1.4 pitch 0.5, 2 pitch 0.79, 2.3
+    pitch 0.91; not a verified match to the sheet-metal listing.'
+- &id007
+  title: Japanese Screws supplier brochure, printed pages 6-7
+  url: https://prokcssmedia.blob.core.windows.net/sys-master-images/h22/hd6/9138373263390/JAP%20SCREWS%20Brochure.pdf
+  use: Different triangular thread types P, B and S have different pitches at the
+    same diameter; these cannot identify the pointed sheet-metal product.
+profiles:
+  screw_tite:
+    checked_on: '2026-10-12'
+    sources:
+    - *id001
+    - *id002
+    - *id003
+    catalogue_drive: pozidriv
+    catalogue_finish: yellow_zinc_plated
+    known_specification:
+      preferred_product: Screw-Tite from Screwfix
+      head_style: double_countersunk_with_ribs
+      thread_profile: Tri-Lock triangular core, single and twin thread zones
+      material: hardened carbon steel
+      reference_finish: Yellow CR3 / Screwfix Net-Coat yellow, wax-coated
+    missing_specification:
+    - Tri-Lock core section and diameters, flank profile, pitches/leads, and single/twin
+      thread transition lengths
+    - Point taper, dowel-ream geometry, head height/collar/ribs, and Stick-Tite recess
+      dimensions
+    - Confirm manufacturer table dimensions apply to the selected Screwfix Screw-Tite
+      2 revision
+    implementation_requirements:
+    - Dedicated triangular-core, variable-start wood-thread and double-countersunk-head
+      geometry; the metric machine-thread generator is not compatible.
+    candidate_standards:
+    - Tite-Fix Screw-Tite / Screw-Tite 2 proprietary supplier drawing
+    notes:
+    - This reference is not DIN 7997; do not combine DIN wood-thread dimensions with
+      proprietary Screw-Tite dimensions.
+    - The manufacturer table repeats SKU TFST04530 for 5 x 40; preserve the published
+      value and flag it, rather than invent a replacement.
+    - The manufacturer table reports 3.5 x 50 as Full and some 70 mm thread lengths
+      shorter than 60 mm; preserve as published pending manufacturer verification.
+    note: Product identity is narrowed to the user-preferred Screw-Tite range. Verified
+      partial dimensions are recorded separately from model parameters; generation
+      remains blocked on the proprietary geometry and catalogue conflicts.
+    sizes:
+      '3':
+        known_specification:
+          head_diameter_limits_mm:
+          - 5.7
+          - 6.0
+          drive_size: PZ1
+        products:
+          '12':
+            supplier_sku_as_published: TFST03012
+            thread_coverage_as_published: full
+          '16':
+            supplier_sku_as_published: TFST03016
+            thread_coverage_as_published: full
+          '20':
+            supplier_sku_as_published: TFST03020
+            thread_coverage_as_published: full
+          '25':
+            supplier_sku_as_published: TFST03025
+            thread_coverage_as_published: full
+      '3.5':
+        known_specification:
+          head_diameter_limits_mm:
+          - 6.6
+          - 7.0
+          drive_size: PZ2
+        products:
+          '16':
+            supplier_sku_as_published: TFST03516
+            thread_coverage_as_published: full
+          '20':
+            supplier_sku_as_published: TFST03520
+            thread_coverage_as_published: full
+          '25':
+            supplier_sku_as_published: TFST03525
+            thread_coverage_as_published: full
+          '30':
+            supplier_sku_as_published: TFST03530
+            thread_length_limits_mm:
+            - 16.6
+            - 19.5
+          '35':
+            supplier_sku_as_published: TFST03535
+            thread_length_limits_mm:
+            - 19.5
+            - 22.5
+          '40':
+            supplier_sku_as_published: TFST03540
+            thread_length_limits_mm:
+            - 22.5
+            - 25.5
+          '50':
+            supplier_sku_as_published: TFST03550
+            thread_coverage_as_published: full
+            source_conflict: Full thread at 50 mm differs from the partial-thread
+              pattern at 30-40 mm; verify.
+      '4':
+        known_specification:
+          head_diameter_limits_mm:
+          - 7.6
+          - 8.0
+          drive_size: PZ2
+        products:
+          '16':
+            supplier_sku_as_published: TFST04016
+            thread_coverage_as_published: full
+          '20':
+            supplier_sku_as_published: TFST04020
+            thread_coverage_as_published: full
+          '25':
+            supplier_sku_as_published: TFST04025
+            thread_coverage_as_published: full
+          '30':
+            supplier_sku_as_published: TFST04030
+            thread_length_limits_mm:
+            - 16.5
+            - 19.5
+          '35':
+            supplier_sku_as_published: TFST04035
+            thread_length_limits_mm:
+            - 19.5
+            - 22.5
+          '40':
+            supplier_sku_as_published: TFST04040
+            thread_length_limits_mm:
+            - 22.5
+            - 25.5
+          '45':
+            supplier_sku_as_published: TFST04045
+            thread_length_limits_mm:
+            - 25.5
+            - 28.5
+          '50':
+            supplier_sku_as_published: TFST04050
+            thread_length_limits_mm:
+            - 28.5
+            - 31.5
+          '60':
+            supplier_sku_as_published: TFST04060
+            thread_length_limits_mm:
+            - 34.5
+            - 37.5
+          '70':
+            supplier_sku_as_published: TFST04070
+            thread_length_limits_mm:
+            - 33.5
+            - 36.5
+      '4.5':
+        known_specification:
+          head_diameter_limits_mm:
+          - 8.6
+          - 9.0
+          drive_size: PZ2
+        products:
+          '30':
+            supplier_sku_as_published: TFST04530
+            thread_length_limits_mm:
+            - 16.5
+            - 19.5
+          '40':
+            supplier_sku_as_published: TFST04540
+            thread_length_limits_mm:
+            - 22.5
+            - 25.5
+          '50':
+            supplier_sku_as_published: TFST04550
+            thread_length_limits_mm:
+            - 28.5
+            - 31.5
+          '60':
+            supplier_sku_as_published: TFST04560
+            thread_length_limits_mm:
+            - 34.5
+            - 37.5
+          '70':
+            supplier_sku_as_published: TFST04570
+            thread_length_limits_mm:
+            - 33.5
+            - 36.5
+          '75':
+            supplier_sku_as_published: TFST04575
+            thread_length_limits_mm:
+            - 36.0
+            - 39.0
+          '80':
+            supplier_sku_as_published: TFST04580
+            thread_length_limits_mm:
+            - 38.5
+            - 41.5
+      '5':
+        known_specification:
+          head_diameter_limits_mm:
+          - 9.5
+          - 10.0
+          drive_size: PZ2
+        products:
+          '30':
+            supplier_sku_as_published: TFST05030
+            thread_coverage_as_published: full
+          '40':
+            supplier_sku_as_published: TFST04530
+            thread_length_limits_mm:
+            - 22.5
+            - 25.5
+            source_conflict: Duplicate SKU TFST04530 also denotes 4.5 x 30; verify
+              SKU with supplier.
+          '50':
+            supplier_sku_as_published: TFST05050
+            thread_length_limits_mm:
+            - 28.5
+            - 31.5
+          '60':
+            supplier_sku_as_published: TFST05060
+            thread_length_limits_mm:
+            - 34.5
+            - 37.5
+          '70':
+            supplier_sku_as_published: TFST05070
+            thread_length_limits_mm:
+            - 33.5
+            - 36.5
+          '80':
+            supplier_sku_as_published: TFST05080
+            thread_length_limits_mm:
+            - 38.5
+            - 41.5
+          '90':
+            supplier_sku_as_published: TFST05090
+            thread_length_limits_mm:
+            - 43.5
+            - 46.5
+          '100':
+            supplier_sku_as_published: TFST05100
+            thread_length_limits_mm:
+            - 48.5
+            - 51.5
+      '6':
+        known_specification:
+          head_diameter_limits_mm:
+          - 11.5
+          - 12.0
+          drive_size: PZ3
+        products:
+          '50':
+            supplier_sku_as_published: TFST06050
+            thread_length_limits_mm:
+            - 28.5
+            - 31.5
+          '60':
+            supplier_sku_as_published: TFST06060
+            thread_length_limits_mm:
+            - 34.5
+            - 37.5
+          '70':
+            supplier_sku_as_published: TFST06070
+            thread_length_limits_mm:
+            - 33.5
+            - 36.5
+          '80':
+            supplier_sku_as_published: TFST06080
+            thread_length_limits_mm:
+            - 38.5
+            - 41.5
+          '90':
+            supplier_sku_as_published: TFST06090
+            thread_length_limits_mm:
+            - 43.5
+            - 46.5
+          '100':
+            supplier_sku_as_published: TFST06100
+            thread_length_limits_mm:
+            - 48.5
+            - 51.5
+          '120':
+            supplier_sku_as_published: TFST06120
+            thread_length_limits_mm:
+            - 58.5
+            - 61.5
+          '130':
+            supplier_sku_as_published: TFST06130
+            thread_length_limits_mm:
+            - 63.5
+            - 66.5
+          '140':
+            supplier_sku_as_published: TFST06140
+            thread_length_limits_mm:
+            - 68.5
+            - 71.5
+          '150':
+            supplier_sku_as_published: TFST06150
+            thread_length_limits_mm:
+            - 73.5
+            - 76.5
+  miniature_self_tapping:
+    checked_on: '2026-10-12'
+    sources:
+    - *id004
+    - *id005
+    - *id006
+    - *id007
+    known_specification:
+      head_style: pan
+      drive_style: philips
+      reference_finish: black zinc
+      material: carbon steel
+      application: sheet metal (seller description)
+    missing_specification:
+    - Exact supplier drawing for each diameter, including tapping pitch/lead and core
+      profile
+    - Head diameter/height, point/taper, threaded length and recess dimensions
+    candidate_standards:
+    - Exact miniature sheet-metal tapping supplier drawing
+    implementation_requirements:
+    - A dedicated non-metric tapping profile and point builder after dimensions are
+      confirmed.
+    notes:
+    - Supplier M labels are diameter labels, not proof of a metric machine thread.
+    - The alternative plastic screw dimensions are research leads, not selected geometry.
+      At 1.4 mm the Japanese brochure lists Type P pitch 0.50 (or 0.61 special), B
+      0.45 and S 0.30.
+    note: Seller identity is retained. Alternative sourced tapping tables do not establish
+      a match to the user-supplied product; no pitch or point has been guessed.
+  miniature_m1_5:
+    checked_on: '2026-10-12'
+    sources:
+    - title: Micro Fastenings countersunk machine screw range
+      url: https://www.microfastenings.com/countersunk-phillips-machine-screws/
+      use: Published range includes M1.4 and M1.6, but no M1.5 row.
+    - title: PTS miniature countersunk range
+      url: https://www.pts-uk.com/products/machine-screws/phillips-countersunk-machine-screws/metric-a2/a96501404h
+      use: M1.4 dimensions available; cannot be interpolated into an M1.5 specification.
+    missing_specification:
+    - M1.5 supplier drawing confirming the thread pitch
+    - M1.5 head diameter, height, angle, recess mouth and penetration limits
+    candidate_standards:
+    - M1.5 supplier-specific drawing
+    notes:
+    - No complete primary M1.5 dimensional drawing found in this research. M1.4/M1.6
+      rows are not interpolated.
+    note: 'M1.5 remains unresolved: obtain a supplier dimensioned drawing or measure
+      a physical sample.'

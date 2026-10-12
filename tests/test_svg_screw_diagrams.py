@@ -12,6 +12,7 @@ import working
 import working_oomp_populate as populate
 import working_svg
 import working_scad
+import working_three_d_model
 import working_svg_screw_diagrams as diagrams
 
 
@@ -56,9 +57,10 @@ class ScrewDiagramTests(unittest.TestCase):
     def test_full_pipeline_runs_svg_before_scad(self):
         calls = []
         with patch.object(working_svg, 'main', side_effect=lambda **_: calls.append('svg')), \
+             patch.object(working_three_d_model, 'main', side_effect=lambda **_: calls.append('three_d_model')), \
              patch.object(working_scad, 'main', side_effect=lambda **_: calls.append('scad')):
             working.run(run_oomp_populate=False, run_oomp=False, run_action=False)
-        self.assertEqual(calls, ['svg', 'scad'])
+        self.assertEqual(calls, ['svg', 'three_d_model', 'scad'])
 
     def test_drive_types_and_solid_styles(self):
         part = dict(id='test_drive', oobb_details=dict(oobb_name='screw',

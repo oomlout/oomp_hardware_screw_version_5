@@ -1,7 +1,11 @@
 import copy
+from pathlib import Path
+
+import yaml
 
 from oomp_populate_helper import write_extras, build_oomp_id
 from working_svg_screw_diagrams import add_definition as add_svg_diagram_definition
+from working_three_d_model import add_definition as add_three_d_model_definition
 from working_oomp_populate_countersunk import generate as generate_countersunk
 from working_oomp_populate_countersunk_pozi import generate as generate_countersunk_pozi
 from working_oomp_populate_countersunk_philips import generate as generate_countersunk_philips
@@ -15,6 +19,7 @@ from working_oomp_populate_machine_screw import generate as generate_machine_scr
 from working_oomp_populate_self_tapping import generate as generate_self_tapping
 from working_oomp_populate_thread_forming import generate as generate_thread_forming
 from working_oomp_populate_wood import generate as generate_wood
+from working_supplier_data import load_supplier_data
 
 
 def main(**kwargs):
@@ -88,6 +93,7 @@ def main(**kwargs):
             oobb_details["screw_colour"] = option.get("taxonomy_5", "default")
             option["oobb_details"] = oobb_details
             add_svg_diagram_definition(option)
+            add_three_d_model_definition(option)
 
     #define loop parts here
     if False:
@@ -105,15 +111,31 @@ def main(**kwargs):
         options.append(option)
 
     extras = []
+    supplier_data_by_part = load_supplier_data()
     for option in options:
         extra = copy.deepcopy(default_input)
         extra.update(option)
+        supplier_data = supplier_data_by_part.get(build_oomp_id(extra))
+        if supplier_data:
+            # Supplier keyed records retain each exact SKU, URL and price tier.
+            extra["supplier_data"] = supplier_data
         extras.append(extra)
 
     
     ######### add notes from an id string
     import working_oomp_populate_extra_detail
     working_oomp_populate_extra_detail.main(extras=extras)
+
+    # Supplier/standard choices belong to the catalogue and survive population.
+    # Preserve only the explicit selection block; ordinary generated metadata
+    # still comes from this pipeline and the sourced standards registry.
+    for extra in extras:
+        source = Path('parts_source')/build_oomp_id(extra)/'working.yaml'
+        if source.is_file():
+            previous = yaml.load(source.read_text(encoding='utf-8'), Loader=getattr(yaml, 'CSafeLoader', yaml.SafeLoader)) or {}
+            if 'three_d_model_selection' in previous:
+                extra['three_d_model_selection'] = copy.deepcopy(previous['three_d_model_selection'])
+                add_three_d_model_definition(extra)
 
 
     write_extras(extras, default_input)

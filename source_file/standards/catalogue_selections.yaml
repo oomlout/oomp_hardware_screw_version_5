@@ -1,0 +1,43 @@
+# Explicit product identity choices. Edit here so normal population retains them.
+# A per-part three_d_model_selection block takes precedence over these defaults.
+schema_version: 1
+families:
+  grub:
+    standard_file: din_916.yaml
+    point_style: cup
+    identity_note: User confirmed cup point DIN 916 / ISO 4029 on 2026-10-11.
+  socket_cap_low_head_ultra:
+    standard_file: din_7984.yaml
+    identity_note: User confirmed DIN 7984 on 2026-10-11. This catalogue label shares the low-head profile; no invented extra reduction.
+  machine_screw:
+    standard_file: din_7985.yaml
+    identity_note: User confirmed pan head on 2026-10-11.
+  flat_head:
+    standard_file: din_965.yaml
+    identity_note: User confirmed countersunk on 2026-10-11.
+  self_tapping:
+    research_profile: miniature_self_tapping
+    supplier_url: https://www.aliexpress.com/item/1005004774076999.html
+    reference_urls:
+      - https://www.ebay.co.uk/itm/383102775525
+    head_style: pan
+    finish_identity: black_zinc
+    identity_note: User references checked 2026-10-11. eBay confirms Phillips pan head, black zinc carbon steel sheet-metal tapping screws; no pitch, core or head dimension table is supplied. Miniature sizes still need a drawing.
+  thread_forming:
+    excluded: true
+    identity_note: User requested skipping this family on 2026-10-11.
+  wood:
+    standard_file: wood_similar_product.yaml
+    research_profile: screw_tite
+    supplier_url: https://www.tite-fix.co.uk/product/screw-tite-multipurpose-screw/
+    reference_urls:
+      - https://www.screwfix.com/p/screw-tite-2-pz-double-countersunk-thread-cutting-screws-4mm-x-50mm-200-pack/127fy
+    identity_note: User prefers Screw-Tite from Screwfix and authorized filling missing measurements from similar products on 2026-10-12. User clarified modern plywood/chipboard style on 2026-10-13. Use the explicitly labelled slender-shank modern chipboard proxy. Preserve Screw-Tite comparison evidence separately, including the finish conflict.
+part_filters:
+  - filter: hardware_screw_countersunk_philips_black_m1_4_diameter_*
+    selection:
+      standard_file: jcis_type_3_countersunk.yaml
+      identity_note: Sourced Type 3 miniature supplier profile selected for nominal visualization on 2026-10-12; not a manufacturer identification or DIN 965 extension.
+  - filter: hardware_screw_countersunk_philips_black_m1_5_diameter_*
+    selection:
+      research_profile: miniature_m1_5

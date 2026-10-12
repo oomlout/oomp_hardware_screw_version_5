@@ -37,9 +37,221 @@ taxonomy_6: m2_5_diameter
 taxonomy_7: 8_mm_length
 taxonomy_8: ''
 taxonomy_9: ''
-generator_label_details:
+three_d_model_details:
+  checked_on: '2026-10-11'
+  commercial_lengths_mm:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 8
+  - 10
+  - 12
+  - 14
+  - 16
+  - 20
+  coordinate_system:
+    axis: +Z towards head
+    glb_units: metres
+    glb_up_axis: Y
+    head_top_z_mm: 9.5
+    length_convention: under_head
+    origin: tip centre
+    stl_units: mm
+  dimension_status: manufacturer_extension
+  dimensional_specification: Hexagon socket button head screws
+  family: button_head
+  generation_status: ready
+  generator: parametric_screw
+  length_status: supplier_length
+  material:
+    base_colour_srgb:
+    - 0.205
+    - 0.218
+    - 0.235
+    coat_roughness: 0.28
+    coat_weight: 0.08
+    metallic: 0.8
+    microtexture_height_um: 0.8
+    microtexture_spacing_mm: 0.025
+    name: Black oxide steel
+    note: Visual finish approximation; catalogue specifies colour only.
+    roughness: 0.31
+    roughness_variation: 0.045
+  model_formats:
+  - stl
+  - glb
+  modelling_choices:
+    catalogue_length: Unlisted lengths use the sourced size profile at the catalogue
+      length and are explicitly marked as extensions.
+    certification: Nominal catalogue geometry; not manufacturing certification.
+    display: Smooth nominal thread envelope with the same head and recessed drive.
+    head: Spherical segment terminating at a flat crown of nominal shaft diameter;
+      narrow lower rim and tangent underhead fillet are explicit profile choices.
+    markings: Unidentified manufacturer and property-class stamps omitted.
+    reference: Published Bossard nominal head/socket dimensions; manufacturer of catalogue
+      parts remains unspecified.
+    runout: One-pitch taper; incomplete thread remains within 2P.
+    socket: Nominal key width and minimum penetration; flat bottom and circular mouth
+      countersink.
+    thread: Nominal right-hand external metric profile; 60 degree flanks, H/6 rounded
+      root; no ISO 965 tolerance offsets.
+    thread_coverage: Full by default; Bossard warns that the partially threaded version
+      cannot always be guaranteed. Store an explicit per-part override when identified.
+    tip: Selected 45 degree chamfer of P/2.
+  output_folder: three_d_model
+  parameters:
+    diameter_mm: 2.5
+    drive_style: hex_head
+    finish: black
+    handedness: right
+    head_diameter_mm: 4.5
+    head_height_mm: 1.5
+    head_rim_mm: 0.1
+    head_style: button
+    head_top_z_mm: 9.5
+    hex_key_mm: 1.5
+    length_convention: under_head
+    length_mm: 8.0
+    overall_length_mm: 9.5
+    partial_thread_from_length_mm: null
+    pitch_mm: 0.45
+    socket_across_flats_mm: 1.5
+    socket_depth_mm: 0.8
+    standard: ISO 7380-1:2022
+    thread_coverage: standard_reference
+    thread_flank_angle_deg: 60.0
+    thread_length_reference_mm: null
+    thread_minor_diameter_mm: 1.9479088050874203
+    thread_pitch_diameter_mm: 2.2077164262227518
+    thread_root_radius_mm: 0.06495190528383289
+    thread_starts: 1
+    tip_chamfer_mm: 0.225
+    underhead_fillet_mm: 0.1
+  priority: 3
+  renders:
+    high:
+      file: render_high.png
+      pixels: 2048
+      variant: full
+      view: isometric
+    low:
+      file: render_low.png
+      pixels: 512
+      variant: display
+      view: isometric
+    product_high:
+      file: render_product_high.png
+      pixels: 2048
+      variant: full
+      view: product
+    product_low:
+      file: render_product_low.png
+      pixels: 512
+      variant: display
+      view: product
   schema_version: 1
-  geometry_file: generator_label.json
-  svg_file: generator_label.svg
-  title: M2.5 × 8
-  source: Catalogue diagram_solid.svg
+  sources:
+  - title: ISO 7380-1:2022 scope
+    url: https://www.iso.org/standard/78699.html
+    use: M3–M16; M2 and M2.5 are outside ISO scope.
+  - title: Bossard BN 19 manufacturer dimensional table
+    url: https://xonstorage.z8.web.core.windows.net/pdf/bossard_1805681_xonlink.pdf
+    use: dk, k, s, t, commercial miniature rows, and note that partial threading cannot
+      always be guaranteed.
+  standard: ISO 7380-1:2022
+  standard_lengths_mm: []
+  standard_limits: {}
+  studio:
+    adaptive_threshold: 0.015
+    denoise: true
+    device: auto
+    engine: cycles
+    exposure: 0.0
+    floor_colour_srgb:
+    - 0.93
+    - 0.935
+    - 0.94
+    floor_roughness: 0.55
+    framing_margin: 0.13
+    high_samples: 160
+    lights:
+    - colour:
+      - 1.0
+      - 0.96
+      - 0.9
+      height: 5.0
+      name: Key softbox
+      position:
+      - -3
+      - -4
+      - 6
+      power: 650.0
+      width: 4.0
+    - colour:
+      - 0.9
+      - 0.95
+      - 1.0
+      height: 4.0
+      name: Fill softbox
+      position:
+      - 4
+      - -1
+      - 3
+      power: 330.0
+      width: 3.0
+    - colour:
+      - 1.0
+      - 1.0
+      - 1.0
+      height: 5.0
+      name: Rim strip
+      position:
+      - 1
+      - 4
+      - 4
+      power: 850.0
+      width: 1.2
+    low_samples: 48
+    poses:
+      isometric:
+        camera_eye:
+        - 1
+        - -1
+        - 1
+        orientation: tip down, head up
+        projection: orthographic
+      product:
+        camera_eye:
+        - -6
+        - -10
+        - 6
+        orientation: lying on side, head to left
+        projection: orthographic
+        support: Head rim and threaded shaft rest on ground; solve tilt from mesh.
+        yaw_degrees: -12.0
+    seed: 7991
+    view_transform: AgX
+    world_colour:
+    - 0.78
+    - 0.82
+    - 0.9
+    world_strength: 0.35
+  units: mm
+  variants:
+    display:
+      angular_segments: 32
+      fillet_segments: 4
+      samples_per_pitch: 1
+    full:
+      angular_segments: 96
+      fillet_segments: 12
+      samples_per_pitch: 32
+  views:
+  - isometric
+  - front
+  - back
+  - left
+  - right
+  - top
+  - bottom

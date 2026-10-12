@@ -37,9 +37,17 @@ taxonomy_6: m2_3_diameter
 taxonomy_7: 6_mm_length
 taxonomy_8: ''
 taxonomy_9: ''
-generator_label_details:
+three_d_model_details:
   schema_version: 1
-  geometry_file: generator_label.json
-  svg_file: generator_label.svg
-  title: M2.3 × 6
-  source: Catalogue diagram_solid.svg
+  generator: unresolved
+  generation_status: excluded
+  family: thread_forming
+  priority: 11
+  output_folder: three_d_model
+  units: mm
+  parameters:
+    diameter_mm: 2.3
+    length_mm: 6.0
+    finish: black
+    drive_style: philips
+  note: User requested skipping this family on 2026-10-11.
