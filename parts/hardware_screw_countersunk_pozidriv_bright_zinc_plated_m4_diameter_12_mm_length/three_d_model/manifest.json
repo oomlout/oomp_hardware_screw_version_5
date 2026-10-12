@@ -1,0 +1,157 @@
+{
+  "artifacts": {
+    "display/back.svg": {
+      "bytes": 6342,
+      "sha256": "8dabe887b01b1ac927aedc7764dab515f74590741b7624edd0f37eb97c05104c"
+    },
+    "display/bottom.svg": {
+      "bytes": 6330,
+      "sha256": "5d5cf51ecd99e77137b813cd5fffacd921cff454177fc5a89cff1a0daac89210"
+    },
+    "display/front.svg": {
+      "bytes": 6345,
+      "sha256": "936fc39786cf7800a81628e9fcff11f801427b5373897daad5b92b8bdbbbf7a2"
+    },
+    "display/isometric.svg": {
+      "bytes": 9226,
+      "sha256": "026509a20c69fda11971c3d60ce91a10233d469952fd048ded6f71a320fd8175"
+    },
+    "display/left.svg": {
+      "bytes": 6343,
+      "sha256": "e7e1266c5cfcb1b92feb7cf3dcf639f84256c2b49778baca9851bd7f27a3db75"
+    },
+    "display/right.svg": {
+      "bytes": 6336,
+      "sha256": "75f4cffbd704d18bb1fe68a1af7ce3f59031ef1d85c1a47cfc06cf19746a5562"
+    },
+    "display/top.svg": {
+      "bytes": 8283,
+      "sha256": "7a5e9ad26aefa94f8bd59ed4d39820db885721f017e90e70b3dc7bfc3281de6a"
+    },
+    "full/back.svg": {
+      "bytes": 144387,
+      "sha256": "c4f5f82ca2bc1b1829645359ceda80319c11caf048c062f333e84ac06de6900a"
+    },
+    "full/bottom.svg": {
+      "bytes": 223556,
+      "sha256": "15eb2cf7c74032fed4d009a5eb02c024e23b3f8d25bb476c49aeb3872d075e10"
+    },
+    "full/front.svg": {
+      "bytes": 148635,
+      "sha256": "733cddee473b6be940c057297926785e351e74f10b38b9fa3d1c916575253721"
+    },
+    "full/isometric.svg": {
+      "bytes": 144880,
+      "sha256": "05c7dcd95ef94d738f5c42f37738e397e2ce6d7d7f3b7c9b545da02eaabe960b"
+    },
+    "full/left.svg": {
+      "bytes": 146236,
+      "sha256": "2cddfca863b32907b086af3aca0f62821ffc2e88eb29086db49a6c9bd0a5abae"
+    },
+    "full/right.svg": {
+      "bytes": 146611,
+      "sha256": "a64291aac949ccbb23cbfdaab178f6aaac93ae463c61186481799bd9f21af842"
+    },
+    "full/top.svg": {
+      "bytes": 15714,
+      "sha256": "0bfafe3f7667b4454d8961e241e6e5e387fa494d343f6154f97d3562e62ba189"
+    },
+    "model.py": {
+      "bytes": 21683,
+      "sha256": "e2453773b89fea398d6789f8fc5d8a9241587c8576ef19ab3a0fe8bde838b110"
+    },
+    "model_display.glb": {
+      "bytes": 35356,
+      "sha256": "8e8a12ba328367acd915d4a47bffd78f370ab1c83e9e167d0610c25e9f5fc964"
+    },
+    "model_display.stl": {
+      "bytes": 91284,
+      "sha256": "2b1d31b135c3eb8724e6c294ea77cd9fe862982f305de4f912a1eae594091fbd"
+    },
+    "model_full.glb": {
+      "bytes": 1623396,
+      "sha256": "fda084cf461c75d9133601b067791e0ef3db6cc416b17db1390c5b077c8f53f4"
+    },
+    "model_full.stl": {
+      "bytes": 4502484,
+      "sha256": "708692610eb5d6ee42fbb465484f0a932bb5e8bb3b2d1281fb0cfe68c42ff9f6"
+    },
+    "parameters.json": {
+      "bytes": 8088,
+      "sha256": "e9ae3a48b7a4e752a328cc864368202dac1770b0522e15ed96e39c97ea48d7a8"
+    },
+    "render_high.png": {
+      "bytes": 3758650,
+      "sha256": "8f3373a88d8543b78d8c59d463cc140fac2589f4a3218ab94951db9ae9dbf42c"
+    },
+    "render_low.png": {
+      "bytes": 226132,
+      "sha256": "fad7ef096cb62feffbdd0b545a472fe63d04b7ca28190301bce82ae2ae180aec"
+    },
+    "render_product_high.png": {
+      "bytes": 3623512,
+      "sha256": "6a7bc3985e0c88c512224779af7258f75be05ee2d5b8aff3ab970fc06f6cbcbb"
+    },
+    "render_product_low.png": {
+      "bytes": 230252,
+      "sha256": "35c856a2547dd20612a78c8fadd5c357a3e9692932597cb66343500a3e7d12a1"
+    },
+    "render_scene.json": {
+      "bytes": 5061,
+      "sha256": "39bb2d503293cf528571a5f7348ee7e4584fbeb14906ccd6c2bf32f60a594203"
+    },
+    "requirements.txt": {
+      "bytes": 159,
+      "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
+    },
+    "studio.blend": {
+      "bytes": 2075671,
+      "sha256": "6a90abfd12cf59a523441f6e5b384d1edefc02ec11f26fc479ce3c157f0583ab"
+    }
+  },
+  "dimension_status": "supplier_dimensions",
+  "fingerprint": "08704354f5270a5f1e4f1cfacfcfbb4a862cbb0b39864935866d5441fd83559b",
+  "length_status": "supplier_length",
+  "models": {
+    "display": {
+      "bounds_mm": [
+        [
+          -3.75,
+          -3.75,
+          0.0
+        ],
+        [
+          3.75,
+          3.75,
+          12.0
+        ]
+      ],
+      "connected_solids": 1,
+      "triangles": 1824,
+      "vertices": 914,
+      "volume_mm3": 176.762914032151,
+      "watertight": true
+    },
+    "full": {
+      "bounds_mm": [
+        [
+          -3.75,
+          -3.75,
+          0.0
+        ],
+        [
+          3.75,
+          3.75,
+          12.0
+        ]
+      ],
+      "connected_solids": 1,
+      "triangles": 90048,
+      "vertices": 45026,
+      "volume_mm3": 154.10102958508855,
+      "watertight": true
+    }
+  },
+  "schema_version": 1,
+  "standard": "DIN 965 A"
+}
