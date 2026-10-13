@@ -14,7 +14,7 @@ def generate(**kwargs):
     extras_sizes["m1_4"] = [3, 5, 8, 10]
     extras_sizes["m1_7"] = [5, 8, 10, 12, 16]
     extras_sizes["m2"] = [5, 8, 12, 16, 20]
-    extras_sizes["m2_3"] = [5, 6, 8, 10, 12, 16, 20]
+    extras_sizes["m2_2"] = [5, 6, 8, 10, 12, 16, 20]
 
     for extra_size in extras_sizes:
         for extra_size2 in extras_sizes[extra_size]:

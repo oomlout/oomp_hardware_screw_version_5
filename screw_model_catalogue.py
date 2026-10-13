@@ -139,6 +139,21 @@ def attach_research(recipe, profile, diameter, length, drive, finish):
         recipe['identity_conflicts'] = conflicts
         recipe['missing_specification'].append('Reconcile the recorded catalogue identity conflicts with the selected supplier product.')
     recipe['note'] = research['note']
+    if research.get('use_comparative_supplier_table'):
+        table = research['known_specification']['comparative_supplier_table']
+        row = table['rows'].get(f'{diameter:g}')
+        if row:
+            dimensions = {key: value for key, value in zip(table['columns'], row) if value is not None}
+            recipe['parameters'].update(dimensions)
+            recipe['known_specification'].update(dimensions)
+    user_specification = research.get('user_specifications', {}).get(f'{diameter:g}')
+    if user_specification and 'pitch_mm' in user_specification:
+        recipe['parameters']['pitch_mm'] = user_specification['pitch_mm']
+        recipe['known_specification']['pitch_mm'] = user_specification['pitch_mm']
+        recipe['known_specification']['pitch_source'] = copy.deepcopy(user_specification)
+        recipe['missing_specification'] = [
+            'Tapping core diameter and flank/root profile' if 'tapping pitch/lead' in item else item
+            for item in recipe['missing_specification']]
 
 
 def sourced_recipe(style, drive, diameter, length, finish, standard, row, selection):

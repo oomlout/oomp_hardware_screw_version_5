@@ -50,6 +50,14 @@ def add_definition(part):
         drive_symbol_gap_mm=diameter*.6,
         variants={'threaded': 'diagram_threaded.svg', 'plain': 'diagram_plain.svg',
                   'solid': 'diagram_solid.svg'})
+    if style == 'self_tapping':
+        from screw_model_catalogue import definition
+        parameters = definition(part)['parameters']
+        for model_key, svg_key in [('pitch_mm', 'thread_pitch_mm'),
+                                   ('head_diameter_mm', 'head_diameter_mm'),
+                                   ('head_height_mm', 'head_height_mm')]:
+            if model_key in parameters:
+                part['svg_details'][svg_key] = parameters[model_key]
     return True
 
 
@@ -62,7 +70,7 @@ def profile_dimensions(settings):
         return 0, settings['length_mm']
     factors = {'socket_cap': 1, 'socket_cap_low_head': .6,
                'socket_cap_low_head_ultra': .3, 'button_head': .5}
-    head = diameter*factors.get(style, .6)
+    head = settings.get('head_height_mm', diameter*factors.get(style, .6))
     return head, settings['length_mm']+head
 
 

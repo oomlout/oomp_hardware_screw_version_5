@@ -29,7 +29,7 @@ bip_39_full_space: scale hybrid ethics razor double venture magnet believe mosqu
     ramp balcony trend
 bip_39_full_underscore: scale_hybrid_ethics_razor_double_venture_magnet_believe_mosquito_ramp_balcony_trend
 directory: parts/hardware_screw_self_tapping_philips_black_m2_diameter_12_mm_length
-generate_stl: true
+filter: hardware_screw_self_tapping_philips_black_*
 id: hardware_screw_self_tapping_philips_black_m2_diameter_12_mm_length
 id_no_class: hardware_screw_self_tapping_philips_black_m2_diameter_12_mm_length
 id_no_size: hardware_screw_self_tapping_philips_black_m2_diameter_12_mm_length
@@ -700,7 +700,8 @@ oomlout_ai_roboclick_2:
                 diameter_mm: 2.0
                 drive_style: philips
                 drive_symbol_gap_mm: 1.2
-                head_diameter_mm: 4.0
+                head_diameter_mm: 3.4
+                head_height_mm: 1.3
                 head_rim_mm: 0.15
                 length_mm: 12.0
                 screw_style: self_tapping
@@ -708,7 +709,7 @@ oomlout_ai_roboclick_2:
                 socket_width_mm: 1.3
                 stylesheet: project_bolt
                 svg_name: screw_diagrams
-                thread_pitch_mm: 0.8
+                thread_pitch_mm: 0.6
                 variants:
                     plain: diagram_plain.svg
                     solid: diagram_solid.svg
@@ -730,34 +731,193 @@ oomlout_ai_roboclick_2:
             taxonomy_9: ''
             three_d_model_details:
                 candidate_standards:
-                - supplier miniature tapping specification
+                - Exact miniature sheet-metal tapping supplier drawing
+                checked_on: '2026-10-13'
                 family: self_tapping
                 generation_status: needs_specification
                 generator: unresolved
+                implementation_requirements:
+                - A dedicated non-metric tapping profile and point builder after dimensions
+                    are confirmed.
+                known_specification:
+                    application: sheet metal (seller description)
+                    comparative_supplier_table:
+                        columns:
+                        - diameter_mm
+                        - pitch_mm
+                        - head_diameter_mm
+                        - head_height_mm
+                        length_convention: excludes_head
+                        limitations:
+                        - Null pitch means a dash in the diagram, not zero.
+                        - No 2.3 mm row; user explicitly corrected catalogue entries
+                            to 2.2 mm on 2026-10-13.
+                        - No core diameter/profile, point dimensions or numeric recess
+                            dimensions.
+                        - Diagram rows do not establish stock lengths or a match to
+                            the black-zinc screws.
+                        measurement_basis: Seller reports manual batch measurements
+                            with possible error.
+                        reference_material: A4/316 stainless steel
+                        rows:
+                            '1':
+                            - 1.0
+                            - null
+                            - 1.75
+                            - 0.65
+                            '1.2':
+                            - 1.2
+                            - null
+                            - 1.9
+                            - 0.6
+                            '1.4':
+                            - 1.4
+                            - 0.5
+                            - 2.3
+                            - 0.8
+                            '1.7':
+                            - 1.7
+                            - 0.5
+                            - 3.1
+                            - 1.0
+                            '2':
+                            - 2.0
+                            - 0.6
+                            - 3.4
+                            - 1.3
+                            '2.2':
+                            - 2.2
+                            - 0.8
+                            - 3.8
+                            - 1.5
+                            '2.6':
+                            - 2.6
+                            - 0.9
+                            - 4.2
+                            - 1.7
+                            '3':
+                            - 3.0
+                            - 1.1
+                            - 5.3
+                            - 1.9
+                            '3.5':
+                            - 3.5
+                            - 1.3
+                            - 6.4
+                            - 2.1
+                            '4':
+                            - 4.0
+                            - 1.3
+                            - 6.9
+                            - 2.3
+                            '4.2':
+                            - 4.2
+                            - 1.4
+                            - 7.8
+                            - 2.4
+                            '5':
+                            - 5.0
+                            - 1.6
+                            - 9.0
+                            - 2.8
+                            '6':
+                            - 6.0
+                            - 1.8
+                            - 11.9
+                            - 4.0
+                            '8':
+                            - 8.0
+                            - 2.1
+                            - 13.0
+                            - 5.0
+                        source: https://www.ebay.co.uk/itm/377271086738
+                        units: mm
+                    diameter_mm: 2.0
+                    drive_style: philips
+                    head_diameter_mm: 3.4
+                    head_height_mm: 1.3
+                    head_style: pan
+                    material: carbon steel
+                    pitch_mm: 0.6
+                    reference_finish: black zinc
                 missing_specification:
-                - actual tapping thread designation and pitch (not inferred from m
-                    label)
-                - head dimensions, core profile, point form and cross recess dimensions
-                note: No approximate solid is generated. Select a sourced dimension
-                    table in three_d_model_selection.
+                - Tapping core diameter and flank/root profile
+                - Point/taper, threaded length and recess dimensions
+                note: Head dimensions and pitches use the user-selected diagram plus
+                    explicit 0.3 mm pitch overrides for 1 and 1.2 mm. Black catalogue
+                    finish is retained. Core, point and recess geometry remain unspecified;
+                    no solid is generated yet.
                 output_folder: three_d_model
                 parameters:
                     diameter_mm: 2.0
                     drive_style: philips
                     finish: black
+                    head_diameter_mm: 3.4
+                    head_height_mm: 1.3
                     length_mm: 12.0
+                    pitch_mm: 0.6
                 priority: 10
+                research_notes:
+                - Supplier M labels are diameter labels, not proof of a metric machine
+                    thread.
+                - The alternative plastic screw dimensions are research leads, not
+                    selected geometry. At 1.4 mm the Japanese brochure lists Type
+                    P pitch 0.50 (or 0.61 special), B 0.45 and S 0.30.
+                - After the user-confirmed 2.3 to 2.2 mm correction, the diagram provides
+                    head dimensions for all 26 entries and pitches for 21. User-specified
+                    pitches complete the other five; all 26 remain pending core, point
+                    and recess geometry.
+                - User specified 0.3 mm pitch for the 1 and 1.2 mm catalogue diameters
+                    on 2026-10-13, resolving pitch for five further entries. Original
+                    table blanks are retained as a faithful transcription.
                 schema_version: 1
                 selection:
                     finish_identity: black_zinc
                     head_style: pan
-                    identity_note: User references checked 2026-10-11. eBay confirms
-                        Phillips pan head, black zinc carbon steel sheet-metal tapping
-                        screws; no pitch, core or head dimension table is supplied.
-                        Miniature sizes still need a drawing.
+                    identity_note: Original eBay reference identifies Phillips pan
+                        head, black zinc carbon steel sheet-metal tapping screws.
+                        User supplied the dimensional diagram on 2026-10-13, specified
+                        0.3 mm pitch for 1 and 1.2 mm, and corrected 2.3 mm entries
+                        to 2.2 mm. Use the selected head/pitch dimensions for visualization
+                        with black finish. Core, point and recess geometry remain
+                        unresolved.
                     reference_urls:
                     - https://www.ebay.co.uk/itm/383102775525
+                    - https://www.ebay.co.uk/itm/377271086738
+                    research_profile: miniature_self_tapping
                     supplier_url: https://www.aliexpress.com/item/1005004774076999.html
+                sources:
+                -   title: User reference eBay 383102775525
+                    url: https://www.ebay.co.uk/itm/383102775525
+                    use: Phillips pan head, black-zinc carbon steel sheet-metal tapping
+                        screws. M2 and M2.3 listed; no dimension table in seller text.
+                -   title: User reference AliExpress 1005004774076999
+                    url: https://www.aliexpress.com/item/1005004774076999.html
+                    use: Could not retrieve the product page during this research;
+                        no dimensions inferred.
+                -   title: Screw Express micro plastic screw 1.4 x 5
+                    url: https://www.screw-express.com/micro-screw-self-tapping-pan-head-phillips-steel/61840-530259-self-tapping-screw-linch-pin-plastic-pan-head-phillips-0-14x5-black-zinc-plated-micro-screw.html
+                    use: 'Alternative plastic-screw candidate only: 1.4 pitch 0.5,
+                        2 pitch 0.79, 2.3 pitch 0.91; not a verified match to the
+                        sheet-metal listing.'
+                -   title: Japanese Screws supplier brochure, printed pages 6-7
+                    url: https://prokcssmedia.blob.core.windows.net/sys-master-images/h22/hd6/9138373263390/JAP%20SCREWS%20Brochure.pdf
+                    use: Different triangular thread types P, B and S have different
+                        pitches at the same diameter; these cannot identify the pointed
+                        sheet-metal product.
+                -   attachment_note: User supplied s-l1600.webp as the dimensions
+                        for these screws. All 14 rows were visually checked against
+                        the existing transcription; values match, including blank
+                        1/1.2 mm pitches and no 2.3 mm row.
+                    image_url: https://i.ebayimg.com/images/g/DmcAAeSwUBppE~8Y/s-l500.webp
+                    local_reference: references/ebay_377271086738_dimensions_full.webp
+                    supplied_by_user_on: '2026-10-13'
+                    title: User reference eBay 377271086738, gallery image 6
+                    url: https://www.ebay.co.uk/itm/377271086738
+                    use: Pan-head tapping screw diameter, pitch and head dimensions.
+                        Seller labels these as manual batch measurements in mm; listing
+                        is A4/316 stainless steel, not the catalogue black-zinc product.
+                        Partial comparative reference only.
                 units: mm
             url_chat: https://chatgpt.com/c/6a0cad4f-a9a4-83eb-8f62-63e75a1b6701
         dict_data_files: {}
@@ -1465,7 +1625,8 @@ oomlout_ai_roboclick_3:
                             diameter_mm: 2.0
                             drive_style: philips
                             drive_symbol_gap_mm: 1.2
-                            head_diameter_mm: 4.0
+                            head_diameter_mm: 3.4
+                            head_height_mm: 1.3
                             head_rim_mm: 0.15
                             length_mm: 12.0
                             screw_style: self_tapping
@@ -1473,7 +1634,7 @@ oomlout_ai_roboclick_3:
                             socket_width_mm: 1.3
                             stylesheet: project_bolt
                             svg_name: screw_diagrams
-                            thread_pitch_mm: 0.8
+                            thread_pitch_mm: 0.6
                             variants:
                                 plain: diagram_plain.svg
                                 solid: diagram_solid.svg
@@ -1495,36 +1656,204 @@ oomlout_ai_roboclick_3:
                         taxonomy_9: ''
                         three_d_model_details:
                             candidate_standards:
-                            - supplier miniature tapping specification
+                            - Exact miniature sheet-metal tapping supplier drawing
+                            checked_on: '2026-10-13'
                             family: self_tapping
                             generation_status: needs_specification
                             generator: unresolved
+                            implementation_requirements:
+                            - A dedicated non-metric tapping profile and point builder
+                                after dimensions are confirmed.
+                            known_specification:
+                                application: sheet metal (seller description)
+                                comparative_supplier_table:
+                                    columns:
+                                    - diameter_mm
+                                    - pitch_mm
+                                    - head_diameter_mm
+                                    - head_height_mm
+                                    length_convention: excludes_head
+                                    limitations:
+                                    - Null pitch means a dash in the diagram, not
+                                        zero.
+                                    - No 2.3 mm row; user explicitly corrected catalogue
+                                        entries to 2.2 mm on 2026-10-13.
+                                    - No core diameter/profile, point dimensions or
+                                        numeric recess dimensions.
+                                    - Diagram rows do not establish stock lengths
+                                        or a match to the black-zinc screws.
+                                    measurement_basis: Seller reports manual batch
+                                        measurements with possible error.
+                                    reference_material: A4/316 stainless steel
+                                    rows:
+                                        '1':
+                                        - 1.0
+                                        - null
+                                        - 1.75
+                                        - 0.65
+                                        '1.2':
+                                        - 1.2
+                                        - null
+                                        - 1.9
+                                        - 0.6
+                                        '1.4':
+                                        - 1.4
+                                        - 0.5
+                                        - 2.3
+                                        - 0.8
+                                        '1.7':
+                                        - 1.7
+                                        - 0.5
+                                        - 3.1
+                                        - 1.0
+                                        '2':
+                                        - 2.0
+                                        - 0.6
+                                        - 3.4
+                                        - 1.3
+                                        '2.2':
+                                        - 2.2
+                                        - 0.8
+                                        - 3.8
+                                        - 1.5
+                                        '2.6':
+                                        - 2.6
+                                        - 0.9
+                                        - 4.2
+                                        - 1.7
+                                        '3':
+                                        - 3.0
+                                        - 1.1
+                                        - 5.3
+                                        - 1.9
+                                        '3.5':
+                                        - 3.5
+                                        - 1.3
+                                        - 6.4
+                                        - 2.1
+                                        '4':
+                                        - 4.0
+                                        - 1.3
+                                        - 6.9
+                                        - 2.3
+                                        '4.2':
+                                        - 4.2
+                                        - 1.4
+                                        - 7.8
+                                        - 2.4
+                                        '5':
+                                        - 5.0
+                                        - 1.6
+                                        - 9.0
+                                        - 2.8
+                                        '6':
+                                        - 6.0
+                                        - 1.8
+                                        - 11.9
+                                        - 4.0
+                                        '8':
+                                        - 8.0
+                                        - 2.1
+                                        - 13.0
+                                        - 5.0
+                                    source: https://www.ebay.co.uk/itm/377271086738
+                                    units: mm
+                                diameter_mm: 2.0
+                                drive_style: philips
+                                head_diameter_mm: 3.4
+                                head_height_mm: 1.3
+                                head_style: pan
+                                material: carbon steel
+                                pitch_mm: 0.6
+                                reference_finish: black zinc
                             missing_specification:
-                            - actual tapping thread designation and pitch (not inferred
-                                from m label)
-                            - head dimensions, core profile, point form and cross
-                                recess dimensions
-                            note: No approximate solid is generated. Select a sourced
-                                dimension table in three_d_model_selection.
+                            - Tapping core diameter and flank/root profile
+                            - Point/taper, threaded length and recess dimensions
+                            note: Head dimensions and pitches use the user-selected
+                                diagram plus explicit 0.3 mm pitch overrides for 1
+                                and 1.2 mm. Black catalogue finish is retained. Core,
+                                point and recess geometry remain unspecified; no solid
+                                is generated yet.
                             output_folder: three_d_model
                             parameters:
                                 diameter_mm: 2.0
                                 drive_style: philips
                                 finish: black
+                                head_diameter_mm: 3.4
+                                head_height_mm: 1.3
                                 length_mm: 12.0
+                                pitch_mm: 0.6
                             priority: 10
+                            research_notes:
+                            - Supplier M labels are diameter labels, not proof of
+                                a metric machine thread.
+                            - The alternative plastic screw dimensions are research
+                                leads, not selected geometry. At 1.4 mm the Japanese
+                                brochure lists Type P pitch 0.50 (or 0.61 special),
+                                B 0.45 and S 0.30.
+                            - After the user-confirmed 2.3 to 2.2 mm correction, the
+                                diagram provides head dimensions for all 26 entries
+                                and pitches for 21. User-specified pitches complete
+                                the other five; all 26 remain pending core, point
+                                and recess geometry.
+                            - User specified 0.3 mm pitch for the 1 and 1.2 mm catalogue
+                                diameters on 2026-10-13, resolving pitch for five
+                                further entries. Original table blanks are retained
+                                as a faithful transcription.
                             schema_version: 1
                             selection:
                                 finish_identity: black_zinc
                                 head_style: pan
-                                identity_note: User references checked 2026-10-11.
-                                    eBay confirms Phillips pan head, black zinc carbon
-                                    steel sheet-metal tapping screws; no pitch, core
-                                    or head dimension table is supplied. Miniature
-                                    sizes still need a drawing.
+                                identity_note: Original eBay reference identifies
+                                    Phillips pan head, black zinc carbon steel sheet-metal
+                                    tapping screws. User supplied the dimensional
+                                    diagram on 2026-10-13, specified 0.3 mm pitch
+                                    for 1 and 1.2 mm, and corrected 2.3 mm entries
+                                    to 2.2 mm. Use the selected head/pitch dimensions
+                                    for visualization with black finish. Core, point
+                                    and recess geometry remain unresolved.
                                 reference_urls:
                                 - https://www.ebay.co.uk/itm/383102775525
+                                - https://www.ebay.co.uk/itm/377271086738
+                                research_profile: miniature_self_tapping
                                 supplier_url: https://www.aliexpress.com/item/1005004774076999.html
+                            sources:
+                            -   title: User reference eBay 383102775525
+                                url: https://www.ebay.co.uk/itm/383102775525
+                                use: Phillips pan head, black-zinc carbon steel sheet-metal
+                                    tapping screws. M2 and M2.3 listed; no dimension
+                                    table in seller text.
+                            -   title: User reference AliExpress 1005004774076999
+                                url: https://www.aliexpress.com/item/1005004774076999.html
+                                use: Could not retrieve the product page during this
+                                    research; no dimensions inferred.
+                            -   title: Screw Express micro plastic screw 1.4 x 5
+                                url: https://www.screw-express.com/micro-screw-self-tapping-pan-head-phillips-steel/61840-530259-self-tapping-screw-linch-pin-plastic-pan-head-phillips-0-14x5-black-zinc-plated-micro-screw.html
+                                use: 'Alternative plastic-screw candidate only: 1.4
+                                    pitch 0.5, 2 pitch 0.79, 2.3 pitch 0.91; not a
+                                    verified match to the sheet-metal listing.'
+                            -   title: Japanese Screws supplier brochure, printed
+                                    pages 6-7
+                                url: https://prokcssmedia.blob.core.windows.net/sys-master-images/h22/hd6/9138373263390/JAP%20SCREWS%20Brochure.pdf
+                                use: Different triangular thread types P, B and S
+                                    have different pitches at the same diameter; these
+                                    cannot identify the pointed sheet-metal product.
+                            -   attachment_note: User supplied s-l1600.webp as the
+                                    dimensions for these screws. All 14 rows were
+                                    visually checked against the existing transcription;
+                                    values match, including blank 1/1.2 mm pitches
+                                    and no 2.3 mm row.
+                                image_url: https://i.ebayimg.com/images/g/DmcAAeSwUBppE~8Y/s-l500.webp
+                                local_reference: references/ebay_377271086738_dimensions_full.webp
+                                supplied_by_user_on: '2026-10-13'
+                                title: User reference eBay 377271086738, gallery image
+                                    6
+                                url: https://www.ebay.co.uk/itm/377271086738
+                                use: Pan-head tapping screw diameter, pitch and head
+                                    dimensions. Seller labels these as manual batch
+                                    measurements in mm; listing is A4/316 stainless
+                                    steel, not the catalogue black-zinc product. Partial
+                                    comparative reference only.
                             units: mm
                         url_chat: https://chatgpt.com/c/6a0cad4f-a9a4-83eb-8f62-63e75a1b6701
                     dict_data_files: {}
@@ -1538,7 +1867,8 @@ oomlout_ai_roboclick_3:
                 diameter_mm: 2.0
                 drive_style: philips
                 drive_symbol_gap_mm: 1.2
-                head_diameter_mm: 4.0
+                head_diameter_mm: 3.4
+                head_height_mm: 1.3
                 head_rim_mm: 0.15
                 length_mm: 12.0
                 screw_style: self_tapping
@@ -1546,7 +1876,7 @@ oomlout_ai_roboclick_3:
                 socket_width_mm: 1.3
                 stylesheet: project_bolt
                 svg_name: screw_diagrams
-                thread_pitch_mm: 0.8
+                thread_pitch_mm: 0.6
                 variants:
                     plain: diagram_plain.svg
                     solid: diagram_solid.svg
@@ -1568,34 +1898,193 @@ oomlout_ai_roboclick_3:
             taxonomy_9: ''
             three_d_model_details:
                 candidate_standards:
-                - supplier miniature tapping specification
+                - Exact miniature sheet-metal tapping supplier drawing
+                checked_on: '2026-10-13'
                 family: self_tapping
                 generation_status: needs_specification
                 generator: unresolved
+                implementation_requirements:
+                - A dedicated non-metric tapping profile and point builder after dimensions
+                    are confirmed.
+                known_specification:
+                    application: sheet metal (seller description)
+                    comparative_supplier_table:
+                        columns:
+                        - diameter_mm
+                        - pitch_mm
+                        - head_diameter_mm
+                        - head_height_mm
+                        length_convention: excludes_head
+                        limitations:
+                        - Null pitch means a dash in the diagram, not zero.
+                        - No 2.3 mm row; user explicitly corrected catalogue entries
+                            to 2.2 mm on 2026-10-13.
+                        - No core diameter/profile, point dimensions or numeric recess
+                            dimensions.
+                        - Diagram rows do not establish stock lengths or a match to
+                            the black-zinc screws.
+                        measurement_basis: Seller reports manual batch measurements
+                            with possible error.
+                        reference_material: A4/316 stainless steel
+                        rows:
+                            '1':
+                            - 1.0
+                            - null
+                            - 1.75
+                            - 0.65
+                            '1.2':
+                            - 1.2
+                            - null
+                            - 1.9
+                            - 0.6
+                            '1.4':
+                            - 1.4
+                            - 0.5
+                            - 2.3
+                            - 0.8
+                            '1.7':
+                            - 1.7
+                            - 0.5
+                            - 3.1
+                            - 1.0
+                            '2':
+                            - 2.0
+                            - 0.6
+                            - 3.4
+                            - 1.3
+                            '2.2':
+                            - 2.2
+                            - 0.8
+                            - 3.8
+                            - 1.5
+                            '2.6':
+                            - 2.6
+                            - 0.9
+                            - 4.2
+                            - 1.7
+                            '3':
+                            - 3.0
+                            - 1.1
+                            - 5.3
+                            - 1.9
+                            '3.5':
+                            - 3.5
+                            - 1.3
+                            - 6.4
+                            - 2.1
+                            '4':
+                            - 4.0
+                            - 1.3
+                            - 6.9
+                            - 2.3
+                            '4.2':
+                            - 4.2
+                            - 1.4
+                            - 7.8
+                            - 2.4
+                            '5':
+                            - 5.0
+                            - 1.6
+                            - 9.0
+                            - 2.8
+                            '6':
+                            - 6.0
+                            - 1.8
+                            - 11.9
+                            - 4.0
+                            '8':
+                            - 8.0
+                            - 2.1
+                            - 13.0
+                            - 5.0
+                        source: https://www.ebay.co.uk/itm/377271086738
+                        units: mm
+                    diameter_mm: 2.0
+                    drive_style: philips
+                    head_diameter_mm: 3.4
+                    head_height_mm: 1.3
+                    head_style: pan
+                    material: carbon steel
+                    pitch_mm: 0.6
+                    reference_finish: black zinc
                 missing_specification:
-                - actual tapping thread designation and pitch (not inferred from m
-                    label)
-                - head dimensions, core profile, point form and cross recess dimensions
-                note: No approximate solid is generated. Select a sourced dimension
-                    table in three_d_model_selection.
+                - Tapping core diameter and flank/root profile
+                - Point/taper, threaded length and recess dimensions
+                note: Head dimensions and pitches use the user-selected diagram plus
+                    explicit 0.3 mm pitch overrides for 1 and 1.2 mm. Black catalogue
+                    finish is retained. Core, point and recess geometry remain unspecified;
+                    no solid is generated yet.
                 output_folder: three_d_model
                 parameters:
                     diameter_mm: 2.0
                     drive_style: philips
                     finish: black
+                    head_diameter_mm: 3.4
+                    head_height_mm: 1.3
                     length_mm: 12.0
+                    pitch_mm: 0.6
                 priority: 10
+                research_notes:
+                - Supplier M labels are diameter labels, not proof of a metric machine
+                    thread.
+                - The alternative plastic screw dimensions are research leads, not
+                    selected geometry. At 1.4 mm the Japanese brochure lists Type
+                    P pitch 0.50 (or 0.61 special), B 0.45 and S 0.30.
+                - After the user-confirmed 2.3 to 2.2 mm correction, the diagram provides
+                    head dimensions for all 26 entries and pitches for 21. User-specified
+                    pitches complete the other five; all 26 remain pending core, point
+                    and recess geometry.
+                - User specified 0.3 mm pitch for the 1 and 1.2 mm catalogue diameters
+                    on 2026-10-13, resolving pitch for five further entries. Original
+                    table blanks are retained as a faithful transcription.
                 schema_version: 1
                 selection:
                     finish_identity: black_zinc
                     head_style: pan
-                    identity_note: User references checked 2026-10-11. eBay confirms
-                        Phillips pan head, black zinc carbon steel sheet-metal tapping
-                        screws; no pitch, core or head dimension table is supplied.
-                        Miniature sizes still need a drawing.
+                    identity_note: Original eBay reference identifies Phillips pan
+                        head, black zinc carbon steel sheet-metal tapping screws.
+                        User supplied the dimensional diagram on 2026-10-13, specified
+                        0.3 mm pitch for 1 and 1.2 mm, and corrected 2.3 mm entries
+                        to 2.2 mm. Use the selected head/pitch dimensions for visualization
+                        with black finish. Core, point and recess geometry remain
+                        unresolved.
                     reference_urls:
                     - https://www.ebay.co.uk/itm/383102775525
+                    - https://www.ebay.co.uk/itm/377271086738
+                    research_profile: miniature_self_tapping
                     supplier_url: https://www.aliexpress.com/item/1005004774076999.html
+                sources:
+                -   title: User reference eBay 383102775525
+                    url: https://www.ebay.co.uk/itm/383102775525
+                    use: Phillips pan head, black-zinc carbon steel sheet-metal tapping
+                        screws. M2 and M2.3 listed; no dimension table in seller text.
+                -   title: User reference AliExpress 1005004774076999
+                    url: https://www.aliexpress.com/item/1005004774076999.html
+                    use: Could not retrieve the product page during this research;
+                        no dimensions inferred.
+                -   title: Screw Express micro plastic screw 1.4 x 5
+                    url: https://www.screw-express.com/micro-screw-self-tapping-pan-head-phillips-steel/61840-530259-self-tapping-screw-linch-pin-plastic-pan-head-phillips-0-14x5-black-zinc-plated-micro-screw.html
+                    use: 'Alternative plastic-screw candidate only: 1.4 pitch 0.5,
+                        2 pitch 0.79, 2.3 pitch 0.91; not a verified match to the
+                        sheet-metal listing.'
+                -   title: Japanese Screws supplier brochure, printed pages 6-7
+                    url: https://prokcssmedia.blob.core.windows.net/sys-master-images/h22/hd6/9138373263390/JAP%20SCREWS%20Brochure.pdf
+                    use: Different triangular thread types P, B and S have different
+                        pitches at the same diameter; these cannot identify the pointed
+                        sheet-metal product.
+                -   attachment_note: User supplied s-l1600.webp as the dimensions
+                        for these screws. All 14 rows were visually checked against
+                        the existing transcription; values match, including blank
+                        1/1.2 mm pitches and no 2.3 mm row.
+                    image_url: https://i.ebayimg.com/images/g/DmcAAeSwUBppE~8Y/s-l500.webp
+                    local_reference: references/ebay_377271086738_dimensions_full.webp
+                    supplied_by_user_on: '2026-10-13'
+                    title: User reference eBay 377271086738, gallery image 6
+                    url: https://www.ebay.co.uk/itm/377271086738
+                    use: Pan-head tapping screw diameter, pitch and head dimensions.
+                        Seller labels these as manual batch measurements in mm; listing
+                        is A4/316 stainless steel, not the catalogue black-zinc product.
+                        Partial comparative reference only.
                 units: mm
             url_chat: https://chatgpt.com/c/6a0cad4f-a9a4-83eb-8f62-63e75a1b6701
         dict_data_files: {}
@@ -1617,15 +2106,15 @@ oomlout_ai_roboclick_4:
         file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
     file_test: ''
 oomp_key: oomp_hardware_screw_self_tapping_philips_black_m2_diameter_12_mm_length
-run_action: true
-run_oomp: true
-run_oomp_populate: true
-run_scad: true
+prepare_only: true
+run_action: false
+run_scad: false
 svg_details:
     diameter_mm: 2.0
     drive_style: philips
     drive_symbol_gap_mm: 1.2
-    head_diameter_mm: 4.0
+    head_diameter_mm: 3.4
+    head_height_mm: 1.3
     head_rim_mm: 0.15
     length_mm: 12.0
     screw_style: self_tapping
@@ -1633,7 +2122,7 @@ svg_details:
     socket_width_mm: 1.3
     stylesheet: project_bolt
     svg_name: screw_diagrams
-    thread_pitch_mm: 0.8
+    thread_pitch_mm: 0.6
     variants:
         plain: diagram_plain.svg
         solid: diagram_solid.svg
@@ -1764,12 +2253,14 @@ three_d_model_details:
     length_mm: 12.0
     finish: black
     drive_style: philips
+    pitch_mm: 0.6
+    head_diameter_mm: 3.4
+    head_height_mm: 1.3
   candidate_standards:
   - Exact miniature sheet-metal tapping supplier drawing
   missing_specification:
-  - Exact supplier drawing for each diameter, including tapping pitch/lead and core
-    profile
-  - Head diameter/height, point/taper, threaded length and recess dimensions
+  - Tapping core diameter and flank/root profile
+  - Point/taper, threaded length and recess dimensions
   selection:
     research_profile: miniature_self_tapping
     supplier_url: https://www.aliexpress.com/item/1005004774076999.html
@@ -1779,13 +2270,13 @@ three_d_model_details:
     head_style: pan
     finish_identity: black_zinc
     identity_note: Original eBay reference identifies Phillips pan head, black zinc
-      carbon steel sheet-metal tapping screws. User supplied eBay 377271086738 on
-      2026-10-13; its stainless-steel diagram supplies partial comparative head/pitch
-      dimensions, retained in research. Core, point and recess dimensions and applicability
-      to the catalogue product remain unresolved.
-  note: Seller identity is retained. The new stainless-steel diagram is preserved
-    as partial comparative evidence, separately from CAD inputs; missing pitches,
-    core, point and recess dimensions have not been guessed.
+      carbon steel sheet-metal tapping screws. User supplied the dimensional diagram
+      on 2026-10-13, specified 0.3 mm pitch for 1 and 1.2 mm, and corrected 2.3 mm
+      entries to 2.2 mm. Use the selected head/pitch dimensions for visualization
+      with black finish. Core, point and recess geometry remain unresolved.
+  note: Head dimensions and pitches use the user-selected diagram plus explicit 0.3
+    mm pitch overrides for 1 and 1.2 mm. Black catalogue finish is retained. Core,
+    point and recess geometry remain unspecified; no solid is generated yet.
   checked_on: '2026-10-13'
   sources:
   - title: User reference eBay 383102775525
@@ -1806,7 +2297,11 @@ three_d_model_details:
   - title: User reference eBay 377271086738, gallery image 6
     url: https://www.ebay.co.uk/itm/377271086738
     image_url: https://i.ebayimg.com/images/g/DmcAAeSwUBppE~8Y/s-l500.webp
-    local_reference: references/ebay_377271086738_dimensions.webp
+    local_reference: references/ebay_377271086738_dimensions_full.webp
+    supplied_by_user_on: '2026-10-13'
+    attachment_note: User supplied s-l1600.webp as the dimensions for these screws.
+      All 14 rows were visually checked against the existing transcription; values
+      match, including blank 1/1.2 mm pitches and no 2.3 mm row.
     use: Pan-head tapping screw diameter, pitch and head dimensions. Seller labels
       these as manual batch measurements in mm; listing is A4/316 stainless steel,
       not the catalogue black-zinc product. Partial comparative reference only.
@@ -1900,17 +2395,24 @@ three_d_model_details:
         - 5.0
       limitations:
       - Null pitch means a dash in the diagram, not zero.
-      - No 2.3 mm row; the 2.2 mm row must not be substituted silently.
+      - No 2.3 mm row; user explicitly corrected catalogue entries to 2.2 mm on 2026-10-13.
       - No core diameter/profile, point dimensions or numeric recess dimensions.
       - Diagram rows do not establish stock lengths or a match to the black-zinc screws.
+    diameter_mm: 2.0
+    pitch_mm: 0.6
+    head_diameter_mm: 3.4
+    head_height_mm: 1.3
   research_notes:
   - Supplier M labels are diameter labels, not proof of a metric machine thread.
   - The alternative plastic screw dimensions are research leads, not selected geometry.
     At 1.4 mm the Japanese brochure lists Type P pitch 0.50 (or 0.61 special), B 0.45
     and S 0.30.
-  - The 2026-10-13 user-supplied eBay diagram provides comparative head dimensions
-    for 19 catalogue entries and pitches for 14. All 26 remain pending complete geometry
-    and confirmation of applicability to the catalogue product.
+  - After the user-confirmed 2.3 to 2.2 mm correction, the diagram provides head dimensions
+    for all 26 entries and pitches for 21. User-specified pitches complete the other
+    five; all 26 remain pending core, point and recess geometry.
+  - User specified 0.3 mm pitch for the 1 and 1.2 mm catalogue diameters on 2026-10-13,
+    resolving pitch for five further entries. Original table blanks are retained as
+    a faithful transcription.
   implementation_requirements:
   - A dedicated non-metric tapping profile and point builder after dimensions are
     confirmed.
