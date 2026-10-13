@@ -327,6 +327,12 @@ profiles:
             - 76.5
   miniature_self_tapping:
     checked_on: '2026-10-13'
+    visualization_resolution:
+      standard_file: self_tapping_visualization.yaml
+      authorized_on: '2026-10-13'
+      status: ready_with_documented_visual_estimates
+      scope: User confirms full thread to the head and authorizes image-based
+        core, thread-profile and point estimates and a reasonable Phillips recess.
     use_comparative_supplier_table: true
     selection_note: User supplied this diagram as the screw dimensions, specified
       0.3 mm pitch for 1 and 1.2 mm, and confirmed changing the seven 2.3 mm entries
@@ -396,8 +402,8 @@ profiles:
     candidate_standards:
     - Exact miniature sheet-metal tapping supplier drawing
     implementation_requirements:
-    - A dedicated non-metric tapping profile and point builder after dimensions are
-      confirmed.
+    - Implemented by the self_tapping_visualization profile; measured geometry
+      gaps below are filled by explicit user-authorized visual estimates.
     notes:
     - Supplier M labels are diameter labels, not proof of a metric machine thread.
     - The alternative plastic screw dimensions are research leads, not selected geometry.
@@ -405,13 +411,15 @@ profiles:
       0.45 and S 0.30.
     - After the user-confirmed 2.3 to 2.2 mm correction, the diagram provides head
       dimensions for all 26 entries and pitches for 21. User-specified pitches
-      complete the other five; all 26 remain pending core, point and recess geometry.
+      complete the other five. Core, point and recess measurements remain unknown,
+      but user-authorized visual estimates now complete all 26 models.
     - User specified 0.3 mm pitch for the 1 and 1.2 mm catalogue diameters on
       2026-10-13, resolving pitch for five further entries. Original table blanks
       are retained as a faithful transcription.
     note: Head dimensions and pitches use the user-selected diagram plus explicit
       0.3 mm pitch overrides for 1 and 1.2 mm. Black catalogue finish is retained.
-      Core, point and recess geometry remain unspecified; no solid is generated yet.
+      Core, point and recess geometry use the user-authorized estimates in
+      self_tapping_visualization.yaml. The original evidence remains separate.
   miniature_m1_5:
     status: retired_catalogue_size
     retirement_note: User corrected these entries to the existing M1.6 range on

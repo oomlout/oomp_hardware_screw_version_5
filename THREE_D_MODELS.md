@@ -19,10 +19,10 @@ the product studio. Source inspection dates: 2026-10-11 through 2026-10-13.
 | 7 | machine_screw | 72 | Pan head DIN 7985 A, confirmed by user | Ready |
 | 8 | socket_cap_low_head_ultra | 92 | DIN 7984, confirmed by user | Ready; same profile as low head |
 | 9 | wood | 30 | Screwfix Screw-Tite codes and Net-Coat Yellow-Plated finish; HSB/Motu geometry | Ready as labelled visualization proxies |
-| 10 | self_tapping | 26 | Supplier Phillips pan head, black zinc carbon steel | Needs dimensions |
+| 10 | self_tapping | 26 | Supplied head/pitch dimensions; user-authorized core, point and recess estimates | Ready as labelled visual approximations |
 | Excluded | thread_forming | 3 | User requested skipping this family | Excluded |
 
-Totals: **804 ready, 26 needing specification, 3 explicitly excluded** (833 parts). A ready
+Totals: **830 ready, 0 needing specification, 3 explicitly excluded** (833 parts). A ready
 recipe describes sourced nominal visualization geometry, not manufacturing
 certification or proof that a catalogue item was manufactured to the standard.
 Unlisted catalogue lengths remain drawable but carry `catalogue_length_extension`.
@@ -219,7 +219,7 @@ obsolete M1.5 entries were removed without duplicating the M1.6 range. These use
 the sourced M1.6 DIN 965 supplier dimensions. To rebuild their models and renders,
 run `action_make_countersunk_m1_6_three_d_model.bat` (forces just these six parts).
 
-The unresolved 26 entries are:
+The 26 previously unresolved self-tappers are now ready as visual approximations:
 
 - 26 miniature self-tappers: the user's references are
   [AliExpress 1005004774076999](https://www.aliexpress.com/item/1005004774076999.html)
@@ -231,9 +231,9 @@ The unresolved 26 entries are:
   table. AliExpress could not be retrieved on 2026-10-12. Its M labels are supplier diameter labels, not evidence of ISO metric threads.
   Miniature tapping pitches must not be replaced with metric machine-screw pitch.
 
-Each unresolved part has `generation_status: needs_specification`, the precise missing inputs
-and the supplier reference in `specification_request.json`. These entries will not
-export guessed solids. The 3 thread-forming entries are `excluded` by user choice.
+All 26 now use `generation_status: ready` and `dimension_status: image_based_visualization`.
+Each prepared model records the supplied values and estimated features in
+`parameters.json` and its README. The 3 thread-forming entries remain `excluded` by user choice.
 
 On 2026-10-13, the user supplied [eBay 377271086738](https://www.ebay.co.uk/itm/377271086738).
 Gallery image 6 gives comparative head diameter/height for 1, 1.2, 1.4, 1.7 and
@@ -242,19 +242,26 @@ The 1/1.2 mm pitches are blank and there is no 2.3 mm row. The table is transcri
 in `specification_research.yaml`, with the diagram retained in `references`.
 The seller describes manual batch measurements for an A4/316 stainless product;
 applicability to the catalogue black-zinc screws is not established. Core, point
-and recess dimensions remain absent, so all 26 self-tappers still need specification.
+and recess dimensions are not measured; the user subsequently authorized visual estimates.
 
 The user subsequently specified **0.3 mm pitch for both 1 and 1.2 mm screws** on
 2026-10-13. This is applied to all five affected recipes and retained separately
-from the original supplier-table blanks. Their pitch is resolved; remaining
-geometry gaps still keep these recipes pending.
+from the original supplier-table blanks.
 
 The user also corrected all seven 2.3 mm self-tappers to **2.2 mm**, at lengths
 5, 6, 8, 10, 12, 16 and 20 mm. Their selected diagram row gives 0.8 mm pitch,
 3.8 mm head diameter and 1.5 mm head height. All 26 self-tappers now have selected
 head dimensions and pitch; these feed the part recipes and schematic SVGs.
-Core/profile, point, thread coverage and recess geometry still need definition
-before 3D models and renders can be generated.
+The user confirmed full thread to the head and authorized educated visual estimates
+for the remaining features. `self_tapping_visualization.yaml` defines a 0.65d core,
+60 degree sharp thread flanks with 0.02P crest land, a one-diameter tapered point,
+and a Phillips recess 0.52 head diameters wide and 0.60 head heights deep. A short
+0.12P blend meets the tiny head fillet without a plain neck. All lengths retain full
+thread coverage. These choices are editable and do not claim manufacturing conformity.
+
+Run `action_make_self_tapping_three_d_model.bat` to build all 26 models, isometric
+and product renders, SVG views and Blender studios. Preparation and mesh tests do
+not launch Blender. Existing finished assets are reused; add `--force` to rebuild.
 
 ### Wood screws: modern chipboard/plywood style (2026-10-13)
 
@@ -340,7 +347,7 @@ It processes only the 61 wood entries and uses one worker by default. Completed
 sample renders are retained. Use `--jobs 2` for two workers or `--force` to replace
 existing renders deliberately. `action_make_three_d_model.bat` processes the
 whole catalogue, including all 61 wood screws; the separate wood batch is optional.
-The 26 miniature self-tapping entries remain pending.
+The 26 miniature self-tapping entries are ready using user-authorized visual estimates.
 
 ### Screw-Tite reference reconciliation (2026-10-12)
 
@@ -377,9 +384,9 @@ are retained rather than corrected by guesswork.
 For the miniature self-tappers, the Screw Express plastic-screw table and Japanese
 Screws P/B/S profiles provide research leads, but do not identify the pointed
 sheet-metal screws in the user's listing. Their pitches must not be copied into
-the current parts without a product match. Pending recipes and their READMEs now
-include verified facts, exact remaining gaps, sources, catalogue conflicts and
-separate geometry implementation requirements.
+the current parts without a product match. The selected pitches instead use the
+user-supplied diagram and explicit 0.3 mm overrides. The ready model recipes and
+READMEs distinguish these dimensions from the authorized visual estimates.
 
 ## Add compatible models in another repository
 

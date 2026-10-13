@@ -3,8 +3,7 @@
   "filter": "*",
   "total": 833,
   "counts": {
-    "ready": 804,
-    "needs_specification": 26,
+    "ready": 830,
     "excluded": 3
   },
   "validation": "parameters_checked",
@@ -8857,418 +8856,288 @@
     {
       "part": "hardware_screw_self_tapping_philips_black_m1_2_diameter_3_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m1_2_diameter_5_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m1_2_diameter_8_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m1_4_diameter_10_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m1_4_diameter_3_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m1_4_diameter_5_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m1_4_diameter_8_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m1_7_diameter_10_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m1_7_diameter_12_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m1_7_diameter_5_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m1_7_diameter_8_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m1_diameter_3_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m1_diameter_5_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m2_2_diameter_10_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m2_2_diameter_12_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m2_2_diameter_16_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m2_2_diameter_20_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m2_2_diameter_5_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m2_2_diameter_6_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m2_2_diameter_8_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m2_diameter_12_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m2_diameter_16_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m2_diameter_20_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m2_diameter_5_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_self_tapping_philips_black_m2_diameter_8_mm_length",
       "family": "self_tapping",
-      "status": "needs_specification",
+      "status": "ready",
       "priority": 10,
-      "standard": null,
-      "dimension_status": null,
-      "length_status": null,
-      "missing_specification": [
-        "Tapping core diameter and flank/root profile",
-        "Point/taper, threaded length and recess dimensions"
-      ],
-      "implementation_requirements": [
-        "A dedicated non-metric tapping profile and point builder after dimensions are confirmed."
-      ]
+      "standard": "User-selected miniature self-tapping visualization",
+      "dimension_status": "image_based_visualization",
+      "length_status": "catalogue_length_extension",
+      "missing_specification": [],
+      "parameter_check": "passed"
     },
     {
       "part": "hardware_screw_thread_forming_philips_black_m2_3_diameter_6_mm_length",

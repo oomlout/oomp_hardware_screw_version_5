@@ -1,33 +1,21 @@
-This catalogue entry is needs_specification.
+User-authorized image-based self-tapping visualization. Head dimensions and pitch are specified; core, point, crown and recess are documented visual estimates.
 
-Head dimensions and pitches use the user-selected diagram plus explicit 0.3 mm pitch overrides for 1 and 1.2 mm. Black catalogue finish is retained. Core, point and recess geometry remain unspecified; no solid is generated yet.
+Dimensions and assumptions:
 
-Verified reference information (not model inputs):
-
-- head_style: pan
-- drive_style: philips
-- reference_finish: black zinc
-- material: carbon steel
-- application: sheet metal (seller description)
-- comparative_supplier_table: {'source': 'https://www.ebay.co.uk/itm/377271086738', 'units': 'mm', 'length_convention': 'excludes_head', 'reference_material': 'A4/316 stainless steel', 'measurement_basis': 'Seller reports manual batch measurements with possible error.', 'columns': ['diameter_mm', 'pitch_mm', 'head_diameter_mm', 'head_height_mm'], 'rows': {'1': [1.0, None, 1.75, 0.65], '1.2': [1.2, None, 1.9, 0.6], '1.4': [1.4, 0.5, 2.3, 0.8], '1.7': [1.7, 0.5, 3.1, 1.0], '2': [2.0, 0.6, 3.4, 1.3], '2.2': [2.2, 0.8, 3.8, 1.5], '2.6': [2.6, 0.9, 4.2, 1.7], '3': [3.0, 1.1, 5.3, 1.9], '3.5': [3.5, 1.3, 6.4, 2.1], '4': [4.0, 1.3, 6.9, 2.3], '4.2': [4.2, 1.4, 7.8, 2.4], '5': [5.0, 1.6, 9.0, 2.8], '6': [6.0, 1.8, 11.9, 4.0], '8': [8.0, 2.1, 13.0, 5.0]}, 'limitations': ['Null pitch means a dash in the diagram, not zero.', 'No 2.3 mm row; user explicitly corrected catalogue entries to 2.2 mm on 2026-10-13.', 'No core diameter/profile, point dimensions or numeric recess dimensions.', 'Diagram rows do not establish stock lengths or a match to the black-zinc screws.']}
-- diameter_mm: 2.2
-- pitch_mm: 0.8
-- head_diameter_mm: 3.8
-- head_height_mm: 1.5
-
-Still required:
-
-- Tapping core diameter and flank/root profile
-- Point/taper, threaded length and recess dimensions
-
-Geometry implementation required:
-
-- A dedicated non-metric tapping profile and point builder after dimensions are confirmed.
+- catalogue_length: Unlisted lengths use the sourced size profile at the catalogue length and are explicitly marked as extensions.
+- certification: Visualization only; estimated features are not manufacturing dimensions.
+- dimensions: Use the supplied head dimensions and pitches; 1 and 1.2 mm use the user's explicit 0.3 mm pitch. All lengths are measured beneath the head.
+- display: Smooth pointed nominal thread envelope with the same recessed pan head.
+- head: Estimated spherical crown uses up to 55% of head height, with a cylindrical skirt and a small 35%-head-diameter crown land to preserve the specified height around the recess.
+- identity: User-authorized visual approximation of the supplied pan-head self-tapper; black catalogue finish retained. No DIN, ISO or manufacturer conformity claimed.
+- markings: Unidentified manufacturer and property-class stamps omitted.
+- recess: Estimated Phillips cross spans 52% of head diameter and penetrates 60% of head height; wing/core widths 16%/18% of head diameter, tapered walls and floor.
+- runout: A short 0.12P blend joins the thread to a 0.015d head fillet; no plain shank.
+- thread: Single-start right-hand helix, estimated core 0.65d, 60 degree flanks, and narrow 0.02P crest land. Core and profile are visual estimates, not metric threads.
+- thread_coverage: Full thread to the head, with no smooth neck or length-dependent partial thread.
+- tip: Estimated conical point one diameter long, capped at 60% of available shaft for unusually short edits. Thread and core taper together; no cutting flutes.
 
 Sources:
 
-- [User reference eBay 383102775525](https://www.ebay.co.uk/itm/383102775525)
-- [User reference AliExpress 1005004774076999](https://www.aliexpress.com/item/1005004774076999.html)
-- [Screw Express micro plastic screw 1.4 x 5](https://www.screw-express.com/micro-screw-self-tapping-pan-head-phillips-steel/61840-530259-self-tapping-screw-linch-pin-plastic-pan-head-phillips-0-14x5-black-zinc-plated-micro-screw.html)
-- [Japanese Screws supplier brochure, printed pages 6-7](https://prokcssmedia.blob.core.windows.net/sys-master-images/h22/hd6/9138373263390/JAP%20SCREWS%20Brochure.pdf)
-- [User reference eBay 377271086738, gallery image 6](https://www.ebay.co.uk/itm/377271086738)
+- [User-supplied eBay dimensional diagram, image 6](https://www.ebay.co.uk/itm/377271086738)
+- [User modelling instructions, 2026-10-13](references/ebay_377271086738_dimensions_full.webp)

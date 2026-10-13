@@ -49,7 +49,7 @@ class ModelTests(unittest.TestCase):
         self.assertEqual(len(selected), 833)
         from collections import Counter
         self.assertEqual(Counter(p['three_d_model_details'].get('generation_status', 'ready') for p in selected),
-                         {'ready': 804, 'needs_specification': 26, 'excluded': 3})
+                         {'ready': 830, 'excluded': 3})
         countersunk = [p for p in selected if p['taxonomy_3'] == 'countersunk'
                        and p['taxonomy_4'] == 'philips']
         self.assertFalse(any(p['taxonomy_6'] == 'm1_5_diameter' for p in countersunk))

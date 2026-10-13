@@ -16,6 +16,8 @@ families:
     standard_file: din_965.yaml
     identity_note: User confirmed countersunk on 2026-10-11.
   self_tapping:
+    standard_file: self_tapping_visualization.yaml
+    thread_coverage: full
     research_profile: miniature_self_tapping
     supplier_url: https://www.aliexpress.com/item/1005004774076999.html
     reference_urls:
@@ -23,7 +25,7 @@ families:
       - https://www.ebay.co.uk/itm/377271086738
     head_style: pan
     finish_identity: black_zinc
-    identity_note: Original eBay reference identifies Phillips pan head, black zinc carbon steel sheet-metal tapping screws. User supplied the dimensional diagram on 2026-10-13, specified 0.3 mm pitch for 1 and 1.2 mm, and corrected 2.3 mm entries to 2.2 mm. Use the selected head/pitch dimensions for visualization with black finish. Core, point and recess geometry remain unresolved.
+    identity_note: User selected the supplied dimensions, 0.3 mm pitch for 1/1.2 mm and 2.2 mm replacement on 2026-10-13, then confirmed full threading and authorized image-based core, point and Phillips recess estimates. Use a labelled visual approximation with black finish.
   thread_forming:
     excluded: true
     identity_note: User requested skipping this family on 2026-10-11.

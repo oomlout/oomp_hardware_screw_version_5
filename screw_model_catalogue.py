@@ -35,7 +35,7 @@ FAMILIES = {
     'wood': dict(priority=9, candidates=['DIN 7997 if countersunk Pozidriv'],
                  missing=['confirm product identity and length availability', 'head and cross recess dimensions',
                           'thread pitch, core profile, threaded length, taper and point']),
-    'self_tapping': dict(priority=10, candidates=['supplier miniature tapping specification'],
+    'self_tapping': dict(priority=10, drive='philips', candidates=['supplier miniature tapping specification'],
                         missing=['actual tapping thread designation and pitch (not inferred from m label)',
                                  'head dimensions, core profile, point form and cross recess dimensions']),
     'thread_forming': dict(priority=11, candidates=['DIN 7500 for metal', 'supplier plastic screw specification'],
@@ -160,6 +160,23 @@ def sourced_recipe(style, drive, diameter, length, finish, standard, row, select
     p = {key: copy.deepcopy(value) for key, value in row.items() if key not in {
         'dimension_status', 'standard_limits', 'standard_lengths_mm', 'commercial_lengths_mm', 'notes', 'recesses',
                    'socket_depth_long_mm', 'socket_depth_short_mm', 'socket_depth_long_from_length_mm'}}
+    if p.get('thread_profile') == 'self_tapping_visualization':
+        a = standard['visual_assumptions']
+        head, height = p['head_diameter_mm'], p['head_height_mm']
+        sag = height*a['crown_sag_height_fraction']
+        p.update(thread_minor_diameter_mm=diameter*a['core_diameter_fraction'],
+                 point_length_diameters=a['point_length_diameters'],
+                 thread_flank_angle_deg=a['thread_flank_angle_deg'],
+                 thread_crest_fraction=a['thread_crest_fraction'],
+                 thread_runout_pitch_fraction=a['thread_runout_pitch_fraction'],
+                 underhead_fillet_mm=diameter*a['underhead_fillet_diameters'],
+                 head_crown_radius_mm=((head/2)**2+sag*sag)/(2*sag),
+                 head_crown_flat_diameter_mm=head*a['crown_flat_diameter_head_fraction'],
+                 recess_type='H', recess_diameter_mm=head*a['recess_diameter_head_fraction'],
+                 recess_depth_mm=height*a['recess_depth_height_fraction'],
+                 recess_wing_width_mm=head*a['recess_wing_width_head_fraction'],
+                 recess_core_width_mm=head*a['recess_core_width_head_fraction'],
+                 recess_wall_taper_deg=7., recess_outer_slope_deg=26.5, recess_floor_angle_deg=28.)
     if standard['head_style'] == 'headless':
         p['socket_depth_mm'] = row['socket_depth_long_mm'] if length >= row['socket_depth_long_from_length_mm'] else row['socket_depth_short_mm']
         p['head_diameter_mm'] = diameter  # Envelope for render framing.
@@ -186,7 +203,7 @@ def sourced_recipe(style, drive, diameter, length, finish, standard, row, select
     top = length if p['length_convention'] == 'overall' else length+p['head_height_mm']
     pitch = p['pitch_mm']; h = math.sqrt(3)/2*pitch
     p.update(head_top_z_mm=top, overall_length_mm=top)
-    if p.get('thread_profile') != 'wood_reference':
+    if p.get('thread_profile') not in {'wood_reference', 'self_tapping_visualization'}:
         p.update(
              thread_pitch_diameter_mm=diameter-3*h/4,
              thread_minor_diameter_mm=diameter-2*17*h/24,
@@ -201,7 +218,7 @@ def sourced_recipe(style, drive, diameter, length, finish, standard, row, select
                    markings='Unidentified manufacturer and property-class stamps omitted.',
                    certification='Nominal catalogue geometry; not manufacturing certification.',
                    catalogue_length='Unlisted lengths use the sourced size profile at the catalogue length and are explicitly marked as extensions.')
-    if p.get('thread_profile') == 'wood_reference':
+    if p.get('thread_profile') in {'wood_reference', 'self_tapping_visualization'}:
         choices.update(copy.deepcopy(standard['modelling_choices']))
     standard_lengths = row.get('standard_lengths_mm', [])
     commercial_lengths = recess.get('commercial_lengths_mm', []) if recess else row.get('commercial_lengths_mm', [])
@@ -228,6 +245,10 @@ def sourced_recipe(style, drive, diameter, length, finish, standard, row, select
             'ISO 4757 wing width and taper guide a four-wing punch with a rounded centre and a conical floor; '
             'Z additionally has four shallow diagonal identification grooves. Die-flow radii and gauge conformity are not certified.')
     recipe.update(presentation_defaults(finish))
+    if p.get('thread_profile') == 'self_tapping_visualization':
+        recipe['note'] = 'User-authorized image-based self-tapping visualization. Head dimensions and pitch are specified; core, point, crown and recess are documented visual estimates.'
+        recipe['selection'] = copy.deepcopy(selection)
+        recipe['visual_assumptions'] = copy.deepcopy(standard['visual_assumptions'])
     if p['head_style'] == 'headless':
         recipe['modelling_choices'].update(runout='Thread envelope terminates at the 45 degree cup bevel and socket-end chamfer.',
             tip='Concave 120 degree cup with a small selected annular land and 45 degree outer bevel.',

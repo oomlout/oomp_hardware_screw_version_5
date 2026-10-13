@@ -20,7 +20,8 @@ def resolve_thread(parameters):
     d, length, pitch = p['diameter_mm'], p['length_mm'], p['pitch_mm']
     h = math.sqrt(3)/2*pitch
     wood = p.get('thread_profile') == 'wood_reference'
-    if not wood:
+    tapping = p.get('thread_profile') == 'self_tapping_visualization'
+    if not (wood or tapping):
         p.update(thread_pitch_diameter_mm=d-3*h/4,
                  thread_minor_diameter_mm=d-2*17*h/24,
                  thread_root_radius_mm=h/6, thread_flank_angle_deg=60.)
@@ -46,6 +47,14 @@ def resolve_thread(parameters):
     p.update(head_top_z_mm=top, overall_length_mm=top,
              head_contact_min_z_mm=contact)
     p['fillet_start_z_mm'] = tangent
+    if tapping:
+        runout = min(pitch*p['thread_runout_pitch_fraction'], tangent/3)
+        p.update(point_length_mm=min(p['point_length_diameters']*d, tangent*.6),
+                 thread_end_z_mm=tangent, thread_runout_mm=runout,
+                 thread_length_mm=tangent-runout, thread_mode='full_to_head',
+                 thread_coverage='full', grip_length_mm=length-tangent+runout,
+                 shank_length_min_mm=0.)
+        return p
     if wood:
         coverage = p.get('thread_coverage', 'standard_reference')
         if coverage not in {'standard_reference', 'full', 'partial'}:
@@ -129,6 +138,9 @@ def validate_parameters(p):
             raise ValueError('Invalid domed head rim')
     elif style == 'pan':
         radius = p['head_crown_radius_mm']
+        flat = p.get('head_crown_flat_diameter_mm', 0.)
+        if not 0 <= flat < p['head_diameter_mm']:
+            raise ValueError('Pan crown land must fit inside head')
         if radius <= p['head_diameter_mm']/2 or radius-math.sqrt(radius**2-(p['head_diameter_mm']/2)**2) >= p['head_height_mm']:
             raise ValueError('Pan crown does not leave a cylindrical skirt')
     if p['tip_chamfer_mm'] >= p['diameter_mm']/2:
@@ -149,11 +161,11 @@ def validate_parameters(p):
         depth = p['socket_depth_mm']
     if depth >= p['head_top_z_mm']-p['tip_chamfer_mm']:
         raise ValueError('Recess would break through the tip')
-    if p.get('thread_profile') == 'wood_reference':
+    if p.get('thread_profile') in {'wood_reference', 'self_tapping_visualization'}:
         if not 0 < p['thread_minor_diameter_mm'] < p['diameter_mm']:
-            raise ValueError('Wood core must be positive and smaller than the outside diameter')
+            raise ValueError('Pointed-thread core must be positive and smaller than the outside diameter')
         if not 0 < p['point_length_mm'] < p['thread_end_z_mm']:
-            raise ValueError('Wood point must end inside threaded shaft')
+            raise ValueError('Point must end inside threaded shaft')
         if not 0 < p['thread_flank_angle_deg'] < 180 or not 0 < p['thread_crest_fraction'] < .1:
             raise ValueError('Invalid wood thread flank or crest')
         if not p['thread_minor_diameter_mm'] <= p.get('shank_diameter_mm', p['diameter_mm']) <= p['diameter_mm']:
@@ -225,7 +237,8 @@ def build_model(parameters, variant='full', quality=None):
     end, tangent = p['thread_end_z_mm'], p['fillet_start_z_mm']
     z = np.linspace(0, end, max(3, math.ceil(end/pitch*quality['samples_per_pitch'])+1))
     wood = p.get('thread_profile') == 'wood_reference'
-    z = np.sort(np.r_[z, p['point_length_mm'] if wood else p['tip_chamfer_mm'], end-p['thread_runout_mm']])
+    pointed = wood or p.get('thread_profile') == 'self_tapping_visualization'
+    z = np.sort(np.r_[z, p['point_length_mm'] if pointed else p['tip_chamfer_mm'], end-p['thread_runout_mm']])
     # A dimension can coincide with a regular pitch sample within floating
     # point rounding. Merge near-equal rings before topology is constructed.
     z = z[np.r_[True, np.diff(z) > 1e-8]]
@@ -235,9 +248,9 @@ def build_model(parameters, variant='full', quality=None):
     if variant == 'full':
         # z-theta*P/(2pi) produces a helix rising counterclockwise: right handed.
         phase = z[:, None]/pitch-theta[None, :]/(2*math.pi)
-        depth = wood_thread_depth(phase, p) if wood else thread_depth(phase, pitch)
+        depth = wood_thread_depth(phase, p) if pointed else thread_depth(phase, pitch)
         r -= depth*taper[:, None]
-    if wood:
+    if pointed:
         r -= (rs-p.get('shank_diameter_mm', d)/2)*(1-taper[:, None])
         # Both core and crest taper toward the same point. A tiny end face avoids
         # coincident mesh vertices; it is a selected visualization tolerance.
@@ -261,13 +274,14 @@ def build_model(parameters, variant='full', quality=None):
         append_r = np.r_[fillet_r, rh-bevel, rh, rh, rh-bevel]
     elif style == 'pan':
         sphere = p['head_crown_radius_mm']
+        flat_radius = p.get('head_crown_flat_diameter_mm', 0.)/2
         # Published rf is an approximate spherical crown radius. Meet the
         # cylindrical skirt at its exact circular intersection.
-        angle = np.linspace(math.asin(rh/sphere), 0, max(16, quality['fillet_segments']*4))
+        angle = np.linspace(math.asin(rh/sphere), math.asin(flat_radius/sphere), max(16, quality['fillet_segments']*4))
         # Keep the apex cap above trimesh's vertex merge tolerance. The cross
         # cavity removes this tiny cap, including it at high angular resolution.
         arc_r = np.maximum(1e-4, sphere*np.sin(angle))
-        arc_z = p['head_top_z_mm']-sphere+sphere*np.cos(angle)
+        arc_z = p['head_top_z_mm']-math.sqrt(sphere*sphere-flat_radius*flat_radius)+sphere*np.cos(angle)
         append_z = np.r_[fillet_z, length, arc_z]
         append_r = np.r_[fillet_r, rh, arc_r]
     else:

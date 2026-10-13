@@ -46,6 +46,11 @@ generation. Ready models use the same materials, studio and output contract.
 See [THREE_D_MODELS.md](THREE_D_MODELS.md) for family coverage, standard choices,
 batch commands, specification gaps and instructions for adding another family.
 
+All 26 self-tappers are ready as documented visual approximations: supplied head
+dimensions/pitches, full thread to the head, and user-authorized thread-core,
+point and Phillips recess estimates. Run `action_make_self_tapping_three_d_model.bat`
+to generate their models and renders.
+
 Supplier data is copied from `C:\od\OneDrive\docs\project_bolt_web_scraper\data`
 into `source_file/supplier_data/` by running `action_update_from_scraper.bat`
 (or `python working_supplier_data.py`).
