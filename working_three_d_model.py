@@ -166,12 +166,13 @@ def prepare_files(recipe, folder):
 
 
 def write_visualization_note(recipe, output):
-    if recipe.get('dimension_status') != 'similar_product_visualization':
+    if recipe.get('dimension_status') not in {'similar_product_visualization', 'image_based_visualization'}:
         return
     text = recipe['note']+'\n\nDimensions and assumptions:\n\n'
     text += '\n'.join(f'- {key}: {value}' for key, value in recipe['modelling_choices'].items())
     text += '\n\nSources:\n\n'+'\n'.join(f"- [{v['title']}]({v['url']})" for v in recipe['sources'])
-    text += '\n\nThe preferred Screw-Tite product evidence and unresolved brand differences are preserved in parameters.json under preferred_product_comparison.\n'
+    if 'preferred_product_comparison' in recipe:
+        text += '\n\nThe preferred Screw-Tite product evidence and unresolved brand differences are preserved in parameters.json under preferred_product_comparison.\n'
     (output/'README.md').write_text(text, encoding='utf-8')
 
 
