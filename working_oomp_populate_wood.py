@@ -1,35 +1,44 @@
-import copy
+"""Screwfix Screw-Tite 2 individual-size packs, checked 2026-10-13.
+
+Source: https://www.screwfix.com/c/screws-nails-fixings/woodscrews/cat840066?brand=screw_tite_2
+Mixed trade packs are excluded. Codes are Screwfix codes, not TFST manufacturer
+SKUs. Only verified diameter/length pairs are emitted.
+"""
+
+FINISH = "net_coat_yellow_plated"
+FINISH_NAME = "Net-Coat Yellow-Plated"
+PRODUCTS = {
+    "3": [(12, "304FY", 200)],
+    "3.5": [(16, "419FY", 200), (20, "710FY", 200), (25, "310FY", 200),
+            (30, "488FY", 200), (35, "167FY", 200), (40, "130FY", 200), (50, "726FY", 200)],
+    "4": [(20, "659FY", 200), (25, "592FY", 200), (30, "284FY", 200),
+          (35, "107FY", 200), (40, "330FY", 200), (50, "127FY", 200),
+          (60, "258FY", 100), (70, "131FY", 100)],
+    "4.5": [(50, "731FY", 200), (60, "509FY", 200), (70, "280FY", 200),
+            (75, "986FY", 100), (80, "713FY", 100)],
+    "5": [(40, "819FY", 200), (50, "984FY", 200), (60, "784FY", 100),
+          (70, "964FY", 100), (80, "426FY", 100), (90, "800FY", 100), (100, "486FY", 100)],
+    "6": [(100, "101FY", 50), (120, "771FY", 50)],
+}
 
 
 def generate(**kwargs):
     options = []
-
-    current_taxonomy_3 = "wood"
-    current_taxonomy_4 = "pozidriv"
-    current_taxonomy_5 = "bright_zinc_plated"
-
-    extras_sizes = {}
-    extras_sizes["m2"] = [4, 5, 6, 8, 10, 12, 16]
-    extras_sizes["m2_5"] = [5, 6, 8, 10, 12, 16, 20]
-    extras_sizes["m3"] = [5, 6, 8, 10, 12, 16, 20, 25]
-    extras_sizes["m3_5"] = [8, 10, 12, 16]
-    extras_sizes["m4"] = [6, 8, 10, 12, 16, 20, 25, 30, 40, 50, 60]
-    extras_sizes["m5"] = [8, 10, 12, 14, 16, 20, 25, 30, 35, 40, 50, 60, 70, 80, 100]
-    extras_sizes["m6"] = [10, 12, 16, 20, 25, 30, 40, 100, 120]
-
-    for extra_size in extras_sizes:
-        for extra_size2 in extras_sizes[extra_size]:
-            option = {}
-            option["taxonomy_3"] = current_taxonomy_3
-            option["taxonomy_4"] = current_taxonomy_4
-            option["taxonomy_5"] = current_taxonomy_5
-            option["taxonomy_6"] = f"{extra_size}_diameter"
-            option["taxonomy_7"] = f"{extra_size2}_mm_length"
-            options.append(copy.deepcopy(option))
-
+    for diameter, products in PRODUCTS.items():
+        for length, code, pack_size in products:
+            url = ("https://www.screwfix.com/p/screw-tite-2-pz-double-countersunk-thread-cutting-screws-"
+                   f"{diameter.replace('.', '-')}mm-x-{length}mm-{pack_size}-pack/{code.lower()}")
+            options.append(dict(
+                taxonomy_3="wood", taxonomy_4="pozidriv", taxonomy_5=FINISH,
+                taxonomy_6=f"m{diameter.replace('.', '_')}_diameter",
+                taxonomy_7=f"{length}_mm_length", taxonomy_14="screwtite", taxonomy_15=code,
+                manufacturer="screwtite", part_number=code, finish=FINISH_NAME,
+                supplier_data={"screwfix": dict(supplier="screwfix", supplier_id=code,
+                    supplier_part_number=code, supplier_website=url, pack_size=pack_size,
+                    brand="Screw-Tite 2", finish=FINISH_NAME, checked_on="2026-10-13")}))
     return options
 
 
 if __name__ == "__main__":
-    for o in generate():
-        print(o)
+    for option in generate():
+        print(option)

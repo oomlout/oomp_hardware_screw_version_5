@@ -1,4 +1,5 @@
 import copy
+import fnmatch
 from pathlib import Path
 
 import yaml
@@ -78,6 +79,10 @@ def main(**kwargs):
     options += generate_self_tapping()
     options += generate_thread_forming()
     options += generate_wood()
+
+    if kwargs.get("filter"):
+        options = [option for option in options if fnmatch.fnmatchcase(
+            build_oomp_id(dict(default_input, **option)), kwargs["filter"])]
 
 
     #add oobb_details

@@ -38,7 +38,7 @@ From the source files, `working.py` orchestrates the populate, metadata, SVG, SC
 
 ## Parametric screw models
 
-`working_oomp_populate.py` attaches `three_d_model_details` to all 870 catalogue
+`working_oomp_populate.py` attaches `three_d_model_details` to all 833 catalogue
 entries. Both source and generated `working.yaml` files contain either a complete
 sourced recipe, a specific dimension request, or the explicit thread-forming
 exclusion. `working.py` runs `working_three_d_model.py` after metadata and SVG
@@ -274,8 +274,8 @@ The generated SCAD workflow also appears to rely on the wider OOBB/BOSL2/OpenSCA
 
 ## Development Notes
 
-- `parts_source/` currently contains 870 source part folders.
-- `parts/` currently contains 870 generated part folders.
+- `parts_source/` currently contains 833 source part folders.
+- `parts/` currently contains 833 generated part folders.
 - `working_oomp_populate.py` is where the screw size/style combinations are enumerated.
 - `working_scad.py` loads generated `working.yaml` files from `parts/` and builds the part geometry.
 - `scad_help.py` also creates the `navigation_oobb/` tree used for browsing generated outputs.

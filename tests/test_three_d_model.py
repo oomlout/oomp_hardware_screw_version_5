@@ -46,10 +46,18 @@ class ModelTests(unittest.TestCase):
             populate.main()
         options = writer.call_args.args[0]
         selected = [p for p in options if p.get('three_d_model_details')]
-        self.assertEqual(len(selected), 870)
+        self.assertEqual(len(selected), 833)
         from collections import Counter
         self.assertEqual(Counter(p['three_d_model_details'].get('generation_status', 'ready') for p in selected),
-                         {'ready': 835, 'needs_specification': 32, 'excluded': 3})
+                         {'ready': 804, 'needs_specification': 26, 'excluded': 3})
+        countersunk = [p for p in selected if p['taxonomy_3'] == 'countersunk'
+                       and p['taxonomy_4'] == 'philips']
+        self.assertFalse(any(p['taxonomy_6'] == 'm1_5_diameter' for p in countersunk))
+        m16 = [p for p in countersunk if p['taxonomy_6'] == 'm1_6_diameter']
+        self.assertCountEqual([p['taxonomy_7'] for p in m16],
+                              [f'{length}_mm_length' for length in (3, 4, 5, 6, 8, 10)])
+        for p in m16:
+            self.assertEqual(p['three_d_model_details']['parameters']['diameter_mm'], 1.6)
         for p in options:
             self.assertIn('three_d_model_details', p)
         for p in selected:

@@ -253,6 +253,52 @@ sizes:
     head_rim_mm: 0.4
     thread_length_max_mm: 72
     plain_shank_min_diameters: 0.5
+  '4.5':
+    dimension_status: similar_product_visualization
+    pitch_mm: 2.0
+    thread_profile: wood_reference
+    thread_minor_diameter_mm: 2.575
+    thread_flank_angle_deg: 40
+    thread_crest_fraction: 0.02
+    thread_length_fraction: 0.6
+    point_length_diameters: 1.25
+    head_diameter_mm: 8.75
+    head_height_mm: 3.324558441227157
+    countersink_angle_deg: 90
+    underhead_fillet_mm: 0.18
+    thread_length_reference_mm: null
+    partial_thread_from_length_mm: null
+    recesses:
+      pozidriv:
+        recess_type: Z
+        recess_number: 2
+        recess_diameter_mm: 4.8
+        recess_depth_mm: 2.74
+        penetration_limits_mm:
+        - 2.46
+        - 3.02
+        commercial_lengths_mm: []
+    standard_limits:
+      core_diameter_mm:
+      - 2.45
+      - 2.7
+      head_diameter_mm:
+      - 8.5
+      - 9.0
+      head_and_neck_clearance_mm:
+      - 4.3
+      - 4.7
+      shank_diameter_min_mm: 3.15
+      thread_flank_angle_deg:
+      - 37
+      - 43
+    shank_diameter_mm: 3.15
+    head_clearance_mm: 4.5
+    head_rim_mm: 0.45
+    thread_length_max_mm: 72
+    plain_shank_min_diameters: 0.5
+    notes: 4.5 mm row visually transcribed from HSB ETA Annex A page 11 and Motu page
+      03 on 2026-10-13.
   '5':
     dimension_status: similar_product_visualization
     pitch_mm: 2.2

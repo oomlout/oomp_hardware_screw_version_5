@@ -20,9 +20,10 @@ families:
     supplier_url: https://www.aliexpress.com/item/1005004774076999.html
     reference_urls:
       - https://www.ebay.co.uk/itm/383102775525
+      - https://www.ebay.co.uk/itm/377271086738
     head_style: pan
     finish_identity: black_zinc
-    identity_note: User references checked 2026-10-11. eBay confirms Phillips pan head, black zinc carbon steel sheet-metal tapping screws; no pitch, core or head dimension table is supplied. Miniature sizes still need a drawing.
+    identity_note: Original eBay reference identifies Phillips pan head, black zinc carbon steel sheet-metal tapping screws. User supplied the dimensional diagram on 2026-10-13, specified 0.3 mm pitch for 1 and 1.2 mm, and corrected 2.3 mm entries to 2.2 mm. Use the selected head/pitch dimensions for visualization with black finish. Core, point and recess geometry remain unresolved.
   thread_forming:
     excluded: true
     identity_note: User requested skipping this family on 2026-10-11.
@@ -32,12 +33,13 @@ families:
     supplier_url: https://www.tite-fix.co.uk/product/screw-tite-multipurpose-screw/
     reference_urls:
       - https://www.screwfix.com/p/screw-tite-2-pz-double-countersunk-thread-cutting-screws-4mm-x-50mm-200-pack/127fy
-    identity_note: User prefers Screw-Tite from Screwfix and authorized filling missing measurements from similar products on 2026-10-12. User clarified modern plywood/chipboard style on 2026-10-13. Use the explicitly labelled slender-shank modern chipboard proxy. Preserve Screw-Tite comparison evidence separately, including the finish conflict.
+    identity_note: User selected Screw-Tite from Screwfix and authorized filling missing measurements from similar products on 2026-10-12. On 2026-10-13 the catalogue was replaced with verified Screwfix product codes and Net-Coat Yellow-Plated finish. Retain the explicitly labelled slender-shank modern chipboard visualization proxy and separate proprietary geometry evidence.
 part_filters:
   - filter: hardware_screw_countersunk_philips_black_m1_4_diameter_*
     selection:
       standard_file: jcis_type_3_countersunk.yaml
       identity_note: Sourced Type 3 miniature supplier profile selected for nominal visualization on 2026-10-12; not a manufacturer identification or DIN 965 extension.
-  - filter: hardware_screw_countersunk_philips_black_m1_5_diameter_*
+  - filter: hardware_screw_countersunk_philips_black_m1_6_diameter_*
     selection:
-      research_profile: miniature_m1_5
+      standard_file: din_965.yaml
+      identity_note: User corrected M1.5 countersunk entries to the existing M1.6 range on 2026-10-13. Use the sourced M1.6 dimensions; retain one entry per length.

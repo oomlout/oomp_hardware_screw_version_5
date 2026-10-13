@@ -1,6 +1,7 @@
 import oomp
 import oomp_helper
 import copy
+import fnmatch
 import oomlout_roboclick
 import working_label_drawer
 from pathlib import Path
@@ -55,6 +56,8 @@ def create_generic(**kwargs):
         os.makedirs(directory_source)
     directories = os.listdir(directory_source)
     for directory  in directories:
+        if kwargs.get("filter") and not fnmatch.fnmatchcase(directory, kwargs["filter"]):
+            continue
         directory_full = f"{directory_source}/{directory}"
         filenames = os.listdir(f"{directory_full}")
         for filename in filenames:

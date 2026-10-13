@@ -38,7 +38,7 @@ Decimal lengths (grub screws): dot replaced with underscore → `2_5_mm_length`
              m3_5[8,10,12,16] m4[6,8,10,12,16,20,25,30,40,50,60]
              m5[8,10,12,14,16,20,25,30,35,40,50,60,70,80,100] m6[10,12,16,20,25,30,40,100,120]
 - [x] `working_oomp_populate_countersunk_philips.py` — philips / black
-      Sizes: m1_4[3,4,5,6,8,10] m1_5[3,4,5,6,8,10] m1_6[3,4,5,6,8,10]
+      Sizes: m1_4[3,4,5,6,8,10] m1_6[3,4,5,6,8,10] (M1.5 corrected to existing M1.6 range on 2026-10-13)
              m2[3,4,5,6,7,8,10,12,14,16,18,20,22,25,30]
 
 - [x] `working_oomp_populate_socket_cap.py` — socket_cap / hex_head / black (already created)
@@ -70,7 +70,7 @@ Decimal lengths (grub screws): dot replaced with underscore → `2_5_mm_length`
       Philips/nylon_white: m3[12,16,20,25]
 
 - [x] `working_oomp_populate_self_tapping.py` — self_tapping / philips / black
-      Sizes: m1[3,5] m1_2[3,5,8] m1_4[3,5,8,10] m1_7[5,8,10,12,16] m2[5,8,12,16,20] m2_3[5,6,8,10,12,16,20]
+      Sizes: m1[3,5] m1_2[3,5,8] m1_4[3,5,8,10] m1_7[5,8,10,12,16] m2[5,8,12,16,20] m2_2[5,6,8,10,12,16,20]
 
 - [x] `working_oomp_populate_thread_forming.py` — thread_forming / philips / black
       Sizes: m2_3[6] m2_5[6] m2_6[6]

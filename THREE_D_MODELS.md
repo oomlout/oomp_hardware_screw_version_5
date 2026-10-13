@@ -14,15 +14,15 @@ the product studio. Source inspection dates: 2026-10-11 through 2026-10-13.
 | 2 | socket_cap_low_head | 92 | DIN 7984 supplier dimension table | Ready |
 | 3 | button_head | 79 | ISO 7380-1; M2/M2.5 manufacturer extensions | Ready |
 | 4 | grub | 148 | Cup point, DIN 916 / ISO 4029 supplier dimensions | Ready |
-| 5 | countersunk, cross recess | 94 | DIN 965 A, H/Z; separate M1.4 supplier reference | 88 ready, 6 M1.5 entries need dimensions |
+| 5 | countersunk, cross recess | 88 | DIN 965 A, H/Z; separate M1.4 supplier reference | Ready |
 | 6 | flat_head | 79 | Countersunk DIN 965 A, confirmed by user | Ready |
 | 7 | machine_screw | 72 | Pan head DIN 7985 A, confirmed by user | Ready |
 | 8 | socket_cap_low_head_ultra | 92 | DIN 7984, confirmed by user | Ready; same profile as low head |
-| 9 | wood | 61 | Modern chipboard/plywood profile from HSB/Motu; Screw-Tite preference retained separately | Ready as labelled visualization proxies |
+| 9 | wood | 30 | Screwfix Screw-Tite codes and Net-Coat Yellow-Plated finish; HSB/Motu geometry | Ready as labelled visualization proxies |
 | 10 | self_tapping | 26 | Supplier Phillips pan head, black zinc carbon steel | Needs dimensions |
 | Excluded | thread_forming | 3 | User requested skipping this family | Excluded |
 
-Totals: **835 ready, 32 needing specification, 3 explicitly excluded**. A ready
+Totals: **804 ready, 26 needing specification, 3 explicitly excluded** (833 parts). A ready
 recipe describes sourced nominal visualization geometry, not manufacturing
 certification or proof that a catalogue item was manufactured to the standard.
 Unlisted catalogue lengths remain drawable but carry `catalogue_length_extension`.
@@ -213,10 +213,14 @@ This is an explicitly selected nominal supplier reference, not DIN 965 or proof
 of the stocked item's manufacturer. Its production length range does not prove
 each length is a stock SKU, so individual lengths retain the extension label.
 
-The unresolved 32 entries are:
+On 2026-10-13, the user corrected the six M1.5 Phillips countersunk entries to
+M1.6. All six lengths (3, 4, 5, 6, 8 and 10 mm) already existed at M1.6, so the
+obsolete M1.5 entries were removed without duplicating the M1.6 range. These use
+the sourced M1.6 DIN 965 supplier dimensions. To rebuild their models and renders,
+run `action_make_countersunk_m1_6_three_d_model.bat` (forces just these six parts).
 
-- 6 M1.5 Phillips countersunk screws: still need a supplier head, pitch and recess
-  drawing. No complete primary drawing was found; do not interpolate M1.4/M1.6.
+The unresolved 26 entries are:
+
 - 26 miniature self-tappers: the user's references are
   [AliExpress 1005004774076999](https://www.aliexpress.com/item/1005004774076999.html)
   and [eBay 383102775525](https://www.ebay.co.uk/itm/383102775525). The latter's
@@ -231,15 +235,45 @@ Each unresolved part has `generation_status: needs_specification`, the precise m
 and the supplier reference in `specification_request.json`. These entries will not
 export guessed solids. The 3 thread-forming entries are `excluded` by user choice.
 
+On 2026-10-13, the user supplied [eBay 377271086738](https://www.ebay.co.uk/itm/377271086738).
+Gallery image 6 gives comparative head diameter/height for 1, 1.2, 1.4, 1.7 and
+2 mm screws (19 catalogue entries), and pitch for 1.4, 1.7 and 2 mm (14 entries).
+The 1/1.2 mm pitches are blank and there is no 2.3 mm row. The table is transcribed
+in `specification_research.yaml`, with the diagram retained in `references`.
+The seller describes manual batch measurements for an A4/316 stainless product;
+applicability to the catalogue black-zinc screws is not established. Core, point
+and recess dimensions remain absent, so all 26 self-tappers still need specification.
+
+The user subsequently specified **0.3 mm pitch for both 1 and 1.2 mm screws** on
+2026-10-13. This is applied to all five affected recipes and retained separately
+from the original supplier-table blanks. Their pitch is resolved; remaining
+geometry gaps still keep these recipes pending.
+
+The user also corrected all seven 2.3 mm self-tappers to **2.2 mm**, at lengths
+5, 6, 8, 10, 12, 16 and 20 mm. Their selected diagram row gives 0.8 mm pitch,
+3.8 mm head diameter and 1.5 mm head height. All 26 self-tappers now have selected
+head dimensions and pitch; these feed the part recipes and schematic SVGs.
+Core/profile, point, thread coverage and recess geometry still need definition
+before 3D models and renders can be generated.
+
 ### Wood screws: modern chipboard/plywood style (2026-10-13)
 
-All 61 wood recipes use `wood_similar_product.yaml`, with
+All 30 wood recipes use `wood_similar_product.yaml`, with
 `dimension_status: similar_product_visualization`. The user requested the modern
 style used for plywood, with a bare section below every head. The geometry uses
 a slender shank, 40-degree thread flanks and a countersunk Pozidriv head. It is a
 sourced comparable-product model, not an exact Screw-Tite reconstruction.
 Recipes, READMEs, manifests and SVG metadata identify this status. Catalogue
-names and bright-zinc presentation are retained.
+identities now use Screwfix's verified individual-size packs: `manufacturer` and
+`taxonomy_14` are `screwtite`; `part_number` and `taxonomy_15` contain the Screwfix
+code (for example `127FY` for 4 x 50 mm). The source mapping lives in
+`working_oomp_populate_wood.py`, called by `working_oomp_populate.py`.
+The finish is `net_coat_yellow_plated` (Screwfix: Net-Coat Yellow-Plated), with a
+warm yellow-gold metallic material shared by Blender and GLB exports. Unlisted
+sizes and mixed trade packs are excluded. The 61 previous bright-zinc entries
+and their cached assets were moved out of the active catalogue into
+`metadata_recovery_backups/wood_screwtite_migration_2026_10_13` after recursive
+deletion was blocked by automatic approval review.
 
 | Diameter, mm | Pitch, mm | Core, mm | Plain shank, mm | Head diameter, mm |
 |---|---:|---:|---:|---:|
@@ -248,6 +282,7 @@ names and bright-zinc presentation are retained.
 | 3 | 1.35 | 1.90 | 2.15 | 5.80 |
 | 3.5 | 1.60 | 2.10 | 2.45 | 6.80 |
 | 4 | 1.80 | 2.375 | 2.72 | 7.75 |
+| 4.5 | 2.00 | 2.575 | 3.15 | 8.75 |
 | 5 | 2.20 | 2.85 | 3.40 | 9.75 |
 | 6 | 2.60 | 3.55 | 4.20 | 11.80 |
 
@@ -260,11 +295,11 @@ supplies the 2.5 mm profile and Pozidriv mouth/depth dimensions for 2.5-6 mm.
 The selected values are nominal values or midpoints, with the exceptions stated
 in the YAML source table. Shank at 2.5 mm uses Motu's wire diameter.
 
-*The seven 2 mm entries are explicitly scaled modern extensions from the 2.5 mm
+*The retained 2 mm reference profile is an explicitly scaled modern extension from the 2.5 mm
 profile; their 0.9 mm pitch comes from the
 [Killich small wood-thread table](https://www.i-fasteners.com/thread-of-the-woodscrew),
 and their Z1 recess remains the separately sourced DIN 965 similar-head proxy.
-They are not presented as measured Screw-Tite products or DIN-certified screws.
+The 2 and 2.5 mm profiles are no longer emitted by the catalogue.
 
 Every default recipe retains a plain shank beneath the head, including short
 catalogue extensions. The selected thread target is 0.6L, capped at 72 mm, with a
@@ -280,7 +315,7 @@ and small fillet. The 0.02P crest land, runout and simplified ISO 4757 cavity ar
 modelling choices. Brand-specific cutting flutes, ribs, Tri-Lock and twin-start
 transitions are not claimed. No metric machine-thread core is substituted.
 
-All 61 recipes and portable inputs are prepared. Validation checks all 61
+The earlier 61-part geometry validation checked all 61
 watertight display solids and plain shanks, plus full-detail solids at all seven
 diameters, actual core/crest sections, point geometry, recessed drives and length
 edits. Test exports cover 2 x 4, 4 x 16 and 4 x 50 mm, including STL/GLB, seven
@@ -288,6 +323,12 @@ SVG views per variant and both studio poses. The remaining family render run is
 not started. Final verification: 163 tests passed; all 84 artifacts across the
 three sample sets passed hash/format checks, rendered previews and SVG views were
 visually inspected, and the wood batch passed its `--check` run.
+
+After the Screwfix identity migration, all 30 replacement recipes, diagrams,
+drawer labels and portable model inputs were regenerated. Active product render
+caches are empty as requested. A separate 4.5 x 50 mm preview under
+`temporary/screwtite_finish_preview` checks the new material in both studio poses.
+The 4.5 mm geometry uses the visually checked HSB and Motu rows, not interpolation.
 
 Run the prepared family batch when ready:
 
@@ -299,7 +340,7 @@ It processes only the 61 wood entries and uses one worker by default. Completed
 sample renders are retained. Use `--jobs 2` for two workers or `--force` to replace
 existing renders deliberately. `action_make_three_d_model.bat` processes the
 whole catalogue, including all 61 wood screws; the separate wood batch is optional.
-The 32 unrelated miniature entries remain pending.
+The 26 miniature self-tapping entries remain pending.
 
 ### Screw-Tite reference reconciliation (2026-10-12)
 

@@ -49,6 +49,14 @@ def presentation_defaults(finish='black'):
         material.update(name='Bright zinc plated steel', base_colour_srgb=[.73, .76, .8],
                         roughness=.23, roughness_variation=.035,
                         note='Bright zinc finish with neutral cool highlights; passivation colour is unspecified.')
+    elif finish == 'net_coat_yellow_plated':
+        material.update(name='Net-Coat Yellow-Plated steel',
+                        base_colour_srgb=[.79, .64, .32], metallic=1.,
+                        roughness=.25, roughness_variation=.035, coat_weight=.12,
+                        coat_roughness=.24, microtexture_height_um=.45,
+                        note='Screwfix Screw-Tite 2 Net-Coat Yellow-Plated carbon steel, '
+                             'zinc and yellow-passivated with wax coating. Warm yellow-gold '
+                             'plating visual approximation; not solid brass.')
     elif finish == 'stainless':
         material.update(name='Stainless steel', note='Satin stainless visual approximation; alloy grade is unspecified.')
     elif finish == 'black_zinc':

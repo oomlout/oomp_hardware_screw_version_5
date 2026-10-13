@@ -10,7 +10,7 @@ def generate(**kwargs):
 
     extras_sizes = {}
     extras_sizes["m1_4"] = [3, 4, 5, 6, 8, 10]
-    extras_sizes["m1_5"] = [3, 4, 5, 6, 8, 10]
+    # M1.5 catalogue entries were corrected to this existing M1.6 range.
     extras_sizes["m1_6"] = [3, 4, 5, 6, 8, 10]
     extras_sizes["m2"] = [3, 4, 5, 6, 7, 8, 10, 12, 14, 16, 18, 20, 22, 25, 30]
 
