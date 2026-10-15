@@ -17,20 +17,384 @@ oobb_details:
   thread_size: m3_diameter
 supplier_data:
   aanddfasteners:
+    accepted_warnings: '["Source quantity band starts at zero; normalized minimum
+      to one item"]'
+    captured_at: '2026-10-12T14:08:55.054028+00:00'
+    currency: GBP
+    html_sha256: 082e286e48f88dff5dd827ababf03a4a3001ce88c26d65e5534e0274abbcc6ba
+    name: M3 x 25 Socket Countersunk Screw, steel self colour, Din 7991
+    packages: '[]'
+    parsed_at: '2026-10-13T10:55:57.646439+00:00'
+    parser_version: aanddfasteners-1.2-review-policy
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept zero-to-one quantity normalization and low-stock notices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: Product information These High Tensile socket countersunk screws
+      are made out of 10.9 steel material with a self colour black finish to Din 7991
+      with metric coarse thread. Measured from end to end. They are also known as
+      FHSC (Flat head socket caps) or SKT CSK. The screw is designed to be seated
+      into a countersunk hole, providing a flush finish. A hex key ( sometimes referred
+      to as an Allen wrench of Allen key) or hex driver is required to tighten or
+      loosen a socket screw. Socket screws are commonly used in assemblies that do
+      not provide sufficient clearance for a conventional wrench or spanner. Please
+      note that not all socket countersunk screws are fully threaded, if thread length
+      is critical please contact us for more info.
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
     supplier: aanddfasteners
     supplier_id: ST799103025SC
     supplier_part_number: ST799103025SC
     supplier_website: https://www.aanddfasteners.co.uk/shop/socket-screws/socket-countersunk/metric-din-7991-iso-10642-steel-self-colour/m3-x-25-socket-countersunk-screw-steel-self-colour-din-7991/details
+    tiers:
+    - maximum: 25
+      minimum: 1
+      source_text: 0 - 25 £ 0.19
+      source_unit_price: '0.19'
+      source_vat_basis: exclusive
+      unit_price: '0.2280'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 50
+      minimum: 26
+      source_text: 26 -50 £ 0.12
+      source_unit_price: '0.12'
+      source_vat_basis: exclusive
+      unit_price: '0.1440'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 51
+      source_text: 51+ £ 0.10
+      source_unit_price: '0.10'
+      source_vat_basis: exclusive
+      unit_price: '0.1200'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.2280'
+    total_price_10: '2.2800'
+    total_price_100: '12.0000'
+    total_price_1000: '120.0000'
+    total_price_10000: '1200.0000'
+    unit_price_1: '0.2280'
+    unit_price_10: '0.2280'
+    unit_price_100: '0.1200'
+    unit_price_1000: '0.1200'
+    unit_price_10000: '0.1200'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Source quantity band starts at zero; normalized minimum to one item
   accu:
+    accepted_warnings: '["Accu displayed prices are rounded; derived totals use the
+      captured display precision", "Final Accu price tier has no captured upper boundary;
+      final advertised unit price extended by user policy"]'
+    box_quantity: ''
+    captured_at: '2026-10-11T23:24:56.359672+00:00'
+    currency: GBP
+    description: 'Countersunk Socket Head Screws feature a countersunk head type,
+      which allows them to sit flush with their target housing. The socket head of
+      these screws makes them ideal for use alongside Accu’s Hex Drive Bits or Allen
+      Keys & Wrenches. Countersunk Screws are designed to be used alongside pre-drilled
+      countersunk recesses, which can be made with the use of angle cutters called
+      countersinks.  Countersunk Captive Fasteners Captive screw variants of Accu''s
+      Metric Countersunk Screws are available in A2 and A4 Stainless Steel, with other
+      materials such as thermoplastic PEEK available on request. Our range of Socket
+      Countersunk Captive Screws are designed to be used in conjunction with Captive
+      Washers to prevent the screws from falling out of housing assemblies and conform
+      to EU Safety regulations. Materials Countersunk Socket Head Screws can be manufactured
+      from a range of materials, including A2 and A4 Stainless Steel, Bumax and Aluminium
+      options as standard. Accu also supplies Socket Countersunk Screws in 10.9 and
+      12.9 High Tensile Steel, with materials such as Titanium and PEEK available
+      through our custom manufacture service. Enhance the security of your Metric
+      Socket Countersunk Screws against vibrations and self-loosening with our pre-applied
+      thread-locking solutions. Choose from AccuLock Threadlocker for essential fastening,
+      Anu-Lok 180 for added robustness, or Precote 80 for high-performance locking.
+      Elevate the aesthetics of your components with AccuBlack chemical blackening,
+      reducing reflections and delivering a premium finish. Security Screw Variant
+      For applications requiring a tamper-proof drive, this component is also available
+      in a security variant, which can be found in Accu''s Security Socket Countersunk
+      Screws range.  Metric Sizes Accu’s Metric Socket Countersunk Screws are available
+      in thread sizes ranging from M2 to M24, and lengths from 3mm up to 200mm. Imperial
+      Sizes Imperial Countersunk Socket Screws are also available in diameters from
+      #0 to 7/8 inch. Lengths are available from 1/8 inch up to 10 inches. Minimum
+      Thread Length In accordance with DIN standard 7991, Accu''s Socket Countersunk
+      Screws are manufactured to a minimum specified thread length. Please contact
+      us before placing your order if this dimension is critical to your application.'
+    html_sha256: a52d003ddad2ff3af16cdbd1d99127dbfb0749ea980ab3272da8af22d87f05f3
+    name: M3 x 25mm Socket Countersunk Screws (DIN 7991) - High Tensile Steel (10.9)
+    parsed_at: '2026-10-13T07:20:24.911022+00:00'
+    parser_version: accu-1.7-accepted-400-quotes
+    price_inheritance: '{"1000": {"source_quantity": 500, "source_unit_price": "0.11",
+      "source_text": "Buy 500 £0.11 Save 87 %", "basis": "user policy 2026-10-13"},
+      "10000": {"source_quantity": 500, "source_unit_price": "0.11", "source_text":
+      "Buy 500 £0.11 Save 87 %", "basis": "user policy 2026-10-13"}}'
+    quote_minimum: ''
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept rounded displayed prices, open-ended final advertised tiers,
+      and quotes required from 400 units; quote-only prices remain blank."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.09", "highPrice": "0.86",
+      "priceCurrency": "GBP", "offerCount": "11", "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/countersunk-socket-head-screws/472020-SSK-M3-25-10-9",
+      "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type": "QuantitativeValue",
+      "value": 1, "unitCode": "ANN"}}}'
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "accus prices are all ex vat", "confirmed_on": "2026-10-13"}'
+    specifications: '{"Accu Product Code (APC)": "SSK-M3-25-10.9", "Thread Size":
+      "M3 (3 mm)", "Overall Length (L)": "25 mm", "Socket Size (J)": "2 mm", "Material":
+      "Steel - High Tensile (10.9)", "Finish": "Natural", "Countersunk Angle (CA)":
+      "90 Degrees (Tolerance: +2/-0 Degrees)", "Countersunk Length (H)": "1.7 mm",
+      "Full Thread": "Yes", "Head Diameter (D)": "6 mm (Tolerance: +0/-0.3 mm)", "Hexagon
+      Depth (P)": "1.2 mm", "Manufacturing Standard": "DIN 7991", "Material Family":
+      "Steel", "System of Measurement": "Metric", "Thread Pitch": "0.5 mm"}'
+    status: ok
+    stock_quantity: ''
+    stock_status: https://schema.org/InStock
     supplier: accu
     supplier_id: SSK-M3-25-10.9
     supplier_part_number: SSK-M3-25-10.9
     supplier_website: https://www.accu.co.uk/countersunk-socket-head-screws/472020-SSK-M3-25-10-9
+    tiers:
+    - maximum: 1
+      minimum: 1
+      source_text: Buy 1 £0.86
+      source_unit_price: '0.86'
+      source_vat_basis: exclusive
+      unit_price: '1.0320'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 3
+      minimum: 2
+      source_text: Buy 2 £0.50 Save 41 %
+      source_unit_price: '0.50'
+      source_vat_basis: exclusive
+      unit_price: '0.6000'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 5
+      minimum: 4
+      source_text: Buy 4 £0.33 Save 61 %
+      source_unit_price: '0.33'
+      source_vat_basis: exclusive
+      unit_price: '0.3960'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 11
+      minimum: 6
+      source_text: Buy 6 £0.24 Save 72 %
+      source_unit_price: '0.24'
+      source_vat_basis: exclusive
+      unit_price: '0.2880'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 23
+      minimum: 12
+      source_text: Buy 12 £0.18 Save 79 %
+      source_unit_price: '0.18'
+      source_vat_basis: exclusive
+      unit_price: '0.2160'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 49
+      minimum: 24
+      source_text: Buy 24 £0.15 Save 82 %
+      source_unit_price: '0.15'
+      source_vat_basis: exclusive
+      unit_price: '0.1800'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 99
+      minimum: 50
+      source_text: Buy 50 £0.13 Save 84 %
+      source_unit_price: '0.13'
+      source_vat_basis: exclusive
+      unit_price: '0.1560'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 499
+      minimum: 100
+      source_text: Buy 100 £0.12 Save 86 %
+      source_unit_price: '0.12'
+      source_vat_basis: exclusive
+      unit_price: '0.1440'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      maximum_basis: user-approved open-ended final tier; no captured upper boundary
+      minimum: 500
+      source_text: Buy 500 £0.11 Save 87 %
+      source_unit_price: '0.11'
+      source_vat_basis: exclusive
+      unit_price: '0.1320'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '1.0320'
+    total_price_10: '2.8800'
+    total_price_100: '14.4000'
+    total_price_1000: '132.0000'
+    total_price_10000: '1320.0000'
+    unit_price_1: '1.0320'
+    unit_price_10: '0.2880'
+    unit_price_100: '0.1440'
+    unit_price_1000: '0.1320'
+    unit_price_10000: '0.1320'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Accu displayed prices are rounded; derived totals use the captured display precision
+    - Final Accu price tier has no captured upper boundary; final advertised unit
+      price extended by user policy
   boltbase:
+    accepted_warnings: '["Final Bolt Base threshold has no verified upper bound; extrapolation
+      withheld"]'
+    captured_at: '2026-10-12T02:03:44.006812+00:00'
+    currency: GBP
+    html_sha256: 32cc6ffdef932fd2b218c2d236aefa2e2517324068c3e7c427734a2661b83aa3
+    name: M3 Self Colour 10.9 High Tensile Socket Countersunk Screws
+    packages: '[]'
+    parsed_at: '2026-10-13T10:54:41.357890+00:00'
+    parser_version: boltbase-1.2-review-policy
+    price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price": "0.03",
+      "source_text": "Buy 5000 + - 90% Each £0.03 £0.30", "basis": "user policy 2026-10-13"}}'
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "For a withheld 10000-unit price, inherit the highest available
+      lower-quantity unit price."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+    specifications: 'Thread Size: M3 (3mm); Length (Including Head): 25mm; M3 Socket
+      Countersunk Screws. Manufactured to DIN 7991 / ISO 10642 in Self Colour ( Black
+      ) High Tensile 10.9 Steel with a 3mm thread diameter and 0.5mm thread pitch.
+      Socket countersunk screws are typically used when a flush fitting screw is required.
+      Ideal when a screw with a low profile is required or for when the screw head
+      can not protrude from the work surface. Ideal for high stress applications or
+      for where a high strength bolt is required. These screws come mostly part threaded
+      as standard after a certain length. Please note that these bolts offer little
+      to no protection from rusting and are more suited for indoor use or for applications
+      where they are protected from moisture.'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
     supplier: boltbase
     supplier_id: 109SCCSK-3X25
     supplier_part_number: 109SCCSK-3X25
     supplier_website: https://boltbase.com/products/m3-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464509170045
+    tiers:
+    - maximum: 1
+      minimum: 1
+      source_text: Single Screw Buy 1 For £0.30
+      source_unit_price: '0.30'
+      source_vat_basis: exclusive
+      unit_price: '0.3600'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4
+      minimum: 2
+      source_text: Buy 2 + - 40% Each £0.18 £0.30
+      source_unit_price: '0.18'
+      source_vat_basis: exclusive
+      unit_price: '0.2160'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 9
+      minimum: 5
+      source_text: Buy 5 + - 49% Each £0.16 £0.30
+      source_unit_price: '0.16'
+      source_vat_basis: exclusive
+      unit_price: '0.1920'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 24
+      minimum: 10
+      source_text: Buy 10 + - 67% Each £0.10 £0.30
+      source_unit_price: '0.10'
+      source_vat_basis: exclusive
+      unit_price: '0.1200'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 49
+      minimum: 25
+      source_text: Buy 25 + - 75% Each £0.08 £0.30
+      source_unit_price: '0.08'
+      source_vat_basis: exclusive
+      unit_price: '0.0960'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 99
+      minimum: 50
+      source_text: Buy 50 + - 77% Each £0.07 £0.30
+      source_unit_price: '0.07'
+      source_vat_basis: exclusive
+      unit_price: '0.0840'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 249
+      minimum: 100
+      source_text: Buy 100 + - 81% Each £0.06 £0.30
+      source_unit_price: '0.06'
+      source_vat_basis: exclusive
+      unit_price: '0.0720'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 499
+      minimum: 250
+      source_text: Buy 250 + - 83% Each £0.06 £0.30
+      source_unit_price: '0.06'
+      source_vat_basis: exclusive
+      unit_price: '0.0720'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 500
+      source_text: Buy 500 + - 86% Each £0.05 £0.30
+      source_unit_price: '0.05'
+      source_vat_basis: exclusive
+      unit_price: '0.0600'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4999
+      minimum: 1000
+      source_text: Buy 1000 + - 88% Each £0.04 £0.30
+      source_unit_price: '0.04'
+      source_vat_basis: exclusive
+      unit_price: '0.0480'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 5000
+      minimum: 5000
+      source_text: Buy 5000 + - 90% Each £0.03 £0.30
+      source_unit_price: '0.03'
+      source_vat_basis: exclusive
+      unit_price: '0.0360'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.3600'
+    total_price_10: '1.2000'
+    total_price_100: '7.2000'
+    total_price_1000: '48.0000'
+    total_price_10000: '360.0000'
+    unit_price_1: '0.3600'
+    unit_price_10: '0.1200'
+    unit_price_100: '0.0720'
+    unit_price_1000: '0.0480'
+    unit_price_10000: '0.0360'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
   dibolt:
     supplier: dibolt
     supplier_id: 10170.030.025
@@ -42,6 +406,7 @@ supplier_data:
     supplier_part_number: M3-x-25mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
     supplier_website: https://www.kayfast.co.uk/view-product/COUNTERSUNK-SOCKET-SCREWS-HIGH-TENSILE-109-SELF-COLOUR
   orbitalfasteners:
+    accepted_warnings: '[]'
     box_quantity: '200'
     captured_at: '2026-10-11T00:39:44.509260+00:00'
     catalogue_page: '80'
@@ -51,8 +416,10 @@ supplier_data:
     html_sha256: 11c9f511d1154a4cc730bd96b0c547f961731a5c3b94a4364347bf6d1893d142
     name: M3 x 25 Socket Screw, Countersunk, High Tensile Grade 10.9 Self Colour,
       DIN 7991
-    parsed_at: '2026-10-11T12:57:04.212884+00:00'
-    parser_version: 1.1-vat-inclusive
+    parsed_at: '2026-10-13T10:53:15.122656+00:00'
+    parser_version: 1.2-review-policy
+    review_policy: ''
+    review_warnings: '[]'
     selected_by_current_filter: true
     source_vat_basis: inclusive
     status: ok

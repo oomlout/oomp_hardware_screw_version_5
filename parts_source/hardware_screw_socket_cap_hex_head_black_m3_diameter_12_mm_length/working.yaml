@@ -19,26 +19,396 @@ oobb_details:
 screw_style: screw_socket_cap
 supplier_data:
   aanddfasteners:
+    accepted_warnings: '["Source quantity band starts at zero; normalized minimum
+      to one item"]'
+    captured_at: '2026-10-12T19:11:06.878524+00:00'
+    currency: GBP
+    html_sha256: 9c270098737d2b859e33072683b0387fdde1555d8e3273506a2af45ea707754a
+    name: M3 x 12 Socket head cap screw, steel self colour, Din 912
+    packages: '[]'
+    parsed_at: '2026-10-13T10:55:59.065605+00:00'
+    parser_version: aanddfasteners-1.2-review-policy
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept zero-to-one quantity normalization and low-stock notices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: Product information High tensile Socket head cap screws, made
+      of 12.9 tensile steel with self colour finish to Din 912 with metric coarse
+      thread. Also known as a socket head cap screw, socket screw or Allen bolt. This
+      is a cap screw with a hexagonal recessed drive. A hex key, sometimes referred
+      to as an Allen wrench or Allen key, or hex driver is required to tighten or
+      loosen a socket screw. Socket screws are commonly used in assemblies that don't
+      provide sufficient clearance for a conventional wrench or spanner. Please note
+      that not all socket caps are fully threaded. If thread length is critical please
+      contact us for more info.
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
     supplier: aanddfasteners
     supplier_id: ST91203012SC
     supplier_part_number: ST91203012SC
     supplier_website: https://www.aanddfasteners.co.uk/shop/socket-screws/socket-cap/metric-din-912-iso-4762-steel-self-colour/m3-x-12-socket-head-cap-screw-steel-self-colour-din-912/details
+    tiers:
+    - maximum: 25
+      minimum: 1
+      source_text: 0 - 25 £ 0.12
+      source_unit_price: '0.12'
+      source_vat_basis: exclusive
+      unit_price: '0.1440'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 50
+      minimum: 26
+      source_text: 26 -50 £ 0.09
+      source_unit_price: '0.09'
+      source_vat_basis: exclusive
+      unit_price: '0.1080'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 51
+      source_text: 51+ £ 0.07
+      source_unit_price: '0.07'
+      source_vat_basis: exclusive
+      unit_price: '0.0840'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.1440'
+    total_price_10: '1.4400'
+    total_price_100: '8.4000'
+    total_price_1000: '84.0000'
+    total_price_10000: '840.0000'
+    unit_price_1: '0.1440'
+    unit_price_10: '0.1440'
+    unit_price_100: '0.0840'
+    unit_price_1000: '0.0840'
+    unit_price_10000: '0.0840'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Source quantity band starts at zero; normalized minimum to one item
   accu:
+    accepted_warnings: '["Accu displayed prices are rounded; derived totals use the
+      captured display precision", "Accu requires a quote from 400 units; prices beyond
+      that withheld", "Quantity 1000: no verified price/VAT band; price withheld",
+      "Quantity 10000: no verified price/VAT band; price withheld"]'
+    box_quantity: ''
+    captured_at: '2026-10-11T23:44:41.230028+00:00'
+    currency: GBP
+    description: 'Metric Socket Cap Head Screws feature an internal socket drive that
+      is designed for use with a Hex Key, otherwise known as an Allen Key. With the
+      terms ‘socket’ and ‘allen’ being so interchangeable within engineering, this
+      explains why these fasteners are also commonly referred to as Allen Key Bolts
+      or Socket Screws. Accu''s range of Cap Screws are manufactured in accordance
+      with industry standards, such as DIN 912 and ISO 4762. Screws within this range
+      are available in either a fully threaded or partially threaded form, with the
+      latter featuring an unthreaded portion below the head of the screw. The distinction
+      of whether the screw is fully threaded or not is detailed in each individual
+      product specification. If a larger unthreaded portion is required, Accu''s range
+      of Socket Shoulder Screws range may be more suitable, depending upon your application.
+      Metric Cap Head Captive Screws A number of Accu''s Metric & Imperial Socket
+      Cap Screws are also available to be modified to feature a precisely machined
+      unthreaded section, affording a retaining capability. These specialised Captive
+      Screws are used to provide a secure fixture and help to prevent damage or loss
+      of screws in a housing assembly. Accu''s range of Cap Head Captive Screws are
+      designed to aid compliance with EU Safety Directives. Vented Socket Screws Accu
+      can also offer Vented Cap Screws, which are a specially modified variant of
+      this component that allow the release of gases and pressure through a bore that
+      runs through the centre of the screw. Materials Socket Cap Screws within this
+      range are available in a wide selection of materials, including metals ranging
+      from A2, A4, A4-80, Duplex and Bumax Stainless Steel, 12.9 High Tensile Steel,
+      Aluminium and Titanium. Plastic variants are also available as standard in Nylon,
+      Polycarbonate, Reny and PEEK Thermoplastic.Optimise your Metric Socket Cap Head
+      Screws against vibrations and loosening with our pre-applied thread-locking
+      patches, from essential AccuLock Threadlocker, robust Anu-Lok 180 through to
+      our high performance Precote 80. Personalise your components with AccuBlack
+      chemical blackening to reduce reflections and add a premium finish aesthetic
+      finish. Metric Cap Head Screws Metric Socket Cap Screws are available from Accu
+      in sizes M1.4 to M30, and lengths of between 2mm and 300mm. Both partially threaded
+      and fully threaded varieties are available. Imperial Cap Head Screws Imperial
+      Socket Cap Head Screws are supplied in sizes between #0 (No. 0) and ¾ inches.
+      Lengths of between 3/32 inch and 5.½ inches are available as standard, and are
+      manufactured in both fully and partially threaded varieties. Minimum Thread
+      Length In accordance with DIN standards, Accu''s Socket Cap Screws are manufactured
+      to a minimum specified thread length - this measurement can be found within
+      each individual product page. If this dimension is critical to your application,
+      please contact us before placing your order.'
+    html_sha256: 8ad445280ae0247bb8554ba0adc53ecb9abdf588329e16082fb178acc059b550
+    name: M3 x 12mm Full Thread Socket Cap Head Screws (DIN 912) - High Tensile Steel
+      (12.9)
+    parsed_at: '2026-10-13T07:20:36.092526+00:00'
+    parser_version: accu-1.7-accepted-400-quotes
+    price_inheritance: ''
+    quote_minimum: '400'
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept rounded displayed prices, open-ended final advertised tiers,
+      and quotes required from 400 units; quote-only prices remain blank."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.02", "highPrice": "0.74",
+      "priceCurrency": "GBP", "offerCount": "8", "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/metric-cap-head-screws/16005-SSCF-M3-12-12-9",
+      "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type": "QuantitativeValue",
+      "value": 1, "unitCode": "ANN"}}}'
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "accus prices are all ex vat", "confirmed_on": "2026-10-13"}'
+    specifications: '{"Accu Product Code (APC)": "SSCF-M3-12-12.9", "Thread Size":
+      "M3 (3 mm)", "Length (L)": "12 mm", "Full Thread": "Yes", "Material": "Steel
+      - High Tensile (12.9)", "Finish": "Natural", "Drive Depth (P)": "1.3 mm", "Head
+      Diameter (D)": "5.68 mm (Tolerance: +0/-0.36 mm)", "Head Height (H)": "3 mm
+      (Tolerance: +0/-0.14 mm)", "Manufacturing Standard": "DIN 912", "Material Family":
+      "Steel", "Socket Size (J)": "2.5 mm", "Thread Pitch": "0.5 mm", "Thread Specification":
+      "Metric Coarse"}'
+    status: ok
+    stock_quantity: ''
+    stock_status: https://schema.org/InStock
     supplier: accu
     supplier_id: SSCF-M3-12-12.9
     supplier_part_number: SSCF-M3-12-12.9
     supplier_website: https://www.accu.co.uk/metric-cap-head-screws/16005-SSCF-M3-12-12-9
+    tiers:
+    - maximum: 1
+      minimum: 1
+      source_text: Buy 1 £0.74
+      source_unit_price: '0.74'
+      source_vat_basis: exclusive
+      unit_price: '0.8880'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 5
+      minimum: 2
+      source_text: Buy 2 £0.40 Save 45 %
+      source_unit_price: '0.40'
+      source_vat_basis: exclusive
+      unit_price: '0.4800'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 11
+      minimum: 6
+      source_text: Buy 6 £0.15 Save 79 %
+      source_unit_price: '0.15'
+      source_vat_basis: exclusive
+      unit_price: '0.1800'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 23
+      minimum: 12
+      source_text: Buy 12 £0.09 Save 87 %
+      source_unit_price: '0.09'
+      source_vat_basis: exclusive
+      unit_price: '0.1080'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 49
+      minimum: 24
+      source_text: Buy 24 £0.06 Save 91 %
+      source_unit_price: '0.06'
+      source_vat_basis: exclusive
+      unit_price: '0.0720'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 99
+      minimum: 50
+      source_text: Buy 50 £0.04 Save 94 %
+      source_unit_price: '0.04'
+      source_vat_basis: exclusive
+      unit_price: '0.0480'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 199
+      minimum: 100
+      source_text: Buy 100 £0.03 Save 95 %
+      source_unit_price: '0.03'
+      source_vat_basis: exclusive
+      unit_price: '0.0360'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 399
+      minimum: 200
+      source_text: Buy 200 £0.02 Save 97 %
+      source_unit_price: '0.02'
+      source_vat_basis: exclusive
+      unit_price: '0.0240'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.8880'
+    total_price_10: '1.8000'
+    total_price_100: '3.6000'
+    total_price_1000: ''
+    total_price_10000: ''
+    unit_price_1: '0.8880'
+    unit_price_10: '0.1800'
+    unit_price_100: '0.0360'
+    unit_price_1000: ''
+    unit_price_10000: ''
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Accu displayed prices are rounded; derived totals use the captured display precision
+    - Accu requires a quote from 400 units; prices beyond that withheld
+    - 'Quantity 1000: no verified price/VAT band; price withheld'
+    - 'Quantity 10000: no verified price/VAT band; price withheld'
   boltbase:
+    accepted_warnings: '["Final Bolt Base threshold has no verified upper bound; extrapolation
+      withheld"]'
+    captured_at: '2026-10-12T21:33:22.487257+00:00'
+    currency: GBP
+    html_sha256: 999ad9699d2d653451d12cb5de738618201b3f931b872f3c8afd82c608917156
+    name: M3 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
+    packages: '[]'
+    parsed_at: '2026-10-13T10:54:52.574556+00:00'
+    parser_version: boltbase-1.2-review-policy
+    price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price": "0.03",
+      "source_text": "Buy 5000 + Save 90% Each £0.03 £0.26", "basis": "user policy
+      2026-10-13"}}'
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "For a withheld 10000-unit price, inherit the highest available
+      lower-quantity unit price."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+    specifications: 'Thread Size: M3 (3mm); Length (Excluding Head): 12mm; M3 (3mm
+      Thread Diameter) Socket Cap Screws, also known as Allen Bolts. Manufactured
+      to DIN 912/ ISO 4762 in Self Colour High Tensile 12.9 Steel. Socket Cap Screws
+      are perfect for applications where space is limited or where the screw head
+      is installed in a recess due to the use of an allen key to tighten them. Ideal
+      for use where there is not enough clearance to use a Hex Head Bolt. Suitable
+      for applications where high strength is required due to the high tensile strength.
+      These screws are partially threaded as standard after a certain length. Please
+      note that these bolts offer little to no protection from rusting and are more
+      suited for indoor use or for applications where they are protected from moisture.'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
     supplier: boltbase
     supplier_id: SC12.9CP-3X12
     supplier_part_number: SC12.9CP-3X12
     supplier_website: https://boltbase.com/products/m3-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464729010557
+    tiers:
+    - maximum: 1
+      minimum: 1
+      source_text: Single Screw Buy 1 For £0.26
+      source_unit_price: '0.26'
+      source_vat_basis: exclusive
+      unit_price: '0.3120'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4
+      minimum: 2
+      source_text: Buy 2 + Save 38% Each £0.16 £0.26
+      source_unit_price: '0.16'
+      source_vat_basis: exclusive
+      unit_price: '0.1920'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 9
+      minimum: 5
+      source_text: Buy 5 + Save 48% Each £0.14 £0.26
+      source_unit_price: '0.14'
+      source_vat_basis: exclusive
+      unit_price: '0.1680'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 24
+      minimum: 10
+      source_text: Buy 10 + Save 67% Each £0.09 £0.26
+      source_unit_price: '0.09'
+      source_vat_basis: exclusive
+      unit_price: '0.1080'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 49
+      minimum: 25
+      source_text: Buy 25 + Save 75% Each £0.07 £0.26
+      source_unit_price: '0.07'
+      source_vat_basis: exclusive
+      unit_price: '0.0840'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 99
+      minimum: 50
+      source_text: Buy 50 + Save 77% Each £0.06 £0.26
+      source_unit_price: '0.06'
+      source_vat_basis: exclusive
+      unit_price: '0.0720'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 249
+      minimum: 100
+      source_text: Buy 100 + Save 81% Each £0.05 £0.26
+      source_unit_price: '0.05'
+      source_vat_basis: exclusive
+      unit_price: '0.0600'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 499
+      minimum: 250
+      source_text: Buy 250 + Save 83% Each £0.05 £0.26
+      source_unit_price: '0.05'
+      source_vat_basis: exclusive
+      unit_price: '0.0600'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 500
+      source_text: Buy 500 + Save 86% Each £0.04 £0.26
+      source_unit_price: '0.04'
+      source_vat_basis: exclusive
+      unit_price: '0.0480'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4999
+      minimum: 1000
+      source_text: Buy 1000 + Save 88% Each £0.04 £0.26
+      source_unit_price: '0.04'
+      source_vat_basis: exclusive
+      unit_price: '0.0480'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 5000
+      minimum: 5000
+      source_text: Buy 5000 + Save 90% Each £0.03 £0.26
+      source_unit_price: '0.03'
+      source_vat_basis: exclusive
+      unit_price: '0.0360'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.3120'
+    total_price_10: '1.0800'
+    total_price_100: '6.0000'
+    total_price_1000: '48.0000'
+    total_price_10000: '360.0000'
+    unit_price_1: '0.3120'
+    unit_price_10: '0.1080'
+    unit_price_100: '0.0600'
+    unit_price_1000: '0.0480'
+    unit_price_10000: '0.0360'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+  dibolt:
+    supplier: dibolt
+    supplier_id: 10161.030.012
+    supplier_part_number: 10161.030.012
+    supplier_website: https://dibolt.co.uk/products/m3-x-12mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
   kayfast:
     supplier: kayfast
     supplier_id: M3-x-12mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
     supplier_part_number: M3-x-12mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
     supplier_website: https://www.kayfast.co.uk/view-product/SOCKET-CAP-SCREWS-DIN-912-HIGH-TENSILE-SELF-COLOUR
   orbitalfasteners:
+    accepted_warnings: '[]'
     box_quantity: '200'
     captured_at: '2026-10-11T00:47:14.515538+00:00'
     catalogue_page: '78'
@@ -46,8 +416,10 @@ supplier_data:
     description: ''
     html_sha256: d7448c8f5835ddc793df81bfc1f37f5e00f095bc3f46cdbd8673b2b8f078acf9
     name: M3 x 12 Socket Cap Screw, High Tensile Grade 12.9 Self Colour, DIN 912
-    parsed_at: '2026-10-11T12:57:04.912931+00:00'
-    parser_version: 1.1-vat-inclusive
+    parsed_at: '2026-10-13T10:53:16.992451+00:00'
+    parser_version: 1.2-review-policy
+    review_policy: ''
+    review_warnings: '[]'
     selected_by_current_filter: true
     source_vat_basis: inclusive
     status: ok
@@ -106,10 +478,79 @@ supplier_data:
     vat_rate_source: https://www.gov.uk/vat-rates
     warnings: []
   westfieldfasteners:
+    accepted_warnings: '["Westfield sliding-scale prices only verified at advertised
+      package quantities; other quantities withheld", "Quantity 1: no unique verified
+      source price/VAT band; price withheld", "Quantity 10: no unique verified source
+      price/VAT band; price withheld", "Quantity 100: no unique verified source price/VAT
+      band; price withheld", "Quantity 1000: no unique verified source price/VAT band;
+      price withheld", "Quantity 10000: no unique verified source price/VAT band;
+      price withheld"]'
+    captured_at: '2026-10-12T01:03:49.294867+00:00'
+    currency: GBP
+    html_sha256: 559d690468afcea4cae30986ff70c6d93b42dc5deafbe1975f33a005c01b70bc
+    name: M3 x 12mm Unbrako Socket Head Cap Screw Full Thread in Black Oxide - ISO
+      4762 (DIN 912)
+    packages: '[{"quantity": 150, "total_price": "26.5440", "source_text": "box of
+      150 for £22.12", "source_total_price": "22.12", "source_vat_basis": "exclusive",
+      "vat_basis": "inclusive"}, {"quantity": 750, "total_price": "114.1200", "source_text":
+      "bulk of 750 for £95.10", "source_total_price": "95.10", "source_vat_basis":
+      "exclusive", "vat_basis": "inclusive"}]'
+    parsed_at: '2026-10-13T08:52:36.472310+00:00'
+    parser_version: westfieldfasteners-1.3-allen-cap-heading
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Include advertised package prices only; other quantities may remain
+      blank."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M3; Length: 12mm; M3 x 12mm Unbrako Socket Head
+      Cap Screw Full Thread in Black Oxide WF47910 - 386 in stock'
+    status: ok
+    stock_quantity: '386'
+    stock_status: ''
     supplier: westfieldfasteners
     supplier_id: WF47910
     supplier_part_number: WF47910
     supplier_website: https://www.westfieldfasteners.co.uk/Unbrako/Unbrako-Socket-Head-Cap-Screw-Full-Thread-M3x12-Black.html
+    tiers:
+    - maximum: 150
+      minimum: 150
+      source_text: box of 150 for £22.12
+      source_unit_price: '0.1474666666666666666666666667'
+      source_vat_basis: exclusive
+      unit_price: '0.1769600000000000000000000000'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 750
+      minimum: 750
+      source_text: bulk of 750 for £95.10
+      source_unit_price: '0.1268'
+      source_vat_basis: exclusive
+      unit_price: '0.152160'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: ''
+    total_price_10: ''
+    total_price_100: ''
+    total_price_1000: ''
+    total_price_10000: ''
+    unit_price_1: ''
+    unit_price_10: ''
+    unit_price_100: ''
+    unit_price_1000: ''
+    unit_price_10000: ''
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Westfield sliding-scale prices only verified at advertised package quantities;
+      other quantities withheld
+    - 'Quantity 1: no unique verified source price/VAT band; price withheld'
+    - 'Quantity 10: no unique verified source price/VAT band; price withheld'
+    - 'Quantity 100: no unique verified source price/VAT band; price withheld'
+    - 'Quantity 1000: no unique verified source price/VAT band; price withheld'
+    - 'Quantity 10000: no unique verified source price/VAT band; price withheld'
 svg_details:
   diameter_mm: 3.0
   drive_style: hex_head

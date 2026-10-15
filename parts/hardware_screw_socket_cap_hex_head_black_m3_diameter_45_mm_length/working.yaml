@@ -29,7 +29,6 @@ bip_39_full_space: orange fortune erode upper chalk chaos manual explain regret 
     solar salt
 bip_39_full_underscore: orange_fortune_erode_upper_chalk_chaos_manual_explain_regret_family_solar_salt
 directory: parts/hardware_screw_socket_cap_hex_head_black_m3_diameter_45_mm_length
-generate_stl: true
 id: hardware_screw_socket_cap_hex_head_black_m3_diameter_45_mm_length
 id_no_class: hardware_screw_socket_cap_hex_head_black_m3_diameter_45_mm_length
 id_no_size: hardware_screw_socket_cap_hex_head_black_m3_diameter_45_mm_length
@@ -701,10 +700,159 @@ oomlout_ai_roboclick_2:
             screw_style: screw_socket_cap
             supplier_data:
                 boltbase:
+                    accepted_warnings: '["Final Bolt Base threshold has no verified
+                        upper bound; extrapolation withheld"]'
+                    captured_at: '2026-10-12T21:39:04.998827+00:00'
+                    currency: GBP
+                    html_sha256: 389fe19fe4b1887bab6fb0a23bd22ee8a4371a7db1ca12939943638d9a411f17
+                    name: M3 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
+                    packages: '[]'
+                    parsed_at: '2026-10-13T10:54:55.356845+00:00'
+                    parser_version: boltbase-1.2-review-policy
+                    price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
+                        "0.08", "source_text": "Buy 5000 + Save 90% Each £0.08 £0.72",
+                        "basis": "user policy 2026-10-13"}}'
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "For a withheld 10000-unit price,
+                        inherit the highest available lower-quantity unit price."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "bolt base prices are ex
+                        vat", "confirmed_on": "2026-10-11"}'
+                    specifications: 'Thread Size: M3 (3mm); Length (Excluding Head):
+                        45mm (Partially Threaded); M3 (3mm Thread Diameter) Socket
+                        Cap Screws, also known as Allen Bolts. Manufactured to DIN
+                        912/ ISO 4762 in Self Colour High Tensile 12.9 Steel. Socket
+                        Cap Screws are perfect for applications where space is limited
+                        or where the screw head is installed in a recess due to the
+                        use of an allen key to tighten them. Ideal for use where there
+                        is not enough clearance to use a Hex Head Bolt. Suitable for
+                        applications where high strength is required due to the high
+                        tensile strength. These screws are partially threaded as standard
+                        after a certain length. Please note that these bolts offer
+                        little to no protection from rusting and are more suited for
+                        indoor use or for applications where they are protected from
+                        moisture.'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
                     supplier: boltbase
                     supplier_id: SC12.9CP-3X45
                     supplier_part_number: SC12.9CP-3X45
                     supplier_website: https://boltbase.com/products/m3-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464729371005
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: Single Screw Buy 1 For £0.72
+                        source_unit_price: '0.72'
+                        source_vat_basis: exclusive
+                        unit_price: '0.8640'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4
+                        minimum: 2
+                        source_text: Buy 2 + Save 40% Each £0.44 £0.72
+                        source_unit_price: '0.44'
+                        source_vat_basis: exclusive
+                        unit_price: '0.5280'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 9
+                        minimum: 5
+                        source_text: Buy 5 + Save 49% Each £0.37 £0.72
+                        source_unit_price: '0.37'
+                        source_vat_basis: exclusive
+                        unit_price: '0.4440'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 24
+                        minimum: 10
+                        source_text: Buy 10 + Save 67% Each £0.24 £0.72
+                        source_unit_price: '0.24'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2880'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 25
+                        source_text: Buy 25 + Save 75% Each £0.18 £0.72
+                        source_unit_price: '0.18'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2160'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: Buy 50 + Save 77% Each £0.17 £0.72
+                        source_unit_price: '0.17'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2040'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 249
+                        minimum: 100
+                        source_text: Buy 100 + Save 81% Each £0.14 £0.72
+                        source_unit_price: '0.14'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1680'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 250
+                        source_text: Buy 250 + Save 83% Each £0.13 £0.72
+                        source_unit_price: '0.13'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1560'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 500
+                        source_text: Buy 500 + Save 86% Each £0.11 £0.72
+                        source_unit_price: '0.11'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1320'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_text: Buy 1000 + Save 88% Each £0.09 £0.72
+                        source_unit_price: '0.09'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5000
+                        minimum: 5000
+                        source_text: Buy 5000 + Save 90% Each £0.08 £0.72
+                        source_unit_price: '0.08'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0960'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.8640'
+                    total_price_10: '2.8800'
+                    total_price_100: '16.8000'
+                    total_price_1000: '108.0000'
+                    total_price_10000: '960.0000'
+                    unit_price_1: '0.8640'
+                    unit_price_10: '0.2880'
+                    unit_price_100: '0.1680'
+                    unit_price_1000: '0.1080'
+                    unit_price_10000: '0.0960'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Final Bolt Base threshold has no verified upper bound; extrapolation
+                        withheld
+                dibolt:
+                    supplier: dibolt
+                    supplier_id: 10161.030.045
+                    supplier_part_number: 10161.030.045
+                    supplier_website: https://dibolt.co.uk/products/m3-x-45mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
             svg_details:
                 diameter_mm: 3.0
                 drive_style: hex_head
@@ -1678,10 +1826,165 @@ oomlout_ai_roboclick_3:
                         screw_style: screw_socket_cap
                         supplier_data:
                             boltbase:
+                                accepted_warnings: '["Final Bolt Base threshold has
+                                    no verified upper bound; extrapolation withheld"]'
+                                captured_at: '2026-10-12T21:39:04.998827+00:00'
+                                currency: GBP
+                                html_sha256: 389fe19fe4b1887bab6fb0a23bd22ee8a4371a7db1ca12939943638d9a411f17
+                                name: M3 Self Colour 12.9 High Tensile Socket Cap
+                                    Screws DIN 912
+                                packages: '[]'
+                                parsed_at: '2026-10-13T10:54:55.356845+00:00'
+                                parser_version: boltbase-1.2-review-policy
+                                price_inheritance: '{"10000": {"source_quantity":
+                                    5000, "source_unit_price": "0.08", "source_text":
+                                    "Buy 5000 + Save 90% Each £0.08 £0.72", "basis":
+                                    "user policy 2026-10-13"}}'
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "For a withheld 10000-unit
+                                    price, inherit the highest available lower-quantity
+                                    unit price."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "bolt
+                                    base prices are ex vat", "confirmed_on": "2026-10-11"}'
+                                specifications: 'Thread Size: M3 (3mm); Length (Excluding
+                                    Head): 45mm (Partially Threaded); M3 (3mm Thread
+                                    Diameter) Socket Cap Screws, also known as Allen
+                                    Bolts. Manufactured to DIN 912/ ISO 4762 in Self
+                                    Colour High Tensile 12.9 Steel. Socket Cap Screws
+                                    are perfect for applications where space is limited
+                                    or where the screw head is installed in a recess
+                                    due to the use of an allen key to tighten them.
+                                    Ideal for use where there is not enough clearance
+                                    to use a Hex Head Bolt. Suitable for applications
+                                    where high strength is required due to the high
+                                    tensile strength. These screws are partially threaded
+                                    as standard after a certain length. Please note
+                                    that these bolts offer little to no protection
+                                    from rusting and are more suited for indoor use
+                                    or for applications where they are protected from
+                                    moisture.'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
                                 supplier: boltbase
                                 supplier_id: SC12.9CP-3X45
                                 supplier_part_number: SC12.9CP-3X45
                                 supplier_website: https://boltbase.com/products/m3-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464729371005
+                                tiers:
+                                -   maximum: 1
+                                    minimum: 1
+                                    source_text: Single Screw Buy 1 For £0.72
+                                    source_unit_price: '0.72'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.8640'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 4
+                                    minimum: 2
+                                    source_text: Buy 2 + Save 40% Each £0.44 £0.72
+                                    source_unit_price: '0.44'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.5280'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 9
+                                    minimum: 5
+                                    source_text: Buy 5 + Save 49% Each £0.37 £0.72
+                                    source_unit_price: '0.37'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.4440'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 24
+                                    minimum: 10
+                                    source_text: Buy 10 + Save 67% Each £0.24 £0.72
+                                    source_unit_price: '0.24'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.2880'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 49
+                                    minimum: 25
+                                    source_text: Buy 25 + Save 75% Each £0.18 £0.72
+                                    source_unit_price: '0.18'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.2160'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 99
+                                    minimum: 50
+                                    source_text: Buy 50 + Save 77% Each £0.17 £0.72
+                                    source_unit_price: '0.17'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.2040'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 249
+                                    minimum: 100
+                                    source_text: Buy 100 + Save 81% Each £0.14 £0.72
+                                    source_unit_price: '0.14'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1680'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 499
+                                    minimum: 250
+                                    source_text: Buy 250 + Save 83% Each £0.13 £0.72
+                                    source_unit_price: '0.13'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1560'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 999
+                                    minimum: 500
+                                    source_text: Buy 500 + Save 86% Each £0.11 £0.72
+                                    source_unit_price: '0.11'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1320'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 4999
+                                    minimum: 1000
+                                    source_text: Buy 1000 + Save 88% Each £0.09 £0.72
+                                    source_unit_price: '0.09'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1080'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 5000
+                                    minimum: 5000
+                                    source_text: Buy 5000 + Save 90% Each £0.08 £0.72
+                                    source_unit_price: '0.08'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0960'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.8640'
+                                total_price_10: '2.8800'
+                                total_price_100: '16.8000'
+                                total_price_1000: '108.0000'
+                                total_price_10000: '960.0000'
+                                unit_price_1: '0.8640'
+                                unit_price_10: '0.2880'
+                                unit_price_100: '0.1680'
+                                unit_price_1000: '0.1080'
+                                unit_price_10000: '0.0960'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Final Bolt Base threshold has no verified upper
+                                    bound; extrapolation withheld
+                            dibolt:
+                                supplier: dibolt
+                                supplier_id: 10161.030.045
+                                supplier_part_number: 10161.030.045
+                                supplier_website: https://dibolt.co.uk/products/m3-x-45mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
                         svg_details:
                             diameter_mm: 3.0
                             drive_style: hex_head
@@ -1967,10 +2270,159 @@ oomlout_ai_roboclick_3:
             screw_style: screw_socket_cap
             supplier_data:
                 boltbase:
+                    accepted_warnings: '["Final Bolt Base threshold has no verified
+                        upper bound; extrapolation withheld"]'
+                    captured_at: '2026-10-12T21:39:04.998827+00:00'
+                    currency: GBP
+                    html_sha256: 389fe19fe4b1887bab6fb0a23bd22ee8a4371a7db1ca12939943638d9a411f17
+                    name: M3 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
+                    packages: '[]'
+                    parsed_at: '2026-10-13T10:54:55.356845+00:00'
+                    parser_version: boltbase-1.2-review-policy
+                    price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
+                        "0.08", "source_text": "Buy 5000 + Save 90% Each £0.08 £0.72",
+                        "basis": "user policy 2026-10-13"}}'
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "For a withheld 10000-unit price,
+                        inherit the highest available lower-quantity unit price."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "bolt base prices are ex
+                        vat", "confirmed_on": "2026-10-11"}'
+                    specifications: 'Thread Size: M3 (3mm); Length (Excluding Head):
+                        45mm (Partially Threaded); M3 (3mm Thread Diameter) Socket
+                        Cap Screws, also known as Allen Bolts. Manufactured to DIN
+                        912/ ISO 4762 in Self Colour High Tensile 12.9 Steel. Socket
+                        Cap Screws are perfect for applications where space is limited
+                        or where the screw head is installed in a recess due to the
+                        use of an allen key to tighten them. Ideal for use where there
+                        is not enough clearance to use a Hex Head Bolt. Suitable for
+                        applications where high strength is required due to the high
+                        tensile strength. These screws are partially threaded as standard
+                        after a certain length. Please note that these bolts offer
+                        little to no protection from rusting and are more suited for
+                        indoor use or for applications where they are protected from
+                        moisture.'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
                     supplier: boltbase
                     supplier_id: SC12.9CP-3X45
                     supplier_part_number: SC12.9CP-3X45
                     supplier_website: https://boltbase.com/products/m3-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464729371005
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: Single Screw Buy 1 For £0.72
+                        source_unit_price: '0.72'
+                        source_vat_basis: exclusive
+                        unit_price: '0.8640'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4
+                        minimum: 2
+                        source_text: Buy 2 + Save 40% Each £0.44 £0.72
+                        source_unit_price: '0.44'
+                        source_vat_basis: exclusive
+                        unit_price: '0.5280'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 9
+                        minimum: 5
+                        source_text: Buy 5 + Save 49% Each £0.37 £0.72
+                        source_unit_price: '0.37'
+                        source_vat_basis: exclusive
+                        unit_price: '0.4440'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 24
+                        minimum: 10
+                        source_text: Buy 10 + Save 67% Each £0.24 £0.72
+                        source_unit_price: '0.24'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2880'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 25
+                        source_text: Buy 25 + Save 75% Each £0.18 £0.72
+                        source_unit_price: '0.18'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2160'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: Buy 50 + Save 77% Each £0.17 £0.72
+                        source_unit_price: '0.17'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2040'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 249
+                        minimum: 100
+                        source_text: Buy 100 + Save 81% Each £0.14 £0.72
+                        source_unit_price: '0.14'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1680'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 250
+                        source_text: Buy 250 + Save 83% Each £0.13 £0.72
+                        source_unit_price: '0.13'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1560'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 500
+                        source_text: Buy 500 + Save 86% Each £0.11 £0.72
+                        source_unit_price: '0.11'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1320'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_text: Buy 1000 + Save 88% Each £0.09 £0.72
+                        source_unit_price: '0.09'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5000
+                        minimum: 5000
+                        source_text: Buy 5000 + Save 90% Each £0.08 £0.72
+                        source_unit_price: '0.08'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0960'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.8640'
+                    total_price_10: '2.8800'
+                    total_price_100: '16.8000'
+                    total_price_1000: '108.0000'
+                    total_price_10000: '960.0000'
+                    unit_price_1: '0.8640'
+                    unit_price_10: '0.2880'
+                    unit_price_100: '0.1680'
+                    unit_price_1000: '0.1080'
+                    unit_price_10000: '0.0960'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Final Bolt Base threshold has no verified upper bound; extrapolation
+                        withheld
+                dibolt:
+                    supplier: dibolt
+                    supplier_id: 10161.030.045
+                    supplier_part_number: 10161.030.045
+                    supplier_website: https://dibolt.co.uk/products/m3-x-45mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
             svg_details:
                 diameter_mm: 3.0
                 drive_style: hex_head
@@ -2257,17 +2709,157 @@ oomlout_ai_roboclick_4:
         file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
     file_test: ''
 oomp_key: oomp_hardware_screw_socket_cap_hex_head_black_m3_diameter_45_mm_length
-run_action: true
-run_oomp: true
-run_oomp_populate: true
-run_scad: true
 screw_style: screw_socket_cap
 supplier_data:
     boltbase:
+        accepted_warnings: '["Final Bolt Base threshold has no verified upper bound;
+            extrapolation withheld"]'
+        captured_at: '2026-10-12T21:39:04.998827+00:00'
+        currency: GBP
+        html_sha256: 389fe19fe4b1887bab6fb0a23bd22ee8a4371a7db1ca12939943638d9a411f17
+        name: M3 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
+        packages: '[]'
+        parsed_at: '2026-10-13T10:54:55.356845+00:00'
+        parser_version: boltbase-1.2-review-policy
+        price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
+            "0.08", "source_text": "Buy 5000 + Save 90% Each £0.08 £0.72", "basis":
+            "user policy 2026-10-13"}}'
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "For a withheld 10000-unit price, inherit the highest available
+            lower-quantity unit price."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+        specifications: 'Thread Size: M3 (3mm); Length (Excluding Head): 45mm (Partially
+            Threaded); M3 (3mm Thread Diameter) Socket Cap Screws, also known as Allen
+            Bolts. Manufactured to DIN 912/ ISO 4762 in Self Colour High Tensile 12.9
+            Steel. Socket Cap Screws are perfect for applications where space is limited
+            or where the screw head is installed in a recess due to the use of an
+            allen key to tighten them. Ideal for use where there is not enough clearance
+            to use a Hex Head Bolt. Suitable for applications where high strength
+            is required due to the high tensile strength. These screws are partially
+            threaded as standard after a certain length. Please note that these bolts
+            offer little to no protection from rusting and are more suited for indoor
+            use or for applications where they are protected from moisture.'
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
         supplier: boltbase
         supplier_id: SC12.9CP-3X45
         supplier_part_number: SC12.9CP-3X45
         supplier_website: https://boltbase.com/products/m3-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464729371005
+        tiers:
+        -   maximum: 1
+            minimum: 1
+            source_text: Single Screw Buy 1 For £0.72
+            source_unit_price: '0.72'
+            source_vat_basis: exclusive
+            unit_price: '0.8640'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 4
+            minimum: 2
+            source_text: Buy 2 + Save 40% Each £0.44 £0.72
+            source_unit_price: '0.44'
+            source_vat_basis: exclusive
+            unit_price: '0.5280'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 9
+            minimum: 5
+            source_text: Buy 5 + Save 49% Each £0.37 £0.72
+            source_unit_price: '0.37'
+            source_vat_basis: exclusive
+            unit_price: '0.4440'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 24
+            minimum: 10
+            source_text: Buy 10 + Save 67% Each £0.24 £0.72
+            source_unit_price: '0.24'
+            source_vat_basis: exclusive
+            unit_price: '0.2880'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 49
+            minimum: 25
+            source_text: Buy 25 + Save 75% Each £0.18 £0.72
+            source_unit_price: '0.18'
+            source_vat_basis: exclusive
+            unit_price: '0.2160'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 99
+            minimum: 50
+            source_text: Buy 50 + Save 77% Each £0.17 £0.72
+            source_unit_price: '0.17'
+            source_vat_basis: exclusive
+            unit_price: '0.2040'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 249
+            minimum: 100
+            source_text: Buy 100 + Save 81% Each £0.14 £0.72
+            source_unit_price: '0.14'
+            source_vat_basis: exclusive
+            unit_price: '0.1680'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 499
+            minimum: 250
+            source_text: Buy 250 + Save 83% Each £0.13 £0.72
+            source_unit_price: '0.13'
+            source_vat_basis: exclusive
+            unit_price: '0.1560'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 999
+            minimum: 500
+            source_text: Buy 500 + Save 86% Each £0.11 £0.72
+            source_unit_price: '0.11'
+            source_vat_basis: exclusive
+            unit_price: '0.1320'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 4999
+            minimum: 1000
+            source_text: Buy 1000 + Save 88% Each £0.09 £0.72
+            source_unit_price: '0.09'
+            source_vat_basis: exclusive
+            unit_price: '0.1080'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 5000
+            minimum: 5000
+            source_text: Buy 5000 + Save 90% Each £0.08 £0.72
+            source_unit_price: '0.08'
+            source_vat_basis: exclusive
+            unit_price: '0.0960'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.8640'
+        total_price_10: '2.8800'
+        total_price_100: '16.8000'
+        total_price_1000: '108.0000'
+        total_price_10000: '960.0000'
+        unit_price_1: '0.8640'
+        unit_price_10: '0.2880'
+        unit_price_100: '0.1680'
+        unit_price_1000: '0.1080'
+        unit_price_10000: '0.0960'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+    dibolt:
+        supplier: dibolt
+        supplier_id: 10161.030.045
+        supplier_part_number: 10161.030.045
+        supplier_website: https://dibolt.co.uk/products/m3-x-45mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
 svg_details:
     diameter_mm: 3.0
     drive_style: hex_head

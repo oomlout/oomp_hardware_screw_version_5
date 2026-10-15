@@ -29,7 +29,6 @@ bip_39_full_space: marine shift sun fault shrug benefit grain silent solid staff
     way
 bip_39_full_underscore: marine_shift_sun_fault_shrug_benefit_grain_silent_solid_staff_rapid_way
 directory: parts/hardware_screw_socket_cap_hex_head_black_m5_diameter_70_mm_length
-generate_stl: true
 id: hardware_screw_socket_cap_hex_head_black_m5_diameter_70_mm_length
 id_no_class: hardware_screw_socket_cap_hex_head_black_m5_diameter_70_mm_length
 id_no_size: hardware_screw_socket_cap_hex_head_black_m5_diameter_70_mm_length
@@ -700,11 +699,330 @@ oomlout_ai_roboclick_2:
                 retries_until_complete: 0
             screw_style: screw_socket_cap
             supplier_data:
+                accu:
+                    supplier: accu
+                    supplier_id: SSC-M5-70-12.9
+                    supplier_part_number: SSC-M5-70-12.9
+                    supplier_website: https://www.accu.co.uk/metric-cap-head-screws/16056-SSC-M5-70-12-9
+                boltbase:
+                    accepted_warnings: '["Final Bolt Base threshold has no verified
+                        upper bound; extrapolation withheld"]'
+                    captured_at: '2026-10-12T22:08:34.361411+00:00'
+                    currency: GBP
+                    html_sha256: cb76e20806b971004200071585000632af27898edf0009fdab0657b9947284dc
+                    name: M5 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
+                    packages: '[]'
+                    parsed_at: '2026-10-13T10:55:11.625100+00:00'
+                    parser_version: boltbase-1.2-review-policy
+                    price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
+                        "0.08", "source_text": "Buy 5000 + Save 90% Each £0.08 £0.78",
+                        "basis": "user policy 2026-10-13"}}'
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "For a withheld 10000-unit price,
+                        inherit the highest available lower-quantity unit price."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "bolt base prices are ex
+                        vat", "confirmed_on": "2026-10-11"}'
+                    specifications: 'Thread Size: M5 (5mm); Length (Excluding Head):
+                        70mm (Partially Threaded); M5 (5mm Thread Diameter) Socket
+                        Cap Screws, also known as Allen Bolts. Manufactured to DIN
+                        912/ ISO 4762 in Self Colour High Tensile 12.9 Steel. Socket
+                        Cap Screws are perfect for applications where space is limited
+                        or where the screw head is installed in a recess due to the
+                        use of an allen key to tighten them. Ideal for use where there
+                        is not enough clearance to use a Hex Head Bolt. Suitable for
+                        applications where high strength is required due to the high
+                        tensile strength. These screws are partially threaded as standard
+                        after a certain length. Please note that these bolts offer
+                        little to no protection from rusting and are more suited for
+                        indoor use or for applications where they are protected from
+                        moisture.'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: boltbase
+                    supplier_id: SC12.9CP-5X70
+                    supplier_part_number: SC12.9CP-5X70
+                    supplier_website: https://boltbase.com/products/m5-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464732680573
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: Single Screw Buy 1 For £0.78
+                        source_unit_price: '0.78'
+                        source_vat_basis: exclusive
+                        unit_price: '0.9360'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4
+                        minimum: 2
+                        source_text: Buy 2 + Save 40% Each £0.47 £0.78
+                        source_unit_price: '0.47'
+                        source_vat_basis: exclusive
+                        unit_price: '0.5640'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 9
+                        minimum: 5
+                        source_text: Buy 5 + Save 49% Each £0.40 £0.78
+                        source_unit_price: '0.40'
+                        source_vat_basis: exclusive
+                        unit_price: '0.4800'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 24
+                        minimum: 10
+                        source_text: Buy 10 + Save 67% Each £0.26 £0.78
+                        source_unit_price: '0.26'
+                        source_vat_basis: exclusive
+                        unit_price: '0.3120'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 25
+                        source_text: Buy 25 + Save 75% Each £0.20 £0.78
+                        source_unit_price: '0.20'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2400'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: Buy 50 + Save 77% Each £0.18 £0.78
+                        source_unit_price: '0.18'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2160'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 249
+                        minimum: 100
+                        source_text: Buy 100 + Save 81% Each £0.15 £0.78
+                        source_unit_price: '0.15'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1800'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 250
+                        source_text: Buy 250 + Save 83% Each £0.14 £0.78
+                        source_unit_price: '0.14'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1680'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 500
+                        source_text: Buy 500 + Save 86% Each £0.11 £0.78
+                        source_unit_price: '0.11'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1320'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_text: Buy 1000 + Save 88% Each £0.10 £0.78
+                        source_unit_price: '0.10'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5000
+                        minimum: 5000
+                        source_text: Buy 5000 + Save 90% Each £0.08 £0.78
+                        source_unit_price: '0.08'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0960'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.9360'
+                    total_price_10: '3.1200'
+                    total_price_100: '18.0000'
+                    total_price_1000: '120.0000'
+                    total_price_10000: '960.0000'
+                    unit_price_1: '0.9360'
+                    unit_price_10: '0.3120'
+                    unit_price_100: '0.1800'
+                    unit_price_1000: '0.1200'
+                    unit_price_10000: '0.0960'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Final Bolt Base threshold has no verified upper bound; extrapolation
+                        withheld
+                dibolt:
+                    supplier: dibolt
+                    supplier_id: 10161.050.070
+                    supplier_part_number: 10161.050.070
+                    supplier_website: https://dibolt.co.uk/products/m5-x-70mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
+                kayfast:
+                    supplier: kayfast
+                    supplier_id: M5-x-70mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+                    supplier_part_number: M5-x-70mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+                    supplier_website: https://www.kayfast.co.uk/view-product/SOCKET-CAP-SCREWS-DIN-912-HIGH-TENSILE-SELF-COLOUR
                 orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '200'
+                    captured_at: '2026-10-11T22:15:06.401219+00:00'
+                    catalogue_page: '78'
+                    currency: GBP
+                    description: ''
+                    html_sha256: 8cf069c92b367068afb5f46ec8e454311db812dca7064528cde859c39f2ed2dc
+                    name: M5 x 70 Socket Cap Screw, High Tensile Grade 12.9 Self Colour,
+                        DIN 912
+                    parsed_at: '2026-10-13T10:53:20.357885+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '860'
                     supplier: orbitalfasteners
                     supplier_id: '1891265'
                     supplier_part_number: '1891265'
                     supplier_website: https://www.orbitalfasteners.co.uk/products/m5-x-70-socket-cap-screw-high-tensile-grade-12-9-self-colour
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_text: 1 - 199 £0.1188 Inc. VAT £11.88 Inc. VAT
+                        source_unit_price: '0.1188'
+                        source_vat_basis: inclusive
+                        unit_price: '0.1188'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_text: 200 - 999 £0.066 Inc. VAT £6.60 Inc. VAT
+                        source_unit_price: '0.066'
+                        source_vat_basis: inclusive
+                        unit_price: '0.066'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 1199
+                        minimum: 1000
+                        source_text: 1000 - 1199 £0.0594 Inc. VAT £5.94 Inc. VAT
+                        source_unit_price: '0.0594'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0594'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 1200
+                        source_text: 1200 + £0.0528 Inc. VAT £5.28 Inc. VAT
+                        source_unit_price: '0.0528'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0528'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.1188'
+                    total_price_10: '1.1880'
+                    total_price_100: '11.8800'
+                    total_price_1000: '59.4000'
+                    total_price_10000: '528.0000'
+                    unit_price_1: '0.1188'
+                    unit_price_10: '0.1188'
+                    unit_price_100: '0.1188'
+                    unit_price_1000: '0.0594'
+                    unit_price_10000: '0.0528'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+                westfieldfasteners:
+                    accepted_warnings: '["Westfield sliding-scale prices only verified
+                        at advertised package quantities; other quantities withheld",
+                        "Quantity 10: no unique verified source price/VAT band; price
+                        withheld", "Quantity 100: no unique verified source price/VAT
+                        band; price withheld", "Quantity 1000: no unique verified
+                        source price/VAT band; price withheld", "Quantity 10000: no
+                        unique verified source price/VAT band; price withheld"]'
+                    captured_at: '2026-10-12T01:20:33.638466+00:00'
+                    currency: GBP
+                    html_sha256: ff1b6e323c90be74309d084c0b7e8a21a6d820ddbb567d9b73a86d5996a44baa
+                    name: M5 x 70mm Unbrako Socket Head Cap Screw Part Thread in Black
+                        Oxide - ISO 4762 (DIN 912)
+                    packages: '[{"quantity": 1, "total_price": "3.4080", "source_text":
+                        "single screw for £2.84", "source_total_price": "2.84", "source_vat_basis":
+                        "exclusive", "vat_basis": "inclusive"}, {"quantity": 30, "total_price":
+                        "25.9320", "source_text": "box of 30 for £21.61", "source_total_price":
+                        "21.61", "source_vat_basis": "exclusive", "vat_basis": "inclusive"},
+                        {"quantity": 150, "total_price": "110.7480", "source_text":
+                        "bulk of 150 for £92.29", "source_total_price": "92.29", "source_vat_basis":
+                        "exclusive", "vat_basis": "inclusive"}]'
+                    parsed_at: '2026-10-13T08:52:37.403551+00:00'
+                    parser_version: westfieldfasteners-1.3-allen-cap-heading
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Include advertised package prices
+                        only; other quantities may remain blank."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M5; Length: 70mm; M5 x 70mm Unbrako
+                        Socket Head Cap Screw Part Thread in Black Oxide WF47954 -
+                        191 in stock'
+                    status: ok
+                    stock_quantity: '191'
+                    stock_status: ''
+                    supplier: westfieldfasteners
+                    supplier_id: WF47954
+                    supplier_part_number: WF47954
+                    supplier_website: https://www.westfieldfasteners.co.uk/Unbrako/Unbrako-Socket-Head-Cap-Screw-Part-Thread-M5x70-Black.html
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: single screw for £2.84
+                        source_unit_price: '2.84'
+                        source_vat_basis: exclusive
+                        unit_price: '3.4080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 30
+                        minimum: 30
+                        source_text: box of 30 for £21.61
+                        source_unit_price: '0.7203333333333333333333333333'
+                        source_vat_basis: exclusive
+                        unit_price: '0.8644000000000000000000000000'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 150
+                        minimum: 150
+                        source_text: bulk of 150 for £92.29
+                        source_unit_price: '0.6152666666666666666666666667'
+                        source_vat_basis: exclusive
+                        unit_price: '0.7383200000000000000000000000'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '3.4080'
+                    total_price_10: ''
+                    total_price_100: ''
+                    total_price_1000: ''
+                    total_price_10000: ''
+                    unit_price_1: '3.4080'
+                    unit_price_10: ''
+                    unit_price_100: ''
+                    unit_price_1000: ''
+                    unit_price_10000: ''
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Westfield sliding-scale prices only verified at advertised package
+                        quantities; other quantities withheld
+                    - 'Quantity 10: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 100: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 1000: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 10000: no unique verified source price/VAT band; price
+                        withheld'
             svg_details:
                 diameter_mm: 5.0
                 drive_style: hex_head
@@ -1678,11 +1996,347 @@ oomlout_ai_roboclick_3:
                             retries_until_complete: 0
                         screw_style: screw_socket_cap
                         supplier_data:
+                            accu:
+                                supplier: accu
+                                supplier_id: SSC-M5-70-12.9
+                                supplier_part_number: SSC-M5-70-12.9
+                                supplier_website: https://www.accu.co.uk/metric-cap-head-screws/16056-SSC-M5-70-12-9
+                            boltbase:
+                                accepted_warnings: '["Final Bolt Base threshold has
+                                    no verified upper bound; extrapolation withheld"]'
+                                captured_at: '2026-10-12T22:08:34.361411+00:00'
+                                currency: GBP
+                                html_sha256: cb76e20806b971004200071585000632af27898edf0009fdab0657b9947284dc
+                                name: M5 Self Colour 12.9 High Tensile Socket Cap
+                                    Screws DIN 912
+                                packages: '[]'
+                                parsed_at: '2026-10-13T10:55:11.625100+00:00'
+                                parser_version: boltbase-1.2-review-policy
+                                price_inheritance: '{"10000": {"source_quantity":
+                                    5000, "source_unit_price": "0.08", "source_text":
+                                    "Buy 5000 + Save 90% Each £0.08 £0.78", "basis":
+                                    "user policy 2026-10-13"}}'
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "For a withheld 10000-unit
+                                    price, inherit the highest available lower-quantity
+                                    unit price."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "bolt
+                                    base prices are ex vat", "confirmed_on": "2026-10-11"}'
+                                specifications: 'Thread Size: M5 (5mm); Length (Excluding
+                                    Head): 70mm (Partially Threaded); M5 (5mm Thread
+                                    Diameter) Socket Cap Screws, also known as Allen
+                                    Bolts. Manufactured to DIN 912/ ISO 4762 in Self
+                                    Colour High Tensile 12.9 Steel. Socket Cap Screws
+                                    are perfect for applications where space is limited
+                                    or where the screw head is installed in a recess
+                                    due to the use of an allen key to tighten them.
+                                    Ideal for use where there is not enough clearance
+                                    to use a Hex Head Bolt. Suitable for applications
+                                    where high strength is required due to the high
+                                    tensile strength. These screws are partially threaded
+                                    as standard after a certain length. Please note
+                                    that these bolts offer little to no protection
+                                    from rusting and are more suited for indoor use
+                                    or for applications where they are protected from
+                                    moisture.'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: boltbase
+                                supplier_id: SC12.9CP-5X70
+                                supplier_part_number: SC12.9CP-5X70
+                                supplier_website: https://boltbase.com/products/m5-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464732680573
+                                tiers:
+                                -   maximum: 1
+                                    minimum: 1
+                                    source_text: Single Screw Buy 1 For £0.78
+                                    source_unit_price: '0.78'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.9360'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 4
+                                    minimum: 2
+                                    source_text: Buy 2 + Save 40% Each £0.47 £0.78
+                                    source_unit_price: '0.47'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.5640'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 9
+                                    minimum: 5
+                                    source_text: Buy 5 + Save 49% Each £0.40 £0.78
+                                    source_unit_price: '0.40'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.4800'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 24
+                                    minimum: 10
+                                    source_text: Buy 10 + Save 67% Each £0.26 £0.78
+                                    source_unit_price: '0.26'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.3120'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 49
+                                    minimum: 25
+                                    source_text: Buy 25 + Save 75% Each £0.20 £0.78
+                                    source_unit_price: '0.20'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.2400'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 99
+                                    minimum: 50
+                                    source_text: Buy 50 + Save 77% Each £0.18 £0.78
+                                    source_unit_price: '0.18'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.2160'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 249
+                                    minimum: 100
+                                    source_text: Buy 100 + Save 81% Each £0.15 £0.78
+                                    source_unit_price: '0.15'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1800'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 499
+                                    minimum: 250
+                                    source_text: Buy 250 + Save 83% Each £0.14 £0.78
+                                    source_unit_price: '0.14'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1680'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 999
+                                    minimum: 500
+                                    source_text: Buy 500 + Save 86% Each £0.11 £0.78
+                                    source_unit_price: '0.11'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1320'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 4999
+                                    minimum: 1000
+                                    source_text: Buy 1000 + Save 88% Each £0.10 £0.78
+                                    source_unit_price: '0.10'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1200'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 5000
+                                    minimum: 5000
+                                    source_text: Buy 5000 + Save 90% Each £0.08 £0.78
+                                    source_unit_price: '0.08'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0960'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.9360'
+                                total_price_10: '3.1200'
+                                total_price_100: '18.0000'
+                                total_price_1000: '120.0000'
+                                total_price_10000: '960.0000'
+                                unit_price_1: '0.9360'
+                                unit_price_10: '0.3120'
+                                unit_price_100: '0.1800'
+                                unit_price_1000: '0.1200'
+                                unit_price_10000: '0.0960'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Final Bolt Base threshold has no verified upper
+                                    bound; extrapolation withheld
+                            dibolt:
+                                supplier: dibolt
+                                supplier_id: 10161.050.070
+                                supplier_part_number: 10161.050.070
+                                supplier_website: https://dibolt.co.uk/products/m5-x-70mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
+                            kayfast:
+                                supplier: kayfast
+                                supplier_id: M5-x-70mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+                                supplier_part_number: M5-x-70mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+                                supplier_website: https://www.kayfast.co.uk/view-product/SOCKET-CAP-SCREWS-DIN-912-HIGH-TENSILE-SELF-COLOUR
                             orbitalfasteners:
+                                accepted_warnings: '[]'
+                                box_quantity: '200'
+                                captured_at: '2026-10-11T22:15:06.401219+00:00'
+                                catalogue_page: '78'
+                                currency: GBP
+                                description: ''
+                                html_sha256: 8cf069c92b367068afb5f46ec8e454311db812dca7064528cde859c39f2ed2dc
+                                name: M5 x 70 Socket Cap Screw, High Tensile Grade
+                                    12.9 Self Colour, DIN 912
+                                parsed_at: '2026-10-13T10:53:20.357885+00:00'
+                                parser_version: 1.2-review-policy
+                                review_policy: ''
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: inclusive
+                                status: ok
+                                stock_as_of: 9th October 2026 10:01pm
+                                stock_quantity: '860'
                                 supplier: orbitalfasteners
                                 supplier_id: '1891265'
                                 supplier_part_number: '1891265'
                                 supplier_website: https://www.orbitalfasteners.co.uk/products/m5-x-70-socket-cap-screw-high-tensile-grade-12-9-self-colour
+                                tiers:
+                                -   maximum: 199
+                                    minimum: 1
+                                    source_text: 1 - 199 £0.1188 Inc. VAT £11.88 Inc.
+                                        VAT
+                                    source_unit_price: '0.1188'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.1188'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 999
+                                    minimum: 200
+                                    source_text: 200 - 999 £0.066 Inc. VAT £6.60 Inc.
+                                        VAT
+                                    source_unit_price: '0.066'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.066'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 1199
+                                    minimum: 1000
+                                    source_text: 1000 - 1199 £0.0594 Inc. VAT £5.94
+                                        Inc. VAT
+                                    source_unit_price: '0.0594'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0594'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 1200
+                                    source_text: 1200 + £0.0528 Inc. VAT £5.28 Inc.
+                                        VAT
+                                    source_unit_price: '0.0528'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0528'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.1188'
+                                total_price_10: '1.1880'
+                                total_price_100: '11.8800'
+                                total_price_1000: '59.4000'
+                                total_price_10000: '528.0000'
+                                unit_price_1: '0.1188'
+                                unit_price_10: '0.1188'
+                                unit_price_100: '0.1188'
+                                unit_price_1000: '0.0594'
+                                unit_price_10000: '0.0528'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings: []
+                            westfieldfasteners:
+                                accepted_warnings: '["Westfield sliding-scale prices
+                                    only verified at advertised package quantities;
+                                    other quantities withheld", "Quantity 10: no unique
+                                    verified source price/VAT band; price withheld",
+                                    "Quantity 100: no unique verified source price/VAT
+                                    band; price withheld", "Quantity 1000: no unique
+                                    verified source price/VAT band; price withheld",
+                                    "Quantity 10000: no unique verified source price/VAT
+                                    band; price withheld"]'
+                                captured_at: '2026-10-12T01:20:33.638466+00:00'
+                                currency: GBP
+                                html_sha256: ff1b6e323c90be74309d084c0b7e8a21a6d820ddbb567d9b73a86d5996a44baa
+                                name: M5 x 70mm Unbrako Socket Head Cap Screw Part
+                                    Thread in Black Oxide - ISO 4762 (DIN 912)
+                                packages: '[{"quantity": 1, "total_price": "3.4080",
+                                    "source_text": "single screw for £2.84", "source_total_price":
+                                    "2.84", "source_vat_basis": "exclusive", "vat_basis":
+                                    "inclusive"}, {"quantity": 30, "total_price":
+                                    "25.9320", "source_text": "box of 30 for £21.61",
+                                    "source_total_price": "21.61", "source_vat_basis":
+                                    "exclusive", "vat_basis": "inclusive"}, {"quantity":
+                                    150, "total_price": "110.7480", "source_text":
+                                    "bulk of 150 for £92.29", "source_total_price":
+                                    "92.29", "source_vat_basis": "exclusive", "vat_basis":
+                                    "inclusive"}]'
+                                parsed_at: '2026-10-13T08:52:37.403551+00:00'
+                                parser_version: westfieldfasteners-1.3-allen-cap-heading
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Include advertised
+                                    package prices only; other quantities may remain
+                                    blank."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: 'Thread Size: M5; Length: 70mm; M5
+                                    x 70mm Unbrako Socket Head Cap Screw Part Thread
+                                    in Black Oxide WF47954 - 191 in stock'
+                                status: ok
+                                stock_quantity: '191'
+                                stock_status: ''
+                                supplier: westfieldfasteners
+                                supplier_id: WF47954
+                                supplier_part_number: WF47954
+                                supplier_website: https://www.westfieldfasteners.co.uk/Unbrako/Unbrako-Socket-Head-Cap-Screw-Part-Thread-M5x70-Black.html
+                                tiers:
+                                -   maximum: 1
+                                    minimum: 1
+                                    source_text: single screw for £2.84
+                                    source_unit_price: '2.84'
+                                    source_vat_basis: exclusive
+                                    unit_price: '3.4080'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 30
+                                    minimum: 30
+                                    source_text: box of 30 for £21.61
+                                    source_unit_price: '0.7203333333333333333333333333'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.8644000000000000000000000000'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 150
+                                    minimum: 150
+                                    source_text: bulk of 150 for £92.29
+                                    source_unit_price: '0.6152666666666666666666666667'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.7383200000000000000000000000'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '3.4080'
+                                total_price_10: ''
+                                total_price_100: ''
+                                total_price_1000: ''
+                                total_price_10000: ''
+                                unit_price_1: '3.4080'
+                                unit_price_10: ''
+                                unit_price_100: ''
+                                unit_price_1000: ''
+                                unit_price_10000: ''
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Westfield sliding-scale prices only verified at
+                                    advertised package quantities; other quantities
+                                    withheld
+                                - 'Quantity 10: no unique verified source price/VAT
+                                    band; price withheld'
+                                - 'Quantity 100: no unique verified source price/VAT
+                                    band; price withheld'
+                                - 'Quantity 1000: no unique verified source price/VAT
+                                    band; price withheld'
+                                - 'Quantity 10000: no unique verified source price/VAT
+                                    band; price withheld'
                         svg_details:
                             diameter_mm: 5.0
                             drive_style: hex_head
@@ -1968,11 +2622,330 @@ oomlout_ai_roboclick_3:
                 retries_until_complete: 0
             screw_style: screw_socket_cap
             supplier_data:
+                accu:
+                    supplier: accu
+                    supplier_id: SSC-M5-70-12.9
+                    supplier_part_number: SSC-M5-70-12.9
+                    supplier_website: https://www.accu.co.uk/metric-cap-head-screws/16056-SSC-M5-70-12-9
+                boltbase:
+                    accepted_warnings: '["Final Bolt Base threshold has no verified
+                        upper bound; extrapolation withheld"]'
+                    captured_at: '2026-10-12T22:08:34.361411+00:00'
+                    currency: GBP
+                    html_sha256: cb76e20806b971004200071585000632af27898edf0009fdab0657b9947284dc
+                    name: M5 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
+                    packages: '[]'
+                    parsed_at: '2026-10-13T10:55:11.625100+00:00'
+                    parser_version: boltbase-1.2-review-policy
+                    price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
+                        "0.08", "source_text": "Buy 5000 + Save 90% Each £0.08 £0.78",
+                        "basis": "user policy 2026-10-13"}}'
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "For a withheld 10000-unit price,
+                        inherit the highest available lower-quantity unit price."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "bolt base prices are ex
+                        vat", "confirmed_on": "2026-10-11"}'
+                    specifications: 'Thread Size: M5 (5mm); Length (Excluding Head):
+                        70mm (Partially Threaded); M5 (5mm Thread Diameter) Socket
+                        Cap Screws, also known as Allen Bolts. Manufactured to DIN
+                        912/ ISO 4762 in Self Colour High Tensile 12.9 Steel. Socket
+                        Cap Screws are perfect for applications where space is limited
+                        or where the screw head is installed in a recess due to the
+                        use of an allen key to tighten them. Ideal for use where there
+                        is not enough clearance to use a Hex Head Bolt. Suitable for
+                        applications where high strength is required due to the high
+                        tensile strength. These screws are partially threaded as standard
+                        after a certain length. Please note that these bolts offer
+                        little to no protection from rusting and are more suited for
+                        indoor use or for applications where they are protected from
+                        moisture.'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: boltbase
+                    supplier_id: SC12.9CP-5X70
+                    supplier_part_number: SC12.9CP-5X70
+                    supplier_website: https://boltbase.com/products/m5-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464732680573
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: Single Screw Buy 1 For £0.78
+                        source_unit_price: '0.78'
+                        source_vat_basis: exclusive
+                        unit_price: '0.9360'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4
+                        minimum: 2
+                        source_text: Buy 2 + Save 40% Each £0.47 £0.78
+                        source_unit_price: '0.47'
+                        source_vat_basis: exclusive
+                        unit_price: '0.5640'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 9
+                        minimum: 5
+                        source_text: Buy 5 + Save 49% Each £0.40 £0.78
+                        source_unit_price: '0.40'
+                        source_vat_basis: exclusive
+                        unit_price: '0.4800'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 24
+                        minimum: 10
+                        source_text: Buy 10 + Save 67% Each £0.26 £0.78
+                        source_unit_price: '0.26'
+                        source_vat_basis: exclusive
+                        unit_price: '0.3120'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 25
+                        source_text: Buy 25 + Save 75% Each £0.20 £0.78
+                        source_unit_price: '0.20'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2400'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: Buy 50 + Save 77% Each £0.18 £0.78
+                        source_unit_price: '0.18'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2160'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 249
+                        minimum: 100
+                        source_text: Buy 100 + Save 81% Each £0.15 £0.78
+                        source_unit_price: '0.15'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1800'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 250
+                        source_text: Buy 250 + Save 83% Each £0.14 £0.78
+                        source_unit_price: '0.14'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1680'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 500
+                        source_text: Buy 500 + Save 86% Each £0.11 £0.78
+                        source_unit_price: '0.11'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1320'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_text: Buy 1000 + Save 88% Each £0.10 £0.78
+                        source_unit_price: '0.10'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5000
+                        minimum: 5000
+                        source_text: Buy 5000 + Save 90% Each £0.08 £0.78
+                        source_unit_price: '0.08'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0960'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.9360'
+                    total_price_10: '3.1200'
+                    total_price_100: '18.0000'
+                    total_price_1000: '120.0000'
+                    total_price_10000: '960.0000'
+                    unit_price_1: '0.9360'
+                    unit_price_10: '0.3120'
+                    unit_price_100: '0.1800'
+                    unit_price_1000: '0.1200'
+                    unit_price_10000: '0.0960'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Final Bolt Base threshold has no verified upper bound; extrapolation
+                        withheld
+                dibolt:
+                    supplier: dibolt
+                    supplier_id: 10161.050.070
+                    supplier_part_number: 10161.050.070
+                    supplier_website: https://dibolt.co.uk/products/m5-x-70mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
+                kayfast:
+                    supplier: kayfast
+                    supplier_id: M5-x-70mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+                    supplier_part_number: M5-x-70mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+                    supplier_website: https://www.kayfast.co.uk/view-product/SOCKET-CAP-SCREWS-DIN-912-HIGH-TENSILE-SELF-COLOUR
                 orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '200'
+                    captured_at: '2026-10-11T22:15:06.401219+00:00'
+                    catalogue_page: '78'
+                    currency: GBP
+                    description: ''
+                    html_sha256: 8cf069c92b367068afb5f46ec8e454311db812dca7064528cde859c39f2ed2dc
+                    name: M5 x 70 Socket Cap Screw, High Tensile Grade 12.9 Self Colour,
+                        DIN 912
+                    parsed_at: '2026-10-13T10:53:20.357885+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '860'
                     supplier: orbitalfasteners
                     supplier_id: '1891265'
                     supplier_part_number: '1891265'
                     supplier_website: https://www.orbitalfasteners.co.uk/products/m5-x-70-socket-cap-screw-high-tensile-grade-12-9-self-colour
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_text: 1 - 199 £0.1188 Inc. VAT £11.88 Inc. VAT
+                        source_unit_price: '0.1188'
+                        source_vat_basis: inclusive
+                        unit_price: '0.1188'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_text: 200 - 999 £0.066 Inc. VAT £6.60 Inc. VAT
+                        source_unit_price: '0.066'
+                        source_vat_basis: inclusive
+                        unit_price: '0.066'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 1199
+                        minimum: 1000
+                        source_text: 1000 - 1199 £0.0594 Inc. VAT £5.94 Inc. VAT
+                        source_unit_price: '0.0594'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0594'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 1200
+                        source_text: 1200 + £0.0528 Inc. VAT £5.28 Inc. VAT
+                        source_unit_price: '0.0528'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0528'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.1188'
+                    total_price_10: '1.1880'
+                    total_price_100: '11.8800'
+                    total_price_1000: '59.4000'
+                    total_price_10000: '528.0000'
+                    unit_price_1: '0.1188'
+                    unit_price_10: '0.1188'
+                    unit_price_100: '0.1188'
+                    unit_price_1000: '0.0594'
+                    unit_price_10000: '0.0528'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+                westfieldfasteners:
+                    accepted_warnings: '["Westfield sliding-scale prices only verified
+                        at advertised package quantities; other quantities withheld",
+                        "Quantity 10: no unique verified source price/VAT band; price
+                        withheld", "Quantity 100: no unique verified source price/VAT
+                        band; price withheld", "Quantity 1000: no unique verified
+                        source price/VAT band; price withheld", "Quantity 10000: no
+                        unique verified source price/VAT band; price withheld"]'
+                    captured_at: '2026-10-12T01:20:33.638466+00:00'
+                    currency: GBP
+                    html_sha256: ff1b6e323c90be74309d084c0b7e8a21a6d820ddbb567d9b73a86d5996a44baa
+                    name: M5 x 70mm Unbrako Socket Head Cap Screw Part Thread in Black
+                        Oxide - ISO 4762 (DIN 912)
+                    packages: '[{"quantity": 1, "total_price": "3.4080", "source_text":
+                        "single screw for £2.84", "source_total_price": "2.84", "source_vat_basis":
+                        "exclusive", "vat_basis": "inclusive"}, {"quantity": 30, "total_price":
+                        "25.9320", "source_text": "box of 30 for £21.61", "source_total_price":
+                        "21.61", "source_vat_basis": "exclusive", "vat_basis": "inclusive"},
+                        {"quantity": 150, "total_price": "110.7480", "source_text":
+                        "bulk of 150 for £92.29", "source_total_price": "92.29", "source_vat_basis":
+                        "exclusive", "vat_basis": "inclusive"}]'
+                    parsed_at: '2026-10-13T08:52:37.403551+00:00'
+                    parser_version: westfieldfasteners-1.3-allen-cap-heading
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Include advertised package prices
+                        only; other quantities may remain blank."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M5; Length: 70mm; M5 x 70mm Unbrako
+                        Socket Head Cap Screw Part Thread in Black Oxide WF47954 -
+                        191 in stock'
+                    status: ok
+                    stock_quantity: '191'
+                    stock_status: ''
+                    supplier: westfieldfasteners
+                    supplier_id: WF47954
+                    supplier_part_number: WF47954
+                    supplier_website: https://www.westfieldfasteners.co.uk/Unbrako/Unbrako-Socket-Head-Cap-Screw-Part-Thread-M5x70-Black.html
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: single screw for £2.84
+                        source_unit_price: '2.84'
+                        source_vat_basis: exclusive
+                        unit_price: '3.4080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 30
+                        minimum: 30
+                        source_text: box of 30 for £21.61
+                        source_unit_price: '0.7203333333333333333333333333'
+                        source_vat_basis: exclusive
+                        unit_price: '0.8644000000000000000000000000'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 150
+                        minimum: 150
+                        source_text: bulk of 150 for £92.29
+                        source_unit_price: '0.6152666666666666666666666667'
+                        source_vat_basis: exclusive
+                        unit_price: '0.7383200000000000000000000000'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '3.4080'
+                    total_price_10: ''
+                    total_price_100: ''
+                    total_price_1000: ''
+                    total_price_10000: ''
+                    unit_price_1: '3.4080'
+                    unit_price_10: ''
+                    unit_price_100: ''
+                    unit_price_1000: ''
+                    unit_price_10000: ''
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Westfield sliding-scale prices only verified at advertised package
+                        quantities; other quantities withheld
+                    - 'Quantity 10: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 100: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 1000: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 10000: no unique verified source price/VAT band; price
+                        withheld'
             svg_details:
                 diameter_mm: 5.0
                 drive_style: hex_head
@@ -2260,17 +3233,320 @@ oomlout_ai_roboclick_4:
         file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
     file_test: ''
 oomp_key: oomp_hardware_screw_socket_cap_hex_head_black_m5_diameter_70_mm_length
-run_action: true
-run_oomp: true
-run_oomp_populate: true
-run_scad: true
 screw_style: screw_socket_cap
 supplier_data:
+    accu:
+        supplier: accu
+        supplier_id: SSC-M5-70-12.9
+        supplier_part_number: SSC-M5-70-12.9
+        supplier_website: https://www.accu.co.uk/metric-cap-head-screws/16056-SSC-M5-70-12-9
+    boltbase:
+        accepted_warnings: '["Final Bolt Base threshold has no verified upper bound;
+            extrapolation withheld"]'
+        captured_at: '2026-10-12T22:08:34.361411+00:00'
+        currency: GBP
+        html_sha256: cb76e20806b971004200071585000632af27898edf0009fdab0657b9947284dc
+        name: M5 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
+        packages: '[]'
+        parsed_at: '2026-10-13T10:55:11.625100+00:00'
+        parser_version: boltbase-1.2-review-policy
+        price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
+            "0.08", "source_text": "Buy 5000 + Save 90% Each £0.08 £0.78", "basis":
+            "user policy 2026-10-13"}}'
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "For a withheld 10000-unit price, inherit the highest available
+            lower-quantity unit price."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+        specifications: 'Thread Size: M5 (5mm); Length (Excluding Head): 70mm (Partially
+            Threaded); M5 (5mm Thread Diameter) Socket Cap Screws, also known as Allen
+            Bolts. Manufactured to DIN 912/ ISO 4762 in Self Colour High Tensile 12.9
+            Steel. Socket Cap Screws are perfect for applications where space is limited
+            or where the screw head is installed in a recess due to the use of an
+            allen key to tighten them. Ideal for use where there is not enough clearance
+            to use a Hex Head Bolt. Suitable for applications where high strength
+            is required due to the high tensile strength. These screws are partially
+            threaded as standard after a certain length. Please note that these bolts
+            offer little to no protection from rusting and are more suited for indoor
+            use or for applications where they are protected from moisture.'
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: boltbase
+        supplier_id: SC12.9CP-5X70
+        supplier_part_number: SC12.9CP-5X70
+        supplier_website: https://boltbase.com/products/m5-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464732680573
+        tiers:
+        -   maximum: 1
+            minimum: 1
+            source_text: Single Screw Buy 1 For £0.78
+            source_unit_price: '0.78'
+            source_vat_basis: exclusive
+            unit_price: '0.9360'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 4
+            minimum: 2
+            source_text: Buy 2 + Save 40% Each £0.47 £0.78
+            source_unit_price: '0.47'
+            source_vat_basis: exclusive
+            unit_price: '0.5640'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 9
+            minimum: 5
+            source_text: Buy 5 + Save 49% Each £0.40 £0.78
+            source_unit_price: '0.40'
+            source_vat_basis: exclusive
+            unit_price: '0.4800'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 24
+            minimum: 10
+            source_text: Buy 10 + Save 67% Each £0.26 £0.78
+            source_unit_price: '0.26'
+            source_vat_basis: exclusive
+            unit_price: '0.3120'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 49
+            minimum: 25
+            source_text: Buy 25 + Save 75% Each £0.20 £0.78
+            source_unit_price: '0.20'
+            source_vat_basis: exclusive
+            unit_price: '0.2400'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 99
+            minimum: 50
+            source_text: Buy 50 + Save 77% Each £0.18 £0.78
+            source_unit_price: '0.18'
+            source_vat_basis: exclusive
+            unit_price: '0.2160'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 249
+            minimum: 100
+            source_text: Buy 100 + Save 81% Each £0.15 £0.78
+            source_unit_price: '0.15'
+            source_vat_basis: exclusive
+            unit_price: '0.1800'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 499
+            minimum: 250
+            source_text: Buy 250 + Save 83% Each £0.14 £0.78
+            source_unit_price: '0.14'
+            source_vat_basis: exclusive
+            unit_price: '0.1680'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 999
+            minimum: 500
+            source_text: Buy 500 + Save 86% Each £0.11 £0.78
+            source_unit_price: '0.11'
+            source_vat_basis: exclusive
+            unit_price: '0.1320'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 4999
+            minimum: 1000
+            source_text: Buy 1000 + Save 88% Each £0.10 £0.78
+            source_unit_price: '0.10'
+            source_vat_basis: exclusive
+            unit_price: '0.1200'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 5000
+            minimum: 5000
+            source_text: Buy 5000 + Save 90% Each £0.08 £0.78
+            source_unit_price: '0.08'
+            source_vat_basis: exclusive
+            unit_price: '0.0960'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.9360'
+        total_price_10: '3.1200'
+        total_price_100: '18.0000'
+        total_price_1000: '120.0000'
+        total_price_10000: '960.0000'
+        unit_price_1: '0.9360'
+        unit_price_10: '0.3120'
+        unit_price_100: '0.1800'
+        unit_price_1000: '0.1200'
+        unit_price_10000: '0.0960'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+    dibolt:
+        supplier: dibolt
+        supplier_id: 10161.050.070
+        supplier_part_number: 10161.050.070
+        supplier_website: https://dibolt.co.uk/products/m5-x-70mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
+    kayfast:
+        supplier: kayfast
+        supplier_id: M5-x-70mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+        supplier_part_number: M5-x-70mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+        supplier_website: https://www.kayfast.co.uk/view-product/SOCKET-CAP-SCREWS-DIN-912-HIGH-TENSILE-SELF-COLOUR
     orbitalfasteners:
+        accepted_warnings: '[]'
+        box_quantity: '200'
+        captured_at: '2026-10-11T22:15:06.401219+00:00'
+        catalogue_page: '78'
+        currency: GBP
+        description: ''
+        html_sha256: 8cf069c92b367068afb5f46ec8e454311db812dca7064528cde859c39f2ed2dc
+        name: M5 x 70 Socket Cap Screw, High Tensile Grade 12.9 Self Colour, DIN 912
+        parsed_at: '2026-10-13T10:53:20.357885+00:00'
+        parser_version: 1.2-review-policy
+        review_policy: ''
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: inclusive
+        status: ok
+        stock_as_of: 9th October 2026 10:01pm
+        stock_quantity: '860'
         supplier: orbitalfasteners
         supplier_id: '1891265'
         supplier_part_number: '1891265'
         supplier_website: https://www.orbitalfasteners.co.uk/products/m5-x-70-socket-cap-screw-high-tensile-grade-12-9-self-colour
+        tiers:
+        -   maximum: 199
+            minimum: 1
+            source_text: 1 - 199 £0.1188 Inc. VAT £11.88 Inc. VAT
+            source_unit_price: '0.1188'
+            source_vat_basis: inclusive
+            unit_price: '0.1188'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 999
+            minimum: 200
+            source_text: 200 - 999 £0.066 Inc. VAT £6.60 Inc. VAT
+            source_unit_price: '0.066'
+            source_vat_basis: inclusive
+            unit_price: '0.066'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 1199
+            minimum: 1000
+            source_text: 1000 - 1199 £0.0594 Inc. VAT £5.94 Inc. VAT
+            source_unit_price: '0.0594'
+            source_vat_basis: inclusive
+            unit_price: '0.0594'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 1200
+            source_text: 1200 + £0.0528 Inc. VAT £5.28 Inc. VAT
+            source_unit_price: '0.0528'
+            source_vat_basis: inclusive
+            unit_price: '0.0528'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.1188'
+        total_price_10: '1.1880'
+        total_price_100: '11.8800'
+        total_price_1000: '59.4000'
+        total_price_10000: '528.0000'
+        unit_price_1: '0.1188'
+        unit_price_10: '0.1188'
+        unit_price_100: '0.1188'
+        unit_price_1000: '0.0594'
+        unit_price_10000: '0.0528'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings: []
+    westfieldfasteners:
+        accepted_warnings: '["Westfield sliding-scale prices only verified at advertised
+            package quantities; other quantities withheld", "Quantity 10: no unique
+            verified source price/VAT band; price withheld", "Quantity 100: no unique
+            verified source price/VAT band; price withheld", "Quantity 1000: no unique
+            verified source price/VAT band; price withheld", "Quantity 10000: no unique
+            verified source price/VAT band; price withheld"]'
+        captured_at: '2026-10-12T01:20:33.638466+00:00'
+        currency: GBP
+        html_sha256: ff1b6e323c90be74309d084c0b7e8a21a6d820ddbb567d9b73a86d5996a44baa
+        name: M5 x 70mm Unbrako Socket Head Cap Screw Part Thread in Black Oxide -
+            ISO 4762 (DIN 912)
+        packages: '[{"quantity": 1, "total_price": "3.4080", "source_text": "single
+            screw for £2.84", "source_total_price": "2.84", "source_vat_basis": "exclusive",
+            "vat_basis": "inclusive"}, {"quantity": 30, "total_price": "25.9320",
+            "source_text": "box of 30 for £21.61", "source_total_price": "21.61",
+            "source_vat_basis": "exclusive", "vat_basis": "inclusive"}, {"quantity":
+            150, "total_price": "110.7480", "source_text": "bulk of 150 for £92.29",
+            "source_total_price": "92.29", "source_vat_basis": "exclusive", "vat_basis":
+            "inclusive"}]'
+        parsed_at: '2026-10-13T08:52:37.403551+00:00'
+        parser_version: westfieldfasteners-1.3-allen-cap-heading
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Include advertised package prices only; other quantities
+            may remain blank."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: 'Thread Size: M5; Length: 70mm; M5 x 70mm Unbrako Socket Head
+            Cap Screw Part Thread in Black Oxide WF47954 - 191 in stock'
+        status: ok
+        stock_quantity: '191'
+        stock_status: ''
+        supplier: westfieldfasteners
+        supplier_id: WF47954
+        supplier_part_number: WF47954
+        supplier_website: https://www.westfieldfasteners.co.uk/Unbrako/Unbrako-Socket-Head-Cap-Screw-Part-Thread-M5x70-Black.html
+        tiers:
+        -   maximum: 1
+            minimum: 1
+            source_text: single screw for £2.84
+            source_unit_price: '2.84'
+            source_vat_basis: exclusive
+            unit_price: '3.4080'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 30
+            minimum: 30
+            source_text: box of 30 for £21.61
+            source_unit_price: '0.7203333333333333333333333333'
+            source_vat_basis: exclusive
+            unit_price: '0.8644000000000000000000000000'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 150
+            minimum: 150
+            source_text: bulk of 150 for £92.29
+            source_unit_price: '0.6152666666666666666666666667'
+            source_vat_basis: exclusive
+            unit_price: '0.7383200000000000000000000000'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '3.4080'
+        total_price_10: ''
+        total_price_100: ''
+        total_price_1000: ''
+        total_price_10000: ''
+        unit_price_1: '3.4080'
+        unit_price_10: ''
+        unit_price_100: ''
+        unit_price_1000: ''
+        unit_price_10000: ''
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Westfield sliding-scale prices only verified at advertised package quantities;
+            other quantities withheld
+        - 'Quantity 10: no unique verified source price/VAT band; price withheld'
+        - 'Quantity 100: no unique verified source price/VAT band; price withheld'
+        - 'Quantity 1000: no unique verified source price/VAT band; price withheld'
+        - 'Quantity 10000: no unique verified source price/VAT band; price withheld'
 svg_details:
     diameter_mm: 5.0
     drive_style: hex_head

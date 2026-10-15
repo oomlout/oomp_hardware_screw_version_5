@@ -29,7 +29,6 @@ bip_39_full_space: like smile shell abstract bounce liquid diet smile since sea 
     limb
 bip_39_full_underscore: like_smile_shell_abstract_bounce_liquid_diet_smile_since_sea_interest_limb
 directory: parts/hardware_screw_grub_hex_head_stainless_steel_m4_diameter_18_mm_length
-generate_stl: true
 id: hardware_screw_grub_hex_head_stainless_steel_m4_diameter_18_mm_length
 id_no_class: hardware_screw_grub_hex_head_stainless_steel_m4_diameter_18_mm_length
 id_no_size: hardware_screw_grub_hex_head_stainless_steel_m4_diameter_18_mm_length
@@ -2265,10 +2264,6 @@ oomlout_ai_roboclick_4:
         file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
     file_test: ''
 oomp_key: oomp_hardware_screw_grub_hex_head_stainless_steel_m4_diameter_18_mm_length
-run_action: true
-run_oomp: true
-run_oomp_populate: true
-run_scad: true
 svg_details:
     diameter_mm: 4.0
     drive_style: hex_head

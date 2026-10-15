@@ -29,7 +29,6 @@ bip_39_full_space: word vocal canal coin poem forest depend credit inhale master
     vicious
 bip_39_full_underscore: word_vocal_canal_coin_poem_forest_depend_credit_inhale_master_twin_vicious
 directory: parts/hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_30_mm_length
-generate_stl: true
 id: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_30_mm_length
 id_no_class: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_30_mm_length
 id_no_size: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_30_mm_length
@@ -2289,10 +2288,6 @@ oomlout_ai_roboclick_4:
         file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
     file_test: ''
 oomp_key: oomp_hardware_screw_countersunk_pozidriv_bright_zinc_plated_m6_diameter_30_mm_length
-run_action: true
-run_oomp: true
-run_oomp_populate: true
-run_scad: true
 svg_details:
     diameter_mm: 6.0
     drive_style: pozidriv

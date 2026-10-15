@@ -28,7 +28,6 @@ bip_39_full_no_space: movelensjustinvitedogthrowvisualrampscantrendplaceshort
 bip_39_full_space: move lens just invite dog throw visual ramp scan trend place short
 bip_39_full_underscore: move_lens_just_invite_dog_throw_visual_ramp_scan_trend_place_short
 directory: parts/hardware_screw_button_head_hex_head_black_m5_diameter_8_mm_length
-generate_stl: true
 id: hardware_screw_button_head_hex_head_black_m5_diameter_8_mm_length
 id_no_class: hardware_screw_button_head_hex_head_black_m5_diameter_8_mm_length
 id_no_size: hardware_screw_button_head_hex_head_black_m5_diameter_8_mm_length
@@ -2212,10 +2211,6 @@ oomlout_ai_roboclick_4:
         file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
     file_test: ''
 oomp_key: oomp_hardware_screw_button_head_hex_head_black_m5_diameter_8_mm_length
-run_action: true
-run_oomp: true
-run_oomp_populate: true
-run_scad: true
 svg_details:
     diameter_mm: 5.0
     drive_style: hex_head

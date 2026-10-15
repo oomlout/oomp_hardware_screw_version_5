@@ -38,16 +38,16 @@ taxonomy_7: 6_mm_length
 taxonomy_8: ''
 taxonomy_9: ''
 three_d_model_details:
-  schema_version: 1
-  generator: unresolved
-  generation_status: excluded
   family: thread_forming
-  priority: 11
+  generation_status: excluded
+  generator: unresolved
+  note: User requested skipping this family on 2026-10-11.
   output_folder: three_d_model
-  units: mm
   parameters:
     diameter_mm: 2.3
-    length_mm: 6.0
-    finish: black
     drive_style: philips
-  note: User requested skipping this family on 2026-10-11.
+    finish: black
+    length_mm: 6.0
+  priority: 11
+  schema_version: 1
+  units: mm

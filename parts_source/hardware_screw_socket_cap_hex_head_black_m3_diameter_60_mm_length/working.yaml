@@ -9,10 +9,154 @@ oobb_details:
 screw_style: screw_socket_cap
 supplier_data:
   boltbase:
+    accepted_warnings: '["Final Bolt Base threshold has no verified upper bound; extrapolation
+      withheld"]'
+    captured_at: '2026-10-12T21:41:22.290549+00:00'
+    currency: GBP
+    html_sha256: 4f90137dc7f4322fe1372ff218d435ed0ffd746072530d93afab6f1be59baf5e
+    name: M3 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
+    packages: '[]'
+    parsed_at: '2026-10-13T10:54:56.430867+00:00'
+    parser_version: boltbase-1.2-review-policy
+    price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price": "0.26",
+      "source_text": "Buy 5000 + Save 90% Each £0.26 £2.60", "basis": "user policy
+      2026-10-13"}}'
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "For a withheld 10000-unit price, inherit the highest available
+      lower-quantity unit price."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+    specifications: 'Thread Size: M3 (3mm); Length (Excluding Head): 60mm (Partially
+      Threaded); M3 (3mm Thread Diameter) Socket Cap Screws, also known as Allen Bolts.
+      Manufactured to DIN 912/ ISO 4762 in Self Colour High Tensile 12.9 Steel. Socket
+      Cap Screws are perfect for applications where space is limited or where the
+      screw head is installed in a recess due to the use of an allen key to tighten
+      them. Ideal for use where there is not enough clearance to use a Hex Head Bolt.
+      Suitable for applications where high strength is required due to the high tensile
+      strength. These screws are partially threaded as standard after a certain length.
+      Please note that these bolts offer little to no protection from rusting and
+      are more suited for indoor use or for applications where they are protected
+      from moisture.'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
     supplier: boltbase
     supplier_id: SC12.9CP-3X60
     supplier_part_number: SC12.9CP-3X60
     supplier_website: https://boltbase.com/products/m3-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464729436541
+    tiers:
+    - maximum: 1
+      minimum: 1
+      source_text: Single Screw Buy 1 For £2.60
+      source_unit_price: '2.60'
+      source_vat_basis: exclusive
+      unit_price: '3.1200'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4
+      minimum: 2
+      source_text: Buy 2 + Save 40% Each £1.56 £2.60
+      source_unit_price: '1.56'
+      source_vat_basis: exclusive
+      unit_price: '1.8720'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 9
+      minimum: 5
+      source_text: Buy 5 + Save 49% Each £1.33 £2.60
+      source_unit_price: '1.33'
+      source_vat_basis: exclusive
+      unit_price: '1.5960'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 24
+      minimum: 10
+      source_text: Buy 10 + Save 67% Each £0.86 £2.60
+      source_unit_price: '0.86'
+      source_vat_basis: exclusive
+      unit_price: '1.0320'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 49
+      minimum: 25
+      source_text: Buy 25 + Save 75% Each £0.65 £2.60
+      source_unit_price: '0.65'
+      source_vat_basis: exclusive
+      unit_price: '0.7800'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 99
+      minimum: 50
+      source_text: Buy 50 + Save 77% Each £0.60 £2.60
+      source_unit_price: '0.60'
+      source_vat_basis: exclusive
+      unit_price: '0.7200'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 249
+      minimum: 100
+      source_text: Buy 100 + Save 81% Each £0.50 £2.60
+      source_unit_price: '0.50'
+      source_vat_basis: exclusive
+      unit_price: '0.6000'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 499
+      minimum: 250
+      source_text: Buy 250 + Save 83% Each £0.45 £2.60
+      source_unit_price: '0.45'
+      source_vat_basis: exclusive
+      unit_price: '0.5400'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 500
+      source_text: Buy 500 + Save 86% Each £0.37 £2.60
+      source_unit_price: '0.37'
+      source_vat_basis: exclusive
+      unit_price: '0.4440'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4999
+      minimum: 1000
+      source_text: Buy 1000 + Save 88% Each £0.32 £2.60
+      source_unit_price: '0.32'
+      source_vat_basis: exclusive
+      unit_price: '0.3840'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 5000
+      minimum: 5000
+      source_text: Buy 5000 + Save 90% Each £0.26 £2.60
+      source_unit_price: '0.26'
+      source_vat_basis: exclusive
+      unit_price: '0.3120'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '3.1200'
+    total_price_10: '10.3200'
+    total_price_100: '60.0000'
+    total_price_1000: '384.0000'
+    total_price_10000: '3120.0000'
+    unit_price_1: '3.1200'
+    unit_price_10: '1.0320'
+    unit_price_100: '0.6000'
+    unit_price_1000: '0.3840'
+    unit_price_10000: '0.3120'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+  dibolt:
+    supplier: dibolt
+    supplier_id: 10161.030.060
+    supplier_part_number: 10161.030.060
+    supplier_website: https://dibolt.co.uk/products/m3-x-60mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
 svg_details:
   diameter_mm: 3.0
   drive_style: hex_head

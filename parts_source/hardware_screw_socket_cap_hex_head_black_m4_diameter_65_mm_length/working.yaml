@@ -8,11 +8,230 @@ oobb_details:
   thread_size: m4_diameter
 screw_style: screw_socket_cap
 supplier_data:
+  boltbase:
+    accepted_warnings: '["Final Bolt Base threshold has no verified upper bound; extrapolation
+      withheld"]'
+    captured_at: '2026-10-12T21:52:24.247045+00:00'
+    currency: GBP
+    html_sha256: b6ba9baea1627edf1ca0db8f770749e77c5d7f66a296924231cd0cdf48466d75
+    name: M4 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
+    packages: '[]'
+    parsed_at: '2026-10-13T10:55:02.156080+00:00'
+    parser_version: boltbase-1.2-review-policy
+    price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price": "0.09",
+      "source_text": "Buy 5000 + Save 90% Each £0.09 £0.81", "basis": "user policy
+      2026-10-13"}}'
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "For a withheld 10000-unit price, inherit the highest available
+      lower-quantity unit price."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+    specifications: 'Thread Size: M4 (4mm); Length (Excluding Head): 65mm (Partially
+      Threaded); M4 (4mm Thread Diameter) Socket Cap Screws, also known as Allen Bolts.
+      Manufactured to DIN 912/ ISO 4762 in Self Colour High Tensile 12.9 Steel. Socket
+      Cap Screws are perfect for applications where space is limited or where the
+      screw head is installed in a recess due to the use of an allen key to tighten
+      them. Ideal for use where there is not enough clearance to use a Hex Head Bolt.
+      Suitable for applications where high strength is required due to the high tensile
+      strength. These screws are partially threaded as standard after a certain length.
+      Please note that these bolts offer little to no protection from rusting and
+      are more suited for indoor use or for applications where they are protected
+      from moisture.'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: boltbase
+    supplier_id: SC12.9CP-4X65
+    supplier_part_number: SC12.9CP-4X65
+    supplier_website: https://boltbase.com/products/m4-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464731402621
+    tiers:
+    - maximum: 1
+      minimum: 1
+      source_text: Single Screw Buy 1 For £0.81
+      source_unit_price: '0.81'
+      source_vat_basis: exclusive
+      unit_price: '0.9720'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4
+      minimum: 2
+      source_text: Buy 2 + Save 40% Each £0.49 £0.81
+      source_unit_price: '0.49'
+      source_vat_basis: exclusive
+      unit_price: '0.5880'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 9
+      minimum: 5
+      source_text: Buy 5 + Save 49% Each £0.42 £0.81
+      source_unit_price: '0.42'
+      source_vat_basis: exclusive
+      unit_price: '0.5040'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 24
+      minimum: 10
+      source_text: Buy 10 + Save 67% Each £0.27 £0.81
+      source_unit_price: '0.27'
+      source_vat_basis: exclusive
+      unit_price: '0.3240'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 49
+      minimum: 25
+      source_text: Buy 25 + Save 75% Each £0.21 £0.81
+      source_unit_price: '0.21'
+      source_vat_basis: exclusive
+      unit_price: '0.2520'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 99
+      minimum: 50
+      source_text: Buy 50 + Save 77% Each £0.19 £0.81
+      source_unit_price: '0.19'
+      source_vat_basis: exclusive
+      unit_price: '0.2280'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 249
+      minimum: 100
+      source_text: Buy 100 + Save 81% Each £0.16 £0.81
+      source_unit_price: '0.16'
+      source_vat_basis: exclusive
+      unit_price: '0.1920'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 499
+      minimum: 250
+      source_text: Buy 250 + Save 83% Each £0.14 £0.81
+      source_unit_price: '0.14'
+      source_vat_basis: exclusive
+      unit_price: '0.1680'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 500
+      source_text: Buy 500 + Save 86% Each £0.12 £0.81
+      source_unit_price: '0.12'
+      source_vat_basis: exclusive
+      unit_price: '0.1440'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4999
+      minimum: 1000
+      source_text: Buy 1000 + Save 88% Each £0.10 £0.81
+      source_unit_price: '0.10'
+      source_vat_basis: exclusive
+      unit_price: '0.1200'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 5000
+      minimum: 5000
+      source_text: Buy 5000 + Save 90% Each £0.09 £0.81
+      source_unit_price: '0.09'
+      source_vat_basis: exclusive
+      unit_price: '0.1080'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.9720'
+    total_price_10: '3.2400'
+    total_price_100: '19.2000'
+    total_price_1000: '120.0000'
+    total_price_10000: '1080.0000'
+    unit_price_1: '0.9720'
+    unit_price_10: '0.3240'
+    unit_price_100: '0.1920'
+    unit_price_1000: '0.1200'
+    unit_price_10000: '0.1080'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+  dibolt:
+    supplier: dibolt
+    supplier_id: 10161.040.065
+    supplier_part_number: 10161.040.065
+    supplier_website: https://dibolt.co.uk/products/m4-x-65mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
+  kayfast:
+    supplier: kayfast
+    supplier_id: M4-x-65mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+    supplier_part_number: M4-x-65mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+    supplier_website: https://www.kayfast.co.uk/view-product/SOCKET-CAP-SCREWS-DIN-912-HIGH-TENSILE-SELF-COLOUR
   orbitalfasteners:
+    accepted_warnings: '[]'
+    box_quantity: '200'
+    captured_at: '2026-10-11T21:58:40.691158+00:00'
+    catalogue_page: ''
+    currency: GBP
+    description: ''
+    html_sha256: 76c7df8d69cd4e6f919a5b0687e7d66e8918120b3833b0813e186a5e4c2b43b3
+    name: M4 x 65 Socket Cap Screw, High Tensile Grade 12.9 Self Colour, DIN 912
+    parsed_at: '2026-10-13T10:53:18.651175+00:00'
+    parser_version: 1.2-review-policy
+    review_policy: ''
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: inclusive
+    status: ok
+    stock_as_of: 9th October 2026 10:01pm More Info
+    stock_quantity: '1574'
     supplier: orbitalfasteners
     supplier_id: '1891147'
     supplier_part_number: '1891147'
     supplier_website: https://www.orbitalfasteners.co.uk/products/m4-x-65-socket-cap-screw-high-tensile-grade-12-9-self-colour
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_text: 1 - 199 £0.1944 Inc. VAT £19.44 Inc. VAT
+      source_unit_price: '0.1944'
+      source_vat_basis: inclusive
+      unit_price: '0.1944'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_text: 200 - 999 £0.108 Inc. VAT £10.80 Inc. VAT
+      source_unit_price: '0.108'
+      source_vat_basis: inclusive
+      unit_price: '0.108'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 1599
+      minimum: 1000
+      source_text: 1000 - 1599 £0.0972 Inc. VAT £9.72 Inc. VAT
+      source_unit_price: '0.0972'
+      source_vat_basis: inclusive
+      unit_price: '0.0972'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 1600
+      source_text: 1600 + £0.0864 Inc. VAT £8.64 Inc. VAT
+      source_unit_price: '0.0864'
+      source_vat_basis: inclusive
+      unit_price: '0.0864'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.1944'
+    total_price_10: '1.9440'
+    total_price_100: '19.4400'
+    total_price_1000: '97.2000'
+    total_price_10000: '864.0000'
+    unit_price_1: '0.1944'
+    unit_price_10: '0.1944'
+    unit_price_100: '0.1944'
+    unit_price_1000: '0.0972'
+    unit_price_10000: '0.0864'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings: []
 svg_details:
   diameter_mm: 4.0
   drive_style: hex_head

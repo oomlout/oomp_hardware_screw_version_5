@@ -29,7 +29,6 @@ bip_39_full_space: mean stay invest soul ripple know razor fatal cry sure galler
     guard
 bip_39_full_underscore: mean_stay_invest_soul_ripple_know_razor_fatal_cry_sure_gallery_guard
 directory: parts/hardware_screw_flat_head_philips_black_m2_5_diameter_10_mm_length
-generate_stl: true
 id: hardware_screw_flat_head_philips_black_m2_5_diameter_10_mm_length
 id_no_class: hardware_screw_flat_head_philips_black_m2_5_diameter_10_mm_length
 id_no_size: hardware_screw_flat_head_philips_black_m2_5_diameter_10_mm_length
@@ -2275,10 +2274,6 @@ oomlout_ai_roboclick_4:
         file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
     file_test: ''
 oomp_key: oomp_hardware_screw_flat_head_philips_black_m2_5_diameter_10_mm_length
-run_action: true
-run_oomp: true
-run_oomp_populate: true
-run_scad: true
 svg_details:
     diameter_mm: 2.5
     drive_style: philips

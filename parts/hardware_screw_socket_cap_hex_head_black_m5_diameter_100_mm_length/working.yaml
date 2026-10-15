@@ -29,7 +29,6 @@ bip_39_full_space: hood hammer exit patrol broom fortune ginger total cram slim 
     inform
 bip_39_full_underscore: hood_hammer_exit_patrol_broom_fortune_ginger_total_cram_slim_fetch_inform
 directory: parts/hardware_screw_socket_cap_hex_head_black_m5_diameter_100_mm_length
-generate_stl: true
 id: hardware_screw_socket_cap_hex_head_black_m5_diameter_100_mm_length
 id_no_class: hardware_screw_socket_cap_hex_head_black_m5_diameter_100_mm_length
 id_no_size: hardware_screw_socket_cap_hex_head_black_m5_diameter_100_mm_length
@@ -700,11 +699,231 @@ oomlout_ai_roboclick_2:
                 retries_until_complete: 0
             screw_style: screw_socket_cap
             supplier_data:
+                boltbase:
+                    accepted_warnings: '["Final Bolt Base threshold has no verified
+                        upper bound; extrapolation withheld"]'
+                    captured_at: '2026-10-12T21:55:58.829187+00:00'
+                    currency: GBP
+                    html_sha256: 86dfcba6c586cae8c0625e88cee5db1b901124b9b06f5dc38217fcd6cc26b08a
+                    name: M5 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
+                    packages: '[]'
+                    parsed_at: '2026-10-13T10:55:04.231854+00:00'
+                    parser_version: boltbase-1.2-review-policy
+                    price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
+                        "0.14", "source_text": "Buy 5000 + Save 90% Each £0.14 £1.34",
+                        "basis": "user policy 2026-10-13"}}'
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "For a withheld 10000-unit price,
+                        inherit the highest available lower-quantity unit price."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "bolt base prices are ex
+                        vat", "confirmed_on": "2026-10-11"}'
+                    specifications: 'Thread Size: M5 (5mm); Length (Excluding Head):
+                        100mm (Partially Threaded); M5 (5mm Thread Diameter) Socket
+                        Cap Screws, also known as Allen Bolts. Manufactured to DIN
+                        912/ ISO 4762 in Self Colour High Tensile 12.9 Steel. Socket
+                        Cap Screws are perfect for applications where space is limited
+                        or where the screw head is installed in a recess due to the
+                        use of an allen key to tighten them. Ideal for use where there
+                        is not enough clearance to use a Hex Head Bolt. Suitable for
+                        applications where high strength is required due to the high
+                        tensile strength. These screws are partially threaded as standard
+                        after a certain length. Please note that these bolts offer
+                        little to no protection from rusting and are more suited for
+                        indoor use or for applications where they are protected from
+                        moisture.'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: boltbase
+                    supplier_id: SC12.9CP-5X100
+                    supplier_part_number: SC12.9CP-5X100
+                    supplier_website: https://boltbase.com/products/m5-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464732844413
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: Single Screw Buy 1 For £1.34
+                        source_unit_price: '1.34'
+                        source_vat_basis: exclusive
+                        unit_price: '1.6080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4
+                        minimum: 2
+                        source_text: Buy 2 + Save 40% Each £0.81 £1.34
+                        source_unit_price: '0.81'
+                        source_vat_basis: exclusive
+                        unit_price: '0.9720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 9
+                        minimum: 5
+                        source_text: Buy 5 + Save 49% Each £0.69 £1.34
+                        source_unit_price: '0.69'
+                        source_vat_basis: exclusive
+                        unit_price: '0.8280'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 24
+                        minimum: 10
+                        source_text: Buy 10 + Save 67% Each £0.45 £1.34
+                        source_unit_price: '0.45'
+                        source_vat_basis: exclusive
+                        unit_price: '0.5400'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 25
+                        source_text: Buy 25 + Save 75% Each £0.34 £1.34
+                        source_unit_price: '0.34'
+                        source_vat_basis: exclusive
+                        unit_price: '0.4080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: Buy 50 + Save 77% Each £0.31 £1.34
+                        source_unit_price: '0.31'
+                        source_vat_basis: exclusive
+                        unit_price: '0.3720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 249
+                        minimum: 100
+                        source_text: Buy 100 + Save 81% Each £0.26 £1.34
+                        source_unit_price: '0.26'
+                        source_vat_basis: exclusive
+                        unit_price: '0.3120'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 250
+                        source_text: Buy 250 + Save 83% Each £0.23 £1.34
+                        source_unit_price: '0.23'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2760'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 500
+                        source_text: Buy 500 + Save 86% Each £0.19 £1.34
+                        source_unit_price: '0.19'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2280'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_text: Buy 1000 + Save 88% Each £0.17 £1.34
+                        source_unit_price: '0.17'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2040'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5000
+                        minimum: 5000
+                        source_text: Buy 5000 + Save 90% Each £0.14 £1.34
+                        source_unit_price: '0.14'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1680'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '1.6080'
+                    total_price_10: '5.4000'
+                    total_price_100: '31.2000'
+                    total_price_1000: '204.0000'
+                    total_price_10000: '1680.0000'
+                    unit_price_1: '1.6080'
+                    unit_price_10: '0.5400'
+                    unit_price_100: '0.3120'
+                    unit_price_1000: '0.2040'
+                    unit_price_10000: '0.1680'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Final Bolt Base threshold has no verified upper bound; extrapolation
+                        withheld
+                kayfast:
+                    supplier: kayfast
+                    supplier_id: M5-x-100mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+                    supplier_part_number: M5-x-100mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+                    supplier_website: https://www.kayfast.co.uk/view-product/SOCKET-CAP-SCREWS-DIN-912-HIGH-TENSILE-SELF-COLOUR
                 orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '200'
+                    captured_at: '2026-10-11T22:02:31.057770+00:00'
+                    catalogue_page: '78'
+                    currency: GBP
+                    description: ''
+                    html_sha256: 2db8a6f801a7343bb1cdd434cf196dcce9723182be98d9c7dd47d6db6e8310d0
+                    name: M5 x 100 Socket Cap Screw, High Tensile Grade 12.9 Self
+                        Colour, DIN 912
+                    parsed_at: '2026-10-13T10:53:19.008205+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '696'
                     supplier: orbitalfasteners
                     supplier_id: '1891268'
                     supplier_part_number: '1891268'
                     supplier_website: https://www.orbitalfasteners.co.uk/products/m5-x-100-socket-cap-screw-high-tensile-grade-12-9-self-colour
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_text: 1 - 199 £0.2074 Inc. VAT £20.74 Inc. VAT
+                        source_unit_price: '0.2074'
+                        source_vat_basis: inclusive
+                        unit_price: '0.2074'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_text: 200 - 999 £0.1152 Inc. VAT £11.52 Inc. VAT
+                        source_unit_price: '0.1152'
+                        source_vat_basis: inclusive
+                        unit_price: '0.1152'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 1599
+                        minimum: 1000
+                        source_text: 1000 - 1599 £0.1037 Inc. VAT £10.37 Inc. VAT
+                        source_unit_price: '0.1037'
+                        source_vat_basis: inclusive
+                        unit_price: '0.1037'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 1600
+                        source_text: 1600 + £0.0922 Inc. VAT £9.22 Inc. VAT
+                        source_unit_price: '0.0922'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0922'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.2074'
+                    total_price_10: '2.0740'
+                    total_price_100: '20.7400'
+                    total_price_1000: '103.7000'
+                    total_price_10000: '922.0000'
+                    unit_price_1: '0.2074'
+                    unit_price_10: '0.2074'
+                    unit_price_100: '0.2074'
+                    unit_price_1000: '0.1037'
+                    unit_price_10000: '0.0922'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
             svg_details:
                 diameter_mm: 5.0
                 drive_style: hex_head
@@ -1678,11 +1897,241 @@ oomlout_ai_roboclick_3:
                             retries_until_complete: 0
                         screw_style: screw_socket_cap
                         supplier_data:
+                            boltbase:
+                                accepted_warnings: '["Final Bolt Base threshold has
+                                    no verified upper bound; extrapolation withheld"]'
+                                captured_at: '2026-10-12T21:55:58.829187+00:00'
+                                currency: GBP
+                                html_sha256: 86dfcba6c586cae8c0625e88cee5db1b901124b9b06f5dc38217fcd6cc26b08a
+                                name: M5 Self Colour 12.9 High Tensile Socket Cap
+                                    Screws DIN 912
+                                packages: '[]'
+                                parsed_at: '2026-10-13T10:55:04.231854+00:00'
+                                parser_version: boltbase-1.2-review-policy
+                                price_inheritance: '{"10000": {"source_quantity":
+                                    5000, "source_unit_price": "0.14", "source_text":
+                                    "Buy 5000 + Save 90% Each £0.14 £1.34", "basis":
+                                    "user policy 2026-10-13"}}'
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "For a withheld 10000-unit
+                                    price, inherit the highest available lower-quantity
+                                    unit price."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "bolt
+                                    base prices are ex vat", "confirmed_on": "2026-10-11"}'
+                                specifications: 'Thread Size: M5 (5mm); Length (Excluding
+                                    Head): 100mm (Partially Threaded); M5 (5mm Thread
+                                    Diameter) Socket Cap Screws, also known as Allen
+                                    Bolts. Manufactured to DIN 912/ ISO 4762 in Self
+                                    Colour High Tensile 12.9 Steel. Socket Cap Screws
+                                    are perfect for applications where space is limited
+                                    or where the screw head is installed in a recess
+                                    due to the use of an allen key to tighten them.
+                                    Ideal for use where there is not enough clearance
+                                    to use a Hex Head Bolt. Suitable for applications
+                                    where high strength is required due to the high
+                                    tensile strength. These screws are partially threaded
+                                    as standard after a certain length. Please note
+                                    that these bolts offer little to no protection
+                                    from rusting and are more suited for indoor use
+                                    or for applications where they are protected from
+                                    moisture.'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: boltbase
+                                supplier_id: SC12.9CP-5X100
+                                supplier_part_number: SC12.9CP-5X100
+                                supplier_website: https://boltbase.com/products/m5-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464732844413
+                                tiers:
+                                -   maximum: 1
+                                    minimum: 1
+                                    source_text: Single Screw Buy 1 For £1.34
+                                    source_unit_price: '1.34'
+                                    source_vat_basis: exclusive
+                                    unit_price: '1.6080'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 4
+                                    minimum: 2
+                                    source_text: Buy 2 + Save 40% Each £0.81 £1.34
+                                    source_unit_price: '0.81'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.9720'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 9
+                                    minimum: 5
+                                    source_text: Buy 5 + Save 49% Each £0.69 £1.34
+                                    source_unit_price: '0.69'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.8280'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 24
+                                    minimum: 10
+                                    source_text: Buy 10 + Save 67% Each £0.45 £1.34
+                                    source_unit_price: '0.45'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.5400'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 49
+                                    minimum: 25
+                                    source_text: Buy 25 + Save 75% Each £0.34 £1.34
+                                    source_unit_price: '0.34'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.4080'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 99
+                                    minimum: 50
+                                    source_text: Buy 50 + Save 77% Each £0.31 £1.34
+                                    source_unit_price: '0.31'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.3720'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 249
+                                    minimum: 100
+                                    source_text: Buy 100 + Save 81% Each £0.26 £1.34
+                                    source_unit_price: '0.26'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.3120'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 499
+                                    minimum: 250
+                                    source_text: Buy 250 + Save 83% Each £0.23 £1.34
+                                    source_unit_price: '0.23'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.2760'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 999
+                                    minimum: 500
+                                    source_text: Buy 500 + Save 86% Each £0.19 £1.34
+                                    source_unit_price: '0.19'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.2280'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 4999
+                                    minimum: 1000
+                                    source_text: Buy 1000 + Save 88% Each £0.17 £1.34
+                                    source_unit_price: '0.17'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.2040'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 5000
+                                    minimum: 5000
+                                    source_text: Buy 5000 + Save 90% Each £0.14 £1.34
+                                    source_unit_price: '0.14'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1680'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '1.6080'
+                                total_price_10: '5.4000'
+                                total_price_100: '31.2000'
+                                total_price_1000: '204.0000'
+                                total_price_10000: '1680.0000'
+                                unit_price_1: '1.6080'
+                                unit_price_10: '0.5400'
+                                unit_price_100: '0.3120'
+                                unit_price_1000: '0.2040'
+                                unit_price_10000: '0.1680'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Final Bolt Base threshold has no verified upper
+                                    bound; extrapolation withheld
+                            kayfast:
+                                supplier: kayfast
+                                supplier_id: M5-x-100mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+                                supplier_part_number: M5-x-100mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+                                supplier_website: https://www.kayfast.co.uk/view-product/SOCKET-CAP-SCREWS-DIN-912-HIGH-TENSILE-SELF-COLOUR
                             orbitalfasteners:
+                                accepted_warnings: '[]'
+                                box_quantity: '200'
+                                captured_at: '2026-10-11T22:02:31.057770+00:00'
+                                catalogue_page: '78'
+                                currency: GBP
+                                description: ''
+                                html_sha256: 2db8a6f801a7343bb1cdd434cf196dcce9723182be98d9c7dd47d6db6e8310d0
+                                name: M5 x 100 Socket Cap Screw, High Tensile Grade
+                                    12.9 Self Colour, DIN 912
+                                parsed_at: '2026-10-13T10:53:19.008205+00:00'
+                                parser_version: 1.2-review-policy
+                                review_policy: ''
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: inclusive
+                                status: ok
+                                stock_as_of: 9th October 2026 10:01pm
+                                stock_quantity: '696'
                                 supplier: orbitalfasteners
                                 supplier_id: '1891268'
                                 supplier_part_number: '1891268'
                                 supplier_website: https://www.orbitalfasteners.co.uk/products/m5-x-100-socket-cap-screw-high-tensile-grade-12-9-self-colour
+                                tiers:
+                                -   maximum: 199
+                                    minimum: 1
+                                    source_text: 1 - 199 £0.2074 Inc. VAT £20.74 Inc.
+                                        VAT
+                                    source_unit_price: '0.2074'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.2074'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 999
+                                    minimum: 200
+                                    source_text: 200 - 999 £0.1152 Inc. VAT £11.52
+                                        Inc. VAT
+                                    source_unit_price: '0.1152'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.1152'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 1599
+                                    minimum: 1000
+                                    source_text: 1000 - 1599 £0.1037 Inc. VAT £10.37
+                                        Inc. VAT
+                                    source_unit_price: '0.1037'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.1037'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 1600
+                                    source_text: 1600 + £0.0922 Inc. VAT £9.22 Inc.
+                                        VAT
+                                    source_unit_price: '0.0922'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0922'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.2074'
+                                total_price_10: '2.0740'
+                                total_price_100: '20.7400'
+                                total_price_1000: '103.7000'
+                                total_price_10000: '922.0000'
+                                unit_price_1: '0.2074'
+                                unit_price_10: '0.2074'
+                                unit_price_100: '0.2074'
+                                unit_price_1000: '0.1037'
+                                unit_price_10000: '0.0922'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings: []
                         svg_details:
                             diameter_mm: 5.0
                             drive_style: hex_head
@@ -1968,11 +2417,231 @@ oomlout_ai_roboclick_3:
                 retries_until_complete: 0
             screw_style: screw_socket_cap
             supplier_data:
+                boltbase:
+                    accepted_warnings: '["Final Bolt Base threshold has no verified
+                        upper bound; extrapolation withheld"]'
+                    captured_at: '2026-10-12T21:55:58.829187+00:00'
+                    currency: GBP
+                    html_sha256: 86dfcba6c586cae8c0625e88cee5db1b901124b9b06f5dc38217fcd6cc26b08a
+                    name: M5 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
+                    packages: '[]'
+                    parsed_at: '2026-10-13T10:55:04.231854+00:00'
+                    parser_version: boltbase-1.2-review-policy
+                    price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
+                        "0.14", "source_text": "Buy 5000 + Save 90% Each £0.14 £1.34",
+                        "basis": "user policy 2026-10-13"}}'
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "For a withheld 10000-unit price,
+                        inherit the highest available lower-quantity unit price."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "bolt base prices are ex
+                        vat", "confirmed_on": "2026-10-11"}'
+                    specifications: 'Thread Size: M5 (5mm); Length (Excluding Head):
+                        100mm (Partially Threaded); M5 (5mm Thread Diameter) Socket
+                        Cap Screws, also known as Allen Bolts. Manufactured to DIN
+                        912/ ISO 4762 in Self Colour High Tensile 12.9 Steel. Socket
+                        Cap Screws are perfect for applications where space is limited
+                        or where the screw head is installed in a recess due to the
+                        use of an allen key to tighten them. Ideal for use where there
+                        is not enough clearance to use a Hex Head Bolt. Suitable for
+                        applications where high strength is required due to the high
+                        tensile strength. These screws are partially threaded as standard
+                        after a certain length. Please note that these bolts offer
+                        little to no protection from rusting and are more suited for
+                        indoor use or for applications where they are protected from
+                        moisture.'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: boltbase
+                    supplier_id: SC12.9CP-5X100
+                    supplier_part_number: SC12.9CP-5X100
+                    supplier_website: https://boltbase.com/products/m5-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464732844413
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: Single Screw Buy 1 For £1.34
+                        source_unit_price: '1.34'
+                        source_vat_basis: exclusive
+                        unit_price: '1.6080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4
+                        minimum: 2
+                        source_text: Buy 2 + Save 40% Each £0.81 £1.34
+                        source_unit_price: '0.81'
+                        source_vat_basis: exclusive
+                        unit_price: '0.9720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 9
+                        minimum: 5
+                        source_text: Buy 5 + Save 49% Each £0.69 £1.34
+                        source_unit_price: '0.69'
+                        source_vat_basis: exclusive
+                        unit_price: '0.8280'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 24
+                        minimum: 10
+                        source_text: Buy 10 + Save 67% Each £0.45 £1.34
+                        source_unit_price: '0.45'
+                        source_vat_basis: exclusive
+                        unit_price: '0.5400'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 25
+                        source_text: Buy 25 + Save 75% Each £0.34 £1.34
+                        source_unit_price: '0.34'
+                        source_vat_basis: exclusive
+                        unit_price: '0.4080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: Buy 50 + Save 77% Each £0.31 £1.34
+                        source_unit_price: '0.31'
+                        source_vat_basis: exclusive
+                        unit_price: '0.3720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 249
+                        minimum: 100
+                        source_text: Buy 100 + Save 81% Each £0.26 £1.34
+                        source_unit_price: '0.26'
+                        source_vat_basis: exclusive
+                        unit_price: '0.3120'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 250
+                        source_text: Buy 250 + Save 83% Each £0.23 £1.34
+                        source_unit_price: '0.23'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2760'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 500
+                        source_text: Buy 500 + Save 86% Each £0.19 £1.34
+                        source_unit_price: '0.19'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2280'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_text: Buy 1000 + Save 88% Each £0.17 £1.34
+                        source_unit_price: '0.17'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2040'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5000
+                        minimum: 5000
+                        source_text: Buy 5000 + Save 90% Each £0.14 £1.34
+                        source_unit_price: '0.14'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1680'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '1.6080'
+                    total_price_10: '5.4000'
+                    total_price_100: '31.2000'
+                    total_price_1000: '204.0000'
+                    total_price_10000: '1680.0000'
+                    unit_price_1: '1.6080'
+                    unit_price_10: '0.5400'
+                    unit_price_100: '0.3120'
+                    unit_price_1000: '0.2040'
+                    unit_price_10000: '0.1680'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Final Bolt Base threshold has no verified upper bound; extrapolation
+                        withheld
+                kayfast:
+                    supplier: kayfast
+                    supplier_id: M5-x-100mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+                    supplier_part_number: M5-x-100mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+                    supplier_website: https://www.kayfast.co.uk/view-product/SOCKET-CAP-SCREWS-DIN-912-HIGH-TENSILE-SELF-COLOUR
                 orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '200'
+                    captured_at: '2026-10-11T22:02:31.057770+00:00'
+                    catalogue_page: '78'
+                    currency: GBP
+                    description: ''
+                    html_sha256: 2db8a6f801a7343bb1cdd434cf196dcce9723182be98d9c7dd47d6db6e8310d0
+                    name: M5 x 100 Socket Cap Screw, High Tensile Grade 12.9 Self
+                        Colour, DIN 912
+                    parsed_at: '2026-10-13T10:53:19.008205+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '696'
                     supplier: orbitalfasteners
                     supplier_id: '1891268'
                     supplier_part_number: '1891268'
                     supplier_website: https://www.orbitalfasteners.co.uk/products/m5-x-100-socket-cap-screw-high-tensile-grade-12-9-self-colour
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_text: 1 - 199 £0.2074 Inc. VAT £20.74 Inc. VAT
+                        source_unit_price: '0.2074'
+                        source_vat_basis: inclusive
+                        unit_price: '0.2074'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_text: 200 - 999 £0.1152 Inc. VAT £11.52 Inc. VAT
+                        source_unit_price: '0.1152'
+                        source_vat_basis: inclusive
+                        unit_price: '0.1152'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 1599
+                        minimum: 1000
+                        source_text: 1000 - 1599 £0.1037 Inc. VAT £10.37 Inc. VAT
+                        source_unit_price: '0.1037'
+                        source_vat_basis: inclusive
+                        unit_price: '0.1037'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 1600
+                        source_text: 1600 + £0.0922 Inc. VAT £9.22 Inc. VAT
+                        source_unit_price: '0.0922'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0922'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.2074'
+                    total_price_10: '2.0740'
+                    total_price_100: '20.7400'
+                    total_price_1000: '103.7000'
+                    total_price_10000: '922.0000'
+                    unit_price_1: '0.2074'
+                    unit_price_10: '0.2074'
+                    unit_price_100: '0.2074'
+                    unit_price_1000: '0.1037'
+                    unit_price_10000: '0.0922'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
             svg_details:
                 diameter_mm: 5.0
                 drive_style: hex_head
@@ -2260,17 +2929,228 @@ oomlout_ai_roboclick_4:
         file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
     file_test: ''
 oomp_key: oomp_hardware_screw_socket_cap_hex_head_black_m5_diameter_100_mm_length
-run_action: true
-run_oomp: true
-run_oomp_populate: true
-run_scad: true
 screw_style: screw_socket_cap
 supplier_data:
+    boltbase:
+        accepted_warnings: '["Final Bolt Base threshold has no verified upper bound;
+            extrapolation withheld"]'
+        captured_at: '2026-10-12T21:55:58.829187+00:00'
+        currency: GBP
+        html_sha256: 86dfcba6c586cae8c0625e88cee5db1b901124b9b06f5dc38217fcd6cc26b08a
+        name: M5 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
+        packages: '[]'
+        parsed_at: '2026-10-13T10:55:04.231854+00:00'
+        parser_version: boltbase-1.2-review-policy
+        price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
+            "0.14", "source_text": "Buy 5000 + Save 90% Each £0.14 £1.34", "basis":
+            "user policy 2026-10-13"}}'
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "For a withheld 10000-unit price, inherit the highest available
+            lower-quantity unit price."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+        specifications: 'Thread Size: M5 (5mm); Length (Excluding Head): 100mm (Partially
+            Threaded); M5 (5mm Thread Diameter) Socket Cap Screws, also known as Allen
+            Bolts. Manufactured to DIN 912/ ISO 4762 in Self Colour High Tensile 12.9
+            Steel. Socket Cap Screws are perfect for applications where space is limited
+            or where the screw head is installed in a recess due to the use of an
+            allen key to tighten them. Ideal for use where there is not enough clearance
+            to use a Hex Head Bolt. Suitable for applications where high strength
+            is required due to the high tensile strength. These screws are partially
+            threaded as standard after a certain length. Please note that these bolts
+            offer little to no protection from rusting and are more suited for indoor
+            use or for applications where they are protected from moisture.'
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: boltbase
+        supplier_id: SC12.9CP-5X100
+        supplier_part_number: SC12.9CP-5X100
+        supplier_website: https://boltbase.com/products/m5-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464732844413
+        tiers:
+        -   maximum: 1
+            minimum: 1
+            source_text: Single Screw Buy 1 For £1.34
+            source_unit_price: '1.34'
+            source_vat_basis: exclusive
+            unit_price: '1.6080'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 4
+            minimum: 2
+            source_text: Buy 2 + Save 40% Each £0.81 £1.34
+            source_unit_price: '0.81'
+            source_vat_basis: exclusive
+            unit_price: '0.9720'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 9
+            minimum: 5
+            source_text: Buy 5 + Save 49% Each £0.69 £1.34
+            source_unit_price: '0.69'
+            source_vat_basis: exclusive
+            unit_price: '0.8280'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 24
+            minimum: 10
+            source_text: Buy 10 + Save 67% Each £0.45 £1.34
+            source_unit_price: '0.45'
+            source_vat_basis: exclusive
+            unit_price: '0.5400'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 49
+            minimum: 25
+            source_text: Buy 25 + Save 75% Each £0.34 £1.34
+            source_unit_price: '0.34'
+            source_vat_basis: exclusive
+            unit_price: '0.4080'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 99
+            minimum: 50
+            source_text: Buy 50 + Save 77% Each £0.31 £1.34
+            source_unit_price: '0.31'
+            source_vat_basis: exclusive
+            unit_price: '0.3720'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 249
+            minimum: 100
+            source_text: Buy 100 + Save 81% Each £0.26 £1.34
+            source_unit_price: '0.26'
+            source_vat_basis: exclusive
+            unit_price: '0.3120'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 499
+            minimum: 250
+            source_text: Buy 250 + Save 83% Each £0.23 £1.34
+            source_unit_price: '0.23'
+            source_vat_basis: exclusive
+            unit_price: '0.2760'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 999
+            minimum: 500
+            source_text: Buy 500 + Save 86% Each £0.19 £1.34
+            source_unit_price: '0.19'
+            source_vat_basis: exclusive
+            unit_price: '0.2280'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 4999
+            minimum: 1000
+            source_text: Buy 1000 + Save 88% Each £0.17 £1.34
+            source_unit_price: '0.17'
+            source_vat_basis: exclusive
+            unit_price: '0.2040'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 5000
+            minimum: 5000
+            source_text: Buy 5000 + Save 90% Each £0.14 £1.34
+            source_unit_price: '0.14'
+            source_vat_basis: exclusive
+            unit_price: '0.1680'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '1.6080'
+        total_price_10: '5.4000'
+        total_price_100: '31.2000'
+        total_price_1000: '204.0000'
+        total_price_10000: '1680.0000'
+        unit_price_1: '1.6080'
+        unit_price_10: '0.5400'
+        unit_price_100: '0.3120'
+        unit_price_1000: '0.2040'
+        unit_price_10000: '0.1680'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+    kayfast:
+        supplier: kayfast
+        supplier_id: M5-x-100mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+        supplier_part_number: M5-x-100mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+        supplier_website: https://www.kayfast.co.uk/view-product/SOCKET-CAP-SCREWS-DIN-912-HIGH-TENSILE-SELF-COLOUR
     orbitalfasteners:
+        accepted_warnings: '[]'
+        box_quantity: '200'
+        captured_at: '2026-10-11T22:02:31.057770+00:00'
+        catalogue_page: '78'
+        currency: GBP
+        description: ''
+        html_sha256: 2db8a6f801a7343bb1cdd434cf196dcce9723182be98d9c7dd47d6db6e8310d0
+        name: M5 x 100 Socket Cap Screw, High Tensile Grade 12.9 Self Colour, DIN
+            912
+        parsed_at: '2026-10-13T10:53:19.008205+00:00'
+        parser_version: 1.2-review-policy
+        review_policy: ''
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: inclusive
+        status: ok
+        stock_as_of: 9th October 2026 10:01pm
+        stock_quantity: '696'
         supplier: orbitalfasteners
         supplier_id: '1891268'
         supplier_part_number: '1891268'
         supplier_website: https://www.orbitalfasteners.co.uk/products/m5-x-100-socket-cap-screw-high-tensile-grade-12-9-self-colour
+        tiers:
+        -   maximum: 199
+            minimum: 1
+            source_text: 1 - 199 £0.2074 Inc. VAT £20.74 Inc. VAT
+            source_unit_price: '0.2074'
+            source_vat_basis: inclusive
+            unit_price: '0.2074'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 999
+            minimum: 200
+            source_text: 200 - 999 £0.1152 Inc. VAT £11.52 Inc. VAT
+            source_unit_price: '0.1152'
+            source_vat_basis: inclusive
+            unit_price: '0.1152'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 1599
+            minimum: 1000
+            source_text: 1000 - 1599 £0.1037 Inc. VAT £10.37 Inc. VAT
+            source_unit_price: '0.1037'
+            source_vat_basis: inclusive
+            unit_price: '0.1037'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 1600
+            source_text: 1600 + £0.0922 Inc. VAT £9.22 Inc. VAT
+            source_unit_price: '0.0922'
+            source_vat_basis: inclusive
+            unit_price: '0.0922'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.2074'
+        total_price_10: '2.0740'
+        total_price_100: '20.7400'
+        total_price_1000: '103.7000'
+        total_price_10000: '922.0000'
+        unit_price_1: '0.2074'
+        unit_price_10: '0.2074'
+        unit_price_100: '0.2074'
+        unit_price_1000: '0.1037'
+        unit_price_10000: '0.0922'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings: []
 svg_details:
     diameter_mm: 5.0
     drive_style: hex_head

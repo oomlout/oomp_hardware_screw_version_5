@@ -29,7 +29,6 @@ bip_39_full_space: dirt almost boil corn cricket stumble wasp local flight strat
     abandon hamster
 bip_39_full_underscore: dirt_almost_boil_corn_cricket_stumble_wasp_local_flight_strategy_abandon_hamster
 directory: parts/hardware_screw_flat_head_philips_black_m4_diameter_16_mm_length
-generate_stl: true
 id: hardware_screw_flat_head_philips_black_m4_diameter_16_mm_length
 id_no_class: hardware_screw_flat_head_philips_black_m4_diameter_16_mm_length
 id_no_size: hardware_screw_flat_head_philips_black_m4_diameter_16_mm_length
@@ -2298,10 +2297,6 @@ oomlout_ai_roboclick_4:
         file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
     file_test: ''
 oomp_key: oomp_hardware_screw_flat_head_philips_black_m4_diameter_16_mm_length
-run_action: true
-run_oomp: true
-run_oomp_populate: true
-run_scad: true
 svg_details:
     diameter_mm: 4.0
     drive_style: philips

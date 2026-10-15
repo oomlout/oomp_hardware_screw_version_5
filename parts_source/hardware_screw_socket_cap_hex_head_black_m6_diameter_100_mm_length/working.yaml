@@ -8,11 +8,317 @@ oobb_details:
   thread_size: m6_diameter
 screw_style: screw_socket_cap
 supplier_data:
+  accu:
+    supplier: accu
+    supplier_id: SSC-M6-100-12.9
+    supplier_part_number: SSC-M6-100-12.9
+    supplier_website: https://www.accu.co.uk/metric-cap-head-screws/16090-SSC-M6-100-12-9
+  boltbase:
+    accepted_warnings: '["Final Bolt Base threshold has no verified upper bound; extrapolation
+      withheld"]'
+    captured_at: '2026-10-12T22:12:20.681671+00:00'
+    currency: GBP
+    html_sha256: 6b4deea961a4df6e2be3e7ea6238418d4063098092c979350eec1826d9219642
+    name: M6 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
+    packages: '[]'
+    parsed_at: '2026-10-13T10:55:13.661022+00:00'
+    parser_version: boltbase-1.2-review-policy
+    price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price": "0.14",
+      "source_text": "Buy 5000 + You save 90% £0.14 £1.32", "basis": "user policy
+      2026-10-13"}}'
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "For a withheld 10000-unit price, inherit the highest available
+      lower-quantity unit price."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+    specifications: 'Thread Size: M6 (6mm); Length (Excluding Head): 100mm (Partially
+      Threaded); M6 (6mm Thread Diameter) Socket Cap Screws, also known as Allen Bolts.
+      Manufactured to DIN 912/ ISO 4762 in Self Colour High Tensile 12.9 Steel. Socket
+      Cap Screws are perfect for applications where space is limited or where the
+      screw head is installed in a recess due to the use of an allen key to tighten
+      them. Ideal for use where there is not enough clearance to use a Hex Head Bolt.
+      Suitable for applications where high strength is required due to the high tensile
+      strength. These screws are partially threaded as standard after a certain length.
+      Please note that these bolts offer little to no protection from rusting and
+      are more suited for indoor use or for applications where they are protected
+      from moisture.'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: boltbase
+    supplier_id: SC12.9CP-6X100
+    supplier_part_number: SC12.9CP-6X100
+    supplier_website: https://boltbase.com/products/m6-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464736055677
+    tiers:
+    - maximum: 1
+      minimum: 1
+      source_text: Single Screw Buy 1 For £1.32
+      source_unit_price: '1.32'
+      source_vat_basis: exclusive
+      unit_price: '1.5840'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4
+      minimum: 2
+      source_text: Buy 2 + You save 40% £0.80 £1.32
+      source_unit_price: '0.80'
+      source_vat_basis: exclusive
+      unit_price: '0.9600'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 9
+      minimum: 5
+      source_text: Buy 5 + You save 55% £0.60 £1.32
+      source_unit_price: '0.60'
+      source_vat_basis: exclusive
+      unit_price: '0.7200'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 24
+      minimum: 10
+      source_text: Buy 10 + You save 61% £0.52 £1.32
+      source_unit_price: '0.52'
+      source_vat_basis: exclusive
+      unit_price: '0.6240'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 49
+      minimum: 25
+      source_text: Buy 25 + You save 75% £0.33 £1.32
+      source_unit_price: '0.33'
+      source_vat_basis: exclusive
+      unit_price: '0.3960'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 99
+      minimum: 50
+      source_text: Buy 50 + You save 77% £0.31 £1.32
+      source_unit_price: '0.31'
+      source_vat_basis: exclusive
+      unit_price: '0.3720'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 249
+      minimum: 100
+      source_text: Buy 100 + You save 81% £0.26 £1.32
+      source_unit_price: '0.26'
+      source_vat_basis: exclusive
+      unit_price: '0.3120'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 499
+      minimum: 250
+      source_text: Buy 250 + You save 83% £0.23 £1.32
+      source_unit_price: '0.23'
+      source_vat_basis: exclusive
+      unit_price: '0.2760'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 500
+      source_text: Buy 500 + You save 86% £0.19 £1.32
+      source_unit_price: '0.19'
+      source_vat_basis: exclusive
+      unit_price: '0.2280'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4999
+      minimum: 1000
+      source_text: Buy 1000 + You save 88% £0.16 £1.32
+      source_unit_price: '0.16'
+      source_vat_basis: exclusive
+      unit_price: '0.1920'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 5000
+      minimum: 5000
+      source_text: Buy 5000 + You save 90% £0.14 £1.32
+      source_unit_price: '0.14'
+      source_vat_basis: exclusive
+      unit_price: '0.1680'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '1.5840'
+    total_price_10: '6.2400'
+    total_price_100: '31.2000'
+    total_price_1000: '192.0000'
+    total_price_10000: '1680.0000'
+    unit_price_1: '1.5840'
+    unit_price_10: '0.6240'
+    unit_price_100: '0.3120'
+    unit_price_1000: '0.1920'
+    unit_price_10000: '0.1680'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+  dibolt:
+    supplier: dibolt
+    supplier_id: 10161.060.100
+    supplier_part_number: 10161.060.100
+    supplier_website: https://dibolt.co.uk/products/m6-x-100mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
+  kayfast:
+    supplier: kayfast
+    supplier_id: M6-x-100mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+    supplier_part_number: M6-x-100mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+    supplier_website: https://www.kayfast.co.uk/view-product/SOCKET-CAP-SCREWS-DIN-912-HIGH-TENSILE-SELF-COLOUR
   orbitalfasteners:
+    accepted_warnings: '[]'
+    box_quantity: '200'
+    captured_at: '2026-10-11T22:18:44.631757+00:00'
+    catalogue_page: '78'
+    currency: GBP
+    description: ''
+    html_sha256: f15d5196c27d02f2728988bd4c4f6e3343372b82f7e20235f0b709dadec589d0
+    name: M6 x 100 Socket Cap Screw, High Tensile Grade 12.9 Self Colour, DIN 912
+    parsed_at: '2026-10-13T10:53:20.694660+00:00'
+    parser_version: 1.2-review-policy
+    review_policy: ''
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: inclusive
+    status: ok
+    stock_as_of: 9th October 2026 10:01pm
+    stock_quantity: '741'
     supplier: orbitalfasteners
     supplier_id: '1891377'
     supplier_part_number: '1891377'
     supplier_website: https://www.orbitalfasteners.co.uk/products/m6-x-100-socket-cap-screw-high-tensile-grade-12-9-self-colour
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_text: 1 - 199 £0.2381 Inc. VAT £23.81 Inc. VAT
+      source_unit_price: '0.2381'
+      source_vat_basis: inclusive
+      unit_price: '0.2381'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_text: 200 - 999 £0.1322 Inc. VAT £13.22 Inc. VAT
+      source_unit_price: '0.1322'
+      source_vat_basis: inclusive
+      unit_price: '0.1322'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 1599
+      minimum: 1000
+      source_text: 1000 - 1599 £0.119 Inc. VAT £11.90 Inc. VAT
+      source_unit_price: '0.119'
+      source_vat_basis: inclusive
+      unit_price: '0.119'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 1600
+      source_text: 1600 + £0.1058 Inc. VAT £10.58 Inc. VAT
+      source_unit_price: '0.1058'
+      source_vat_basis: inclusive
+      unit_price: '0.1058'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.2381'
+    total_price_10: '2.3810'
+    total_price_100: '23.8100'
+    total_price_1000: '119.000'
+    total_price_10000: '1058.0000'
+    unit_price_1: '0.2381'
+    unit_price_10: '0.2381'
+    unit_price_100: '0.2381'
+    unit_price_1000: '0.119'
+    unit_price_10000: '0.1058'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings: []
+  westfieldfasteners:
+    accepted_warnings: '["Westfield sliding-scale prices only verified at advertised
+      package quantities; other quantities withheld", "Quantity 10: no unique verified
+      source price/VAT band; price withheld", "Quantity 100: no unique verified source
+      price/VAT band; price withheld", "Quantity 1000: no unique verified source price/VAT
+      band; price withheld", "Quantity 10000: no unique verified source price/VAT
+      band; price withheld"]'
+    captured_at: '2026-10-12T01:23:00.490627+00:00'
+    currency: GBP
+    html_sha256: 10d3cb0c5b33b1b29cf258089b7cba6d4f1879f795ecc9ff1781986dca156423
+    name: M6 x 100mm Unbrako Socket Head Cap Screw Part Thread in Black Oxide - ISO
+      4762 (DIN 912)
+    packages: '[{"quantity": 1, "total_price": "3.1200", "source_text": "single screw
+      for £2.60", "source_total_price": "2.60", "source_vat_basis": "exclusive", "vat_basis":
+      "inclusive"}, {"quantity": 40, "total_price": "25.5840", "source_text": "box
+      of 40 for £21.32", "source_total_price": "21.32", "source_vat_basis": "exclusive",
+      "vat_basis": "inclusive"}, {"quantity": 200, "total_price": "105.2280", "source_text":
+      "bulk of 200 for £87.69", "source_total_price": "87.69", "source_vat_basis":
+      "exclusive", "vat_basis": "inclusive"}]'
+    parsed_at: '2026-10-13T08:52:37.522847+00:00'
+    parser_version: westfieldfasteners-1.3-allen-cap-heading
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Include advertised package prices only; other quantities may remain
+      blank."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M6; Length: 100mm; M6 x 100mm Unbrako Socket Head
+      Cap Screw Part Thread in Black Oxide WF47977 - 334 in stock'
+    status: ok
+    stock_quantity: '334'
+    stock_status: ''
+    supplier: westfieldfasteners
+    supplier_id: WF47977
+    supplier_part_number: WF47977
+    supplier_website: https://www.westfieldfasteners.co.uk/Unbrako/Unbrako-Socket-Head-Cap-Screw-Part-Thread-M6x100-Black.html
+    tiers:
+    - maximum: 1
+      minimum: 1
+      source_text: single screw for £2.60
+      source_unit_price: '2.60'
+      source_vat_basis: exclusive
+      unit_price: '3.1200'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 40
+      minimum: 40
+      source_text: box of 40 for £21.32
+      source_unit_price: '0.533'
+      source_vat_basis: exclusive
+      unit_price: '0.63960'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 200
+      minimum: 200
+      source_text: bulk of 200 for £87.69
+      source_unit_price: '0.43845'
+      source_vat_basis: exclusive
+      unit_price: '0.5261400'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '3.1200'
+    total_price_10: ''
+    total_price_100: ''
+    total_price_1000: ''
+    total_price_10000: ''
+    unit_price_1: '3.1200'
+    unit_price_10: ''
+    unit_price_100: ''
+    unit_price_1000: ''
+    unit_price_10000: ''
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Westfield sliding-scale prices only verified at advertised package quantities;
+      other quantities withheld
+    - 'Quantity 10: no unique verified source price/VAT band; price withheld'
+    - 'Quantity 100: no unique verified source price/VAT band; price withheld'
+    - 'Quantity 1000: no unique verified source price/VAT band; price withheld'
+    - 'Quantity 10000: no unique verified source price/VAT band; price withheld'
 svg_details:
   diameter_mm: 6.0
   drive_style: hex_head

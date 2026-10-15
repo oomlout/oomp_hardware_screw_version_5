@@ -17,15 +17,224 @@ oobb_details:
   thread_size: m4_diameter
 supplier_data:
   boltbase:
+    accepted_warnings: '["Final Bolt Base threshold has no verified upper bound; extrapolation
+      withheld"]'
+    captured_at: '2026-10-12T02:14:06.827060+00:00'
+    currency: GBP
+    html_sha256: 3a5efbde45315e51cb6532139c308a03a70ec854d8e86e35015cad839afb59a5
+    name: M4 Self Colour 10.9 High Tensile Socket Countersunk Screws
+    packages: '[]'
+    parsed_at: '2026-10-13T10:54:45.970699+00:00'
+    parser_version: boltbase-1.2-review-policy
+    price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price": "0.03",
+      "source_text": "Buy 5000 + - 90% Each £0.03 £0.22", "basis": "user policy 2026-10-13"}}'
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "For a withheld 10000-unit price, inherit the highest available
+      lower-quantity unit price."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+    specifications: 'Thread Size: M4 (4mm); Length (Including Head): 6mm; M4 Socket
+      Countersunk Screws. Manufactured to DIN 7991 / ISO 10642 in Self Colour ( Black
+      ) High Tensile 10.9 Steel with a 4mm thread diameter and 0.7mm thread pitch.
+      Socket countersunk screws are typically used when a flush fitting screw is required.
+      Ideal when a screw with a low profile is required or for when the screw head
+      can not protrude from the work surface. Ideal for high stress applications or
+      for where a high strength bolt is required. These screws come mostly part threaded
+      as standard after a certain length. Please note that these bolts offer little
+      to no protection from rusting and are more suited for indoor use or for applications
+      where they are protected from moisture.'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
     supplier: boltbase
     supplier_id: 109SCCSK-4X6
     supplier_part_number: 109SCCSK-4X6
     supplier_website: https://boltbase.com/products/m4-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464510972285
+    tiers:
+    - maximum: 1
+      minimum: 1
+      source_text: Single Screw Buy 1 For £0.22
+      source_unit_price: '0.22'
+      source_vat_basis: exclusive
+      unit_price: '0.2640'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4
+      minimum: 2
+      source_text: Buy 2 + - 39% Each £0.14 £0.22
+      source_unit_price: '0.14'
+      source_vat_basis: exclusive
+      unit_price: '0.1680'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 9
+      minimum: 5
+      source_text: Buy 5 + - 48% Each £0.12 £0.22
+      source_unit_price: '0.12'
+      source_vat_basis: exclusive
+      unit_price: '0.1440'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 24
+      minimum: 10
+      source_text: Buy 10 + - 67% Each £0.08 £0.22
+      source_unit_price: '0.08'
+      source_vat_basis: exclusive
+      unit_price: '0.0960'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 49
+      minimum: 25
+      source_text: Buy 25 + - 75% Each £0.06 £0.22
+      source_unit_price: '0.06'
+      source_vat_basis: exclusive
+      unit_price: '0.0720'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 99
+      minimum: 50
+      source_text: Buy 50 + - 77% Each £0.06 £0.22
+      source_unit_price: '0.06'
+      source_vat_basis: exclusive
+      unit_price: '0.0720'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 249
+      minimum: 100
+      source_text: Buy 100 + - 81% Each £0.05 £0.22
+      source_unit_price: '0.05'
+      source_vat_basis: exclusive
+      unit_price: '0.0600'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 499
+      minimum: 250
+      source_text: Buy 250 + - 83% Each £0.04 £0.22
+      source_unit_price: '0.04'
+      source_vat_basis: exclusive
+      unit_price: '0.0480'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 500
+      source_text: Buy 500 + - 86% Each £0.04 £0.22
+      source_unit_price: '0.04'
+      source_vat_basis: exclusive
+      unit_price: '0.0480'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4999
+      minimum: 1000
+      source_text: Buy 1000 + - 88% Each £0.03 £0.22
+      source_unit_price: '0.03'
+      source_vat_basis: exclusive
+      unit_price: '0.0360'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 5000
+      minimum: 5000
+      source_text: Buy 5000 + - 90% Each £0.03 £0.22
+      source_unit_price: '0.03'
+      source_vat_basis: exclusive
+      unit_price: '0.0360'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.2640'
+    total_price_10: '0.9600'
+    total_price_100: '6.0000'
+    total_price_1000: '36.0000'
+    total_price_10000: '360.0000'
+    unit_price_1: '0.2640'
+    unit_price_10: '0.0960'
+    unit_price_100: '0.0600'
+    unit_price_1000: '0.0360'
+    unit_price_10000: '0.0360'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+  dibolt:
+    supplier: dibolt
+    supplier_id: 10170.040.006
+    supplier_part_number: 10170.040.006
+    supplier_website: https://dibolt.co.uk/products/m4-x-6mm-socket-screw-bolt-countersunk-high-tensile-grade-10-9-self-colour-din-7991
   orbitalfasteners:
+    accepted_warnings: '[]'
+    box_quantity: '200'
+    captured_at: '2026-10-11T21:40:57.364579+00:00'
+    catalogue_page: '80'
+    currency: GBP
+    description: Fully threaded. *Guide only, some variation possible. (Contact us
+      before ordering if this information is important)
+    html_sha256: 105c766b817b79e30b354ae33a28f4933c11405a37e9d459b161da246536a20b
+    name: M4 x 6 Socket Screw, Countersunk, High Tensile Grade 10.9 Self Colour, DIN
+      7991
+    parsed_at: '2026-10-13T10:53:16.005827+00:00'
+    parser_version: 1.2-review-policy
+    review_policy: ''
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: inclusive
+    status: ok
+    stock_as_of: 9th October 2026 10:01pm
+    stock_quantity: '3176'
     supplier: orbitalfasteners
     supplier_id: '1901055'
     supplier_part_number: '1901055'
     supplier_website: https://www.orbitalfasteners.co.uk/products/m4-x-6-socket-screw-countersunk-high-tensile-grade-10-9-self-colour-din-7991
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_text: 1 - 199 £0.0224 Inc. VAT £2.24 Inc. VAT
+      source_unit_price: '0.0224'
+      source_vat_basis: inclusive
+      unit_price: '0.0224'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_text: 200 - 999 £0.0125 Inc. VAT £1.25 Inc. VAT
+      source_unit_price: '0.0125'
+      source_vat_basis: inclusive
+      unit_price: '0.0125'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4799
+      minimum: 1000
+      source_text: 1000 - 4799 £0.0113 Inc. VAT £1.13 Inc. VAT
+      source_unit_price: '0.0113'
+      source_vat_basis: inclusive
+      unit_price: '0.0113'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 4800
+      source_text: 4800 + £0.01 Inc. VAT £1.00 Inc. VAT
+      source_unit_price: '0.01'
+      source_vat_basis: inclusive
+      unit_price: '0.01'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.0224'
+    total_price_10: '0.2240'
+    total_price_100: '2.2400'
+    total_price_1000: '11.3000'
+    total_price_10000: '100.00'
+    unit_price_1: '0.0224'
+    unit_price_10: '0.0224'
+    unit_price_100: '0.0224'
+    unit_price_1000: '0.0113'
+    unit_price_10000: '0.01'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings: []
 svg_details:
   diameter_mm: 4.0
   drive_style: hex_head

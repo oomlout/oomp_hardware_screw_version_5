@@ -29,7 +29,6 @@ bip_39_full_space: speak furnace cloth vanish news response exhibit end motor sa
     pluck emotion
 bip_39_full_underscore: speak_furnace_cloth_vanish_news_response_exhibit_end_motor_save_pluck_emotion
 directory: parts/hardware_screw_countersunk_pozidriv_bright_zinc_plated_m2_diameter_8_mm_length
-generate_stl: true
 id: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m2_diameter_8_mm_length
 id_no_class: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m2_diameter_8_mm_length
 id_no_size: hardware_screw_countersunk_pozidriv_bright_zinc_plated_m2_diameter_8_mm_length
@@ -2277,10 +2276,6 @@ oomlout_ai_roboclick_4:
         file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
     file_test: ''
 oomp_key: oomp_hardware_screw_countersunk_pozidriv_bright_zinc_plated_m2_diameter_8_mm_length
-run_action: true
-run_oomp: true
-run_oomp_populate: true
-run_scad: true
 svg_details:
     diameter_mm: 2.0
     drive_style: pozidriv

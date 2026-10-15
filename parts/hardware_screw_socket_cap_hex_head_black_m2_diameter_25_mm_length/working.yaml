@@ -39,7 +39,6 @@ color_band_taxonomy_3: purple
 color_band_taxonomy_6: orange
 color_band_taxonomy_7: brown
 directory: parts/hardware_screw_socket_cap_hex_head_black_m2_diameter_25_mm_length
-generate_stl: true
 id: hardware_screw_socket_cap_hex_head_black_m2_diameter_25_mm_length
 id_no_class: hardware_screw_socket_cap_hex_head_black_m2_diameter_25_mm_length
 id_no_size: hardware_screw_socket_cap_hex_head_black_m2_diameter_25_mm_length
@@ -721,10 +720,64 @@ oomlout_ai_roboclick_2:
             screw_style: screw_socket_cap
             supplier_data:
                 aanddfasteners:
+                    accepted_warnings: '[]'
+                    captured_at: '2026-10-12T14:15:32.111745+00:00'
+                    currency: GBP
+                    html_sha256: cf9665d7f3a169aad817f5b4fafe1b228228f704d77ab746442501443679ce70
+                    name: M2 x 25 Socket head cap screw, steel self colour, Din 912
+                    packages: '[]'
+                    parsed_at: '2026-10-13T10:55:58.475365+00:00'
+                    parser_version: aanddfasteners-1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '["Ignored empty quantity-price placeholder row:
+                        ['''', ''£ 0.00'']", "Ignored empty quantity-price placeholder
+                        row: ['''', ''£ 0.00'']"]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: Product information High tensile Socket head cap
+                        screws, made of 12.9 tensile steel with self colour finish
+                        to Din 912 with metric coarse thread. Also known as a socket
+                        head cap screw, socket screw or Allen bolt. This is a cap
+                        screw with a hexagonal recessed drive. A hex key, sometimes
+                        referred to as an Allen wrench or Allen key, or hex driver
+                        is required to tighten or loosen a socket screw. Socket screws
+                        are commonly used in assemblies that don't provide sufficient
+                        clearance for a conventional wrench or spanner. Please note
+                        that not all socket caps are fully threaded. If thread length
+                        is critical please contact us for more info.
+                    status: review
+                    stock_quantity: ''
+                    stock_status: ''
                     supplier: aanddfasteners
                     supplier_id: ST91202025SC
                     supplier_part_number: ST91202025SC
                     supplier_website: https://www.aanddfasteners.co.uk/shop/socket-screws/socket-cap/metric-din-912-iso-4762-steel-self-colour/m2-x-25-socket-head-cap-screw-steel-self-colour-din-912/details
+                    tiers:
+                    -   maximum: null
+                        minimum: 1
+                        source_text: 1+ £ 0.78
+                        source_unit_price: '0.78'
+                        source_vat_basis: exclusive
+                        unit_price: '0.9360'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.9360'
+                    total_price_10: '9.3600'
+                    total_price_100: '93.6000'
+                    total_price_1000: '936.0000'
+                    total_price_10000: '9360.0000'
+                    unit_price_1: '0.9360'
+                    unit_price_10: '0.9360'
+                    unit_price_100: '0.9360'
+                    unit_price_1000: '0.9360'
+                    unit_price_10000: '0.9360'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - 'Ignored empty quantity-price placeholder row: ['''', ''£ 0.00'']'
+                    - 'Ignored empty quantity-price placeholder row: ['''', ''£ 0.00'']'
                 dibolt:
                     supplier: dibolt
                     supplier_id: 10161.020.025
@@ -1722,10 +1775,70 @@ oomlout_ai_roboclick_3:
                         screw_style: screw_socket_cap
                         supplier_data:
                             aanddfasteners:
+                                accepted_warnings: '[]'
+                                captured_at: '2026-10-12T14:15:32.111745+00:00'
+                                currency: GBP
+                                html_sha256: cf9665d7f3a169aad817f5b4fafe1b228228f704d77ab746442501443679ce70
+                                name: M2 x 25 Socket head cap screw, steel self colour,
+                                    Din 912
+                                packages: '[]'
+                                parsed_at: '2026-10-13T10:55:58.475365+00:00'
+                                parser_version: aanddfasteners-1.2-review-policy
+                                review_policy: ''
+                                review_warnings: '["Ignored empty quantity-price placeholder
+                                    row: ['''', ''£ 0.00'']", "Ignored empty quantity-price
+                                    placeholder row: ['''', ''£ 0.00'']"]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: Product information High tensile Socket
+                                    head cap screws, made of 12.9 tensile steel with
+                                    self colour finish to Din 912 with metric coarse
+                                    thread. Also known as a socket head cap screw,
+                                    socket screw or Allen bolt. This is a cap screw
+                                    with a hexagonal recessed drive. A hex key, sometimes
+                                    referred to as an Allen wrench or Allen key, or
+                                    hex driver is required to tighten or loosen a
+                                    socket screw. Socket screws are commonly used
+                                    in assemblies that don't provide sufficient clearance
+                                    for a conventional wrench or spanner. Please note
+                                    that not all socket caps are fully threaded. If
+                                    thread length is critical please contact us for
+                                    more info.
+                                status: review
+                                stock_quantity: ''
+                                stock_status: ''
                                 supplier: aanddfasteners
                                 supplier_id: ST91202025SC
                                 supplier_part_number: ST91202025SC
                                 supplier_website: https://www.aanddfasteners.co.uk/shop/socket-screws/socket-cap/metric-din-912-iso-4762-steel-self-colour/m2-x-25-socket-head-cap-screw-steel-self-colour-din-912/details
+                                tiers:
+                                -   maximum: null
+                                    minimum: 1
+                                    source_text: 1+ £ 0.78
+                                    source_unit_price: '0.78'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.9360'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.9360'
+                                total_price_10: '9.3600'
+                                total_price_100: '93.6000'
+                                total_price_1000: '936.0000'
+                                total_price_10000: '9360.0000'
+                                unit_price_1: '0.9360'
+                                unit_price_10: '0.9360'
+                                unit_price_100: '0.9360'
+                                unit_price_1000: '0.9360'
+                                unit_price_10000: '0.9360'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - 'Ignored empty quantity-price placeholder row: ['''',
+                                    ''£ 0.00'']'
+                                - 'Ignored empty quantity-price placeholder row: ['''',
+                                    ''£ 0.00'']'
                             dibolt:
                                 supplier: dibolt
                                 supplier_id: 10161.020.025
@@ -2015,10 +2128,64 @@ oomlout_ai_roboclick_3:
             screw_style: screw_socket_cap
             supplier_data:
                 aanddfasteners:
+                    accepted_warnings: '[]'
+                    captured_at: '2026-10-12T14:15:32.111745+00:00'
+                    currency: GBP
+                    html_sha256: cf9665d7f3a169aad817f5b4fafe1b228228f704d77ab746442501443679ce70
+                    name: M2 x 25 Socket head cap screw, steel self colour, Din 912
+                    packages: '[]'
+                    parsed_at: '2026-10-13T10:55:58.475365+00:00'
+                    parser_version: aanddfasteners-1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '["Ignored empty quantity-price placeholder row:
+                        ['''', ''£ 0.00'']", "Ignored empty quantity-price placeholder
+                        row: ['''', ''£ 0.00'']"]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: Product information High tensile Socket head cap
+                        screws, made of 12.9 tensile steel with self colour finish
+                        to Din 912 with metric coarse thread. Also known as a socket
+                        head cap screw, socket screw or Allen bolt. This is a cap
+                        screw with a hexagonal recessed drive. A hex key, sometimes
+                        referred to as an Allen wrench or Allen key, or hex driver
+                        is required to tighten or loosen a socket screw. Socket screws
+                        are commonly used in assemblies that don't provide sufficient
+                        clearance for a conventional wrench or spanner. Please note
+                        that not all socket caps are fully threaded. If thread length
+                        is critical please contact us for more info.
+                    status: review
+                    stock_quantity: ''
+                    stock_status: ''
                     supplier: aanddfasteners
                     supplier_id: ST91202025SC
                     supplier_part_number: ST91202025SC
                     supplier_website: https://www.aanddfasteners.co.uk/shop/socket-screws/socket-cap/metric-din-912-iso-4762-steel-self-colour/m2-x-25-socket-head-cap-screw-steel-self-colour-din-912/details
+                    tiers:
+                    -   maximum: null
+                        minimum: 1
+                        source_text: 1+ £ 0.78
+                        source_unit_price: '0.78'
+                        source_vat_basis: exclusive
+                        unit_price: '0.9360'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.9360'
+                    total_price_10: '9.3600'
+                    total_price_100: '93.6000'
+                    total_price_1000: '936.0000'
+                    total_price_10000: '9360.0000'
+                    unit_price_1: '0.9360'
+                    unit_price_10: '0.9360'
+                    unit_price_100: '0.9360'
+                    unit_price_1000: '0.9360'
+                    unit_price_10000: '0.9360'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - 'Ignored empty quantity-price placeholder row: ['''', ''£ 0.00'']'
+                    - 'Ignored empty quantity-price placeholder row: ['''', ''£ 0.00'']'
                 dibolt:
                     supplier: dibolt
                     supplier_id: 10161.020.025
@@ -2309,17 +2476,64 @@ oomlout_ai_roboclick_4:
         file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
     file_test: ''
 oomp_key: oomp_hardware_screw_socket_cap_hex_head_black_m2_diameter_25_mm_length
-run_action: true
-run_oomp: true
-run_oomp_populate: true
-run_scad: true
 screw_style: screw_socket_cap
 supplier_data:
     aanddfasteners:
+        accepted_warnings: '[]'
+        captured_at: '2026-10-12T14:15:32.111745+00:00'
+        currency: GBP
+        html_sha256: cf9665d7f3a169aad817f5b4fafe1b228228f704d77ab746442501443679ce70
+        name: M2 x 25 Socket head cap screw, steel self colour, Din 912
+        packages: '[]'
+        parsed_at: '2026-10-13T10:55:58.475365+00:00'
+        parser_version: aanddfasteners-1.2-review-policy
+        review_policy: ''
+        review_warnings: '["Ignored empty quantity-price placeholder row: ['''', ''£
+            0.00'']", "Ignored empty quantity-price placeholder row: ['''', ''£ 0.00'']"]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: Product information High tensile Socket head cap screws, made
+            of 12.9 tensile steel with self colour finish to Din 912 with metric coarse
+            thread. Also known as a socket head cap screw, socket screw or Allen bolt.
+            This is a cap screw with a hexagonal recessed drive. A hex key, sometimes
+            referred to as an Allen wrench or Allen key, or hex driver is required
+            to tighten or loosen a socket screw. Socket screws are commonly used in
+            assemblies that don't provide sufficient clearance for a conventional
+            wrench or spanner. Please note that not all socket caps are fully threaded.
+            If thread length is critical please contact us for more info.
+        status: review
+        stock_quantity: ''
+        stock_status: ''
         supplier: aanddfasteners
         supplier_id: ST91202025SC
         supplier_part_number: ST91202025SC
         supplier_website: https://www.aanddfasteners.co.uk/shop/socket-screws/socket-cap/metric-din-912-iso-4762-steel-self-colour/m2-x-25-socket-head-cap-screw-steel-self-colour-din-912/details
+        tiers:
+        -   maximum: null
+            minimum: 1
+            source_text: 1+ £ 0.78
+            source_unit_price: '0.78'
+            source_vat_basis: exclusive
+            unit_price: '0.9360'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.9360'
+        total_price_10: '9.3600'
+        total_price_100: '93.6000'
+        total_price_1000: '936.0000'
+        total_price_10000: '9360.0000'
+        unit_price_1: '0.9360'
+        unit_price_10: '0.9360'
+        unit_price_100: '0.9360'
+        unit_price_1000: '0.9360'
+        unit_price_10000: '0.9360'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - 'Ignored empty quantity-price placeholder row: ['''', ''£ 0.00'']'
+        - 'Ignored empty quantity-price placeholder row: ['''', ''£ 0.00'']'
     dibolt:
         supplier: dibolt
         supplier_id: 10161.020.025

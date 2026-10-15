@@ -29,7 +29,6 @@ bip_39_full_space: knock exotic firm guitar brown oppose armed absurd inner kit 
     engage
 bip_39_full_underscore: knock_exotic_firm_guitar_brown_oppose_armed_absurd_inner_kit_dinosaur_engage
 directory: parts/hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_8_mm_length
-generate_stl: true
 id: hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_8_mm_length
 id_no_class: hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_8_mm_length
 id_no_size: hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_8_mm_length
@@ -2218,10 +2217,6 @@ oomlout_ai_roboclick_4:
         file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
     file_test: ''
 oomp_key: oomp_hardware_screw_socket_cap_low_head_ultra_hex_head_black_m3_diameter_8_mm_length
-run_action: true
-run_oomp: true
-run_oomp_populate: true
-run_scad: true
 svg_details:
     diameter_mm: 3.0
     drive_style: hex_head

@@ -29,7 +29,6 @@ bip_39_full_space: abuse skirt view physical idle kiss skill distance domain bor
     south pluck
 bip_39_full_underscore: abuse_skirt_view_physical_idle_kiss_skill_distance_domain_border_south_pluck
 directory: parts/hardware_screw_machine_screw_pozidriv_m4_diameter_10_mm_length
-generate_stl: true
 id: hardware_screw_machine_screw_pozidriv_m4_diameter_10_mm_length
 id_no_class: hardware_screw_machine_screw_pozidriv_m4_diameter_10_mm_length
 id_no_size: hardware_screw_machine_screw_pozidriv_m4_diameter_10_mm_length
@@ -2302,10 +2301,6 @@ oomlout_ai_roboclick_4:
         file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
     file_test: ''
 oomp_key: oomp_hardware_screw_machine_screw_pozidriv_m4_diameter_10_mm_length
-run_action: true
-run_oomp: true
-run_oomp_populate: true
-run_scad: true
 svg_details:
     diameter_mm: 4.0
     drive_style: pozidriv

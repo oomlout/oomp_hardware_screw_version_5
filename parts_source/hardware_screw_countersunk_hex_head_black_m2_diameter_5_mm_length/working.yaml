@@ -7,10 +7,147 @@ oobb_details:
   thread_size: m2_diameter
 supplier_data:
   boltbase:
+    accepted_warnings: '["Final Bolt Base threshold has no verified upper bound; extrapolation
+      withheld"]'
+    captured_at: '2026-10-12T01:58:46.133523+00:00'
+    currency: GBP
+    html_sha256: 9a4ffb5efdcf4e0f621fe47f8c24b88a33d29dc7c2bc69ca1f143f3ccf5c984a
+    name: M2 Self Colour 10.9 High Tensile Socket Countersunk Screws
+    packages: '[]'
+    parsed_at: '2026-10-13T10:54:38.879369+00:00'
+    parser_version: boltbase-1.2-review-policy
+    price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price": "0.08",
+      "source_text": "Buy 5000 + - 90% Each £0.08 £0.75", "basis": "user policy 2026-10-13"}}'
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "For a withheld 10000-unit price, inherit the highest available
+      lower-quantity unit price."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+    specifications: 'Thread Size: M2 (2mm); Length (Including Head): 5mm; M2 Socket
+      Countersunk Screws. Manufactured to DIN 7991 / ISO 10642 in Self Colour ( Black
+      ) High Tensile 10.9 Steel with a 2mm thread diameter and 0.4mm thread pitch.
+      Socket countersunk screws are typically used when a flush fitting screw is required.
+      Ideal when a screw with a low profile is required or for when the screw head
+      can not protrude from the work surface. Ideal for high stress applications or
+      for where a high strength bolt is required. These screws come mostly part threaded
+      as standard after a certain length. Please note that these bolts offer little
+      to no protection from rusting and are more suited for indoor use or for applications
+      where they are protected from moisture.'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
     supplier: boltbase
     supplier_id: 109SCCSK-2X5
     supplier_part_number: 109SCCSK-2X5
     supplier_website: https://boltbase.com/products/m2-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464508416381
+    tiers:
+    - maximum: 1
+      minimum: 1
+      source_text: Single Screw Buy 1 For £0.75
+      source_unit_price: '0.75'
+      source_vat_basis: exclusive
+      unit_price: '0.9000'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4
+      minimum: 2
+      source_text: Buy 2 + - 51% Each £0.37 £0.75
+      source_unit_price: '0.37'
+      source_vat_basis: exclusive
+      unit_price: '0.4440'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 9
+      minimum: 5
+      source_text: Buy 5 + - 69% Each £0.24 £0.75
+      source_unit_price: '0.24'
+      source_vat_basis: exclusive
+      unit_price: '0.2880'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 24
+      minimum: 10
+      source_text: Buy 10 + - 72% Each £0.21 £0.75
+      source_unit_price: '0.21'
+      source_vat_basis: exclusive
+      unit_price: '0.2520'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 49
+      minimum: 25
+      source_text: Buy 25 + - 77% Each £0.18 £0.75
+      source_unit_price: '0.18'
+      source_vat_basis: exclusive
+      unit_price: '0.2160'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 99
+      minimum: 50
+      source_text: Buy 50 + - 81% Each £0.15 £0.75
+      source_unit_price: '0.15'
+      source_vat_basis: exclusive
+      unit_price: '0.1800'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 249
+      minimum: 100
+      source_text: Buy 100 + - 83% Each £0.13 £0.75
+      source_unit_price: '0.13'
+      source_vat_basis: exclusive
+      unit_price: '0.1560'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 499
+      minimum: 250
+      source_text: Buy 250 + - 85% Each £0.12 £0.75
+      source_unit_price: '0.12'
+      source_vat_basis: exclusive
+      unit_price: '0.1440'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 500
+      source_text: Buy 500 + - 86% Each £0.11 £0.75
+      source_unit_price: '0.11'
+      source_vat_basis: exclusive
+      unit_price: '0.1320'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4999
+      minimum: 1000
+      source_text: Buy 1000 + - 87% Each £0.10 £0.75
+      source_unit_price: '0.10'
+      source_vat_basis: exclusive
+      unit_price: '0.1200'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 5000
+      minimum: 5000
+      source_text: Buy 5000 + - 90% Each £0.08 £0.75
+      source_unit_price: '0.08'
+      source_vat_basis: exclusive
+      unit_price: '0.0960'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.9000'
+    total_price_10: '2.5200'
+    total_price_100: '15.6000'
+    total_price_1000: '120.0000'
+    total_price_10000: '960.0000'
+    unit_price_1: '0.9000'
+    unit_price_10: '0.2520'
+    unit_price_100: '0.1560'
+    unit_price_1000: '0.1200'
+    unit_price_10000: '0.0960'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
   dibolt:
     supplier: dibolt
     supplier_id: 10170.020.005

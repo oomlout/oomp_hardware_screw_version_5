@@ -29,7 +29,6 @@ bip_39_full_space: edge hollow civil stuff style material skull eternal neglect 
     betray much
 bip_39_full_underscore: edge_hollow_civil_stuff_style_material_skull_eternal_neglect_man_betray_much
 directory: parts/hardware_screw_countersunk_hex_head_black_m4_diameter_40_mm_length
-generate_stl: true
 id: hardware_screw_countersunk_hex_head_black_m4_diameter_40_mm_length
 id_no_class: hardware_screw_countersunk_hex_head_black_m4_diameter_40_mm_length
 id_no_size: hardware_screw_countersunk_hex_head_black_m4_diameter_40_mm_length
@@ -697,16 +696,419 @@ oomlout_ai_roboclick_2:
                 file_test: initial_generated_icon.png
                 retries_until_complete: 0
             supplier_data:
+                accu:
+                    accepted_warnings: '["Accu displayed prices are rounded; derived
+                        totals use the captured display precision", "Final Accu price
+                        tier has no captured upper boundary; final advertised unit
+                        price extended by user policy"]'
+                    box_quantity: ''
+                    captured_at: '2026-10-11T23:33:42.711662+00:00'
+                    currency: GBP
+                    description: 'Countersunk Socket Head Screws feature a countersunk
+                        head type, which allows them to sit flush with their target
+                        housing. The socket head of these screws makes them ideal
+                        for use alongside Accu’s Hex Drive Bits or Allen Keys & Wrenches.
+                        Countersunk Screws are designed to be used alongside pre-drilled
+                        countersunk recesses, which can be made with the use of angle
+                        cutters called countersinks.  Countersunk Captive Fasteners
+                        Captive screw variants of Accu''s Metric Countersunk Screws
+                        are available in A2 and A4 Stainless Steel, with other materials
+                        such as thermoplastic PEEK available on request. Our range
+                        of Socket Countersunk Captive Screws are designed to be used
+                        in conjunction with Captive Washers to prevent the screws
+                        from falling out of housing assemblies and conform to EU Safety
+                        regulations. Materials Countersunk Socket Head Screws can
+                        be manufactured from a range of materials, including A2 and
+                        A4 Stainless Steel, Bumax and Aluminium options as standard.
+                        Accu also supplies Socket Countersunk Screws in 10.9 and 12.9
+                        High Tensile Steel, with materials such as Titanium and PEEK
+                        available through our custom manufacture service. Enhance
+                        the security of your Metric Socket Countersunk Screws against
+                        vibrations and self-loosening with our pre-applied thread-locking
+                        solutions. Choose from AccuLock Threadlocker for essential
+                        fastening, Anu-Lok 180 for added robustness, or Precote 80
+                        for high-performance locking. Elevate the aesthetics of your
+                        components with AccuBlack chemical blackening, reducing reflections
+                        and delivering a premium finish. Security Screw Variant For
+                        applications requiring a tamper-proof drive, this component
+                        is also available in a security variant, which can be found
+                        in Accu''s Security Socket Countersunk Screws range.  Metric
+                        Sizes Accu’s Metric Socket Countersunk Screws are available
+                        in thread sizes ranging from M2 to M24, and lengths from 3mm
+                        up to 200mm. Imperial Sizes Imperial Countersunk Socket Screws
+                        are also available in diameters from #0 to 7/8 inch. Lengths
+                        are available from 1/8 inch up to 10 inches. Minimum Thread
+                        Length In accordance with DIN standard 7991, Accu''s Socket
+                        Countersunk Screws are manufactured to a minimum specified
+                        thread length. Please contact us before placing your order
+                        if this dimension is critical to your application.'
+                    html_sha256: 2e975a9110d2b265091ebbeb453e8032ca0ea4fda0a0d13adfbbeb6f9bf0477d
+                    name: M4 x 40mm Socket Countersunk Screws (DIN 7991) - High Tensile
+                        Steel (10.9)
+                    parsed_at: '2026-10-13T07:20:30.122562+00:00'
+                    parser_version: accu-1.7-accepted-400-quotes
+                    price_inheritance: '{"1000": {"source_quantity": 200, "source_unit_price":
+                        "0.08", "source_text": "Buy 200 £0.08 Save 90 %", "basis":
+                        "user policy 2026-10-13"}, "10000": {"source_quantity": 200,
+                        "source_unit_price": "0.08", "source_text": "Buy 200 £0.08
+                        Save 90 %", "basis": "user policy 2026-10-13"}}'
+                    quote_minimum: ''
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept rounded displayed prices,
+                        open-ended final advertised tiers, and quotes required from
+                        400 units; quote-only prices remain blank."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.06",
+                        "highPrice": "0.82", "priceCurrency": "GBP", "offerCount":
+                        "11", "availability": "https://schema.org/InStock", "itemCondition":
+                        "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/countersunk-socket-head-screws/495080-SSK-M4-40-10-9",
+                        "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                        {"@type": "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "accus prices are all ex
+                        vat", "confirmed_on": "2026-10-13"}'
+                    specifications: '{"Accu Product Code (APC)": "SSK-M4-40-10.9",
+                        "Thread Size": "M4 (4 mm)", "Overall Length (L)": "40 mm",
+                        "Socket Size (J)": "2.5 mm", "Material": "Steel - High Tensile
+                        (10.9)", "Finish": "Natural", "Countersunk Angle (CA)": "90
+                        Degrees (Tolerance: +2/-0 Degrees)", "Countersunk Length (H)":
+                        "2.3 mm", "Full Thread": "Yes", "Head Diameter (D)": "8 mm
+                        (Tolerance: +0/-0.36 mm)", "Hexagon Depth (P)": "1.8 mm",
+                        "Manufacturing Standard": "DIN 7991", "Material Family": "Steel",
+                        "System of Measurement": "Metric", "Thread Pitch": "0.7 mm"}'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: https://schema.org/InStock
+                    supplier: accu
+                    supplier_id: SSK-M4-40-10.9
+                    supplier_part_number: SSK-M4-40-10.9
+                    supplier_website: https://www.accu.co.uk/countersunk-socket-head-screws/495080-SSK-M4-40-10-9
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: Buy 1 £0.82
+                        source_unit_price: '0.82'
+                        source_vat_basis: exclusive
+                        unit_price: '0.9840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 3
+                        minimum: 2
+                        source_text: Buy 2 £0.47 Save 42 %
+                        source_unit_price: '0.47'
+                        source_vat_basis: exclusive
+                        unit_price: '0.5640'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5
+                        minimum: 4
+                        source_text: Buy 4 £0.30 Save 63 %
+                        source_unit_price: '0.30'
+                        source_vat_basis: exclusive
+                        unit_price: '0.3600'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 11
+                        minimum: 6
+                        source_text: Buy 6 £0.21 Save 74 %
+                        source_unit_price: '0.21'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2520'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 23
+                        minimum: 12
+                        source_text: Buy 12 £0.15 Save 81 %
+                        source_unit_price: '0.15'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1800'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 24
+                        source_text: Buy 24 £0.12 Save 85 %
+                        source_unit_price: '0.12'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1440'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: Buy 50 £0.10 Save 87 %
+                        source_unit_price: '0.10'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 199
+                        minimum: 100
+                        source_text: Buy 100 £0.09 Save 89 %
+                        source_unit_price: '0.09'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        maximum_basis: user-approved open-ended final tier; no captured
+                            upper boundary
+                        minimum: 200
+                        source_text: Buy 200 £0.08 Save 90 %
+                        source_unit_price: '0.08'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0960'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.9840'
+                    total_price_10: '2.5200'
+                    total_price_100: '10.8000'
+                    total_price_1000: '96.0000'
+                    total_price_10000: '960.0000'
+                    unit_price_1: '0.9840'
+                    unit_price_10: '0.2520'
+                    unit_price_100: '0.1080'
+                    unit_price_1000: '0.0960'
+                    unit_price_10000: '0.0960'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Accu displayed prices are rounded; derived totals use the captured
+                        display precision
+                    - Final Accu price tier has no captured upper boundary; final
+                        advertised unit price extended by user policy
                 boltbase:
+                    accepted_warnings: '["Final Bolt Base threshold has no verified
+                        upper bound; extrapolation withheld"]'
+                    captured_at: '2026-10-12T02:13:25.104220+00:00'
+                    currency: GBP
+                    html_sha256: 850ced2ec5a5966ace1fc558704be8d702bcf375c7d8cc68dd4f2b97f59c5eee
+                    name: M4 Self Colour 10.9 High Tensile Socket Countersunk Screws
+                    packages: '[]'
+                    parsed_at: '2026-10-13T10:54:45.637494+00:00'
+                    parser_version: boltbase-1.2-review-policy
+                    price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
+                        "0.03", "source_text": "Buy 5000 + - 90% Each £0.03 £0.26",
+                        "basis": "user policy 2026-10-13"}}'
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "For a withheld 10000-unit price,
+                        inherit the highest available lower-quantity unit price."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "bolt base prices are ex
+                        vat", "confirmed_on": "2026-10-11"}'
+                    specifications: 'Thread Size: M4 (4mm); Length (Including Head):
+                        40mm; M4 Socket Countersunk Screws. Manufactured to DIN 7991
+                        / ISO 10642 in Self Colour ( Black ) High Tensile 10.9 Steel
+                        with a 4mm thread diameter and 0.7mm thread pitch. Socket
+                        countersunk screws are typically used when a flush fitting
+                        screw is required. Ideal when a screw with a low profile is
+                        required or for when the screw head can not protrude from
+                        the work surface. Ideal for high stress applications or for
+                        where a high strength bolt is required. These screws come
+                        mostly part threaded as standard after a certain length. Please
+                        note that these bolts offer little to no protection from rusting
+                        and are more suited for indoor use or for applications where
+                        they are protected from moisture.'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
                     supplier: boltbase
                     supplier_id: 109SCCSK-4X40
                     supplier_part_number: 109SCCSK-4X40
                     supplier_website: https://boltbase.com/products/m4-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464511398269
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: Single Screw Buy 1 For £0.26
+                        source_unit_price: '0.26'
+                        source_vat_basis: exclusive
+                        unit_price: '0.3120'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4
+                        minimum: 2
+                        source_text: Buy 2 + - 38% Each £0.16 £0.26
+                        source_unit_price: '0.16'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1920'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 9
+                        minimum: 5
+                        source_text: Buy 5 + - 48% Each £0.14 £0.26
+                        source_unit_price: '0.14'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1680'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 24
+                        minimum: 10
+                        source_text: Buy 10 + - 67% Each £0.09 £0.26
+                        source_unit_price: '0.09'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 25
+                        source_text: Buy 25 + - 75% Each £0.07 £0.26
+                        source_unit_price: '0.07'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: Buy 50 + - 77% Each £0.06 £0.26
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 249
+                        minimum: 100
+                        source_text: Buy 100 + - 81% Each £0.05 £0.26
+                        source_unit_price: '0.05'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0600'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 250
+                        source_text: Buy 250 + - 83% Each £0.05 £0.26
+                        source_unit_price: '0.05'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0600'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 500
+                        source_text: Buy 500 + - 86% Each £0.04 £0.26
+                        source_unit_price: '0.04'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0480'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_text: Buy 1000 + - 88% Each £0.04 £0.26
+                        source_unit_price: '0.04'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0480'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5000
+                        minimum: 5000
+                        source_text: Buy 5000 + - 90% Each £0.03 £0.26
+                        source_unit_price: '0.03'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0360'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.3120'
+                    total_price_10: '1.0800'
+                    total_price_100: '6.0000'
+                    total_price_1000: '48.0000'
+                    total_price_10000: '360.0000'
+                    unit_price_1: '0.3120'
+                    unit_price_10: '0.1080'
+                    unit_price_100: '0.0600'
+                    unit_price_1000: '0.0480'
+                    unit_price_10000: '0.0360'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Final Bolt Base threshold has no verified upper bound; extrapolation
+                        withheld
+                dibolt:
+                    supplier: dibolt
+                    supplier_id: 10170.040.040
+                    supplier_part_number: 10170.040.040
+                    supplier_website: https://dibolt.co.uk/products/m4-x-40mm-socket-screw-bolt-countersunk-high-tensile-grade-10-9-self-colour-din-799
+                kayfast:
+                    supplier: kayfast
+                    supplier_id: M4-x-40mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+                    supplier_part_number: M4-x-40mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+                    supplier_website: https://www.kayfast.co.uk/view-product/COUNTERSUNK-SOCKET-SCREWS-HIGH-TENSILE-109-SELF-COLOUR
                 orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '200'
+                    captured_at: '2026-10-11T21:40:14.678826+00:00'
+                    catalogue_page: '80'
+                    currency: GBP
+                    description: 20mm part threaded. *Guide only, some variation possible.
+                        (Contact us before ordering if this information is important)
+                    html_sha256: b9efe3f2bc9059debc68d976a4057d4c24706921a514a160d1568fb7e5bc1b6b
+                    name: M4 x 40 Socket Screw, Countersunk, High Tensile Grade 10.9
+                        Self Colour, DIN 7991
+                    parsed_at: '2026-10-13T10:53:15.940221+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '5771'
                     supplier: orbitalfasteners
                     supplier_id: '1901124'
                     supplier_part_number: '1901124'
                     supplier_website: https://www.orbitalfasteners.co.uk/products/m4-x-40-socket-screw-countersunk-high-tensile-grade-10-9-self-colour-din-7991
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_text: 1 - 199 £0.0605 Inc. VAT £6.05 Inc. VAT
+                        source_unit_price: '0.0605'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0605'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_text: 200 - 999 £0.0336 Inc. VAT £3.36 Inc. VAT
+                        source_unit_price: '0.0336'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0336'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4799
+                        minimum: 1000
+                        source_text: 1000 - 4799 £0.0302 Inc. VAT £3.02 Inc. VAT
+                        source_unit_price: '0.0302'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0302'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 4800
+                        source_text: 4800 + £0.0269 Inc. VAT £2.69 Inc. VAT
+                        source_unit_price: '0.0269'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0269'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0605'
+                    total_price_10: '0.6050'
+                    total_price_100: '6.0500'
+                    total_price_1000: '30.2000'
+                    total_price_10000: '269.0000'
+                    unit_price_1: '0.0605'
+                    unit_price_10: '0.0605'
+                    unit_price_100: '0.0605'
+                    unit_price_1000: '0.0302'
+                    unit_price_10000: '0.0269'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
             svg_details:
                 diameter_mm: 4.0
                 drive_style: hex_head
@@ -1692,16 +2094,445 @@ oomlout_ai_roboclick_3:
                             file_test: initial_generated_icon.png
                             retries_until_complete: 0
                         supplier_data:
+                            accu:
+                                accepted_warnings: '["Accu displayed prices are rounded;
+                                    derived totals use the captured display precision",
+                                    "Final Accu price tier has no captured upper boundary;
+                                    final advertised unit price extended by user policy"]'
+                                box_quantity: ''
+                                captured_at: '2026-10-11T23:33:42.711662+00:00'
+                                currency: GBP
+                                description: 'Countersunk Socket Head Screws feature
+                                    a countersunk head type, which allows them to
+                                    sit flush with their target housing. The socket
+                                    head of these screws makes them ideal for use
+                                    alongside Accu’s Hex Drive Bits or Allen Keys
+                                    & Wrenches. Countersunk Screws are designed to
+                                    be used alongside pre-drilled countersunk recesses,
+                                    which can be made with the use of angle cutters
+                                    called countersinks.  Countersunk Captive Fasteners
+                                    Captive screw variants of Accu''s Metric Countersunk
+                                    Screws are available in A2 and A4 Stainless Steel,
+                                    with other materials such as thermoplastic PEEK
+                                    available on request. Our range of Socket Countersunk
+                                    Captive Screws are designed to be used in conjunction
+                                    with Captive Washers to prevent the screws from
+                                    falling out of housing assemblies and conform
+                                    to EU Safety regulations. Materials Countersunk
+                                    Socket Head Screws can be manufactured from a
+                                    range of materials, including A2 and A4 Stainless
+                                    Steel, Bumax and Aluminium options as standard.
+                                    Accu also supplies Socket Countersunk Screws in
+                                    10.9 and 12.9 High Tensile Steel, with materials
+                                    such as Titanium and PEEK available through our
+                                    custom manufacture service. Enhance the security
+                                    of your Metric Socket Countersunk Screws against
+                                    vibrations and self-loosening with our pre-applied
+                                    thread-locking solutions. Choose from AccuLock
+                                    Threadlocker for essential fastening, Anu-Lok
+                                    180 for added robustness, or Precote 80 for high-performance
+                                    locking. Elevate the aesthetics of your components
+                                    with AccuBlack chemical blackening, reducing reflections
+                                    and delivering a premium finish. Security Screw
+                                    Variant For applications requiring a tamper-proof
+                                    drive, this component is also available in a security
+                                    variant, which can be found in Accu''s Security
+                                    Socket Countersunk Screws range.  Metric Sizes
+                                    Accu’s Metric Socket Countersunk Screws are available
+                                    in thread sizes ranging from M2 to M24, and lengths
+                                    from 3mm up to 200mm. Imperial Sizes Imperial
+                                    Countersunk Socket Screws are also available in
+                                    diameters from #0 to 7/8 inch. Lengths are available
+                                    from 1/8 inch up to 10 inches. Minimum Thread
+                                    Length In accordance with DIN standard 7991, Accu''s
+                                    Socket Countersunk Screws are manufactured to
+                                    a minimum specified thread length. Please contact
+                                    us before placing your order if this dimension
+                                    is critical to your application.'
+                                html_sha256: 2e975a9110d2b265091ebbeb453e8032ca0ea4fda0a0d13adfbbeb6f9bf0477d
+                                name: M4 x 40mm Socket Countersunk Screws (DIN 7991)
+                                    - High Tensile Steel (10.9)
+                                parsed_at: '2026-10-13T07:20:30.122562+00:00'
+                                parser_version: accu-1.7-accepted-400-quotes
+                                price_inheritance: '{"1000": {"source_quantity": 200,
+                                    "source_unit_price": "0.08", "source_text": "Buy
+                                    200 £0.08 Save 90 %", "basis": "user policy 2026-10-13"},
+                                    "10000": {"source_quantity": 200, "source_unit_price":
+                                    "0.08", "source_text": "Buy 200 £0.08 Save 90
+                                    %", "basis": "user policy 2026-10-13"}}'
+                                quote_minimum: ''
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept rounded displayed
+                                    prices, open-ended final advertised tiers, and
+                                    quotes required from 400 units; quote-only prices
+                                    remain blank."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_offer: '{"@type": "AggregateOffer", "lowPrice":
+                                    "0.06", "highPrice": "0.82", "priceCurrency":
+                                    "GBP", "offerCount": "11", "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "url": "https://www.accu.co.uk/countersunk-socket-head-screws/495080-SSK-M4-40-10-9",
+                                    "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                                    {"@type": "QuantitativeValue", "value": 1, "unitCode":
+                                    "ANN"}}}'
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "accus
+                                    prices are all ex vat", "confirmed_on": "2026-10-13"}'
+                                specifications: '{"Accu Product Code (APC)": "SSK-M4-40-10.9",
+                                    "Thread Size": "M4 (4 mm)", "Overall Length (L)":
+                                    "40 mm", "Socket Size (J)": "2.5 mm", "Material":
+                                    "Steel - High Tensile (10.9)", "Finish": "Natural",
+                                    "Countersunk Angle (CA)": "90 Degrees (Tolerance:
+                                    +2/-0 Degrees)", "Countersunk Length (H)": "2.3
+                                    mm", "Full Thread": "Yes", "Head Diameter (D)":
+                                    "8 mm (Tolerance: +0/-0.36 mm)", "Hexagon Depth
+                                    (P)": "1.8 mm", "Manufacturing Standard": "DIN
+                                    7991", "Material Family": "Steel", "System of
+                                    Measurement": "Metric", "Thread Pitch": "0.7 mm"}'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: https://schema.org/InStock
+                                supplier: accu
+                                supplier_id: SSK-M4-40-10.9
+                                supplier_part_number: SSK-M4-40-10.9
+                                supplier_website: https://www.accu.co.uk/countersunk-socket-head-screws/495080-SSK-M4-40-10-9
+                                tiers:
+                                -   maximum: 1
+                                    minimum: 1
+                                    source_text: Buy 1 £0.82
+                                    source_unit_price: '0.82'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.9840'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 3
+                                    minimum: 2
+                                    source_text: Buy 2 £0.47 Save 42 %
+                                    source_unit_price: '0.47'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.5640'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 5
+                                    minimum: 4
+                                    source_text: Buy 4 £0.30 Save 63 %
+                                    source_unit_price: '0.30'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.3600'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 11
+                                    minimum: 6
+                                    source_text: Buy 6 £0.21 Save 74 %
+                                    source_unit_price: '0.21'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.2520'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 23
+                                    minimum: 12
+                                    source_text: Buy 12 £0.15 Save 81 %
+                                    source_unit_price: '0.15'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1800'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 49
+                                    minimum: 24
+                                    source_text: Buy 24 £0.12 Save 85 %
+                                    source_unit_price: '0.12'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1440'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 99
+                                    minimum: 50
+                                    source_text: Buy 50 £0.10 Save 87 %
+                                    source_unit_price: '0.10'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1200'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 199
+                                    minimum: 100
+                                    source_text: Buy 100 £0.09 Save 89 %
+                                    source_unit_price: '0.09'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1080'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    maximum_basis: user-approved open-ended final
+                                        tier; no captured upper boundary
+                                    minimum: 200
+                                    source_text: Buy 200 £0.08 Save 90 %
+                                    source_unit_price: '0.08'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0960'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.9840'
+                                total_price_10: '2.5200'
+                                total_price_100: '10.8000'
+                                total_price_1000: '96.0000'
+                                total_price_10000: '960.0000'
+                                unit_price_1: '0.9840'
+                                unit_price_10: '0.2520'
+                                unit_price_100: '0.1080'
+                                unit_price_1000: '0.0960'
+                                unit_price_10000: '0.0960'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Accu displayed prices are rounded; derived totals
+                                    use the captured display precision
+                                - Final Accu price tier has no captured upper boundary;
+                                    final advertised unit price extended by user policy
                             boltbase:
+                                accepted_warnings: '["Final Bolt Base threshold has
+                                    no verified upper bound; extrapolation withheld"]'
+                                captured_at: '2026-10-12T02:13:25.104220+00:00'
+                                currency: GBP
+                                html_sha256: 850ced2ec5a5966ace1fc558704be8d702bcf375c7d8cc68dd4f2b97f59c5eee
+                                name: M4 Self Colour 10.9 High Tensile Socket Countersunk
+                                    Screws
+                                packages: '[]'
+                                parsed_at: '2026-10-13T10:54:45.637494+00:00'
+                                parser_version: boltbase-1.2-review-policy
+                                price_inheritance: '{"10000": {"source_quantity":
+                                    5000, "source_unit_price": "0.03", "source_text":
+                                    "Buy 5000 + - 90% Each £0.03 £0.26", "basis":
+                                    "user policy 2026-10-13"}}'
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "For a withheld 10000-unit
+                                    price, inherit the highest available lower-quantity
+                                    unit price."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "bolt
+                                    base prices are ex vat", "confirmed_on": "2026-10-11"}'
+                                specifications: 'Thread Size: M4 (4mm); Length (Including
+                                    Head): 40mm; M4 Socket Countersunk Screws. Manufactured
+                                    to DIN 7991 / ISO 10642 in Self Colour ( Black
+                                    ) High Tensile 10.9 Steel with a 4mm thread diameter
+                                    and 0.7mm thread pitch. Socket countersunk screws
+                                    are typically used when a flush fitting screw
+                                    is required. Ideal when a screw with a low profile
+                                    is required or for when the screw head can not
+                                    protrude from the work surface. Ideal for high
+                                    stress applications or for where a high strength
+                                    bolt is required. These screws come mostly part
+                                    threaded as standard after a certain length. Please
+                                    note that these bolts offer little to no protection
+                                    from rusting and are more suited for indoor use
+                                    or for applications where they are protected from
+                                    moisture.'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
                                 supplier: boltbase
                                 supplier_id: 109SCCSK-4X40
                                 supplier_part_number: 109SCCSK-4X40
                                 supplier_website: https://boltbase.com/products/m4-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464511398269
+                                tiers:
+                                -   maximum: 1
+                                    minimum: 1
+                                    source_text: Single Screw Buy 1 For £0.26
+                                    source_unit_price: '0.26'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.3120'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 4
+                                    minimum: 2
+                                    source_text: Buy 2 + - 38% Each £0.16 £0.26
+                                    source_unit_price: '0.16'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1920'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 9
+                                    minimum: 5
+                                    source_text: Buy 5 + - 48% Each £0.14 £0.26
+                                    source_unit_price: '0.14'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1680'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 24
+                                    minimum: 10
+                                    source_text: Buy 10 + - 67% Each £0.09 £0.26
+                                    source_unit_price: '0.09'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1080'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 49
+                                    minimum: 25
+                                    source_text: Buy 25 + - 75% Each £0.07 £0.26
+                                    source_unit_price: '0.07'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0840'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 99
+                                    minimum: 50
+                                    source_text: Buy 50 + - 77% Each £0.06 £0.26
+                                    source_unit_price: '0.06'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0720'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 249
+                                    minimum: 100
+                                    source_text: Buy 100 + - 81% Each £0.05 £0.26
+                                    source_unit_price: '0.05'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0600'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 499
+                                    minimum: 250
+                                    source_text: Buy 250 + - 83% Each £0.05 £0.26
+                                    source_unit_price: '0.05'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0600'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 999
+                                    minimum: 500
+                                    source_text: Buy 500 + - 86% Each £0.04 £0.26
+                                    source_unit_price: '0.04'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0480'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 4999
+                                    minimum: 1000
+                                    source_text: Buy 1000 + - 88% Each £0.04 £0.26
+                                    source_unit_price: '0.04'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0480'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 5000
+                                    minimum: 5000
+                                    source_text: Buy 5000 + - 90% Each £0.03 £0.26
+                                    source_unit_price: '0.03'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0360'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.3120'
+                                total_price_10: '1.0800'
+                                total_price_100: '6.0000'
+                                total_price_1000: '48.0000'
+                                total_price_10000: '360.0000'
+                                unit_price_1: '0.3120'
+                                unit_price_10: '0.1080'
+                                unit_price_100: '0.0600'
+                                unit_price_1000: '0.0480'
+                                unit_price_10000: '0.0360'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Final Bolt Base threshold has no verified upper
+                                    bound; extrapolation withheld
+                            dibolt:
+                                supplier: dibolt
+                                supplier_id: 10170.040.040
+                                supplier_part_number: 10170.040.040
+                                supplier_website: https://dibolt.co.uk/products/m4-x-40mm-socket-screw-bolt-countersunk-high-tensile-grade-10-9-self-colour-din-799
+                            kayfast:
+                                supplier: kayfast
+                                supplier_id: M4-x-40mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+                                supplier_part_number: M4-x-40mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+                                supplier_website: https://www.kayfast.co.uk/view-product/COUNTERSUNK-SOCKET-SCREWS-HIGH-TENSILE-109-SELF-COLOUR
                             orbitalfasteners:
+                                accepted_warnings: '[]'
+                                box_quantity: '200'
+                                captured_at: '2026-10-11T21:40:14.678826+00:00'
+                                catalogue_page: '80'
+                                currency: GBP
+                                description: 20mm part threaded. *Guide only, some
+                                    variation possible. (Contact us before ordering
+                                    if this information is important)
+                                html_sha256: b9efe3f2bc9059debc68d976a4057d4c24706921a514a160d1568fb7e5bc1b6b
+                                name: M4 x 40 Socket Screw, Countersunk, High Tensile
+                                    Grade 10.9 Self Colour, DIN 7991
+                                parsed_at: '2026-10-13T10:53:15.940221+00:00'
+                                parser_version: 1.2-review-policy
+                                review_policy: ''
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: inclusive
+                                status: ok
+                                stock_as_of: 9th October 2026 10:01pm
+                                stock_quantity: '5771'
                                 supplier: orbitalfasteners
                                 supplier_id: '1901124'
                                 supplier_part_number: '1901124'
                                 supplier_website: https://www.orbitalfasteners.co.uk/products/m4-x-40-socket-screw-countersunk-high-tensile-grade-10-9-self-colour-din-7991
+                                tiers:
+                                -   maximum: 199
+                                    minimum: 1
+                                    source_text: 1 - 199 £0.0605 Inc. VAT £6.05 Inc.
+                                        VAT
+                                    source_unit_price: '0.0605'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0605'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 999
+                                    minimum: 200
+                                    source_text: 200 - 999 £0.0336 Inc. VAT £3.36
+                                        Inc. VAT
+                                    source_unit_price: '0.0336'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0336'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 4799
+                                    minimum: 1000
+                                    source_text: 1000 - 4799 £0.0302 Inc. VAT £3.02
+                                        Inc. VAT
+                                    source_unit_price: '0.0302'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0302'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 4800
+                                    source_text: 4800 + £0.0269 Inc. VAT £2.69 Inc.
+                                        VAT
+                                    source_unit_price: '0.0269'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0269'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.0605'
+                                total_price_10: '0.6050'
+                                total_price_100: '6.0500'
+                                total_price_1000: '30.2000'
+                                total_price_10000: '269.0000'
+                                unit_price_1: '0.0605'
+                                unit_price_10: '0.0605'
+                                unit_price_100: '0.0605'
+                                unit_price_1000: '0.0302'
+                                unit_price_10000: '0.0269'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings: []
                         svg_details:
                             diameter_mm: 4.0
                             drive_style: hex_head
@@ -1998,16 +2829,419 @@ oomlout_ai_roboclick_3:
                 file_test: label_oomp.pdf
                 retries_until_complete: 0
             supplier_data:
+                accu:
+                    accepted_warnings: '["Accu displayed prices are rounded; derived
+                        totals use the captured display precision", "Final Accu price
+                        tier has no captured upper boundary; final advertised unit
+                        price extended by user policy"]'
+                    box_quantity: ''
+                    captured_at: '2026-10-11T23:33:42.711662+00:00'
+                    currency: GBP
+                    description: 'Countersunk Socket Head Screws feature a countersunk
+                        head type, which allows them to sit flush with their target
+                        housing. The socket head of these screws makes them ideal
+                        for use alongside Accu’s Hex Drive Bits or Allen Keys & Wrenches.
+                        Countersunk Screws are designed to be used alongside pre-drilled
+                        countersunk recesses, which can be made with the use of angle
+                        cutters called countersinks.  Countersunk Captive Fasteners
+                        Captive screw variants of Accu''s Metric Countersunk Screws
+                        are available in A2 and A4 Stainless Steel, with other materials
+                        such as thermoplastic PEEK available on request. Our range
+                        of Socket Countersunk Captive Screws are designed to be used
+                        in conjunction with Captive Washers to prevent the screws
+                        from falling out of housing assemblies and conform to EU Safety
+                        regulations. Materials Countersunk Socket Head Screws can
+                        be manufactured from a range of materials, including A2 and
+                        A4 Stainless Steel, Bumax and Aluminium options as standard.
+                        Accu also supplies Socket Countersunk Screws in 10.9 and 12.9
+                        High Tensile Steel, with materials such as Titanium and PEEK
+                        available through our custom manufacture service. Enhance
+                        the security of your Metric Socket Countersunk Screws against
+                        vibrations and self-loosening with our pre-applied thread-locking
+                        solutions. Choose from AccuLock Threadlocker for essential
+                        fastening, Anu-Lok 180 for added robustness, or Precote 80
+                        for high-performance locking. Elevate the aesthetics of your
+                        components with AccuBlack chemical blackening, reducing reflections
+                        and delivering a premium finish. Security Screw Variant For
+                        applications requiring a tamper-proof drive, this component
+                        is also available in a security variant, which can be found
+                        in Accu''s Security Socket Countersunk Screws range.  Metric
+                        Sizes Accu’s Metric Socket Countersunk Screws are available
+                        in thread sizes ranging from M2 to M24, and lengths from 3mm
+                        up to 200mm. Imperial Sizes Imperial Countersunk Socket Screws
+                        are also available in diameters from #0 to 7/8 inch. Lengths
+                        are available from 1/8 inch up to 10 inches. Minimum Thread
+                        Length In accordance with DIN standard 7991, Accu''s Socket
+                        Countersunk Screws are manufactured to a minimum specified
+                        thread length. Please contact us before placing your order
+                        if this dimension is critical to your application.'
+                    html_sha256: 2e975a9110d2b265091ebbeb453e8032ca0ea4fda0a0d13adfbbeb6f9bf0477d
+                    name: M4 x 40mm Socket Countersunk Screws (DIN 7991) - High Tensile
+                        Steel (10.9)
+                    parsed_at: '2026-10-13T07:20:30.122562+00:00'
+                    parser_version: accu-1.7-accepted-400-quotes
+                    price_inheritance: '{"1000": {"source_quantity": 200, "source_unit_price":
+                        "0.08", "source_text": "Buy 200 £0.08 Save 90 %", "basis":
+                        "user policy 2026-10-13"}, "10000": {"source_quantity": 200,
+                        "source_unit_price": "0.08", "source_text": "Buy 200 £0.08
+                        Save 90 %", "basis": "user policy 2026-10-13"}}'
+                    quote_minimum: ''
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept rounded displayed prices,
+                        open-ended final advertised tiers, and quotes required from
+                        400 units; quote-only prices remain blank."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.06",
+                        "highPrice": "0.82", "priceCurrency": "GBP", "offerCount":
+                        "11", "availability": "https://schema.org/InStock", "itemCondition":
+                        "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/countersunk-socket-head-screws/495080-SSK-M4-40-10-9",
+                        "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                        {"@type": "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "accus prices are all ex
+                        vat", "confirmed_on": "2026-10-13"}'
+                    specifications: '{"Accu Product Code (APC)": "SSK-M4-40-10.9",
+                        "Thread Size": "M4 (4 mm)", "Overall Length (L)": "40 mm",
+                        "Socket Size (J)": "2.5 mm", "Material": "Steel - High Tensile
+                        (10.9)", "Finish": "Natural", "Countersunk Angle (CA)": "90
+                        Degrees (Tolerance: +2/-0 Degrees)", "Countersunk Length (H)":
+                        "2.3 mm", "Full Thread": "Yes", "Head Diameter (D)": "8 mm
+                        (Tolerance: +0/-0.36 mm)", "Hexagon Depth (P)": "1.8 mm",
+                        "Manufacturing Standard": "DIN 7991", "Material Family": "Steel",
+                        "System of Measurement": "Metric", "Thread Pitch": "0.7 mm"}'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: https://schema.org/InStock
+                    supplier: accu
+                    supplier_id: SSK-M4-40-10.9
+                    supplier_part_number: SSK-M4-40-10.9
+                    supplier_website: https://www.accu.co.uk/countersunk-socket-head-screws/495080-SSK-M4-40-10-9
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: Buy 1 £0.82
+                        source_unit_price: '0.82'
+                        source_vat_basis: exclusive
+                        unit_price: '0.9840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 3
+                        minimum: 2
+                        source_text: Buy 2 £0.47 Save 42 %
+                        source_unit_price: '0.47'
+                        source_vat_basis: exclusive
+                        unit_price: '0.5640'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5
+                        minimum: 4
+                        source_text: Buy 4 £0.30 Save 63 %
+                        source_unit_price: '0.30'
+                        source_vat_basis: exclusive
+                        unit_price: '0.3600'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 11
+                        minimum: 6
+                        source_text: Buy 6 £0.21 Save 74 %
+                        source_unit_price: '0.21'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2520'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 23
+                        minimum: 12
+                        source_text: Buy 12 £0.15 Save 81 %
+                        source_unit_price: '0.15'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1800'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 24
+                        source_text: Buy 24 £0.12 Save 85 %
+                        source_unit_price: '0.12'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1440'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: Buy 50 £0.10 Save 87 %
+                        source_unit_price: '0.10'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 199
+                        minimum: 100
+                        source_text: Buy 100 £0.09 Save 89 %
+                        source_unit_price: '0.09'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        maximum_basis: user-approved open-ended final tier; no captured
+                            upper boundary
+                        minimum: 200
+                        source_text: Buy 200 £0.08 Save 90 %
+                        source_unit_price: '0.08'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0960'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.9840'
+                    total_price_10: '2.5200'
+                    total_price_100: '10.8000'
+                    total_price_1000: '96.0000'
+                    total_price_10000: '960.0000'
+                    unit_price_1: '0.9840'
+                    unit_price_10: '0.2520'
+                    unit_price_100: '0.1080'
+                    unit_price_1000: '0.0960'
+                    unit_price_10000: '0.0960'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Accu displayed prices are rounded; derived totals use the captured
+                        display precision
+                    - Final Accu price tier has no captured upper boundary; final
+                        advertised unit price extended by user policy
                 boltbase:
+                    accepted_warnings: '["Final Bolt Base threshold has no verified
+                        upper bound; extrapolation withheld"]'
+                    captured_at: '2026-10-12T02:13:25.104220+00:00'
+                    currency: GBP
+                    html_sha256: 850ced2ec5a5966ace1fc558704be8d702bcf375c7d8cc68dd4f2b97f59c5eee
+                    name: M4 Self Colour 10.9 High Tensile Socket Countersunk Screws
+                    packages: '[]'
+                    parsed_at: '2026-10-13T10:54:45.637494+00:00'
+                    parser_version: boltbase-1.2-review-policy
+                    price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
+                        "0.03", "source_text": "Buy 5000 + - 90% Each £0.03 £0.26",
+                        "basis": "user policy 2026-10-13"}}'
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "For a withheld 10000-unit price,
+                        inherit the highest available lower-quantity unit price."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "bolt base prices are ex
+                        vat", "confirmed_on": "2026-10-11"}'
+                    specifications: 'Thread Size: M4 (4mm); Length (Including Head):
+                        40mm; M4 Socket Countersunk Screws. Manufactured to DIN 7991
+                        / ISO 10642 in Self Colour ( Black ) High Tensile 10.9 Steel
+                        with a 4mm thread diameter and 0.7mm thread pitch. Socket
+                        countersunk screws are typically used when a flush fitting
+                        screw is required. Ideal when a screw with a low profile is
+                        required or for when the screw head can not protrude from
+                        the work surface. Ideal for high stress applications or for
+                        where a high strength bolt is required. These screws come
+                        mostly part threaded as standard after a certain length. Please
+                        note that these bolts offer little to no protection from rusting
+                        and are more suited for indoor use or for applications where
+                        they are protected from moisture.'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
                     supplier: boltbase
                     supplier_id: 109SCCSK-4X40
                     supplier_part_number: 109SCCSK-4X40
                     supplier_website: https://boltbase.com/products/m4-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464511398269
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: Single Screw Buy 1 For £0.26
+                        source_unit_price: '0.26'
+                        source_vat_basis: exclusive
+                        unit_price: '0.3120'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4
+                        minimum: 2
+                        source_text: Buy 2 + - 38% Each £0.16 £0.26
+                        source_unit_price: '0.16'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1920'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 9
+                        minimum: 5
+                        source_text: Buy 5 + - 48% Each £0.14 £0.26
+                        source_unit_price: '0.14'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1680'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 24
+                        minimum: 10
+                        source_text: Buy 10 + - 67% Each £0.09 £0.26
+                        source_unit_price: '0.09'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 25
+                        source_text: Buy 25 + - 75% Each £0.07 £0.26
+                        source_unit_price: '0.07'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: Buy 50 + - 77% Each £0.06 £0.26
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 249
+                        minimum: 100
+                        source_text: Buy 100 + - 81% Each £0.05 £0.26
+                        source_unit_price: '0.05'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0600'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 250
+                        source_text: Buy 250 + - 83% Each £0.05 £0.26
+                        source_unit_price: '0.05'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0600'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 500
+                        source_text: Buy 500 + - 86% Each £0.04 £0.26
+                        source_unit_price: '0.04'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0480'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_text: Buy 1000 + - 88% Each £0.04 £0.26
+                        source_unit_price: '0.04'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0480'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5000
+                        minimum: 5000
+                        source_text: Buy 5000 + - 90% Each £0.03 £0.26
+                        source_unit_price: '0.03'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0360'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.3120'
+                    total_price_10: '1.0800'
+                    total_price_100: '6.0000'
+                    total_price_1000: '48.0000'
+                    total_price_10000: '360.0000'
+                    unit_price_1: '0.3120'
+                    unit_price_10: '0.1080'
+                    unit_price_100: '0.0600'
+                    unit_price_1000: '0.0480'
+                    unit_price_10000: '0.0360'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Final Bolt Base threshold has no verified upper bound; extrapolation
+                        withheld
+                dibolt:
+                    supplier: dibolt
+                    supplier_id: 10170.040.040
+                    supplier_part_number: 10170.040.040
+                    supplier_website: https://dibolt.co.uk/products/m4-x-40mm-socket-screw-bolt-countersunk-high-tensile-grade-10-9-self-colour-din-799
+                kayfast:
+                    supplier: kayfast
+                    supplier_id: M4-x-40mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+                    supplier_part_number: M4-x-40mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+                    supplier_website: https://www.kayfast.co.uk/view-product/COUNTERSUNK-SOCKET-SCREWS-HIGH-TENSILE-109-SELF-COLOUR
                 orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '200'
+                    captured_at: '2026-10-11T21:40:14.678826+00:00'
+                    catalogue_page: '80'
+                    currency: GBP
+                    description: 20mm part threaded. *Guide only, some variation possible.
+                        (Contact us before ordering if this information is important)
+                    html_sha256: b9efe3f2bc9059debc68d976a4057d4c24706921a514a160d1568fb7e5bc1b6b
+                    name: M4 x 40 Socket Screw, Countersunk, High Tensile Grade 10.9
+                        Self Colour, DIN 7991
+                    parsed_at: '2026-10-13T10:53:15.940221+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '5771'
                     supplier: orbitalfasteners
                     supplier_id: '1901124'
                     supplier_part_number: '1901124'
                     supplier_website: https://www.orbitalfasteners.co.uk/products/m4-x-40-socket-screw-countersunk-high-tensile-grade-10-9-self-colour-din-7991
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_text: 1 - 199 £0.0605 Inc. VAT £6.05 Inc. VAT
+                        source_unit_price: '0.0605'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0605'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_text: 200 - 999 £0.0336 Inc. VAT £3.36 Inc. VAT
+                        source_unit_price: '0.0336'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0336'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4799
+                        minimum: 1000
+                        source_text: 1000 - 4799 £0.0302 Inc. VAT £3.02 Inc. VAT
+                        source_unit_price: '0.0302'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0302'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 4800
+                        source_text: 4800 + £0.0269 Inc. VAT £2.69 Inc. VAT
+                        source_unit_price: '0.0269'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0269'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0605'
+                    total_price_10: '0.6050'
+                    total_price_100: '6.0500'
+                    total_price_1000: '30.2000'
+                    total_price_10000: '269.0000'
+                    unit_price_1: '0.0605'
+                    unit_price_10: '0.0605'
+                    unit_price_100: '0.0605'
+                    unit_price_1000: '0.0302'
+                    unit_price_10000: '0.0269'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
             svg_details:
                 diameter_mm: 4.0
                 drive_style: hex_head
@@ -2310,21 +3544,404 @@ oomlout_ai_roboclick_4:
         file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
     file_test: ''
 oomp_key: oomp_hardware_screw_countersunk_hex_head_black_m4_diameter_40_mm_length
-run_action: true
-run_oomp: true
-run_oomp_populate: true
-run_scad: true
 supplier_data:
+    accu:
+        accepted_warnings: '["Accu displayed prices are rounded; derived totals use
+            the captured display precision", "Final Accu price tier has no captured
+            upper boundary; final advertised unit price extended by user policy"]'
+        box_quantity: ''
+        captured_at: '2026-10-11T23:33:42.711662+00:00'
+        currency: GBP
+        description: 'Countersunk Socket Head Screws feature a countersunk head type,
+            which allows them to sit flush with their target housing. The socket head
+            of these screws makes them ideal for use alongside Accu’s Hex Drive Bits
+            or Allen Keys & Wrenches. Countersunk Screws are designed to be used alongside
+            pre-drilled countersunk recesses, which can be made with the use of angle
+            cutters called countersinks.  Countersunk Captive Fasteners Captive screw
+            variants of Accu''s Metric Countersunk Screws are available in A2 and
+            A4 Stainless Steel, with other materials such as thermoplastic PEEK available
+            on request. Our range of Socket Countersunk Captive Screws are designed
+            to be used in conjunction with Captive Washers to prevent the screws from
+            falling out of housing assemblies and conform to EU Safety regulations.
+            Materials Countersunk Socket Head Screws can be manufactured from a range
+            of materials, including A2 and A4 Stainless Steel, Bumax and Aluminium
+            options as standard. Accu also supplies Socket Countersunk Screws in 10.9
+            and 12.9 High Tensile Steel, with materials such as Titanium and PEEK
+            available through our custom manufacture service. Enhance the security
+            of your Metric Socket Countersunk Screws against vibrations and self-loosening
+            with our pre-applied thread-locking solutions. Choose from AccuLock Threadlocker
+            for essential fastening, Anu-Lok 180 for added robustness, or Precote
+            80 for high-performance locking. Elevate the aesthetics of your components
+            with AccuBlack chemical blackening, reducing reflections and delivering
+            a premium finish. Security Screw Variant For applications requiring a
+            tamper-proof drive, this component is also available in a security variant,
+            which can be found in Accu''s Security Socket Countersunk Screws range. 
+            Metric Sizes Accu’s Metric Socket Countersunk Screws are available in
+            thread sizes ranging from M2 to M24, and lengths from 3mm up to 200mm.
+            Imperial Sizes Imperial Countersunk Socket Screws are also available in
+            diameters from #0 to 7/8 inch. Lengths are available from 1/8 inch up
+            to 10 inches. Minimum Thread Length In accordance with DIN standard 7991,
+            Accu''s Socket Countersunk Screws are manufactured to a minimum specified
+            thread length. Please contact us before placing your order if this dimension
+            is critical to your application.'
+        html_sha256: 2e975a9110d2b265091ebbeb453e8032ca0ea4fda0a0d13adfbbeb6f9bf0477d
+        name: M4 x 40mm Socket Countersunk Screws (DIN 7991) - High Tensile Steel
+            (10.9)
+        parsed_at: '2026-10-13T07:20:30.122562+00:00'
+        parser_version: accu-1.7-accepted-400-quotes
+        price_inheritance: '{"1000": {"source_quantity": 200, "source_unit_price":
+            "0.08", "source_text": "Buy 200 £0.08 Save 90 %", "basis": "user policy
+            2026-10-13"}, "10000": {"source_quantity": 200, "source_unit_price": "0.08",
+            "source_text": "Buy 200 £0.08 Save 90 %", "basis": "user policy 2026-10-13"}}'
+        quote_minimum: ''
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept rounded displayed prices, open-ended final advertised
+            tiers, and quotes required from 400 units; quote-only prices remain blank."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.06", "highPrice":
+            "0.82", "priceCurrency": "GBP", "offerCount": "11", "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/countersunk-socket-head-screws/495080-SSK-M4-40-10-9",
+            "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type":
+            "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "accus prices are all ex vat", "confirmed_on": "2026-10-13"}'
+        specifications: '{"Accu Product Code (APC)": "SSK-M4-40-10.9", "Thread Size":
+            "M4 (4 mm)", "Overall Length (L)": "40 mm", "Socket Size (J)": "2.5 mm",
+            "Material": "Steel - High Tensile (10.9)", "Finish": "Natural", "Countersunk
+            Angle (CA)": "90 Degrees (Tolerance: +2/-0 Degrees)", "Countersunk Length
+            (H)": "2.3 mm", "Full Thread": "Yes", "Head Diameter (D)": "8 mm (Tolerance:
+            +0/-0.36 mm)", "Hexagon Depth (P)": "1.8 mm", "Manufacturing Standard":
+            "DIN 7991", "Material Family": "Steel", "System of Measurement": "Metric",
+            "Thread Pitch": "0.7 mm"}'
+        status: ok
+        stock_quantity: ''
+        stock_status: https://schema.org/InStock
+        supplier: accu
+        supplier_id: SSK-M4-40-10.9
+        supplier_part_number: SSK-M4-40-10.9
+        supplier_website: https://www.accu.co.uk/countersunk-socket-head-screws/495080-SSK-M4-40-10-9
+        tiers:
+        -   maximum: 1
+            minimum: 1
+            source_text: Buy 1 £0.82
+            source_unit_price: '0.82'
+            source_vat_basis: exclusive
+            unit_price: '0.9840'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 3
+            minimum: 2
+            source_text: Buy 2 £0.47 Save 42 %
+            source_unit_price: '0.47'
+            source_vat_basis: exclusive
+            unit_price: '0.5640'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 5
+            minimum: 4
+            source_text: Buy 4 £0.30 Save 63 %
+            source_unit_price: '0.30'
+            source_vat_basis: exclusive
+            unit_price: '0.3600'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 11
+            minimum: 6
+            source_text: Buy 6 £0.21 Save 74 %
+            source_unit_price: '0.21'
+            source_vat_basis: exclusive
+            unit_price: '0.2520'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 23
+            minimum: 12
+            source_text: Buy 12 £0.15 Save 81 %
+            source_unit_price: '0.15'
+            source_vat_basis: exclusive
+            unit_price: '0.1800'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 49
+            minimum: 24
+            source_text: Buy 24 £0.12 Save 85 %
+            source_unit_price: '0.12'
+            source_vat_basis: exclusive
+            unit_price: '0.1440'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 99
+            minimum: 50
+            source_text: Buy 50 £0.10 Save 87 %
+            source_unit_price: '0.10'
+            source_vat_basis: exclusive
+            unit_price: '0.1200'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 199
+            minimum: 100
+            source_text: Buy 100 £0.09 Save 89 %
+            source_unit_price: '0.09'
+            source_vat_basis: exclusive
+            unit_price: '0.1080'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            maximum_basis: user-approved open-ended final tier; no captured upper
+                boundary
+            minimum: 200
+            source_text: Buy 200 £0.08 Save 90 %
+            source_unit_price: '0.08'
+            source_vat_basis: exclusive
+            unit_price: '0.0960'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.9840'
+        total_price_10: '2.5200'
+        total_price_100: '10.8000'
+        total_price_1000: '96.0000'
+        total_price_10000: '960.0000'
+        unit_price_1: '0.9840'
+        unit_price_10: '0.2520'
+        unit_price_100: '0.1080'
+        unit_price_1000: '0.0960'
+        unit_price_10000: '0.0960'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Accu displayed prices are rounded; derived totals use the captured display
+            precision
+        - Final Accu price tier has no captured upper boundary; final advertised unit
+            price extended by user policy
     boltbase:
+        accepted_warnings: '["Final Bolt Base threshold has no verified upper bound;
+            extrapolation withheld"]'
+        captured_at: '2026-10-12T02:13:25.104220+00:00'
+        currency: GBP
+        html_sha256: 850ced2ec5a5966ace1fc558704be8d702bcf375c7d8cc68dd4f2b97f59c5eee
+        name: M4 Self Colour 10.9 High Tensile Socket Countersunk Screws
+        packages: '[]'
+        parsed_at: '2026-10-13T10:54:45.637494+00:00'
+        parser_version: boltbase-1.2-review-policy
+        price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
+            "0.03", "source_text": "Buy 5000 + - 90% Each £0.03 £0.26", "basis": "user
+            policy 2026-10-13"}}'
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "For a withheld 10000-unit price, inherit the highest available
+            lower-quantity unit price."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+        specifications: 'Thread Size: M4 (4mm); Length (Including Head): 40mm; M4
+            Socket Countersunk Screws. Manufactured to DIN 7991 / ISO 10642 in Self
+            Colour ( Black ) High Tensile 10.9 Steel with a 4mm thread diameter and
+            0.7mm thread pitch. Socket countersunk screws are typically used when
+            a flush fitting screw is required. Ideal when a screw with a low profile
+            is required or for when the screw head can not protrude from the work
+            surface. Ideal for high stress applications or for where a high strength
+            bolt is required. These screws come mostly part threaded as standard after
+            a certain length. Please note that these bolts offer little to no protection
+            from rusting and are more suited for indoor use or for applications where
+            they are protected from moisture.'
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
         supplier: boltbase
         supplier_id: 109SCCSK-4X40
         supplier_part_number: 109SCCSK-4X40
         supplier_website: https://boltbase.com/products/m4-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464511398269
+        tiers:
+        -   maximum: 1
+            minimum: 1
+            source_text: Single Screw Buy 1 For £0.26
+            source_unit_price: '0.26'
+            source_vat_basis: exclusive
+            unit_price: '0.3120'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 4
+            minimum: 2
+            source_text: Buy 2 + - 38% Each £0.16 £0.26
+            source_unit_price: '0.16'
+            source_vat_basis: exclusive
+            unit_price: '0.1920'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 9
+            minimum: 5
+            source_text: Buy 5 + - 48% Each £0.14 £0.26
+            source_unit_price: '0.14'
+            source_vat_basis: exclusive
+            unit_price: '0.1680'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 24
+            minimum: 10
+            source_text: Buy 10 + - 67% Each £0.09 £0.26
+            source_unit_price: '0.09'
+            source_vat_basis: exclusive
+            unit_price: '0.1080'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 49
+            minimum: 25
+            source_text: Buy 25 + - 75% Each £0.07 £0.26
+            source_unit_price: '0.07'
+            source_vat_basis: exclusive
+            unit_price: '0.0840'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 99
+            minimum: 50
+            source_text: Buy 50 + - 77% Each £0.06 £0.26
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 249
+            minimum: 100
+            source_text: Buy 100 + - 81% Each £0.05 £0.26
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 499
+            minimum: 250
+            source_text: Buy 250 + - 83% Each £0.05 £0.26
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 999
+            minimum: 500
+            source_text: Buy 500 + - 86% Each £0.04 £0.26
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 4999
+            minimum: 1000
+            source_text: Buy 1000 + - 88% Each £0.04 £0.26
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 5000
+            minimum: 5000
+            source_text: Buy 5000 + - 90% Each £0.03 £0.26
+            source_unit_price: '0.03'
+            source_vat_basis: exclusive
+            unit_price: '0.0360'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.3120'
+        total_price_10: '1.0800'
+        total_price_100: '6.0000'
+        total_price_1000: '48.0000'
+        total_price_10000: '360.0000'
+        unit_price_1: '0.3120'
+        unit_price_10: '0.1080'
+        unit_price_100: '0.0600'
+        unit_price_1000: '0.0480'
+        unit_price_10000: '0.0360'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+    dibolt:
+        supplier: dibolt
+        supplier_id: 10170.040.040
+        supplier_part_number: 10170.040.040
+        supplier_website: https://dibolt.co.uk/products/m4-x-40mm-socket-screw-bolt-countersunk-high-tensile-grade-10-9-self-colour-din-799
+    kayfast:
+        supplier: kayfast
+        supplier_id: M4-x-40mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+        supplier_part_number: M4-x-40mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+        supplier_website: https://www.kayfast.co.uk/view-product/COUNTERSUNK-SOCKET-SCREWS-HIGH-TENSILE-109-SELF-COLOUR
     orbitalfasteners:
+        accepted_warnings: '[]'
+        box_quantity: '200'
+        captured_at: '2026-10-11T21:40:14.678826+00:00'
+        catalogue_page: '80'
+        currency: GBP
+        description: 20mm part threaded. *Guide only, some variation possible. (Contact
+            us before ordering if this information is important)
+        html_sha256: b9efe3f2bc9059debc68d976a4057d4c24706921a514a160d1568fb7e5bc1b6b
+        name: M4 x 40 Socket Screw, Countersunk, High Tensile Grade 10.9 Self Colour,
+            DIN 7991
+        parsed_at: '2026-10-13T10:53:15.940221+00:00'
+        parser_version: 1.2-review-policy
+        review_policy: ''
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: inclusive
+        status: ok
+        stock_as_of: 9th October 2026 10:01pm
+        stock_quantity: '5771'
         supplier: orbitalfasteners
         supplier_id: '1901124'
         supplier_part_number: '1901124'
         supplier_website: https://www.orbitalfasteners.co.uk/products/m4-x-40-socket-screw-countersunk-high-tensile-grade-10-9-self-colour-din-7991
+        tiers:
+        -   maximum: 199
+            minimum: 1
+            source_text: 1 - 199 £0.0605 Inc. VAT £6.05 Inc. VAT
+            source_unit_price: '0.0605'
+            source_vat_basis: inclusive
+            unit_price: '0.0605'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 999
+            minimum: 200
+            source_text: 200 - 999 £0.0336 Inc. VAT £3.36 Inc. VAT
+            source_unit_price: '0.0336'
+            source_vat_basis: inclusive
+            unit_price: '0.0336'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 4799
+            minimum: 1000
+            source_text: 1000 - 4799 £0.0302 Inc. VAT £3.02 Inc. VAT
+            source_unit_price: '0.0302'
+            source_vat_basis: inclusive
+            unit_price: '0.0302'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 4800
+            source_text: 4800 + £0.0269 Inc. VAT £2.69 Inc. VAT
+            source_unit_price: '0.0269'
+            source_vat_basis: inclusive
+            unit_price: '0.0269'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.0605'
+        total_price_10: '0.6050'
+        total_price_100: '6.0500'
+        total_price_1000: '30.2000'
+        total_price_10000: '269.0000'
+        unit_price_1: '0.0605'
+        unit_price_10: '0.0605'
+        unit_price_100: '0.0605'
+        unit_price_1000: '0.0302'
+        unit_price_10000: '0.0269'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings: []
 svg_details:
     diameter_mm: 4.0
     drive_style: hex_head

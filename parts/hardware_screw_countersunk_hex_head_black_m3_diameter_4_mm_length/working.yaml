@@ -29,7 +29,6 @@ bip_39_full_space: pulse jungle certain pave device nose pause flight frame scie
     loop access
 bip_39_full_underscore: pulse_jungle_certain_pave_device_nose_pause_flight_frame_science_loop_access
 directory: parts/hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length
-generate_stl: true
 id: hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length
 id_no_class: hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length
 id_no_size: hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length
@@ -2271,10 +2270,6 @@ oomlout_ai_roboclick_4:
         file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
     file_test: ''
 oomp_key: oomp_hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length
-run_action: true
-run_oomp: true
-run_oomp_populate: true
-run_scad: true
 svg_details:
     diameter_mm: 3.0
     drive_style: hex_head

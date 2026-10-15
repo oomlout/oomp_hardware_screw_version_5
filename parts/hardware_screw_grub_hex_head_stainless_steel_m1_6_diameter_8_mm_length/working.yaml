@@ -29,7 +29,6 @@ bip_39_full_space: powder topple cover calm panda puzzle regular gas kite butter
     ahead
 bip_39_full_underscore: powder_topple_cover_calm_panda_puzzle_regular_gas_kite_butter_confirm_ahead
 directory: parts/hardware_screw_grub_hex_head_stainless_steel_m1_6_diameter_8_mm_length
-generate_stl: true
 id: hardware_screw_grub_hex_head_stainless_steel_m1_6_diameter_8_mm_length
 id_no_class: hardware_screw_grub_hex_head_stainless_steel_m1_6_diameter_8_mm_length
 id_no_size: hardware_screw_grub_hex_head_stainless_steel_m1_6_diameter_8_mm_length
@@ -2229,10 +2228,6 @@ oomlout_ai_roboclick_4:
         file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
     file_test: ''
 oomp_key: oomp_hardware_screw_grub_hex_head_stainless_steel_m1_6_diameter_8_mm_length
-run_action: true
-run_oomp: true
-run_oomp_populate: true
-run_scad: true
 svg_details:
     diameter_mm: 1.6
     drive_style: hex_head
