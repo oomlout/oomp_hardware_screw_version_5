@@ -3,37 +3,27 @@
   "blender_version": "5.2.2 LTS",
   "device": "GPU",
   "material": {
-    "name": "Black oxide steel",
     "base_colour_srgb": [
       0.205,
       0.218,
       0.235
     ],
-    "metallic": 0.8,
-    "roughness": 0.31,
-    "roughness_variation": 0.045,
-    "coat_weight": 0.08,
     "coat_roughness": 0.28,
-    "microtexture_spacing_mm": 0.025,
+    "coat_weight": 0.08,
+    "metallic": 0.8,
     "microtexture_height_um": 0.8,
-    "note": "Visual finish approximation; catalogue specifies colour only."
+    "microtexture_spacing_mm": 0.025,
+    "name": "Black oxide steel",
+    "note": "Visual finish approximation; catalogue specifies colour only.",
+    "roughness": 0.31,
+    "roughness_variation": 0.045
   },
   "studio": {
-    "engine": "cycles",
-    "device": "auto",
-    "seed": 7991,
-    "low_samples": 48,
-    "high_samples": 160,
     "adaptive_threshold": 0.015,
     "denoise": true,
-    "view_transform": "AgX",
+    "device": "auto",
+    "engine": "cycles",
     "exposure": 0.0,
-    "world_colour": [
-      0.78,
-      0.82,
-      0.9
-    ],
-    "world_strength": 0.35,
     "floor_colour_srgb": [
       0.93,
       0.935,
@@ -41,8 +31,15 @@
     ],
     "floor_roughness": 0.55,
     "framing_margin": 0.13,
+    "high_samples": 160,
     "lights": [
       {
+        "colour": [
+          1.0,
+          0.96,
+          0.9
+        ],
+        "height": 5.0,
         "name": "Key softbox",
         "position": [
           -3,
@@ -50,15 +47,15 @@
           6
         ],
         "power": 650.0,
-        "width": 4.0,
-        "height": 5.0,
-        "colour": [
-          1.0,
-          0.96,
-          0.9
-        ]
+        "width": 4.0
       },
       {
+        "colour": [
+          0.9,
+          0.95,
+          1.0
+        ],
+        "height": 4.0,
         "name": "Fill softbox",
         "position": [
           4,
@@ -66,15 +63,15 @@
           3
         ],
         "power": 330.0,
-        "width": 3.0,
-        "height": 4.0,
-        "colour": [
-          0.9,
-          0.95,
-          1.0
-        ]
+        "width": 3.0
       },
       {
+        "colour": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "height": 5.0,
         "name": "Rim strip",
         "position": [
           1,
@@ -82,15 +79,10 @@
           4
         ],
         "power": 850.0,
-        "width": 1.2,
-        "height": 5.0,
-        "colour": [
-          1.0,
-          1.0,
-          1.0
-        ]
+        "width": 1.2
       }
     ],
+    "low_samples": 48,
     "poses": {
       "isometric": {
         "camera_eye": [
@@ -98,8 +90,8 @@
           -1,
           1
         ],
-        "projection": "orthographic",
-        "orientation": "tip down, head up"
+        "orientation": "tip down, head up",
+        "projection": "orthographic"
       },
       "product": {
         "camera_eye": [
@@ -107,12 +99,20 @@
           -10,
           6
         ],
-        "projection": "orthographic",
         "orientation": "lying on side, head to left",
-        "yaw_degrees": -12.0,
-        "support": "Head rim and threaded shaft rest on ground; solve tilt from mesh."
+        "projection": "orthographic",
+        "support": "Head rim and threaded shaft rest on ground; solve tilt from mesh.",
+        "yaw_degrees": -12.0
       }
-    }
+    },
+    "seed": 7991,
+    "view_transform": "AgX",
+    "world_colour": [
+      0.78,
+      0.82,
+      0.9
+    ],
+    "world_strength": 0.35
   },
   "poses": {
     "isometric": {
@@ -197,51 +197,51 @@
     }
   },
   "renders": {
-    "low": {
-      "file": "render_low.png",
-      "variant": "display",
-      "pixels": 512,
-      "view": "isometric"
-    },
     "high": {
       "file": "render_high.png",
-      "variant": "full",
       "pixels": 2048,
+      "variant": "full",
       "view": "isometric"
     },
-    "product_low": {
-      "file": "render_product_low.png",
-      "variant": "display",
+    "low": {
+      "file": "render_low.png",
       "pixels": 512,
-      "view": "product"
+      "variant": "display",
+      "view": "isometric"
     },
     "product_high": {
       "file": "render_product_high.png",
-      "variant": "full",
       "pixels": 2048,
+      "variant": "full",
+      "view": "product"
+    },
+    "product_low": {
+      "file": "render_product_low.png",
+      "pixels": 512,
+      "variant": "display",
       "view": "product"
     }
   },
   "render_statistics": {
-    "low": {
-      "seconds": 0.685,
-      "denoiser": "OPTIX",
-      "samples": 48
-    },
     "high": {
-      "seconds": 9.909,
+      "seconds": 11.32,
       "denoiser": "OPTIX",
       "samples": 160
     },
-    "product_low": {
-      "seconds": 0.435,
+    "low": {
+      "seconds": 0.545,
       "denoiser": "OPTIX",
       "samples": 48
     },
     "product_high": {
-      "seconds": 11.791,
+      "seconds": 12.14,
       "denoiser": "OPTIX",
       "samples": 160
+    },
+    "product_low": {
+      "seconds": 0.534,
+      "denoiser": "OPTIX",
+      "samples": 48
     }
   }
 }

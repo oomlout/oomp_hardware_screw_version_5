@@ -19,14 +19,17 @@ def resolve_thread(parameters):
     p = copy.deepcopy(parameters)
     d, length, pitch = p['diameter_mm'], p['length_mm'], p['pitch_mm']
     h = math.sqrt(3)/2*pitch
-    p.update(thread_pitch_diameter_mm=d-3*h/4,
-             thread_minor_diameter_mm=d-2*17*h/24,
-             thread_root_radius_mm=h/6, thread_flank_angle_deg=60.)
+    wood = p.get('thread_profile') == 'wood_reference'
+    if not wood:
+        p.update(thread_pitch_diameter_mm=d-3*h/4,
+                 thread_minor_diameter_mm=d-2*17*h/24,
+                 thread_root_radius_mm=h/6, thread_flank_angle_deg=60.)
     radius = p['underhead_fillet_mm']
     style = p.get('head_style', 'countersunk')
     if style == 'countersunk':
         half_angle = math.radians(p['countersink_angle_deg']/2)
-        intersection = length-p['head_rim_mm']-(p['head_diameter_mm']-d)/2/math.tan(half_angle)
+        shaft = p.get('shank_diameter_mm', d)
+        intersection = length-p['head_rim_mm']-(p['head_diameter_mm']-shaft)/2/math.tan(half_angle)
         tangent = intersection-radius*math.tan(half_angle/2)
         top = length
         contact = length-p['head_rim_mm']
@@ -43,6 +46,23 @@ def resolve_thread(parameters):
     p.update(head_top_z_mm=top, overall_length_mm=top,
              head_contact_min_z_mm=contact)
     p['fillet_start_z_mm'] = tangent
+    if wood:
+        coverage = p.get('thread_coverage', 'standard_reference')
+        if coverage not in {'standard_reference', 'full', 'partial'}:
+            raise ValueError('thread_coverage must be standard_reference, full or partial')
+        target = min(p['thread_length_fraction']*length, p.get('thread_length_max_mm', length))
+        gap = min(p['plain_shank_min_diameters']*d, tangent*.25)
+        end = tangent if coverage == 'full' else min(target+pitch, tangent-gap)
+        neck_end = length-p.get('head_clearance_mm', 0)
+        if neck_end > 1.5*pitch:
+            end = min(end, neck_end)
+        runout = min(pitch, end/3)
+        p.update(point_length_mm=min(p['point_length_diameters']*d, end*.6),
+                 thread_length_target_mm=target, thread_length_reference_mm=end-runout,
+                 thread_end_z_mm=end, thread_runout_mm=runout, thread_length_mm=end-runout,
+                 thread_mode='partial' if end < tangent else 'full_to_head',
+                 grip_length_mm=length-end+runout, shank_length_min_mm=tangent-end)
+        return p
     threshold = p['partial_thread_from_length_mm']
     partial = threshold is not None and length >= threshold
     coverage = p.get('thread_coverage', 'standard_reference')
@@ -95,7 +115,7 @@ def validate_parameters(p):
     if style == 'countersunk':
         if not 60 <= p['countersink_angle_deg'] <= 120 or p['head_rim_mm'] <= 0:
             raise ValueError('Invalid countersink angle or rim')
-        cone_height = p['head_rim_mm']+(p['head_diameter_mm']-p['diameter_mm'])/2/math.tan(
+        cone_height = p['head_rim_mm']+(p['head_diameter_mm']-p.get('shank_diameter_mm', p['diameter_mm']))/2/math.tan(
             math.radians(p['countersink_angle_deg']/2))
         complete_head_height = cone_height+p['underhead_fillet_mm']*math.tan(
             math.radians(p['countersink_angle_deg']/4))
@@ -129,7 +149,16 @@ def validate_parameters(p):
         depth = p['socket_depth_mm']
     if depth >= p['head_top_z_mm']-p['tip_chamfer_mm']:
         raise ValueError('Recess would break through the tip')
-    if p['diameter_mm'] <= 2*17/24*math.sqrt(3)/2*p['pitch_mm']:
+    if p.get('thread_profile') == 'wood_reference':
+        if not 0 < p['thread_minor_diameter_mm'] < p['diameter_mm']:
+            raise ValueError('Wood core must be positive and smaller than the outside diameter')
+        if not 0 < p['point_length_mm'] < p['thread_end_z_mm']:
+            raise ValueError('Wood point must end inside threaded shaft')
+        if not 0 < p['thread_flank_angle_deg'] < 180 or not 0 < p['thread_crest_fraction'] < .1:
+            raise ValueError('Invalid wood thread flank or crest')
+        if not p['thread_minor_diameter_mm'] <= p.get('shank_diameter_mm', p['diameter_mm']) <= p['diameter_mm']:
+            raise ValueError('Wood shank must lie between core and crest diameters')
+    elif p['diameter_mm'] <= 2*17/24*math.sqrt(3)/2*p['pitch_mm']:
         raise ValueError('Thread root diameter must be positive')
     if p['fillet_start_z_mm'] <= p['tip_chamfer_mm']+p['pitch_mm']:
         raise ValueError('Length is too short for head, chamfer and thread')
@@ -149,6 +178,14 @@ def thread_depth(phase, pitch):
     linear = np.maximum(0, (q-1/16)*pitch*math.sqrt(3))
     rounded = 17*h/24-radius+np.sqrt(np.maximum(0, radius**2-((.5-q)*pitch)**2))
     return np.where(q <= 3/8, linear, rounded)
+
+
+def wood_thread_depth(phase, p):
+    """Wide-root wood helix from independently supplied pitch and core diameter."""
+    q = np.abs((np.asarray(phase)+.5) % 1-.5)
+    flank = np.maximum(0, q-p['thread_crest_fraction']/2)*p['pitch_mm']/math.tan(
+        math.radians(p['thread_flank_angle_deg']/2))
+    return np.minimum(flank, (p['diameter_mm']-p['thread_minor_diameter_mm'])/2)
 
 
 def _ring_solid(z, radii, segments):
@@ -187,24 +224,34 @@ def build_model(parameters, variant='full', quality=None):
     rs, rh = d/2, p['head_diameter_mm']/2
     end, tangent = p['thread_end_z_mm'], p['fillet_start_z_mm']
     z = np.linspace(0, end, max(3, math.ceil(end/pitch*quality['samples_per_pitch'])+1))
-    z = np.sort(np.r_[z, p['tip_chamfer_mm'], end-p['thread_runout_mm']])
+    wood = p.get('thread_profile') == 'wood_reference'
+    z = np.sort(np.r_[z, p['point_length_mm'] if wood else p['tip_chamfer_mm'], end-p['thread_runout_mm']])
     # A dimension can coincide with a regular pitch sample within floating
     # point rounding. Merge near-equal rings before topology is constructed.
     z = z[np.r_[True, np.diff(z) > 1e-8]]
     theta = np.arange(n)*2*math.pi/n
     r = np.full((len(z), n), rs)
+    taper = np.clip((end-z)/p['thread_runout_mm'], 0, 1)
     if variant == 'full':
         # z-theta*P/(2pi) produces a helix rising counterclockwise: right handed.
         phase = z[:, None]/pitch-theta[None, :]/(2*math.pi)
-        taper = np.clip((end-z)/p['thread_runout_mm'], 0, 1)
-        r -= thread_depth(phase, pitch)*taper[:, None]
-    r = np.minimum(r, (rs-p['tip_chamfer_mm']+z)[:, None])
+        depth = wood_thread_depth(phase, p) if wood else thread_depth(phase, pitch)
+        r -= depth*taper[:, None]
+    if wood:
+        r -= (rs-p.get('shank_diameter_mm', d)/2)*(1-taper[:, None])
+        # Both core and crest taper toward the same point. A tiny end face avoids
+        # coincident mesh vertices; it is a selected visualization tolerance.
+        r *= np.clip(z/p['point_length_mm'], 0, 1)[:, None]
+        r = np.maximum(r, 1e-4)
+    else:
+        r = np.minimum(r, (rs-p['tip_chamfer_mm']+z)[:, None])
     # Concave fillet tangent to the shaft and the selected head profile.
     style = p.get('head_style', 'countersunk')
     half_angle = math.radians(p['countersink_angle_deg']/2) if style == 'countersunk' else math.pi/2
     a = np.linspace(math.pi, math.pi-half_angle, quality['fillet_segments']+1)
     rf = p['underhead_fillet_mm']
-    fillet_z, fillet_r = tangent+rf*np.sin(a), rs+rf+rf*np.cos(a)
+    shaft_radius = p.get('shank_diameter_mm', d)/2
+    fillet_z, fillet_r = tangent+rf*np.sin(a), shaft_radius+rf+rf*np.cos(a)
     if style == 'countersunk':
         append_z = np.r_[fillet_z, length-p['head_rim_mm'], length]
         append_r = np.r_[fillet_r, rh, rh]
