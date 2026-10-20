@@ -60,6 +60,7 @@ kwargs:
   oomp_run: true
   overwrite: true
   run_action: true
+  run_only_yaml: true
   run_oomp: true
   run_oomp_populate: true
   run_scad: true
@@ -120,151 +121,6 @@ oobb_details:
 oobb_name: screw
 oomlout_ai_roboclick_1:
   actions:
-  - command: new_chat
-    description: step_1_create_icon
-  - command: ai_query
-    delay: '180'
-    mode_ai_wait: slow
-    text: "## READ THIS FIRST \u2014 no theme is coming in this message, and that\
-      \ is correct\n\nThis is **step 1 of 2**. It is deliberately theme-free. You\
-      \ are building a reusable house style, not designing a specific logo.\n\nThe\
-      \ theme arrives in step 2. Do **not** ask what the theme is. Do **not** ask\
-      \ any clarifying questions. Do **not** write a final image-generation prompt\
-      \ yet \u2014 you cannot, and attempting one is a failure of this step. Do **not**\
-      \ invent a placeholder theme and design for it. If you feel information is missing,\
-      \ that is expected: the missing information is the theme, it is coming next,\
-      \ and nothing in this step requires it.\n\nYour entire output for this step\
-      \ is a **house style guide** that will be applied to whatever theme arrives\
-      \ next.\n\n---\n\n## The product this style serves\n\n**Intended use:** a square,\
-      \ single-colour, pure-black-on-pure-white mascot logo, generated as a raster\
-      \ image, then **auto-traced to vector and cut/engraved on a laser cutter**.\
-      \ The trace step is unforgiving \u2014 it is the hardest constraint in this\
-      \ brief and should shape most of your recommendations.\n\n**Target feel:** charming,\
-      \ original, cute, polished, instantly readable at ~20 mm. A designed branded\
-      \ icon, not a doodle page and not generic kawaii clip art.\n\n---\n\n## What\
-      \ to produce\n\nWrite these six sections. **Budget: about 900 words total, 1,100\
-      \ hard ceiling.** That is roughly 100\u2013150 words per section, with section\
-      \ 6 allowed the most. This is a working reference, not an essay \u2014 every\
-      \ line should be a rule someone could check a drawing against. Prefer tight\
-      \ bullets over prose paragraphs, and cut any sentence that only restates the\
-      \ brief back at me.\n\n**1. Line language menu**\nExactly three distinct black-on-white\
-      \ line-art approaches (e.g. uniform monoline, weight-varied outline with sparse\
-      \ interior, chunky sticker-outline, geometric constructed line). One or two\
-      \ lines each: what it does for charm, how it survives auto-tracing, what it\
-      \ costs.\n\n**2. Cuteness that isn't generic**\nThe handful of levers that make\
-      \ a line mascot lovable \u2014 eye shape and spacing, head-to-body ratio, pose\
-      \ energy, mouth simplicity, restraint on blush marks \u2014 each as a one-line\
-      \ rule with a number where a number applies. Then a short do-not list of the\
-      \ clich\xE9s that make an AI mascot look stock (dead-centre symmetrical stare,\
-      \ sparkle confetti, floating hearts, blob bodies), each with its one-line replacement.\n\
-      \n**3. Trace-safety rules**\nA flat list of concrete, checkable rules for the\
-      \ auto-trace-to-cut pipeline \u2014 one line each, no explanatory paragraphs:\n\
-      - minimum stroke thickness relative to the square's width, stated as a fraction\
-      \ (so it scales)\n- minimum gap between two adjacent strokes before they blur\
-      \ into one traced blob\n- why every shape should read as a closed path, and\
-      \ how to spot one that won't\n- island/floating-part handling and where to add\
-      \ connective bridges\n- what to do about interior detail that a tracer will\
-      \ turn into noise (crosshatching, stippling, tapering hairlines, single stray\
-      \ dots)\n- why large solid black fills are avoided here, and the acceptable\
-      \ exceptions (small eyes, pupils, a tiny accent shape)\n\n**4. Composition and\
-      \ hierarchy**\nBulleted rules only: square framing, margin as a fraction of\
-      \ the square, centre of visual mass, minimum negative space, the mascot-leads\
-      \ / props-support / text-reinforces hierarchy, and the shared traits that make\
-      \ it read as one illustrator's hand (same stroke weight, same corner radius,\
-      \ same eye style, same spacing rhythm).\n\n**5. Text and badge treatments**\n\
-      Text is **optional**. Briefly: when a word helps versus clutters, a maximum\
-      \ letter count that stays cuttable, how to specify literal text so it renders\
-      \ verbatim (quotes, exact casing), the letterform to ask for, and when a badge\
-      \ ring earns its place versus just boxing the mark in. Six bullets is plenty.\n\
-      \n**6. Prompt architecture for step 2**\nThe most important section, so spend\
-      \ your words here. Specify the exact template the step-2 final prompt must follow\
-      \ \u2014 and state that the finished prompt should land at **180\u2013250 words**,\
-      \ long enough to carry the spec, short enough that no single instruction gets\
-      \ diluted. Order it to match how the image model weights a prompt:\n\n1. **Medium\
-      \ and style up front** \u2014 the first sentence states it is a square black-and-white\
-      \ line-art mascot logo, because opening words set the mode for everything after.\n\
-      2. **Subject** \u2014 the mascot, its identity, expression, pose.\n3. **Key\
-      \ details** \u2014 props, supporting motifs, any literal text in quotes.\n4.\
-      \ **Layout** \u2014 centring, margins, hierarchy, where each element sits.\n\
-      5. **Line and manufacturing spec** \u2014 stroke weight, closed paths, interior-detail\
-      \ limits.\n6. **Exclusions last** \u2014 negatives go at the very end, after\
-      \ every positive descriptor, because a model reading them early tends to treat\
-      \ them as things to compose rather than things to omit.\n\nGive the canonical\
-      \ exclusion list to close with (no grey, no shading, no gradients, no halftone,\
-      \ no dithering, no texture, no colour, no transparency, no background scene,\
-      \ no drop shadow, no outer glow, no frame border unless specified, no watermark,\
-      \ no signature, no extra text beyond what is quoted).\n\nAlso state the two\
-      \ facts the prompt must say in plain words no matter what: the image is **square**,\
-      \ and it is **pure black on a pure white background**.\n\n---\n\n## Response\
-      \ style and length\n\n**About 900 words, 1,100 absolute maximum.** Bullets over\
-      \ prose. Concrete and checkable over abstract and aspirational \u2014 \"stroke\
-      \ no thinner than 1/100 of the square's width\" beats \"confident lines\". No\
-      \ preamble, no restating this brief back at me, no summary of what you are about\
-      \ to do. Skip the caveats and the reasoning behind each rule; just state the\
-      \ rule.\n\nClose with a checklist of the rules, 12 lines at most, so step 2\
-      \ can be graded against it.\n\nThen stop. No final image prompt, no questions,\
-      \ no theme.\n"
-  - command: ai_query
-    delay: '180'
-    mode_ai_wait: slow
-    text: "## Step 2 of 2 \u2014 the theme\n\nThe theme is: **an image of hardware\
-      \ screw countersunk hex head black m4 diameter 12 mm length please include the\
-      \ thread size and length in the image as text, add extra icons in the back,\
-      \ one that ryhmes with the diameter and one or two that rhymes with the length,\
-      \ if the length is less than 14 just one if it is greater do two, one rhyming\
-      \ for each part of the number ie for twenty five one that rhymes with twenty\
-      \ and one that rhymes with five. Put some time into searching to find the rhymes**\n\
-      \nApply the house style you just wrote to this theme. Everything you need is\
-      \ now in hand \u2014 do not ask questions, just work.\n\n---\n\n## Part A \u2014\
-      \ exploration\n\n**Budget: about 450 words, 600 hard ceiling.** Push past the\
-      \ theme's first obvious reading, but do it briskly. No preamble, no restating\
-      \ the theme back at me.\n\n- **Angles:** exactly four mascot interpretations,\
-      \ **one or two sentences each**. Include at least one that anthropomorphises\
-      \ an object or concept from the theme rather than reaching for the obvious animal,\
-      \ and at least one built on a visual pun. Then name your pick in a single sentence\
-      \ saying why it beats the other three \u2014 no full comparison table.\n- **The\
-      \ chosen design:** one short paragraph fixing the pose, expression, props, and\
-      \ line strategy. Prefer gesture or a moment of character over a static front-on\
-      \ stare. Cut any prop that is decoration rather than signal.\n- **Text:** one\
-      \ line \u2014 the exact string in quotes with exact casing, or \"no text\".\
-      \ Text is optional and a clean wordless mark often wins.\n- **Trace and small-size\
-      \ check:** a short bullet list of fixes only \u2014 every stroke to thicken,\
-      \ gap to widen, island to bridge, detail to delete. Just the fixes, not the\
-      \ reasoning, and not a description of what the design looks like at size.\n\n\
-      Skip anything not on that list: no tradeoff essays, no runner-up post-mortems,\
-      \ no notes on your own process.\n\n## Part B \u2014 the final prompt\n\nEnd\
-      \ your response with the final image-generation prompt for the chosen direction,\
-      \ and nothing after it.\n\nFormat it as a single fenced code block labelled\
-      \ `FINAL IMAGE PROMPT`, so it can be copied cleanly. Follow the six-part architecture\
-      \ from step 1 exactly, in order: medium and style \u2192 subject \u2192 key\
-      \ details \u2192 layout \u2192 line and manufacturing spec \u2192 exclusions\
-      \ last.\n\n**Length: 180\u2013250 words.** Long enough to carry the full spec,\
-      \ short enough that no single instruction gets diluted. If you are over, cut\
-      \ adjectives and repeated style words before you cut any manufacturing rule.\n\
-      \nHard requirements for that prompt:\n\n- It opens by stating it is a **square\
-      \ black-and-white line-art mascot logo**.\n- It says in plain words that the\
-      \ image is **square** and **pure black on a pure white background**.\n- It states\
-      \ stroke weight as a fraction of the image width, and requires every shape to\
-      \ be a **closed path** with **no floating disconnected islands**.\n- It caps\
-      \ interior detail explicitly and forbids crosshatching, stippling, and hairline\
-      \ tapers.\n- Any literal text appears in quotes with exact casing, spelled out\
-      \ character by character if it is unusual.\n- The exclusion list comes **last**,\
-      \ after every positive descriptor.\n- It is self-contained: someone pasting\
-      \ it cold, with no memory of this conversation, gets the same image. No \"as\
-      \ discussed above\", no \"the mascot from earlier\".\n- One prompt only. No\
-      \ variants, no alternates, no commentary after the code block.\n"
-  - command: ai_query
-    delay: '300'
-    mode_ai_wait: slow
-    text: Generate the image take all the time you need
-  - command: save_image_generated
-    file_name: initial_generated_icon.png
-    mode_ai_wait: slow
-  - command: close_tab
-  file_test: initial_generated_icon.png
-  retries_until_complete: 0
-oomlout_ai_roboclick_2:
-  actions:
   - command: text_jinja_template
     convert_to_pdf: false
     convert_to_png: false
@@ -291,172 +147,551 @@ oomlout_ai_roboclick_2:
         screw_colour: black
         screw_style: countersunk
         thread_size: m4_diameter
-      oomlout_ai_roboclick_1:
-        actions:
-        - command: new_chat
-          description: step_1_create_icon
-        - command: ai_query
-          delay: '180'
-          mode_ai_wait: slow
-          text: "## READ THIS FIRST \u2014 no theme is coming in this message, and\
-            \ that is correct\n\nThis is **step 1 of 2**. It is deliberately theme-free.\
-            \ You are building a reusable house style, not designing a specific logo.\n\
-            \nThe theme arrives in step 2. Do **not** ask what the theme is. Do **not**\
-            \ ask any clarifying questions. Do **not** write a final image-generation\
-            \ prompt yet \u2014 you cannot, and attempting one is a failure of this\
-            \ step. Do **not** invent a placeholder theme and design for it. If you\
-            \ feel information is missing, that is expected: the missing information\
-            \ is the theme, it is coming next, and nothing in this step requires it.\n\
-            \nYour entire output for this step is a **house style guide** that will\
-            \ be applied to whatever theme arrives next.\n\n---\n\n## The product\
-            \ this style serves\n\n**Intended use:** a square, single-colour, pure-black-on-pure-white\
-            \ mascot logo, generated as a raster image, then **auto-traced to vector\
-            \ and cut/engraved on a laser cutter**. The trace step is unforgiving\
-            \ \u2014 it is the hardest constraint in this brief and should shape most\
-            \ of your recommendations.\n\n**Target feel:** charming, original, cute,\
-            \ polished, instantly readable at ~20 mm. A designed branded icon, not\
-            \ a doodle page and not generic kawaii clip art.\n\n---\n\n## What to\
-            \ produce\n\nWrite these six sections. **Budget: about 900 words total,\
-            \ 1,100 hard ceiling.** That is roughly 100\u2013150 words per section,\
-            \ with section 6 allowed the most. This is a working reference, not an\
-            \ essay \u2014 every line should be a rule someone could check a drawing\
-            \ against. Prefer tight bullets over prose paragraphs, and cut any sentence\
-            \ that only restates the brief back at me.\n\n**1. Line language menu**\n\
-            Exactly three distinct black-on-white line-art approaches (e.g. uniform\
-            \ monoline, weight-varied outline with sparse interior, chunky sticker-outline,\
-            \ geometric constructed line). One or two lines each: what it does for\
-            \ charm, how it survives auto-tracing, what it costs.\n\n**2. Cuteness\
-            \ that isn't generic**\nThe handful of levers that make a line mascot\
-            \ lovable \u2014 eye shape and spacing, head-to-body ratio, pose energy,\
-            \ mouth simplicity, restraint on blush marks \u2014 each as a one-line\
-            \ rule with a number where a number applies. Then a short do-not list\
-            \ of the clich\xE9s that make an AI mascot look stock (dead-centre symmetrical\
-            \ stare, sparkle confetti, floating hearts, blob bodies), each with its\
-            \ one-line replacement.\n\n**3. Trace-safety rules**\nA flat list of concrete,\
-            \ checkable rules for the auto-trace-to-cut pipeline \u2014 one line each,\
-            \ no explanatory paragraphs:\n- minimum stroke thickness relative to the\
-            \ square's width, stated as a fraction (so it scales)\n- minimum gap between\
-            \ two adjacent strokes before they blur into one traced blob\n- why every\
-            \ shape should read as a closed path, and how to spot one that won't\n\
-            - island/floating-part handling and where to add connective bridges\n\
-            - what to do about interior detail that a tracer will turn into noise\
-            \ (crosshatching, stippling, tapering hairlines, single stray dots)\n\
-            - why large solid black fills are avoided here, and the acceptable exceptions\
-            \ (small eyes, pupils, a tiny accent shape)\n\n**4. Composition and hierarchy**\n\
-            Bulleted rules only: square framing, margin as a fraction of the square,\
-            \ centre of visual mass, minimum negative space, the mascot-leads / props-support\
-            \ / text-reinforces hierarchy, and the shared traits that make it read\
-            \ as one illustrator's hand (same stroke weight, same corner radius, same\
-            \ eye style, same spacing rhythm).\n\n**5. Text and badge treatments**\n\
-            Text is **optional**. Briefly: when a word helps versus clutters, a maximum\
-            \ letter count that stays cuttable, how to specify literal text so it\
-            \ renders verbatim (quotes, exact casing), the letterform to ask for,\
-            \ and when a badge ring earns its place versus just boxing the mark in.\
-            \ Six bullets is plenty.\n\n**6. Prompt architecture for step 2**\nThe\
-            \ most important section, so spend your words here. Specify the exact\
-            \ template the step-2 final prompt must follow \u2014 and state that the\
-            \ finished prompt should land at **180\u2013250 words**, long enough to\
-            \ carry the spec, short enough that no single instruction gets diluted.\
-            \ Order it to match how the image model weights a prompt:\n\n1. **Medium\
-            \ and style up front** \u2014 the first sentence states it is a square\
-            \ black-and-white line-art mascot logo, because opening words set the\
-            \ mode for everything after.\n2. **Subject** \u2014 the mascot, its identity,\
-            \ expression, pose.\n3. **Key details** \u2014 props, supporting motifs,\
-            \ any literal text in quotes.\n4. **Layout** \u2014 centring, margins,\
-            \ hierarchy, where each element sits.\n5. **Line and manufacturing spec**\
-            \ \u2014 stroke weight, closed paths, interior-detail limits.\n6. **Exclusions\
-            \ last** \u2014 negatives go at the very end, after every positive descriptor,\
-            \ because a model reading them early tends to treat them as things to\
-            \ compose rather than things to omit.\n\nGive the canonical exclusion\
-            \ list to close with (no grey, no shading, no gradients, no halftone,\
-            \ no dithering, no texture, no colour, no transparency, no background\
-            \ scene, no drop shadow, no outer glow, no frame border unless specified,\
-            \ no watermark, no signature, no extra text beyond what is quoted).\n\n\
-            Also state the two facts the prompt must say in plain words no matter\
-            \ what: the image is **square**, and it is **pure black on a pure white\
-            \ background**.\n\n---\n\n## Response style and length\n\n**About 900\
-            \ words, 1,100 absolute maximum.** Bullets over prose. Concrete and checkable\
-            \ over abstract and aspirational \u2014 \"stroke no thinner than 1/100\
-            \ of the square's width\" beats \"confident lines\". No preamble, no restating\
-            \ this brief back at me, no summary of what you are about to do. Skip\
-            \ the caveats and the reasoning behind each rule; just state the rule.\n\
-            \nClose with a checklist of the rules, 12 lines at most, so step 2 can\
-            \ be graded against it.\n\nThen stop. No final image prompt, no questions,\
-            \ no theme.\n"
-        - command: ai_query
-          delay: '180'
-          mode_ai_wait: slow
-          text: "## Step 2 of 2 \u2014 the theme\n\nThe theme is: **an image of hardware\
-            \ screw countersunk hex head black m4 diameter 12 mm length please include\
-            \ the thread size and length in the image as text, add extra icons in\
-            \ the back, one that ryhmes with the diameter and one or two that rhymes\
-            \ with the length, if the length is less than 14 just one if it is greater\
-            \ do two, one rhyming for each part of the number ie for twenty five one\
-            \ that rhymes with twenty and one that rhymes with five. Put some time\
-            \ into searching to find the rhymes**\n\nApply the house style you just\
-            \ wrote to this theme. Everything you need is now in hand \u2014 do not\
-            \ ask questions, just work.\n\n---\n\n## Part A \u2014 exploration\n\n\
-            **Budget: about 450 words, 600 hard ceiling.** Push past the theme's first\
-            \ obvious reading, but do it briskly. No preamble, no restating the theme\
-            \ back at me.\n\n- **Angles:** exactly four mascot interpretations, **one\
-            \ or two sentences each**. Include at least one that anthropomorphises\
-            \ an object or concept from the theme rather than reaching for the obvious\
-            \ animal, and at least one built on a visual pun. Then name your pick\
-            \ in a single sentence saying why it beats the other three \u2014 no full\
-            \ comparison table.\n- **The chosen design:** one short paragraph fixing\
-            \ the pose, expression, props, and line strategy. Prefer gesture or a\
-            \ moment of character over a static front-on stare. Cut any prop that\
-            \ is decoration rather than signal.\n- **Text:** one line \u2014 the exact\
-            \ string in quotes with exact casing, or \"no text\". Text is optional\
-            \ and a clean wordless mark often wins.\n- **Trace and small-size check:**\
-            \ a short bullet list of fixes only \u2014 every stroke to thicken, gap\
-            \ to widen, island to bridge, detail to delete. Just the fixes, not the\
-            \ reasoning, and not a description of what the design looks like at size.\n\
-            \nSkip anything not on that list: no tradeoff essays, no runner-up post-mortems,\
-            \ no notes on your own process.\n\n## Part B \u2014 the final prompt\n\
-            \nEnd your response with the final image-generation prompt for the chosen\
-            \ direction, and nothing after it.\n\nFormat it as a single fenced code\
-            \ block labelled `FINAL IMAGE PROMPT`, so it can be copied cleanly. Follow\
-            \ the six-part architecture from step 1 exactly, in order: medium and\
-            \ style \u2192 subject \u2192 key details \u2192 layout \u2192 line and\
-            \ manufacturing spec \u2192 exclusions last.\n\n**Length: 180\u2013250\
-            \ words.** Long enough to carry the full spec, short enough that no single\
-            \ instruction gets diluted. If you are over, cut adjectives and repeated\
-            \ style words before you cut any manufacturing rule.\n\nHard requirements\
-            \ for that prompt:\n\n- It opens by stating it is a **square black-and-white\
-            \ line-art mascot logo**.\n- It says in plain words that the image is\
-            \ **square** and **pure black on a pure white background**.\n- It states\
-            \ stroke weight as a fraction of the image width, and requires every shape\
-            \ to be a **closed path** with **no floating disconnected islands**.\n\
-            - It caps interior detail explicitly and forbids crosshatching, stippling,\
-            \ and hairline tapers.\n- Any literal text appears in quotes with exact\
-            \ casing, spelled out character by character if it is unusual.\n- The\
-            \ exclusion list comes **last**, after every positive descriptor.\n- It\
-            \ is self-contained: someone pasting it cold, with no memory of this conversation,\
-            \ gets the same image. No \"as discussed above\", no \"the mascot from\
-            \ earlier\".\n- One prompt only. No variants, no alternates, no commentary\
-            \ after the code block.\n"
-        - command: ai_query
-          delay: '300'
-          mode_ai_wait: slow
-          text: Generate the image take all the time you need
-        - command: save_image_generated
-          file_name: initial_generated_icon.png
-          mode_ai_wait: slow
-        - command: close_tab
-        file_test: initial_generated_icon.png
-        retries_until_complete: 0
       supplier_data:
+        accu:
+          accepted_warnings: '["Accu displayed prices are rounded; derived totals
+            use the captured display precision", "Final Accu price tier has no captured
+            upper boundary; final advertised unit price extended by user policy"]'
+          box_quantity: ''
+          captured_at: '2026-10-11T23:29:17.437572+00:00'
+          currency: GBP
+          description: "Countersunk Socket Head Screws feature a countersunk head\
+            \ type, which allows them to sit flush with their target housing. The\
+            \ socket head of these screws makes them ideal for use alongside Accu\u2019\
+            s Hex Drive Bits or Allen Keys & Wrenches. Countersunk Screws are designed\
+            \ to be used alongside pre-drilled countersunk recesses, which can be\
+            \ made with the use of angle cutters called countersinks.\_ Countersunk\
+            \ Captive Fasteners Captive screw variants of Accu's Metric Countersunk\
+            \ Screws are available in A2 and A4 Stainless Steel, with other materials\
+            \ such as thermoplastic PEEK available on request. Our range of Socket\
+            \ Countersunk Captive Screws are designed to be used in conjunction with\
+            \ Captive Washers to prevent the screws from falling out of housing assemblies\
+            \ and conform to EU Safety regulations. Materials Countersunk Socket Head\
+            \ Screws can be manufactured from a range of materials, including A2 and\
+            \ A4 Stainless Steel, Bumax and Aluminium options as standard. Accu also\
+            \ supplies Socket Countersunk Screws in 10.9 and 12.9 High Tensile Steel,\
+            \ with materials such as Titanium and PEEK available through our custom\
+            \ manufacture service. Enhance the security of your Metric Socket Countersunk\
+            \ Screws against vibrations and self-loosening with our pre-applied thread-locking\
+            \ solutions. Choose from AccuLock Threadlocker for essential fastening,\
+            \ Anu-Lok 180 for added robustness, or Precote 80 for high-performance\
+            \ locking. Elevate the aesthetics of your components with AccuBlack chemical\
+            \ blackening, reducing reflections and delivering a premium finish. Security\
+            \ Screw Variant For applications requiring a tamper-proof drive, this\
+            \ component is also available in a security variant, which can be found\
+            \ in Accu's Security Socket Countersunk Screws range.\_ Metric Sizes Accu\u2019\
+            s Metric Socket Countersunk Screws are available in thread sizes ranging\
+            \ from M2 to M24, and lengths from 3mm up to 200mm. Imperial Sizes Imperial\
+            \ Countersunk Socket Screws are also available in diameters from #0 to\
+            \ 7/8 inch. Lengths are available from 1/8 inch up to 10 inches. Minimum\
+            \ Thread Length In accordance with DIN standard 7991, Accu's Socket Countersunk\
+            \ Screws are manufactured to a minimum specified thread length. Please\
+            \ contact us before placing your order if this dimension is critical to\
+            \ your application."
+          html_sha256: ff347e92ec868d71cfae738a25a72674b02c4b4cb6294245e48b2edba5b78b97
+          name: M4 x 12mm Socket Countersunk Screws (DIN 7991) - High Tensile Steel
+            (10.9)
+          parsed_at: '2026-10-18T08:52:12.574940+00:00'
+          parser_version: accu-1.9-base-material
+          price_inheritance: "{\"10000\": {\"source_quantity\": 5000, \"source_unit_price\"\
+            : \"0.02\", \"source_text\": \"Buy 5,000 \xA30.02 Save 97 %\", \"basis\"\
+            : \"user policy 2026-10-13\"}}"
+          quote_minimum: ''
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept rounded displayed prices, open-ended final advertised
+            tiers, and quotes required from 400 units; quote-only prices remain blank."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.02", "highPrice":
+            "0.76", "priceCurrency": "GBP", "offerCount": "9", "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/countersunk-socket-head-screws/472024-SSK-M4-12-10-9",
+            "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type":
+            "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+          source_vat_basis: exclusive
+          source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "accus prices are all ex vat", "confirmed_on": "2026-10-13"}'
+          specifications: '{"Accu Product Code (APC)": "SSK-M4-12-10.9", "Thread Size":
+            "M4 (4 mm)", "Overall Length (L)": "12 mm", "Socket Size (J)": "2.5 mm",
+            "Material": "Steel - High Tensile (10.9)", "Finish": "Natural", "Countersunk
+            Angle (CA)": "90 Degrees (Tolerance: +2/-0 Degrees)", "Countersunk Length
+            (H)": "2.3 mm", "Full Thread": "Yes", "Head Diameter (D)": "8 mm (Tolerance:
+            +0/-0.36 mm)", "Hexagon Depth (P)": "1.8 mm", "Manufacturing Standard":
+            "DIN 7991", "Material Family": "Steel", "System of Measurement": "Metric",
+            "Thread Pitch": "0.7 mm"}'
+          status: ok
+          stock_quantity: ''
+          stock_status: https://schema.org/InStock
+          supplier: accu
+          supplier_id: SSK-M4-12-10.9
+          supplier_part_number: SSK-M4-12-10.9
+          supplier_website: https://www.accu.co.uk/countersunk-socket-head-screws/472024-SSK-M4-12-10-9
+          tiers:
+          - maximum: 1
+            minimum: 1
+            source_text: "Buy 1 \xA30.76"
+            source_unit_price: '0.76'
+            source_vat_basis: exclusive
+            unit_price: '0.9120'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 5
+            minimum: 2
+            source_text: "Buy 2 \xA30.41 Save 46 %"
+            source_unit_price: '0.41'
+            source_vat_basis: exclusive
+            unit_price: '0.4920'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 11
+            minimum: 6
+            source_text: "Buy 6 \xA30.16 Save 78 %"
+            source_unit_price: '0.16'
+            source_vat_basis: exclusive
+            unit_price: '0.1920'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 23
+            minimum: 12
+            source_text: "Buy 12 \xA30.10 Save 86 %"
+            source_unit_price: '0.10'
+            source_vat_basis: exclusive
+            unit_price: '0.1200'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 49
+            minimum: 24
+            source_text: "Buy 24 \xA30.07 Save 90 %"
+            source_unit_price: '0.07'
+            source_vat_basis: exclusive
+            unit_price: '0.0840'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 99
+            minimum: 50
+            source_text: "Buy 50 \xA30.05 Save 93 %"
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 199
+            minimum: 100
+            source_text: "Buy 100 \xA30.04 Save 94 %"
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4999
+            minimum: 200
+            source_text: "Buy 200 \xA30.03 Save 96 %"
+            source_unit_price: '0.03'
+            source_vat_basis: exclusive
+            unit_price: '0.0360'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            maximum_basis: user-approved open-ended final tier; no captured upper
+              boundary
+            minimum: 5000
+            source_text: "Buy 5,000 \xA30.02 Save 97 %"
+            source_unit_price: '0.02'
+            source_vat_basis: exclusive
+            unit_price: '0.0240'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.9120'
+          total_price_10: '1.9200'
+          total_price_100: '4.8000'
+          total_price_1000: '36.0000'
+          total_price_10000: '240.0000'
+          unit_price_1: '0.9120'
+          unit_price_10: '0.1920'
+          unit_price_100: '0.0480'
+          unit_price_1000: '0.0360'
+          unit_price_10000: '0.0240'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Accu displayed prices are rounded; derived totals use the captured display
+            precision
+          - Final Accu price tier has no captured upper boundary; final advertised
+            unit price extended by user policy
         boltbase:
+          accepted_warnings: '["Final Bolt Base threshold has no verified upper bound;
+            extrapolation withheld"]'
+          captured_at: '2026-10-12T02:08:56.242447+00:00'
+          currency: GBP
+          html_sha256: f0d97184f8a49f590e818045c9cb921537131577a74116b73df87b7499542ced
+          name: M4 Self Colour 10.9 High Tensile Socket Countersunk Screws
+          packages: '[]'
+          parsed_at: '2026-10-18T08:56:25.499342+00:00'
+          parser_version: boltbase-1.2-review-policy
+          price_inheritance: "{\"10000\": {\"source_quantity\": 5000, \"source_unit_price\"\
+            : \"0.03\", \"source_text\": \"Buy 5000 + - 90% Each \xA30.03 \xA30.21\"\
+            , \"basis\": \"user policy 2026-10-13\"}}"
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "For a withheld 10000-unit price, inherit the highest available
+            lower-quantity unit price."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+          specifications: 'Thread Size: M4 (4mm); Length (Including Head): 12mm; M4
+            Socket Countersunk Screws. Manufactured to DIN 7991 / ISO 10642 in Self
+            Colour ( Black ) High Tensile 10.9 Steel with a 4mm thread diameter and
+            0.7mm thread pitch. Socket countersunk screws are typically used when
+            a flush fitting screw is required. Ideal when a screw with a low profile
+            is required or for when the screw head can not protrude from the work
+            surface. Ideal for high stress applications or for where a high strength
+            bolt is required. These screws come mostly part threaded as standard after
+            a certain length. Please note that these bolts offer little to no protection
+            from rusting and are more suited for indoor use or for applications where
+            they are protected from moisture.'
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
           supplier: boltbase
           supplier_id: 109SCCSK-4X12
           supplier_part_number: 109SCCSK-4X12
           supplier_website: https://boltbase.com/products/m4-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464511070589
+          tiers:
+          - maximum: 1
+            minimum: 1
+            source_text: "Single Screw Buy 1 For \xA30.21"
+            source_unit_price: '0.21'
+            source_vat_basis: exclusive
+            unit_price: '0.2520'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4
+            minimum: 2
+            source_text: "Buy 2 + - 38% Each \xA30.13 \xA30.21"
+            source_unit_price: '0.13'
+            source_vat_basis: exclusive
+            unit_price: '0.1560'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 9
+            minimum: 5
+            source_text: "Buy 5 + - 49% Each \xA30.11 \xA30.21"
+            source_unit_price: '0.11'
+            source_vat_basis: exclusive
+            unit_price: '0.1320'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 24
+            minimum: 10
+            source_text: "Buy 10 + - 67% Each \xA30.07 \xA30.21"
+            source_unit_price: '0.07'
+            source_vat_basis: exclusive
+            unit_price: '0.0840'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 49
+            minimum: 25
+            source_text: "Buy 25 + - 75% Each \xA30.06 \xA30.21"
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 99
+            minimum: 50
+            source_text: "Buy 50 + - 77% Each \xA30.05 \xA30.21"
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 249
+            minimum: 100
+            source_text: "Buy 100 + - 81% Each \xA30.04 \xA30.21"
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 499
+            minimum: 250
+            source_text: "Buy 250 + - 83% Each \xA30.04 \xA30.21"
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 500
+            source_text: "Buy 500 + - 86% Each \xA30.03 \xA30.21"
+            source_unit_price: '0.03'
+            source_vat_basis: exclusive
+            unit_price: '0.0360'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4999
+            minimum: 1000
+            source_text: "Buy 1000 + - 88% Each \xA30.03 \xA30.21"
+            source_unit_price: '0.03'
+            source_vat_basis: exclusive
+            unit_price: '0.0360'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 5000
+            minimum: 5000
+            source_text: "Buy 5000 + - 90% Each \xA30.03 \xA30.21"
+            source_unit_price: '0.03'
+            source_vat_basis: exclusive
+            unit_price: '0.0360'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.2520'
+          total_price_10: '0.8400'
+          total_price_100: '4.8000'
+          total_price_1000: '36.0000'
+          total_price_10000: '360.0000'
+          unit_price_1: '0.2520'
+          unit_price_10: '0.0840'
+          unit_price_100: '0.0480'
+          unit_price_1000: '0.0360'
+          unit_price_10000: '0.0360'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+        dibolt:
+          accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+          captured_at: '2026-10-13T23:11:26.960811+00:00'
+          currency: GBP
+          html_sha256: f7af2cbbdcae545fce8a72bd7f40635a69542be642ffc9fef8dc2d756615f14b
+          name: M4 x 12mm Socket Screw/Bolt, Countersunk, High Tensile Grade 10.9
+            Self Colour, DIN 7991
+          packages: '[]'
+          parsed_at: '2026-10-18T09:02:42.792143+00:00'
+          parser_version: dibolt-1.3-missing-price-review
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept the precision of rounded displayed per-100 prices."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          specifications: 'Thread Size: M4 (4mm); Length (L): 12mm; Head Diameter
+            (D): 8mm; Countersunk Angle (CA): 90 Degree; Material: High Tensile (Grade
+            10.9); Finish: Self Colour; Countersunk Length (Max) (H): 2.3mm; Hexagon
+            Depth (P): 1.8mm; Screw Thread Pitch: 0.7mm; Socket Size (J): 2.5mm; Manufacturing
+            Standard: DIN 7991; Material Specification: High Tensile (Grade 10.9);
+            Metric or Imperial?: Metric'
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: dibolt
+          supplier_id: 10170.040.012
+          supplier_part_number: 10170.040.012
+          supplier_website: https://dibolt.co.uk/products/m4-x-12mm-socket-screw-bolt-countersunk-high-tensile-grade-10-9-self-colour-din-799
+          tiers:
+          - maximum: 199
+            minimum: 1
+            source_text: "1 - 199 \xA33.15 Per 100 Units"
+            source_unit_price: '0.0315'
+            source_vat_basis: exclusive
+            unit_price: '0.037800'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 200
+            source_text: "200 - 999 \xA31.75 Per 100 Units"
+            source_unit_price: '0.0175'
+            source_vat_basis: exclusive
+            unit_price: '0.021000'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 1000
+            source_text: "1,000+ \xA31.57 Per 100 Units"
+            source_unit_price: '0.0157'
+            source_vat_basis: exclusive
+            unit_price: '0.018840'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.037800'
+          total_price_10: '0.378000'
+          total_price_100: '3.780000'
+          total_price_1000: '18.840000'
+          total_price_10000: '188.400000'
+          unit_price_1: '0.037800'
+          unit_price_10: '0.037800'
+          unit_price_100: '0.037800'
+          unit_price_1000: '0.018840'
+          unit_price_10000: '0.018840'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Dibolt per-100 displayed prices are rounded; derived totals use captured
+            display precision
+        kayfast:
+          accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+          captured_at: '2026-10-14T12:41:54.227148+00:00'
+          currency: GBP
+          family_description: Metric coarse threads. High tensile grade 10.9 Self
+            colour plain finish. Manufactured to DIN 7991 Screw lengths include the
+            head. All sizes are fully threaded.
+          family_heading: COUNTERSUNK SOCKET SCREWS HIGH TENSILE 10.9 SELF COLOUR
+          html_sha256: ec7c688d526163d08458b1d60c8f8542bef7fbcf6b513bd87aca082e92e8d7f0
+          name: M4 x 12mm COUNTERSUNK SOCKET SCREWS DIN 7991 HIGH TENSILE 10.9 SELF
+            COLOUR
+          packages: '[]'
+          parsed_at: '2026-10-18T09:30:02.368975+00:00'
+          parser_version: kayfast-1.6-family-description
+          price_breaks_description: M4 x 12mm COUNTERSUNK SOCKET SCREWS DIN 7991 HIGH
+            TENSILE 10.9 SELF COLOUR
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+            "statement": "Use the exact row dropdown price per 100 divided by 100
+            with Decimal precision; accept the captured per-100 display precision."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+          specifications: COUNTERSUNK SOCKET SCREWS HIGH TENSILE 10.9 SELF COLOUR;
+            Metric coarse threads. High tensile grade 10.9 Self colour plain finish.
+            Manufactured to DIN 7991 Screw lengths include the head. All sizes are
+            fully threaded.
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: kayfast
+          supplier_id: M4-x-12mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+          supplier_id_basis: exact dimensional row description; spaces replaced by
+            hyphens (user clarification 2026-10-11)
+          supplier_part_number: M4-x-12mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+          supplier_website: https://www.kayfast.co.uk/view-product/COUNTERSUNK-SOCKET-SCREWS-HIGH-TENSILE-109-SELF-COLOUR
+          tiers:
+          - maximum: 199
+            minimum: 1
+            source_price_per_100: '3.72'
+            source_price_quantity: 100
+            source_text: "QTY 1 - 199 @ \xA33.72 per 100"
+            source_unit_price: '0.0372'
+            source_vat_basis: exclusive
+            unit_price: '0.044640'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 200
+            source_price_per_100: '2.07'
+            source_price_quantity: 100
+            source_text: "QTY 200 -  999 @ \xA32.07 per 100"
+            source_unit_price: '0.0207'
+            source_vat_basis: exclusive
+            unit_price: '0.024840'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 1000
+            source_price_per_100: '3.03'
+            source_price_quantity: 100
+            source_text: "QTY 1000 + @ \xA33.03 per 100"
+            source_unit_price: '0.0303'
+            source_vat_basis: exclusive
+            unit_price: '0.036360'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.044640'
+          total_price_10: '0.446400'
+          total_price_100: '4.464000'
+          total_price_1000: '36.360000'
+          total_price_10000: '363.600000'
+          unit_price_1: '0.044640'
+          unit_price_10: '0.044640'
+          unit_price_100: '0.044640'
+          unit_price_1000: '0.036360'
+          unit_price_10000: '0.036360'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Kayfast per-100 displayed prices are rounded; derived totals use captured
+            display precision
         orbitalfasteners:
+          accepted_warnings: '[]'
+          box_quantity: '200'
+          captured_at: '2026-10-11T21:31:09.876069+00:00'
+          catalogue_page: '80'
+          currency: GBP
+          description: Fully threaded. *Guide only, some variation possible. (Contact
+            us before ordering if this information is important)
+          html_sha256: d9fd4c2e160eab13d929ec31751cb35a38d60b16692e633000b6314cce4c3d81
+          name: M4 x 12 Socket Screw, Countersunk, High Tensile Grade 10.9 Self Colour,
+            DIN 7991
+          parsed_at: '2026-10-18T08:49:29.176650+00:00'
+          parser_version: 1.2-review-policy
+          review_policy: ''
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: inclusive
+          status: ok
+          stock_as_of: 9th October 2026 10:01pm
+          stock_quantity: '4409'
           supplier: orbitalfasteners
           supplier_id: '1901080'
           supplier_part_number: '1901080'
           supplier_website: https://www.orbitalfasteners.co.uk/products/m4-x-12-socket-screw-countersunk-high-tensile-grade-10-9-self-colour-din-7991
+          tiers:
+          - maximum: 199
+            minimum: 1
+            source_text: "1 - 199 \xA30.0302 Inc. VAT \xA33.02 Inc. VAT"
+            source_unit_price: '0.0302'
+            source_vat_basis: inclusive
+            unit_price: '0.0302'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 200
+            source_text: "200 - 999 \xA30.0168 Inc. VAT \xA31.68 Inc. VAT"
+            source_unit_price: '0.0168'
+            source_vat_basis: inclusive
+            unit_price: '0.0168'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4799
+            minimum: 1000
+            source_text: "1000 - 4799 \xA30.0151 Inc. VAT \xA31.51 Inc. VAT"
+            source_unit_price: '0.0151'
+            source_vat_basis: inclusive
+            unit_price: '0.0151'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 4800
+            source_text: "4800 + \xA30.0134 Inc. VAT \xA31.34 Inc. VAT"
+            source_unit_price: '0.0134'
+            source_vat_basis: inclusive
+            unit_price: '0.0134'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.0302'
+          total_price_10: '0.3020'
+          total_price_100: '3.0200'
+          total_price_1000: '15.1000'
+          total_price_10000: '134.0000'
+          unit_price_1: '0.0302'
+          unit_price_10: '0.0302'
+          unit_price_100: '0.0302'
+          unit_price_1000: '0.0151'
+          unit_price_10000: '0.0134'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings: []
       svg_details:
         diameter_mm: 4.0
         drive_style: hex_head
@@ -744,7 +979,7 @@ oomlout_ai_roboclick_2:
     search_and_replace: []
   file_test: label_oomp.pdf
   retries_until_complete: 0
-oomlout_ai_roboclick_3:
+oomlout_ai_roboclick_2:
   actions:
   - command: text_jinja_template
     convert_to_pdf: false
@@ -773,161 +1008,6 @@ oomlout_ai_roboclick_3:
         screw_style: countersunk
         thread_size: m4_diameter
       oomlout_ai_roboclick_1:
-        actions:
-        - command: new_chat
-          description: step_1_create_icon
-        - command: ai_query
-          delay: '180'
-          mode_ai_wait: slow
-          text: "## READ THIS FIRST \u2014 no theme is coming in this message, and\
-            \ that is correct\n\nThis is **step 1 of 2**. It is deliberately theme-free.\
-            \ You are building a reusable house style, not designing a specific logo.\n\
-            \nThe theme arrives in step 2. Do **not** ask what the theme is. Do **not**\
-            \ ask any clarifying questions. Do **not** write a final image-generation\
-            \ prompt yet \u2014 you cannot, and attempting one is a failure of this\
-            \ step. Do **not** invent a placeholder theme and design for it. If you\
-            \ feel information is missing, that is expected: the missing information\
-            \ is the theme, it is coming next, and nothing in this step requires it.\n\
-            \nYour entire output for this step is a **house style guide** that will\
-            \ be applied to whatever theme arrives next.\n\n---\n\n## The product\
-            \ this style serves\n\n**Intended use:** a square, single-colour, pure-black-on-pure-white\
-            \ mascot logo, generated as a raster image, then **auto-traced to vector\
-            \ and cut/engraved on a laser cutter**. The trace step is unforgiving\
-            \ \u2014 it is the hardest constraint in this brief and should shape most\
-            \ of your recommendations.\n\n**Target feel:** charming, original, cute,\
-            \ polished, instantly readable at ~20 mm. A designed branded icon, not\
-            \ a doodle page and not generic kawaii clip art.\n\n---\n\n## What to\
-            \ produce\n\nWrite these six sections. **Budget: about 900 words total,\
-            \ 1,100 hard ceiling.** That is roughly 100\u2013150 words per section,\
-            \ with section 6 allowed the most. This is a working reference, not an\
-            \ essay \u2014 every line should be a rule someone could check a drawing\
-            \ against. Prefer tight bullets over prose paragraphs, and cut any sentence\
-            \ that only restates the brief back at me.\n\n**1. Line language menu**\n\
-            Exactly three distinct black-on-white line-art approaches (e.g. uniform\
-            \ monoline, weight-varied outline with sparse interior, chunky sticker-outline,\
-            \ geometric constructed line). One or two lines each: what it does for\
-            \ charm, how it survives auto-tracing, what it costs.\n\n**2. Cuteness\
-            \ that isn't generic**\nThe handful of levers that make a line mascot\
-            \ lovable \u2014 eye shape and spacing, head-to-body ratio, pose energy,\
-            \ mouth simplicity, restraint on blush marks \u2014 each as a one-line\
-            \ rule with a number where a number applies. Then a short do-not list\
-            \ of the clich\xE9s that make an AI mascot look stock (dead-centre symmetrical\
-            \ stare, sparkle confetti, floating hearts, blob bodies), each with its\
-            \ one-line replacement.\n\n**3. Trace-safety rules**\nA flat list of concrete,\
-            \ checkable rules for the auto-trace-to-cut pipeline \u2014 one line each,\
-            \ no explanatory paragraphs:\n- minimum stroke thickness relative to the\
-            \ square's width, stated as a fraction (so it scales)\n- minimum gap between\
-            \ two adjacent strokes before they blur into one traced blob\n- why every\
-            \ shape should read as a closed path, and how to spot one that won't\n\
-            - island/floating-part handling and where to add connective bridges\n\
-            - what to do about interior detail that a tracer will turn into noise\
-            \ (crosshatching, stippling, tapering hairlines, single stray dots)\n\
-            - why large solid black fills are avoided here, and the acceptable exceptions\
-            \ (small eyes, pupils, a tiny accent shape)\n\n**4. Composition and hierarchy**\n\
-            Bulleted rules only: square framing, margin as a fraction of the square,\
-            \ centre of visual mass, minimum negative space, the mascot-leads / props-support\
-            \ / text-reinforces hierarchy, and the shared traits that make it read\
-            \ as one illustrator's hand (same stroke weight, same corner radius, same\
-            \ eye style, same spacing rhythm).\n\n**5. Text and badge treatments**\n\
-            Text is **optional**. Briefly: when a word helps versus clutters, a maximum\
-            \ letter count that stays cuttable, how to specify literal text so it\
-            \ renders verbatim (quotes, exact casing), the letterform to ask for,\
-            \ and when a badge ring earns its place versus just boxing the mark in.\
-            \ Six bullets is plenty.\n\n**6. Prompt architecture for step 2**\nThe\
-            \ most important section, so spend your words here. Specify the exact\
-            \ template the step-2 final prompt must follow \u2014 and state that the\
-            \ finished prompt should land at **180\u2013250 words**, long enough to\
-            \ carry the spec, short enough that no single instruction gets diluted.\
-            \ Order it to match how the image model weights a prompt:\n\n1. **Medium\
-            \ and style up front** \u2014 the first sentence states it is a square\
-            \ black-and-white line-art mascot logo, because opening words set the\
-            \ mode for everything after.\n2. **Subject** \u2014 the mascot, its identity,\
-            \ expression, pose.\n3. **Key details** \u2014 props, supporting motifs,\
-            \ any literal text in quotes.\n4. **Layout** \u2014 centring, margins,\
-            \ hierarchy, where each element sits.\n5. **Line and manufacturing spec**\
-            \ \u2014 stroke weight, closed paths, interior-detail limits.\n6. **Exclusions\
-            \ last** \u2014 negatives go at the very end, after every positive descriptor,\
-            \ because a model reading them early tends to treat them as things to\
-            \ compose rather than things to omit.\n\nGive the canonical exclusion\
-            \ list to close with (no grey, no shading, no gradients, no halftone,\
-            \ no dithering, no texture, no colour, no transparency, no background\
-            \ scene, no drop shadow, no outer glow, no frame border unless specified,\
-            \ no watermark, no signature, no extra text beyond what is quoted).\n\n\
-            Also state the two facts the prompt must say in plain words no matter\
-            \ what: the image is **square**, and it is **pure black on a pure white\
-            \ background**.\n\n---\n\n## Response style and length\n\n**About 900\
-            \ words, 1,100 absolute maximum.** Bullets over prose. Concrete and checkable\
-            \ over abstract and aspirational \u2014 \"stroke no thinner than 1/100\
-            \ of the square's width\" beats \"confident lines\". No preamble, no restating\
-            \ this brief back at me, no summary of what you are about to do. Skip\
-            \ the caveats and the reasoning behind each rule; just state the rule.\n\
-            \nClose with a checklist of the rules, 12 lines at most, so step 2 can\
-            \ be graded against it.\n\nThen stop. No final image prompt, no questions,\
-            \ no theme.\n"
-        - command: ai_query
-          delay: '180'
-          mode_ai_wait: slow
-          text: "## Step 2 of 2 \u2014 the theme\n\nThe theme is: **an image of hardware\
-            \ screw countersunk hex head black m4 diameter 12 mm length please include\
-            \ the thread size and length in the image as text, add extra icons in\
-            \ the back, one that ryhmes with the diameter and one or two that rhymes\
-            \ with the length, if the length is less than 14 just one if it is greater\
-            \ do two, one rhyming for each part of the number ie for twenty five one\
-            \ that rhymes with twenty and one that rhymes with five. Put some time\
-            \ into searching to find the rhymes**\n\nApply the house style you just\
-            \ wrote to this theme. Everything you need is now in hand \u2014 do not\
-            \ ask questions, just work.\n\n---\n\n## Part A \u2014 exploration\n\n\
-            **Budget: about 450 words, 600 hard ceiling.** Push past the theme's first\
-            \ obvious reading, but do it briskly. No preamble, no restating the theme\
-            \ back at me.\n\n- **Angles:** exactly four mascot interpretations, **one\
-            \ or two sentences each**. Include at least one that anthropomorphises\
-            \ an object or concept from the theme rather than reaching for the obvious\
-            \ animal, and at least one built on a visual pun. Then name your pick\
-            \ in a single sentence saying why it beats the other three \u2014 no full\
-            \ comparison table.\n- **The chosen design:** one short paragraph fixing\
-            \ the pose, expression, props, and line strategy. Prefer gesture or a\
-            \ moment of character over a static front-on stare. Cut any prop that\
-            \ is decoration rather than signal.\n- **Text:** one line \u2014 the exact\
-            \ string in quotes with exact casing, or \"no text\". Text is optional\
-            \ and a clean wordless mark often wins.\n- **Trace and small-size check:**\
-            \ a short bullet list of fixes only \u2014 every stroke to thicken, gap\
-            \ to widen, island to bridge, detail to delete. Just the fixes, not the\
-            \ reasoning, and not a description of what the design looks like at size.\n\
-            \nSkip anything not on that list: no tradeoff essays, no runner-up post-mortems,\
-            \ no notes on your own process.\n\n## Part B \u2014 the final prompt\n\
-            \nEnd your response with the final image-generation prompt for the chosen\
-            \ direction, and nothing after it.\n\nFormat it as a single fenced code\
-            \ block labelled `FINAL IMAGE PROMPT`, so it can be copied cleanly. Follow\
-            \ the six-part architecture from step 1 exactly, in order: medium and\
-            \ style \u2192 subject \u2192 key details \u2192 layout \u2192 line and\
-            \ manufacturing spec \u2192 exclusions last.\n\n**Length: 180\u2013250\
-            \ words.** Long enough to carry the full spec, short enough that no single\
-            \ instruction gets diluted. If you are over, cut adjectives and repeated\
-            \ style words before you cut any manufacturing rule.\n\nHard requirements\
-            \ for that prompt:\n\n- It opens by stating it is a **square black-and-white\
-            \ line-art mascot logo**.\n- It says in plain words that the image is\
-            \ **square** and **pure black on a pure white background**.\n- It states\
-            \ stroke weight as a fraction of the image width, and requires every shape\
-            \ to be a **closed path** with **no floating disconnected islands**.\n\
-            - It caps interior detail explicitly and forbids crosshatching, stippling,\
-            \ and hairline tapers.\n- Any literal text appears in quotes with exact\
-            \ casing, spelled out character by character if it is unusual.\n- The\
-            \ exclusion list comes **last**, after every positive descriptor.\n- It\
-            \ is self-contained: someone pasting it cold, with no memory of this conversation,\
-            \ gets the same image. No \"as discussed above\", no \"the mascot from\
-            \ earlier\".\n- One prompt only. No variants, no alternates, no commentary\
-            \ after the code block.\n"
-        - command: ai_query
-          delay: '300'
-          mode_ai_wait: slow
-          text: Generate the image take all the time you need
-        - command: save_image_generated
-          file_name: initial_generated_icon.png
-          mode_ai_wait: slow
-        - command: close_tab
-        file_test: initial_generated_icon.png
-        retries_until_complete: 0
-      oomlout_ai_roboclick_2:
         actions:
         - command: text_jinja_template
           convert_to_pdf: false
@@ -958,183 +1038,564 @@ oomlout_ai_roboclick_3:
               screw_colour: black
               screw_style: countersunk
               thread_size: m4_diameter
-            oomlout_ai_roboclick_1:
-              actions:
-              - command: new_chat
-                description: step_1_create_icon
-              - command: ai_query
-                delay: '180'
-                mode_ai_wait: slow
-                text: "## READ THIS FIRST \u2014 no theme is coming in this message,\
-                  \ and that is correct\n\nThis is **step 1 of 2**. It is deliberately\
-                  \ theme-free. You are building a reusable house style, not designing\
-                  \ a specific logo.\n\nThe theme arrives in step 2. Do **not** ask\
-                  \ what the theme is. Do **not** ask any clarifying questions. Do\
-                  \ **not** write a final image-generation prompt yet \u2014 you cannot,\
-                  \ and attempting one is a failure of this step. Do **not** invent\
-                  \ a placeholder theme and design for it. If you feel information\
-                  \ is missing, that is expected: the missing information is the theme,\
-                  \ it is coming next, and nothing in this step requires it.\n\nYour\
-                  \ entire output for this step is a **house style guide** that will\
-                  \ be applied to whatever theme arrives next.\n\n---\n\n## The product\
-                  \ this style serves\n\n**Intended use:** a square, single-colour,\
-                  \ pure-black-on-pure-white mascot logo, generated as a raster image,\
-                  \ then **auto-traced to vector and cut/engraved on a laser cutter**.\
-                  \ The trace step is unforgiving \u2014 it is the hardest constraint\
-                  \ in this brief and should shape most of your recommendations.\n\
-                  \n**Target feel:** charming, original, cute, polished, instantly\
-                  \ readable at ~20 mm. A designed branded icon, not a doodle page\
-                  \ and not generic kawaii clip art.\n\n---\n\n## What to produce\n\
-                  \nWrite these six sections. **Budget: about 900 words total, 1,100\
-                  \ hard ceiling.** That is roughly 100\u2013150 words per section,\
-                  \ with section 6 allowed the most. This is a working reference,\
-                  \ not an essay \u2014 every line should be a rule someone could\
-                  \ check a drawing against. Prefer tight bullets over prose paragraphs,\
-                  \ and cut any sentence that only restates the brief back at me.\n\
-                  \n**1. Line language menu**\nExactly three distinct black-on-white\
-                  \ line-art approaches (e.g. uniform monoline, weight-varied outline\
-                  \ with sparse interior, chunky sticker-outline, geometric constructed\
-                  \ line). One or two lines each: what it does for charm, how it survives\
-                  \ auto-tracing, what it costs.\n\n**2. Cuteness that isn't generic**\n\
-                  The handful of levers that make a line mascot lovable \u2014 eye\
-                  \ shape and spacing, head-to-body ratio, pose energy, mouth simplicity,\
-                  \ restraint on blush marks \u2014 each as a one-line rule with a\
-                  \ number where a number applies. Then a short do-not list of the\
-                  \ clich\xE9s that make an AI mascot look stock (dead-centre symmetrical\
-                  \ stare, sparkle confetti, floating hearts, blob bodies), each with\
-                  \ its one-line replacement.\n\n**3. Trace-safety rules**\nA flat\
-                  \ list of concrete, checkable rules for the auto-trace-to-cut pipeline\
-                  \ \u2014 one line each, no explanatory paragraphs:\n- minimum stroke\
-                  \ thickness relative to the square's width, stated as a fraction\
-                  \ (so it scales)\n- minimum gap between two adjacent strokes before\
-                  \ they blur into one traced blob\n- why every shape should read\
-                  \ as a closed path, and how to spot one that won't\n- island/floating-part\
-                  \ handling and where to add connective bridges\n- what to do about\
-                  \ interior detail that a tracer will turn into noise (crosshatching,\
-                  \ stippling, tapering hairlines, single stray dots)\n- why large\
-                  \ solid black fills are avoided here, and the acceptable exceptions\
-                  \ (small eyes, pupils, a tiny accent shape)\n\n**4. Composition\
-                  \ and hierarchy**\nBulleted rules only: square framing, margin as\
-                  \ a fraction of the square, centre of visual mass, minimum negative\
-                  \ space, the mascot-leads / props-support / text-reinforces hierarchy,\
-                  \ and the shared traits that make it read as one illustrator's hand\
-                  \ (same stroke weight, same corner radius, same eye style, same\
-                  \ spacing rhythm).\n\n**5. Text and badge treatments**\nText is\
-                  \ **optional**. Briefly: when a word helps versus clutters, a maximum\
-                  \ letter count that stays cuttable, how to specify literal text\
-                  \ so it renders verbatim (quotes, exact casing), the letterform\
-                  \ to ask for, and when a badge ring earns its place versus just\
-                  \ boxing the mark in. Six bullets is plenty.\n\n**6. Prompt architecture\
-                  \ for step 2**\nThe most important section, so spend your words\
-                  \ here. Specify the exact template the step-2 final prompt must\
-                  \ follow \u2014 and state that the finished prompt should land at\
-                  \ **180\u2013250 words**, long enough to carry the spec, short enough\
-                  \ that no single instruction gets diluted. Order it to match how\
-                  \ the image model weights a prompt:\n\n1. **Medium and style up\
-                  \ front** \u2014 the first sentence states it is a square black-and-white\
-                  \ line-art mascot logo, because opening words set the mode for everything\
-                  \ after.\n2. **Subject** \u2014 the mascot, its identity, expression,\
-                  \ pose.\n3. **Key details** \u2014 props, supporting motifs, any\
-                  \ literal text in quotes.\n4. **Layout** \u2014 centring, margins,\
-                  \ hierarchy, where each element sits.\n5. **Line and manufacturing\
-                  \ spec** \u2014 stroke weight, closed paths, interior-detail limits.\n\
-                  6. **Exclusions last** \u2014 negatives go at the very end, after\
-                  \ every positive descriptor, because a model reading them early\
-                  \ tends to treat them as things to compose rather than things to\
-                  \ omit.\n\nGive the canonical exclusion list to close with (no grey,\
-                  \ no shading, no gradients, no halftone, no dithering, no texture,\
-                  \ no colour, no transparency, no background scene, no drop shadow,\
-                  \ no outer glow, no frame border unless specified, no watermark,\
-                  \ no signature, no extra text beyond what is quoted).\n\nAlso state\
-                  \ the two facts the prompt must say in plain words no matter what:\
-                  \ the image is **square**, and it is **pure black on a pure white\
-                  \ background**.\n\n---\n\n## Response style and length\n\n**About\
-                  \ 900 words, 1,100 absolute maximum.** Bullets over prose. Concrete\
-                  \ and checkable over abstract and aspirational \u2014 \"stroke no\
-                  \ thinner than 1/100 of the square's width\" beats \"confident lines\"\
-                  . No preamble, no restating this brief back at me, no summary of\
-                  \ what you are about to do. Skip the caveats and the reasoning behind\
-                  \ each rule; just state the rule.\n\nClose with a checklist of the\
-                  \ rules, 12 lines at most, so step 2 can be graded against it.\n\
-                  \nThen stop. No final image prompt, no questions, no theme.\n"
-              - command: ai_query
-                delay: '180'
-                mode_ai_wait: slow
-                text: "## Step 2 of 2 \u2014 the theme\n\nThe theme is: **an image\
-                  \ of hardware screw countersunk hex head black m4 diameter 12 mm\
-                  \ length please include the thread size and length in the image\
-                  \ as text, add extra icons in the back, one that ryhmes with the\
-                  \ diameter and one or two that rhymes with the length, if the length\
-                  \ is less than 14 just one if it is greater do two, one rhyming\
-                  \ for each part of the number ie for twenty five one that rhymes\
-                  \ with twenty and one that rhymes with five. Put some time into\
-                  \ searching to find the rhymes**\n\nApply the house style you just\
-                  \ wrote to this theme. Everything you need is now in hand \u2014\
-                  \ do not ask questions, just work.\n\n---\n\n## Part A \u2014 exploration\n\
-                  \n**Budget: about 450 words, 600 hard ceiling.** Push past the theme's\
-                  \ first obvious reading, but do it briskly. No preamble, no restating\
-                  \ the theme back at me.\n\n- **Angles:** exactly four mascot interpretations,\
-                  \ **one or two sentences each**. Include at least one that anthropomorphises\
-                  \ an object or concept from the theme rather than reaching for the\
-                  \ obvious animal, and at least one built on a visual pun. Then name\
-                  \ your pick in a single sentence saying why it beats the other three\
-                  \ \u2014 no full comparison table.\n- **The chosen design:** one\
-                  \ short paragraph fixing the pose, expression, props, and line strategy.\
-                  \ Prefer gesture or a moment of character over a static front-on\
-                  \ stare. Cut any prop that is decoration rather than signal.\n-\
-                  \ **Text:** one line \u2014 the exact string in quotes with exact\
-                  \ casing, or \"no text\". Text is optional and a clean wordless\
-                  \ mark often wins.\n- **Trace and small-size check:** a short bullet\
-                  \ list of fixes only \u2014 every stroke to thicken, gap to widen,\
-                  \ island to bridge, detail to delete. Just the fixes, not the reasoning,\
-                  \ and not a description of what the design looks like at size.\n\
-                  \nSkip anything not on that list: no tradeoff essays, no runner-up\
-                  \ post-mortems, no notes on your own process.\n\n## Part B \u2014\
-                  \ the final prompt\n\nEnd your response with the final image-generation\
-                  \ prompt for the chosen direction, and nothing after it.\n\nFormat\
-                  \ it as a single fenced code block labelled `FINAL IMAGE PROMPT`,\
-                  \ so it can be copied cleanly. Follow the six-part architecture\
-                  \ from step 1 exactly, in order: medium and style \u2192 subject\
-                  \ \u2192 key details \u2192 layout \u2192 line and manufacturing\
-                  \ spec \u2192 exclusions last.\n\n**Length: 180\u2013250 words.**\
-                  \ Long enough to carry the full spec, short enough that no single\
-                  \ instruction gets diluted. If you are over, cut adjectives and\
-                  \ repeated style words before you cut any manufacturing rule.\n\n\
-                  Hard requirements for that prompt:\n\n- It opens by stating it is\
-                  \ a **square black-and-white line-art mascot logo**.\n- It says\
-                  \ in plain words that the image is **square** and **pure black on\
-                  \ a pure white background**.\n- It states stroke weight as a fraction\
-                  \ of the image width, and requires every shape to be a **closed\
-                  \ path** with **no floating disconnected islands**.\n- It caps interior\
-                  \ detail explicitly and forbids crosshatching, stippling, and hairline\
-                  \ tapers.\n- Any literal text appears in quotes with exact casing,\
-                  \ spelled out character by character if it is unusual.\n- The exclusion\
-                  \ list comes **last**, after every positive descriptor.\n- It is\
-                  \ self-contained: someone pasting it cold, with no memory of this\
-                  \ conversation, gets the same image. No \"as discussed above\",\
-                  \ no \"the mascot from earlier\".\n- One prompt only. No variants,\
-                  \ no alternates, no commentary after the code block.\n"
-              - command: ai_query
-                delay: '300'
-                mode_ai_wait: slow
-                text: Generate the image take all the time you need
-              - command: save_image_generated
-                file_name: initial_generated_icon.png
-                mode_ai_wait: slow
-              - command: close_tab
-              file_test: initial_generated_icon.png
-              retries_until_complete: 0
             supplier_data:
+              accu:
+                accepted_warnings: '["Accu displayed prices are rounded; derived totals
+                  use the captured display precision", "Final Accu price tier has
+                  no captured upper boundary; final advertised unit price extended
+                  by user policy"]'
+                box_quantity: ''
+                captured_at: '2026-10-11T23:29:17.437572+00:00'
+                currency: GBP
+                description: "Countersunk Socket Head Screws feature a countersunk\
+                  \ head type, which allows them to sit flush with their target housing.\
+                  \ The socket head of these screws makes them ideal for use alongside\
+                  \ Accu\u2019s Hex Drive Bits or Allen Keys & Wrenches. Countersunk\
+                  \ Screws are designed to be used alongside pre-drilled countersunk\
+                  \ recesses, which can be made with the use of angle cutters called\
+                  \ countersinks.\_ Countersunk Captive Fasteners Captive screw variants\
+                  \ of Accu's Metric Countersunk Screws are available in A2 and A4\
+                  \ Stainless Steel, with other materials such as thermoplastic PEEK\
+                  \ available on request. Our range of Socket Countersunk Captive\
+                  \ Screws are designed to be used in conjunction with Captive Washers\
+                  \ to prevent the screws from falling out of housing assemblies and\
+                  \ conform to EU Safety regulations. Materials Countersunk Socket\
+                  \ Head Screws can be manufactured from a range of materials, including\
+                  \ A2 and A4 Stainless Steel, Bumax and Aluminium options as standard.\
+                  \ Accu also supplies Socket Countersunk Screws in 10.9 and 12.9\
+                  \ High Tensile Steel, with materials such as Titanium and PEEK available\
+                  \ through our custom manufacture service. Enhance the security of\
+                  \ your Metric Socket Countersunk Screws against vibrations and self-loosening\
+                  \ with our pre-applied thread-locking solutions. Choose from AccuLock\
+                  \ Threadlocker for essential fastening, Anu-Lok 180 for added robustness,\
+                  \ or Precote 80 for high-performance locking. Elevate the aesthetics\
+                  \ of your components with AccuBlack chemical blackening, reducing\
+                  \ reflections and delivering a premium finish. Security Screw Variant\
+                  \ For applications requiring a tamper-proof drive, this component\
+                  \ is also available in a security variant, which can be found in\
+                  \ Accu's Security Socket Countersunk Screws range.\_ Metric Sizes\
+                  \ Accu\u2019s Metric Socket Countersunk Screws are available in\
+                  \ thread sizes ranging from M2 to M24, and lengths from 3mm up to\
+                  \ 200mm. Imperial Sizes Imperial Countersunk Socket Screws are also\
+                  \ available in diameters from #0 to 7/8 inch. Lengths are available\
+                  \ from 1/8 inch up to 10 inches. Minimum Thread Length In accordance\
+                  \ with DIN standard 7991, Accu's Socket Countersunk Screws are manufactured\
+                  \ to a minimum specified thread length. Please contact us before\
+                  \ placing your order if this dimension is critical to your application."
+                html_sha256: ff347e92ec868d71cfae738a25a72674b02c4b4cb6294245e48b2edba5b78b97
+                name: M4 x 12mm Socket Countersunk Screws (DIN 7991) - High Tensile
+                  Steel (10.9)
+                parsed_at: '2026-10-18T08:52:12.574940+00:00'
+                parser_version: accu-1.9-base-material
+                price_inheritance: "{\"10000\": {\"source_quantity\": 5000, \"source_unit_price\"\
+                  : \"0.02\", \"source_text\": \"Buy 5,000 \xA30.02 Save 97 %\", \"\
+                  basis\": \"user policy 2026-10-13\"}}"
+                quote_minimum: ''
+                review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+                  "statement": "Accept rounded displayed prices, open-ended final
+                  advertised tiers, and quotes required from 400 units; quote-only
+                  prices remain blank."}'
+                review_warnings: '[]'
+                selected_by_current_filter: true
+                source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.02", "highPrice":
+                  "0.76", "priceCurrency": "GBP", "offerCount": "9", "availability":
+                  "https://schema.org/InStock", "itemCondition": "https://schema.org/NewCondition",
+                  "url": "https://www.accu.co.uk/countersunk-socket-head-screws/472024-SSK-M4-12-10-9",
+                  "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type":
+                  "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+                source_vat_basis: exclusive
+                source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user
+                  clarification", "statement": "accus prices are all ex vat", "confirmed_on":
+                  "2026-10-13"}'
+                specifications: '{"Accu Product Code (APC)": "SSK-M4-12-10.9", "Thread
+                  Size": "M4 (4 mm)", "Overall Length (L)": "12 mm", "Socket Size
+                  (J)": "2.5 mm", "Material": "Steel - High Tensile (10.9)", "Finish":
+                  "Natural", "Countersunk Angle (CA)": "90 Degrees (Tolerance: +2/-0
+                  Degrees)", "Countersunk Length (H)": "2.3 mm", "Full Thread": "Yes",
+                  "Head Diameter (D)": "8 mm (Tolerance: +0/-0.36 mm)", "Hexagon Depth
+                  (P)": "1.8 mm", "Manufacturing Standard": "DIN 7991", "Material
+                  Family": "Steel", "System of Measurement": "Metric", "Thread Pitch":
+                  "0.7 mm"}'
+                status: ok
+                stock_quantity: ''
+                stock_status: https://schema.org/InStock
+                supplier: accu
+                supplier_id: SSK-M4-12-10.9
+                supplier_part_number: SSK-M4-12-10.9
+                supplier_website: https://www.accu.co.uk/countersunk-socket-head-screws/472024-SSK-M4-12-10-9
+                tiers:
+                - maximum: 1
+                  minimum: 1
+                  source_text: "Buy 1 \xA30.76"
+                  source_unit_price: '0.76'
+                  source_vat_basis: exclusive
+                  unit_price: '0.9120'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 5
+                  minimum: 2
+                  source_text: "Buy 2 \xA30.41 Save 46 %"
+                  source_unit_price: '0.41'
+                  source_vat_basis: exclusive
+                  unit_price: '0.4920'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 11
+                  minimum: 6
+                  source_text: "Buy 6 \xA30.16 Save 78 %"
+                  source_unit_price: '0.16'
+                  source_vat_basis: exclusive
+                  unit_price: '0.1920'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 23
+                  minimum: 12
+                  source_text: "Buy 12 \xA30.10 Save 86 %"
+                  source_unit_price: '0.10'
+                  source_vat_basis: exclusive
+                  unit_price: '0.1200'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 49
+                  minimum: 24
+                  source_text: "Buy 24 \xA30.07 Save 90 %"
+                  source_unit_price: '0.07'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0840'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 99
+                  minimum: 50
+                  source_text: "Buy 50 \xA30.05 Save 93 %"
+                  source_unit_price: '0.05'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0600'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 199
+                  minimum: 100
+                  source_text: "Buy 100 \xA30.04 Save 94 %"
+                  source_unit_price: '0.04'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0480'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 4999
+                  minimum: 200
+                  source_text: "Buy 200 \xA30.03 Save 96 %"
+                  source_unit_price: '0.03'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0360'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: null
+                  maximum_basis: user-approved open-ended final tier; no captured
+                    upper boundary
+                  minimum: 5000
+                  source_text: "Buy 5,000 \xA30.02 Save 97 %"
+                  source_unit_price: '0.02'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0240'
+                  valid: true
+                  vat_basis: inclusive
+                total_price_1: '0.9120'
+                total_price_10: '1.9200'
+                total_price_100: '4.8000'
+                total_price_1000: '36.0000'
+                total_price_10000: '240.0000'
+                unit_price_1: '0.9120'
+                unit_price_10: '0.1920'
+                unit_price_100: '0.0480'
+                unit_price_1000: '0.0360'
+                unit_price_10000: '0.0240'
+                vat_basis: inclusive
+                vat_rate: '0.20'
+                vat_rate_checked: '2026-10-11'
+                vat_rate_source: https://www.gov.uk/vat-rates
+                warnings:
+                - Accu displayed prices are rounded; derived totals use the captured
+                  display precision
+                - Final Accu price tier has no captured upper boundary; final advertised
+                  unit price extended by user policy
               boltbase:
+                accepted_warnings: '["Final Bolt Base threshold has no verified upper
+                  bound; extrapolation withheld"]'
+                captured_at: '2026-10-12T02:08:56.242447+00:00'
+                currency: GBP
+                html_sha256: f0d97184f8a49f590e818045c9cb921537131577a74116b73df87b7499542ced
+                name: M4 Self Colour 10.9 High Tensile Socket Countersunk Screws
+                packages: '[]'
+                parsed_at: '2026-10-18T08:56:25.499342+00:00'
+                parser_version: boltbase-1.2-review-policy
+                price_inheritance: "{\"10000\": {\"source_quantity\": 5000, \"source_unit_price\"\
+                  : \"0.03\", \"source_text\": \"Buy 5000 + - 90% Each \xA30.03 \xA3\
+                  0.21\", \"basis\": \"user policy 2026-10-13\"}}"
+                review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+                  "statement": "For a withheld 10000-unit price, inherit the highest
+                  available lower-quantity unit price."}'
+                review_warnings: '[]'
+                selected_by_current_filter: true
+                source_vat_basis: exclusive
+                source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user
+                  clarification", "statement": "bolt base prices are ex vat", "confirmed_on":
+                  "2026-10-11"}'
+                specifications: 'Thread Size: M4 (4mm); Length (Including Head): 12mm;
+                  M4 Socket Countersunk Screws. Manufactured to DIN 7991 / ISO 10642
+                  in Self Colour ( Black ) High Tensile 10.9 Steel with a 4mm thread
+                  diameter and 0.7mm thread pitch. Socket countersunk screws are typically
+                  used when a flush fitting screw is required. Ideal when a screw
+                  with a low profile is required or for when the screw head can not
+                  protrude from the work surface. Ideal for high stress applications
+                  or for where a high strength bolt is required. These screws come
+                  mostly part threaded as standard after a certain length. Please
+                  note that these bolts offer little to no protection from rusting
+                  and are more suited for indoor use or for applications where they
+                  are protected from moisture.'
+                status: ok
+                stock_quantity: ''
+                stock_status: ''
                 supplier: boltbase
                 supplier_id: 109SCCSK-4X12
                 supplier_part_number: 109SCCSK-4X12
                 supplier_website: https://boltbase.com/products/m4-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464511070589
+                tiers:
+                - maximum: 1
+                  minimum: 1
+                  source_text: "Single Screw Buy 1 For \xA30.21"
+                  source_unit_price: '0.21'
+                  source_vat_basis: exclusive
+                  unit_price: '0.2520'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 4
+                  minimum: 2
+                  source_text: "Buy 2 + - 38% Each \xA30.13 \xA30.21"
+                  source_unit_price: '0.13'
+                  source_vat_basis: exclusive
+                  unit_price: '0.1560'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 9
+                  minimum: 5
+                  source_text: "Buy 5 + - 49% Each \xA30.11 \xA30.21"
+                  source_unit_price: '0.11'
+                  source_vat_basis: exclusive
+                  unit_price: '0.1320'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 24
+                  minimum: 10
+                  source_text: "Buy 10 + - 67% Each \xA30.07 \xA30.21"
+                  source_unit_price: '0.07'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0840'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 49
+                  minimum: 25
+                  source_text: "Buy 25 + - 75% Each \xA30.06 \xA30.21"
+                  source_unit_price: '0.06'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0720'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 99
+                  minimum: 50
+                  source_text: "Buy 50 + - 77% Each \xA30.05 \xA30.21"
+                  source_unit_price: '0.05'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0600'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 249
+                  minimum: 100
+                  source_text: "Buy 100 + - 81% Each \xA30.04 \xA30.21"
+                  source_unit_price: '0.04'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0480'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 499
+                  minimum: 250
+                  source_text: "Buy 250 + - 83% Each \xA30.04 \xA30.21"
+                  source_unit_price: '0.04'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0480'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 999
+                  minimum: 500
+                  source_text: "Buy 500 + - 86% Each \xA30.03 \xA30.21"
+                  source_unit_price: '0.03'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0360'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 4999
+                  minimum: 1000
+                  source_text: "Buy 1000 + - 88% Each \xA30.03 \xA30.21"
+                  source_unit_price: '0.03'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0360'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 5000
+                  minimum: 5000
+                  source_text: "Buy 5000 + - 90% Each \xA30.03 \xA30.21"
+                  source_unit_price: '0.03'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0360'
+                  valid: true
+                  vat_basis: inclusive
+                total_price_1: '0.2520'
+                total_price_10: '0.8400'
+                total_price_100: '4.8000'
+                total_price_1000: '36.0000'
+                total_price_10000: '360.0000'
+                unit_price_1: '0.2520'
+                unit_price_10: '0.0840'
+                unit_price_100: '0.0480'
+                unit_price_1000: '0.0360'
+                unit_price_10000: '0.0360'
+                vat_basis: inclusive
+                vat_rate: '0.20'
+                vat_rate_checked: '2026-10-11'
+                vat_rate_source: https://www.gov.uk/vat-rates
+                warnings:
+                - Final Bolt Base threshold has no verified upper bound; extrapolation
+                  withheld
+              dibolt:
+                accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                  derived totals use captured display precision"]'
+                captured_at: '2026-10-13T23:11:26.960811+00:00'
+                currency: GBP
+                html_sha256: f7af2cbbdcae545fce8a72bd7f40635a69542be642ffc9fef8dc2d756615f14b
+                name: M4 x 12mm Socket Screw/Bolt, Countersunk, High Tensile Grade
+                  10.9 Self Colour, DIN 7991
+                packages: '[]'
+                parsed_at: '2026-10-18T09:02:42.792143+00:00'
+                parser_version: dibolt-1.3-missing-price-review
+                review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+                  "statement": "Accept the precision of rounded displayed per-100
+                  prices."}'
+                review_warnings: '[]'
+                selected_by_current_filter: true
+                source_vat_basis: exclusive
+                specifications: 'Thread Size: M4 (4mm); Length (L): 12mm; Head Diameter
+                  (D): 8mm; Countersunk Angle (CA): 90 Degree; Material: High Tensile
+                  (Grade 10.9); Finish: Self Colour; Countersunk Length (Max) (H):
+                  2.3mm; Hexagon Depth (P): 1.8mm; Screw Thread Pitch: 0.7mm; Socket
+                  Size (J): 2.5mm; Manufacturing Standard: DIN 7991; Material Specification:
+                  High Tensile (Grade 10.9); Metric or Imperial?: Metric'
+                status: ok
+                stock_quantity: ''
+                stock_status: ''
+                supplier: dibolt
+                supplier_id: 10170.040.012
+                supplier_part_number: 10170.040.012
+                supplier_website: https://dibolt.co.uk/products/m4-x-12mm-socket-screw-bolt-countersunk-high-tensile-grade-10-9-self-colour-din-799
+                tiers:
+                - maximum: 199
+                  minimum: 1
+                  source_text: "1 - 199 \xA33.15 Per 100 Units"
+                  source_unit_price: '0.0315'
+                  source_vat_basis: exclusive
+                  unit_price: '0.037800'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 999
+                  minimum: 200
+                  source_text: "200 - 999 \xA31.75 Per 100 Units"
+                  source_unit_price: '0.0175'
+                  source_vat_basis: exclusive
+                  unit_price: '0.021000'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: null
+                  minimum: 1000
+                  source_text: "1,000+ \xA31.57 Per 100 Units"
+                  source_unit_price: '0.0157'
+                  source_vat_basis: exclusive
+                  unit_price: '0.018840'
+                  valid: true
+                  vat_basis: inclusive
+                total_price_1: '0.037800'
+                total_price_10: '0.378000'
+                total_price_100: '3.780000'
+                total_price_1000: '18.840000'
+                total_price_10000: '188.400000'
+                unit_price_1: '0.037800'
+                unit_price_10: '0.037800'
+                unit_price_100: '0.037800'
+                unit_price_1000: '0.018840'
+                unit_price_10000: '0.018840'
+                vat_basis: inclusive
+                vat_rate: '0.20'
+                vat_rate_checked: '2026-10-11'
+                vat_rate_source: https://www.gov.uk/vat-rates
+                warnings:
+                - Dibolt per-100 displayed prices are rounded; derived totals use
+                  captured display precision
+              kayfast:
+                accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                  derived totals use captured display precision"]'
+                captured_at: '2026-10-14T12:41:54.227148+00:00'
+                currency: GBP
+                family_description: Metric coarse threads. High tensile grade 10.9
+                  Self colour plain finish. Manufactured to DIN 7991 Screw lengths
+                  include the head. All sizes are fully threaded.
+                family_heading: COUNTERSUNK SOCKET SCREWS HIGH TENSILE 10.9 SELF COLOUR
+                html_sha256: ec7c688d526163d08458b1d60c8f8542bef7fbcf6b513bd87aca082e92e8d7f0
+                name: M4 x 12mm COUNTERSUNK SOCKET SCREWS DIN 7991 HIGH TENSILE 10.9
+                  SELF COLOUR
+                packages: '[]'
+                parsed_at: '2026-10-18T09:30:02.368975+00:00'
+                parser_version: kayfast-1.6-family-description
+                price_breaks_description: M4 x 12mm COUNTERSUNK SOCKET SCREWS DIN
+                  7991 HIGH TENSILE 10.9 SELF COLOUR
+                review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+                  "statement": "Use the exact row dropdown price per 100 divided by
+                  100 with Decimal precision; accept the captured per-100 display
+                  precision."}'
+                review_warnings: '[]'
+                selected_by_current_filter: true
+                source_vat_basis: exclusive
+                source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user
+                  clarification", "statement": "Kayfast prices are ex VAT.", "confirmed_on":
+                  "2026-10-17"}'
+                specifications: COUNTERSUNK SOCKET SCREWS HIGH TENSILE 10.9 SELF COLOUR;
+                  Metric coarse threads. High tensile grade 10.9 Self colour plain
+                  finish. Manufactured to DIN 7991 Screw lengths include the head.
+                  All sizes are fully threaded.
+                status: ok
+                stock_quantity: ''
+                stock_status: ''
+                supplier: kayfast
+                supplier_id: M4-x-12mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+                supplier_id_basis: exact dimensional row description; spaces replaced
+                  by hyphens (user clarification 2026-10-11)
+                supplier_part_number: M4-x-12mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+                supplier_website: https://www.kayfast.co.uk/view-product/COUNTERSUNK-SOCKET-SCREWS-HIGH-TENSILE-109-SELF-COLOUR
+                tiers:
+                - maximum: 199
+                  minimum: 1
+                  source_price_per_100: '3.72'
+                  source_price_quantity: 100
+                  source_text: "QTY 1 - 199 @ \xA33.72 per 100"
+                  source_unit_price: '0.0372'
+                  source_vat_basis: exclusive
+                  unit_price: '0.044640'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 999
+                  minimum: 200
+                  source_price_per_100: '2.07'
+                  source_price_quantity: 100
+                  source_text: "QTY 200 -  999 @ \xA32.07 per 100"
+                  source_unit_price: '0.0207'
+                  source_vat_basis: exclusive
+                  unit_price: '0.024840'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: null
+                  minimum: 1000
+                  source_price_per_100: '3.03'
+                  source_price_quantity: 100
+                  source_text: "QTY 1000 + @ \xA33.03 per 100"
+                  source_unit_price: '0.0303'
+                  source_vat_basis: exclusive
+                  unit_price: '0.036360'
+                  valid: true
+                  vat_basis: inclusive
+                total_price_1: '0.044640'
+                total_price_10: '0.446400'
+                total_price_100: '4.464000'
+                total_price_1000: '36.360000'
+                total_price_10000: '363.600000'
+                unit_price_1: '0.044640'
+                unit_price_10: '0.044640'
+                unit_price_100: '0.044640'
+                unit_price_1000: '0.036360'
+                unit_price_10000: '0.036360'
+                vat_basis: inclusive
+                vat_rate: '0.20'
+                vat_rate_checked: '2026-10-11'
+                vat_rate_source: https://www.gov.uk/vat-rates
+                warnings:
+                - Kayfast per-100 displayed prices are rounded; derived totals use
+                  captured display precision
               orbitalfasteners:
+                accepted_warnings: '[]'
+                box_quantity: '200'
+                captured_at: '2026-10-11T21:31:09.876069+00:00'
+                catalogue_page: '80'
+                currency: GBP
+                description: Fully threaded. *Guide only, some variation possible.
+                  (Contact us before ordering if this information is important)
+                html_sha256: d9fd4c2e160eab13d929ec31751cb35a38d60b16692e633000b6314cce4c3d81
+                name: M4 x 12 Socket Screw, Countersunk, High Tensile Grade 10.9 Self
+                  Colour, DIN 7991
+                parsed_at: '2026-10-18T08:49:29.176650+00:00'
+                parser_version: 1.2-review-policy
+                review_policy: ''
+                review_warnings: '[]'
+                selected_by_current_filter: true
+                source_vat_basis: inclusive
+                status: ok
+                stock_as_of: 9th October 2026 10:01pm
+                stock_quantity: '4409'
                 supplier: orbitalfasteners
                 supplier_id: '1901080'
                 supplier_part_number: '1901080'
                 supplier_website: https://www.orbitalfasteners.co.uk/products/m4-x-12-socket-screw-countersunk-high-tensile-grade-10-9-self-colour-din-7991
+                tiers:
+                - maximum: 199
+                  minimum: 1
+                  source_text: "1 - 199 \xA30.0302 Inc. VAT \xA33.02 Inc. VAT"
+                  source_unit_price: '0.0302'
+                  source_vat_basis: inclusive
+                  unit_price: '0.0302'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 999
+                  minimum: 200
+                  source_text: "200 - 999 \xA30.0168 Inc. VAT \xA31.68 Inc. VAT"
+                  source_unit_price: '0.0168'
+                  source_vat_basis: inclusive
+                  unit_price: '0.0168'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 4799
+                  minimum: 1000
+                  source_text: "1000 - 4799 \xA30.0151 Inc. VAT \xA31.51 Inc. VAT"
+                  source_unit_price: '0.0151'
+                  source_vat_basis: inclusive
+                  unit_price: '0.0151'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: null
+                  minimum: 4800
+                  source_text: "4800 + \xA30.0134 Inc. VAT \xA31.34 Inc. VAT"
+                  source_unit_price: '0.0134'
+                  source_vat_basis: inclusive
+                  unit_price: '0.0134'
+                  valid: true
+                  vat_basis: inclusive
+                total_price_1: '0.0302'
+                total_price_10: '0.3020'
+                total_price_100: '3.0200'
+                total_price_1000: '15.1000'
+                total_price_10000: '134.0000'
+                unit_price_1: '0.0302'
+                unit_price_10: '0.0302'
+                unit_price_100: '0.0302'
+                unit_price_1000: '0.0151'
+                unit_price_10000: '0.0134'
+                vat_basis: inclusive
+                vat_rate: '0.20'
+                vat_rate_checked: '2026-10-11'
+                vat_rate_source: https://www.gov.uk/vat-rates
+                warnings: []
             svg_details:
               diameter_mm: 4.0
               drive_style: hex_head
@@ -1424,16 +1885,550 @@ oomlout_ai_roboclick_3:
         file_test: label_oomp.pdf
         retries_until_complete: 0
       supplier_data:
+        accu:
+          accepted_warnings: '["Accu displayed prices are rounded; derived totals
+            use the captured display precision", "Final Accu price tier has no captured
+            upper boundary; final advertised unit price extended by user policy"]'
+          box_quantity: ''
+          captured_at: '2026-10-11T23:29:17.437572+00:00'
+          currency: GBP
+          description: "Countersunk Socket Head Screws feature a countersunk head\
+            \ type, which allows them to sit flush with their target housing. The\
+            \ socket head of these screws makes them ideal for use alongside Accu\u2019\
+            s Hex Drive Bits or Allen Keys & Wrenches. Countersunk Screws are designed\
+            \ to be used alongside pre-drilled countersunk recesses, which can be\
+            \ made with the use of angle cutters called countersinks.\_ Countersunk\
+            \ Captive Fasteners Captive screw variants of Accu's Metric Countersunk\
+            \ Screws are available in A2 and A4 Stainless Steel, with other materials\
+            \ such as thermoplastic PEEK available on request. Our range of Socket\
+            \ Countersunk Captive Screws are designed to be used in conjunction with\
+            \ Captive Washers to prevent the screws from falling out of housing assemblies\
+            \ and conform to EU Safety regulations. Materials Countersunk Socket Head\
+            \ Screws can be manufactured from a range of materials, including A2 and\
+            \ A4 Stainless Steel, Bumax and Aluminium options as standard. Accu also\
+            \ supplies Socket Countersunk Screws in 10.9 and 12.9 High Tensile Steel,\
+            \ with materials such as Titanium and PEEK available through our custom\
+            \ manufacture service. Enhance the security of your Metric Socket Countersunk\
+            \ Screws against vibrations and self-loosening with our pre-applied thread-locking\
+            \ solutions. Choose from AccuLock Threadlocker for essential fastening,\
+            \ Anu-Lok 180 for added robustness, or Precote 80 for high-performance\
+            \ locking. Elevate the aesthetics of your components with AccuBlack chemical\
+            \ blackening, reducing reflections and delivering a premium finish. Security\
+            \ Screw Variant For applications requiring a tamper-proof drive, this\
+            \ component is also available in a security variant, which can be found\
+            \ in Accu's Security Socket Countersunk Screws range.\_ Metric Sizes Accu\u2019\
+            s Metric Socket Countersunk Screws are available in thread sizes ranging\
+            \ from M2 to M24, and lengths from 3mm up to 200mm. Imperial Sizes Imperial\
+            \ Countersunk Socket Screws are also available in diameters from #0 to\
+            \ 7/8 inch. Lengths are available from 1/8 inch up to 10 inches. Minimum\
+            \ Thread Length In accordance with DIN standard 7991, Accu's Socket Countersunk\
+            \ Screws are manufactured to a minimum specified thread length. Please\
+            \ contact us before placing your order if this dimension is critical to\
+            \ your application."
+          html_sha256: ff347e92ec868d71cfae738a25a72674b02c4b4cb6294245e48b2edba5b78b97
+          name: M4 x 12mm Socket Countersunk Screws (DIN 7991) - High Tensile Steel
+            (10.9)
+          parsed_at: '2026-10-18T08:52:12.574940+00:00'
+          parser_version: accu-1.9-base-material
+          price_inheritance: "{\"10000\": {\"source_quantity\": 5000, \"source_unit_price\"\
+            : \"0.02\", \"source_text\": \"Buy 5,000 \xA30.02 Save 97 %\", \"basis\"\
+            : \"user policy 2026-10-13\"}}"
+          quote_minimum: ''
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept rounded displayed prices, open-ended final advertised
+            tiers, and quotes required from 400 units; quote-only prices remain blank."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.02", "highPrice":
+            "0.76", "priceCurrency": "GBP", "offerCount": "9", "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/countersunk-socket-head-screws/472024-SSK-M4-12-10-9",
+            "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type":
+            "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+          source_vat_basis: exclusive
+          source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "accus prices are all ex vat", "confirmed_on": "2026-10-13"}'
+          specifications: '{"Accu Product Code (APC)": "SSK-M4-12-10.9", "Thread Size":
+            "M4 (4 mm)", "Overall Length (L)": "12 mm", "Socket Size (J)": "2.5 mm",
+            "Material": "Steel - High Tensile (10.9)", "Finish": "Natural", "Countersunk
+            Angle (CA)": "90 Degrees (Tolerance: +2/-0 Degrees)", "Countersunk Length
+            (H)": "2.3 mm", "Full Thread": "Yes", "Head Diameter (D)": "8 mm (Tolerance:
+            +0/-0.36 mm)", "Hexagon Depth (P)": "1.8 mm", "Manufacturing Standard":
+            "DIN 7991", "Material Family": "Steel", "System of Measurement": "Metric",
+            "Thread Pitch": "0.7 mm"}'
+          status: ok
+          stock_quantity: ''
+          stock_status: https://schema.org/InStock
+          supplier: accu
+          supplier_id: SSK-M4-12-10.9
+          supplier_part_number: SSK-M4-12-10.9
+          supplier_website: https://www.accu.co.uk/countersunk-socket-head-screws/472024-SSK-M4-12-10-9
+          tiers:
+          - maximum: 1
+            minimum: 1
+            source_text: "Buy 1 \xA30.76"
+            source_unit_price: '0.76'
+            source_vat_basis: exclusive
+            unit_price: '0.9120'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 5
+            minimum: 2
+            source_text: "Buy 2 \xA30.41 Save 46 %"
+            source_unit_price: '0.41'
+            source_vat_basis: exclusive
+            unit_price: '0.4920'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 11
+            minimum: 6
+            source_text: "Buy 6 \xA30.16 Save 78 %"
+            source_unit_price: '0.16'
+            source_vat_basis: exclusive
+            unit_price: '0.1920'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 23
+            minimum: 12
+            source_text: "Buy 12 \xA30.10 Save 86 %"
+            source_unit_price: '0.10'
+            source_vat_basis: exclusive
+            unit_price: '0.1200'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 49
+            minimum: 24
+            source_text: "Buy 24 \xA30.07 Save 90 %"
+            source_unit_price: '0.07'
+            source_vat_basis: exclusive
+            unit_price: '0.0840'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 99
+            minimum: 50
+            source_text: "Buy 50 \xA30.05 Save 93 %"
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 199
+            minimum: 100
+            source_text: "Buy 100 \xA30.04 Save 94 %"
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4999
+            minimum: 200
+            source_text: "Buy 200 \xA30.03 Save 96 %"
+            source_unit_price: '0.03'
+            source_vat_basis: exclusive
+            unit_price: '0.0360'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            maximum_basis: user-approved open-ended final tier; no captured upper
+              boundary
+            minimum: 5000
+            source_text: "Buy 5,000 \xA30.02 Save 97 %"
+            source_unit_price: '0.02'
+            source_vat_basis: exclusive
+            unit_price: '0.0240'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.9120'
+          total_price_10: '1.9200'
+          total_price_100: '4.8000'
+          total_price_1000: '36.0000'
+          total_price_10000: '240.0000'
+          unit_price_1: '0.9120'
+          unit_price_10: '0.1920'
+          unit_price_100: '0.0480'
+          unit_price_1000: '0.0360'
+          unit_price_10000: '0.0240'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Accu displayed prices are rounded; derived totals use the captured display
+            precision
+          - Final Accu price tier has no captured upper boundary; final advertised
+            unit price extended by user policy
         boltbase:
+          accepted_warnings: '["Final Bolt Base threshold has no verified upper bound;
+            extrapolation withheld"]'
+          captured_at: '2026-10-12T02:08:56.242447+00:00'
+          currency: GBP
+          html_sha256: f0d97184f8a49f590e818045c9cb921537131577a74116b73df87b7499542ced
+          name: M4 Self Colour 10.9 High Tensile Socket Countersunk Screws
+          packages: '[]'
+          parsed_at: '2026-10-18T08:56:25.499342+00:00'
+          parser_version: boltbase-1.2-review-policy
+          price_inheritance: "{\"10000\": {\"source_quantity\": 5000, \"source_unit_price\"\
+            : \"0.03\", \"source_text\": \"Buy 5000 + - 90% Each \xA30.03 \xA30.21\"\
+            , \"basis\": \"user policy 2026-10-13\"}}"
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "For a withheld 10000-unit price, inherit the highest available
+            lower-quantity unit price."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+          specifications: 'Thread Size: M4 (4mm); Length (Including Head): 12mm; M4
+            Socket Countersunk Screws. Manufactured to DIN 7991 / ISO 10642 in Self
+            Colour ( Black ) High Tensile 10.9 Steel with a 4mm thread diameter and
+            0.7mm thread pitch. Socket countersunk screws are typically used when
+            a flush fitting screw is required. Ideal when a screw with a low profile
+            is required or for when the screw head can not protrude from the work
+            surface. Ideal for high stress applications or for where a high strength
+            bolt is required. These screws come mostly part threaded as standard after
+            a certain length. Please note that these bolts offer little to no protection
+            from rusting and are more suited for indoor use or for applications where
+            they are protected from moisture.'
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
           supplier: boltbase
           supplier_id: 109SCCSK-4X12
           supplier_part_number: 109SCCSK-4X12
           supplier_website: https://boltbase.com/products/m4-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464511070589
+          tiers:
+          - maximum: 1
+            minimum: 1
+            source_text: "Single Screw Buy 1 For \xA30.21"
+            source_unit_price: '0.21'
+            source_vat_basis: exclusive
+            unit_price: '0.2520'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4
+            minimum: 2
+            source_text: "Buy 2 + - 38% Each \xA30.13 \xA30.21"
+            source_unit_price: '0.13'
+            source_vat_basis: exclusive
+            unit_price: '0.1560'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 9
+            minimum: 5
+            source_text: "Buy 5 + - 49% Each \xA30.11 \xA30.21"
+            source_unit_price: '0.11'
+            source_vat_basis: exclusive
+            unit_price: '0.1320'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 24
+            minimum: 10
+            source_text: "Buy 10 + - 67% Each \xA30.07 \xA30.21"
+            source_unit_price: '0.07'
+            source_vat_basis: exclusive
+            unit_price: '0.0840'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 49
+            minimum: 25
+            source_text: "Buy 25 + - 75% Each \xA30.06 \xA30.21"
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 99
+            minimum: 50
+            source_text: "Buy 50 + - 77% Each \xA30.05 \xA30.21"
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 249
+            minimum: 100
+            source_text: "Buy 100 + - 81% Each \xA30.04 \xA30.21"
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 499
+            minimum: 250
+            source_text: "Buy 250 + - 83% Each \xA30.04 \xA30.21"
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 500
+            source_text: "Buy 500 + - 86% Each \xA30.03 \xA30.21"
+            source_unit_price: '0.03'
+            source_vat_basis: exclusive
+            unit_price: '0.0360'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4999
+            minimum: 1000
+            source_text: "Buy 1000 + - 88% Each \xA30.03 \xA30.21"
+            source_unit_price: '0.03'
+            source_vat_basis: exclusive
+            unit_price: '0.0360'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 5000
+            minimum: 5000
+            source_text: "Buy 5000 + - 90% Each \xA30.03 \xA30.21"
+            source_unit_price: '0.03'
+            source_vat_basis: exclusive
+            unit_price: '0.0360'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.2520'
+          total_price_10: '0.8400'
+          total_price_100: '4.8000'
+          total_price_1000: '36.0000'
+          total_price_10000: '360.0000'
+          unit_price_1: '0.2520'
+          unit_price_10: '0.0840'
+          unit_price_100: '0.0480'
+          unit_price_1000: '0.0360'
+          unit_price_10000: '0.0360'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+        dibolt:
+          accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+          captured_at: '2026-10-13T23:11:26.960811+00:00'
+          currency: GBP
+          html_sha256: f7af2cbbdcae545fce8a72bd7f40635a69542be642ffc9fef8dc2d756615f14b
+          name: M4 x 12mm Socket Screw/Bolt, Countersunk, High Tensile Grade 10.9
+            Self Colour, DIN 7991
+          packages: '[]'
+          parsed_at: '2026-10-18T09:02:42.792143+00:00'
+          parser_version: dibolt-1.3-missing-price-review
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept the precision of rounded displayed per-100 prices."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          specifications: 'Thread Size: M4 (4mm); Length (L): 12mm; Head Diameter
+            (D): 8mm; Countersunk Angle (CA): 90 Degree; Material: High Tensile (Grade
+            10.9); Finish: Self Colour; Countersunk Length (Max) (H): 2.3mm; Hexagon
+            Depth (P): 1.8mm; Screw Thread Pitch: 0.7mm; Socket Size (J): 2.5mm; Manufacturing
+            Standard: DIN 7991; Material Specification: High Tensile (Grade 10.9);
+            Metric or Imperial?: Metric'
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: dibolt
+          supplier_id: 10170.040.012
+          supplier_part_number: 10170.040.012
+          supplier_website: https://dibolt.co.uk/products/m4-x-12mm-socket-screw-bolt-countersunk-high-tensile-grade-10-9-self-colour-din-799
+          tiers:
+          - maximum: 199
+            minimum: 1
+            source_text: "1 - 199 \xA33.15 Per 100 Units"
+            source_unit_price: '0.0315'
+            source_vat_basis: exclusive
+            unit_price: '0.037800'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 200
+            source_text: "200 - 999 \xA31.75 Per 100 Units"
+            source_unit_price: '0.0175'
+            source_vat_basis: exclusive
+            unit_price: '0.021000'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 1000
+            source_text: "1,000+ \xA31.57 Per 100 Units"
+            source_unit_price: '0.0157'
+            source_vat_basis: exclusive
+            unit_price: '0.018840'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.037800'
+          total_price_10: '0.378000'
+          total_price_100: '3.780000'
+          total_price_1000: '18.840000'
+          total_price_10000: '188.400000'
+          unit_price_1: '0.037800'
+          unit_price_10: '0.037800'
+          unit_price_100: '0.037800'
+          unit_price_1000: '0.018840'
+          unit_price_10000: '0.018840'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Dibolt per-100 displayed prices are rounded; derived totals use captured
+            display precision
+        kayfast:
+          accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+          captured_at: '2026-10-14T12:41:54.227148+00:00'
+          currency: GBP
+          family_description: Metric coarse threads. High tensile grade 10.9 Self
+            colour plain finish. Manufactured to DIN 7991 Screw lengths include the
+            head. All sizes are fully threaded.
+          family_heading: COUNTERSUNK SOCKET SCREWS HIGH TENSILE 10.9 SELF COLOUR
+          html_sha256: ec7c688d526163d08458b1d60c8f8542bef7fbcf6b513bd87aca082e92e8d7f0
+          name: M4 x 12mm COUNTERSUNK SOCKET SCREWS DIN 7991 HIGH TENSILE 10.9 SELF
+            COLOUR
+          packages: '[]'
+          parsed_at: '2026-10-18T09:30:02.368975+00:00'
+          parser_version: kayfast-1.6-family-description
+          price_breaks_description: M4 x 12mm COUNTERSUNK SOCKET SCREWS DIN 7991 HIGH
+            TENSILE 10.9 SELF COLOUR
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+            "statement": "Use the exact row dropdown price per 100 divided by 100
+            with Decimal precision; accept the captured per-100 display precision."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+          specifications: COUNTERSUNK SOCKET SCREWS HIGH TENSILE 10.9 SELF COLOUR;
+            Metric coarse threads. High tensile grade 10.9 Self colour plain finish.
+            Manufactured to DIN 7991 Screw lengths include the head. All sizes are
+            fully threaded.
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: kayfast
+          supplier_id: M4-x-12mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+          supplier_id_basis: exact dimensional row description; spaces replaced by
+            hyphens (user clarification 2026-10-11)
+          supplier_part_number: M4-x-12mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+          supplier_website: https://www.kayfast.co.uk/view-product/COUNTERSUNK-SOCKET-SCREWS-HIGH-TENSILE-109-SELF-COLOUR
+          tiers:
+          - maximum: 199
+            minimum: 1
+            source_price_per_100: '3.72'
+            source_price_quantity: 100
+            source_text: "QTY 1 - 199 @ \xA33.72 per 100"
+            source_unit_price: '0.0372'
+            source_vat_basis: exclusive
+            unit_price: '0.044640'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 200
+            source_price_per_100: '2.07'
+            source_price_quantity: 100
+            source_text: "QTY 200 -  999 @ \xA32.07 per 100"
+            source_unit_price: '0.0207'
+            source_vat_basis: exclusive
+            unit_price: '0.024840'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 1000
+            source_price_per_100: '3.03'
+            source_price_quantity: 100
+            source_text: "QTY 1000 + @ \xA33.03 per 100"
+            source_unit_price: '0.0303'
+            source_vat_basis: exclusive
+            unit_price: '0.036360'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.044640'
+          total_price_10: '0.446400'
+          total_price_100: '4.464000'
+          total_price_1000: '36.360000'
+          total_price_10000: '363.600000'
+          unit_price_1: '0.044640'
+          unit_price_10: '0.044640'
+          unit_price_100: '0.044640'
+          unit_price_1000: '0.036360'
+          unit_price_10000: '0.036360'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Kayfast per-100 displayed prices are rounded; derived totals use captured
+            display precision
         orbitalfasteners:
+          accepted_warnings: '[]'
+          box_quantity: '200'
+          captured_at: '2026-10-11T21:31:09.876069+00:00'
+          catalogue_page: '80'
+          currency: GBP
+          description: Fully threaded. *Guide only, some variation possible. (Contact
+            us before ordering if this information is important)
+          html_sha256: d9fd4c2e160eab13d929ec31751cb35a38d60b16692e633000b6314cce4c3d81
+          name: M4 x 12 Socket Screw, Countersunk, High Tensile Grade 10.9 Self Colour,
+            DIN 7991
+          parsed_at: '2026-10-18T08:49:29.176650+00:00'
+          parser_version: 1.2-review-policy
+          review_policy: ''
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: inclusive
+          status: ok
+          stock_as_of: 9th October 2026 10:01pm
+          stock_quantity: '4409'
           supplier: orbitalfasteners
           supplier_id: '1901080'
           supplier_part_number: '1901080'
           supplier_website: https://www.orbitalfasteners.co.uk/products/m4-x-12-socket-screw-countersunk-high-tensile-grade-10-9-self-colour-din-7991
+          tiers:
+          - maximum: 199
+            minimum: 1
+            source_text: "1 - 199 \xA30.0302 Inc. VAT \xA33.02 Inc. VAT"
+            source_unit_price: '0.0302'
+            source_vat_basis: inclusive
+            unit_price: '0.0302'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 200
+            source_text: "200 - 999 \xA30.0168 Inc. VAT \xA31.68 Inc. VAT"
+            source_unit_price: '0.0168'
+            source_vat_basis: inclusive
+            unit_price: '0.0168'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4799
+            minimum: 1000
+            source_text: "1000 - 4799 \xA30.0151 Inc. VAT \xA31.51 Inc. VAT"
+            source_unit_price: '0.0151'
+            source_vat_basis: inclusive
+            unit_price: '0.0151'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 4800
+            source_text: "4800 + \xA30.0134 Inc. VAT \xA31.34 Inc. VAT"
+            source_unit_price: '0.0134'
+            source_vat_basis: inclusive
+            unit_price: '0.0134'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.0302'
+          total_price_10: '0.3020'
+          total_price_100: '3.0200'
+          total_price_1000: '15.1000'
+          total_price_10000: '134.0000'
+          unit_price_1: '0.0302'
+          unit_price_10: '0.0302'
+          unit_price_100: '0.0302'
+          unit_price_1000: '0.0151'
+          unit_price_10000: '0.0134'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings: []
       svg_details:
         diameter_mm: 4.0
         drive_style: hex_head
@@ -1721,7 +2716,7 @@ oomlout_ai_roboclick_3:
     search_and_replace: []
   file_test: label_bolt_image.pdf
   retries_until_complete: 0
-oomlout_ai_roboclick_4:
+oomlout_ai_roboclick_3:
   actions:
   - command: text_jinja_template
     convert_to_pdf: false
@@ -1735,20 +2730,545 @@ oomlout_ai_roboclick_4:
 oomp_key: oomp_hardware_screw_countersunk_hex_head_black_m4_diameter_12_mm_length
 project_name: C:\gh\oomp_hardware_screw_version_5
 run_action: true
+run_only_yaml: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
 supplier_data:
+  accu:
+    accepted_warnings: '["Accu displayed prices are rounded; derived totals use the
+      captured display precision", "Final Accu price tier has no captured upper boundary;
+      final advertised unit price extended by user policy"]'
+    box_quantity: ''
+    captured_at: '2026-10-11T23:29:17.437572+00:00'
+    currency: GBP
+    description: "Countersunk Socket Head Screws feature a countersunk head type,\
+      \ which allows them to sit flush with their target housing. The socket head\
+      \ of these screws makes them ideal for use alongside Accu\u2019s Hex Drive Bits\
+      \ or Allen Keys & Wrenches. Countersunk Screws are designed to be used alongside\
+      \ pre-drilled countersunk recesses, which can be made with the use of angle\
+      \ cutters called countersinks.\_ Countersunk Captive Fasteners Captive screw\
+      \ variants of Accu's Metric Countersunk Screws are available in A2 and A4 Stainless\
+      \ Steel, with other materials such as thermoplastic PEEK available on request.\
+      \ Our range of Socket Countersunk Captive Screws are designed to be used in\
+      \ conjunction with Captive Washers to prevent the screws from falling out of\
+      \ housing assemblies and conform to EU Safety regulations. Materials Countersunk\
+      \ Socket Head Screws can be manufactured from a range of materials, including\
+      \ A2 and A4 Stainless Steel, Bumax and Aluminium options as standard. Accu also\
+      \ supplies Socket Countersunk Screws in 10.9 and 12.9 High Tensile Steel, with\
+      \ materials such as Titanium and PEEK available through our custom manufacture\
+      \ service. Enhance the security of your Metric Socket Countersunk Screws against\
+      \ vibrations and self-loosening with our pre-applied thread-locking solutions.\
+      \ Choose from AccuLock Threadlocker for essential fastening, Anu-Lok 180 for\
+      \ added robustness, or Precote 80 for high-performance locking. Elevate the\
+      \ aesthetics of your components with AccuBlack chemical blackening, reducing\
+      \ reflections and delivering a premium finish. Security Screw Variant For applications\
+      \ requiring a tamper-proof drive, this component is also available in a security\
+      \ variant, which can be found in Accu's Security Socket Countersunk Screws range.\_\
+      \ Metric Sizes Accu\u2019s Metric Socket Countersunk Screws are available in\
+      \ thread sizes ranging from M2 to M24, and lengths from 3mm up to 200mm. Imperial\
+      \ Sizes Imperial Countersunk Socket Screws are also available in diameters from\
+      \ #0 to 7/8 inch. Lengths are available from 1/8 inch up to 10 inches. Minimum\
+      \ Thread Length In accordance with DIN standard 7991, Accu's Socket Countersunk\
+      \ Screws are manufactured to a minimum specified thread length. Please contact\
+      \ us before placing your order if this dimension is critical to your application."
+    html_sha256: ff347e92ec868d71cfae738a25a72674b02c4b4cb6294245e48b2edba5b78b97
+    name: M4 x 12mm Socket Countersunk Screws (DIN 7991) - High Tensile Steel (10.9)
+    parsed_at: '2026-10-18T08:52:12.574940+00:00'
+    parser_version: accu-1.9-base-material
+    price_inheritance: "{\"10000\": {\"source_quantity\": 5000, \"source_unit_price\"\
+      : \"0.02\", \"source_text\": \"Buy 5,000 \xA30.02 Save 97 %\", \"basis\": \"\
+      user policy 2026-10-13\"}}"
+    quote_minimum: ''
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept rounded displayed prices, open-ended final advertised tiers,
+      and quotes required from 400 units; quote-only prices remain blank."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.02", "highPrice": "0.76",
+      "priceCurrency": "GBP", "offerCount": "9", "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/countersunk-socket-head-screws/472024-SSK-M4-12-10-9",
+      "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type": "QuantitativeValue",
+      "value": 1, "unitCode": "ANN"}}}'
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "accus prices are all ex vat", "confirmed_on": "2026-10-13"}'
+    specifications: '{"Accu Product Code (APC)": "SSK-M4-12-10.9", "Thread Size":
+      "M4 (4 mm)", "Overall Length (L)": "12 mm", "Socket Size (J)": "2.5 mm", "Material":
+      "Steel - High Tensile (10.9)", "Finish": "Natural", "Countersunk Angle (CA)":
+      "90 Degrees (Tolerance: +2/-0 Degrees)", "Countersunk Length (H)": "2.3 mm",
+      "Full Thread": "Yes", "Head Diameter (D)": "8 mm (Tolerance: +0/-0.36 mm)",
+      "Hexagon Depth (P)": "1.8 mm", "Manufacturing Standard": "DIN 7991", "Material
+      Family": "Steel", "System of Measurement": "Metric", "Thread Pitch": "0.7 mm"}'
+    status: ok
+    stock_quantity: ''
+    stock_status: https://schema.org/InStock
+    supplier: accu
+    supplier_id: SSK-M4-12-10.9
+    supplier_part_number: SSK-M4-12-10.9
+    supplier_website: https://www.accu.co.uk/countersunk-socket-head-screws/472024-SSK-M4-12-10-9
+    tiers:
+    - maximum: 1
+      minimum: 1
+      source_text: "Buy 1 \xA30.76"
+      source_unit_price: '0.76'
+      source_vat_basis: exclusive
+      unit_price: '0.9120'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 5
+      minimum: 2
+      source_text: "Buy 2 \xA30.41 Save 46 %"
+      source_unit_price: '0.41'
+      source_vat_basis: exclusive
+      unit_price: '0.4920'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 11
+      minimum: 6
+      source_text: "Buy 6 \xA30.16 Save 78 %"
+      source_unit_price: '0.16'
+      source_vat_basis: exclusive
+      unit_price: '0.1920'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 23
+      minimum: 12
+      source_text: "Buy 12 \xA30.10 Save 86 %"
+      source_unit_price: '0.10'
+      source_vat_basis: exclusive
+      unit_price: '0.1200'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 49
+      minimum: 24
+      source_text: "Buy 24 \xA30.07 Save 90 %"
+      source_unit_price: '0.07'
+      source_vat_basis: exclusive
+      unit_price: '0.0840'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 99
+      minimum: 50
+      source_text: "Buy 50 \xA30.05 Save 93 %"
+      source_unit_price: '0.05'
+      source_vat_basis: exclusive
+      unit_price: '0.0600'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 199
+      minimum: 100
+      source_text: "Buy 100 \xA30.04 Save 94 %"
+      source_unit_price: '0.04'
+      source_vat_basis: exclusive
+      unit_price: '0.0480'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4999
+      minimum: 200
+      source_text: "Buy 200 \xA30.03 Save 96 %"
+      source_unit_price: '0.03'
+      source_vat_basis: exclusive
+      unit_price: '0.0360'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      maximum_basis: user-approved open-ended final tier; no captured upper boundary
+      minimum: 5000
+      source_text: "Buy 5,000 \xA30.02 Save 97 %"
+      source_unit_price: '0.02'
+      source_vat_basis: exclusive
+      unit_price: '0.0240'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.9120'
+    total_price_10: '1.9200'
+    total_price_100: '4.8000'
+    total_price_1000: '36.0000'
+    total_price_10000: '240.0000'
+    unit_price_1: '0.9120'
+    unit_price_10: '0.1920'
+    unit_price_100: '0.0480'
+    unit_price_1000: '0.0360'
+    unit_price_10000: '0.0240'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Accu displayed prices are rounded; derived totals use the captured display precision
+    - Final Accu price tier has no captured upper boundary; final advertised unit
+      price extended by user policy
   boltbase:
+    accepted_warnings: '["Final Bolt Base threshold has no verified upper bound; extrapolation
+      withheld"]'
+    captured_at: '2026-10-12T02:08:56.242447+00:00'
+    currency: GBP
+    html_sha256: f0d97184f8a49f590e818045c9cb921537131577a74116b73df87b7499542ced
+    name: M4 Self Colour 10.9 High Tensile Socket Countersunk Screws
+    packages: '[]'
+    parsed_at: '2026-10-18T08:56:25.499342+00:00'
+    parser_version: boltbase-1.2-review-policy
+    price_inheritance: "{\"10000\": {\"source_quantity\": 5000, \"source_unit_price\"\
+      : \"0.03\", \"source_text\": \"Buy 5000 + - 90% Each \xA30.03 \xA30.21\", \"\
+      basis\": \"user policy 2026-10-13\"}}"
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "For a withheld 10000-unit price, inherit the highest available
+      lower-quantity unit price."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+    specifications: 'Thread Size: M4 (4mm); Length (Including Head): 12mm; M4 Socket
+      Countersunk Screws. Manufactured to DIN 7991 / ISO 10642 in Self Colour ( Black
+      ) High Tensile 10.9 Steel with a 4mm thread diameter and 0.7mm thread pitch.
+      Socket countersunk screws are typically used when a flush fitting screw is required.
+      Ideal when a screw with a low profile is required or for when the screw head
+      can not protrude from the work surface. Ideal for high stress applications or
+      for where a high strength bolt is required. These screws come mostly part threaded
+      as standard after a certain length. Please note that these bolts offer little
+      to no protection from rusting and are more suited for indoor use or for applications
+      where they are protected from moisture.'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
     supplier: boltbase
     supplier_id: 109SCCSK-4X12
     supplier_part_number: 109SCCSK-4X12
     supplier_website: https://boltbase.com/products/m4-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464511070589
+    tiers:
+    - maximum: 1
+      minimum: 1
+      source_text: "Single Screw Buy 1 For \xA30.21"
+      source_unit_price: '0.21'
+      source_vat_basis: exclusive
+      unit_price: '0.2520'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4
+      minimum: 2
+      source_text: "Buy 2 + - 38% Each \xA30.13 \xA30.21"
+      source_unit_price: '0.13'
+      source_vat_basis: exclusive
+      unit_price: '0.1560'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 9
+      minimum: 5
+      source_text: "Buy 5 + - 49% Each \xA30.11 \xA30.21"
+      source_unit_price: '0.11'
+      source_vat_basis: exclusive
+      unit_price: '0.1320'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 24
+      minimum: 10
+      source_text: "Buy 10 + - 67% Each \xA30.07 \xA30.21"
+      source_unit_price: '0.07'
+      source_vat_basis: exclusive
+      unit_price: '0.0840'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 49
+      minimum: 25
+      source_text: "Buy 25 + - 75% Each \xA30.06 \xA30.21"
+      source_unit_price: '0.06'
+      source_vat_basis: exclusive
+      unit_price: '0.0720'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 99
+      minimum: 50
+      source_text: "Buy 50 + - 77% Each \xA30.05 \xA30.21"
+      source_unit_price: '0.05'
+      source_vat_basis: exclusive
+      unit_price: '0.0600'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 249
+      minimum: 100
+      source_text: "Buy 100 + - 81% Each \xA30.04 \xA30.21"
+      source_unit_price: '0.04'
+      source_vat_basis: exclusive
+      unit_price: '0.0480'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 499
+      minimum: 250
+      source_text: "Buy 250 + - 83% Each \xA30.04 \xA30.21"
+      source_unit_price: '0.04'
+      source_vat_basis: exclusive
+      unit_price: '0.0480'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 500
+      source_text: "Buy 500 + - 86% Each \xA30.03 \xA30.21"
+      source_unit_price: '0.03'
+      source_vat_basis: exclusive
+      unit_price: '0.0360'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4999
+      minimum: 1000
+      source_text: "Buy 1000 + - 88% Each \xA30.03 \xA30.21"
+      source_unit_price: '0.03'
+      source_vat_basis: exclusive
+      unit_price: '0.0360'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 5000
+      minimum: 5000
+      source_text: "Buy 5000 + - 90% Each \xA30.03 \xA30.21"
+      source_unit_price: '0.03'
+      source_vat_basis: exclusive
+      unit_price: '0.0360'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.2520'
+    total_price_10: '0.8400'
+    total_price_100: '4.8000'
+    total_price_1000: '36.0000'
+    total_price_10000: '360.0000'
+    unit_price_1: '0.2520'
+    unit_price_10: '0.0840'
+    unit_price_100: '0.0480'
+    unit_price_1000: '0.0360'
+    unit_price_10000: '0.0360'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+  dibolt:
+    accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-13T23:11:26.960811+00:00'
+    currency: GBP
+    html_sha256: f7af2cbbdcae545fce8a72bd7f40635a69542be642ffc9fef8dc2d756615f14b
+    name: M4 x 12mm Socket Screw/Bolt, Countersunk, High Tensile Grade 10.9 Self Colour,
+      DIN 7991
+    packages: '[]'
+    parsed_at: '2026-10-18T09:02:42.792143+00:00'
+    parser_version: dibolt-1.3-missing-price-review
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept the precision of rounded displayed per-100 prices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M4 (4mm); Length (L): 12mm; Head Diameter (D): 8mm;
+      Countersunk Angle (CA): 90 Degree; Material: High Tensile (Grade 10.9); Finish:
+      Self Colour; Countersunk Length (Max) (H): 2.3mm; Hexagon Depth (P): 1.8mm;
+      Screw Thread Pitch: 0.7mm; Socket Size (J): 2.5mm; Manufacturing Standard: DIN
+      7991; Material Specification: High Tensile (Grade 10.9); Metric or Imperial?:
+      Metric'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: dibolt
+    supplier_id: 10170.040.012
+    supplier_part_number: 10170.040.012
+    supplier_website: https://dibolt.co.uk/products/m4-x-12mm-socket-screw-bolt-countersunk-high-tensile-grade-10-9-self-colour-din-799
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_text: "1 - 199 \xA33.15 Per 100 Units"
+      source_unit_price: '0.0315'
+      source_vat_basis: exclusive
+      unit_price: '0.037800'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_text: "200 - 999 \xA31.75 Per 100 Units"
+      source_unit_price: '0.0175'
+      source_vat_basis: exclusive
+      unit_price: '0.021000'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 1000
+      source_text: "1,000+ \xA31.57 Per 100 Units"
+      source_unit_price: '0.0157'
+      source_vat_basis: exclusive
+      unit_price: '0.018840'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.037800'
+    total_price_10: '0.378000'
+    total_price_100: '3.780000'
+    total_price_1000: '18.840000'
+    total_price_10000: '188.400000'
+    unit_price_1: '0.037800'
+    unit_price_10: '0.037800'
+    unit_price_100: '0.037800'
+    unit_price_1000: '0.018840'
+    unit_price_10000: '0.018840'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Dibolt per-100 displayed prices are rounded; derived totals use captured display
+      precision
+  kayfast:
+    accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-14T12:41:54.227148+00:00'
+    currency: GBP
+    family_description: Metric coarse threads. High tensile grade 10.9 Self colour
+      plain finish. Manufactured to DIN 7991 Screw lengths include the head. All sizes
+      are fully threaded.
+    family_heading: COUNTERSUNK SOCKET SCREWS HIGH TENSILE 10.9 SELF COLOUR
+    html_sha256: ec7c688d526163d08458b1d60c8f8542bef7fbcf6b513bd87aca082e92e8d7f0
+    name: M4 x 12mm COUNTERSUNK SOCKET SCREWS DIN 7991 HIGH TENSILE 10.9 SELF COLOUR
+    packages: '[]'
+    parsed_at: '2026-10-18T09:30:02.368975+00:00'
+    parser_version: kayfast-1.6-family-description
+    price_breaks_description: M4 x 12mm COUNTERSUNK SOCKET SCREWS DIN 7991 HIGH TENSILE
+      10.9 SELF COLOUR
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+      "statement": "Use the exact row dropdown price per 100 divided by 100 with Decimal
+      precision; accept the captured per-100 display precision."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+    specifications: COUNTERSUNK SOCKET SCREWS HIGH TENSILE 10.9 SELF COLOUR; Metric
+      coarse threads. High tensile grade 10.9 Self colour plain finish. Manufactured
+      to DIN 7991 Screw lengths include the head. All sizes are fully threaded.
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: kayfast
+    supplier_id: M4-x-12mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+    supplier_id_basis: exact dimensional row description; spaces replaced by hyphens
+      (user clarification 2026-10-11)
+    supplier_part_number: M4-x-12mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+    supplier_website: https://www.kayfast.co.uk/view-product/COUNTERSUNK-SOCKET-SCREWS-HIGH-TENSILE-109-SELF-COLOUR
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_price_per_100: '3.72'
+      source_price_quantity: 100
+      source_text: "QTY 1 - 199 @ \xA33.72 per 100"
+      source_unit_price: '0.0372'
+      source_vat_basis: exclusive
+      unit_price: '0.044640'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_price_per_100: '2.07'
+      source_price_quantity: 100
+      source_text: "QTY 200 -  999 @ \xA32.07 per 100"
+      source_unit_price: '0.0207'
+      source_vat_basis: exclusive
+      unit_price: '0.024840'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 1000
+      source_price_per_100: '3.03'
+      source_price_quantity: 100
+      source_text: "QTY 1000 + @ \xA33.03 per 100"
+      source_unit_price: '0.0303'
+      source_vat_basis: exclusive
+      unit_price: '0.036360'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.044640'
+    total_price_10: '0.446400'
+    total_price_100: '4.464000'
+    total_price_1000: '36.360000'
+    total_price_10000: '363.600000'
+    unit_price_1: '0.044640'
+    unit_price_10: '0.044640'
+    unit_price_100: '0.044640'
+    unit_price_1000: '0.036360'
+    unit_price_10000: '0.036360'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Kayfast per-100 displayed prices are rounded; derived totals use captured display
+      precision
   orbitalfasteners:
+    accepted_warnings: '[]'
+    box_quantity: '200'
+    captured_at: '2026-10-11T21:31:09.876069+00:00'
+    catalogue_page: '80'
+    currency: GBP
+    description: Fully threaded. *Guide only, some variation possible. (Contact us
+      before ordering if this information is important)
+    html_sha256: d9fd4c2e160eab13d929ec31751cb35a38d60b16692e633000b6314cce4c3d81
+    name: M4 x 12 Socket Screw, Countersunk, High Tensile Grade 10.9 Self Colour,
+      DIN 7991
+    parsed_at: '2026-10-18T08:49:29.176650+00:00'
+    parser_version: 1.2-review-policy
+    review_policy: ''
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: inclusive
+    status: ok
+    stock_as_of: 9th October 2026 10:01pm
+    stock_quantity: '4409'
     supplier: orbitalfasteners
     supplier_id: '1901080'
     supplier_part_number: '1901080'
     supplier_website: https://www.orbitalfasteners.co.uk/products/m4-x-12-socket-screw-countersunk-high-tensile-grade-10-9-self-colour-din-7991
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_text: "1 - 199 \xA30.0302 Inc. VAT \xA33.02 Inc. VAT"
+      source_unit_price: '0.0302'
+      source_vat_basis: inclusive
+      unit_price: '0.0302'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_text: "200 - 999 \xA30.0168 Inc. VAT \xA31.68 Inc. VAT"
+      source_unit_price: '0.0168'
+      source_vat_basis: inclusive
+      unit_price: '0.0168'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4799
+      minimum: 1000
+      source_text: "1000 - 4799 \xA30.0151 Inc. VAT \xA31.51 Inc. VAT"
+      source_unit_price: '0.0151'
+      source_vat_basis: inclusive
+      unit_price: '0.0151'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 4800
+      source_text: "4800 + \xA30.0134 Inc. VAT \xA31.34 Inc. VAT"
+      source_unit_price: '0.0134'
+      source_vat_basis: inclusive
+      unit_price: '0.0134'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.0302'
+    total_price_10: '0.3020'
+    total_price_100: '3.0200'
+    total_price_1000: '15.1000'
+    total_price_10000: '134.0000'
+    unit_price_1: '0.0302'
+    unit_price_10: '0.0302'
+    unit_price_100: '0.0302'
+    unit_price_1000: '0.0151'
+    unit_price_10000: '0.0134'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings: []
 svg_details:
   diameter_mm: 4.0
   drive_style: hex_head

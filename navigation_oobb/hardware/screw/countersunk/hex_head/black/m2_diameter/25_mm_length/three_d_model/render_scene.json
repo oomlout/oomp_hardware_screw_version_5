@@ -224,22 +224,22 @@
   },
   "render_statistics": {
     "high": {
-      "seconds": 8.5,
+      "seconds": 9.905,
       "denoiser": "OPTIX",
       "samples": 160
     },
     "low": {
-      "seconds": 0.362,
+      "seconds": 0.508,
       "denoiser": "OPTIX",
       "samples": 48
     },
     "product_high": {
-      "seconds": 8.729,
+      "seconds": 9.284,
       "denoiser": "OPTIX",
       "samples": 160
     },
     "product_low": {
-      "seconds": 0.401,
+      "seconds": 0.474,
       "denoiser": "OPTIX",
       "samples": 48
     }
