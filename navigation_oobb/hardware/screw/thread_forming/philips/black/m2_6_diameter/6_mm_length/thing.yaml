@@ -1,0 +1,1075 @@
+bip_39_2_word_array:
+- wage
+- spy
+bip_39_2_word_no_space: wagespy
+bip_39_2_word_space: wage spy
+bip_39_2_word_underscore: wage_spy
+bip_39_3_word_array:
+- wage
+- spy
+- metal
+bip_39_3_word_no_space: wagespymetal
+bip_39_3_word_space: wage spy metal
+bip_39_3_word_underscore: wage_spy_metal
+bip_39_full_array:
+- wage
+- spy
+- metal
+- divide
+- avocado
+- baby
+- real
+- twin
+- physical
+- grit
+- enough
+- grocery
+bip_39_full_no_space: wagespymetaldivideavocadobabyrealtwinphysicalgritenoughgrocery
+bip_39_full_space: wage spy metal divide avocado baby real twin physical grit enough
+  grocery
+bip_39_full_underscore: wage_spy_metal_divide_avocado_baby_real_twin_physical_grit_enough_grocery
+directory: parts/hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+generate_stl: true
+id: hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+id_no_class: hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+id_no_size: hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+id_no_type: hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+id_oobb: hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+kwargs:
+  drive_style: philips
+  filter: ''
+  generate_stl: true
+  length: 6_mm_length
+  modes:
+  - 3dpr
+  navigation: true
+  oobb_name: screw
+  oomp_description_extra: ''
+  oomp_description_main: screw_
+  oomp_mode: project
+  oomp_run: true
+  overwrite: true
+  run_action: true
+  run_only_yaml: true
+  run_oomp: true
+  run_oomp_populate: true
+  run_scad: true
+  screw_colour: black
+  screw_style: thread_forming
+  thread_size: m2_6_diameter
+  typ: all
+  type: default_screw
+label_drawer: &id001
+  bip39: wage spy metal
+  bip39_size: 2.35
+  code: SC
+  description: Thread-forming screw / M2.6 / 6 mm / Phillips / Black
+  detail_lines:
+  - Phillips / Black
+  detail_size: 2.05
+  detail_y: 21.1
+  diagram: <path d="M2 3H6V11H2Z M2 6H2.8V8H2"/><path d="M6 5H15L19 7L15 9H6"/><path
+    d="M7 5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9"/>
+  drive_symbol: <circle cx="5" cy="5" r="4.5" fill="#ffffff"/><path d="M4 1.7H6V4H8.3V6H6V8.3H4V6H1.7V4H4Z"
+    fill="#000000"/>
+  length: '6'
+  length_size: 7.8
+  length_x: 20.191353125
+  name: Thread-forming screw
+  name_lines:
+  - Thread-forming
+  - screw
+  name_size: 3.0
+  thread: M2.6
+  thread_size: 4.408
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+md5: f63a6a301ff0fe222cbf5ba3ecd52bb3
+md5_10: f63a6a301f
+md5_10_upper: F63A6A301F
+md5_5: f63a6
+md5_5_upper: F63A6
+md5_6: f63a6a
+md5_6_alpha: 9lv8q
+md5_6_alpha_upper: 9LV8Q
+md5_6_upper: F63A6A
+name: Hardware Screw Thread Forming Philips Black M2 6 Diameter 6 Mm Length
+name_no_class: Hardware Screw Thread Forming Philips Black M2 6 Diameter 6 Mm Length
+name_no_size: Hardware Screw Thread Forming Philips Black M2 6 Diameter 6 Mm Length
+name_no_type: Hardware Screw Thread Forming Philips Black M2 6 Diameter 6 Mm Length
+name_proper: Hardware Screw Thread Forming Philips Black M2 6 Diameter 6 Mm Length
+name_space: hardware screw thread forming philips black m2 6 diameter 6 mm length
+name_upper: HARDWARE SCREW THREAD FORMING PHILIPS BLACK M2 6 DIAMETER 6 MM LENGTH
+oobb_details:
+  drive_style: philips
+  length: 6_mm_length
+  oobb_name: screw
+  screw_colour: black
+  screw_style: thread_forming
+  thread_size: m2_6_diameter
+oobb_name: screw
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      directory: parts\hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+      name: hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+      name_proper: Hardware Screw Thread Forming Philips Black M2 6 Diameter 6 Mm
+        Length
+      name_space: hardware screw thread forming philips black m2 6 diameter 6 mm length
+      name_upper: HARDWARE SCREW THREAD FORMING PHILIPS BLACK M2 6 DIAMETER 6 MM LENGTH
+      oobb_details:
+        drive_style: philips
+        length: 6_mm_length
+        oobb_name: screw
+        screw_colour: black
+        screw_style: thread_forming
+        thread_size: m2_6_diameter
+      svg_details:
+        diameter_mm: 2.6
+        drive_style: philips
+        drive_symbol_gap_mm: 1.56
+        head_diameter_mm: 5.2
+        head_rim_mm: 0.195
+        length_mm: 6.0
+        screw_style: thread_forming
+        socket_depth_mm: 0.8450000000000001
+        socket_width_mm: 1.6900000000000002
+        stylesheet: project_bolt
+        svg_name: screw_diagrams
+        thread_pitch_mm: 1.04
+        variants:
+          plain: diagram_plain.svg
+          solid: diagram_solid.svg
+          threaded: diagram_threaded.svg
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: screw
+      taxonomy_3: thread_forming
+      taxonomy_4: philips
+      taxonomy_5: black
+      taxonomy_6: m2_6_diameter
+      taxonomy_7: 6_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      three_d_model_details:
+        family: thread_forming
+        generation_status: excluded
+        generator: unresolved
+        note: User requested skipping this family on 2026-10-11.
+        output_folder: three_d_model
+        parameters:
+          diameter_mm: 2.6
+          drive_style: philips
+          finish: black
+          length_mm: 6.0
+        priority: 11
+        schema_version: 1
+        units: mm
+      url_chat: https://chatgpt.com/c/6a1024e4-edd8-83eb-8e70-e8cd760e5465
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_2:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      directory: parts\hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+      name: hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+      name_proper: Hardware Screw Thread Forming Philips Black M2 6 Diameter 6 Mm
+        Length
+      name_space: hardware screw thread forming philips black m2 6 diameter 6 mm length
+      name_upper: HARDWARE SCREW THREAD FORMING PHILIPS BLACK M2 6 DIAMETER 6 MM LENGTH
+      oobb_details:
+        drive_style: philips
+        length: 6_mm_length
+        oobb_name: screw
+        screw_colour: black
+        screw_style: thread_forming
+        thread_size: m2_6_diameter
+      oomlout_ai_roboclick_1:
+        actions:
+        - command: text_jinja_template
+          convert_to_pdf: false
+          convert_to_png: false
+          dict_data:
+            directory: parts\hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+            name: hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+            name_proper: Hardware Screw Thread Forming Philips Black M2 6 Diameter
+              6 Mm Length
+            name_space: hardware screw thread forming philips black m2 6 diameter
+              6 mm length
+            name_upper: HARDWARE SCREW THREAD FORMING PHILIPS BLACK M2 6 DIAMETER
+              6 MM LENGTH
+            oobb_details:
+              drive_style: philips
+              length: 6_mm_length
+              oobb_name: screw
+              screw_colour: black
+              screw_style: thread_forming
+              thread_size: m2_6_diameter
+            svg_details:
+              diameter_mm: 2.6
+              drive_style: philips
+              drive_symbol_gap_mm: 1.56
+              head_diameter_mm: 5.2
+              head_rim_mm: 0.195
+              length_mm: 6.0
+              screw_style: thread_forming
+              socket_depth_mm: 0.8450000000000001
+              socket_width_mm: 1.6900000000000002
+              stylesheet: project_bolt
+              svg_name: screw_diagrams
+              thread_pitch_mm: 1.04
+              variants:
+                plain: diagram_plain.svg
+                solid: diagram_solid.svg
+                threaded: diagram_threaded.svg
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: thread_forming
+            taxonomy_4: philips
+            taxonomy_5: black
+            taxonomy_6: m2_6_diameter
+            taxonomy_7: 6_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+              family: thread_forming
+              generation_status: excluded
+              generator: unresolved
+              note: User requested skipping this family on 2026-10-11.
+              output_folder: three_d_model
+              parameters:
+                diameter_mm: 2.6
+                drive_style: philips
+                finish: black
+                length_mm: 6.0
+              priority: 11
+              schema_version: 1
+              units: mm
+            url_chat: https://chatgpt.com/c/6a1024e4-edd8-83eb-8e70-e8cd760e5465
+          dict_data_files: {}
+          dict_data_files_exists: {}
+          file_output: label_oomp.svg
+          file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+          search_and_replace: []
+        file_test: label_oomp.pdf
+        retries_until_complete: 0
+      svg_details:
+        diameter_mm: 2.6
+        drive_style: philips
+        drive_symbol_gap_mm: 1.56
+        head_diameter_mm: 5.2
+        head_rim_mm: 0.195
+        length_mm: 6.0
+        screw_style: thread_forming
+        socket_depth_mm: 0.8450000000000001
+        socket_width_mm: 1.6900000000000002
+        stylesheet: project_bolt
+        svg_name: screw_diagrams
+        thread_pitch_mm: 1.04
+        variants:
+          plain: diagram_plain.svg
+          solid: diagram_solid.svg
+          threaded: diagram_threaded.svg
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: screw
+      taxonomy_3: thread_forming
+      taxonomy_4: philips
+      taxonomy_5: black
+      taxonomy_6: m2_6_diameter
+      taxonomy_7: 6_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      three_d_model_details:
+        family: thread_forming
+        generation_status: excluded
+        generator: unresolved
+        note: User requested skipping this family on 2026-10-11.
+        output_folder: three_d_model
+        parameters:
+          diameter_mm: 2.6
+          drive_style: philips
+          finish: black
+          length_mm: 6.0
+        priority: 11
+        schema_version: 1
+        units: mm
+      url_chat: https://chatgpt.com/c/6a1024e4-edd8-83eb-8e70-e8cd760e5465
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_bolt_image.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_bolt_image.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_3:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    description: label_drawer
+    dict_data:
+      label_drawer: *id001
+    file_output: label_drawer.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+  file_test: ''
+oomp_key: oomp_hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+project_name: C:\gh\oomp_hardware_screw_version_5
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+svg_details:
+  diameter_mm: 2.6
+  drive_style: philips
+  drive_symbol_gap_mm: 1.56
+  head_diameter_mm: 5.2
+  head_rim_mm: 0.195
+  length_mm: 6.0
+  screw_style: thread_forming
+  socket_depth_mm: 0.8450000000000001
+  socket_width_mm: 1.6900000000000002
+  stylesheet: project_bolt
+  svg_name: screw_diagrams
+  thread_pitch_mm: 1.04
+  variants:
+    plain: diagram_plain.svg
+    solid: diagram_solid.svg
+    threaded: diagram_threaded.svg
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: screw
+taxonomy_2_capital: Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: sc
+taxonomy_2_length_3: scr
+taxonomy_2_length_4: scre
+taxonomy_2_length_5: screw
+taxonomy_2_upper: SCREW
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: SC
+taxonomy_2_upper_length_3: SCR
+taxonomy_2_upper_length_4: SCRE
+taxonomy_2_upper_length_5: SCREW
+taxonomy_3: thread_forming
+taxonomy_3_capital: Thread Forming
+taxonomy_3_first_letter: t
+taxonomy_3_first_letter_upper: T
+taxonomy_3_length_1: t
+taxonomy_3_length_2: th
+taxonomy_3_length_3: thr
+taxonomy_3_length_4: thre
+taxonomy_3_length_5: threa
+taxonomy_3_upper: THREAD_FORMING
+taxonomy_3_upper_length_1: T
+taxonomy_3_upper_length_2: TH
+taxonomy_3_upper_length_3: THR
+taxonomy_3_upper_length_4: THRE
+taxonomy_3_upper_length_5: THREA
+taxonomy_4: philips
+taxonomy_4_capital: Philips
+taxonomy_4_first_letter: p
+taxonomy_4_first_letter_upper: P
+taxonomy_4_length_1: p
+taxonomy_4_length_2: ph
+taxonomy_4_length_3: phi
+taxonomy_4_length_4: phil
+taxonomy_4_length_5: phili
+taxonomy_4_upper: PHILIPS
+taxonomy_4_upper_length_1: P
+taxonomy_4_upper_length_2: PH
+taxonomy_4_upper_length_3: PHI
+taxonomy_4_upper_length_4: PHIL
+taxonomy_4_upper_length_5: PHILI
+taxonomy_5: black
+taxonomy_5_capital: Black
+taxonomy_5_first_letter: b
+taxonomy_5_first_letter_upper: B
+taxonomy_5_length_1: b
+taxonomy_5_length_2: bl
+taxonomy_5_length_3: bla
+taxonomy_5_length_4: blac
+taxonomy_5_length_5: black
+taxonomy_5_upper: BLACK
+taxonomy_5_upper_length_1: B
+taxonomy_5_upper_length_2: BL
+taxonomy_5_upper_length_3: BLA
+taxonomy_5_upper_length_4: BLAC
+taxonomy_5_upper_length_5: BLACK
+taxonomy_6: m2_6_diameter
+taxonomy_6_capital: M2.6 Diameter
+taxonomy_6_first_letter: m
+taxonomy_6_first_letter_upper: M
+taxonomy_6_length_1: m
+taxonomy_6_length_2: m2
+taxonomy_6_length_3: m2_
+taxonomy_6_length_4: m2_6
+taxonomy_6_length_5: m2_6_
+taxonomy_6_upper: M2_6_DIAMETER
+taxonomy_6_upper_length_1: M
+taxonomy_6_upper_length_2: M2
+taxonomy_6_upper_length_3: M2_
+taxonomy_6_upper_length_4: M2_6
+taxonomy_6_upper_length_5: M2_6_
+taxonomy_7: 6_mm_length
+taxonomy_7_capital: 6 mm Length
+taxonomy_7_first_letter: '6'
+taxonomy_7_first_letter_upper: '6'
+taxonomy_7_length_1: '6'
+taxonomy_7_length_2: '6_'
+taxonomy_7_length_3: 6_m
+taxonomy_7_length_4: 6_mm
+taxonomy_7_length_5: 6_mm_
+taxonomy_7_upper: 6_MM_LENGTH
+taxonomy_7_upper_length_1: '6'
+taxonomy_7_upper_length_2: '6_'
+taxonomy_7_upper_length_3: 6_M
+taxonomy_7_upper_length_4: 6_MM
+taxonomy_7_upper_length_5: 6_MM_
+taxonomy_8: ''
+taxonomy_9: ''
+thing:
+  bip_39_2_word_array:
+  - wage
+  - spy
+  bip_39_2_word_no_space: wagespy
+  bip_39_2_word_space: wage spy
+  bip_39_2_word_underscore: wage_spy
+  bip_39_3_word_array:
+  - wage
+  - spy
+  - metal
+  bip_39_3_word_no_space: wagespymetal
+  bip_39_3_word_space: wage spy metal
+  bip_39_3_word_underscore: wage_spy_metal
+  bip_39_full_array:
+  - wage
+  - spy
+  - metal
+  - divide
+  - avocado
+  - baby
+  - real
+  - twin
+  - physical
+  - grit
+  - enough
+  - grocery
+  bip_39_full_no_space: wagespymetaldivideavocadobabyrealtwinphysicalgritenoughgrocery
+  bip_39_full_space: wage spy metal divide avocado baby real twin physical grit enough
+    grocery
+  bip_39_full_underscore: wage_spy_metal_divide_avocado_baby_real_twin_physical_grit_enough_grocery
+  classification: oobb
+  color: ''
+  components:
+  - - - color: '#444444'
+        inclusion: 3dpr
+        m: ''
+        module: github_belfryscad_bosl2_screw_raw
+        module_kwargs:
+          anchor: center
+          atype: screw
+          blunt_start: true
+          details: false
+          drive: philips
+          head: thread forming
+          length: 6.0
+          spec: M2.6,6
+          thread: coarse
+        pos:
+        - 0
+        - 0
+        - 0
+        rot:
+        - 0
+        - 0
+        - 0
+        shape: raw_scad
+        source: "include <git/BOSL2/std.scad>\ninclude <git/BOSL2/screws.scad>\n\n\
+          module github_belfryscad_bosl2_screw_raw(\n    spec=\"M3,12\",\n    head=\"\
+          socket\",\n    drive=\"none\",\n    length=12,\n    thread=\"coarse\",\n\
+          \    drive_size=undef,\n    thread_len=undef,\n    undersize=undef,\n  \
+          \  shaft_undersize=undef,\n    head_undersize=undef,\n    tolerance=undef,\n\
+          \    blunt_start=true,\n    details=false,\n    atype=\"screw\",\n    anchor=\"\
+          center\"\n) {{\n    let(\n        $tags_shown=\"ALL\",\n        $tags_hidden=[],\n\
+          \        $tag=\"\",\n        $tags=\"\"\n    )\n    screw(\n        spec=spec,\n\
+          \        head=head,\n        drive=drive,\n        thread=thread,\n    \
+          \    drive_size=drive_size,\n        length=length,\n        thread_len=thread_len,\n\
+          \        undersize=undersize,\n        shaft_undersize=shaft_undersize,\n\
+          \        head_undersize=head_undersize,\n        tolerance=tolerance,\n\
+          \        blunt_start=blunt_start,\n        details=details,\n        atype=atype,\n\
+          \        anchor=anchor\n    );\n}}\n"
+        type: positive
+  components_objects:
+  - drive_style: philips
+    filter: ''
+    generate_stl: true
+    length: 6_mm_length
+    modes:
+    - 3dpr
+    navigation: true
+    oobb_name: screw
+    oomp_mode: project
+    oomp_run: true
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0
+    run_action: true
+    run_only_yaml: true
+    run_oomp: true
+    run_oomp_populate: true
+    run_scad: true
+    save_type: all
+    screw_colour: black
+    screw_style: thread_forming
+    shape: oobb_screw_exact
+    thread_size: m2_6_diameter
+    typ: all
+    type: positive
+  components_string:
+  - oobb_screw_exact_shape_positive_type_true_run_only_yaml_true_run_oomp_populate_true_run_oomp_true_run_action_true_run_scad_true_generate_stl_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_philips_drive_style_6_mm_length_length_screw_oobb_name_black_screw_colour_thread_forming_screw_style_m2_6_diameter_thread_size
+  description: default screw 0x0x0
+  description_extra: ''
+  description_main: ''
+  directory: parts/hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+  generate_stl: true
+  id: hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+  id_no_class: hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+  id_no_size: hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+  id_no_type: hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+  kwargs:
+    drive_style: philips
+    filter: ''
+    generate_stl: true
+    length: 6_mm_length
+    modes:
+    - 3dpr
+    navigation: true
+    oobb_name: screw
+    oomp_description_extra: ''
+    oomp_description_main: screw_
+    oomp_mode: project
+    oomp_run: true
+    overwrite: true
+    run_action: true
+    run_only_yaml: true
+    run_oomp: true
+    run_oomp_populate: true
+    run_scad: true
+    save_type: all
+    screw_colour: black
+    screw_style: thread_forming
+    thread_size: m2_6_diameter
+    typ: all
+    type: default_screw
+  label_drawer: &id002
+    bip39: wage spy metal
+    bip39_size: 2.35
+    code: SC
+    description: Thread-forming screw / M2.6 / 6 mm / Phillips / Black
+    detail_lines:
+    - Phillips / Black
+    detail_size: 2.05
+    detail_y: 21.1
+    diagram: <path d="M2 3H6V11H2Z M2 6H2.8V8H2"/><path d="M6 5H15L19 7L15 9H6"/><path
+      d="M7 5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9"/>
+    drive_symbol: <circle cx="5" cy="5" r="4.5" fill="#ffffff"/><path d="M4 1.7H6V4H8.3V6H6V8.3H4V6H1.7V4H4Z"
+      fill="#000000"/>
+    length: '6'
+    length_size: 7.8
+    length_x: 20.191353125
+    name: Thread-forming screw
+    name_lines:
+    - Thread-forming
+    - screw
+    name_size: 3.0
+    thread: M2.6
+    thread_size: 4.408
+  link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+  link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+  manufacturer: ''
+  md5: f63a6a301ff0fe222cbf5ba3ecd52bb3
+  md5_10: f63a6a301f
+  md5_10_upper: F63A6A301F
+  md5_5: f63a6
+  md5_5_upper: F63A6
+  md5_6: f63a6a
+  md5_6_alpha: 9lv8q
+  md5_6_alpha_upper: 9LV8Q
+  md5_6_upper: F63A6A
+  name: Hardware Screw Thread Forming Philips Black M2 6 Diameter 6 Mm Length
+  name_no_class: Hardware Screw Thread Forming Philips Black M2 6 Diameter 6 Mm Length
+  name_no_size: Hardware Screw Thread Forming Philips Black M2 6 Diameter 6 Mm Length
+  name_no_type: Hardware Screw Thread Forming Philips Black M2 6 Diameter 6 Mm Length
+  name_proper: Hardware Screw Thread Forming Philips Black M2 6 Diameter 6 Mm Length
+  name_short: Default Screw
+  name_space: hardware screw thread forming philips black m2 6 diameter 6 mm length
+  name_text: Oobb Part Default Screw
+  name_upper: HARDWARE SCREW THREAD FORMING PHILIPS BLACK M2 6 DIAMETER 6 MM LENGTH
+  oobb_details:
+    drive_style: philips
+    length: 6_mm_length
+    oobb_name: screw
+    screw_colour: black
+    screw_style: thread_forming
+    thread_size: m2_6_diameter
+  oobb_name: screw
+  oomlout_ai_roboclick_1:
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      dict_data:
+        directory: parts\hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+        name: hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+        name_proper: Hardware Screw Thread Forming Philips Black M2 6 Diameter 6 Mm
+          Length
+        name_space: hardware screw thread forming philips black m2 6 diameter 6 mm
+          length
+        name_upper: HARDWARE SCREW THREAD FORMING PHILIPS BLACK M2 6 DIAMETER 6 MM
+          LENGTH
+        oobb_details:
+          drive_style: philips
+          length: 6_mm_length
+          oobb_name: screw
+          screw_colour: black
+          screw_style: thread_forming
+          thread_size: m2_6_diameter
+        svg_details:
+          diameter_mm: 2.6
+          drive_style: philips
+          drive_symbol_gap_mm: 1.56
+          head_diameter_mm: 5.2
+          head_rim_mm: 0.195
+          length_mm: 6.0
+          screw_style: thread_forming
+          socket_depth_mm: 0.8450000000000001
+          socket_width_mm: 1.6900000000000002
+          stylesheet: project_bolt
+          svg_name: screw_diagrams
+          thread_pitch_mm: 1.04
+          variants:
+            plain: diagram_plain.svg
+            solid: diagram_solid.svg
+            threaded: diagram_threaded.svg
+        taxonomy_1: hardware
+        taxonomy_10: ''
+        taxonomy_11: ''
+        taxonomy_12: ''
+        taxonomy_13: ''
+        taxonomy_14: ''
+        taxonomy_15: ''
+        taxonomy_2: screw
+        taxonomy_3: thread_forming
+        taxonomy_4: philips
+        taxonomy_5: black
+        taxonomy_6: m2_6_diameter
+        taxonomy_7: 6_mm_length
+        taxonomy_8: ''
+        taxonomy_9: ''
+        three_d_model_details:
+          family: thread_forming
+          generation_status: excluded
+          generator: unresolved
+          note: User requested skipping this family on 2026-10-11.
+          output_folder: three_d_model
+          parameters:
+            diameter_mm: 2.6
+            drive_style: philips
+            finish: black
+            length_mm: 6.0
+          priority: 11
+          schema_version: 1
+          units: mm
+        url_chat: https://chatgpt.com/c/6a1024e4-edd8-83eb-8e70-e8cd760e5465
+      dict_data_files: {}
+      dict_data_files_exists: {}
+      file_output: label_oomp.svg
+      file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+      search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+  oomlout_ai_roboclick_2:
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      dict_data:
+        directory: parts\hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+        name: hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+        name_proper: Hardware Screw Thread Forming Philips Black M2 6 Diameter 6 Mm
+          Length
+        name_space: hardware screw thread forming philips black m2 6 diameter 6 mm
+          length
+        name_upper: HARDWARE SCREW THREAD FORMING PHILIPS BLACK M2 6 DIAMETER 6 MM
+          LENGTH
+        oobb_details:
+          drive_style: philips
+          length: 6_mm_length
+          oobb_name: screw
+          screw_colour: black
+          screw_style: thread_forming
+          thread_size: m2_6_diameter
+        oomlout_ai_roboclick_1:
+          actions:
+          - command: text_jinja_template
+            convert_to_pdf: false
+            convert_to_png: false
+            dict_data:
+              directory: parts\hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+              name: hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+              name_proper: Hardware Screw Thread Forming Philips Black M2 6 Diameter
+                6 Mm Length
+              name_space: hardware screw thread forming philips black m2 6 diameter
+                6 mm length
+              name_upper: HARDWARE SCREW THREAD FORMING PHILIPS BLACK M2 6 DIAMETER
+                6 MM LENGTH
+              oobb_details:
+                drive_style: philips
+                length: 6_mm_length
+                oobb_name: screw
+                screw_colour: black
+                screw_style: thread_forming
+                thread_size: m2_6_diameter
+              svg_details:
+                diameter_mm: 2.6
+                drive_style: philips
+                drive_symbol_gap_mm: 1.56
+                head_diameter_mm: 5.2
+                head_rim_mm: 0.195
+                length_mm: 6.0
+                screw_style: thread_forming
+                socket_depth_mm: 0.8450000000000001
+                socket_width_mm: 1.6900000000000002
+                stylesheet: project_bolt
+                svg_name: screw_diagrams
+                thread_pitch_mm: 1.04
+                variants:
+                  plain: diagram_plain.svg
+                  solid: diagram_solid.svg
+                  threaded: diagram_threaded.svg
+              taxonomy_1: hardware
+              taxonomy_10: ''
+              taxonomy_11: ''
+              taxonomy_12: ''
+              taxonomy_13: ''
+              taxonomy_14: ''
+              taxonomy_15: ''
+              taxonomy_2: screw
+              taxonomy_3: thread_forming
+              taxonomy_4: philips
+              taxonomy_5: black
+              taxonomy_6: m2_6_diameter
+              taxonomy_7: 6_mm_length
+              taxonomy_8: ''
+              taxonomy_9: ''
+              three_d_model_details:
+                family: thread_forming
+                generation_status: excluded
+                generator: unresolved
+                note: User requested skipping this family on 2026-10-11.
+                output_folder: three_d_model
+                parameters:
+                  diameter_mm: 2.6
+                  drive_style: philips
+                  finish: black
+                  length_mm: 6.0
+                priority: 11
+                schema_version: 1
+                units: mm
+              url_chat: https://chatgpt.com/c/6a1024e4-edd8-83eb-8e70-e8cd760e5465
+            dict_data_files: {}
+            dict_data_files_exists: {}
+            file_output: label_oomp.svg
+            file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+            search_and_replace: []
+          file_test: label_oomp.pdf
+          retries_until_complete: 0
+        svg_details:
+          diameter_mm: 2.6
+          drive_style: philips
+          drive_symbol_gap_mm: 1.56
+          head_diameter_mm: 5.2
+          head_rim_mm: 0.195
+          length_mm: 6.0
+          screw_style: thread_forming
+          socket_depth_mm: 0.8450000000000001
+          socket_width_mm: 1.6900000000000002
+          stylesheet: project_bolt
+          svg_name: screw_diagrams
+          thread_pitch_mm: 1.04
+          variants:
+            plain: diagram_plain.svg
+            solid: diagram_solid.svg
+            threaded: diagram_threaded.svg
+        taxonomy_1: hardware
+        taxonomy_10: ''
+        taxonomy_11: ''
+        taxonomy_12: ''
+        taxonomy_13: ''
+        taxonomy_14: ''
+        taxonomy_15: ''
+        taxonomy_2: screw
+        taxonomy_3: thread_forming
+        taxonomy_4: philips
+        taxonomy_5: black
+        taxonomy_6: m2_6_diameter
+        taxonomy_7: 6_mm_length
+        taxonomy_8: ''
+        taxonomy_9: ''
+        three_d_model_details:
+          family: thread_forming
+          generation_status: excluded
+          generator: unresolved
+          note: User requested skipping this family on 2026-10-11.
+          output_folder: three_d_model
+          parameters:
+            diameter_mm: 2.6
+            drive_style: philips
+            finish: black
+            length_mm: 6.0
+          priority: 11
+          schema_version: 1
+          units: mm
+        url_chat: https://chatgpt.com/c/6a1024e4-edd8-83eb-8e70-e8cd760e5465
+      dict_data_files: {}
+      dict_data_files_exists: {}
+      file_output: label_bolt_image.svg
+      file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+      search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
+  oomlout_ai_roboclick_3:
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      description: label_drawer
+      dict_data:
+        label_drawer: *id002
+      file_output: label_drawer.svg
+      file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
+  oomp_key: oomp_hardware_screw_thread_forming_philips_black_m2_6_diameter_6_mm_length
+  part_number: ''
+  run_action: true
+  run_only_yaml: true
+  run_oomp: true
+  run_oomp_populate: true
+  run_scad: true
+  short_name: ''
+  size: default_screw
+  svg_details:
+    diameter_mm: 2.6
+    drive_style: philips
+    drive_symbol_gap_mm: 1.56
+    head_diameter_mm: 5.2
+    head_rim_mm: 0.195
+    length_mm: 6.0
+    screw_style: thread_forming
+    socket_depth_mm: 0.8450000000000001
+    socket_width_mm: 1.6900000000000002
+    stylesheet: project_bolt
+    svg_name: screw_diagrams
+    thread_pitch_mm: 1.04
+    variants:
+      plain: diagram_plain.svg
+      solid: diagram_solid.svg
+      threaded: diagram_threaded.svg
+  taxonomy_1: hardware
+  taxonomy_10: ''
+  taxonomy_11: ''
+  taxonomy_12: ''
+  taxonomy_13: ''
+  taxonomy_14: ''
+  taxonomy_15: ''
+  taxonomy_1_capital: Hardware
+  taxonomy_1_first_letter: h
+  taxonomy_1_first_letter_upper: H
+  taxonomy_1_length_1: h
+  taxonomy_1_length_2: ha
+  taxonomy_1_length_3: har
+  taxonomy_1_length_4: hard
+  taxonomy_1_length_5: hardw
+  taxonomy_1_upper: HARDWARE
+  taxonomy_1_upper_length_1: H
+  taxonomy_1_upper_length_2: HA
+  taxonomy_1_upper_length_3: HAR
+  taxonomy_1_upper_length_4: HARD
+  taxonomy_1_upper_length_5: HARDW
+  taxonomy_2: screw
+  taxonomy_2_capital: Screw
+  taxonomy_2_first_letter: s
+  taxonomy_2_first_letter_upper: S
+  taxonomy_2_length_1: s
+  taxonomy_2_length_2: sc
+  taxonomy_2_length_3: scr
+  taxonomy_2_length_4: scre
+  taxonomy_2_length_5: screw
+  taxonomy_2_upper: SCREW
+  taxonomy_2_upper_length_1: S
+  taxonomy_2_upper_length_2: SC
+  taxonomy_2_upper_length_3: SCR
+  taxonomy_2_upper_length_4: SCRE
+  taxonomy_2_upper_length_5: SCREW
+  taxonomy_3: thread_forming
+  taxonomy_3_capital: Thread Forming
+  taxonomy_3_first_letter: t
+  taxonomy_3_first_letter_upper: T
+  taxonomy_3_length_1: t
+  taxonomy_3_length_2: th
+  taxonomy_3_length_3: thr
+  taxonomy_3_length_4: thre
+  taxonomy_3_length_5: threa
+  taxonomy_3_upper: THREAD_FORMING
+  taxonomy_3_upper_length_1: T
+  taxonomy_3_upper_length_2: TH
+  taxonomy_3_upper_length_3: THR
+  taxonomy_3_upper_length_4: THRE
+  taxonomy_3_upper_length_5: THREA
+  taxonomy_4: philips
+  taxonomy_4_capital: Philips
+  taxonomy_4_first_letter: p
+  taxonomy_4_first_letter_upper: P
+  taxonomy_4_length_1: p
+  taxonomy_4_length_2: ph
+  taxonomy_4_length_3: phi
+  taxonomy_4_length_4: phil
+  taxonomy_4_length_5: phili
+  taxonomy_4_upper: PHILIPS
+  taxonomy_4_upper_length_1: P
+  taxonomy_4_upper_length_2: PH
+  taxonomy_4_upper_length_3: PHI
+  taxonomy_4_upper_length_4: PHIL
+  taxonomy_4_upper_length_5: PHILI
+  taxonomy_5: black
+  taxonomy_5_capital: Black
+  taxonomy_5_first_letter: b
+  taxonomy_5_first_letter_upper: B
+  taxonomy_5_length_1: b
+  taxonomy_5_length_2: bl
+  taxonomy_5_length_3: bla
+  taxonomy_5_length_4: blac
+  taxonomy_5_length_5: black
+  taxonomy_5_upper: BLACK
+  taxonomy_5_upper_length_1: B
+  taxonomy_5_upper_length_2: BL
+  taxonomy_5_upper_length_3: BLA
+  taxonomy_5_upper_length_4: BLAC
+  taxonomy_5_upper_length_5: BLACK
+  taxonomy_6: m2_6_diameter
+  taxonomy_6_capital: M2.6 Diameter
+  taxonomy_6_first_letter: m
+  taxonomy_6_first_letter_upper: M
+  taxonomy_6_length_1: m
+  taxonomy_6_length_2: m2
+  taxonomy_6_length_3: m2_
+  taxonomy_6_length_4: m2_6
+  taxonomy_6_length_5: m2_6_
+  taxonomy_6_upper: M2_6_DIAMETER
+  taxonomy_6_upper_length_1: M
+  taxonomy_6_upper_length_2: M2
+  taxonomy_6_upper_length_3: M2_
+  taxonomy_6_upper_length_4: M2_6
+  taxonomy_6_upper_length_5: M2_6_
+  taxonomy_7: 6_mm_length
+  taxonomy_7_capital: 6 mm Length
+  taxonomy_7_first_letter: '6'
+  taxonomy_7_first_letter_upper: '6'
+  taxonomy_7_length_1: '6'
+  taxonomy_7_length_2: '6_'
+  taxonomy_7_length_3: 6_m
+  taxonomy_7_length_4: 6_mm
+  taxonomy_7_length_5: 6_mm_
+  taxonomy_7_upper: 6_MM_LENGTH
+  taxonomy_7_upper_length_1: '6'
+  taxonomy_7_upper_length_2: '6_'
+  taxonomy_7_upper_length_3: 6_M
+  taxonomy_7_upper_length_4: 6_MM
+  taxonomy_7_upper_length_5: 6_MM_
+  taxonomy_8: ''
+  taxonomy_9: ''
+  three_d_model_details:
+    family: thread_forming
+    generation_status: excluded
+    generator: unresolved
+    note: User requested skipping this family on 2026-10-11.
+    output_folder: three_d_model
+    parameters:
+      diameter_mm: 2.6
+      drive_style: philips
+      finish: black
+      length_mm: 6.0
+    priority: 11
+    schema_version: 1
+    units: mm
+  type: part
+  url_chat: https://chatgpt.com/c/6a1024e4-edd8-83eb-8e70-e8cd760e5465
+three_d_model_details:
+  family: thread_forming
+  generation_status: excluded
+  generator: unresolved
+  note: User requested skipping this family on 2026-10-11.
+  output_folder: three_d_model
+  parameters:
+    diameter_mm: 2.6
+    drive_style: philips
+    finish: black
+    length_mm: 6.0
+  priority: 11
+  schema_version: 1
+  units: mm
+url_chat: https://chatgpt.com/c/6a1024e4-edd8-83eb-8e70-e8cd760e5465
