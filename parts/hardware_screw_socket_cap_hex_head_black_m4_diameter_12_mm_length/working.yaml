@@ -39,6 +39,7 @@ color_band_taxonomy_3: yellow
 color_band_taxonomy_6: orange
 color_band_taxonomy_7: green
 directory: parts/hardware_screw_socket_cap_hex_head_black_m4_diameter_12_mm_length
+generate_stl: true
 id: hardware_screw_socket_cap_hex_head_black_m4_diameter_12_mm_length
 id_no_class: hardware_screw_socket_cap_hex_head_black_m4_diameter_12_mm_length
 id_no_size: hardware_screw_socket_cap_hex_head_black_m4_diameter_12_mm_length
@@ -95,290 +96,6 @@ oobb_details:
     thread_size: m4_diameter
 oomlout_ai_roboclick_1:
     actions:
-    -   command: new_chat
-        description: step_1_create_icon
-    -   command: ai_query
-        delay: '180'
-        mode_ai_wait: slow
-        text: '## READ THIS FIRST — no theme is coming in this message, and that is
-            correct
-
-
-            This is **step 1 of 2**. It is deliberately theme-free. You are building
-            a reusable house style, not designing a specific logo.
-
-
-            The theme arrives in step 2. Do **not** ask what the theme is. Do **not**
-            ask any clarifying questions. Do **not** write a final image-generation
-            prompt yet — you cannot, and attempting one is a failure of this step.
-            Do **not** invent a placeholder theme and design for it. If you feel information
-            is missing, that is expected: the missing information is the theme, it
-            is coming next, and nothing in this step requires it.
-
-
-            Your entire output for this step is a **house style guide** that will
-            be applied to whatever theme arrives next.
-
-
-            ---
-
-
-            ## The product this style serves
-
-
-            **Intended use:** a square, single-colour, pure-black-on-pure-white mascot
-            logo, generated as a raster image, then **auto-traced to vector and cut/engraved
-            on a laser cutter**. The trace step is unforgiving — it is the hardest
-            constraint in this brief and should shape most of your recommendations.
-
-
-            **Target feel:** charming, original, cute, polished, instantly readable
-            at ~20 mm. A designed branded icon, not a doodle page and not generic
-            kawaii clip art.
-
-
-            ---
-
-
-            ## What to produce
-
-
-            Write these six sections. **Budget: about 900 words total, 1,100 hard
-            ceiling.** That is roughly 100–150 words per section, with section 6 allowed
-            the most. This is a working reference, not an essay — every line should
-            be a rule someone could check a drawing against. Prefer tight bullets
-            over prose paragraphs, and cut any sentence that only restates the brief
-            back at me.
-
-
-            **1. Line language menu**
-
-            Exactly three distinct black-on-white line-art approaches (e.g. uniform
-            monoline, weight-varied outline with sparse interior, chunky sticker-outline,
-            geometric constructed line). One or two lines each: what it does for charm,
-            how it survives auto-tracing, what it costs.
-
-
-            **2. Cuteness that isn''t generic**
-
-            The handful of levers that make a line mascot lovable — eye shape and
-            spacing, head-to-body ratio, pose energy, mouth simplicity, restraint
-            on blush marks — each as a one-line rule with a number where a number
-            applies. Then a short do-not list of the clichés that make an AI mascot
-            look stock (dead-centre symmetrical stare, sparkle confetti, floating
-            hearts, blob bodies), each with its one-line replacement.
-
-
-            **3. Trace-safety rules**
-
-            A flat list of concrete, checkable rules for the auto-trace-to-cut pipeline
-            — one line each, no explanatory paragraphs:
-
-            - minimum stroke thickness relative to the square''s width, stated as
-            a fraction (so it scales)
-
-            - minimum gap between two adjacent strokes before they blur into one traced
-            blob
-
-            - why every shape should read as a closed path, and how to spot one that
-            won''t
-
-            - island/floating-part handling and where to add connective bridges
-
-            - what to do about interior detail that a tracer will turn into noise
-            (crosshatching, stippling, tapering hairlines, single stray dots)
-
-            - why large solid black fills are avoided here, and the acceptable exceptions
-            (small eyes, pupils, a tiny accent shape)
-
-
-            **4. Composition and hierarchy**
-
-            Bulleted rules only: square framing, margin as a fraction of the square,
-            centre of visual mass, minimum negative space, the mascot-leads / props-support
-            / text-reinforces hierarchy, and the shared traits that make it read as
-            one illustrator''s hand (same stroke weight, same corner radius, same
-            eye style, same spacing rhythm).
-
-
-            **5. Text and badge treatments**
-
-            Text is **optional**. Briefly: when a word helps versus clutters, a maximum
-            letter count that stays cuttable, how to specify literal text so it renders
-            verbatim (quotes, exact casing), the letterform to ask for, and when a
-            badge ring earns its place versus just boxing the mark in. Six bullets
-            is plenty.
-
-
-            **6. Prompt architecture for step 2**
-
-            The most important section, so spend your words here. Specify the exact
-            template the step-2 final prompt must follow — and state that the finished
-            prompt should land at **180–250 words**, long enough to carry the spec,
-            short enough that no single instruction gets diluted. Order it to match
-            how the image model weights a prompt:
-
-
-            1. **Medium and style up front** — the first sentence states it is a square
-            black-and-white line-art mascot logo, because opening words set the mode
-            for everything after.
-
-            2. **Subject** — the mascot, its identity, expression, pose.
-
-            3. **Key details** — props, supporting motifs, any literal text in quotes.
-
-            4. **Layout** — centring, margins, hierarchy, where each element sits.
-
-            5. **Line and manufacturing spec** — stroke weight, closed paths, interior-detail
-            limits.
-
-            6. **Exclusions last** — negatives go at the very end, after every positive
-            descriptor, because a model reading them early tends to treat them as
-            things to compose rather than things to omit.
-
-
-            Give the canonical exclusion list to close with (no grey, no shading,
-            no gradients, no halftone, no dithering, no texture, no colour, no transparency,
-            no background scene, no drop shadow, no outer glow, no frame border unless
-            specified, no watermark, no signature, no extra text beyond what is quoted).
-
-
-            Also state the two facts the prompt must say in plain words no matter
-            what: the image is **square**, and it is **pure black on a pure white
-            background**.
-
-
-            ---
-
-
-            ## Response style and length
-
-
-            **About 900 words, 1,100 absolute maximum.** Bullets over prose. Concrete
-            and checkable over abstract and aspirational — "stroke no thinner than
-            1/100 of the square''s width" beats "confident lines". No preamble, no
-            restating this brief back at me, no summary of what you are about to do.
-            Skip the caveats and the reasoning behind each rule; just state the rule.
-
-
-            Close with a checklist of the rules, 12 lines at most, so step 2 can be
-            graded against it.
-
-
-            Then stop. No final image prompt, no questions, no theme.
-
-            '
-    -   command: ai_query
-        delay: '180'
-        mode_ai_wait: slow
-        text: '## Step 2 of 2 — the theme
-
-
-            The theme is: **an image of hardware screw socket cap hex head black m4
-            diameter 12 mm length please include the thread size and length in the
-            image as text, add extra icons in the back, one that ryhmes with the diameter
-            and one or two that rhymes with the length, if the length is less than
-            14 just one if it is greater do two, one rhyming for each part of the
-            number ie for twenty five one that rhymes with twenty and one that rhymes
-            with five. Put some time into searching to find the rhymes**
-
-
-            Apply the house style you just wrote to this theme. Everything you need
-            is now in hand — do not ask questions, just work.
-
-
-            ---
-
-
-            ## Part A — exploration
-
-
-            **Budget: about 450 words, 600 hard ceiling.** Push past the theme''s
-            first obvious reading, but do it briskly. No preamble, no restating the
-            theme back at me.
-
-
-            - **Angles:** exactly four mascot interpretations, **one or two sentences
-            each**. Include at least one that anthropomorphises an object or concept
-            from the theme rather than reaching for the obvious animal, and at least
-            one built on a visual pun. Then name your pick in a single sentence saying
-            why it beats the other three — no full comparison table.
-
-            - **The chosen design:** one short paragraph fixing the pose, expression,
-            props, and line strategy. Prefer gesture or a moment of character over
-            a static front-on stare. Cut any prop that is decoration rather than signal.
-
-            - **Text:** one line — the exact string in quotes with exact casing, or
-            "no text". Text is optional and a clean wordless mark often wins.
-
-            - **Trace and small-size check:** a short bullet list of fixes only —
-            every stroke to thicken, gap to widen, island to bridge, detail to delete.
-            Just the fixes, not the reasoning, and not a description of what the design
-            looks like at size.
-
-
-            Skip anything not on that list: no tradeoff essays, no runner-up post-mortems,
-            no notes on your own process.
-
-
-            ## Part B — the final prompt
-
-
-            End your response with the final image-generation prompt for the chosen
-            direction, and nothing after it.
-
-
-            Format it as a single fenced code block labelled `FINAL IMAGE PROMPT`,
-            so it can be copied cleanly. Follow the six-part architecture from step
-            1 exactly, in order: medium and style → subject → key details → layout
-            → line and manufacturing spec → exclusions last.
-
-
-            **Length: 180–250 words.** Long enough to carry the full spec, short enough
-            that no single instruction gets diluted. If you are over, cut adjectives
-            and repeated style words before you cut any manufacturing rule.
-
-
-            Hard requirements for that prompt:
-
-
-            - It opens by stating it is a **square black-and-white line-art mascot
-            logo**.
-
-            - It says in plain words that the image is **square** and **pure black
-            on a pure white background**.
-
-            - It states stroke weight as a fraction of the image width, and requires
-            every shape to be a **closed path** with **no floating disconnected islands**.
-
-            - It caps interior detail explicitly and forbids crosshatching, stippling,
-            and hairline tapers.
-
-            - Any literal text appears in quotes with exact casing, spelled out character
-            by character if it is unusual.
-
-            - The exclusion list comes **last**, after every positive descriptor.
-
-            - It is self-contained: someone pasting it cold, with no memory of this
-            conversation, gets the same image. No "as discussed above", no "the mascot
-            from earlier".
-
-            - One prompt only. No variants, no alternates, no commentary after the
-            code block.
-
-            '
-    -   command: ai_query
-        delay: '300'
-        mode_ai_wait: slow
-        text: Generate the image take all the time you need
-    -   command: save_image_generated
-        file_name: initial_generated_icon.png
-        mode_ai_wait: slow
-    -   command: close_tab
-    file_test: initial_generated_icon.png
-    retries_until_complete: 0
-oomlout_ai_roboclick_2:
-    actions:
     -   command: text_jinja_template
         convert_to_pdf: false
         convert_to_png: false
@@ -409,321 +126,190 @@ oomlout_ai_roboclick_2:
                 screw_colour: black
                 screw_style: socket_cap
                 thread_size: m4_diameter
-            oomlout_ai_roboclick_1:
-                actions:
-                -   command: new_chat
-                    description: step_1_create_icon
-                -   command: ai_query
-                    delay: '180'
-                    mode_ai_wait: slow
-                    text: '## READ THIS FIRST — no theme is coming in this message,
-                        and that is correct
-
-
-                        This is **step 1 of 2**. It is deliberately theme-free. You
-                        are building a reusable house style, not designing a specific
-                        logo.
-
-
-                        The theme arrives in step 2. Do **not** ask what the theme
-                        is. Do **not** ask any clarifying questions. Do **not** write
-                        a final image-generation prompt yet — you cannot, and attempting
-                        one is a failure of this step. Do **not** invent a placeholder
-                        theme and design for it. If you feel information is missing,
-                        that is expected: the missing information is the theme, it
-                        is coming next, and nothing in this step requires it.
-
-
-                        Your entire output for this step is a **house style guide**
-                        that will be applied to whatever theme arrives next.
-
-
-                        ---
-
-
-                        ## The product this style serves
-
-
-                        **Intended use:** a square, single-colour, pure-black-on-pure-white
-                        mascot logo, generated as a raster image, then **auto-traced
-                        to vector and cut/engraved on a laser cutter**. The trace
-                        step is unforgiving — it is the hardest constraint in this
-                        brief and should shape most of your recommendations.
-
-
-                        **Target feel:** charming, original, cute, polished, instantly
-                        readable at ~20 mm. A designed branded icon, not a doodle
-                        page and not generic kawaii clip art.
-
-
-                        ---
-
-
-                        ## What to produce
-
-
-                        Write these six sections. **Budget: about 900 words total,
-                        1,100 hard ceiling.** That is roughly 100–150 words per section,
-                        with section 6 allowed the most. This is a working reference,
-                        not an essay — every line should be a rule someone could check
-                        a drawing against. Prefer tight bullets over prose paragraphs,
-                        and cut any sentence that only restates the brief back at
-                        me.
-
-
-                        **1. Line language menu**
-
-                        Exactly three distinct black-on-white line-art approaches
-                        (e.g. uniform monoline, weight-varied outline with sparse
-                        interior, chunky sticker-outline, geometric constructed line).
-                        One or two lines each: what it does for charm, how it survives
-                        auto-tracing, what it costs.
-
-
-                        **2. Cuteness that isn''t generic**
-
-                        The handful of levers that make a line mascot lovable — eye
-                        shape and spacing, head-to-body ratio, pose energy, mouth
-                        simplicity, restraint on blush marks — each as a one-line
-                        rule with a number where a number applies. Then a short do-not
-                        list of the clichés that make an AI mascot look stock (dead-centre
-                        symmetrical stare, sparkle confetti, floating hearts, blob
-                        bodies), each with its one-line replacement.
-
-
-                        **3. Trace-safety rules**
-
-                        A flat list of concrete, checkable rules for the auto-trace-to-cut
-                        pipeline — one line each, no explanatory paragraphs:
-
-                        - minimum stroke thickness relative to the square''s width,
-                        stated as a fraction (so it scales)
-
-                        - minimum gap between two adjacent strokes before they blur
-                        into one traced blob
-
-                        - why every shape should read as a closed path, and how to
-                        spot one that won''t
-
-                        - island/floating-part handling and where to add connective
-                        bridges
-
-                        - what to do about interior detail that a tracer will turn
-                        into noise (crosshatching, stippling, tapering hairlines,
-                        single stray dots)
-
-                        - why large solid black fills are avoided here, and the acceptable
-                        exceptions (small eyes, pupils, a tiny accent shape)
-
-
-                        **4. Composition and hierarchy**
-
-                        Bulleted rules only: square framing, margin as a fraction
-                        of the square, centre of visual mass, minimum negative space,
-                        the mascot-leads / props-support / text-reinforces hierarchy,
-                        and the shared traits that make it read as one illustrator''s
-                        hand (same stroke weight, same corner radius, same eye style,
-                        same spacing rhythm).
-
-
-                        **5. Text and badge treatments**
-
-                        Text is **optional**. Briefly: when a word helps versus clutters,
-                        a maximum letter count that stays cuttable, how to specify
-                        literal text so it renders verbatim (quotes, exact casing),
-                        the letterform to ask for, and when a badge ring earns its
-                        place versus just boxing the mark in. Six bullets is plenty.
-
-
-                        **6. Prompt architecture for step 2**
-
-                        The most important section, so spend your words here. Specify
-                        the exact template the step-2 final prompt must follow — and
-                        state that the finished prompt should land at **180–250 words**,
-                        long enough to carry the spec, short enough that no single
-                        instruction gets diluted. Order it to match how the image
-                        model weights a prompt:
-
-
-                        1. **Medium and style up front** — the first sentence states
-                        it is a square black-and-white line-art mascot logo, because
-                        opening words set the mode for everything after.
-
-                        2. **Subject** — the mascot, its identity, expression, pose.
-
-                        3. **Key details** — props, supporting motifs, any literal
-                        text in quotes.
-
-                        4. **Layout** — centring, margins, hierarchy, where each element
-                        sits.
-
-                        5. **Line and manufacturing spec** — stroke weight, closed
-                        paths, interior-detail limits.
-
-                        6. **Exclusions last** — negatives go at the very end, after
-                        every positive descriptor, because a model reading them early
-                        tends to treat them as things to compose rather than things
-                        to omit.
-
-
-                        Give the canonical exclusion list to close with (no grey,
-                        no shading, no gradients, no halftone, no dithering, no texture,
-                        no colour, no transparency, no background scene, no drop shadow,
-                        no outer glow, no frame border unless specified, no watermark,
-                        no signature, no extra text beyond what is quoted).
-
-
-                        Also state the two facts the prompt must say in plain words
-                        no matter what: the image is **square**, and it is **pure
-                        black on a pure white background**.
-
-
-                        ---
-
-
-                        ## Response style and length
-
-
-                        **About 900 words, 1,100 absolute maximum.** Bullets over
-                        prose. Concrete and checkable over abstract and aspirational
-                        — "stroke no thinner than 1/100 of the square''s width" beats
-                        "confident lines". No preamble, no restating this brief back
-                        at me, no summary of what you are about to do. Skip the caveats
-                        and the reasoning behind each rule; just state the rule.
-
-
-                        Close with a checklist of the rules, 12 lines at most, so
-                        step 2 can be graded against it.
-
-
-                        Then stop. No final image prompt, no questions, no theme.
-
-                        '
-                -   command: ai_query
-                    delay: '180'
-                    mode_ai_wait: slow
-                    text: '## Step 2 of 2 — the theme
-
-
-                        The theme is: **an image of hardware screw socket cap hex
-                        head black m4 diameter 12 mm length please include the thread
-                        size and length in the image as text, add extra icons in the
-                        back, one that ryhmes with the diameter and one or two that
-                        rhymes with the length, if the length is less than 14 just
-                        one if it is greater do two, one rhyming for each part of
-                        the number ie for twenty five one that rhymes with twenty
-                        and one that rhymes with five. Put some time into searching
-                        to find the rhymes**
-
-
-                        Apply the house style you just wrote to this theme. Everything
-                        you need is now in hand — do not ask questions, just work.
-
-
-                        ---
-
-
-                        ## Part A — exploration
-
-
-                        **Budget: about 450 words, 600 hard ceiling.** Push past the
-                        theme''s first obvious reading, but do it briskly. No preamble,
-                        no restating the theme back at me.
-
-
-                        - **Angles:** exactly four mascot interpretations, **one or
-                        two sentences each**. Include at least one that anthropomorphises
-                        an object or concept from the theme rather than reaching for
-                        the obvious animal, and at least one built on a visual pun.
-                        Then name your pick in a single sentence saying why it beats
-                        the other three — no full comparison table.
-
-                        - **The chosen design:** one short paragraph fixing the pose,
-                        expression, props, and line strategy. Prefer gesture or a
-                        moment of character over a static front-on stare. Cut any
-                        prop that is decoration rather than signal.
-
-                        - **Text:** one line — the exact string in quotes with exact
-                        casing, or "no text". Text is optional and a clean wordless
-                        mark often wins.
-
-                        - **Trace and small-size check:** a short bullet list of fixes
-                        only — every stroke to thicken, gap to widen, island to bridge,
-                        detail to delete. Just the fixes, not the reasoning, and not
-                        a description of what the design looks like at size.
-
-
-                        Skip anything not on that list: no tradeoff essays, no runner-up
-                        post-mortems, no notes on your own process.
-
-
-                        ## Part B — the final prompt
-
-
-                        End your response with the final image-generation prompt for
-                        the chosen direction, and nothing after it.
-
-
-                        Format it as a single fenced code block labelled `FINAL IMAGE
-                        PROMPT`, so it can be copied cleanly. Follow the six-part
-                        architecture from step 1 exactly, in order: medium and style
-                        → subject → key details → layout → line and manufacturing
-                        spec → exclusions last.
-
-
-                        **Length: 180–250 words.** Long enough to carry the full spec,
-                        short enough that no single instruction gets diluted. If you
-                        are over, cut adjectives and repeated style words before you
-                        cut any manufacturing rule.
-
-
-                        Hard requirements for that prompt:
-
-
-                        - It opens by stating it is a **square black-and-white line-art
-                        mascot logo**.
-
-                        - It says in plain words that the image is **square** and
-                        **pure black on a pure white background**.
-
-                        - It states stroke weight as a fraction of the image width,
-                        and requires every shape to be a **closed path** with **no
-                        floating disconnected islands**.
-
-                        - It caps interior detail explicitly and forbids crosshatching,
-                        stippling, and hairline tapers.
-
-                        - Any literal text appears in quotes with exact casing, spelled
-                        out character by character if it is unusual.
-
-                        - The exclusion list comes **last**, after every positive
-                        descriptor.
-
-                        - It is self-contained: someone pasting it cold, with no memory
-                        of this conversation, gets the same image. No "as discussed
-                        above", no "the mascot from earlier".
-
-                        - One prompt only. No variants, no alternates, no commentary
-                        after the code block.
-
-                        '
-                -   command: ai_query
-                    delay: '300'
-                    mode_ai_wait: slow
-                    text: Generate the image take all the time you need
-                -   command: save_image_generated
-                    file_name: initial_generated_icon.png
-                    mode_ai_wait: slow
-                -   command: close_tab
-                file_test: initial_generated_icon.png
-                retries_until_complete: 0
             screw_style: screw_socket_cap
             supplier_data:
                 accu:
+                    accepted_warnings: '["Accu displayed prices are rounded; derived
+                        totals use the captured display precision", "Accu requires
+                        a quote from 400 units; prices beyond that withheld", "Quantity
+                        1000: no verified price/VAT band; price withheld", "Quantity
+                        10000: no verified price/VAT band; price withheld"]'
+                    box_quantity: ''
+                    captured_at: '2026-10-13T21:52:11.929024+00:00'
+                    currency: GBP
+                    description: 'Metric Socket Cap Head Screws feature an internal
+                        socket drive that is designed for use with a Hex Key, otherwise
+                        known as an Allen Key. With the terms ‘socket’ and ‘allen’
+                        being so interchangeable within engineering, this explains
+                        why these fasteners are also commonly referred to as Allen
+                        Key Bolts or Socket Screws. Accu''s range of Cap Screws are
+                        manufactured in accordance with industry standards, such as
+                        DIN 912 and ISO 4762. Screws within this range are available
+                        in either a fully threaded or partially threaded form, with
+                        the latter featuring an unthreaded portion below the head
+                        of the screw. The distinction of whether the screw is fully
+                        threaded or not is detailed in each individual product specification.
+                        If a larger unthreaded portion is required, Accu''s range
+                        of Socket Shoulder Screws range may be more suitable, depending
+                        upon your application. Metric Cap Head Captive Screws A number
+                        of Accu''s Metric & Imperial Socket Cap Screws are also available
+                        to be modified to feature a precisely machined unthreaded
+                        section, affording a retaining capability. These specialised
+                        Captive Screws are used to provide a secure fixture and help
+                        to prevent damage or loss of screws in a housing assembly.
+                        Accu''s range of Cap Head Captive Screws are designed to aid
+                        compliance with EU Safety Directives. Vented Socket Screws
+                        Accu can also offer Vented Cap Screws, which are a specially
+                        modified variant of this component that allow the release
+                        of gases and pressure through a bore that runs through the
+                        centre of the screw. Materials Socket Cap Screws within this
+                        range are available in a wide selection of materials, including
+                        metals ranging from A2, A4, A4-80, Duplex and Bumax Stainless
+                        Steel, 12.9 High Tensile Steel, Aluminium and Titanium. Plastic
+                        variants are also available as standard in Nylon, Polycarbonate,
+                        Reny and PEEK Thermoplastic.Optimise your Metric Socket Cap
+                        Head Screws against vibrations and loosening with our pre-applied
+                        thread-locking patches, from essential AccuLock Threadlocker,
+                        robust Anu-Lok 180 through to our high performance Precote
+                        80. Personalise your components with AccuBlack chemical blackening
+                        to reduce reflections and add a premium finish aesthetic finish.
+                        Metric Cap Head Screws Metric Socket Cap Screws are available
+                        from Accu in sizes M1.4 to M30, and lengths of between 2mm
+                        and 300mm. Both partially threaded and fully threaded varieties
+                        are available. Imperial Cap Head Screws Imperial Socket Cap
+                        Head Screws are supplied in sizes between #0 (No. 0) and ¾
+                        inches. Lengths of between 3/32 inch and 5.½ inches are available
+                        as standard, and are manufactured in both fully and partially
+                        threaded varieties. Minimum Thread Length In accordance with
+                        DIN standards, Accu''s Socket Cap Screws are manufactured
+                        to a minimum specified thread length - this measurement can
+                        be found within each individual product page. If this dimension
+                        is critical to your application, please contact us before
+                        placing your order.'
+                    html_sha256: 27921ea6615c6f9a3ec00cc6e2e6ca94877f96137bcb6440e29abeb8701d7398
+                    name: M4 x 12mm Full Thread Socket Cap Head Screws (DIN 912) -
+                        High Tensile Steel (12.9)
+                    parsed_at: '2026-10-18T08:52:24.627745+00:00'
+                    parser_version: accu-1.9-base-material
+                    price_inheritance: ''
+                    quote_minimum: '400'
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept rounded displayed prices,
+                        open-ended final advertised tiers, and quotes required from
+                        400 units; quote-only prices remain blank."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.02",
+                        "highPrice": "0.74", "priceCurrency": "GBP", "offerCount":
+                        "8", "availability": "https://schema.org/InStock", "itemCondition":
+                        "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/metric-cap-head-screws/16020-SSCF-M4-12-12-9",
+                        "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                        {"@type": "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "accus prices are all ex
+                        vat", "confirmed_on": "2026-10-13"}'
+                    specifications: '{"Accu Product Code (APC)": "SSCF-M4-12-12.9",
+                        "Thread Size": "M4 (4 mm)", "Length (L)": "12 mm", "Full Thread":
+                        "Yes", "Material": "Steel - High Tensile (12.9)", "Finish":
+                        "Natural", "Drive Depth (P)": "2 mm", "Head Diameter (D)":
+                        "7.22 mm (Tolerance: +0/-0.44 mm)", "Head Height (H)": "4
+                        mm (Tolerance: +0/-0.18 mm)", "Manufacturing Standard": "DIN
+                        912", "Material Family": "Steel", "Socket Size (J)": "3 mm",
+                        "Thread Pitch": "0.7 mm", "Thread Specification": "Metric
+                        Coarse"}'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: https://schema.org/InStock
                     supplier: accu
                     supplier_id: SSCF-M4-12-12.9
                     supplier_part_number: SSCF-M4-12-12.9
                     supplier_website: https://www.accu.co.uk/metric-cap-head-screws/16020-SSCF-M4-12-12-9
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: Buy 1 £0.74
+                        source_unit_price: '0.74'
+                        source_vat_basis: exclusive
+                        unit_price: '0.8880'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5
+                        minimum: 2
+                        source_text: Buy 2 £0.40 Save 45 %
+                        source_unit_price: '0.40'
+                        source_vat_basis: exclusive
+                        unit_price: '0.4800'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 11
+                        minimum: 6
+                        source_text: Buy 6 £0.15 Save 79 %
+                        source_unit_price: '0.15'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1800'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 23
+                        minimum: 12
+                        source_text: Buy 12 £0.09 Save 87 %
+                        source_unit_price: '0.09'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 24
+                        source_text: Buy 24 £0.06 Save 91 %
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: Buy 50 £0.04 Save 94 %
+                        source_unit_price: '0.04'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0480'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 199
+                        minimum: 100
+                        source_text: Buy 100 £0.03 Save 95 %
+                        source_unit_price: '0.03'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0360'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 399
+                        minimum: 200
+                        source_text: Buy 200 £0.02 Save 97 %
+                        source_unit_price: '0.02'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0240'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.8880'
+                    total_price_10: '1.8000'
+                    total_price_100: '3.6000'
+                    total_price_1000: ''
+                    total_price_10000: ''
+                    unit_price_1: '0.8880'
+                    unit_price_10: '0.1800'
+                    unit_price_100: '0.0360'
+                    unit_price_1000: ''
+                    unit_price_10000: ''
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Accu displayed prices are rounded; derived totals use the captured
+                        display precision
+                    - Accu requires a quote from 400 units; prices beyond that withheld
+                    - 'Quantity 1000: no verified price/VAT band; price withheld'
+                    - 'Quantity 10000: no verified price/VAT band; price withheld'
                 boltbase:
                     accepted_warnings: '["Final Bolt Base threshold has no verified
                         upper bound; extrapolation withheld"]'
@@ -732,7 +318,7 @@ oomlout_ai_roboclick_2:
                     html_sha256: 43c7a5a8254d4991fc06a11a46d5b0aa8d36448b06d34ad3d2123fb0f3ce54ae
                     name: M4 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
                     packages: '[]'
-                    parsed_at: '2026-10-13T10:54:57.923683+00:00'
+                    parsed_at: '2026-10-18T08:56:36.859005+00:00'
                     parser_version: boltbase-1.2-review-policy
                     price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
                         "0.03", "source_text": "Buy 5000 + Save 90% Each £0.03 £0.24",
@@ -873,15 +459,164 @@ oomlout_ai_roboclick_2:
                     - Final Bolt Base threshold has no verified upper bound; extrapolation
                         withheld
                 dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-13T23:40:46.627068+00:00'
+                    currency: GBP
+                    html_sha256: a735b93fdd070d7d450247ff0a48fa43a3d97f54ff4bb809999afbdf733a4b1c
+                    name: M4 x 12mm Socket Cap Screw High Tensile Grade 12.9 Self
+                        Colour , DIN 912
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:02:56.891562+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M4 (4mm); Length (L): 12mm; Head
+                        Diameter (D): 7mm; Hexagon Depth (P): 2mm; Material: High
+                        Tensile (Grade 12.9); Finish: Self Colour; Head Length (H):
+                        4mm; Screw Thread Pitch: 0.7mm; Socket Size (J): 3mm; Manufacturing
+                        Standard: 912; Material Specification: High Tensile (Grade
+                        12.9); Fine or Coarse?: Coarse; Fully Threaded: Yes'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
                     supplier: dibolt
                     supplier_id: 10161.040.012
                     supplier_part_number: 10161.040.012
                     supplier_website: https://dibolt.co.uk/products/m4-x-12mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_text: 1 - 199 £3.51 Per 100 Units
+                        source_unit_price: '0.0351'
+                        source_vat_basis: exclusive
+                        unit_price: '0.042120'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_text: 200 - 999 £1.95 Per 100 Units
+                        source_unit_price: '0.0195'
+                        source_vat_basis: exclusive
+                        unit_price: '0.023400'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 1000
+                        source_text: 1,000+ £1.75 Per 100 Units
+                        source_unit_price: '0.0175'
+                        source_vat_basis: exclusive
+                        unit_price: '0.021000'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.042120'
+                    total_price_10: '0.421200'
+                    total_price_100: '4.212000'
+                    total_price_1000: '21.000000'
+                    total_price_10000: '210.000000'
+                    unit_price_1: '0.042120'
+                    unit_price_10: '0.042120'
+                    unit_price_100: '0.042120'
+                    unit_price_1000: '0.021000'
+                    unit_price_10000: '0.021000'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
                 kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-15T08:46:25.351356+00:00'
+                    currency: GBP
+                    family_description: Socket cap screws. Metric coarse threads.
+                        Self colour plain finish. High tensile grade 12.9. Manufactured
+                        to DIN 912.
+                    family_heading: SOCKET CAP SCREWS DIN 912 HIGH TENSILE SELF COLOUR
+                    html_sha256: 41cbd347ea048213ab49060aaddfbb9abde333f409a26636a453bfc615c3677d
+                    name: M4 x 12mm SOCKET CAP SCREW DIN 912 HIGH TENSILE 12.9 SELF
+                        COLOUR
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:30:22.620204+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M4 x 12mm SOCKET CAP SCREW DIN 912 HIGH
+                        TENSILE 12.9 SELF COLOUR
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: SOCKET CAP SCREWS DIN 912 HIGH TENSILE SELF COLOUR;
+                        Socket cap screws. Metric coarse threads. Self colour plain
+                        finish. High tensile grade 12.9. Manufactured to DIN 912.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
                     supplier: kayfast
                     supplier_id: M4-x-12mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
                     supplier_part_number: M4-x-12mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
                     supplier_website: https://www.kayfast.co.uk/view-product/SOCKET-CAP-SCREWS-DIN-912-HIGH-TENSILE-SELF-COLOUR
+                    tiers:
+                    -   maximum: 49
+                        minimum: 1
+                        source_price_per_100: '16.63'
+                        source_price_quantity: 100
+                        source_text: QTY 1 - 49 @ £16.63 per 100
+                        source_unit_price: '0.1663'
+                        source_vat_basis: exclusive
+                        unit_price: '0.199560'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 199
+                        minimum: 50
+                        source_price_per_100: '7.07'
+                        source_price_quantity: 100
+                        source_text: QTY 50 -  199 @ £7.07 per 100
+                        source_unit_price: '0.0707'
+                        source_vat_basis: exclusive
+                        unit_price: '0.084840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 200
+                        source_price_per_100: '5.28'
+                        source_price_quantity: 100
+                        source_text: QTY 200 + @ £5.28 per 100
+                        source_unit_price: '0.0528'
+                        source_vat_basis: exclusive
+                        unit_price: '0.063360'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.199560'
+                    total_price_10: '1.995600'
+                    total_price_100: '8.484000'
+                    total_price_1000: '63.360000'
+                    total_price_10000: '633.600000'
+                    unit_price_1: '0.199560'
+                    unit_price_10: '0.199560'
+                    unit_price_100: '0.084840'
+                    unit_price_1000: '0.063360'
+                    unit_price_10000: '0.063360'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
                 orbitalfasteners:
                     accepted_warnings: '[]'
                     box_quantity: '200'
@@ -892,7 +627,7 @@ oomlout_ai_roboclick_2:
                     html_sha256: c8c33fb0ad2e6ffd4a2643604eb148e3aa7f0d1eb34ffc2d2b555b1ffa200873
                     name: M4 x 12 Socket Cap Screw, High Tensile Grade 12.9 Self Colour,
                         DIN 912
-                    parsed_at: '2026-10-13T10:53:17.831965+00:00'
+                    parsed_at: '2026-10-18T08:49:31.740916+00:00'
                     parser_version: 1.2-review-policy
                     review_policy: ''
                     review_warnings: '[]'
@@ -1227,7 +962,7 @@ oomlout_ai_roboclick_2:
         search_and_replace: []
     file_test: label_oomp.pdf
     retries_until_complete: 0
-oomlout_ai_roboclick_3:
+oomlout_ai_roboclick_2:
     actions:
     -   command: text_jinja_template
         convert_to_pdf: false
@@ -1261,314 +996,6 @@ oomlout_ai_roboclick_3:
                 thread_size: m4_diameter
             oomlout_ai_roboclick_1:
                 actions:
-                -   command: new_chat
-                    description: step_1_create_icon
-                -   command: ai_query
-                    delay: '180'
-                    mode_ai_wait: slow
-                    text: '## READ THIS FIRST — no theme is coming in this message,
-                        and that is correct
-
-
-                        This is **step 1 of 2**. It is deliberately theme-free. You
-                        are building a reusable house style, not designing a specific
-                        logo.
-
-
-                        The theme arrives in step 2. Do **not** ask what the theme
-                        is. Do **not** ask any clarifying questions. Do **not** write
-                        a final image-generation prompt yet — you cannot, and attempting
-                        one is a failure of this step. Do **not** invent a placeholder
-                        theme and design for it. If you feel information is missing,
-                        that is expected: the missing information is the theme, it
-                        is coming next, and nothing in this step requires it.
-
-
-                        Your entire output for this step is a **house style guide**
-                        that will be applied to whatever theme arrives next.
-
-
-                        ---
-
-
-                        ## The product this style serves
-
-
-                        **Intended use:** a square, single-colour, pure-black-on-pure-white
-                        mascot logo, generated as a raster image, then **auto-traced
-                        to vector and cut/engraved on a laser cutter**. The trace
-                        step is unforgiving — it is the hardest constraint in this
-                        brief and should shape most of your recommendations.
-
-
-                        **Target feel:** charming, original, cute, polished, instantly
-                        readable at ~20 mm. A designed branded icon, not a doodle
-                        page and not generic kawaii clip art.
-
-
-                        ---
-
-
-                        ## What to produce
-
-
-                        Write these six sections. **Budget: about 900 words total,
-                        1,100 hard ceiling.** That is roughly 100–150 words per section,
-                        with section 6 allowed the most. This is a working reference,
-                        not an essay — every line should be a rule someone could check
-                        a drawing against. Prefer tight bullets over prose paragraphs,
-                        and cut any sentence that only restates the brief back at
-                        me.
-
-
-                        **1. Line language menu**
-
-                        Exactly three distinct black-on-white line-art approaches
-                        (e.g. uniform monoline, weight-varied outline with sparse
-                        interior, chunky sticker-outline, geometric constructed line).
-                        One or two lines each: what it does for charm, how it survives
-                        auto-tracing, what it costs.
-
-
-                        **2. Cuteness that isn''t generic**
-
-                        The handful of levers that make a line mascot lovable — eye
-                        shape and spacing, head-to-body ratio, pose energy, mouth
-                        simplicity, restraint on blush marks — each as a one-line
-                        rule with a number where a number applies. Then a short do-not
-                        list of the clichés that make an AI mascot look stock (dead-centre
-                        symmetrical stare, sparkle confetti, floating hearts, blob
-                        bodies), each with its one-line replacement.
-
-
-                        **3. Trace-safety rules**
-
-                        A flat list of concrete, checkable rules for the auto-trace-to-cut
-                        pipeline — one line each, no explanatory paragraphs:
-
-                        - minimum stroke thickness relative to the square''s width,
-                        stated as a fraction (so it scales)
-
-                        - minimum gap between two adjacent strokes before they blur
-                        into one traced blob
-
-                        - why every shape should read as a closed path, and how to
-                        spot one that won''t
-
-                        - island/floating-part handling and where to add connective
-                        bridges
-
-                        - what to do about interior detail that a tracer will turn
-                        into noise (crosshatching, stippling, tapering hairlines,
-                        single stray dots)
-
-                        - why large solid black fills are avoided here, and the acceptable
-                        exceptions (small eyes, pupils, a tiny accent shape)
-
-
-                        **4. Composition and hierarchy**
-
-                        Bulleted rules only: square framing, margin as a fraction
-                        of the square, centre of visual mass, minimum negative space,
-                        the mascot-leads / props-support / text-reinforces hierarchy,
-                        and the shared traits that make it read as one illustrator''s
-                        hand (same stroke weight, same corner radius, same eye style,
-                        same spacing rhythm).
-
-
-                        **5. Text and badge treatments**
-
-                        Text is **optional**. Briefly: when a word helps versus clutters,
-                        a maximum letter count that stays cuttable, how to specify
-                        literal text so it renders verbatim (quotes, exact casing),
-                        the letterform to ask for, and when a badge ring earns its
-                        place versus just boxing the mark in. Six bullets is plenty.
-
-
-                        **6. Prompt architecture for step 2**
-
-                        The most important section, so spend your words here. Specify
-                        the exact template the step-2 final prompt must follow — and
-                        state that the finished prompt should land at **180–250 words**,
-                        long enough to carry the spec, short enough that no single
-                        instruction gets diluted. Order it to match how the image
-                        model weights a prompt:
-
-
-                        1. **Medium and style up front** — the first sentence states
-                        it is a square black-and-white line-art mascot logo, because
-                        opening words set the mode for everything after.
-
-                        2. **Subject** — the mascot, its identity, expression, pose.
-
-                        3. **Key details** — props, supporting motifs, any literal
-                        text in quotes.
-
-                        4. **Layout** — centring, margins, hierarchy, where each element
-                        sits.
-
-                        5. **Line and manufacturing spec** — stroke weight, closed
-                        paths, interior-detail limits.
-
-                        6. **Exclusions last** — negatives go at the very end, after
-                        every positive descriptor, because a model reading them early
-                        tends to treat them as things to compose rather than things
-                        to omit.
-
-
-                        Give the canonical exclusion list to close with (no grey,
-                        no shading, no gradients, no halftone, no dithering, no texture,
-                        no colour, no transparency, no background scene, no drop shadow,
-                        no outer glow, no frame border unless specified, no watermark,
-                        no signature, no extra text beyond what is quoted).
-
-
-                        Also state the two facts the prompt must say in plain words
-                        no matter what: the image is **square**, and it is **pure
-                        black on a pure white background**.
-
-
-                        ---
-
-
-                        ## Response style and length
-
-
-                        **About 900 words, 1,100 absolute maximum.** Bullets over
-                        prose. Concrete and checkable over abstract and aspirational
-                        — "stroke no thinner than 1/100 of the square''s width" beats
-                        "confident lines". No preamble, no restating this brief back
-                        at me, no summary of what you are about to do. Skip the caveats
-                        and the reasoning behind each rule; just state the rule.
-
-
-                        Close with a checklist of the rules, 12 lines at most, so
-                        step 2 can be graded against it.
-
-
-                        Then stop. No final image prompt, no questions, no theme.
-
-                        '
-                -   command: ai_query
-                    delay: '180'
-                    mode_ai_wait: slow
-                    text: '## Step 2 of 2 — the theme
-
-
-                        The theme is: **an image of hardware screw socket cap hex
-                        head black m4 diameter 12 mm length please include the thread
-                        size and length in the image as text, add extra icons in the
-                        back, one that ryhmes with the diameter and one or two that
-                        rhymes with the length, if the length is less than 14 just
-                        one if it is greater do two, one rhyming for each part of
-                        the number ie for twenty five one that rhymes with twenty
-                        and one that rhymes with five. Put some time into searching
-                        to find the rhymes**
-
-
-                        Apply the house style you just wrote to this theme. Everything
-                        you need is now in hand — do not ask questions, just work.
-
-
-                        ---
-
-
-                        ## Part A — exploration
-
-
-                        **Budget: about 450 words, 600 hard ceiling.** Push past the
-                        theme''s first obvious reading, but do it briskly. No preamble,
-                        no restating the theme back at me.
-
-
-                        - **Angles:** exactly four mascot interpretations, **one or
-                        two sentences each**. Include at least one that anthropomorphises
-                        an object or concept from the theme rather than reaching for
-                        the obvious animal, and at least one built on a visual pun.
-                        Then name your pick in a single sentence saying why it beats
-                        the other three — no full comparison table.
-
-                        - **The chosen design:** one short paragraph fixing the pose,
-                        expression, props, and line strategy. Prefer gesture or a
-                        moment of character over a static front-on stare. Cut any
-                        prop that is decoration rather than signal.
-
-                        - **Text:** one line — the exact string in quotes with exact
-                        casing, or "no text". Text is optional and a clean wordless
-                        mark often wins.
-
-                        - **Trace and small-size check:** a short bullet list of fixes
-                        only — every stroke to thicken, gap to widen, island to bridge,
-                        detail to delete. Just the fixes, not the reasoning, and not
-                        a description of what the design looks like at size.
-
-
-                        Skip anything not on that list: no tradeoff essays, no runner-up
-                        post-mortems, no notes on your own process.
-
-
-                        ## Part B — the final prompt
-
-
-                        End your response with the final image-generation prompt for
-                        the chosen direction, and nothing after it.
-
-
-                        Format it as a single fenced code block labelled `FINAL IMAGE
-                        PROMPT`, so it can be copied cleanly. Follow the six-part
-                        architecture from step 1 exactly, in order: medium and style
-                        → subject → key details → layout → line and manufacturing
-                        spec → exclusions last.
-
-
-                        **Length: 180–250 words.** Long enough to carry the full spec,
-                        short enough that no single instruction gets diluted. If you
-                        are over, cut adjectives and repeated style words before you
-                        cut any manufacturing rule.
-
-
-                        Hard requirements for that prompt:
-
-
-                        - It opens by stating it is a **square black-and-white line-art
-                        mascot logo**.
-
-                        - It says in plain words that the image is **square** and
-                        **pure black on a pure white background**.
-
-                        - It states stroke weight as a fraction of the image width,
-                        and requires every shape to be a **closed path** with **no
-                        floating disconnected islands**.
-
-                        - It caps interior detail explicitly and forbids crosshatching,
-                        stippling, and hairline tapers.
-
-                        - Any literal text appears in quotes with exact casing, spelled
-                        out character by character if it is unusual.
-
-                        - The exclusion list comes **last**, after every positive
-                        descriptor.
-
-                        - It is self-contained: someone pasting it cold, with no memory
-                        of this conversation, gets the same image. No "as discussed
-                        above", no "the mascot from earlier".
-
-                        - One prompt only. No variants, no alternates, no commentary
-                        after the code block.
-
-                        '
-                -   command: ai_query
-                    delay: '300'
-                    mode_ai_wait: slow
-                    text: Generate the image take all the time you need
-                -   command: save_image_generated
-                    file_name: initial_generated_icon.png
-                    mode_ai_wait: slow
-                -   command: close_tab
-                file_test: initial_generated_icon.png
-                retries_until_complete: 0
-            oomlout_ai_roboclick_2:
-                actions:
                 -   command: text_jinja_template
                     convert_to_pdf: false
                     convert_to_png: false
@@ -1599,357 +1026,209 @@ oomlout_ai_roboclick_3:
                             screw_colour: black
                             screw_style: socket_cap
                             thread_size: m4_diameter
-                        oomlout_ai_roboclick_1:
-                            actions:
-                            -   command: new_chat
-                                description: step_1_create_icon
-                            -   command: ai_query
-                                delay: '180'
-                                mode_ai_wait: slow
-                                text: '## READ THIS FIRST — no theme is coming in
-                                    this message, and that is correct
-
-
-                                    This is **step 1 of 2**. It is deliberately theme-free.
-                                    You are building a reusable house style, not designing
-                                    a specific logo.
-
-
-                                    The theme arrives in step 2. Do **not** ask what
-                                    the theme is. Do **not** ask any clarifying questions.
-                                    Do **not** write a final image-generation prompt
-                                    yet — you cannot, and attempting one is a failure
-                                    of this step. Do **not** invent a placeholder
-                                    theme and design for it. If you feel information
-                                    is missing, that is expected: the missing information
-                                    is the theme, it is coming next, and nothing in
-                                    this step requires it.
-
-
-                                    Your entire output for this step is a **house
-                                    style guide** that will be applied to whatever
-                                    theme arrives next.
-
-
-                                    ---
-
-
-                                    ## The product this style serves
-
-
-                                    **Intended use:** a square, single-colour, pure-black-on-pure-white
-                                    mascot logo, generated as a raster image, then
-                                    **auto-traced to vector and cut/engraved on a
-                                    laser cutter**. The trace step is unforgiving
-                                    — it is the hardest constraint in this brief and
-                                    should shape most of your recommendations.
-
-
-                                    **Target feel:** charming, original, cute, polished,
-                                    instantly readable at ~20 mm. A designed branded
-                                    icon, not a doodle page and not generic kawaii
-                                    clip art.
-
-
-                                    ---
-
-
-                                    ## What to produce
-
-
-                                    Write these six sections. **Budget: about 900
-                                    words total, 1,100 hard ceiling.** That is roughly
-                                    100–150 words per section, with section 6 allowed
-                                    the most. This is a working reference, not an
-                                    essay — every line should be a rule someone could
-                                    check a drawing against. Prefer tight bullets
-                                    over prose paragraphs, and cut any sentence that
-                                    only restates the brief back at me.
-
-
-                                    **1. Line language menu**
-
-                                    Exactly three distinct black-on-white line-art
-                                    approaches (e.g. uniform monoline, weight-varied
-                                    outline with sparse interior, chunky sticker-outline,
-                                    geometric constructed line). One or two lines
-                                    each: what it does for charm, how it survives
-                                    auto-tracing, what it costs.
-
-
-                                    **2. Cuteness that isn''t generic**
-
-                                    The handful of levers that make a line mascot
-                                    lovable — eye shape and spacing, head-to-body
-                                    ratio, pose energy, mouth simplicity, restraint
-                                    on blush marks — each as a one-line rule with
-                                    a number where a number applies. Then a short
-                                    do-not list of the clichés that make an AI mascot
-                                    look stock (dead-centre symmetrical stare, sparkle
-                                    confetti, floating hearts, blob bodies), each
-                                    with its one-line replacement.
-
-
-                                    **3. Trace-safety rules**
-
-                                    A flat list of concrete, checkable rules for the
-                                    auto-trace-to-cut pipeline — one line each, no
-                                    explanatory paragraphs:
-
-                                    - minimum stroke thickness relative to the square''s
-                                    width, stated as a fraction (so it scales)
-
-                                    - minimum gap between two adjacent strokes before
-                                    they blur into one traced blob
-
-                                    - why every shape should read as a closed path,
-                                    and how to spot one that won''t
-
-                                    - island/floating-part handling and where to add
-                                    connective bridges
-
-                                    - what to do about interior detail that a tracer
-                                    will turn into noise (crosshatching, stippling,
-                                    tapering hairlines, single stray dots)
-
-                                    - why large solid black fills are avoided here,
-                                    and the acceptable exceptions (small eyes, pupils,
-                                    a tiny accent shape)
-
-
-                                    **4. Composition and hierarchy**
-
-                                    Bulleted rules only: square framing, margin as
-                                    a fraction of the square, centre of visual mass,
-                                    minimum negative space, the mascot-leads / props-support
-                                    / text-reinforces hierarchy, and the shared traits
-                                    that make it read as one illustrator''s hand (same
-                                    stroke weight, same corner radius, same eye style,
-                                    same spacing rhythm).
-
-
-                                    **5. Text and badge treatments**
-
-                                    Text is **optional**. Briefly: when a word helps
-                                    versus clutters, a maximum letter count that stays
-                                    cuttable, how to specify literal text so it renders
-                                    verbatim (quotes, exact casing), the letterform
-                                    to ask for, and when a badge ring earns its place
-                                    versus just boxing the mark in. Six bullets is
-                                    plenty.
-
-
-                                    **6. Prompt architecture for step 2**
-
-                                    The most important section, so spend your words
-                                    here. Specify the exact template the step-2 final
-                                    prompt must follow — and state that the finished
-                                    prompt should land at **180–250 words**, long
-                                    enough to carry the spec, short enough that no
-                                    single instruction gets diluted. Order it to match
-                                    how the image model weights a prompt:
-
-
-                                    1. **Medium and style up front** — the first sentence
-                                    states it is a square black-and-white line-art
-                                    mascot logo, because opening words set the mode
-                                    for everything after.
-
-                                    2. **Subject** — the mascot, its identity, expression,
-                                    pose.
-
-                                    3. **Key details** — props, supporting motifs,
-                                    any literal text in quotes.
-
-                                    4. **Layout** — centring, margins, hierarchy,
-                                    where each element sits.
-
-                                    5. **Line and manufacturing spec** — stroke weight,
-                                    closed paths, interior-detail limits.
-
-                                    6. **Exclusions last** — negatives go at the very
-                                    end, after every positive descriptor, because
-                                    a model reading them early tends to treat them
-                                    as things to compose rather than things to omit.
-
-
-                                    Give the canonical exclusion list to close with
-                                    (no grey, no shading, no gradients, no halftone,
-                                    no dithering, no texture, no colour, no transparency,
-                                    no background scene, no drop shadow, no outer
-                                    glow, no frame border unless specified, no watermark,
-                                    no signature, no extra text beyond what is quoted).
-
-
-                                    Also state the two facts the prompt must say in
-                                    plain words no matter what: the image is **square**,
-                                    and it is **pure black on a pure white background**.
-
-
-                                    ---
-
-
-                                    ## Response style and length
-
-
-                                    **About 900 words, 1,100 absolute maximum.** Bullets
-                                    over prose. Concrete and checkable over abstract
-                                    and aspirational — "stroke no thinner than 1/100
-                                    of the square''s width" beats "confident lines".
-                                    No preamble, no restating this brief back at me,
-                                    no summary of what you are about to do. Skip the
-                                    caveats and the reasoning behind each rule; just
-                                    state the rule.
-
-
-                                    Close with a checklist of the rules, 12 lines
-                                    at most, so step 2 can be graded against it.
-
-
-                                    Then stop. No final image prompt, no questions,
-                                    no theme.
-
-                                    '
-                            -   command: ai_query
-                                delay: '180'
-                                mode_ai_wait: slow
-                                text: '## Step 2 of 2 — the theme
-
-
-                                    The theme is: **an image of hardware screw socket
-                                    cap hex head black m4 diameter 12 mm length please
-                                    include the thread size and length in the image
-                                    as text, add extra icons in the back, one that
-                                    ryhmes with the diameter and one or two that rhymes
-                                    with the length, if the length is less than 14
-                                    just one if it is greater do two, one rhyming
-                                    for each part of the number ie for twenty five
-                                    one that rhymes with twenty and one that rhymes
-                                    with five. Put some time into searching to find
-                                    the rhymes**
-
-
-                                    Apply the house style you just wrote to this theme.
-                                    Everything you need is now in hand — do not ask
-                                    questions, just work.
-
-
-                                    ---
-
-
-                                    ## Part A — exploration
-
-
-                                    **Budget: about 450 words, 600 hard ceiling.**
-                                    Push past the theme''s first obvious reading,
-                                    but do it briskly. No preamble, no restating the
-                                    theme back at me.
-
-
-                                    - **Angles:** exactly four mascot interpretations,
-                                    **one or two sentences each**. Include at least
-                                    one that anthropomorphises an object or concept
-                                    from the theme rather than reaching for the obvious
-                                    animal, and at least one built on a visual pun.
-                                    Then name your pick in a single sentence saying
-                                    why it beats the other three — no full comparison
-                                    table.
-
-                                    - **The chosen design:** one short paragraph fixing
-                                    the pose, expression, props, and line strategy.
-                                    Prefer gesture or a moment of character over a
-                                    static front-on stare. Cut any prop that is decoration
-                                    rather than signal.
-
-                                    - **Text:** one line — the exact string in quotes
-                                    with exact casing, or "no text". Text is optional
-                                    and a clean wordless mark often wins.
-
-                                    - **Trace and small-size check:** a short bullet
-                                    list of fixes only — every stroke to thicken,
-                                    gap to widen, island to bridge, detail to delete.
-                                    Just the fixes, not the reasoning, and not a description
-                                    of what the design looks like at size.
-
-
-                                    Skip anything not on that list: no tradeoff essays,
-                                    no runner-up post-mortems, no notes on your own
-                                    process.
-
-
-                                    ## Part B — the final prompt
-
-
-                                    End your response with the final image-generation
-                                    prompt for the chosen direction, and nothing after
-                                    it.
-
-
-                                    Format it as a single fenced code block labelled
-                                    `FINAL IMAGE PROMPT`, so it can be copied cleanly.
-                                    Follow the six-part architecture from step 1 exactly,
-                                    in order: medium and style → subject → key details
-                                    → layout → line and manufacturing spec → exclusions
-                                    last.
-
-
-                                    **Length: 180–250 words.** Long enough to carry
-                                    the full spec, short enough that no single instruction
-                                    gets diluted. If you are over, cut adjectives
-                                    and repeated style words before you cut any manufacturing
-                                    rule.
-
-
-                                    Hard requirements for that prompt:
-
-
-                                    - It opens by stating it is a **square black-and-white
-                                    line-art mascot logo**.
-
-                                    - It says in plain words that the image is **square**
-                                    and **pure black on a pure white background**.
-
-                                    - It states stroke weight as a fraction of the
-                                    image width, and requires every shape to be a
-                                    **closed path** with **no floating disconnected
-                                    islands**.
-
-                                    - It caps interior detail explicitly and forbids
-                                    crosshatching, stippling, and hairline tapers.
-
-                                    - Any literal text appears in quotes with exact
-                                    casing, spelled out character by character if
-                                    it is unusual.
-
-                                    - The exclusion list comes **last**, after every
-                                    positive descriptor.
-
-                                    - It is self-contained: someone pasting it cold,
-                                    with no memory of this conversation, gets the
-                                    same image. No "as discussed above", no "the mascot
-                                    from earlier".
-
-                                    - One prompt only. No variants, no alternates,
-                                    no commentary after the code block.
-
-                                    '
-                            -   command: ai_query
-                                delay: '300'
-                                mode_ai_wait: slow
-                                text: Generate the image take all the time you need
-                            -   command: save_image_generated
-                                file_name: initial_generated_icon.png
-                                mode_ai_wait: slow
-                            -   command: close_tab
-                            file_test: initial_generated_icon.png
-                            retries_until_complete: 0
                         screw_style: screw_socket_cap
                         supplier_data:
                             accu:
+                                accepted_warnings: '["Accu displayed prices are rounded;
+                                    derived totals use the captured display precision",
+                                    "Accu requires a quote from 400 units; prices
+                                    beyond that withheld", "Quantity 1000: no verified
+                                    price/VAT band; price withheld", "Quantity 10000:
+                                    no verified price/VAT band; price withheld"]'
+                                box_quantity: ''
+                                captured_at: '2026-10-13T21:52:11.929024+00:00'
+                                currency: GBP
+                                description: 'Metric Socket Cap Head Screws feature
+                                    an internal socket drive that is designed for
+                                    use with a Hex Key, otherwise known as an Allen
+                                    Key. With the terms ‘socket’ and ‘allen’ being
+                                    so interchangeable within engineering, this explains
+                                    why these fasteners are also commonly referred
+                                    to as Allen Key Bolts or Socket Screws. Accu''s
+                                    range of Cap Screws are manufactured in accordance
+                                    with industry standards, such as DIN 912 and ISO
+                                    4762. Screws within this range are available in
+                                    either a fully threaded or partially threaded
+                                    form, with the latter featuring an unthreaded
+                                    portion below the head of the screw. The distinction
+                                    of whether the screw is fully threaded or not
+                                    is detailed in each individual product specification.
+                                    If a larger unthreaded portion is required, Accu''s
+                                    range of Socket Shoulder Screws range may be more
+                                    suitable, depending upon your application. Metric
+                                    Cap Head Captive Screws A number of Accu''s Metric
+                                    & Imperial Socket Cap Screws are also available
+                                    to be modified to feature a precisely machined
+                                    unthreaded section, affording a retaining capability.
+                                    These specialised Captive Screws are used to provide
+                                    a secure fixture and help to prevent damage or
+                                    loss of screws in a housing assembly. Accu''s
+                                    range of Cap Head Captive Screws are designed
+                                    to aid compliance with EU Safety Directives. Vented
+                                    Socket Screws Accu can also offer Vented Cap Screws,
+                                    which are a specially modified variant of this
+                                    component that allow the release of gases and
+                                    pressure through a bore that runs through the
+                                    centre of the screw. Materials Socket Cap Screws
+                                    within this range are available in a wide selection
+                                    of materials, including metals ranging from A2,
+                                    A4, A4-80, Duplex and Bumax Stainless Steel, 12.9
+                                    High Tensile Steel, Aluminium and Titanium. Plastic
+                                    variants are also available as standard in Nylon,
+                                    Polycarbonate, Reny and PEEK Thermoplastic.Optimise
+                                    your Metric Socket Cap Head Screws against vibrations
+                                    and loosening with our pre-applied thread-locking
+                                    patches, from essential AccuLock Threadlocker,
+                                    robust Anu-Lok 180 through to our high performance
+                                    Precote 80. Personalise your components with AccuBlack
+                                    chemical blackening to reduce reflections and
+                                    add a premium finish aesthetic finish. Metric
+                                    Cap Head Screws Metric Socket Cap Screws are available
+                                    from Accu in sizes M1.4 to M30, and lengths of
+                                    between 2mm and 300mm. Both partially threaded
+                                    and fully threaded varieties are available. Imperial
+                                    Cap Head Screws Imperial Socket Cap Head Screws
+                                    are supplied in sizes between #0 (No. 0) and ¾
+                                    inches. Lengths of between 3/32 inch and 5.½ inches
+                                    are available as standard, and are manufactured
+                                    in both fully and partially threaded varieties.
+                                    Minimum Thread Length In accordance with DIN standards,
+                                    Accu''s Socket Cap Screws are manufactured to
+                                    a minimum specified thread length - this measurement
+                                    can be found within each individual product page.
+                                    If this dimension is critical to your application,
+                                    please contact us before placing your order.'
+                                html_sha256: 27921ea6615c6f9a3ec00cc6e2e6ca94877f96137bcb6440e29abeb8701d7398
+                                name: M4 x 12mm Full Thread Socket Cap Head Screws
+                                    (DIN 912) - High Tensile Steel (12.9)
+                                parsed_at: '2026-10-18T08:52:24.627745+00:00'
+                                parser_version: accu-1.9-base-material
+                                price_inheritance: ''
+                                quote_minimum: '400'
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept rounded displayed
+                                    prices, open-ended final advertised tiers, and
+                                    quotes required from 400 units; quote-only prices
+                                    remain blank."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_offer: '{"@type": "AggregateOffer", "lowPrice":
+                                    "0.02", "highPrice": "0.74", "priceCurrency":
+                                    "GBP", "offerCount": "8", "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "url": "https://www.accu.co.uk/metric-cap-head-screws/16020-SSCF-M4-12-12-9",
+                                    "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                                    {"@type": "QuantitativeValue", "value": 1, "unitCode":
+                                    "ANN"}}}'
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "accus
+                                    prices are all ex vat", "confirmed_on": "2026-10-13"}'
+                                specifications: '{"Accu Product Code (APC)": "SSCF-M4-12-12.9",
+                                    "Thread Size": "M4 (4 mm)", "Length (L)": "12
+                                    mm", "Full Thread": "Yes", "Material": "Steel
+                                    - High Tensile (12.9)", "Finish": "Natural", "Drive
+                                    Depth (P)": "2 mm", "Head Diameter (D)": "7.22
+                                    mm (Tolerance: +0/-0.44 mm)", "Head Height (H)":
+                                    "4 mm (Tolerance: +0/-0.18 mm)", "Manufacturing
+                                    Standard": "DIN 912", "Material Family": "Steel",
+                                    "Socket Size (J)": "3 mm", "Thread Pitch": "0.7
+                                    mm", "Thread Specification": "Metric Coarse"}'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: https://schema.org/InStock
                                 supplier: accu
                                 supplier_id: SSCF-M4-12-12.9
                                 supplier_part_number: SSCF-M4-12-12.9
                                 supplier_website: https://www.accu.co.uk/metric-cap-head-screws/16020-SSCF-M4-12-12-9
+                                tiers:
+                                -   maximum: 1
+                                    minimum: 1
+                                    source_text: Buy 1 £0.74
+                                    source_unit_price: '0.74'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.8880'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 5
+                                    minimum: 2
+                                    source_text: Buy 2 £0.40 Save 45 %
+                                    source_unit_price: '0.40'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.4800'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 11
+                                    minimum: 6
+                                    source_text: Buy 6 £0.15 Save 79 %
+                                    source_unit_price: '0.15'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1800'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 23
+                                    minimum: 12
+                                    source_text: Buy 12 £0.09 Save 87 %
+                                    source_unit_price: '0.09'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1080'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 49
+                                    minimum: 24
+                                    source_text: Buy 24 £0.06 Save 91 %
+                                    source_unit_price: '0.06'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0720'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 99
+                                    minimum: 50
+                                    source_text: Buy 50 £0.04 Save 94 %
+                                    source_unit_price: '0.04'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0480'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 199
+                                    minimum: 100
+                                    source_text: Buy 100 £0.03 Save 95 %
+                                    source_unit_price: '0.03'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0360'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 399
+                                    minimum: 200
+                                    source_text: Buy 200 £0.02 Save 97 %
+                                    source_unit_price: '0.02'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0240'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.8880'
+                                total_price_10: '1.8000'
+                                total_price_100: '3.6000'
+                                total_price_1000: ''
+                                total_price_10000: ''
+                                unit_price_1: '0.8880'
+                                unit_price_10: '0.1800'
+                                unit_price_100: '0.0360'
+                                unit_price_1000: ''
+                                unit_price_10000: ''
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Accu displayed prices are rounded; derived totals
+                                    use the captured display precision
+                                - Accu requires a quote from 400 units; prices beyond
+                                    that withheld
+                                - 'Quantity 1000: no verified price/VAT band; price
+                                    withheld'
+                                - 'Quantity 10000: no verified price/VAT band; price
+                                    withheld'
                             boltbase:
                                 accepted_warnings: '["Final Bolt Base threshold has
                                     no verified upper bound; extrapolation withheld"]'
@@ -1959,7 +1238,7 @@ oomlout_ai_roboclick_3:
                                 name: M4 Self Colour 12.9 High Tensile Socket Cap
                                     Screws DIN 912
                                 packages: '[]'
-                                parsed_at: '2026-10-13T10:54:57.923683+00:00'
+                                parsed_at: '2026-10-18T08:56:36.859005+00:00'
                                 parser_version: boltbase-1.2-review-policy
                                 price_inheritance: '{"10000": {"source_quantity":
                                     5000, "source_unit_price": "0.03", "source_text":
@@ -2106,15 +1385,172 @@ oomlout_ai_roboclick_3:
                                 - Final Bolt Base threshold has no verified upper
                                     bound; extrapolation withheld
                             dibolt:
+                                accepted_warnings: '["Dibolt per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-13T23:40:46.627068+00:00'
+                                currency: GBP
+                                html_sha256: a735b93fdd070d7d450247ff0a48fa43a3d97f54ff4bb809999afbdf733a4b1c
+                                name: M4 x 12mm Socket Cap Screw High Tensile Grade
+                                    12.9 Self Colour , DIN 912
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:02:56.891562+00:00'
+                                parser_version: dibolt-1.3-missing-price-review
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept the precision
+                                    of rounded displayed per-100 prices."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: 'Thread Size: M4 (4mm); Length (L):
+                                    12mm; Head Diameter (D): 7mm; Hexagon Depth (P):
+                                    2mm; Material: High Tensile (Grade 12.9); Finish:
+                                    Self Colour; Head Length (H): 4mm; Screw Thread
+                                    Pitch: 0.7mm; Socket Size (J): 3mm; Manufacturing
+                                    Standard: 912; Material Specification: High Tensile
+                                    (Grade 12.9); Fine or Coarse?: Coarse; Fully Threaded:
+                                    Yes'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
                                 supplier: dibolt
                                 supplier_id: 10161.040.012
                                 supplier_part_number: 10161.040.012
                                 supplier_website: https://dibolt.co.uk/products/m4-x-12mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
+                                tiers:
+                                -   maximum: 199
+                                    minimum: 1
+                                    source_text: 1 - 199 £3.51 Per 100 Units
+                                    source_unit_price: '0.0351'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.042120'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 999
+                                    minimum: 200
+                                    source_text: 200 - 999 £1.95 Per 100 Units
+                                    source_unit_price: '0.0195'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.023400'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 1000
+                                    source_text: 1,000+ £1.75 Per 100 Units
+                                    source_unit_price: '0.0175'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.021000'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.042120'
+                                total_price_10: '0.421200'
+                                total_price_100: '4.212000'
+                                total_price_1000: '21.000000'
+                                total_price_10000: '210.000000'
+                                unit_price_1: '0.042120'
+                                unit_price_10: '0.042120'
+                                unit_price_100: '0.042120'
+                                unit_price_1000: '0.021000'
+                                unit_price_10000: '0.021000'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Dibolt per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
                             kayfast:
+                                accepted_warnings: '["Kayfast per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-15T08:46:25.351356+00:00'
+                                currency: GBP
+                                family_description: Socket cap screws. Metric coarse
+                                    threads. Self colour plain finish. High tensile
+                                    grade 12.9. Manufactured to DIN 912.
+                                family_heading: SOCKET CAP SCREWS DIN 912 HIGH TENSILE
+                                    SELF COLOUR
+                                html_sha256: 41cbd347ea048213ab49060aaddfbb9abde333f409a26636a453bfc615c3677d
+                                name: M4 x 12mm SOCKET CAP SCREW DIN 912 HIGH TENSILE
+                                    12.9 SELF COLOUR
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:30:22.620204+00:00'
+                                parser_version: kayfast-1.6-family-description
+                                price_breaks_description: M4 x 12mm SOCKET CAP SCREW
+                                    DIN 912 HIGH TENSILE 12.9 SELF COLOUR
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-17", "statement": "Use the exact row
+                                    dropdown price per 100 divided by 100 with Decimal
+                                    precision; accept the captured per-100 display
+                                    precision."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "Kayfast
+                                    prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+                                specifications: SOCKET CAP SCREWS DIN 912 HIGH TENSILE
+                                    SELF COLOUR; Socket cap screws. Metric coarse
+                                    threads. Self colour plain finish. High tensile
+                                    grade 12.9. Manufactured to DIN 912.
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
                                 supplier: kayfast
                                 supplier_id: M4-x-12mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+                                supplier_id_basis: exact dimensional row description;
+                                    spaces replaced by hyphens (user clarification
+                                    2026-10-11)
                                 supplier_part_number: M4-x-12mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
                                 supplier_website: https://www.kayfast.co.uk/view-product/SOCKET-CAP-SCREWS-DIN-912-HIGH-TENSILE-SELF-COLOUR
+                                tiers:
+                                -   maximum: 49
+                                    minimum: 1
+                                    source_price_per_100: '16.63'
+                                    source_price_quantity: 100
+                                    source_text: QTY 1 - 49 @ £16.63 per 100
+                                    source_unit_price: '0.1663'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.199560'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 199
+                                    minimum: 50
+                                    source_price_per_100: '7.07'
+                                    source_price_quantity: 100
+                                    source_text: QTY 50 -  199 @ £7.07 per 100
+                                    source_unit_price: '0.0707'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.084840'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 200
+                                    source_price_per_100: '5.28'
+                                    source_price_quantity: 100
+                                    source_text: QTY 200 + @ £5.28 per 100
+                                    source_unit_price: '0.0528'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.063360'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.199560'
+                                total_price_10: '1.995600'
+                                total_price_100: '8.484000'
+                                total_price_1000: '63.360000'
+                                total_price_10000: '633.600000'
+                                unit_price_1: '0.199560'
+                                unit_price_10: '0.199560'
+                                unit_price_100: '0.084840'
+                                unit_price_1000: '0.063360'
+                                unit_price_10000: '0.063360'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Kayfast per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
                             orbitalfasteners:
                                 accepted_warnings: '[]'
                                 box_quantity: '200'
@@ -2125,7 +1561,7 @@ oomlout_ai_roboclick_3:
                                 html_sha256: c8c33fb0ad2e6ffd4a2643604eb148e3aa7f0d1eb34ffc2d2b555b1ffa200873
                                 name: M4 x 12 Socket Cap Screw, High Tensile Grade
                                     12.9 Self Colour, DIN 912
-                                parsed_at: '2026-10-13T10:53:17.831965+00:00'
+                                parsed_at: '2026-10-18T08:49:31.740916+00:00'
                                 parser_version: 1.2-review-policy
                                 review_policy: ''
                                 review_warnings: '[]'
@@ -2475,10 +1911,187 @@ oomlout_ai_roboclick_3:
             screw_style: screw_socket_cap
             supplier_data:
                 accu:
+                    accepted_warnings: '["Accu displayed prices are rounded; derived
+                        totals use the captured display precision", "Accu requires
+                        a quote from 400 units; prices beyond that withheld", "Quantity
+                        1000: no verified price/VAT band; price withheld", "Quantity
+                        10000: no verified price/VAT band; price withheld"]'
+                    box_quantity: ''
+                    captured_at: '2026-10-13T21:52:11.929024+00:00'
+                    currency: GBP
+                    description: 'Metric Socket Cap Head Screws feature an internal
+                        socket drive that is designed for use with a Hex Key, otherwise
+                        known as an Allen Key. With the terms ‘socket’ and ‘allen’
+                        being so interchangeable within engineering, this explains
+                        why these fasteners are also commonly referred to as Allen
+                        Key Bolts or Socket Screws. Accu''s range of Cap Screws are
+                        manufactured in accordance with industry standards, such as
+                        DIN 912 and ISO 4762. Screws within this range are available
+                        in either a fully threaded or partially threaded form, with
+                        the latter featuring an unthreaded portion below the head
+                        of the screw. The distinction of whether the screw is fully
+                        threaded or not is detailed in each individual product specification.
+                        If a larger unthreaded portion is required, Accu''s range
+                        of Socket Shoulder Screws range may be more suitable, depending
+                        upon your application. Metric Cap Head Captive Screws A number
+                        of Accu''s Metric & Imperial Socket Cap Screws are also available
+                        to be modified to feature a precisely machined unthreaded
+                        section, affording a retaining capability. These specialised
+                        Captive Screws are used to provide a secure fixture and help
+                        to prevent damage or loss of screws in a housing assembly.
+                        Accu''s range of Cap Head Captive Screws are designed to aid
+                        compliance with EU Safety Directives. Vented Socket Screws
+                        Accu can also offer Vented Cap Screws, which are a specially
+                        modified variant of this component that allow the release
+                        of gases and pressure through a bore that runs through the
+                        centre of the screw. Materials Socket Cap Screws within this
+                        range are available in a wide selection of materials, including
+                        metals ranging from A2, A4, A4-80, Duplex and Bumax Stainless
+                        Steel, 12.9 High Tensile Steel, Aluminium and Titanium. Plastic
+                        variants are also available as standard in Nylon, Polycarbonate,
+                        Reny and PEEK Thermoplastic.Optimise your Metric Socket Cap
+                        Head Screws against vibrations and loosening with our pre-applied
+                        thread-locking patches, from essential AccuLock Threadlocker,
+                        robust Anu-Lok 180 through to our high performance Precote
+                        80. Personalise your components with AccuBlack chemical blackening
+                        to reduce reflections and add a premium finish aesthetic finish.
+                        Metric Cap Head Screws Metric Socket Cap Screws are available
+                        from Accu in sizes M1.4 to M30, and lengths of between 2mm
+                        and 300mm. Both partially threaded and fully threaded varieties
+                        are available. Imperial Cap Head Screws Imperial Socket Cap
+                        Head Screws are supplied in sizes between #0 (No. 0) and ¾
+                        inches. Lengths of between 3/32 inch and 5.½ inches are available
+                        as standard, and are manufactured in both fully and partially
+                        threaded varieties. Minimum Thread Length In accordance with
+                        DIN standards, Accu''s Socket Cap Screws are manufactured
+                        to a minimum specified thread length - this measurement can
+                        be found within each individual product page. If this dimension
+                        is critical to your application, please contact us before
+                        placing your order.'
+                    html_sha256: 27921ea6615c6f9a3ec00cc6e2e6ca94877f96137bcb6440e29abeb8701d7398
+                    name: M4 x 12mm Full Thread Socket Cap Head Screws (DIN 912) -
+                        High Tensile Steel (12.9)
+                    parsed_at: '2026-10-18T08:52:24.627745+00:00'
+                    parser_version: accu-1.9-base-material
+                    price_inheritance: ''
+                    quote_minimum: '400'
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept rounded displayed prices,
+                        open-ended final advertised tiers, and quotes required from
+                        400 units; quote-only prices remain blank."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.02",
+                        "highPrice": "0.74", "priceCurrency": "GBP", "offerCount":
+                        "8", "availability": "https://schema.org/InStock", "itemCondition":
+                        "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/metric-cap-head-screws/16020-SSCF-M4-12-12-9",
+                        "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                        {"@type": "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "accus prices are all ex
+                        vat", "confirmed_on": "2026-10-13"}'
+                    specifications: '{"Accu Product Code (APC)": "SSCF-M4-12-12.9",
+                        "Thread Size": "M4 (4 mm)", "Length (L)": "12 mm", "Full Thread":
+                        "Yes", "Material": "Steel - High Tensile (12.9)", "Finish":
+                        "Natural", "Drive Depth (P)": "2 mm", "Head Diameter (D)":
+                        "7.22 mm (Tolerance: +0/-0.44 mm)", "Head Height (H)": "4
+                        mm (Tolerance: +0/-0.18 mm)", "Manufacturing Standard": "DIN
+                        912", "Material Family": "Steel", "Socket Size (J)": "3 mm",
+                        "Thread Pitch": "0.7 mm", "Thread Specification": "Metric
+                        Coarse"}'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: https://schema.org/InStock
                     supplier: accu
                     supplier_id: SSCF-M4-12-12.9
                     supplier_part_number: SSCF-M4-12-12.9
                     supplier_website: https://www.accu.co.uk/metric-cap-head-screws/16020-SSCF-M4-12-12-9
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: Buy 1 £0.74
+                        source_unit_price: '0.74'
+                        source_vat_basis: exclusive
+                        unit_price: '0.8880'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5
+                        minimum: 2
+                        source_text: Buy 2 £0.40 Save 45 %
+                        source_unit_price: '0.40'
+                        source_vat_basis: exclusive
+                        unit_price: '0.4800'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 11
+                        minimum: 6
+                        source_text: Buy 6 £0.15 Save 79 %
+                        source_unit_price: '0.15'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1800'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 23
+                        minimum: 12
+                        source_text: Buy 12 £0.09 Save 87 %
+                        source_unit_price: '0.09'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 24
+                        source_text: Buy 24 £0.06 Save 91 %
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: Buy 50 £0.04 Save 94 %
+                        source_unit_price: '0.04'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0480'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 199
+                        minimum: 100
+                        source_text: Buy 100 £0.03 Save 95 %
+                        source_unit_price: '0.03'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0360'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 399
+                        minimum: 200
+                        source_text: Buy 200 £0.02 Save 97 %
+                        source_unit_price: '0.02'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0240'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.8880'
+                    total_price_10: '1.8000'
+                    total_price_100: '3.6000'
+                    total_price_1000: ''
+                    total_price_10000: ''
+                    unit_price_1: '0.8880'
+                    unit_price_10: '0.1800'
+                    unit_price_100: '0.0360'
+                    unit_price_1000: ''
+                    unit_price_10000: ''
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Accu displayed prices are rounded; derived totals use the captured
+                        display precision
+                    - Accu requires a quote from 400 units; prices beyond that withheld
+                    - 'Quantity 1000: no verified price/VAT band; price withheld'
+                    - 'Quantity 10000: no verified price/VAT band; price withheld'
                 boltbase:
                     accepted_warnings: '["Final Bolt Base threshold has no verified
                         upper bound; extrapolation withheld"]'
@@ -2487,7 +2100,7 @@ oomlout_ai_roboclick_3:
                     html_sha256: 43c7a5a8254d4991fc06a11a46d5b0aa8d36448b06d34ad3d2123fb0f3ce54ae
                     name: M4 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
                     packages: '[]'
-                    parsed_at: '2026-10-13T10:54:57.923683+00:00'
+                    parsed_at: '2026-10-18T08:56:36.859005+00:00'
                     parser_version: boltbase-1.2-review-policy
                     price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
                         "0.03", "source_text": "Buy 5000 + Save 90% Each £0.03 £0.24",
@@ -2628,15 +2241,164 @@ oomlout_ai_roboclick_3:
                     - Final Bolt Base threshold has no verified upper bound; extrapolation
                         withheld
                 dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-13T23:40:46.627068+00:00'
+                    currency: GBP
+                    html_sha256: a735b93fdd070d7d450247ff0a48fa43a3d97f54ff4bb809999afbdf733a4b1c
+                    name: M4 x 12mm Socket Cap Screw High Tensile Grade 12.9 Self
+                        Colour , DIN 912
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:02:56.891562+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M4 (4mm); Length (L): 12mm; Head
+                        Diameter (D): 7mm; Hexagon Depth (P): 2mm; Material: High
+                        Tensile (Grade 12.9); Finish: Self Colour; Head Length (H):
+                        4mm; Screw Thread Pitch: 0.7mm; Socket Size (J): 3mm; Manufacturing
+                        Standard: 912; Material Specification: High Tensile (Grade
+                        12.9); Fine or Coarse?: Coarse; Fully Threaded: Yes'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
                     supplier: dibolt
                     supplier_id: 10161.040.012
                     supplier_part_number: 10161.040.012
                     supplier_website: https://dibolt.co.uk/products/m4-x-12mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_text: 1 - 199 £3.51 Per 100 Units
+                        source_unit_price: '0.0351'
+                        source_vat_basis: exclusive
+                        unit_price: '0.042120'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_text: 200 - 999 £1.95 Per 100 Units
+                        source_unit_price: '0.0195'
+                        source_vat_basis: exclusive
+                        unit_price: '0.023400'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 1000
+                        source_text: 1,000+ £1.75 Per 100 Units
+                        source_unit_price: '0.0175'
+                        source_vat_basis: exclusive
+                        unit_price: '0.021000'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.042120'
+                    total_price_10: '0.421200'
+                    total_price_100: '4.212000'
+                    total_price_1000: '21.000000'
+                    total_price_10000: '210.000000'
+                    unit_price_1: '0.042120'
+                    unit_price_10: '0.042120'
+                    unit_price_100: '0.042120'
+                    unit_price_1000: '0.021000'
+                    unit_price_10000: '0.021000'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
                 kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-15T08:46:25.351356+00:00'
+                    currency: GBP
+                    family_description: Socket cap screws. Metric coarse threads.
+                        Self colour plain finish. High tensile grade 12.9. Manufactured
+                        to DIN 912.
+                    family_heading: SOCKET CAP SCREWS DIN 912 HIGH TENSILE SELF COLOUR
+                    html_sha256: 41cbd347ea048213ab49060aaddfbb9abde333f409a26636a453bfc615c3677d
+                    name: M4 x 12mm SOCKET CAP SCREW DIN 912 HIGH TENSILE 12.9 SELF
+                        COLOUR
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:30:22.620204+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M4 x 12mm SOCKET CAP SCREW DIN 912 HIGH
+                        TENSILE 12.9 SELF COLOUR
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: SOCKET CAP SCREWS DIN 912 HIGH TENSILE SELF COLOUR;
+                        Socket cap screws. Metric coarse threads. Self colour plain
+                        finish. High tensile grade 12.9. Manufactured to DIN 912.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
                     supplier: kayfast
                     supplier_id: M4-x-12mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
                     supplier_part_number: M4-x-12mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
                     supplier_website: https://www.kayfast.co.uk/view-product/SOCKET-CAP-SCREWS-DIN-912-HIGH-TENSILE-SELF-COLOUR
+                    tiers:
+                    -   maximum: 49
+                        minimum: 1
+                        source_price_per_100: '16.63'
+                        source_price_quantity: 100
+                        source_text: QTY 1 - 49 @ £16.63 per 100
+                        source_unit_price: '0.1663'
+                        source_vat_basis: exclusive
+                        unit_price: '0.199560'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 199
+                        minimum: 50
+                        source_price_per_100: '7.07'
+                        source_price_quantity: 100
+                        source_text: QTY 50 -  199 @ £7.07 per 100
+                        source_unit_price: '0.0707'
+                        source_vat_basis: exclusive
+                        unit_price: '0.084840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 200
+                        source_price_per_100: '5.28'
+                        source_price_quantity: 100
+                        source_text: QTY 200 + @ £5.28 per 100
+                        source_unit_price: '0.0528'
+                        source_vat_basis: exclusive
+                        unit_price: '0.063360'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.199560'
+                    total_price_10: '1.995600'
+                    total_price_100: '8.484000'
+                    total_price_1000: '63.360000'
+                    total_price_10000: '633.600000'
+                    unit_price_1: '0.199560'
+                    unit_price_10: '0.199560'
+                    unit_price_100: '0.084840'
+                    unit_price_1000: '0.063360'
+                    unit_price_10000: '0.063360'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
                 orbitalfasteners:
                     accepted_warnings: '[]'
                     box_quantity: '200'
@@ -2647,7 +2409,7 @@ oomlout_ai_roboclick_3:
                     html_sha256: c8c33fb0ad2e6ffd4a2643604eb148e3aa7f0d1eb34ffc2d2b555b1ffa200873
                     name: M4 x 12 Socket Cap Screw, High Tensile Grade 12.9 Self Colour,
                         DIN 912
-                    parsed_at: '2026-10-13T10:53:17.831965+00:00'
+                    parsed_at: '2026-10-18T08:49:31.740916+00:00'
                     parser_version: 1.2-review-policy
                     review_policy: ''
                     review_warnings: '[]'
@@ -2982,7 +2744,7 @@ oomlout_ai_roboclick_3:
         search_and_replace: []
     file_test: label_bolt_image.pdf
     retries_until_complete: 0
-oomlout_ai_roboclick_4:
+oomlout_ai_roboclick_3:
     actions:
     -   command: text_jinja_template
         convert_to_pdf: false
@@ -2994,13 +2756,180 @@ oomlout_ai_roboclick_4:
         file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
     file_test: ''
 oomp_key: oomp_hardware_screw_socket_cap_hex_head_black_m4_diameter_12_mm_length
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
 screw_style: screw_socket_cap
 supplier_data:
     accu:
+        accepted_warnings: '["Accu displayed prices are rounded; derived totals use
+            the captured display precision", "Accu requires a quote from 400 units;
+            prices beyond that withheld", "Quantity 1000: no verified price/VAT band;
+            price withheld", "Quantity 10000: no verified price/VAT band; price withheld"]'
+        box_quantity: ''
+        captured_at: '2026-10-13T21:52:11.929024+00:00'
+        currency: GBP
+        description: 'Metric Socket Cap Head Screws feature an internal socket drive
+            that is designed for use with a Hex Key, otherwise known as an Allen Key.
+            With the terms ‘socket’ and ‘allen’ being so interchangeable within engineering,
+            this explains why these fasteners are also commonly referred to as Allen
+            Key Bolts or Socket Screws. Accu''s range of Cap Screws are manufactured
+            in accordance with industry standards, such as DIN 912 and ISO 4762. Screws
+            within this range are available in either a fully threaded or partially
+            threaded form, with the latter featuring an unthreaded portion below the
+            head of the screw. The distinction of whether the screw is fully threaded
+            or not is detailed in each individual product specification. If a larger
+            unthreaded portion is required, Accu''s range of Socket Shoulder Screws
+            range may be more suitable, depending upon your application. Metric Cap
+            Head Captive Screws A number of Accu''s Metric & Imperial Socket Cap Screws
+            are also available to be modified to feature a precisely machined unthreaded
+            section, affording a retaining capability. These specialised Captive Screws
+            are used to provide a secure fixture and help to prevent damage or loss
+            of screws in a housing assembly. Accu''s range of Cap Head Captive Screws
+            are designed to aid compliance with EU Safety Directives. Vented Socket
+            Screws Accu can also offer Vented Cap Screws, which are a specially modified
+            variant of this component that allow the release of gases and pressure
+            through a bore that runs through the centre of the screw. Materials Socket
+            Cap Screws within this range are available in a wide selection of materials,
+            including metals ranging from A2, A4, A4-80, Duplex and Bumax Stainless
+            Steel, 12.9 High Tensile Steel, Aluminium and Titanium. Plastic variants
+            are also available as standard in Nylon, Polycarbonate, Reny and PEEK
+            Thermoplastic.Optimise your Metric Socket Cap Head Screws against vibrations
+            and loosening with our pre-applied thread-locking patches, from essential
+            AccuLock Threadlocker, robust Anu-Lok 180 through to our high performance
+            Precote 80. Personalise your components with AccuBlack chemical blackening
+            to reduce reflections and add a premium finish aesthetic finish. Metric
+            Cap Head Screws Metric Socket Cap Screws are available from Accu in sizes
+            M1.4 to M30, and lengths of between 2mm and 300mm. Both partially threaded
+            and fully threaded varieties are available. Imperial Cap Head Screws Imperial
+            Socket Cap Head Screws are supplied in sizes between #0 (No. 0) and ¾
+            inches. Lengths of between 3/32 inch and 5.½ inches are available as standard,
+            and are manufactured in both fully and partially threaded varieties. Minimum
+            Thread Length In accordance with DIN standards, Accu''s Socket Cap Screws
+            are manufactured to a minimum specified thread length - this measurement
+            can be found within each individual product page. If this dimension is
+            critical to your application, please contact us before placing your order.'
+        html_sha256: 27921ea6615c6f9a3ec00cc6e2e6ca94877f96137bcb6440e29abeb8701d7398
+        name: M4 x 12mm Full Thread Socket Cap Head Screws (DIN 912) - High Tensile
+            Steel (12.9)
+        parsed_at: '2026-10-18T08:52:24.627745+00:00'
+        parser_version: accu-1.9-base-material
+        price_inheritance: ''
+        quote_minimum: '400'
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept rounded displayed prices, open-ended final advertised
+            tiers, and quotes required from 400 units; quote-only prices remain blank."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.02", "highPrice":
+            "0.74", "priceCurrency": "GBP", "offerCount": "8", "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/metric-cap-head-screws/16020-SSCF-M4-12-12-9",
+            "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type":
+            "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "accus prices are all ex vat", "confirmed_on": "2026-10-13"}'
+        specifications: '{"Accu Product Code (APC)": "SSCF-M4-12-12.9", "Thread Size":
+            "M4 (4 mm)", "Length (L)": "12 mm", "Full Thread": "Yes", "Material":
+            "Steel - High Tensile (12.9)", "Finish": "Natural", "Drive Depth (P)":
+            "2 mm", "Head Diameter (D)": "7.22 mm (Tolerance: +0/-0.44 mm)", "Head
+            Height (H)": "4 mm (Tolerance: +0/-0.18 mm)", "Manufacturing Standard":
+            "DIN 912", "Material Family": "Steel", "Socket Size (J)": "3 mm", "Thread
+            Pitch": "0.7 mm", "Thread Specification": "Metric Coarse"}'
+        status: ok
+        stock_quantity: ''
+        stock_status: https://schema.org/InStock
         supplier: accu
         supplier_id: SSCF-M4-12-12.9
         supplier_part_number: SSCF-M4-12-12.9
         supplier_website: https://www.accu.co.uk/metric-cap-head-screws/16020-SSCF-M4-12-12-9
+        tiers:
+        -   maximum: 1
+            minimum: 1
+            source_text: Buy 1 £0.74
+            source_unit_price: '0.74'
+            source_vat_basis: exclusive
+            unit_price: '0.8880'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 5
+            minimum: 2
+            source_text: Buy 2 £0.40 Save 45 %
+            source_unit_price: '0.40'
+            source_vat_basis: exclusive
+            unit_price: '0.4800'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 11
+            minimum: 6
+            source_text: Buy 6 £0.15 Save 79 %
+            source_unit_price: '0.15'
+            source_vat_basis: exclusive
+            unit_price: '0.1800'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 23
+            minimum: 12
+            source_text: Buy 12 £0.09 Save 87 %
+            source_unit_price: '0.09'
+            source_vat_basis: exclusive
+            unit_price: '0.1080'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 49
+            minimum: 24
+            source_text: Buy 24 £0.06 Save 91 %
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 99
+            minimum: 50
+            source_text: Buy 50 £0.04 Save 94 %
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 199
+            minimum: 100
+            source_text: Buy 100 £0.03 Save 95 %
+            source_unit_price: '0.03'
+            source_vat_basis: exclusive
+            unit_price: '0.0360'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 399
+            minimum: 200
+            source_text: Buy 200 £0.02 Save 97 %
+            source_unit_price: '0.02'
+            source_vat_basis: exclusive
+            unit_price: '0.0240'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.8880'
+        total_price_10: '1.8000'
+        total_price_100: '3.6000'
+        total_price_1000: ''
+        total_price_10000: ''
+        unit_price_1: '0.8880'
+        unit_price_10: '0.1800'
+        unit_price_100: '0.0360'
+        unit_price_1000: ''
+        unit_price_10000: ''
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Accu displayed prices are rounded; derived totals use the captured display
+            precision
+        - Accu requires a quote from 400 units; prices beyond that withheld
+        - 'Quantity 1000: no verified price/VAT band; price withheld'
+        - 'Quantity 10000: no verified price/VAT band; price withheld'
     boltbase:
         accepted_warnings: '["Final Bolt Base threshold has no verified upper bound;
             extrapolation withheld"]'
@@ -3009,7 +2938,7 @@ supplier_data:
         html_sha256: 43c7a5a8254d4991fc06a11a46d5b0aa8d36448b06d34ad3d2123fb0f3ce54ae
         name: M4 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
         packages: '[]'
-        parsed_at: '2026-10-13T10:54:57.923683+00:00'
+        parsed_at: '2026-10-18T08:56:36.859005+00:00'
         parser_version: boltbase-1.2-review-policy
         price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
             "0.03", "source_text": "Buy 5000 + Save 90% Each £0.03 £0.24", "basis":
@@ -3146,15 +3075,158 @@ supplier_data:
         warnings:
         - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
     dibolt:
+        accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-13T23:40:46.627068+00:00'
+        currency: GBP
+        html_sha256: a735b93fdd070d7d450247ff0a48fa43a3d97f54ff4bb809999afbdf733a4b1c
+        name: M4 x 12mm Socket Cap Screw High Tensile Grade 12.9 Self Colour , DIN
+            912
+        packages: '[]'
+        parsed_at: '2026-10-18T09:02:56.891562+00:00'
+        parser_version: dibolt-1.3-missing-price-review
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept the precision of rounded displayed per-100 prices."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: 'Thread Size: M4 (4mm); Length (L): 12mm; Head Diameter (D):
+            7mm; Hexagon Depth (P): 2mm; Material: High Tensile (Grade 12.9); Finish:
+            Self Colour; Head Length (H): 4mm; Screw Thread Pitch: 0.7mm; Socket Size
+            (J): 3mm; Manufacturing Standard: 912; Material Specification: High Tensile
+            (Grade 12.9); Fine or Coarse?: Coarse; Fully Threaded: Yes'
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
         supplier: dibolt
         supplier_id: 10161.040.012
         supplier_part_number: 10161.040.012
         supplier_website: https://dibolt.co.uk/products/m4-x-12mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
+        tiers:
+        -   maximum: 199
+            minimum: 1
+            source_text: 1 - 199 £3.51 Per 100 Units
+            source_unit_price: '0.0351'
+            source_vat_basis: exclusive
+            unit_price: '0.042120'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 999
+            minimum: 200
+            source_text: 200 - 999 £1.95 Per 100 Units
+            source_unit_price: '0.0195'
+            source_vat_basis: exclusive
+            unit_price: '0.023400'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 1000
+            source_text: 1,000+ £1.75 Per 100 Units
+            source_unit_price: '0.0175'
+            source_vat_basis: exclusive
+            unit_price: '0.021000'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.042120'
+        total_price_10: '0.421200'
+        total_price_100: '4.212000'
+        total_price_1000: '21.000000'
+        total_price_10000: '210.000000'
+        unit_price_1: '0.042120'
+        unit_price_10: '0.042120'
+        unit_price_100: '0.042120'
+        unit_price_1000: '0.021000'
+        unit_price_10000: '0.021000'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Dibolt per-100 displayed prices are rounded; derived totals use captured
+            display precision
     kayfast:
+        accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-15T08:46:25.351356+00:00'
+        currency: GBP
+        family_description: Socket cap screws. Metric coarse threads. Self colour
+            plain finish. High tensile grade 12.9. Manufactured to DIN 912.
+        family_heading: SOCKET CAP SCREWS DIN 912 HIGH TENSILE SELF COLOUR
+        html_sha256: 41cbd347ea048213ab49060aaddfbb9abde333f409a26636a453bfc615c3677d
+        name: M4 x 12mm SOCKET CAP SCREW DIN 912 HIGH TENSILE 12.9 SELF COLOUR
+        packages: '[]'
+        parsed_at: '2026-10-18T09:30:22.620204+00:00'
+        parser_version: kayfast-1.6-family-description
+        price_breaks_description: M4 x 12mm SOCKET CAP SCREW DIN 912 HIGH TENSILE
+            12.9 SELF COLOUR
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+            "statement": "Use the exact row dropdown price per 100 divided by 100
+            with Decimal precision; accept the captured per-100 display precision."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+        specifications: SOCKET CAP SCREWS DIN 912 HIGH TENSILE SELF COLOUR; Socket
+            cap screws. Metric coarse threads. Self colour plain finish. High tensile
+            grade 12.9. Manufactured to DIN 912.
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
         supplier: kayfast
         supplier_id: M4-x-12mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+        supplier_id_basis: exact dimensional row description; spaces replaced by hyphens
+            (user clarification 2026-10-11)
         supplier_part_number: M4-x-12mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
         supplier_website: https://www.kayfast.co.uk/view-product/SOCKET-CAP-SCREWS-DIN-912-HIGH-TENSILE-SELF-COLOUR
+        tiers:
+        -   maximum: 49
+            minimum: 1
+            source_price_per_100: '16.63'
+            source_price_quantity: 100
+            source_text: QTY 1 - 49 @ £16.63 per 100
+            source_unit_price: '0.1663'
+            source_vat_basis: exclusive
+            unit_price: '0.199560'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 199
+            minimum: 50
+            source_price_per_100: '7.07'
+            source_price_quantity: 100
+            source_text: QTY 50 -  199 @ £7.07 per 100
+            source_unit_price: '0.0707'
+            source_vat_basis: exclusive
+            unit_price: '0.084840'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 200
+            source_price_per_100: '5.28'
+            source_price_quantity: 100
+            source_text: QTY 200 + @ £5.28 per 100
+            source_unit_price: '0.0528'
+            source_vat_basis: exclusive
+            unit_price: '0.063360'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.199560'
+        total_price_10: '1.995600'
+        total_price_100: '8.484000'
+        total_price_1000: '63.360000'
+        total_price_10000: '633.600000'
+        unit_price_1: '0.199560'
+        unit_price_10: '0.199560'
+        unit_price_100: '0.084840'
+        unit_price_1000: '0.063360'
+        unit_price_10000: '0.063360'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Kayfast per-100 displayed prices are rounded; derived totals use captured
+            display precision
     orbitalfasteners:
         accepted_warnings: '[]'
         box_quantity: '200'
@@ -3164,7 +3236,7 @@ supplier_data:
         description: ''
         html_sha256: c8c33fb0ad2e6ffd4a2643604eb148e3aa7f0d1eb34ffc2d2b555b1ffa200873
         name: M4 x 12 Socket Cap Screw, High Tensile Grade 12.9 Self Colour, DIN 912
-        parsed_at: '2026-10-13T10:53:17.831965+00:00'
+        parsed_at: '2026-10-18T08:49:31.740916+00:00'
         parser_version: 1.2-review-policy
         review_policy: ''
         review_warnings: '[]'
