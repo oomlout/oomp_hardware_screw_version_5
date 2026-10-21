@@ -56,8 +56,8 @@ supplier_data:
     html_sha256: 954369098180951f58bce6cb140c205cad95336a3bfb028051b5f5da8dfc70a0
     name: M2.5 x 5mm Full Thread Socket Cap Head Screws (DIN 912) - High Tensile Steel
       (12.9)
-    parsed_at: '2026-10-13T07:20:31.588922+00:00'
-    parser_version: accu-1.7-accepted-400-quotes
+    parsed_at: '2026-10-18T08:52:16.410192+00:00'
+    parser_version: accu-1.9-base-material
     price_inheritance: '{"1000": {"source_quantity": 200, "source_unit_price": "0.08",
       "source_text": "Buy 200 £0.08 Save 90 %", "basis": "user policy 2026-10-13"},
       "10000": {"source_quantity": 200, "source_unit_price": "0.08", "source_text":
@@ -190,7 +190,7 @@ supplier_data:
     html_sha256: 4710d530060683a6a068328c15e6c100ab69e9dfc8dbb1ed281f1b8971a3a828
     name: M2.5 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
     packages: '[]'
-    parsed_at: '2026-10-13T10:54:48.218335+00:00'
+    parsed_at: '2026-10-18T08:56:29.210932+00:00'
     parser_version: boltbase-1.2-review-policy
     price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price": "0.04",
       "source_text": "Buy 5000 + Save 90% Each £0.04 £0.38", "basis": "user policy
@@ -326,10 +326,74 @@ supplier_data:
     warnings:
     - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
   dibolt:
+    accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-13T23:21:06.456268+00:00'
+    currency: GBP
+    html_sha256: 190443ab1cb38043231f2a9034cf0a9f37cf8657ea57f919dd73f117feafff16
+    name: M2.5 x 5mm Socket Cap Screw High Tensile Grade 12.9 Self Colour , DIN 912
+    packages: '[]'
+    parsed_at: '2026-10-18T09:02:47.458272+00:00'
+    parser_version: dibolt-1.3-missing-price-review
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept the precision of rounded displayed per-100 prices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M2.5 (2.5mm); Length (L): 5mm; Head Diameter (D):
+      4.5mm; Hexagon Depth (P): 1.1mm; Material: High Tensile (Grade 12.9); Finish:
+      Self Colour; Head Length (H): 2.5mm; Screw Thread Pitch: 0.45mm; Socket Size
+      (J): 2mm; Manufacturing Standard: 912; Material Specification: High Tensile
+      (Grade 12.9); Fine or Coarse?: Coarse; Fully Threaded: Yes'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
     supplier: dibolt
     supplier_id: 10161.025.005
     supplier_part_number: 10161.025.005
     supplier_website: https://dibolt.co.uk/products/m2-5-x-5mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912-2
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_text: 1 - 199 £13.50 Per 100 Units
+      source_unit_price: '0.135'
+      source_vat_basis: exclusive
+      unit_price: '0.16200'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_text: 200 - 999 £12.83 Per 100 Units
+      source_unit_price: '0.1283'
+      source_vat_basis: exclusive
+      unit_price: '0.153960'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 1000
+      source_text: 1,000+ £12.15 Per 100 Units
+      source_unit_price: '0.1215'
+      source_vat_basis: exclusive
+      unit_price: '0.145800'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.16200'
+    total_price_10: '1.62000'
+    total_price_100: '16.20000'
+    total_price_1000: '145.800000'
+    total_price_10000: '1458.000000'
+    unit_price_1: '0.16200'
+    unit_price_10: '0.16200'
+    unit_price_100: '0.16200'
+    unit_price_1000: '0.145800'
+    unit_price_10000: '0.145800'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Dibolt per-100 displayed prices are rounded; derived totals use captured display
+      precision
   orbitalfasteners:
     accepted_warnings: '[]'
     box_quantity: '200'
@@ -339,7 +403,7 @@ supplier_data:
     description: ''
     html_sha256: 257ebf7c7080cefd7d3eefdcde77d0d01954364a288a4ed816551bbd2c909b12
     name: M2.5 x 5 Socket Cap Screw High Tensile Grade 12.9 Self Colour, DIN 912
-    parsed_at: '2026-10-13T10:53:16.380005+00:00'
+    parsed_at: '2026-10-18T08:49:30.021999+00:00'
     parser_version: 1.2-review-policy
     review_policy: ''
     review_warnings: '[]'
@@ -418,7 +482,7 @@ supplier_data:
       "vat_basis": "inclusive"}, {"quantity": 150, "total_price": "99.6840", "source_text":
       "bulk of 150 for £83.07", "source_total_price": "83.07", "source_vat_basis":
       "exclusive", "vat_basis": "inclusive"}]'
-    parsed_at: '2026-10-13T08:52:36.033968+00:00'
+    parsed_at: '2026-10-18T09:33:16.581160+00:00'
     parser_version: westfieldfasteners-1.3-allen-cap-heading
     review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
       "statement": "Include advertised package prices only; other quantities may remain

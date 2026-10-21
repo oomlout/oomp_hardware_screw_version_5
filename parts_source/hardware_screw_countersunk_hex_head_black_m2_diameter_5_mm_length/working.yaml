@@ -14,7 +14,7 @@ supplier_data:
     html_sha256: 9a4ffb5efdcf4e0f621fe47f8c24b88a33d29dc7c2bc69ca1f143f3ccf5c984a
     name: M2 Self Colour 10.9 High Tensile Socket Countersunk Screws
     packages: '[]'
-    parsed_at: '2026-10-13T10:54:38.879369+00:00'
+    parsed_at: '2026-10-18T08:56:21.686163+00:00'
     parser_version: boltbase-1.2-review-policy
     price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price": "0.08",
       "source_text": "Buy 5000 + - 90% Each £0.08 £0.75", "basis": "user policy 2026-10-13"}}'
@@ -149,10 +149,76 @@ supplier_data:
     warnings:
     - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
   dibolt:
+    accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-13T17:18:11.309965+00:00'
+    currency: GBP
+    html_sha256: 8130a413b5b233cc046eee022738bb33ced6e1945f69f6d7663348ab1c2a7b68
+    name: M2 x 5mm Socket Screw/Bolt, Countersunk, High Tensile Grade 10.9 Self Colour,
+      DIN 7991
+    packages: '[]'
+    parsed_at: '2026-10-18T09:02:37.926706+00:00'
+    parser_version: dibolt-1.3-missing-price-review
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept the precision of rounded displayed per-100 prices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M2 (2mm); Length (L): 5mm; Head Diameter (D): 3mm;
+      Countersunk Angle (CA): 90 Degree; Material: High Tensile (Grade 10.9); Finish:
+      Self Colour; Countersunk Length (Max) (H): 1.2mm; Hexagon Depth (P): 0.6mm;
+      Screw Thread Pitch: 0.4mm; Socket Size (J): 1.3mm; Manufacturing Standard: DIN
+      7991; Material Specification: High Tensile (Grade 10.9); Metric or Imperial?:
+      Metric'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
     supplier: dibolt
     supplier_id: 10170.020.005
     supplier_part_number: 10170.020.005
     supplier_website: https://dibolt.co.uk/products/m2-x-5mm-socket-screw-bolt-countersunk-high-tensile-grade-10-9-self-colour-din-7991
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_text: 1 - 199 £15.42 Per 100 Units
+      source_unit_price: '0.1542'
+      source_vat_basis: exclusive
+      unit_price: '0.185040'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_text: 200 - 999 £13.88 Per 100 Units
+      source_unit_price: '0.1388'
+      source_vat_basis: exclusive
+      unit_price: '0.166560'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 1000
+      source_text: 1,000+ £12.34 Per 100 Units
+      source_unit_price: '0.1234'
+      source_vat_basis: exclusive
+      unit_price: '0.148080'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.185040'
+    total_price_10: '1.850400'
+    total_price_100: '18.504000'
+    total_price_1000: '148.080000'
+    total_price_10000: '1480.800000'
+    unit_price_1: '0.185040'
+    unit_price_10: '0.185040'
+    unit_price_100: '0.185040'
+    unit_price_1000: '0.148080'
+    unit_price_10000: '0.148080'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Dibolt per-100 displayed prices are rounded; derived totals use captured display
+      precision
 svg_details:
   diameter_mm: 2.0
   drive_style: hex_head

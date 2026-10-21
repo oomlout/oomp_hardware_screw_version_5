@@ -14,7 +14,7 @@ supplier_data:
     html_sha256: 5d53415a7b8c778dd401955947525ee7c806ae6d33405932d0daf81c3e720b5b
     name: M3 Self Colour 10.9 High Tensile Socket Countersunk Screws
     packages: '[]'
-    parsed_at: '2026-10-13T10:54:42.003686+00:00'
+    parsed_at: '2026-10-18T08:56:24.100694+00:00'
     parser_version: boltbase-1.2-review-policy
     price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price": "0.05",
       "source_text": "Buy 5000 + - 90% Each £0.05 £0.42", "basis": "user policy 2026-10-13"}}'
@@ -149,29 +149,95 @@ supplier_data:
     warnings:
     - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
   dibolt:
+    accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-13T23:07:41.699808+00:00'
+    currency: GBP
+    html_sha256: bc442cd0ec1954e03bc3d6f3db61537a17741055a1550ca998c6ca0a9cbe96eb
+    name: M3 x 35mm Socket Screw/Bolt, Countersunk, High Tensile Grade 10.9 Self Colour,
+      DIN 7991
+    packages: '[]'
+    parsed_at: '2026-10-18T09:02:41.039042+00:00'
+    parser_version: dibolt-1.3-missing-price-review
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept the precision of rounded displayed per-100 prices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M3 (3mm); Length (L): 35mm; Head Diameter (D): 6mm;
+      Countersunk Angle (CA): 90 Degree; Material: High Tensile (Grade 10.9); Finish:
+      Self Colour; Countersunk Length (Max) (H): 1.7mm; Hexagon Depth (P): 1.2mm;
+      Screw Thread Pitch: 0.5mm; Socket Size (J): 2mm; Manufacturing Standard: DIN
+      7991; Material Specification: High Tensile (Grade 10.9); Metric or Imperial?:
+      Metric'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
     supplier: dibolt
     supplier_id: 10170.030.035
     supplier_part_number: 10170.030.035
     supplier_website: https://dibolt.co.uk/products/m3-x-35mm-socket-screw-bolt-countersunk-high-tensile-grade-10-9-self-colour-din-799
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_text: 1 - 199 £9.68 Per 100 Units
+      source_unit_price: '0.0968'
+      source_vat_basis: exclusive
+      unit_price: '0.116160'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_text: 200 - 999 £5.38 Per 100 Units
+      source_unit_price: '0.0538'
+      source_vat_basis: exclusive
+      unit_price: '0.064560'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 1000
+      source_text: 1,000+ £4.84 Per 100 Units
+      source_unit_price: '0.0484'
+      source_vat_basis: exclusive
+      unit_price: '0.058080'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.116160'
+    total_price_10: '1.161600'
+    total_price_100: '11.616000'
+    total_price_1000: '58.080000'
+    total_price_10000: '580.800000'
+    unit_price_1: '0.116160'
+    unit_price_10: '0.116160'
+    unit_price_100: '0.116160'
+    unit_price_1000: '0.058080'
+    unit_price_10000: '0.058080'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Dibolt per-100 displayed prices are rounded; derived totals use captured display
+      precision
   orbitalfasteners:
     accepted_warnings: '[]'
     box_quantity: '200'
-    captured_at: '2026-10-11T00:40:22.450157+00:00'
+    captured_at: '2026-10-18T08:38:51.331527+00:00'
     catalogue_page: '80'
     currency: GBP
     description: Fully threaded. *Guide only, some variation possible. (Contact us
       before ordering if this information is important)
-    html_sha256: 68b92502e017de03e7c8dd05c5725297362137f197023358ff4ea911ea1a96d8
+    html_sha256: 989d03c697a35edbca7c52b12a35e14d8b372cff1e4bd6a7e7b26732455f7938
     name: M3 x 35 Socket Screw, Countersunk, High Tensile Grade 10.9 Self Colour,
       DIN 7991
-    parsed_at: '2026-10-13T10:53:15.238931+00:00'
+    parsed_at: '2026-10-18T08:49:28.858980+00:00'
     parser_version: 1.2-review-policy
     review_policy: ''
     review_warnings: '[]'
     selected_by_current_filter: true
     source_vat_basis: inclusive
     status: ok
-    stock_as_of: 9th October 2026 10:01pm
+    stock_as_of: 16th October 2026 10:01pm
     stock_quantity: '3907'
     supplier: orbitalfasteners
     supplier_id: '1901054'

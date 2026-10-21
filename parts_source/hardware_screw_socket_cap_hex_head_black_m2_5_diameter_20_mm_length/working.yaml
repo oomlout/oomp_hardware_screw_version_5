@@ -26,7 +26,7 @@ supplier_data:
     html_sha256: f4a3bedfb7f752c740c93780e5fa767bdc2612ada13e026be251940d5b00d78d
     name: M2.5 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
     packages: '[]'
-    parsed_at: '2026-10-13T10:54:47.601903+00:00'
+    parsed_at: '2026-10-18T08:56:28.705418+00:00'
     parser_version: boltbase-1.2-review-policy
     price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price": "0.05",
       "source_text": "Buy 5000 + Save 90% Each £0.05 £0.49", "basis": "user policy
@@ -162,10 +162,74 @@ supplier_data:
     warnings:
     - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
   dibolt:
+    accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-13T23:19:46.814992+00:00'
+    currency: GBP
+    html_sha256: 7f491ff03821bdf46d5c7e43602a21b84250936eca428764d0e44a84234b3c33
+    name: M2.5 x 20mm Socket Cap Screw High Tensile Grade 12.9 Self Colour , DIN 912
+    packages: '[]'
+    parsed_at: '2026-10-18T09:02:46.758100+00:00'
+    parser_version: dibolt-1.3-missing-price-review
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept the precision of rounded displayed per-100 prices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M2.5 (2.5mm); Length (L): 20mm; Head Diameter (D):
+      4.5mm; Hexagon Depth (P): 1.1mm; Material: High Tensile (Grade 12.9); Finish:
+      Self Colour; Head Length (H): 2.5mm; Screw Thread Pitch: 0.45mm; Socket Size
+      (J): 2mm; Manufacturing Standard: 912; Material Specification: High Tensile
+      (Grade 12.9); Fine or Coarse?: Coarse; Fully Threaded: Yes'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
     supplier: dibolt
     supplier_id: 10161.025.020
     supplier_part_number: 10161.025.020
     supplier_website: https://dibolt.co.uk/products/m2-5-x-20mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_text: 1 - 199 £36.00 Per 100 Units
+      source_unit_price: '0.36'
+      source_vat_basis: exclusive
+      unit_price: '0.4320'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_text: 200 - 999 £34.20 Per 100 Units
+      source_unit_price: '0.342'
+      source_vat_basis: exclusive
+      unit_price: '0.41040'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 1000
+      source_text: 1,000+ £32.40 Per 100 Units
+      source_unit_price: '0.324'
+      source_vat_basis: exclusive
+      unit_price: '0.38880'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.4320'
+    total_price_10: '4.3200'
+    total_price_100: '43.2000'
+    total_price_1000: '388.80000'
+    total_price_10000: '3888.00000'
+    unit_price_1: '0.4320'
+    unit_price_10: '0.4320'
+    unit_price_100: '0.4320'
+    unit_price_1000: '0.38880'
+    unit_price_10000: '0.38880'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Dibolt per-100 displayed prices are rounded; derived totals use captured display
+      precision
   orbitalfasteners:
     accepted_warnings: '[]'
     box_quantity: '200'
@@ -175,7 +239,7 @@ supplier_data:
     description: ''
     html_sha256: 4ba2ea05156adb73e5161f5498928d31e7b0b9b0941d1c869b9552ec39f221f8
     name: M2.5 x 20 Socket Cap Screw, High Tensile Grade 12.9 Self Colour, DIN 912
-    parsed_at: '2026-10-13T10:53:16.261555+00:00'
+    parsed_at: '2026-10-18T08:49:29.910547+00:00'
     parser_version: 1.2-review-policy
     review_policy: ''
     review_warnings: '[]'

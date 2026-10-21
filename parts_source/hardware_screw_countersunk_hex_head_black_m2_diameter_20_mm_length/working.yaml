@@ -17,10 +17,76 @@ oobb_details:
   thread_size: m2_diameter
 supplier_data:
   dibolt:
+    accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-13T17:17:25.566775+00:00'
+    currency: GBP
+    html_sha256: 72fea0da43d5db806f0ab34f50dba5b3dac84b35adbf0e0dd85a8896c7c12f5a
+    name: M2 x 20mm Socket Screw/Bolt, Countersunk, High Tensile Grade 10.9 Self Colour,
+      DIN 7991
+    packages: '[]'
+    parsed_at: '2026-10-18T09:02:37.594722+00:00'
+    parser_version: dibolt-1.3-missing-price-review
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept the precision of rounded displayed per-100 prices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M2 (2mm); Length (L): 20mm; Head Diameter (D): 3mm;
+      Countersunk Angle (CA): 90 Degree; Material: High Tensile (Grade 10.9); Finish:
+      Self Colour; Countersunk Length (Max) (H): 1.2mm; Hexagon Depth (P): 0.6mm;
+      Screw Thread Pitch: 0.4mm; Socket Size (J): 1.3mm; Manufacturing Standard: DIN
+      7991; Material Specification: High Tensile (Grade 10.9); Metric or Imperial?:
+      Metric'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
     supplier: dibolt
     supplier_id: 10170.020.020
     supplier_part_number: 10170.020.020
     supplier_website: https://dibolt.co.uk/products/m2-x-20mm-socket-screw-bolt-countersunk-high-tensile-grade-10-9-self-colour-din-7991
+    tiers:
+    - maximum: 49
+      minimum: 1
+      source_text: 1 - 49 £146.64 Per 100 Units
+      source_unit_price: '1.4664'
+      source_vat_basis: exclusive
+      unit_price: '1.759680'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 249
+      minimum: 50
+      source_text: 50 - 249 £131.98 Per 100 Units
+      source_unit_price: '1.3198'
+      source_vat_basis: exclusive
+      unit_price: '1.583760'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 250
+      source_text: 250+ £117.31 Per 100 Units
+      source_unit_price: '1.1731'
+      source_vat_basis: exclusive
+      unit_price: '1.407720'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '1.759680'
+    total_price_10: '17.596800'
+    total_price_100: '158.376000'
+    total_price_1000: '1407.720000'
+    total_price_10000: '14077.200000'
+    unit_price_1: '1.759680'
+    unit_price_10: '1.759680'
+    unit_price_100: '1.583760'
+    unit_price_1000: '1.407720'
+    unit_price_10000: '1.407720'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Dibolt per-100 displayed prices are rounded; derived totals use captured display
+      precision
 svg_details:
   diameter_mm: 2.0
   drive_style: hex_head

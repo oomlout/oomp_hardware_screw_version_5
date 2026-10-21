@@ -26,7 +26,7 @@ supplier_data:
     html_sha256: 8ac850ebea83548311633e85d52492ef90daa1c70cfd6b1f0ed9fc66b1df0451
     name: M2 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
     packages: '[]'
-    parsed_at: '2026-10-13T10:54:49.889156+00:00'
+    parsed_at: '2026-10-18T08:56:30.463033+00:00'
     parser_version: boltbase-1.2-review-policy
     price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price": "0.06",
       "source_text": "Buy 5000 + Save 90% Each £0.06 £0.52", "basis": "user policy
@@ -162,10 +162,88 @@ supplier_data:
     warnings:
     - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
   kayfast:
+    accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-15T08:35:19.758615+00:00'
+    currency: GBP
+    family_description: Socket cap screws. Metric coarse threads. Self colour plain
+      finish. High tensile grade 12.9. Manufactured to DIN 912.
+    family_heading: SOCKET CAP SCREWS DIN 912 HIGH TENSILE SELF COLOUR
+    html_sha256: 2019fdf41a8317ff2805a9575ee542e0e0705a9b4693f5d20c724b47556ce36b
+    name: M2 x 16mm SOCKET CAP SCREW DIN 912 HIGH TENSILE 12.9 SELF COLOUR
+    packages: '[]'
+    parsed_at: '2026-10-18T09:30:10.376130+00:00'
+    parser_version: kayfast-1.6-family-description
+    price_breaks_description: M2 x 16mm SOCKET CAP SCREW DIN 912 HIGH TENSILE 12.9
+      SELF COLOUR
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+      "statement": "Use the exact row dropdown price per 100 divided by 100 with Decimal
+      precision; accept the captured per-100 display precision."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+    specifications: SOCKET CAP SCREWS DIN 912 HIGH TENSILE SELF COLOUR; Socket cap
+      screws. Metric coarse threads. Self colour plain finish. High tensile grade
+      12.9. Manufactured to DIN 912.
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
     supplier: kayfast
     supplier_id: M2-x-16mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+    supplier_id_basis: exact dimensional row description; spaces replaced by hyphens
+      (user clarification 2026-10-11)
     supplier_part_number: M2-x-16mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
     supplier_website: https://www.kayfast.co.uk/view-product/SOCKET-CAP-SCREWS-DIN-912-HIGH-TENSILE-SELF-COLOUR
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_price_per_100: '5.25'
+      source_price_quantity: 100
+      source_text: QTY 1 - 199 @ £5.25 per 100
+      source_unit_price: '0.0525'
+      source_vat_basis: exclusive
+      unit_price: '0.063000'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_price_per_100: '4.95'
+      source_price_quantity: 100
+      source_text: QTY 200 -  999 @ £4.95 per 100
+      source_unit_price: '0.0495'
+      source_vat_basis: exclusive
+      unit_price: '0.059400'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 1000
+      source_price_per_100: '4.86'
+      source_price_quantity: 100
+      source_text: QTY 1000 + @ £4.86 per 100
+      source_unit_price: '0.0486'
+      source_vat_basis: exclusive
+      unit_price: '0.058320'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.063000'
+    total_price_10: '0.630000'
+    total_price_100: '6.300000'
+    total_price_1000: '58.320000'
+    total_price_10000: '583.200000'
+    unit_price_1: '0.063000'
+    unit_price_10: '0.063000'
+    unit_price_100: '0.063000'
+    unit_price_1000: '0.058320'
+    unit_price_10000: '0.058320'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Kayfast per-100 displayed prices are rounded; derived totals use captured display
+      precision
 svg_details:
   diameter_mm: 2.0
   drive_style: hex_head

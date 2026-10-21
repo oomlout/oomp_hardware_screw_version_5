@@ -25,7 +25,7 @@ supplier_data:
     html_sha256: cf9665d7f3a169aad817f5b4fafe1b228228f704d77ab746442501443679ce70
     name: M2 x 25 Socket head cap screw, steel self colour, Din 912
     packages: '[]'
-    parsed_at: '2026-10-13T10:55:58.475365+00:00'
+    parsed_at: '2026-10-18T08:57:30.683404+00:00'
     parser_version: aanddfasteners-1.2-review-policy
     review_policy: ''
     review_warnings: '["Ignored empty quantity-price placeholder row: ['''', ''£ 0.00'']",
@@ -75,10 +75,74 @@ supplier_data:
     - 'Ignored empty quantity-price placeholder row: ['''', ''£ 0.00'']'
     - 'Ignored empty quantity-price placeholder row: ['''', ''£ 0.00'']'
   dibolt:
+    accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-13T23:24:28.266637+00:00'
+    currency: GBP
+    html_sha256: 63e4b2103670853c0ab9f2bdb93c82b97ae594a627b2f4f929a1229a03112040
+    name: M2 x 25mm Socket Cap Screw High Tensile Grade 12.9 Self Colour , DIN 912
+    packages: '[]'
+    parsed_at: '2026-10-18T09:02:49.171722+00:00'
+    parser_version: dibolt-1.3-missing-price-review
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept the precision of rounded displayed per-100 prices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M2 (2mm); Length (L): 25mm; Head Diameter (D): 3.8mm;
+      Hexagon Depth (P): 1mm; Material: High Tensile (Grade 12.9); Finish: Self Colour;
+      Head Length (H): 2mm; Screw Thread Pitch: 0.4mm; Socket Size (J): 1.5mm; Manufacturing
+      Standard: 912; Material Specification: High Tensile (Grade 12.9); Fine or Coarse?:
+      Coarse; Fully Threaded: Yes'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
     supplier: dibolt
     supplier_id: 10161.020.025
     supplier_part_number: 10161.020.025
     supplier_website: https://dibolt.co.uk/products/m2-x-25mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
+    tiers:
+    - maximum: 24
+      minimum: 1
+      source_text: 1 - 24 £73.71 Per 100 Units
+      source_unit_price: '0.7371'
+      source_vat_basis: exclusive
+      unit_price: '0.884520'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 124
+      minimum: 25
+      source_text: 25 - 124 £66.34 Per 100 Units
+      source_unit_price: '0.6634'
+      source_vat_basis: exclusive
+      unit_price: '0.796080'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 125
+      source_text: 125+ £58.97 Per 100 Units
+      source_unit_price: '0.5897'
+      source_vat_basis: exclusive
+      unit_price: '0.707640'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.884520'
+    total_price_10: '8.845200'
+    total_price_100: '79.608000'
+    total_price_1000: '707.640000'
+    total_price_10000: '7076.400000'
+    unit_price_1: '0.884520'
+    unit_price_10: '0.884520'
+    unit_price_100: '0.796080'
+    unit_price_1000: '0.707640'
+    unit_price_10000: '0.707640'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Dibolt per-100 displayed prices are rounded; derived totals use captured display
+      precision
 svg_details:
   diameter_mm: 2.0
   drive_style: hex_head

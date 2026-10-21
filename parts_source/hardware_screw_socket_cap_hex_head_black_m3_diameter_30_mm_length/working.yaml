@@ -15,7 +15,7 @@ supplier_data:
     html_sha256: bbab9362e0aa420c95fcc0577b6f0be969890adbd4f111afe89edef15af43822
     name: M3 x 30 Unbrako Socket head cap screw, steel self colour, Din 912
     packages: '[]'
-    parsed_at: '2026-10-13T10:55:59.265185+00:00'
+    parsed_at: '2026-10-18T08:57:31.309484+00:00'
     parser_version: aanddfasteners-1.2-review-policy
     review_policy: ''
     review_warnings: '["Ignored empty quantity-price placeholder row: ['''', ''£ 0.00'']",
@@ -111,8 +111,8 @@ supplier_data:
       please contact us before placing your order.'
     html_sha256: f81aadb023d5d151d21d849fd412689a9808c937d80e244f3ab1a839c7632681
     name: M3 x 30mm Socket Cap Head Screws (DIN 912) - High Tensile Steel (12.9)
-    parsed_at: '2026-10-13T07:20:37.856045+00:00'
-    parser_version: accu-1.7-accepted-400-quotes
+    parsed_at: '2026-10-18T08:52:22.041522+00:00'
+    parser_version: accu-1.9-base-material
     price_inheritance: '{"1000": {"source_quantity": 200, "source_unit_price": "0.05",
       "source_text": "Buy 200 £0.05 Save 93 %", "basis": "user policy 2026-10-13"},
       "10000": {"source_quantity": 200, "source_unit_price": "0.05", "source_text":
@@ -245,7 +245,7 @@ supplier_data:
     html_sha256: dd22ea8b969824a58d3cc06e552d409a9f0868dfda136e92e49829b04c84e039
     name: M3 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
     packages: '[]'
-    parsed_at: '2026-10-13T10:54:54.327146+00:00'
+    parsed_at: '2026-10-18T08:56:33.972846+00:00'
     parser_version: boltbase-1.2-review-policy
     price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price": "0.04",
       "source_text": "Buy 5000 + Save 90% Each £0.04 £0.39", "basis": "user policy
@@ -382,32 +382,174 @@ supplier_data:
     warnings:
     - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
   dibolt:
+    accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-13T23:33:20.594440+00:00'
+    currency: GBP
+    html_sha256: cb30295c00f2a50938eaea9f43e1d9646a0a0267ca5ca8407ad49a44726ebf8f
+    name: M3 x 30mm Socket Cap Screw High Tensile Grade 12.9 Self Colour , DIN 912
+    packages: '[]'
+    parsed_at: '2026-10-18T09:02:53.319581+00:00'
+    parser_version: dibolt-1.3-missing-price-review
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept the precision of rounded displayed per-100 prices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M3 (3mm); Length (L): 30mm; Head Diameter (D): 5.5mm;
+      Hexagon Depth (P): 1.3mm; Material: High Tensile (Grade 12.9); Finish: Self
+      Colour; Head Length (H): 3mm; Screw Thread Pitch: 0.5mm; Socket Size (J): 2.5mm;
+      Manufacturing Standard: 912; Material Specification: High Tensile (Grade 12.9);
+      Fine or Coarse?: Coarse; Fully Threaded: No'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
     supplier: dibolt
     supplier_id: 10161.030.030
     supplier_part_number: 10161.030.030
     supplier_website: https://dibolt.co.uk/products/m3-x-30mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_text: 1 - 199 £5.81 Per 100 Units
+      source_unit_price: '0.0581'
+      source_vat_basis: exclusive
+      unit_price: '0.069720'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_text: 200 - 999 £3.23 Per 100 Units
+      source_unit_price: '0.0323'
+      source_vat_basis: exclusive
+      unit_price: '0.038760'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 1000
+      source_text: 1,000+ £2.90 Per 100 Units
+      source_unit_price: '0.029'
+      source_vat_basis: exclusive
+      unit_price: '0.03480'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.069720'
+    total_price_10: '0.697200'
+    total_price_100: '6.972000'
+    total_price_1000: '34.80000'
+    total_price_10000: '348.00000'
+    unit_price_1: '0.069720'
+    unit_price_10: '0.069720'
+    unit_price_100: '0.069720'
+    unit_price_1000: '0.03480'
+    unit_price_10000: '0.03480'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Dibolt per-100 displayed prices are rounded; derived totals use captured display
+      precision
   kayfast:
+    accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-15T08:41:21.994031+00:00'
+    currency: GBP
+    family_description: Socket cap screws. Metric coarse threads. Self colour plain
+      finish. High tensile grade 12.9. Manufactured to DIN 912.
+    family_heading: SOCKET CAP SCREWS DIN 912 HIGH TENSILE SELF COLOUR
+    html_sha256: 479579505fc11f644ae0b52a12fbf161b39a4ee7b5361e745cce3bceaf6cbdfe
+    name: M3 x 30mm SOCKET CAP SCREW DIN 912 HIGH TENSILE 12.9 SELF COLOUR
+    packages: '[]'
+    parsed_at: '2026-10-18T09:30:16.931277+00:00'
+    parser_version: kayfast-1.6-family-description
+    price_breaks_description: M3 x 30mm SOCKET CAP SCREW DIN 912 HIGH TENSILE 12.9
+      SELF COLOUR
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+      "statement": "Use the exact row dropdown price per 100 divided by 100 with Decimal
+      precision; accept the captured per-100 display precision."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+    specifications: SOCKET CAP SCREWS DIN 912 HIGH TENSILE SELF COLOUR; Socket cap
+      screws. Metric coarse threads. Self colour plain finish. High tensile grade
+      12.9. Manufactured to DIN 912.
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
     supplier: kayfast
     supplier_id: M3-x-30mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+    supplier_id_basis: exact dimensional row description; spaces replaced by hyphens
+      (user clarification 2026-10-11)
     supplier_part_number: M3-x-30mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
     supplier_website: https://www.kayfast.co.uk/view-product/SOCKET-CAP-SCREWS-DIN-912-HIGH-TENSILE-SELF-COLOUR
+    tiers:
+    - maximum: 49
+      minimum: 1
+      source_price_per_100: '19.45'
+      source_price_quantity: 100
+      source_text: QTY 1 - 49 @ £19.45 per 100
+      source_unit_price: '0.1945'
+      source_vat_basis: exclusive
+      unit_price: '0.233400'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 199
+      minimum: 50
+      source_price_per_100: '8.61'
+      source_price_quantity: 100
+      source_text: QTY 50 -  199 @ £8.61 per 100
+      source_unit_price: '0.0861'
+      source_vat_basis: exclusive
+      unit_price: '0.103320'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 200
+      source_price_per_100: '6.65'
+      source_price_quantity: 100
+      source_text: QTY 200 + @ £6.65 per 100
+      source_unit_price: '0.0665'
+      source_vat_basis: exclusive
+      unit_price: '0.079800'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.233400'
+    total_price_10: '2.334000'
+    total_price_100: '10.332000'
+    total_price_1000: '79.800000'
+    total_price_10000: '798.000000'
+    unit_price_1: '0.233400'
+    unit_price_10: '0.233400'
+    unit_price_100: '0.103320'
+    unit_price_1000: '0.079800'
+    unit_price_10000: '0.079800'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Kayfast per-100 displayed prices are rounded; derived totals use captured display
+      precision
   orbitalfasteners:
     accepted_warnings: '[]'
     box_quantity: '200'
-    captured_at: '2026-10-11T00:49:51.952205+00:00'
+    captured_at: '2026-10-18T08:44:32.330965+00:00'
     catalogue_page: '78'
     currency: GBP
     description: ''
-    html_sha256: 2999f2d4dae37e68a207c95b30c13d054ea991f2bd32659e6cab7e7c2f389f67
+    html_sha256: b4d32c680f05e28cd187de8dd7c6b4e2bc35b974592ef591102a7cc3b8cf2bf4
     name: M3 x 30 Socket Cap Screw, High Tensile Grade 12.9 Self Colour, DIN 912
-    parsed_at: '2026-10-13T10:53:17.273973+00:00'
+    parsed_at: '2026-10-18T08:49:30.843981+00:00'
     parser_version: 1.2-review-policy
     review_policy: ''
     review_warnings: '[]'
     selected_by_current_filter: true
     source_vat_basis: inclusive
     status: ok
-    stock_as_of: 9th October 2026 10:01pm
+    stock_as_of: 16th October 2026 10:01pm
     stock_quantity: '3069'
     supplier: orbitalfasteners
     supplier_id: '1891054'
@@ -480,7 +622,7 @@ supplier_data:
       "vat_basis": "inclusive"}, {"quantity": 300, "total_price": "90.5040", "source_text":
       "bulk of 300 for £75.42", "source_total_price": "75.42", "source_vat_basis":
       "exclusive", "vat_basis": "inclusive"}]'
-    parsed_at: '2026-10-13T08:52:36.631834+00:00'
+    parsed_at: '2026-10-18T09:33:17.127546+00:00'
     parser_version: westfieldfasteners-1.3-allen-cap-heading
     review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
       "statement": "Include advertised package prices only; other quantities may remain

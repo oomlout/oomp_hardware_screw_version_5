@@ -16,7 +16,7 @@ supplier_data:
     html_sha256: b6ba9baea1627edf1ca0db8f770749e77c5d7f66a296924231cd0cdf48466d75
     name: M4 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
     packages: '[]'
-    parsed_at: '2026-10-13T10:55:02.156080+00:00'
+    parsed_at: '2026-10-18T08:56:40.091160+00:00'
     parser_version: boltbase-1.2-review-policy
     price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price": "0.09",
       "source_text": "Buy 5000 + Save 90% Each £0.09 £0.81", "basis": "user policy
@@ -153,10 +153,74 @@ supplier_data:
     warnings:
     - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
   dibolt:
+    accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-13T23:48:54.379632+00:00'
+    currency: GBP
+    html_sha256: c73e711a2c41f574a76ad67f88a3af04ac9865b1d112b1b9ac8084109e45da88
+    name: M4 x 65mm Socket Cap Screw High Tensile Grade 12.9 Self Colour , DIN 912
+    packages: '[]'
+    parsed_at: '2026-10-18T09:03:01.037092+00:00'
+    parser_version: dibolt-1.3-missing-price-review
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept the precision of rounded displayed per-100 prices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M4 (4mm); Length (L): 65mm; Head Diameter (D): 7mm;
+      Hexagon Depth (P): 2mm; Material: High Tensile (Grade 12.9); Finish: Self Colour;
+      Head Length (H): 4mm; Screw Thread Pitch: 0.7mm; Socket Size (J): 3mm; Manufacturing
+      Standard: 912; Material Specification: High Tensile (Grade 12.9); Fine or Coarse?:
+      Coarse; Fully Threaded: No'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
     supplier: dibolt
     supplier_id: 10161.040.065
     supplier_part_number: 10161.040.065
     supplier_website: https://dibolt.co.uk/products/m4-x-65mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_text: 1 - 199 £20.25 Per 100 Units
+      source_unit_price: '0.2025'
+      source_vat_basis: exclusive
+      unit_price: '0.243000'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_text: 200 - 999 £11.25 Per 100 Units
+      source_unit_price: '0.1125'
+      source_vat_basis: exclusive
+      unit_price: '0.135000'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 1000
+      source_text: 1,000+ £10.13 Per 100 Units
+      source_unit_price: '0.1013'
+      source_vat_basis: exclusive
+      unit_price: '0.121560'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.243000'
+    total_price_10: '2.430000'
+    total_price_100: '24.300000'
+    total_price_1000: '121.560000'
+    total_price_10000: '1215.600000'
+    unit_price_1: '0.243000'
+    unit_price_10: '0.243000'
+    unit_price_100: '0.243000'
+    unit_price_1000: '0.121560'
+    unit_price_10000: '0.121560'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Dibolt per-100 displayed prices are rounded; derived totals use captured display
+      precision
   kayfast:
     supplier: kayfast
     supplier_id: M4-x-65mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
@@ -171,7 +235,7 @@ supplier_data:
     description: ''
     html_sha256: 76c7df8d69cd4e6f919a5b0687e7d66e8918120b3833b0813e186a5e4c2b43b3
     name: M4 x 65 Socket Cap Screw, High Tensile Grade 12.9 Self Colour, DIN 912
-    parsed_at: '2026-10-13T10:53:18.651175+00:00'
+    parsed_at: '2026-10-18T08:49:32.529036+00:00'
     parser_version: 1.2-review-policy
     review_policy: ''
     review_warnings: '[]'

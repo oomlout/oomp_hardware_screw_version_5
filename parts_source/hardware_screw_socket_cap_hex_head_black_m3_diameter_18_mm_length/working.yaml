@@ -16,7 +16,7 @@ supplier_data:
     html_sha256: f96b4273db8ff76ac169680628d94d4573c802ff84b6e749545513c123a5c8ab
     name: M3 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
     packages: '[]'
-    parsed_at: '2026-10-13T10:54:53.271824+00:00'
+    parsed_at: '2026-10-18T08:56:33.059877+00:00'
     parser_version: boltbase-1.2-review-policy
     price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price": "0.03",
       "source_text": "Buy 5000 + Save 90% Each £0.03 £0.30", "basis": "user policy
@@ -152,10 +152,74 @@ supplier_data:
     warnings:
     - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
   dibolt:
+    accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-13T23:31:12.110287+00:00'
+    currency: GBP
+    html_sha256: 01ee75ce0f0a77133aeb53b7f6223be87f92745686a9efb9b7a24735d1db678a
+    name: M3 x 18mm Socket Cap Screw High Tensile Grade 12.9 Self Colour , DIN 912
+    packages: '[]'
+    parsed_at: '2026-10-18T09:02:52.285778+00:00'
+    parser_version: dibolt-1.3-missing-price-review
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept the precision of rounded displayed per-100 prices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M3 (3mm); Length (L): 18mm; Head Diameter (D): 5.5mm;
+      Hexagon Depth (P): 1.3mm; Material: High Tensile (Grade 12.9); Finish: Self
+      Colour; Head Length (H): 3mm; Screw Thread Pitch: 0.5mm; Socket Size (J): 2.5mm;
+      Manufacturing Standard: 912; Material Specification: High Tensile (Grade 12.9);
+      Fine or Coarse?: Coarse; Fully Threaded: Yes'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
     supplier: dibolt
     supplier_id: 10161.030.018
     supplier_part_number: 10161.030.018
     supplier_website: https://dibolt.co.uk/products/m3-x-18mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
+    tiers:
+    - maximum: 499
+      minimum: 1
+      source_text: 1 - 499 £6.84 Per 100 Units
+      source_unit_price: '0.0684'
+      source_vat_basis: exclusive
+      unit_price: '0.082080'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 2499
+      minimum: 500
+      source_text: 500 - 2,499 £6.16 Per 100 Units
+      source_unit_price: '0.0616'
+      source_vat_basis: exclusive
+      unit_price: '0.073920'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 2500
+      source_text: 2,500+ £5.47 Per 100 Units
+      source_unit_price: '0.0547'
+      source_vat_basis: exclusive
+      unit_price: '0.065640'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.082080'
+    total_price_10: '0.820800'
+    total_price_100: '8.208000'
+    total_price_1000: '73.920000'
+    total_price_10000: '656.400000'
+    unit_price_1: '0.082080'
+    unit_price_10: '0.082080'
+    unit_price_100: '0.082080'
+    unit_price_1000: '0.073920'
+    unit_price_10000: '0.065640'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Dibolt per-100 displayed prices are rounded; derived totals use captured display
+      precision
 svg_details:
   diameter_mm: 3.0
   drive_style: hex_head
