@@ -1,0 +1,59 @@
+schema_version: 1
+standard: User-selected miniature self-tapping visualization
+title: Phillips pan-head self-tapper from supplied diagram and visual estimates
+units: mm
+head_style: pan
+length_convention: under_head
+checked_on: '2026-10-13'
+sources:
+- title: User-supplied eBay dimensional diagram, image 6
+  url: https://www.ebay.co.uk/itm/377271086738
+  local_reference: references/ebay_377271086738_dimensions_full.webp
+  use: Diameter, head diameter and height; pitches at 1.4, 1.7, 2 and 2.2 mm.
+- title: User modelling instructions, 2026-10-13
+  url: references/ebay_377271086738_dimensions_full.webp
+  use: User specifies 0.3 mm pitch at 1 and 1.2 mm, corrects 2.3 to 2.2 mm,
+    confirms thread to the head, and authorizes image-based estimates for core,
+    thread shape, point and a reasonable Phillips recess.
+visual_assumptions:
+  core_diameter_fraction: 0.65
+  point_length_diameters: 1.0
+  thread_flank_angle_deg: 60
+  thread_crest_fraction: 0.02
+  thread_runout_pitch_fraction: 0.12
+  underhead_fillet_diameters: 0.015
+  crown_sag_height_fraction: 0.55
+  crown_flat_diameter_head_fraction: 0.35
+  recess_diameter_head_fraction: 0.52
+  recess_depth_height_fraction: 0.60
+  recess_wing_width_head_fraction: 0.16
+  recess_core_width_head_fraction: 0.18
+modelling_choices:
+  identity: User-authorized visual approximation of the supplied pan-head self-tapper;
+    black catalogue finish retained. No DIN, ISO or manufacturer conformity claimed.
+  dimensions: Use the supplied head dimensions and pitches; 1 and 1.2 mm use the
+    user's explicit 0.3 mm pitch. All lengths are measured beneath the head.
+  thread: Single-start right-hand helix, estimated core 0.65d, 60 degree flanks,
+    and narrow 0.02P crest land. Core and profile are visual estimates, not metric threads.
+  thread_coverage: Full thread to the head, with no smooth neck or length-dependent partial thread.
+  runout: A short 0.12P blend joins the thread to a 0.015d head fillet; no plain shank.
+  tip: Estimated conical point one diameter long, capped at 60% of available
+    shaft for unusually short edits. Thread and core taper together; no cutting flutes.
+  head: Estimated spherical crown uses up to 55% of head height, with a cylindrical
+    skirt and a small 35%-head-diameter crown land to preserve the specified height around the recess.
+  recess: Estimated Phillips cross spans 52% of head diameter and penetrates 60%
+    of head height; wing/core widths 16%/18% of head diameter, tapered walls and floor.
+  display: Smooth pointed nominal thread envelope with the same recessed pan head.
+  certification: Visualization only; estimated features are not manufacturing dimensions.
+defaults: &defaults
+  dimension_status: image_based_visualization
+  thread_profile: self_tapping_visualization
+  thread_length_reference_mm: null
+  partial_thread_from_length_mm: null
+sizes:
+  '1': {<<: *defaults, pitch_mm: 0.3, head_diameter_mm: 1.75, head_height_mm: 0.65}
+  '1.2': {<<: *defaults, pitch_mm: 0.3, head_diameter_mm: 1.90, head_height_mm: 0.60}
+  '1.4': {<<: *defaults, pitch_mm: 0.5, head_diameter_mm: 2.30, head_height_mm: 0.80}
+  '1.7': {<<: *defaults, pitch_mm: 0.5, head_diameter_mm: 3.10, head_height_mm: 1.00}
+  '2': {<<: *defaults, pitch_mm: 0.6, head_diameter_mm: 3.40, head_height_mm: 1.30}
+  '2.2': {<<: *defaults, pitch_mm: 0.8, head_diameter_mm: 3.80, head_height_mm: 1.50}

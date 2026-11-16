@@ -1,0 +1,1436 @@
+<!-- oomp-documentation:start -->
+# Hardware Screw Countersunk Hex Head Black M3 Diameter 4 Mm Length
+
+## Summary
+
+OOMP catalogue record for Hardware Screw Countersunk Hex Head Black M3 Diameter 4 Mm Length. Use the metadata to identify this variant and the part folder to inspect its available assets.
+
+![Catalogue preview of Hardware Screw Countersunk Hex Head Black M3 Diameter 4 Mm Length](three_d_model/render_product_low.png)
+
+Catalogue illustration; consult the source dimensions and datasheet for specification.
+
+## Details
+
+**OOMP folder ID:** `hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length`
+
+[Catalogue](../../README.md) · [Part metadata](working.yaml)
+
+| Field | Value |
+| --- | --- |
+| id | hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length |
+| md5_6 | ad8f20 |
+| md5_6_alpha | 6rsio |
+| oomp_key | oomp_hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length |
+| taxonomy_1 | hardware |
+| taxonomy_2 | screw |
+| taxonomy_3 | countersunk |
+| taxonomy_4 | hex_head |
+| taxonomy_5 | black |
+| taxonomy_6 | m3_diameter |
+| taxonomy_7 | 4_mm_length |
+
+<details>
+<summary>Full part metadata</summary>
+
+```yaml
+bip_39_2_word_array:
+- pulse
+- jungle
+bip_39_2_word_no_space: pulsejungle
+bip_39_2_word_space: pulse jungle
+bip_39_2_word_underscore: pulse_jungle
+bip_39_3_word_array:
+- pulse
+- jungle
+- certain
+bip_39_3_word_no_space: pulsejunglecertain
+bip_39_3_word_space: pulse jungle certain
+bip_39_3_word_underscore: pulse_jungle_certain
+bip_39_full_array:
+- pulse
+- jungle
+- certain
+- pave
+- device
+- nose
+- pause
+- flight
+- frame
+- science
+- loop
+- access
+bip_39_full_no_space: pulsejunglecertainpavedevicenosepauseflightframescienceloopaccess
+bip_39_full_space: pulse jungle certain pave device nose pause flight frame science
+  loop access
+bip_39_full_underscore: pulse_jungle_certain_pave_device_nose_pause_flight_frame_science_loop_access
+directory: parts/hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length
+generate_stl: true
+id: hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length
+id_no_class: hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length
+id_no_size: hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length
+id_no_type: hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length
+label_drawer: &id001
+  bip39: pulse jungle certain
+  bip39_size: 2.35
+  code: SC
+  description: Countersunk screw / M3 / 4 mm / Hex socket / Black
+  detail_lines:
+  - Hex socket / Black
+  detail_size: 2.05
+  detail_y: 21.1
+  diagram: <path d="M2 2.5L6 5V9L2 11.5Z M2 6H3.5V8H2"/><path d="M6 5H18V9H6"/><path
+    d="M7 5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+  drive_symbol: <circle cx="5" cy="5" r="4.5" fill="#ffffff"/><path d="M5 1L8.46 3V7L5
+    9L1.54 7V3Z" transform="translate(1.5 1.5) scale(0.7)" fill="#000000"/>
+  length: '4'
+  length_size: 7.8
+  length_x: 20.191353125
+  name: Countersunk screw
+  name_lines:
+  - Countersunk
+  - screw
+  name_size: 3.2
+  thread: M3
+  thread_size: 6.5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length
+md5: ad8f2096d0c3cb2ce85ac75c981e0f80
+md5_10: ad8f2096d0
+md5_10_upper: AD8F2096D0
+md5_5: ad8f2
+md5_5_upper: AD8F2
+md5_6: ad8f20
+md5_6_alpha: 6rsio
+md5_6_alpha_upper: 6RSIO
+md5_6_upper: AD8F20
+name: Hardware Screw Countersunk Hex Head Black M3 Diameter 4 Mm Length
+name_no_class: Hardware Screw Countersunk Hex Head Black M3 Diameter 4 Mm Length
+name_no_size: Hardware Screw Countersunk Hex Head Black M3 Diameter 4 Mm Length
+name_no_type: Hardware Screw Countersunk Hex Head Black M3 Diameter 4 Mm Length
+name_proper: Hardware Screw Countersunk Hex Head Black M3 Diameter 4 Mm Length
+name_space: hardware screw countersunk hex head black m3 diameter 4 mm length
+name_upper: HARDWARE SCREW COUNTERSUNK HEX HEAD BLACK M3 DIAMETER 4 MM LENGTH
+oobb_details:
+  drive_style: hex_head
+  length: 4_mm_length
+  oobb_name: screw
+  screw_colour: black
+  screw_style: countersunk
+  thread_size: m3_diameter
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      directory: parts\hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length
+      name: hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length
+      name_proper: Hardware Screw Countersunk Hex Head Black M3 Diameter 4 Mm Length
+      name_space: hardware screw countersunk hex head black m3 diameter 4 mm length
+      name_upper: HARDWARE SCREW COUNTERSUNK HEX HEAD BLACK M3 DIAMETER 4 MM LENGTH
+      oobb_details:
+        drive_style: hex_head
+        length: 4_mm_length
+        oobb_name: screw
+        screw_colour: black
+        screw_style: countersunk
+        thread_size: m3_diameter
+      svg_details:
+        diameter_mm: 3.0
+        drive_style: hex_head
+        drive_symbol_gap_mm: 1.7999999999999998
+        head_diameter_mm: 6.0
+        head_rim_mm: 0.22499999999999998
+        length_mm: 4.0
+        screw_style: countersunk
+        socket_depth_mm: 0.9750000000000001
+        socket_width_mm: 1.9500000000000002
+        stylesheet: project_bolt
+        svg_name: screw_diagrams
+        thread_pitch_mm: 0.5
+        variants:
+          plain: diagram_plain.svg
+          solid: diagram_solid.svg
+          threaded: diagram_threaded.svg
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: screw
+      taxonomy_3: countersunk
+      taxonomy_4: hex_head
+      taxonomy_5: black
+      taxonomy_6: m3_diameter
+      taxonomy_7: 4_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      three_d_model_details:
+        checked_on: '2026-10-11'
+        coordinate_system:
+          axis: +Z towards head
+          glb_units: metres
+          glb_up_axis: Y
+          head_top_z_mm: 4.0
+          origin: tip centre
+          stl_units: mm
+        dimension_status: standard_dimensions
+        dimensional_specification: DIN 7991:1986-01
+        generator: din_7991_countersunk
+        length_status: supplier_short_or_extended_length
+        material:
+          base_colour_srgb:
+          - 0.205
+          - 0.218
+          - 0.235
+          coat_roughness: 0.28
+          coat_weight: 0.08
+          metallic: 0.8
+          microtexture_height_um: 0.8
+          microtexture_spacing_mm: 0.025
+          name: Black oxide steel
+          note: Visual finish approximation; catalogue specifies colour only.
+          roughness: 0.31
+          roughness_variation: 0.045
+        model_formats:
+        - stl
+        - glb
+        modelling_choices:
+          certification: Standards-based nominal catalogue geometry, not a tolerance-gauged
+            manufacturing certification.
+          dimension_selection: Nominal/max head and shaft, midpoint socket limits
+            for M3/M4.
+          display: Smooth nominal-diameter thread envelope; lower tessellation, same
+            head/recess/end dimensions.
+          head_rim: Approximate DIN c reference reduced by r*tan(22.5 degrees) so
+            the fillet fits within k max.
+          markings: 'Manufacturer identity and property-class stamps omitted: catalogue
+            does not identify them.'
+          runout: One pitch taper to nominal shaft diameter; maximum incomplete thread
+            is 2P.
+          size_note: DIN 7991:1986 dimensional row.
+          socket: Flat bottom hex socket with permissible circular mouth countersink
+            within hex corners.
+          thread: ISO metric nominal external profile; rounded root R=H/6; no ISO
+            965 tolerance offsets.
+          tip: 45 degree tip chamfer of P/2; selected end form under DIN 78.
+        output_folder: three_d_model
+        parameters:
+          countersink_angle_deg: 90.0
+          diameter_mm: 3.0
+          fillet_start_z_mm: 2.3
+          finish: black
+          grip_length_mm: 2.2
+          handedness: right
+          head_diameter_mm: 6.0
+          head_height_mm: 1.7
+          head_rim_mm: 0.15857864376269046
+          head_rim_reference_mm: 0.2
+          hex_key_mm: 2.0
+          length_mm: 4.0
+          partial_thread_from_length_mm: 25
+          pitch_mm: 0.5
+          shank_length_min_mm: 0
+          socket_across_flats_mm: 2.06
+          socket_depth_mm: 1.075
+          thread_end_z_mm: 2.3
+          thread_flank_angle_deg: 60.0
+          thread_length_mm: 1.7999999999999998
+          thread_length_reference_mm: 12
+          thread_minor_diameter_mm: 2.3865653389860224
+          thread_mode: full_to_head
+          thread_pitch_diameter_mm: 2.6752404735808355
+          thread_root_radius_mm: 0.07216878364870322
+          thread_runout_mm: 0.5
+          thread_starts: 1
+          tip_chamfer_mm: 0.25
+          underhead_fillet_mm: 0.1
+        renders:
+          high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+          low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+          product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+          product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+        schema_version: 1
+        sources:
+        - title: DIN 7991 January 1986, pages 1–3 (standard scan)
+          url: https://www.finesz.com/pic/DIN7991.pdf
+          use: Scope, head geometry, dimensional limits and shank/grip length table.
+        - title: Böllhoff DIN 7991 product dimensional sheet
+          url: https://eshop.boellhoff.de/out/media/pdf/DIN_7991_Edelstahl_A4___en.pdf
+          use: Independent supplier check of M3/M4 dimensions.
+        - title: Newstar Fastenings M2 x 4 DIN 7991 commercial extension
+          url: https://www.newstarfastenings.com/en-gb/products/m2-x-4-socket-countersunk-din-7991-a4-stainless-steel
+          use: M2 pitch, head diameter/height, hex key and minimum penetration.
+        - title: Bossard BN 20 supplier drawing and size table
+          url: https://www.laskakit.cz/user/related_files/30112021090237-din7991ocel.pdf
+          use: Black M2 extension, M3 x 5/x 6/x 35 and M4 x 6 commercial lengths;
+            M2 explicitly outside DIN scope.
+        - title: Newstar Fastenings M3 x 4 commercial short screw
+          url: https://www.newstarfastenings.com/en-gb/products/m3-x-4-socket-countersunk-din-7991-a4-stainless-steel
+          use: Confirms standard M3 head, key and pitch for the nonstandard 4 mm overall
+            length.
+        - title: ISO 68-1 external metric thread profile
+          url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+          use: 60 degree metric thread basic profile.
+        standard: DIN 7991:1986-01
+        standard_lengths_mm:
+        - 8
+        - 10
+        - 12
+        - 16
+        - 20
+        - 25
+        - 30
+        standard_limits:
+          countersink_angle_deg:
+          - 90
+          - 92
+          head_diameter_mm:
+          - 5.7
+          - 6.0
+          head_height_max_mm: 1.7
+          shank_diameter_mm:
+          - 2.86
+          - 3.0
+          socket_across_corners_min_mm: 2.3
+          socket_across_flats_mm:
+          - 2.02
+          - 2.1
+          socket_depth_mm:
+          - 0.95
+          - 1.2
+          underhead_fillet_min_mm: 0.1
+        studio:
+          adaptive_threshold: 0.015
+          denoise: true
+          device: auto
+          engine: cycles
+          exposure: 0.0
+          floor_colour_srgb:
+          - 0.93
+          - 0.935
+          - 0.94
+          floor_roughness: 0.55
+          framing_margin: 0.13
+          high_samples: 160
+          lights:
+          - colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+          - colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+          - colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+          low_samples: 48
+          poses:
+            isometric:
+              camera_eye:
+              - 1
+              - -1
+              - 1
+              orientation: tip down, head up
+              projection: orthographic
+            product:
+              camera_eye:
+              - -6
+              - -10
+              - 6
+              orientation: lying on side, head to left
+              projection: orthographic
+              support: Head rim and threaded shaft rest on ground; solve tilt from
+                mesh.
+              yaw_degrees: -12.0
+          seed: 7991
+          view_transform: AgX
+          world_colour:
+          - 0.78
+          - 0.82
+          - 0.9
+          world_strength: 0.35
+        units: mm
+        variants:
+          display:
+            angular_segments: 32
+            fillet_segments: 4
+            samples_per_pitch: 1
+          full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+        views:
+        - isometric
+        - front
+        - back
+        - left
+        - right
+        - top
+        - bottom
+      url_chat: https://chatgpt.com/c/69f56267-d504-83eb-a647-d6d9fcb29001
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_2:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      directory: parts\hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length
+      name: hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length
+      name_proper: Hardware Screw Countersunk Hex Head Black M3 Diameter 4 Mm Length
+      name_space: hardware screw countersunk hex head black m3 diameter 4 mm length
+      name_upper: HARDWARE SCREW COUNTERSUNK HEX HEAD BLACK M3 DIAMETER 4 MM LENGTH
+      oobb_details:
+        drive_style: hex_head
+        length: 4_mm_length
+        oobb_name: screw
+        screw_colour: black
+        screw_style: countersunk
+        thread_size: m3_diameter
+      oomlout_ai_roboclick_1:
+        actions:
+        - command: text_jinja_template
+          convert_to_pdf: false
+          convert_to_png: false
+          dict_data:
+            directory: parts\hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length
+            name: hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length
+            name_proper: Hardware Screw Countersunk Hex Head Black M3 Diameter 4 Mm
+              Length
+            name_space: hardware screw countersunk hex head black m3 diameter 4 mm
+              length
+            name_upper: HARDWARE SCREW COUNTERSUNK HEX HEAD BLACK M3 DIAMETER 4 MM
+              LENGTH
+            oobb_details:
+              drive_style: hex_head
+              length: 4_mm_length
+              oobb_name: screw
+              screw_colour: black
+              screw_style: countersunk
+              thread_size: m3_diameter
+            svg_details:
+              diameter_mm: 3.0
+              drive_style: hex_head
+              drive_symbol_gap_mm: 1.7999999999999998
+              head_diameter_mm: 6.0
+              head_rim_mm: 0.22499999999999998
+              length_mm: 4.0
+              screw_style: countersunk
+              socket_depth_mm: 0.9750000000000001
+              socket_width_mm: 1.9500000000000002
+              stylesheet: project_bolt
+              svg_name: screw_diagrams
+              thread_pitch_mm: 0.5
+              variants:
+                plain: diagram_plain.svg
+                solid: diagram_solid.svg
+                threaded: diagram_threaded.svg
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: countersunk
+            taxonomy_4: hex_head
+            taxonomy_5: black
+            taxonomy_6: m3_diameter
+            taxonomy_7: 4_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+              checked_on: '2026-10-11'
+              coordinate_system:
+                axis: +Z towards head
+                glb_units: metres
+                glb_up_axis: Y
+                head_top_z_mm: 4.0
+                origin: tip centre
+                stl_units: mm
+              dimension_status: standard_dimensions
+              dimensional_specification: DIN 7991:1986-01
+              generator: din_7991_countersunk
+              length_status: supplier_short_or_extended_length
+              material:
+                base_colour_srgb:
+                - 0.205
+                - 0.218
+                - 0.235
+                coat_roughness: 0.28
+                coat_weight: 0.08
+                metallic: 0.8
+                microtexture_height_um: 0.8
+                microtexture_spacing_mm: 0.025
+                name: Black oxide steel
+                note: Visual finish approximation; catalogue specifies colour only.
+                roughness: 0.31
+                roughness_variation: 0.045
+              model_formats:
+              - stl
+              - glb
+              modelling_choices:
+                certification: Standards-based nominal catalogue geometry, not a tolerance-gauged
+                  manufacturing certification.
+                dimension_selection: Nominal/max head and shaft, midpoint socket limits
+                  for M3/M4.
+                display: Smooth nominal-diameter thread envelope; lower tessellation,
+                  same head/recess/end dimensions.
+                head_rim: Approximate DIN c reference reduced by r*tan(22.5 degrees)
+                  so the fillet fits within k max.
+                markings: 'Manufacturer identity and property-class stamps omitted:
+                  catalogue does not identify them.'
+                runout: One pitch taper to nominal shaft diameter; maximum incomplete
+                  thread is 2P.
+                size_note: DIN 7991:1986 dimensional row.
+                socket: Flat bottom hex socket with permissible circular mouth countersink
+                  within hex corners.
+                thread: ISO metric nominal external profile; rounded root R=H/6; no
+                  ISO 965 tolerance offsets.
+                tip: 45 degree tip chamfer of P/2; selected end form under DIN 78.
+              output_folder: three_d_model
+              parameters:
+                countersink_angle_deg: 90.0
+                diameter_mm: 3.0
+                fillet_start_z_mm: 2.3
+                finish: black
+                grip_length_mm: 2.2
+                handedness: right
+                head_diameter_mm: 6.0
+                head_height_mm: 1.7
+                head_rim_mm: 0.15857864376269046
+                head_rim_reference_mm: 0.2
+                hex_key_mm: 2.0
+                length_mm: 4.0
+                partial_thread_from_length_mm: 25
+                pitch_mm: 0.5
+                shank_length_min_mm: 0
+                socket_across_flats_mm: 2.06
+                socket_depth_mm: 1.075
+                thread_end_z_mm: 2.3
+                thread_flank_angle_deg: 60.0
+                thread_length_mm: 1.7999999999999998
+                thread_length_reference_mm: 12
+                thread_minor_diameter_mm: 2.3865653389860224
+                thread_mode: full_to_head
+                thread_pitch_diameter_mm: 2.6752404735808355
+                thread_root_radius_mm: 0.07216878364870322
+                thread_runout_mm: 0.5
+                thread_starts: 1
+                tip_chamfer_mm: 0.25
+                underhead_fillet_mm: 0.1
+              renders:
+                high:
+                  file: render_high.png
+                  pixels: 2048
+                  variant: full
+                  view: isometric
+                low:
+                  file: render_low.png
+                  pixels: 512
+                  variant: display
+                  view: isometric
+                product_high:
+                  file: render_product_high.png
+                  pixels: 2048
+                  variant: full
+                  view: product
+                product_low:
+                  file: render_product_low.png
+                  pixels: 512
+                  variant: display
+                  view: product
+              schema_version: 1
+              sources:
+              - title: DIN 7991 January 1986, pages 1–3 (standard scan)
+                url: https://www.finesz.com/pic/DIN7991.pdf
+                use: Scope, head geometry, dimensional limits and shank/grip length
+                  table.
+              - title: Böllhoff DIN 7991 product dimensional sheet
+                url: https://eshop.boellhoff.de/out/media/pdf/DIN_7991_Edelstahl_A4___en.pdf
+                use: Independent supplier check of M3/M4 dimensions.
+              - title: Newstar Fastenings M2 x 4 DIN 7991 commercial extension
+                url: https://www.newstarfastenings.com/en-gb/products/m2-x-4-socket-countersunk-din-7991-a4-stainless-steel
+                use: M2 pitch, head diameter/height, hex key and minimum penetration.
+              - title: Bossard BN 20 supplier drawing and size table
+                url: https://www.laskakit.cz/user/related_files/30112021090237-din7991ocel.pdf
+                use: Black M2 extension, M3 x 5/x 6/x 35 and M4 x 6 commercial lengths;
+                  M2 explicitly outside DIN scope.
+              - title: Newstar Fastenings M3 x 4 commercial short screw
+                url: https://www.newstarfastenings.com/en-gb/products/m3-x-4-socket-countersunk-din-7991-a4-stainless-steel
+                use: Confirms standard M3 head, key and pitch for the nonstandard
+                  4 mm overall length.
+              - title: ISO 68-1 external metric thread profile
+                url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                use: 60 degree metric thread basic profile.
+              standard: DIN 7991:1986-01
+              standard_lengths_mm:
+              - 8
+              - 10
+              - 12
+              - 16
+              - 20
+              - 25
+              - 30
+              standard_limits:
+                countersink_angle_deg:
+                - 90
+                - 92
+                head_diameter_mm:
+                - 5.7
+                - 6.0
+                head_height_max_mm: 1.7
+                shank_diameter_mm:
+                - 2.86
+                - 3.0
+                socket_across_corners_min_mm: 2.3
+                socket_across_flats_mm:
+                - 2.02
+                - 2.1
+                socket_depth_mm:
+                - 0.95
+                - 1.2
+                underhead_fillet_min_mm: 0.1
+              studio:
+                adaptive_threshold: 0.015
+                denoise: true
+                device: auto
+                engine: cycles
+                exposure: 0.0
+                floor_colour_srgb:
+                - 0.93
+                - 0.935
+                - 0.94
+                floor_roughness: 0.55
+                framing_margin: 0.13
+                high_samples: 160
+                lights:
+                - colour:
+                  - 1.0
+                  - 0.96
+                  - 0.9
+                  height: 5.0
+                  name: Key softbox
+                  position:
+                  - -3
+                  - -4
+                  - 6
+                  power: 650.0
+                  width: 4.0
+                - colour:
+                  - 0.9
+                  - 0.95
+                  - 1.0
+                  height: 4.0
+                  name: Fill softbox
+                  position:
+                  - 4
+                  - -1
+                  - 3
+                  power: 330.0
+                  width: 3.0
+                - colour:
+                  - 1.0
+                  - 1.0
+                  - 1.0
+                  height: 5.0
+                  name: Rim strip
+                  position:
+                  - 1
+                  - 4
+                  - 4
+                  power: 850.0
+                  width: 1.2
+                low_samples: 48
+                poses:
+                  isometric:
+                    camera_eye:
+                    - 1
+                    - -1
+                    - 1
+                    orientation: tip down, head up
+                    projection: orthographic
+                  product:
+                    camera_eye:
+                    - -6
+                    - -10
+                    - 6
+                    orientation: lying on side, head to left
+                    projection: orthographic
+                    support: Head rim and threaded shaft rest on ground; solve tilt
+                      from mesh.
+                    yaw_degrees: -12.0
+                seed: 7991
+                view_transform: AgX
+                world_colour:
+                - 0.78
+                - 0.82
+                - 0.9
+                world_strength: 0.35
+              units: mm
+              variants:
+                display:
+                  angular_segments: 32
+                  fillet_segments: 4
+                  samples_per_pitch: 1
+                full:
+                  angular_segments: 96
+                  fillet_segments: 12
+                  samples_per_pitch: 32
+              views:
+              - isometric
+              - front
+              - back
+              - left
+              - right
+              - top
+              - bottom
+            url_chat: https://chatgpt.com/c/69f56267-d504-83eb-a647-d6d9fcb29001
+          dict_data_files: {}
+          dict_data_files_exists: {}
+          file_output: label_oomp.svg
+          file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+          search_and_replace: []
+        file_test: label_oomp.pdf
+        retries_until_complete: 0
+      svg_details:
+        diameter_mm: 3.0
+        drive_style: hex_head
+        drive_symbol_gap_mm: 1.7999999999999998
+        head_diameter_mm: 6.0
+        head_rim_mm: 0.22499999999999998
+        length_mm: 4.0
+        screw_style: countersunk
+        socket_depth_mm: 0.9750000000000001
+        socket_width_mm: 1.9500000000000002
+        stylesheet: project_bolt
+        svg_name: screw_diagrams
+        thread_pitch_mm: 0.5
+        variants:
+          plain: diagram_plain.svg
+          solid: diagram_solid.svg
+          threaded: diagram_threaded.svg
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: screw
+      taxonomy_3: countersunk
+      taxonomy_4: hex_head
+      taxonomy_5: black
+      taxonomy_6: m3_diameter
+      taxonomy_7: 4_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      three_d_model_details:
+        checked_on: '2026-10-11'
+        coordinate_system:
+          axis: +Z towards head
+          glb_units: metres
+          glb_up_axis: Y
+          head_top_z_mm: 4.0
+          origin: tip centre
+          stl_units: mm
+        dimension_status: standard_dimensions
+        dimensional_specification: DIN 7991:1986-01
+        generator: din_7991_countersunk
+        length_status: supplier_short_or_extended_length
+        material:
+          base_colour_srgb:
+          - 0.205
+          - 0.218
+          - 0.235
+          coat_roughness: 0.28
+          coat_weight: 0.08
+          metallic: 0.8
+          microtexture_height_um: 0.8
+          microtexture_spacing_mm: 0.025
+          name: Black oxide steel
+          note: Visual finish approximation; catalogue specifies colour only.
+          roughness: 0.31
+          roughness_variation: 0.045
+        model_formats:
+        - stl
+        - glb
+        modelling_choices:
+          certification: Standards-based nominal catalogue geometry, not a tolerance-gauged
+            manufacturing certification.
+          dimension_selection: Nominal/max head and shaft, midpoint socket limits
+            for M3/M4.
+          display: Smooth nominal-diameter thread envelope; lower tessellation, same
+            head/recess/end dimensions.
+          head_rim: Approximate DIN c reference reduced by r*tan(22.5 degrees) so
+            the fillet fits within k max.
+          markings: 'Manufacturer identity and property-class stamps omitted: catalogue
+            does not identify them.'
+          runout: One pitch taper to nominal shaft diameter; maximum incomplete thread
+            is 2P.
+          size_note: DIN 7991:1986 dimensional row.
+          socket: Flat bottom hex socket with permissible circular mouth countersink
+            within hex corners.
+          thread: ISO metric nominal external profile; rounded root R=H/6; no ISO
+            965 tolerance offsets.
+          tip: 45 degree tip chamfer of P/2; selected end form under DIN 78.
+        output_folder: three_d_model
+        parameters:
+          countersink_angle_deg: 90.0
+          diameter_mm: 3.0
+          fillet_start_z_mm: 2.3
+          finish: black
+          grip_length_mm: 2.2
+          handedness: right
+          head_diameter_mm: 6.0
+          head_height_mm: 1.7
+          head_rim_mm: 0.15857864376269046
+          head_rim_reference_mm: 0.2
+          hex_key_mm: 2.0
+          length_mm: 4.0
+          partial_thread_from_length_mm: 25
+          pitch_mm: 0.5
+          shank_length_min_mm: 0
+          socket_across_flats_mm: 2.06
+          socket_depth_mm: 1.075
+          thread_end_z_mm: 2.3
+          thread_flank_angle_deg: 60.0
+          thread_length_mm: 1.7999999999999998
+          thread_length_reference_mm: 12
+          thread_minor_diameter_mm: 2.3865653389860224
+          thread_mode: full_to_head
+          thread_pitch_diameter_mm: 2.6752404735808355
+          thread_root_radius_mm: 0.07216878364870322
+          thread_runout_mm: 0.5
+          thread_starts: 1
+          tip_chamfer_mm: 0.25
+          underhead_fillet_mm: 0.1
+        renders:
+          high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+          low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+          product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+          product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+        schema_version: 1
+        sources:
+        - title: DIN 7991 January 1986, pages 1–3 (standard scan)
+          url: https://www.finesz.com/pic/DIN7991.pdf
+          use: Scope, head geometry, dimensional limits and shank/grip length table.
+        - title: Böllhoff DIN 7991 product dimensional sheet
+          url: https://eshop.boellhoff.de/out/media/pdf/DIN_7991_Edelstahl_A4___en.pdf
+          use: Independent supplier check of M3/M4 dimensions.
+        - title: Newstar Fastenings M2 x 4 DIN 7991 commercial extension
+          url: https://www.newstarfastenings.com/en-gb/products/m2-x-4-socket-countersunk-din-7991-a4-stainless-steel
+          use: M2 pitch, head diameter/height, hex key and minimum penetration.
+        - title: Bossard BN 20 supplier drawing and size table
+          url: https://www.laskakit.cz/user/related_files/30112021090237-din7991ocel.pdf
+          use: Black M2 extension, M3 x 5/x 6/x 35 and M4 x 6 commercial lengths;
+            M2 explicitly outside DIN scope.
+        - title: Newstar Fastenings M3 x 4 commercial short screw
+          url: https://www.newstarfastenings.com/en-gb/products/m3-x-4-socket-countersunk-din-7991-a4-stainless-steel
+          use: Confirms standard M3 head, key and pitch for the nonstandard 4 mm overall
+            length.
+        - title: ISO 68-1 external metric thread profile
+          url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+          use: 60 degree metric thread basic profile.
+        standard: DIN 7991:1986-01
+        standard_lengths_mm:
+        - 8
+        - 10
+        - 12
+        - 16
+        - 20
+        - 25
+        - 30
+        standard_limits:
+          countersink_angle_deg:
+          - 90
+          - 92
+          head_diameter_mm:
+          - 5.7
+          - 6.0
+          head_height_max_mm: 1.7
+          shank_diameter_mm:
+          - 2.86
+          - 3.0
+          socket_across_corners_min_mm: 2.3
+          socket_across_flats_mm:
+          - 2.02
+          - 2.1
+          socket_depth_mm:
+          - 0.95
+          - 1.2
+          underhead_fillet_min_mm: 0.1
+        studio:
+          adaptive_threshold: 0.015
+          denoise: true
+          device: auto
+          engine: cycles
+          exposure: 0.0
+          floor_colour_srgb:
+          - 0.93
+          - 0.935
+          - 0.94
+          floor_roughness: 0.55
+          framing_margin: 0.13
+          high_samples: 160
+          lights:
+          - colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+          - colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+          - colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+          low_samples: 48
+          poses:
+            isometric:
+              camera_eye:
+              - 1
+              - -1
+              - 1
+              orientation: tip down, head up
+              projection: orthographic
+            product:
+              camera_eye:
+              - -6
+              - -10
+              - 6
+              orientation: lying on side, head to left
+              projection: orthographic
+              support: Head rim and threaded shaft rest on ground; solve tilt from
+                mesh.
+              yaw_degrees: -12.0
+          seed: 7991
+          view_transform: AgX
+          world_colour:
+          - 0.78
+          - 0.82
+          - 0.9
+          world_strength: 0.35
+        units: mm
+        variants:
+          display:
+            angular_segments: 32
+            fillet_segments: 4
+            samples_per_pitch: 1
+          full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+        views:
+        - isometric
+        - front
+        - back
+        - left
+        - right
+        - top
+        - bottom
+      url_chat: https://chatgpt.com/c/69f56267-d504-83eb-a647-d6d9fcb29001
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_bolt_image.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_bolt_image.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_3:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    description: label_drawer
+    dict_data:
+      label_drawer: *id001
+    file_output: label_drawer.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+  file_test: ''
+oomp_key: oomp_hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+svg_details:
+  diameter_mm: 3.0
+  drive_style: hex_head
+  drive_symbol_gap_mm: 1.7999999999999998
+  head_diameter_mm: 6.0
+  head_rim_mm: 0.22499999999999998
+  length_mm: 4.0
+  screw_style: countersunk
+  socket_depth_mm: 0.9750000000000001
+  socket_width_mm: 1.9500000000000002
+  stylesheet: project_bolt
+  svg_name: screw_diagrams
+  thread_pitch_mm: 0.5
+  variants:
+    plain: diagram_plain.svg
+    solid: diagram_solid.svg
+    threaded: diagram_threaded.svg
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: screw
+taxonomy_2_capital: Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: sc
+taxonomy_2_length_3: scr
+taxonomy_2_length_4: scre
+taxonomy_2_length_5: screw
+taxonomy_2_upper: SCREW
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: SC
+taxonomy_2_upper_length_3: SCR
+taxonomy_2_upper_length_4: SCRE
+taxonomy_2_upper_length_5: SCREW
+taxonomy_3: countersunk
+taxonomy_3_capital: Countersunk
+taxonomy_3_first_letter: c
+taxonomy_3_first_letter_upper: C
+taxonomy_3_length_1: c
+taxonomy_3_length_2: co
+taxonomy_3_length_3: cou
+taxonomy_3_length_4: coun
+taxonomy_3_length_5: count
+taxonomy_3_upper: COUNTERSUNK
+taxonomy_3_upper_length_1: C
+taxonomy_3_upper_length_2: CO
+taxonomy_3_upper_length_3: COU
+taxonomy_3_upper_length_4: COUN
+taxonomy_3_upper_length_5: COUNT
+taxonomy_4: hex_head
+taxonomy_4_capital: Hex Head
+taxonomy_4_first_letter: h
+taxonomy_4_first_letter_upper: H
+taxonomy_4_length_1: h
+taxonomy_4_length_2: he
+taxonomy_4_length_3: hex
+taxonomy_4_length_4: hex_
+taxonomy_4_length_5: hex_h
+taxonomy_4_upper: HEX_HEAD
+taxonomy_4_upper_length_1: H
+taxonomy_4_upper_length_2: HE
+taxonomy_4_upper_length_3: HEX
+taxonomy_4_upper_length_4: HEX_
+taxonomy_4_upper_length_5: HEX_H
+taxonomy_5: black
+taxonomy_5_capital: Black
+taxonomy_5_first_letter: b
+taxonomy_5_first_letter_upper: B
+taxonomy_5_length_1: b
+taxonomy_5_length_2: bl
+taxonomy_5_length_3: bla
+taxonomy_5_length_4: blac
+taxonomy_5_length_5: black
+taxonomy_5_upper: BLACK
+taxonomy_5_upper_length_1: B
+taxonomy_5_upper_length_2: BL
+taxonomy_5_upper_length_3: BLA
+taxonomy_5_upper_length_4: BLAC
+taxonomy_5_upper_length_5: BLACK
+taxonomy_6: m3_diameter
+taxonomy_6_capital: M3 Diameter
+taxonomy_6_first_letter: m
+taxonomy_6_first_letter_upper: M
+taxonomy_6_length_1: m
+taxonomy_6_length_2: m3
+taxonomy_6_length_3: m3_
+taxonomy_6_length_4: m3_d
+taxonomy_6_length_5: m3_di
+taxonomy_6_upper: M3_DIAMETER
+taxonomy_6_upper_length_1: M
+taxonomy_6_upper_length_2: M3
+taxonomy_6_upper_length_3: M3_
+taxonomy_6_upper_length_4: M3_D
+taxonomy_6_upper_length_5: M3_DI
+taxonomy_7: 4_mm_length
+taxonomy_7_capital: 4 mm Length
+taxonomy_7_first_letter: '4'
+taxonomy_7_first_letter_upper: '4'
+taxonomy_7_length_1: '4'
+taxonomy_7_length_2: '4_'
+taxonomy_7_length_3: 4_m
+taxonomy_7_length_4: 4_mm
+taxonomy_7_length_5: 4_mm_
+taxonomy_7_upper: 4_MM_LENGTH
+taxonomy_7_upper_length_1: '4'
+taxonomy_7_upper_length_2: '4_'
+taxonomy_7_upper_length_3: 4_M
+taxonomy_7_upper_length_4: 4_MM
+taxonomy_7_upper_length_5: 4_MM_
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+  checked_on: '2026-10-11'
+  coordinate_system:
+    axis: +Z towards head
+    glb_units: metres
+    glb_up_axis: Y
+    head_top_z_mm: 4.0
+    origin: tip centre
+    stl_units: mm
+  dimension_status: standard_dimensions
+  dimensional_specification: DIN 7991:1986-01
+  generator: din_7991_countersunk
+  length_status: supplier_short_or_extended_length
+  material:
+    base_colour_srgb:
+    - 0.205
+    - 0.218
+    - 0.235
+    coat_roughness: 0.28
+    coat_weight: 0.08
+    metallic: 0.8
+    microtexture_height_um: 0.8
+    microtexture_spacing_mm: 0.025
+    name: Black oxide steel
+    note: Visual finish approximation; catalogue specifies colour only.
+    roughness: 0.31
+    roughness_variation: 0.045
+  model_formats:
+  - stl
+  - glb
+  modelling_choices:
+    certification: Standards-based nominal catalogue geometry, not a tolerance-gauged
+      manufacturing certification.
+    dimension_selection: Nominal/max head and shaft, midpoint socket limits for M3/M4.
+    display: Smooth nominal-diameter thread envelope; lower tessellation, same head/recess/end
+      dimensions.
+    head_rim: Approximate DIN c reference reduced by r*tan(22.5 degrees) so the fillet
+      fits within k max.
+    markings: 'Manufacturer identity and property-class stamps omitted: catalogue
+      does not identify them.'
+    runout: One pitch taper to nominal shaft diameter; maximum incomplete thread is
+      2P.
+    size_note: DIN 7991:1986 dimensional row.
+    socket: Flat bottom hex socket with permissible circular mouth countersink within
+      hex corners.
+    thread: ISO metric nominal external profile; rounded root R=H/6; no ISO 965 tolerance
+      offsets.
+    tip: 45 degree tip chamfer of P/2; selected end form under DIN 78.
+  output_folder: three_d_model
+  parameters:
+    countersink_angle_deg: 90.0
+    diameter_mm: 3.0
+    fillet_start_z_mm: 2.3
+    finish: black
+    grip_length_mm: 2.2
+    handedness: right
+    head_diameter_mm: 6.0
+    head_height_mm: 1.7
+    head_rim_mm: 0.15857864376269046
+    head_rim_reference_mm: 0.2
+    hex_key_mm: 2.0
+    length_mm: 4.0
+    partial_thread_from_length_mm: 25
+    pitch_mm: 0.5
+    shank_length_min_mm: 0
+    socket_across_flats_mm: 2.06
+    socket_depth_mm: 1.075
+    thread_end_z_mm: 2.3
+    thread_flank_angle_deg: 60.0
+    thread_length_mm: 1.7999999999999998
+    thread_length_reference_mm: 12
+    thread_minor_diameter_mm: 2.3865653389860224
+    thread_mode: full_to_head
+    thread_pitch_diameter_mm: 2.6752404735808355
+    thread_root_radius_mm: 0.07216878364870322
+    thread_runout_mm: 0.5
+    thread_starts: 1
+    tip_chamfer_mm: 0.25
+    underhead_fillet_mm: 0.1
+  renders:
+    high:
+      file: render_high.png
+      pixels: 2048
+      variant: full
+      view: isometric
+    low:
+      file: render_low.png
+      pixels: 512
+      variant: display
+      view: isometric
+    product_high:
+      file: render_product_high.png
+      pixels: 2048
+      variant: full
+      view: product
+    product_low:
+      file: render_product_low.png
+      pixels: 512
+      variant: display
+      view: product
+  schema_version: 1
+  sources:
+  - title: DIN 7991 January 1986, pages 1–3 (standard scan)
+    url: https://www.finesz.com/pic/DIN7991.pdf
+    use: Scope, head geometry, dimensional limits and shank/grip length table.
+  - title: Böllhoff DIN 7991 product dimensional sheet
+    url: https://eshop.boellhoff.de/out/media/pdf/DIN_7991_Edelstahl_A4___en.pdf
+    use: Independent supplier check of M3/M4 dimensions.
+  - title: Newstar Fastenings M2 x 4 DIN 7991 commercial extension
+    url: https://www.newstarfastenings.com/en-gb/products/m2-x-4-socket-countersunk-din-7991-a4-stainless-steel
+    use: M2 pitch, head diameter/height, hex key and minimum penetration.
+  - title: Bossard BN 20 supplier drawing and size table
+    url: https://www.laskakit.cz/user/related_files/30112021090237-din7991ocel.pdf
+    use: Black M2 extension, M3 x 5/x 6/x 35 and M4 x 6 commercial lengths; M2 explicitly
+      outside DIN scope.
+  - title: Newstar Fastenings M3 x 4 commercial short screw
+    url: https://www.newstarfastenings.com/en-gb/products/m3-x-4-socket-countersunk-din-7991-a4-stainless-steel
+    use: Confirms standard M3 head, key and pitch for the nonstandard 4 mm overall
+      length.
+  - title: ISO 68-1 external metric thread profile
+    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+    use: 60 degree metric thread basic profile.
+  standard: DIN 7991:1986-01
+  standard_lengths_mm:
+  - 8
+  - 10
+  - 12
+  - 16
+  - 20
+  - 25
+  - 30
+  standard_limits:
+    countersink_angle_deg:
+    - 90
+    - 92
+    head_diameter_mm:
+    - 5.7
+    - 6.0
+    head_height_max_mm: 1.7
+    shank_diameter_mm:
+    - 2.86
+    - 3.0
+    socket_across_corners_min_mm: 2.3
+    socket_across_flats_mm:
+    - 2.02
+    - 2.1
+    socket_depth_mm:
+    - 0.95
+    - 1.2
+    underhead_fillet_min_mm: 0.1
+  studio:
+    adaptive_threshold: 0.015
+    denoise: true
+    device: auto
+    engine: cycles
+    exposure: 0.0
+    floor_colour_srgb:
+    - 0.93
+    - 0.935
+    - 0.94
+    floor_roughness: 0.55
+    framing_margin: 0.13
+    high_samples: 160
+    lights:
+    - colour:
+      - 1.0
+      - 0.96
+      - 0.9
+      height: 5.0
+      name: Key softbox
+      position:
+      - -3
+      - -4
+      - 6
+      power: 650.0
+      width: 4.0
+    - colour:
+      - 0.9
+      - 0.95
+      - 1.0
+      height: 4.0
+      name: Fill softbox
+      position:
+      - 4
+      - -1
+      - 3
+      power: 330.0
+      width: 3.0
+    - colour:
+      - 1.0
+      - 1.0
+      - 1.0
+      height: 5.0
+      name: Rim strip
+      position:
+      - 1
+      - 4
+      - 4
+      power: 850.0
+      width: 1.2
+    low_samples: 48
+    poses:
+      isometric:
+        camera_eye:
+        - 1
+        - -1
+        - 1
+        orientation: tip down, head up
+        projection: orthographic
+      product:
+        camera_eye:
+        - -6
+        - -10
+        - 6
+        orientation: lying on side, head to left
+        projection: orthographic
+        support: Head rim and threaded shaft rest on ground; solve tilt from mesh.
+        yaw_degrees: -12.0
+    seed: 7991
+    view_transform: AgX
+    world_colour:
+    - 0.78
+    - 0.82
+    - 0.9
+    world_strength: 0.35
+  units: mm
+  variants:
+    display:
+      angular_segments: 32
+      fillet_segments: 4
+      samples_per_pitch: 1
+    full:
+      angular_segments: 96
+      fillet_segments: 12
+      samples_per_pitch: 32
+  views:
+  - isometric
+  - front
+  - back
+  - left
+  - right
+  - top
+  - bottom
+url_chat: https://chatgpt.com/c/69f56267-d504-83eb-a647-d6d9fcb29001
+```
+
+</details>
+
+## Parts
+
+[Open the canonical part folder](./) for the files available for this variant. Alternative model formats describe the same record; they are not extra components.
+
+## Assembly
+
+No assembly procedure is inferred from this catalogue record. Use any retained technical notes and the original manufacturer documentation for installation details.
+<!-- oomp-documentation:end -->

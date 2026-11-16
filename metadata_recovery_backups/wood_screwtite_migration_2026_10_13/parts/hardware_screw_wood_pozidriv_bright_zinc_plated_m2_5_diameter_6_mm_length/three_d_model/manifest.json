@@ -1,0 +1,161 @@
+{
+  "artifacts": {
+    "README.md": {
+      "bytes": 3310,
+      "sha256": "9b06a38c21d9e6aae4498a6eac316781dc9a45badefff01b9940725f61bba496"
+    },
+    "display/back.svg": {
+      "bytes": 5156,
+      "sha256": "2ed9161924849b81fd6b4a8cb9c5e13fe03ac6c9183bcb3248d756c10f5800ed"
+    },
+    "display/bottom.svg": {
+      "bytes": 5564,
+      "sha256": "435cf2206300ae82451223ecc8b591c4758ffe74aea1fd6188735ab883bacdae"
+    },
+    "display/front.svg": {
+      "bytes": 5159,
+      "sha256": "9d5b233fe3f3246ef893d9299e0a6d7ee4093767c1190b82d6bb4d30db7f0d37"
+    },
+    "display/isometric.svg": {
+      "bytes": 8088,
+      "sha256": "5cc5f094e834b182918597d9fbed00da340bb0ef0f71435ed554cc443ed733ac"
+    },
+    "display/left.svg": {
+      "bytes": 5157,
+      "sha256": "abb0e3e8258653aa9eee710f9f48c78255052c2e1ca287b03f8b990af183e8bb"
+    },
+    "display/right.svg": {
+      "bytes": 5152,
+      "sha256": "d62642092f9b738b1c58335dd2013fb17a8710ec91d23b5d523cbeec700d6b70"
+    },
+    "display/top.svg": {
+      "bytes": 8007,
+      "sha256": "ea1ce57afe97e7fa5e71d3cb399422111d5a361c420956fbb1fb360eb170fab9"
+    },
+    "full/back.svg": {
+      "bytes": 58244,
+      "sha256": "78e1d884fdee643cb438ade170938836eca217f39d1633ae61718636450bc296"
+    },
+    "full/bottom.svg": {
+      "bytes": 49673,
+      "sha256": "cd60bc4ec56f4dd66c5a9416568791d361a5d68f4f60f1f015cb64ebf970a730"
+    },
+    "full/front.svg": {
+      "bytes": 53590,
+      "sha256": "b8c24cc41dc56a723a8bc427487ef77419d9edc9f1bf9420971c4074be84a274"
+    },
+    "full/isometric.svg": {
+      "bytes": 54264,
+      "sha256": "b1bcd207d116120e66ce445e1e76b97a709e09fbd6fe00d2e6193dd1a4d6ed0f"
+    },
+    "full/left.svg": {
+      "bytes": 56503,
+      "sha256": "4093053418ad563add94bfa783bca82c596f492c45c5ebadabedd030ced90e41"
+    },
+    "full/right.svg": {
+      "bytes": 56839,
+      "sha256": "7a8cc9f0ce7ddf210bb48c79e804385d9fb6e9669db5f01da8127e700abf57e3"
+    },
+    "full/top.svg": {
+      "bytes": 17612,
+      "sha256": "94f6cecddc2ecee7ad1e5e3844b9b8a8868ba41413a91cc4ad41c1232a5670ff"
+    },
+    "model.py": {
+      "bytes": 24582,
+      "sha256": "26d694979304ec967030e9d7f32e1f9c7a2654c141e397dfd80eab77bb876227"
+    },
+    "model_display.glb": {
+      "bytes": 21648,
+      "sha256": "252038e067da013a727d555ad3c9ebb59ab949879e5e19d3a3079131d94358ab"
+    },
+    "model_display.stl": {
+      "bytes": 52284,
+      "sha256": "50374f96ca8b331b4fddfc4a1cd128f77998409acece91e427eb944bc0fefeb7"
+    },
+    "model_full.glb": {
+      "bytes": 937208,
+      "sha256": "7a757b27e6fc19c90b8020a16cf049c39ff2abe0373d906f05779914d31ac273"
+    },
+    "model_full.stl": {
+      "bytes": 2595484,
+      "sha256": "45b02d8e4d6725fc6f0ba61aab30d72d03243cf8f350fba9e7a9faf954302631"
+    },
+    "parameters.json": {
+      "bytes": 14073,
+      "sha256": "cad3cdbdb1a153fe258f523ac6ea7ba8b8eed395f44fd4cbdee80d350aec31fc"
+    },
+    "render_high.png": {
+      "bytes": 3612838,
+      "sha256": "c91e1d041acb13f4e471d639a19d70303a70e07280d8fe55439778705a32484f"
+    },
+    "render_low.png": {
+      "bytes": 229342,
+      "sha256": "c70ac29d1313ce870ecf5b4ba22bf6379429d11b19be36a1dfa16fee813d0bc6"
+    },
+    "render_product_high.png": {
+      "bytes": 3545707,
+      "sha256": "665dc7d9d9419d00875421edec9f96fa90544d133583191f05a0fc387f4692d1"
+    },
+    "render_product_low.png": {
+      "bytes": 238108,
+      "sha256": "4bf80b6969514f7df646522aa205d09ad7b5543a90788a6873561a487566b29e"
+    },
+    "render_scene.json": {
+      "bytes": 5064,
+      "sha256": "91097de8359aaeaf68f9af40463b6f71bb0ff3acefea14b3aa7200bba9de0e82"
+    },
+    "requirements.txt": {
+      "bytes": 159,
+      "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
+    },
+    "studio.blend": {
+      "bytes": 1196494,
+      "sha256": "038ee92346293ed91a461bbe41966ed6216559445a911e7b788d4b896680ae0e"
+    }
+  },
+  "dimension_status": "similar_product_visualization",
+  "fingerprint": "a25b196f8fd61d6856fdc7a7aa44d0e225ea91d7f43c781ae5de4a43f612f4f1",
+  "length_status": "catalogue_length_extension",
+  "models": {
+    "display": {
+      "bounds_mm": [
+        [
+          -2.4375,
+          -2.4375,
+          0.0
+        ],
+        [
+          2.4375,
+          2.4375,
+          6.0
+        ]
+      ],
+      "connected_solids": 1,
+      "triangles": 1044,
+      "vertices": 524,
+      "volume_mm3": 26.47516301358139,
+      "watertight": true
+    },
+    "full": {
+      "bounds_mm": [
+        [
+          -2.4375,
+          -2.4375,
+          0.0
+        ],
+        [
+          2.4375,
+          2.4375,
+          6.0
+        ]
+      ],
+      "connected_solids": 1,
+      "triangles": 51908,
+      "vertices": 25956,
+      "volume_mm3": 23.176935216671456,
+      "watertight": true
+    }
+  },
+  "schema_version": 1,
+  "standard": "Modern chipboard screw similar-product reference"
+}

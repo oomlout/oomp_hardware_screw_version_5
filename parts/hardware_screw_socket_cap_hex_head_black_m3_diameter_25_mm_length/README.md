@@ -1,0 +1,3964 @@
+<!-- oomp-documentation:start -->
+# Hardware Screw Socket Cap Hex Head Black M3 Diameter 25 Mm Length
+
+## Summary
+
+OOMP catalogue record for Hardware Screw Socket Cap Hex Head Black M3 Diameter 25 Mm Length. Use the metadata to identify this variant and the part folder to inspect its available assets.
+
+![Catalogue preview of Hardware Screw Socket Cap Hex Head Black M3 Diameter 25 Mm Length](three_d_model/render_product_low.png)
+
+Catalogue illustration; consult the source dimensions and datasheet for specification.
+
+## Details
+
+**OOMP folder ID:** `hardware_screw_socket_cap_hex_head_black_m3_diameter_25_mm_length`
+
+[Catalogue](../../README.md) · [Part metadata](working.yaml)
+
+| Field | Value |
+| --- | --- |
+| id | hardware_screw_socket_cap_hex_head_black_m3_diameter_25_mm_length |
+| md5_6 | 4eda3c |
+| md5_6_alpha | 32rek |
+| oomp_key | oomp_hardware_screw_socket_cap_hex_head_black_m3_diameter_25_mm_length |
+| taxonomy_1 | hardware |
+| taxonomy_2 | screw |
+| taxonomy_3 | socket_cap |
+| taxonomy_4 | hex_head |
+| taxonomy_5 | black |
+| taxonomy_6 | m3_diameter |
+| taxonomy_7 | 25_mm_length |
+
+<details>
+<summary>Full part metadata</summary>
+
+```yaml
+bip_39_2_word_array:
+- excite
+- spin
+bip_39_2_word_no_space: excitespin
+bip_39_2_word_space: excite spin
+bip_39_2_word_underscore: excite_spin
+bip_39_3_word_array:
+- excite
+- spin
+- aerobic
+bip_39_3_word_no_space: excitespinaerobic
+bip_39_3_word_space: excite spin aerobic
+bip_39_3_word_underscore: excite_spin_aerobic
+bip_39_full_array:
+- excite
+- spin
+- aerobic
+- gallery
+- uniform
+- bless
+- save
+- still
+- napkin
+- ecology
+- wonder
+- diesel
+bip_39_full_no_space: excitespinaerobicgalleryuniformblesssavestillnapkinecologywonderdiesel
+bip_39_full_space: excite spin aerobic gallery uniform bless save still napkin ecology
+  wonder diesel
+bip_39_full_underscore: excite_spin_aerobic_gallery_uniform_bless_save_still_napkin_ecology_wonder_diesel
+color_band_project_bolt_1: purple
+color_band_project_bolt_1_string: 25 mm length
+color_band_project_bolt_2: yellow
+color_band_project_bolt_2_string: m3
+color_band_project_bolt_3: orange
+color_band_project_bolt_3_string: socket cap
+color_band_string_project_bolt: colour_band_orange_yellow_purple
+color_band_taxonomy_3: purple
+color_band_taxonomy_6: orange
+color_band_taxonomy_7: yellow
+directory: parts/hardware_screw_socket_cap_hex_head_black_m3_diameter_25_mm_length
+generate_stl: true
+id: hardware_screw_socket_cap_hex_head_black_m3_diameter_25_mm_length
+id_no_class: hardware_screw_socket_cap_hex_head_black_m3_diameter_25_mm_length
+id_no_size: hardware_screw_socket_cap_hex_head_black_m3_diameter_25_mm_length
+id_no_type: hardware_screw_socket_cap_hex_head_black_m3_diameter_25_mm_length
+label_drawer: &id001
+  bip39: excite spin aerobic
+  bip39_size: 2.35
+  code: SC
+  description: Socket cap screw / M3 / 25 mm / Hex socket / Black
+  detail_lines:
+  - Hex socket / Black
+  detail_size: 2.05
+  detail_y: 21.1
+  diagram: <path d="M2 3H6V11H2Z M2 6H2.8V8H2"/><path d="M6 5H18V9H6"/><path d="M7
+    5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+  drive_symbol: <circle cx="5" cy="5" r="4.5" fill="#ffffff"/><path d="M5 1L8.46 3V7L5
+    9L1.54 7V3Z" transform="translate(1.5 1.5) scale(0.7)" fill="#000000"/>
+  length: '25'
+  length_size: 7.8
+  length_x: 18.02234375
+  name: Socket cap screw
+  name_lines:
+  - Socket cap
+  - screw
+  name_size: 3.2
+  thread: M3
+  thread_size: 6.5
+length: 25
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m3_diameter_25_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m3_diameter_25_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m3_diameter_25_mm_length
+md5: 4eda3c10af8ed62f6ff6ae92e8c3f41e
+md5_10: 4eda3c10af
+md5_10_upper: 4EDA3C10AF
+md5_5: 4eda3
+md5_5_upper: 4EDA3
+md5_6: 4eda3c
+md5_6_alpha: 32rek
+md5_6_alpha_upper: 32REK
+md5_6_upper: 4EDA3C
+name: Hardware Screw Socket Cap Hex Head Black M3 Diameter 25 Mm Length
+name_no_class: Hardware Screw Socket Cap Hex Head Black M3 Diameter 25 Mm Length
+name_no_size: Hardware Screw Socket Cap Hex Head Black M3 Diameter 25 Mm Length
+name_no_type: Hardware Screw Socket Cap Hex Head Black M3 Diameter 25 Mm Length
+name_proper: Hardware Screw Socket Cap Hex Head Black M3 Diameter 25 Mm Length
+name_space: hardware screw socket cap hex head black m3 diameter 25 mm length
+name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M3 DIAMETER 25 MM LENGTH
+oobb_details:
+  drive_style: hex_head
+  length: 25_mm_length
+  oobb_name: screw
+  screw_colour: black
+  screw_style: socket_cap
+  thread_size: m3_diameter
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      color_band_project_bolt_1: purple
+      color_band_project_bolt_1_string: 25 mm length
+      color_band_project_bolt_2: yellow
+      color_band_project_bolt_2_string: m3
+      color_band_project_bolt_3: orange
+      color_band_project_bolt_3_string: socket cap
+      color_band_string_project_bolt: colour_band_orange_yellow_purple
+      color_band_taxonomy_3: purple
+      color_band_taxonomy_6: orange
+      color_band_taxonomy_7: yellow
+      directory: parts\hardware_screw_socket_cap_hex_head_black_m3_diameter_25_mm_length
+      length: 25
+      name: hardware_screw_socket_cap_hex_head_black_m3_diameter_25_mm_length
+      name_proper: Hardware Screw Socket Cap Hex Head Black M3 Diameter 25 Mm Length
+      name_space: hardware screw socket cap hex head black m3 diameter 25 mm length
+      name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M3 DIAMETER 25 MM LENGTH
+      oobb_details:
+        drive_style: hex_head
+        length: 25_mm_length
+        oobb_name: screw
+        screw_colour: black
+        screw_style: socket_cap
+        thread_size: m3_diameter
+      screw_style: screw_socket_cap
+      supplier_data:
+        accu:
+          accepted_warnings: '["Accu displayed prices are rounded; derived totals
+            use the captured display precision", "Final Accu price tier has no captured
+            upper boundary; final advertised unit price extended by user policy"]'
+          box_quantity: ''
+          captured_at: '2026-10-11T23:46:53.695253+00:00'
+          currency: GBP
+          description: 'Metric Socket Cap Head Screws feature an internal socket drive
+            that is designed for use with a Hex Key, otherwise known as an Allen Key.
+            With the terms ‘socket’ and ‘allen’ being so interchangeable within engineering,
+            this explains why these fasteners are also commonly referred to as Allen
+            Key Bolts or Socket Screws. Accu''s range of Cap Screws are manufactured
+            in accordance with industry standards, such as DIN 912 and ISO 4762. Screws
+            within this range are available in either a fully threaded or partially
+            threaded form, with the latter featuring an unthreaded portion below the
+            head of the screw. The distinction of whether the screw is fully threaded
+            or not is detailed in each individual product specification. If a larger
+            unthreaded portion is required, Accu''s range of Socket Shoulder Screws
+            range may be more suitable, depending upon your application. Metric Cap
+            Head Captive Screws A number of Accu''s Metric & Imperial Socket Cap Screws
+            are also available to be modified to feature a precisely machined unthreaded
+            section, affording a retaining capability. These specialised Captive Screws
+            are used to provide a secure fixture and help to prevent damage or loss
+            of screws in a housing assembly. Accu''s range of Cap Head Captive Screws
+            are designed to aid compliance with EU Safety Directives. Vented Socket
+            Screws Accu can also offer Vented Cap Screws, which are a specially modified
+            variant of this component that allow the release of gases and pressure
+            through a bore that runs through the centre of the screw. Materials Socket
+            Cap Screws within this range are available in a wide selection of materials,
+            including metals ranging from A2, A4, A4-80, Duplex and Bumax Stainless
+            Steel, 12.9 High Tensile Steel, Aluminium and Titanium. Plastic variants
+            are also available as standard in Nylon, Polycarbonate, Reny and PEEK
+            Thermoplastic.Optimise your Metric Socket Cap Head Screws against vibrations
+            and loosening with our pre-applied thread-locking patches, from essential
+            AccuLock Threadlocker, robust Anu-Lok 180 through to our high performance
+            Precote 80. Personalise your components with AccuBlack chemical blackening
+            to reduce reflections and add a premium finish aesthetic finish. Metric
+            Cap Head Screws Metric Socket Cap Screws are available from Accu in sizes
+            M1.4 to M30, and lengths of between 2mm and 300mm. Both partially threaded
+            and fully threaded varieties are available. Imperial Cap Head Screws Imperial
+            Socket Cap Head Screws are supplied in sizes between #0 (No. 0) and ¾
+            inches. Lengths of between 3/32 inch and 5.½ inches are available as standard,
+            and are manufactured in both fully and partially threaded varieties. Minimum
+            Thread Length In accordance with DIN standards, Accu''s Socket Cap Screws
+            are manufactured to a minimum specified thread length - this measurement
+            can be found within each individual product page. If this dimension is
+            critical to your application, please contact us before placing your order.'
+          html_sha256: bbdf125e459f53bc030164d0a4e1a510da7e8fab5c97c0be781f954f9c582301
+          name: M3 x 25mm Socket Cap Head Screws (DIN 912) - High Tensile Steel (12.9)
+          parsed_at: '2026-10-18T08:52:21.658422+00:00'
+          parser_version: accu-1.9-base-material
+          price_inheritance: '{"1000": {"source_quantity": 200, "source_unit_price":
+            "0.05", "source_text": "Buy 200 £0.05 Save 93 %", "basis": "user policy
+            2026-10-13"}, "10000": {"source_quantity": 200, "source_unit_price": "0.05",
+            "source_text": "Buy 200 £0.05 Save 93 %", "basis": "user policy 2026-10-13"}}'
+          quote_minimum: ''
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept rounded displayed prices, open-ended final advertised
+            tiers, and quotes required from 400 units; quote-only prices remain blank."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.03", "highPrice":
+            "0.78", "priceCurrency": "GBP", "offerCount": "11", "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/metric-cap-head-screws/16009-SSC-M3-25-12-9",
+            "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type":
+            "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+          source_vat_basis: exclusive
+          source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "accus prices are all ex vat", "confirmed_on": "2026-10-13"}'
+          specifications: '{"Accu Product Code (APC)": "SSC-M3-25-12.9", "Thread Size":
+            "M3 (3 mm)", "Length (L)": "25 mm", "Full Thread": "No", "Material": "Steel
+            - High Tensile (12.9)", "Finish": "Natural", "Drive Depth (P)": "1.3 mm",
+            "Head Diameter (D)": "5.68 mm (Tolerance: +0/-0.36 mm)", "Head Height
+            (H)": "3 mm (Tolerance: +0/-0.14 mm)", "Manufacturing Standard": "DIN
+            912", "Material Family": "Steel", "Socket Size (J)": "2.5 mm", "Thread
+            Length (Min) (E)": "18 mm", "Thread Pitch": "0.5 mm", "Thread Specification":
+            "Metric Coarse"}'
+          status: ok
+          stock_quantity: ''
+          stock_status: https://schema.org/InStock
+          supplier: accu
+          supplier_id: SSC-M3-25-12.9
+          supplier_part_number: SSC-M3-25-12.9
+          supplier_website: https://www.accu.co.uk/metric-cap-head-screws/16009-SSC-M3-25-12-9
+          tiers:
+          - maximum: 1
+            minimum: 1
+            source_text: Buy 1 £0.78
+            source_unit_price: '0.78'
+            source_vat_basis: exclusive
+            unit_price: '0.9360'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 3
+            minimum: 2
+            source_text: Buy 2 £0.43 Save 44 %
+            source_unit_price: '0.43'
+            source_vat_basis: exclusive
+            unit_price: '0.5160'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 5
+            minimum: 4
+            source_text: Buy 4 £0.26 Save 66 %
+            source_unit_price: '0.26'
+            source_vat_basis: exclusive
+            unit_price: '0.3120'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 11
+            minimum: 6
+            source_text: Buy 6 £0.18 Save 76 %
+            source_unit_price: '0.18'
+            source_vat_basis: exclusive
+            unit_price: '0.2160'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 23
+            minimum: 12
+            source_text: Buy 12 £0.12 Save 84 %
+            source_unit_price: '0.12'
+            source_vat_basis: exclusive
+            unit_price: '0.1440'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 49
+            minimum: 24
+            source_text: Buy 24 £0.09 Save 88 %
+            source_unit_price: '0.09'
+            source_vat_basis: exclusive
+            unit_price: '0.1080'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 99
+            minimum: 50
+            source_text: Buy 50 £0.07 Save 91 %
+            source_unit_price: '0.07'
+            source_vat_basis: exclusive
+            unit_price: '0.0840'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 199
+            minimum: 100
+            source_text: Buy 100 £0.06 Save 92 %
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            maximum_basis: user-approved open-ended final tier; no captured upper
+              boundary
+            minimum: 200
+            source_text: Buy 200 £0.05 Save 93 %
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.9360'
+          total_price_10: '2.1600'
+          total_price_100: '7.2000'
+          total_price_1000: '60.0000'
+          total_price_10000: '600.0000'
+          unit_price_1: '0.9360'
+          unit_price_10: '0.2160'
+          unit_price_100: '0.0720'
+          unit_price_1000: '0.0600'
+          unit_price_10000: '0.0600'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Accu displayed prices are rounded; derived totals use the captured display
+            precision
+          - Final Accu price tier has no captured upper boundary; final advertised
+            unit price extended by user policy
+        boltbase:
+          accepted_warnings: '["Final Bolt Base threshold has no verified upper bound;
+            extrapolation withheld"]'
+          captured_at: '2026-10-12T21:36:11.260519+00:00'
+          currency: GBP
+          html_sha256: 1b9e010dc3f9fe821a2caae92e5893a16af4284f4afb8675a25561b80e83812a
+          name: M3 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
+          packages: '[]'
+          parsed_at: '2026-10-18T08:56:33.651531+00:00'
+          parser_version: boltbase-1.2-review-policy
+          price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
+            "0.04", "source_text": "Buy 5000 + Save 90% Each £0.04 £0.34", "basis":
+            "user policy 2026-10-13"}}'
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "For a withheld 10000-unit price, inherit the highest available
+            lower-quantity unit price."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+          specifications: 'Thread Size: M3 (3mm); Length (Excluding Head): 25mm (Partially
+            Threaded); M3 (3mm Thread Diameter) Socket Cap Screws, also known as Allen
+            Bolts. Manufactured to DIN 912/ ISO 4762 in Self Colour High Tensile 12.9
+            Steel. Socket Cap Screws are perfect for applications where space is limited
+            or where the screw head is installed in a recess due to the use of an
+            allen key to tighten them. Ideal for use where there is not enough clearance
+            to use a Hex Head Bolt. Suitable for applications where high strength
+            is required due to the high tensile strength. These screws are partially
+            threaded as standard after a certain length. Please note that these bolts
+            offer little to no protection from rusting and are more suited for indoor
+            use or for applications where they are protected from moisture.'
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: boltbase
+          supplier_id: SC12.9CP-3X25
+          supplier_part_number: SC12.9CP-3X25
+          supplier_website: https://boltbase.com/products/m3-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464729239933
+          tiers:
+          - maximum: 1
+            minimum: 1
+            source_text: Single Screw Buy 1 For £0.34
+            source_unit_price: '0.34'
+            source_vat_basis: exclusive
+            unit_price: '0.4080'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4
+            minimum: 2
+            source_text: Buy 2 + Save 40% Each £0.21 £0.34
+            source_unit_price: '0.21'
+            source_vat_basis: exclusive
+            unit_price: '0.2520'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 9
+            minimum: 5
+            source_text: Buy 5 + Save 49% Each £0.18 £0.34
+            source_unit_price: '0.18'
+            source_vat_basis: exclusive
+            unit_price: '0.2160'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 24
+            minimum: 10
+            source_text: Buy 10 + Save 67% Each £0.12 £0.34
+            source_unit_price: '0.12'
+            source_vat_basis: exclusive
+            unit_price: '0.1440'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 49
+            minimum: 25
+            source_text: Buy 25 + Save 75% Each £0.09 £0.34
+            source_unit_price: '0.09'
+            source_vat_basis: exclusive
+            unit_price: '0.1080'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 99
+            minimum: 50
+            source_text: Buy 50 + Save 77% Each £0.08 £0.34
+            source_unit_price: '0.08'
+            source_vat_basis: exclusive
+            unit_price: '0.0960'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 249
+            minimum: 100
+            source_text: Buy 100 + Save 81% Each £0.07 £0.34
+            source_unit_price: '0.07'
+            source_vat_basis: exclusive
+            unit_price: '0.0840'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 499
+            minimum: 250
+            source_text: Buy 250 + Save 83% Each £0.06 £0.34
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 500
+            source_text: Buy 500 + Save 86% Each £0.05 £0.34
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4999
+            minimum: 1000
+            source_text: Buy 1000 + Save 88% Each £0.05 £0.34
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 5000
+            minimum: 5000
+            source_text: Buy 5000 + Save 90% Each £0.04 £0.34
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.4080'
+          total_price_10: '1.4400'
+          total_price_100: '8.4000'
+          total_price_1000: '60.0000'
+          total_price_10000: '480.0000'
+          unit_price_1: '0.4080'
+          unit_price_10: '0.1440'
+          unit_price_100: '0.0840'
+          unit_price_1000: '0.0600'
+          unit_price_10000: '0.0480'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+        dibolt:
+          accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+          captured_at: '2026-10-13T23:32:37.952012+00:00'
+          currency: GBP
+          html_sha256: 8afd3582d0bca0af488be0cc2ca5c186461cb4e434c9a2b623afa2aca549a911
+          name: M3 x 25mm Socket Head Cap Screws (Fully Threaded) Grade 12.9 Self
+            Colour DIN 912
+          packages: '[]'
+          parsed_at: '2026-10-18T09:02:52.970348+00:00'
+          parser_version: dibolt-1.3-missing-price-review
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept the precision of rounded displayed per-100 prices."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          specifications: 'Thread Size: M3 (3mm); Length (L): 25mm; Head Diameter
+            (D): 5.5mm; Hexagon Depth (P): 1.3mm; Material: High Tensile (Grade 12.9);
+            Finish: Self Colour; Head Length (H): 3mm; Screw Thread Pitch: 0.5mm;
+            Socket Size (J): 2.5mm; Manufacturing Standard: 912; Material Specification:
+            High Tensile (Grade 12.9); Fine or Coarse?: Coarse; Fully Threaded: Yes'
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: dibolt
+          supplier_id: 50025.030.025
+          supplier_part_number: 50025.030.025
+          supplier_website: https://dibolt.co.uk/products/m3-x-25mm-socket-head-cap-screws-fully-threaded-grade-12-9-self-colour-din-912
+          tiers:
+          - maximum: 499
+            minimum: 1
+            source_text: 1 - 499 £4.50 Per 100 Units
+            source_unit_price: '0.045'
+            source_vat_basis: exclusive
+            unit_price: '0.05400'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 2499
+            minimum: 500
+            source_text: 500 - 2,499 £4.28 Per 100 Units
+            source_unit_price: '0.0428'
+            source_vat_basis: exclusive
+            unit_price: '0.051360'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 2500
+            source_text: 2,500+ £4.05 Per 100 Units
+            source_unit_price: '0.0405'
+            source_vat_basis: exclusive
+            unit_price: '0.048600'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.05400'
+          total_price_10: '0.54000'
+          total_price_100: '5.40000'
+          total_price_1000: '51.360000'
+          total_price_10000: '486.000000'
+          unit_price_1: '0.05400'
+          unit_price_10: '0.05400'
+          unit_price_100: '0.05400'
+          unit_price_1000: '0.051360'
+          unit_price_10000: '0.048600'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Dibolt per-100 displayed prices are rounded; derived totals use captured
+            display precision
+        kayfast:
+          accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+          captured_at: '2026-10-15T08:40:36.947951+00:00'
+          currency: GBP
+          family_description: Socket cap screws. Metric coarse threads. Self colour
+            plain finish. High tensile grade 12.9. Manufactured to DIN 912.
+          family_heading: SOCKET CAP SCREWS DIN 912 HIGH TENSILE SELF COLOUR
+          html_sha256: e6150f075d525a908b48420059468cd7dba0ff2b0d1f63775937503f6cf841ea
+          name: M3 x 25mm SOCKET CAP SCREW DIN 912 HIGH TENSILE 12.9 SELF COLOUR
+          packages: '[]'
+          parsed_at: '2026-10-18T09:30:16.121494+00:00'
+          parser_version: kayfast-1.6-family-description
+          price_breaks_description: M3 x 25mm SOCKET CAP SCREW DIN 912 HIGH TENSILE
+            12.9 SELF COLOUR
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+            "statement": "Use the exact row dropdown price per 100 divided by 100
+            with Decimal precision; accept the captured per-100 display precision."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+          specifications: SOCKET CAP SCREWS DIN 912 HIGH TENSILE SELF COLOUR; Socket
+            cap screws. Metric coarse threads. Self colour plain finish. High tensile
+            grade 12.9. Manufactured to DIN 912.
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: kayfast
+          supplier_id: M3-x-25mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+          supplier_id_basis: exact dimensional row description; spaces replaced by
+            hyphens (user clarification 2026-10-11)
+          supplier_part_number: M3-x-25mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+          supplier_website: https://www.kayfast.co.uk/view-product/SOCKET-CAP-SCREWS-DIN-912-HIGH-TENSILE-SELF-COLOUR
+          tiers:
+          - maximum: 49
+            minimum: 1
+            source_price_per_100: '18.47'
+            source_price_quantity: 100
+            source_text: QTY 1 - 49 @ £18.47 per 100
+            source_unit_price: '0.1847'
+            source_vat_basis: exclusive
+            unit_price: '0.221640'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 199
+            minimum: 50
+            source_price_per_100: '8.03'
+            source_price_quantity: 100
+            source_text: QTY 50 -  199 @ £8.03 per 100
+            source_unit_price: '0.0803'
+            source_vat_basis: exclusive
+            unit_price: '0.096360'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 200
+            source_price_per_100: '6.16'
+            source_price_quantity: 100
+            source_text: QTY 200 + @ £6.16 per 100
+            source_unit_price: '0.0616'
+            source_vat_basis: exclusive
+            unit_price: '0.073920'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.221640'
+          total_price_10: '2.216400'
+          total_price_100: '9.636000'
+          total_price_1000: '73.920000'
+          total_price_10000: '739.200000'
+          unit_price_1: '0.221640'
+          unit_price_10: '0.221640'
+          unit_price_100: '0.096360'
+          unit_price_1000: '0.073920'
+          unit_price_10000: '0.073920'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Kayfast per-100 displayed prices are rounded; derived totals use captured
+            display precision
+        orbitalfasteners:
+          accepted_warnings: '[]'
+          box_quantity: '200'
+          captured_at: '2026-10-18T08:43:49.213775+00:00'
+          catalogue_page: '78'
+          currency: GBP
+          description: ''
+          html_sha256: e137e1ca36a70f7627f60d24a8d0189f5668dc1c0c2ed43254d511415a9e65fb
+          name: M3 x 25 Socket Cap Screw, High Tensile Grade 12.9 Self Colour, DIN
+            912
+          parsed_at: '2026-10-18T08:49:30.780946+00:00'
+          parser_version: 1.2-review-policy
+          review_policy: ''
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: inclusive
+          status: ok
+          stock_as_of: 16th October 2026 10:01pm
+          stock_quantity: '1595'
+          supplier: orbitalfasteners
+          supplier_id: '1891052'
+          supplier_part_number: '1891052'
+          supplier_website: https://www.orbitalfasteners.co.uk/products/m3-x-25-socket-cap-screw-high-tensile-grade-12-9-self-colour-
+          tiers:
+          - maximum: 199
+            minimum: 1
+            source_text: 1 - 199 £0.048 Inc. VAT £4.80 Inc. VAT
+            source_unit_price: '0.048'
+            source_vat_basis: inclusive
+            unit_price: '0.048'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 200
+            source_text: 200 - 999 £0.0266 Inc. VAT £2.66 Inc. VAT
+            source_unit_price: '0.0266'
+            source_vat_basis: inclusive
+            unit_price: '0.0266'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4799
+            minimum: 1000
+            source_text: 1000 - 4799 £0.024 Inc. VAT £2.40 Inc. VAT
+            source_unit_price: '0.024'
+            source_vat_basis: inclusive
+            unit_price: '0.024'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 4800
+            source_text: 4800 + £0.0214 Inc. VAT £2.14 Inc. VAT
+            source_unit_price: '0.0214'
+            source_vat_basis: inclusive
+            unit_price: '0.0214'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.048'
+          total_price_10: '0.480'
+          total_price_100: '4.800'
+          total_price_1000: '24.000'
+          total_price_10000: '214.0000'
+          unit_price_1: '0.048'
+          unit_price_10: '0.048'
+          unit_price_100: '0.048'
+          unit_price_1000: '0.024'
+          unit_price_10000: '0.0214'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings: []
+        westfieldfasteners:
+          accepted_warnings: '["Westfield sliding-scale prices only verified at advertised
+            package quantities; other quantities withheld", "Quantity 10: no unique
+            verified source price/VAT band; price withheld", "Quantity 100: no unique
+            verified source price/VAT band; price withheld", "Quantity 1000: no unique
+            verified source price/VAT band; price withheld", "Quantity 10000: no unique
+            verified source price/VAT band; price withheld"]'
+          captured_at: '2026-10-12T01:06:04.721072+00:00'
+          currency: GBP
+          html_sha256: d617cdcb444bec76fa1640915c3aaea6bcbb1f0c8534d1658ef0a640bb9897c3
+          name: M3 Bolt Unbrako Socket Head Cap 25mm in Black - ISO 4762 (DIN 912)
+          packages: '[{"quantity": 1, "total_price": "1.7520", "source_text": "single
+            screw for £1.46", "source_total_price": "1.46", "source_vat_basis": "exclusive",
+            "vat_basis": "inclusive"}, {"quantity": 80, "total_price": "21.3600",
+            "source_text": "box of 80 for £17.80", "source_total_price": "17.80",
+            "source_vat_basis": "exclusive", "vat_basis": "inclusive"}, {"quantity":
+            400, "total_price": "92.8800", "source_text": "bulk of 400 for £77.40",
+            "source_total_price": "77.40", "source_vat_basis": "exclusive", "vat_basis":
+            "inclusive"}]'
+          parsed_at: '2026-10-18T09:33:17.095700+00:00'
+          parser_version: westfieldfasteners-1.3-allen-cap-heading
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Include advertised package prices only; other quantities
+            may remain blank."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          specifications: 'Thread Size: M3; Length: 25mm; M3 x 25mm Unbrako Socket
+            Head Cap Screw Part Thread in Black Oxide WF47915 - 201 in stock'
+          status: ok
+          stock_quantity: '201'
+          stock_status: ''
+          supplier: westfieldfasteners
+          supplier_id: WF47915
+          supplier_part_number: WF47915
+          supplier_website: https://www.westfieldfasteners.co.uk/Unbrako/M3-Bolt-Unbrako-Socket-Head-Cap-25-Black.html
+          tiers:
+          - maximum: 1
+            minimum: 1
+            source_text: single screw for £1.46
+            source_unit_price: '1.46'
+            source_vat_basis: exclusive
+            unit_price: '1.7520'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 80
+            minimum: 80
+            source_text: box of 80 for £17.80
+            source_unit_price: '0.2225'
+            source_vat_basis: exclusive
+            unit_price: '0.267000'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 400
+            minimum: 400
+            source_text: bulk of 400 for £77.40
+            source_unit_price: '0.1935'
+            source_vat_basis: exclusive
+            unit_price: '0.232200'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '1.7520'
+          total_price_10: ''
+          total_price_100: ''
+          total_price_1000: ''
+          total_price_10000: ''
+          unit_price_1: '1.7520'
+          unit_price_10: ''
+          unit_price_100: ''
+          unit_price_1000: ''
+          unit_price_10000: ''
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Westfield sliding-scale prices only verified at advertised package quantities;
+            other quantities withheld
+          - 'Quantity 10: no unique verified source price/VAT band; price withheld'
+          - 'Quantity 100: no unique verified source price/VAT band; price withheld'
+          - 'Quantity 1000: no unique verified source price/VAT band; price withheld'
+          - 'Quantity 10000: no unique verified source price/VAT band; price withheld'
+      svg_details:
+        diameter_mm: 3.0
+        drive_style: hex_head
+        drive_symbol_gap_mm: 1.7999999999999998
+        head_diameter_mm: 5.1
+        head_rim_mm: 0.22499999999999998
+        length_mm: 25.0
+        screw_style: socket_cap
+        socket_depth_mm: 0.9750000000000001
+        socket_width_mm: 1.9500000000000002
+        stylesheet: project_bolt
+        svg_name: screw_diagrams
+        thread_pitch_mm: 0.5
+        variants:
+          plain: diagram_plain.svg
+          solid: diagram_solid.svg
+          threaded: diagram_threaded.svg
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: screw
+      taxonomy_3: socket_cap
+      taxonomy_4: hex_head
+      taxonomy_5: black
+      taxonomy_6: m3_diameter
+      taxonomy_7: 25_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      thread_size: m3
+      three_d_model_details:
+        checked_on: '2026-10-11'
+        commercial_lengths_mm: []
+        coordinate_system:
+          axis: +Z towards head
+          glb_units: metres
+          glb_up_axis: Y
+          head_top_z_mm: 28.0
+          length_convention: under_head
+          origin: tip centre
+          stl_units: mm
+        dimension_status: standard_dimensions
+        dimensional_specification: Hexagon socket head cap screws
+        family: socket_cap
+        generation_status: ready
+        generator: parametric_screw
+        length_status: standard_length
+        material:
+          base_colour_srgb:
+          - 0.205
+          - 0.218
+          - 0.235
+          coat_roughness: 0.28
+          coat_weight: 0.08
+          metallic: 0.8
+          microtexture_height_um: 0.8
+          microtexture_spacing_mm: 0.025
+          name: Black oxide steel
+          note: Visual finish approximation; catalogue specifies colour only.
+          roughness: 0.31
+          roughness_variation: 0.045
+        model_formats:
+        - stl
+        - glb
+        modelling_choices:
+          catalogue_length: Unlisted lengths use the sourced size profile at the catalogue
+            length and are explicitly marked as extensions.
+          certification: Nominal catalogue geometry; not manufacturing certification.
+          display: Smooth nominal thread envelope with the same head and recessed
+            drive.
+          edges: Permitted 45 degree edge chamfers, selected small values; circular
+            countersink at socket mouth.
+          head: Plain cylindrical head; no knurling or unidentified manufacturer/property-class
+            stamps.
+          markings: Unidentified manufacturer and property-class stamps omitted.
+          runout: One-pitch taper; incomplete thread remains within 2P.
+          socket: Across-flats midpoint of ISO limits; minimum penetration, permissible
+            flat bottom.
+          thread: Nominal right-hand external metric profile; 60 degree flanks, H/6
+            rounded root; no ISO 965 tolerance offsets.
+          thread_coverage: ISO shank/grip table selects partial lengths; full-thread
+            commercial alternatives can be selected with thread_coverage=full.
+          tip: Selected 45 degree chamfer of P/2.
+        output_folder: three_d_model
+        parameters:
+          diameter_mm: 3.0
+          drive_style: hex_head
+          finish: black
+          handedness: right
+          head_diameter_mm: 5.5
+          head_edge_chamfer_mm: 0.15
+          head_height_mm: 3.0
+          head_style: cylindrical
+          head_top_z_mm: 28.0
+          hex_key_mm: 2.5
+          length_convention: under_head
+          length_mm: 25.0
+          overall_length_mm: 28.0
+          partial_thread_from_length_mm: 25
+          pitch_mm: 0.5
+          socket_across_flats_mm: 2.55
+          socket_depth_mm: 1.3
+          standard: ISO 4762:2004
+          thread_coverage: standard_reference
+          thread_flank_angle_deg: 60.0
+          thread_length_reference_mm: 18
+          thread_minor_diameter_mm: 2.3865653389860224
+          thread_pitch_diameter_mm: 2.6752404735808355
+          thread_root_radius_mm: 0.07216878364870322
+          thread_starts: 1
+          tip_chamfer_mm: 0.25
+          underhead_fillet_mm: 0.1
+        priority: 1
+        renders:
+          high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+          low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+          product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+          product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+        schema_version: 1
+        sources:
+        - title: ISO 4762:2004, Figure 1 and Table 1, pages 2–5
+          url: https://cdn.standards.iteh.ai/samples/34460/06335046afaf46fb8e84d91a3eda001d/ISO-4762-2004.pdf
+          use: Plain head dk, k, s limits, minimum t/r, b, shank/grip table and standard
+            length combinations.
+        - title: ISO 4762 scope and current edition
+          url: https://www.iso.org/standard/34460.html
+          use: Coarse metric M1.6–M64; M2 and M2.5 are within scope.
+        - title: Bossard BN 2052 fully threaded DIN 912 / ISO 4762 screws
+          url: https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-head-cap-screws-fully-threaded/p/2052/
+          use: Fully threaded commercial alternative; catalogue does not specify which
+            threading option was purchased.
+        standard: ISO 4762:2004
+        standard_lengths_mm:
+        - 4
+        - 5
+        - 6
+        - 8
+        - 10
+        - 12
+        - 16
+        - 20
+        - 25
+        - 30
+        standard_limits:
+          head_diameter_mm:
+          - 5.32
+          - 5.5
+          socket_across_flats_mm:
+          - 2.52
+          - 2.58
+          socket_depth_min_mm: 1.3
+        studio:
+          adaptive_threshold: 0.015
+          denoise: true
+          device: auto
+          engine: cycles
+          exposure: 0.0
+          floor_colour_srgb:
+          - 0.93
+          - 0.935
+          - 0.94
+          floor_roughness: 0.55
+          framing_margin: 0.13
+          high_samples: 160
+          lights:
+          - colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+          - colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+          - colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+          low_samples: 48
+          poses:
+            isometric:
+              camera_eye:
+              - 1
+              - -1
+              - 1
+              orientation: tip down, head up
+              projection: orthographic
+            product:
+              camera_eye:
+              - -6
+              - -10
+              - 6
+              orientation: lying on side, head to left
+              projection: orthographic
+              support: Head rim and threaded shaft rest on ground; solve tilt from
+                mesh.
+              yaw_degrees: -12.0
+          seed: 7991
+          view_transform: AgX
+          world_colour:
+          - 0.78
+          - 0.82
+          - 0.9
+          world_strength: 0.35
+        units: mm
+        variants:
+          display:
+            angular_segments: 32
+            fillet_segments: 4
+            samples_per_pitch: 1
+          full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+        views:
+        - isometric
+        - front
+        - back
+        - left
+        - right
+        - top
+        - bottom
+      url_chat: https://chatgpt.com/c/69f66e90-7800-83eb-aeef-42bd864b09d0
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_2:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      color_band_project_bolt_1: purple
+      color_band_project_bolt_1_string: 25 mm length
+      color_band_project_bolt_2: yellow
+      color_band_project_bolt_2_string: m3
+      color_band_project_bolt_3: orange
+      color_band_project_bolt_3_string: socket cap
+      color_band_string_project_bolt: colour_band_orange_yellow_purple
+      color_band_taxonomy_3: purple
+      color_band_taxonomy_6: orange
+      color_band_taxonomy_7: yellow
+      directory: parts\hardware_screw_socket_cap_hex_head_black_m3_diameter_25_mm_length
+      length: 25
+      name: hardware_screw_socket_cap_hex_head_black_m3_diameter_25_mm_length
+      name_proper: Hardware Screw Socket Cap Hex Head Black M3 Diameter 25 Mm Length
+      name_space: hardware screw socket cap hex head black m3 diameter 25 mm length
+      name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M3 DIAMETER 25 MM LENGTH
+      oobb_details:
+        drive_style: hex_head
+        length: 25_mm_length
+        oobb_name: screw
+        screw_colour: black
+        screw_style: socket_cap
+        thread_size: m3_diameter
+      oomlout_ai_roboclick_1:
+        actions:
+        - command: text_jinja_template
+          convert_to_pdf: false
+          convert_to_png: false
+          dict_data:
+            color_band_project_bolt_1: purple
+            color_band_project_bolt_1_string: 25 mm length
+            color_band_project_bolt_2: yellow
+            color_band_project_bolt_2_string: m3
+            color_band_project_bolt_3: orange
+            color_band_project_bolt_3_string: socket cap
+            color_band_string_project_bolt: colour_band_orange_yellow_purple
+            color_band_taxonomy_3: purple
+            color_band_taxonomy_6: orange
+            color_band_taxonomy_7: yellow
+            directory: parts\hardware_screw_socket_cap_hex_head_black_m3_diameter_25_mm_length
+            length: 25
+            name: hardware_screw_socket_cap_hex_head_black_m3_diameter_25_mm_length
+            name_proper: Hardware Screw Socket Cap Hex Head Black M3 Diameter 25 Mm
+              Length
+            name_space: hardware screw socket cap hex head black m3 diameter 25 mm
+              length
+            name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M3 DIAMETER 25 MM
+              LENGTH
+            oobb_details:
+              drive_style: hex_head
+              length: 25_mm_length
+              oobb_name: screw
+              screw_colour: black
+              screw_style: socket_cap
+              thread_size: m3_diameter
+            screw_style: screw_socket_cap
+            supplier_data:
+              accu:
+                accepted_warnings: '["Accu displayed prices are rounded; derived totals
+                  use the captured display precision", "Final Accu price tier has
+                  no captured upper boundary; final advertised unit price extended
+                  by user policy"]'
+                box_quantity: ''
+                captured_at: '2026-10-11T23:46:53.695253+00:00'
+                currency: GBP
+                description: 'Metric Socket Cap Head Screws feature an internal socket
+                  drive that is designed for use with a Hex Key, otherwise known as
+                  an Allen Key. With the terms ‘socket’ and ‘allen’ being so interchangeable
+                  within engineering, this explains why these fasteners are also commonly
+                  referred to as Allen Key Bolts or Socket Screws. Accu''s range of
+                  Cap Screws are manufactured in accordance with industry standards,
+                  such as DIN 912 and ISO 4762. Screws within this range are available
+                  in either a fully threaded or partially threaded form, with the
+                  latter featuring an unthreaded portion below the head of the screw.
+                  The distinction of whether the screw is fully threaded or not is
+                  detailed in each individual product specification. If a larger unthreaded
+                  portion is required, Accu''s range of Socket Shoulder Screws range
+                  may be more suitable, depending upon your application. Metric Cap
+                  Head Captive Screws A number of Accu''s Metric & Imperial Socket
+                  Cap Screws are also available to be modified to feature a precisely
+                  machined unthreaded section, affording a retaining capability. These
+                  specialised Captive Screws are used to provide a secure fixture
+                  and help to prevent damage or loss of screws in a housing assembly.
+                  Accu''s range of Cap Head Captive Screws are designed to aid compliance
+                  with EU Safety Directives. Vented Socket Screws Accu can also offer
+                  Vented Cap Screws, which are a specially modified variant of this
+                  component that allow the release of gases and pressure through a
+                  bore that runs through the centre of the screw. Materials Socket
+                  Cap Screws within this range are available in a wide selection of
+                  materials, including metals ranging from A2, A4, A4-80, Duplex and
+                  Bumax Stainless Steel, 12.9 High Tensile Steel, Aluminium and Titanium.
+                  Plastic variants are also available as standard in Nylon, Polycarbonate,
+                  Reny and PEEK Thermoplastic.Optimise your Metric Socket Cap Head
+                  Screws against vibrations and loosening with our pre-applied thread-locking
+                  patches, from essential AccuLock Threadlocker, robust Anu-Lok 180
+                  through to our high performance Precote 80. Personalise your components
+                  with AccuBlack chemical blackening to reduce reflections and add
+                  a premium finish aesthetic finish. Metric Cap Head Screws Metric
+                  Socket Cap Screws are available from Accu in sizes M1.4 to M30,
+                  and lengths of between 2mm and 300mm. Both partially threaded and
+                  fully threaded varieties are available. Imperial Cap Head Screws
+                  Imperial Socket Cap Head Screws are supplied in sizes between #0
+                  (No. 0) and ¾ inches. Lengths of between 3/32 inch and 5.½ inches
+                  are available as standard, and are manufactured in both fully and
+                  partially threaded varieties. Minimum Thread Length In accordance
+                  with DIN standards, Accu''s Socket Cap Screws are manufactured to
+                  a minimum specified thread length - this measurement can be found
+                  within each individual product page. If this dimension is critical
+                  to your application, please contact us before placing your order.'
+                html_sha256: bbdf125e459f53bc030164d0a4e1a510da7e8fab5c97c0be781f954f9c582301
+                name: M3 x 25mm Socket Cap Head Screws (DIN 912) - High Tensile Steel
+                  (12.9)
+                parsed_at: '2026-10-18T08:52:21.658422+00:00'
+                parser_version: accu-1.9-base-material
+                price_inheritance: '{"1000": {"source_quantity": 200, "source_unit_price":
+                  "0.05", "source_text": "Buy 200 £0.05 Save 93 %", "basis": "user
+                  policy 2026-10-13"}, "10000": {"source_quantity": 200, "source_unit_price":
+                  "0.05", "source_text": "Buy 200 £0.05 Save 93 %", "basis": "user
+                  policy 2026-10-13"}}'
+                quote_minimum: ''
+                review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+                  "statement": "Accept rounded displayed prices, open-ended final
+                  advertised tiers, and quotes required from 400 units; quote-only
+                  prices remain blank."}'
+                review_warnings: '[]'
+                selected_by_current_filter: true
+                source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.03", "highPrice":
+                  "0.78", "priceCurrency": "GBP", "offerCount": "11", "availability":
+                  "https://schema.org/InStock", "itemCondition": "https://schema.org/NewCondition",
+                  "url": "https://www.accu.co.uk/metric-cap-head-screws/16009-SSC-M3-25-12-9",
+                  "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type":
+                  "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+                source_vat_basis: exclusive
+                source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user
+                  clarification", "statement": "accus prices are all ex vat", "confirmed_on":
+                  "2026-10-13"}'
+                specifications: '{"Accu Product Code (APC)": "SSC-M3-25-12.9", "Thread
+                  Size": "M3 (3 mm)", "Length (L)": "25 mm", "Full Thread": "No",
+                  "Material": "Steel - High Tensile (12.9)", "Finish": "Natural",
+                  "Drive Depth (P)": "1.3 mm", "Head Diameter (D)": "5.68 mm (Tolerance:
+                  +0/-0.36 mm)", "Head Height (H)": "3 mm (Tolerance: +0/-0.14 mm)",
+                  "Manufacturing Standard": "DIN 912", "Material Family": "Steel",
+                  "Socket Size (J)": "2.5 mm", "Thread Length (Min) (E)": "18 mm",
+                  "Thread Pitch": "0.5 mm", "Thread Specification": "Metric Coarse"}'
+                status: ok
+                stock_quantity: ''
+                stock_status: https://schema.org/InStock
+                supplier: accu
+                supplier_id: SSC-M3-25-12.9
+                supplier_part_number: SSC-M3-25-12.9
+                supplier_website: https://www.accu.co.uk/metric-cap-head-screws/16009-SSC-M3-25-12-9
+                tiers:
+                - maximum: 1
+                  minimum: 1
+                  source_text: Buy 1 £0.78
+                  source_unit_price: '0.78'
+                  source_vat_basis: exclusive
+                  unit_price: '0.9360'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 3
+                  minimum: 2
+                  source_text: Buy 2 £0.43 Save 44 %
+                  source_unit_price: '0.43'
+                  source_vat_basis: exclusive
+                  unit_price: '0.5160'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 5
+                  minimum: 4
+                  source_text: Buy 4 £0.26 Save 66 %
+                  source_unit_price: '0.26'
+                  source_vat_basis: exclusive
+                  unit_price: '0.3120'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 11
+                  minimum: 6
+                  source_text: Buy 6 £0.18 Save 76 %
+                  source_unit_price: '0.18'
+                  source_vat_basis: exclusive
+                  unit_price: '0.2160'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 23
+                  minimum: 12
+                  source_text: Buy 12 £0.12 Save 84 %
+                  source_unit_price: '0.12'
+                  source_vat_basis: exclusive
+                  unit_price: '0.1440'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 49
+                  minimum: 24
+                  source_text: Buy 24 £0.09 Save 88 %
+                  source_unit_price: '0.09'
+                  source_vat_basis: exclusive
+                  unit_price: '0.1080'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 99
+                  minimum: 50
+                  source_text: Buy 50 £0.07 Save 91 %
+                  source_unit_price: '0.07'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0840'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 199
+                  minimum: 100
+                  source_text: Buy 100 £0.06 Save 92 %
+                  source_unit_price: '0.06'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0720'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: null
+                  maximum_basis: user-approved open-ended final tier; no captured
+                    upper boundary
+                  minimum: 200
+                  source_text: Buy 200 £0.05 Save 93 %
+                  source_unit_price: '0.05'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0600'
+                  valid: true
+                  vat_basis: inclusive
+                total_price_1: '0.9360'
+                total_price_10: '2.1600'
+                total_price_100: '7.2000'
+                total_price_1000: '60.0000'
+                total_price_10000: '600.0000'
+                unit_price_1: '0.9360'
+                unit_price_10: '0.2160'
+                unit_price_100: '0.0720'
+                unit_price_1000: '0.0600'
+                unit_price_10000: '0.0600'
+                vat_basis: inclusive
+                vat_rate: '0.20'
+                vat_rate_checked: '2026-10-11'
+                vat_rate_source: https://www.gov.uk/vat-rates
+                warnings:
+                - Accu displayed prices are rounded; derived totals use the captured
+                  display precision
+                - Final Accu price tier has no captured upper boundary; final advertised
+                  unit price extended by user policy
+              boltbase:
+                accepted_warnings: '["Final Bolt Base threshold has no verified upper
+                  bound; extrapolation withheld"]'
+                captured_at: '2026-10-12T21:36:11.260519+00:00'
+                currency: GBP
+                html_sha256: 1b9e010dc3f9fe821a2caae92e5893a16af4284f4afb8675a25561b80e83812a
+                name: M3 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
+                packages: '[]'
+                parsed_at: '2026-10-18T08:56:33.651531+00:00'
+                parser_version: boltbase-1.2-review-policy
+                price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
+                  "0.04", "source_text": "Buy 5000 + Save 90% Each £0.04 £0.34", "basis":
+                  "user policy 2026-10-13"}}'
+                review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+                  "statement": "For a withheld 10000-unit price, inherit the highest
+                  available lower-quantity unit price."}'
+                review_warnings: '[]'
+                selected_by_current_filter: true
+                source_vat_basis: exclusive
+                source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user
+                  clarification", "statement": "bolt base prices are ex vat", "confirmed_on":
+                  "2026-10-11"}'
+                specifications: 'Thread Size: M3 (3mm); Length (Excluding Head): 25mm
+                  (Partially Threaded); M3 (3mm Thread Diameter) Socket Cap Screws,
+                  also known as Allen Bolts. Manufactured to DIN 912/ ISO 4762 in
+                  Self Colour High Tensile 12.9 Steel. Socket Cap Screws are perfect
+                  for applications where space is limited or where the screw head
+                  is installed in a recess due to the use of an allen key to tighten
+                  them. Ideal for use where there is not enough clearance to use a
+                  Hex Head Bolt. Suitable for applications where high strength is
+                  required due to the high tensile strength. These screws are partially
+                  threaded as standard after a certain length. Please note that these
+                  bolts offer little to no protection from rusting and are more suited
+                  for indoor use or for applications where they are protected from
+                  moisture.'
+                status: ok
+                stock_quantity: ''
+                stock_status: ''
+                supplier: boltbase
+                supplier_id: SC12.9CP-3X25
+                supplier_part_number: SC12.9CP-3X25
+                supplier_website: https://boltbase.com/products/m3-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464729239933
+                tiers:
+                - maximum: 1
+                  minimum: 1
+                  source_text: Single Screw Buy 1 For £0.34
+                  source_unit_price: '0.34'
+                  source_vat_basis: exclusive
+                  unit_price: '0.4080'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 4
+                  minimum: 2
+                  source_text: Buy 2 + Save 40% Each £0.21 £0.34
+                  source_unit_price: '0.21'
+                  source_vat_basis: exclusive
+                  unit_price: '0.2520'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 9
+                  minimum: 5
+                  source_text: Buy 5 + Save 49% Each £0.18 £0.34
+                  source_unit_price: '0.18'
+                  source_vat_basis: exclusive
+                  unit_price: '0.2160'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 24
+                  minimum: 10
+                  source_text: Buy 10 + Save 67% Each £0.12 £0.34
+                  source_unit_price: '0.12'
+                  source_vat_basis: exclusive
+                  unit_price: '0.1440'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 49
+                  minimum: 25
+                  source_text: Buy 25 + Save 75% Each £0.09 £0.34
+                  source_unit_price: '0.09'
+                  source_vat_basis: exclusive
+                  unit_price: '0.1080'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 99
+                  minimum: 50
+                  source_text: Buy 50 + Save 77% Each £0.08 £0.34
+                  source_unit_price: '0.08'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0960'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 249
+                  minimum: 100
+                  source_text: Buy 100 + Save 81% Each £0.07 £0.34
+                  source_unit_price: '0.07'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0840'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 499
+                  minimum: 250
+                  source_text: Buy 250 + Save 83% Each £0.06 £0.34
+                  source_unit_price: '0.06'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0720'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 999
+                  minimum: 500
+                  source_text: Buy 500 + Save 86% Each £0.05 £0.34
+                  source_unit_price: '0.05'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0600'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 4999
+                  minimum: 1000
+                  source_text: Buy 1000 + Save 88% Each £0.05 £0.34
+                  source_unit_price: '0.05'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0600'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 5000
+                  minimum: 5000
+                  source_text: Buy 5000 + Save 90% Each £0.04 £0.34
+                  source_unit_price: '0.04'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0480'
+                  valid: true
+                  vat_basis: inclusive
+                total_price_1: '0.4080'
+                total_price_10: '1.4400'
+                total_price_100: '8.4000'
+                total_price_1000: '60.0000'
+                total_price_10000: '480.0000'
+                unit_price_1: '0.4080'
+                unit_price_10: '0.1440'
+                unit_price_100: '0.0840'
+                unit_price_1000: '0.0600'
+                unit_price_10000: '0.0480'
+                vat_basis: inclusive
+                vat_rate: '0.20'
+                vat_rate_checked: '2026-10-11'
+                vat_rate_source: https://www.gov.uk/vat-rates
+                warnings:
+                - Final Bolt Base threshold has no verified upper bound; extrapolation
+                  withheld
+              dibolt:
+                accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                  derived totals use captured display precision"]'
+                captured_at: '2026-10-13T23:32:37.952012+00:00'
+                currency: GBP
+                html_sha256: 8afd3582d0bca0af488be0cc2ca5c186461cb4e434c9a2b623afa2aca549a911
+                name: M3 x 25mm Socket Head Cap Screws (Fully Threaded) Grade 12.9
+                  Self Colour DIN 912
+                packages: '[]'
+                parsed_at: '2026-10-18T09:02:52.970348+00:00'
+                parser_version: dibolt-1.3-missing-price-review
+                review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+                  "statement": "Accept the precision of rounded displayed per-100
+                  prices."}'
+                review_warnings: '[]'
+                selected_by_current_filter: true
+                source_vat_basis: exclusive
+                specifications: 'Thread Size: M3 (3mm); Length (L): 25mm; Head Diameter
+                  (D): 5.5mm; Hexagon Depth (P): 1.3mm; Material: High Tensile (Grade
+                  12.9); Finish: Self Colour; Head Length (H): 3mm; Screw Thread Pitch:
+                  0.5mm; Socket Size (J): 2.5mm; Manufacturing Standard: 912; Material
+                  Specification: High Tensile (Grade 12.9); Fine or Coarse?: Coarse;
+                  Fully Threaded: Yes'
+                status: ok
+                stock_quantity: ''
+                stock_status: ''
+                supplier: dibolt
+                supplier_id: 50025.030.025
+                supplier_part_number: 50025.030.025
+                supplier_website: https://dibolt.co.uk/products/m3-x-25mm-socket-head-cap-screws-fully-threaded-grade-12-9-self-colour-din-912
+                tiers:
+                - maximum: 499
+                  minimum: 1
+                  source_text: 1 - 499 £4.50 Per 100 Units
+                  source_unit_price: '0.045'
+                  source_vat_basis: exclusive
+                  unit_price: '0.05400'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 2499
+                  minimum: 500
+                  source_text: 500 - 2,499 £4.28 Per 100 Units
+                  source_unit_price: '0.0428'
+                  source_vat_basis: exclusive
+                  unit_price: '0.051360'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: null
+                  minimum: 2500
+                  source_text: 2,500+ £4.05 Per 100 Units
+                  source_unit_price: '0.0405'
+                  source_vat_basis: exclusive
+                  unit_price: '0.048600'
+                  valid: true
+                  vat_basis: inclusive
+                total_price_1: '0.05400'
+                total_price_10: '0.54000'
+                total_price_100: '5.40000'
+                total_price_1000: '51.360000'
+                total_price_10000: '486.000000'
+                unit_price_1: '0.05400'
+                unit_price_10: '0.05400'
+                unit_price_100: '0.05400'
+                unit_price_1000: '0.051360'
+                unit_price_10000: '0.048600'
+                vat_basis: inclusive
+                vat_rate: '0.20'
+                vat_rate_checked: '2026-10-11'
+                vat_rate_source: https://www.gov.uk/vat-rates
+                warnings:
+                - Dibolt per-100 displayed prices are rounded; derived totals use
+                  captured display precision
+              kayfast:
+                accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                  derived totals use captured display precision"]'
+                captured_at: '2026-10-15T08:40:36.947951+00:00'
+                currency: GBP
+                family_description: Socket cap screws. Metric coarse threads. Self
+                  colour plain finish. High tensile grade 12.9. Manufactured to DIN
+                  912.
+                family_heading: SOCKET CAP SCREWS DIN 912 HIGH TENSILE SELF COLOUR
+                html_sha256: e6150f075d525a908b48420059468cd7dba0ff2b0d1f63775937503f6cf841ea
+                name: M3 x 25mm SOCKET CAP SCREW DIN 912 HIGH TENSILE 12.9 SELF COLOUR
+                packages: '[]'
+                parsed_at: '2026-10-18T09:30:16.121494+00:00'
+                parser_version: kayfast-1.6-family-description
+                price_breaks_description: M3 x 25mm SOCKET CAP SCREW DIN 912 HIGH
+                  TENSILE 12.9 SELF COLOUR
+                review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+                  "statement": "Use the exact row dropdown price per 100 divided by
+                  100 with Decimal precision; accept the captured per-100 display
+                  precision."}'
+                review_warnings: '[]'
+                selected_by_current_filter: true
+                source_vat_basis: exclusive
+                source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user
+                  clarification", "statement": "Kayfast prices are ex VAT.", "confirmed_on":
+                  "2026-10-17"}'
+                specifications: SOCKET CAP SCREWS DIN 912 HIGH TENSILE SELF COLOUR;
+                  Socket cap screws. Metric coarse threads. Self colour plain finish.
+                  High tensile grade 12.9. Manufactured to DIN 912.
+                status: ok
+                stock_quantity: ''
+                stock_status: ''
+                supplier: kayfast
+                supplier_id: M3-x-25mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+                supplier_id_basis: exact dimensional row description; spaces replaced
+                  by hyphens (user clarification 2026-10-11)
+                supplier_part_number: M3-x-25mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+                supplier_website: https://www.kayfast.co.uk/view-product/SOCKET-CAP-SCREWS-DIN-912-HIGH-TENSILE-SELF-COLOUR
+                tiers:
+                - maximum: 49
+                  minimum: 1
+                  source_price_per_100: '18.47'
+                  source_price_quantity: 100
+                  source_text: QTY 1 - 49 @ £18.47 per 100
+                  source_unit_price: '0.1847'
+                  source_vat_basis: exclusive
+                  unit_price: '0.221640'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 199
+                  minimum: 50
+                  source_price_per_100: '8.03'
+                  source_price_quantity: 100
+                  source_text: QTY 50 -  199 @ £8.03 per 100
+                  source_unit_price: '0.0803'
+                  source_vat_basis: exclusive
+                  unit_price: '0.096360'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: null
+                  minimum: 200
+                  source_price_per_100: '6.16'
+                  source_price_quantity: 100
+                  source_text: QTY 200 + @ £6.16 per 100
+                  source_unit_price: '0.0616'
+                  source_vat_basis: exclusive
+                  unit_price: '0.073920'
+                  valid: true
+                  vat_basis: inclusive
+                total_price_1: '0.221640'
+                total_price_10: '2.216400'
+                total_price_100: '9.636000'
+                total_price_1000: '73.920000'
+                total_price_10000: '739.200000'
+                unit_price_1: '0.221640'
+                unit_price_10: '0.221640'
+                unit_price_100: '0.096360'
+                unit_price_1000: '0.073920'
+                unit_price_10000: '0.073920'
+                vat_basis: inclusive
+                vat_rate: '0.20'
+                vat_rate_checked: '2026-10-11'
+                vat_rate_source: https://www.gov.uk/vat-rates
+                warnings:
+                - Kayfast per-100 displayed prices are rounded; derived totals use
+                  captured display precision
+              orbitalfasteners:
+                accepted_warnings: '[]'
+                box_quantity: '200'
+                captured_at: '2026-10-18T08:43:49.213775+00:00'
+                catalogue_page: '78'
+                currency: GBP
+                description: ''
+                html_sha256: e137e1ca36a70f7627f60d24a8d0189f5668dc1c0c2ed43254d511415a9e65fb
+                name: M3 x 25 Socket Cap Screw, High Tensile Grade 12.9 Self Colour,
+                  DIN 912
+                parsed_at: '2026-10-18T08:49:30.780946+00:00'
+                parser_version: 1.2-review-policy
+                review_policy: ''
+                review_warnings: '[]'
+                selected_by_current_filter: true
+                source_vat_basis: inclusive
+                status: ok
+                stock_as_of: 16th October 2026 10:01pm
+                stock_quantity: '1595'
+                supplier: orbitalfasteners
+                supplier_id: '1891052'
+                supplier_part_number: '1891052'
+                supplier_website: https://www.orbitalfasteners.co.uk/products/m3-x-25-socket-cap-screw-high-tensile-grade-12-9-self-colour-
+                tiers:
+                - maximum: 199
+                  minimum: 1
+                  source_text: 1 - 199 £0.048 Inc. VAT £4.80 Inc. VAT
+                  source_unit_price: '0.048'
+                  source_vat_basis: inclusive
+                  unit_price: '0.048'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 999
+                  minimum: 200
+                  source_text: 200 - 999 £0.0266 Inc. VAT £2.66 Inc. VAT
+                  source_unit_price: '0.0266'
+                  source_vat_basis: inclusive
+                  unit_price: '0.0266'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 4799
+                  minimum: 1000
+                  source_text: 1000 - 4799 £0.024 Inc. VAT £2.40 Inc. VAT
+                  source_unit_price: '0.024'
+                  source_vat_basis: inclusive
+                  unit_price: '0.024'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: null
+                  minimum: 4800
+                  source_text: 4800 + £0.0214 Inc. VAT £2.14 Inc. VAT
+                  source_unit_price: '0.0214'
+                  source_vat_basis: inclusive
+                  unit_price: '0.0214'
+                  valid: true
+                  vat_basis: inclusive
+                total_price_1: '0.048'
+                total_price_10: '0.480'
+                total_price_100: '4.800'
+                total_price_1000: '24.000'
+                total_price_10000: '214.0000'
+                unit_price_1: '0.048'
+                unit_price_10: '0.048'
+                unit_price_100: '0.048'
+                unit_price_1000: '0.024'
+                unit_price_10000: '0.0214'
+                vat_basis: inclusive
+                vat_rate: '0.20'
+                vat_rate_checked: '2026-10-11'
+                vat_rate_source: https://www.gov.uk/vat-rates
+                warnings: []
+              westfieldfasteners:
+                accepted_warnings: '["Westfield sliding-scale prices only verified
+                  at advertised package quantities; other quantities withheld", "Quantity
+                  10: no unique verified source price/VAT band; price withheld", "Quantity
+                  100: no unique verified source price/VAT band; price withheld",
+                  "Quantity 1000: no unique verified source price/VAT band; price
+                  withheld", "Quantity 10000: no unique verified source price/VAT
+                  band; price withheld"]'
+                captured_at: '2026-10-12T01:06:04.721072+00:00'
+                currency: GBP
+                html_sha256: d617cdcb444bec76fa1640915c3aaea6bcbb1f0c8534d1658ef0a640bb9897c3
+                name: M3 Bolt Unbrako Socket Head Cap 25mm in Black - ISO 4762 (DIN
+                  912)
+                packages: '[{"quantity": 1, "total_price": "1.7520", "source_text":
+                  "single screw for £1.46", "source_total_price": "1.46", "source_vat_basis":
+                  "exclusive", "vat_basis": "inclusive"}, {"quantity": 80, "total_price":
+                  "21.3600", "source_text": "box of 80 for £17.80", "source_total_price":
+                  "17.80", "source_vat_basis": "exclusive", "vat_basis": "inclusive"},
+                  {"quantity": 400, "total_price": "92.8800", "source_text": "bulk
+                  of 400 for £77.40", "source_total_price": "77.40", "source_vat_basis":
+                  "exclusive", "vat_basis": "inclusive"}]'
+                parsed_at: '2026-10-18T09:33:17.095700+00:00'
+                parser_version: westfieldfasteners-1.3-allen-cap-heading
+                review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+                  "statement": "Include advertised package prices only; other quantities
+                  may remain blank."}'
+                review_warnings: '[]'
+                selected_by_current_filter: true
+                source_vat_basis: exclusive
+                specifications: 'Thread Size: M3; Length: 25mm; M3 x 25mm Unbrako
+                  Socket Head Cap Screw Part Thread in Black Oxide WF47915 - 201 in
+                  stock'
+                status: ok
+                stock_quantity: '201'
+                stock_status: ''
+                supplier: westfieldfasteners
+                supplier_id: WF47915
+                supplier_part_number: WF47915
+                supplier_website: https://www.westfieldfasteners.co.uk/Unbrako/M3-Bolt-Unbrako-Socket-Head-Cap-25-Black.html
+                tiers:
+                - maximum: 1
+                  minimum: 1
+                  source_text: single screw for £1.46
+                  source_unit_price: '1.46'
+                  source_vat_basis: exclusive
+                  unit_price: '1.7520'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 80
+                  minimum: 80
+                  source_text: box of 80 for £17.80
+                  source_unit_price: '0.2225'
+                  source_vat_basis: exclusive
+                  unit_price: '0.267000'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 400
+                  minimum: 400
+                  source_text: bulk of 400 for £77.40
+                  source_unit_price: '0.1935'
+                  source_vat_basis: exclusive
+                  unit_price: '0.232200'
+                  valid: true
+                  vat_basis: inclusive
+                total_price_1: '1.7520'
+                total_price_10: ''
+                total_price_100: ''
+                total_price_1000: ''
+                total_price_10000: ''
+                unit_price_1: '1.7520'
+                unit_price_10: ''
+                unit_price_100: ''
+                unit_price_1000: ''
+                unit_price_10000: ''
+                vat_basis: inclusive
+                vat_rate: '0.20'
+                vat_rate_checked: '2026-10-11'
+                vat_rate_source: https://www.gov.uk/vat-rates
+                warnings:
+                - Westfield sliding-scale prices only verified at advertised package
+                  quantities; other quantities withheld
+                - 'Quantity 10: no unique verified source price/VAT band; price withheld'
+                - 'Quantity 100: no unique verified source price/VAT band; price withheld'
+                - 'Quantity 1000: no unique verified source price/VAT band; price
+                  withheld'
+                - 'Quantity 10000: no unique verified source price/VAT band; price
+                  withheld'
+            svg_details:
+              diameter_mm: 3.0
+              drive_style: hex_head
+              drive_symbol_gap_mm: 1.7999999999999998
+              head_diameter_mm: 5.1
+              head_rim_mm: 0.22499999999999998
+              length_mm: 25.0
+              screw_style: socket_cap
+              socket_depth_mm: 0.9750000000000001
+              socket_width_mm: 1.9500000000000002
+              stylesheet: project_bolt
+              svg_name: screw_diagrams
+              thread_pitch_mm: 0.5
+              variants:
+                plain: diagram_plain.svg
+                solid: diagram_solid.svg
+                threaded: diagram_threaded.svg
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: socket_cap
+            taxonomy_4: hex_head
+            taxonomy_5: black
+            taxonomy_6: m3_diameter
+            taxonomy_7: 25_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            thread_size: m3
+            three_d_model_details:
+              checked_on: '2026-10-11'
+              commercial_lengths_mm: []
+              coordinate_system:
+                axis: +Z towards head
+                glb_units: metres
+                glb_up_axis: Y
+                head_top_z_mm: 28.0
+                length_convention: under_head
+                origin: tip centre
+                stl_units: mm
+              dimension_status: standard_dimensions
+              dimensional_specification: Hexagon socket head cap screws
+              family: socket_cap
+              generation_status: ready
+              generator: parametric_screw
+              length_status: standard_length
+              material:
+                base_colour_srgb:
+                - 0.205
+                - 0.218
+                - 0.235
+                coat_roughness: 0.28
+                coat_weight: 0.08
+                metallic: 0.8
+                microtexture_height_um: 0.8
+                microtexture_spacing_mm: 0.025
+                name: Black oxide steel
+                note: Visual finish approximation; catalogue specifies colour only.
+                roughness: 0.31
+                roughness_variation: 0.045
+              model_formats:
+              - stl
+              - glb
+              modelling_choices:
+                catalogue_length: Unlisted lengths use the sourced size profile at
+                  the catalogue length and are explicitly marked as extensions.
+                certification: Nominal catalogue geometry; not manufacturing certification.
+                display: Smooth nominal thread envelope with the same head and recessed
+                  drive.
+                edges: Permitted 45 degree edge chamfers, selected small values; circular
+                  countersink at socket mouth.
+                head: Plain cylindrical head; no knurling or unidentified manufacturer/property-class
+                  stamps.
+                markings: Unidentified manufacturer and property-class stamps omitted.
+                runout: One-pitch taper; incomplete thread remains within 2P.
+                socket: Across-flats midpoint of ISO limits; minimum penetration,
+                  permissible flat bottom.
+                thread: Nominal right-hand external metric profile; 60 degree flanks,
+                  H/6 rounded root; no ISO 965 tolerance offsets.
+                thread_coverage: ISO shank/grip table selects partial lengths; full-thread
+                  commercial alternatives can be selected with thread_coverage=full.
+                tip: Selected 45 degree chamfer of P/2.
+              output_folder: three_d_model
+              parameters:
+                diameter_mm: 3.0
+                drive_style: hex_head
+                finish: black
+                handedness: right
+                head_diameter_mm: 5.5
+                head_edge_chamfer_mm: 0.15
+                head_height_mm: 3.0
+                head_style: cylindrical
+                head_top_z_mm: 28.0
+                hex_key_mm: 2.5
+                length_convention: under_head
+                length_mm: 25.0
+                overall_length_mm: 28.0
+                partial_thread_from_length_mm: 25
+                pitch_mm: 0.5
+                socket_across_flats_mm: 2.55
+                socket_depth_mm: 1.3
+                standard: ISO 4762:2004
+                thread_coverage: standard_reference
+                thread_flank_angle_deg: 60.0
+                thread_length_reference_mm: 18
+                thread_minor_diameter_mm: 2.3865653389860224
+                thread_pitch_diameter_mm: 2.6752404735808355
+                thread_root_radius_mm: 0.07216878364870322
+                thread_starts: 1
+                tip_chamfer_mm: 0.25
+                underhead_fillet_mm: 0.1
+              priority: 1
+              renders:
+                high:
+                  file: render_high.png
+                  pixels: 2048
+                  variant: full
+                  view: isometric
+                low:
+                  file: render_low.png
+                  pixels: 512
+                  variant: display
+                  view: isometric
+                product_high:
+                  file: render_product_high.png
+                  pixels: 2048
+                  variant: full
+                  view: product
+                product_low:
+                  file: render_product_low.png
+                  pixels: 512
+                  variant: display
+                  view: product
+              schema_version: 1
+              sources:
+              - title: ISO 4762:2004, Figure 1 and Table 1, pages 2–5
+                url: https://cdn.standards.iteh.ai/samples/34460/06335046afaf46fb8e84d91a3eda001d/ISO-4762-2004.pdf
+                use: Plain head dk, k, s limits, minimum t/r, b, shank/grip table
+                  and standard length combinations.
+              - title: ISO 4762 scope and current edition
+                url: https://www.iso.org/standard/34460.html
+                use: Coarse metric M1.6–M64; M2 and M2.5 are within scope.
+              - title: Bossard BN 2052 fully threaded DIN 912 / ISO 4762 screws
+                url: https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-head-cap-screws-fully-threaded/p/2052/
+                use: Fully threaded commercial alternative; catalogue does not specify
+                  which threading option was purchased.
+              standard: ISO 4762:2004
+              standard_lengths_mm:
+              - 4
+              - 5
+              - 6
+              - 8
+              - 10
+              - 12
+              - 16
+              - 20
+              - 25
+              - 30
+              standard_limits:
+                head_diameter_mm:
+                - 5.32
+                - 5.5
+                socket_across_flats_mm:
+                - 2.52
+                - 2.58
+                socket_depth_min_mm: 1.3
+              studio:
+                adaptive_threshold: 0.015
+                denoise: true
+                device: auto
+                engine: cycles
+                exposure: 0.0
+                floor_colour_srgb:
+                - 0.93
+                - 0.935
+                - 0.94
+                floor_roughness: 0.55
+                framing_margin: 0.13
+                high_samples: 160
+                lights:
+                - colour:
+                  - 1.0
+                  - 0.96
+                  - 0.9
+                  height: 5.0
+                  name: Key softbox
+                  position:
+                  - -3
+                  - -4
+                  - 6
+                  power: 650.0
+                  width: 4.0
+                - colour:
+                  - 0.9
+                  - 0.95
+                  - 1.0
+                  height: 4.0
+                  name: Fill softbox
+                  position:
+                  - 4
+                  - -1
+                  - 3
+                  power: 330.0
+                  width: 3.0
+                - colour:
+                  - 1.0
+                  - 1.0
+                  - 1.0
+                  height: 5.0
+                  name: Rim strip
+                  position:
+                  - 1
+                  - 4
+                  - 4
+                  power: 850.0
+                  width: 1.2
+                low_samples: 48
+                poses:
+                  isometric:
+                    camera_eye:
+                    - 1
+                    - -1
+                    - 1
+                    orientation: tip down, head up
+                    projection: orthographic
+                  product:
+                    camera_eye:
+                    - -6
+                    - -10
+                    - 6
+                    orientation: lying on side, head to left
+                    projection: orthographic
+                    support: Head rim and threaded shaft rest on ground; solve tilt
+                      from mesh.
+                    yaw_degrees: -12.0
+                seed: 7991
+                view_transform: AgX
+                world_colour:
+                - 0.78
+                - 0.82
+                - 0.9
+                world_strength: 0.35
+              units: mm
+              variants:
+                display:
+                  angular_segments: 32
+                  fillet_segments: 4
+                  samples_per_pitch: 1
+                full:
+                  angular_segments: 96
+                  fillet_segments: 12
+                  samples_per_pitch: 32
+              views:
+              - isometric
+              - front
+              - back
+              - left
+              - right
+              - top
+              - bottom
+            url_chat: https://chatgpt.com/c/69f66e90-7800-83eb-aeef-42bd864b09d0
+          dict_data_files: {}
+          dict_data_files_exists: {}
+          file_output: label_oomp.svg
+          file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+          search_and_replace: []
+        file_test: label_oomp.pdf
+        retries_until_complete: 0
+      screw_style: screw_socket_cap
+      supplier_data:
+        accu:
+          accepted_warnings: '["Accu displayed prices are rounded; derived totals
+            use the captured display precision", "Final Accu price tier has no captured
+            upper boundary; final advertised unit price extended by user policy"]'
+          box_quantity: ''
+          captured_at: '2026-10-11T23:46:53.695253+00:00'
+          currency: GBP
+          description: 'Metric Socket Cap Head Screws feature an internal socket drive
+            that is designed for use with a Hex Key, otherwise known as an Allen Key.
+            With the terms ‘socket’ and ‘allen’ being so interchangeable within engineering,
+            this explains why these fasteners are also commonly referred to as Allen
+            Key Bolts or Socket Screws. Accu''s range of Cap Screws are manufactured
+            in accordance with industry standards, such as DIN 912 and ISO 4762. Screws
+            within this range are available in either a fully threaded or partially
+            threaded form, with the latter featuring an unthreaded portion below the
+            head of the screw. The distinction of whether the screw is fully threaded
+            or not is detailed in each individual product specification. If a larger
+            unthreaded portion is required, Accu''s range of Socket Shoulder Screws
+            range may be more suitable, depending upon your application. Metric Cap
+            Head Captive Screws A number of Accu''s Metric & Imperial Socket Cap Screws
+            are also available to be modified to feature a precisely machined unthreaded
+            section, affording a retaining capability. These specialised Captive Screws
+            are used to provide a secure fixture and help to prevent damage or loss
+            of screws in a housing assembly. Accu''s range of Cap Head Captive Screws
+            are designed to aid compliance with EU Safety Directives. Vented Socket
+            Screws Accu can also offer Vented Cap Screws, which are a specially modified
+            variant of this component that allow the release of gases and pressure
+            through a bore that runs through the centre of the screw. Materials Socket
+            Cap Screws within this range are available in a wide selection of materials,
+            including metals ranging from A2, A4, A4-80, Duplex and Bumax Stainless
+            Steel, 12.9 High Tensile Steel, Aluminium and Titanium. Plastic variants
+            are also available as standard in Nylon, Polycarbonate, Reny and PEEK
+            Thermoplastic.Optimise your Metric Socket Cap Head Screws against vibrations
+            and loosening with our pre-applied thread-locking patches, from essential
+            AccuLock Threadlocker, robust Anu-Lok 180 through to our high performance
+            Precote 80. Personalise your components with AccuBlack chemical blackening
+            to reduce reflections and add a premium finish aesthetic finish. Metric
+            Cap Head Screws Metric Socket Cap Screws are available from Accu in sizes
+            M1.4 to M30, and lengths of between 2mm and 300mm. Both partially threaded
+            and fully threaded varieties are available. Imperial Cap Head Screws Imperial
+            Socket Cap Head Screws are supplied in sizes between #0 (No. 0) and ¾
+            inches. Lengths of between 3/32 inch and 5.½ inches are available as standard,
+            and are manufactured in both fully and partially threaded varieties. Minimum
+            Thread Length In accordance with DIN standards, Accu''s Socket Cap Screws
+            are manufactured to a minimum specified thread length - this measurement
+            can be found within each individual product page. If this dimension is
+            critical to your application, please contact us before placing your order.'
+          html_sha256: bbdf125e459f53bc030164d0a4e1a510da7e8fab5c97c0be781f954f9c582301
+          name: M3 x 25mm Socket Cap Head Screws (DIN 912) - High Tensile Steel (12.9)
+          parsed_at: '2026-10-18T08:52:21.658422+00:00'
+          parser_version: accu-1.9-base-material
+          price_inheritance: '{"1000": {"source_quantity": 200, "source_unit_price":
+            "0.05", "source_text": "Buy 200 £0.05 Save 93 %", "basis": "user policy
+            2026-10-13"}, "10000": {"source_quantity": 200, "source_unit_price": "0.05",
+            "source_text": "Buy 200 £0.05 Save 93 %", "basis": "user policy 2026-10-13"}}'
+          quote_minimum: ''
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept rounded displayed prices, open-ended final advertised
+            tiers, and quotes required from 400 units; quote-only prices remain blank."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.03", "highPrice":
+            "0.78", "priceCurrency": "GBP", "offerCount": "11", "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/metric-cap-head-screws/16009-SSC-M3-25-12-9",
+            "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type":
+            "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+          source_vat_basis: exclusive
+          source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "accus prices are all ex vat", "confirmed_on": "2026-10-13"}'
+          specifications: '{"Accu Product Code (APC)": "SSC-M3-25-12.9", "Thread Size":
+            "M3 (3 mm)", "Length (L)": "25 mm", "Full Thread": "No", "Material": "Steel
+            - High Tensile (12.9)", "Finish": "Natural", "Drive Depth (P)": "1.3 mm",
+            "Head Diameter (D)": "5.68 mm (Tolerance: +0/-0.36 mm)", "Head Height
+            (H)": "3 mm (Tolerance: +0/-0.14 mm)", "Manufacturing Standard": "DIN
+            912", "Material Family": "Steel", "Socket Size (J)": "2.5 mm", "Thread
+            Length (Min) (E)": "18 mm", "Thread Pitch": "0.5 mm", "Thread Specification":
+            "Metric Coarse"}'
+          status: ok
+          stock_quantity: ''
+          stock_status: https://schema.org/InStock
+          supplier: accu
+          supplier_id: SSC-M3-25-12.9
+          supplier_part_number: SSC-M3-25-12.9
+          supplier_website: https://www.accu.co.uk/metric-cap-head-screws/16009-SSC-M3-25-12-9
+          tiers:
+          - maximum: 1
+            minimum: 1
+            source_text: Buy 1 £0.78
+            source_unit_price: '0.78'
+            source_vat_basis: exclusive
+            unit_price: '0.9360'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 3
+            minimum: 2
+            source_text: Buy 2 £0.43 Save 44 %
+            source_unit_price: '0.43'
+            source_vat_basis: exclusive
+            unit_price: '0.5160'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 5
+            minimum: 4
+            source_text: Buy 4 £0.26 Save 66 %
+            source_unit_price: '0.26'
+            source_vat_basis: exclusive
+            unit_price: '0.3120'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 11
+            minimum: 6
+            source_text: Buy 6 £0.18 Save 76 %
+            source_unit_price: '0.18'
+            source_vat_basis: exclusive
+            unit_price: '0.2160'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 23
+            minimum: 12
+            source_text: Buy 12 £0.12 Save 84 %
+            source_unit_price: '0.12'
+            source_vat_basis: exclusive
+            unit_price: '0.1440'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 49
+            minimum: 24
+            source_text: Buy 24 £0.09 Save 88 %
+            source_unit_price: '0.09'
+            source_vat_basis: exclusive
+            unit_price: '0.1080'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 99
+            minimum: 50
+            source_text: Buy 50 £0.07 Save 91 %
+            source_unit_price: '0.07'
+            source_vat_basis: exclusive
+            unit_price: '0.0840'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 199
+            minimum: 100
+            source_text: Buy 100 £0.06 Save 92 %
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            maximum_basis: user-approved open-ended final tier; no captured upper
+              boundary
+            minimum: 200
+            source_text: Buy 200 £0.05 Save 93 %
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.9360'
+          total_price_10: '2.1600'
+          total_price_100: '7.2000'
+          total_price_1000: '60.0000'
+          total_price_10000: '600.0000'
+          unit_price_1: '0.9360'
+          unit_price_10: '0.2160'
+          unit_price_100: '0.0720'
+          unit_price_1000: '0.0600'
+          unit_price_10000: '0.0600'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Accu displayed prices are rounded; derived totals use the captured display
+            precision
+          - Final Accu price tier has no captured upper boundary; final advertised
+            unit price extended by user policy
+        boltbase:
+          accepted_warnings: '["Final Bolt Base threshold has no verified upper bound;
+            extrapolation withheld"]'
+          captured_at: '2026-10-12T21:36:11.260519+00:00'
+          currency: GBP
+          html_sha256: 1b9e010dc3f9fe821a2caae92e5893a16af4284f4afb8675a25561b80e83812a
+          name: M3 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
+          packages: '[]'
+          parsed_at: '2026-10-18T08:56:33.651531+00:00'
+          parser_version: boltbase-1.2-review-policy
+          price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
+            "0.04", "source_text": "Buy 5000 + Save 90% Each £0.04 £0.34", "basis":
+            "user policy 2026-10-13"}}'
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "For a withheld 10000-unit price, inherit the highest available
+            lower-quantity unit price."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+          specifications: 'Thread Size: M3 (3mm); Length (Excluding Head): 25mm (Partially
+            Threaded); M3 (3mm Thread Diameter) Socket Cap Screws, also known as Allen
+            Bolts. Manufactured to DIN 912/ ISO 4762 in Self Colour High Tensile 12.9
+            Steel. Socket Cap Screws are perfect for applications where space is limited
+            or where the screw head is installed in a recess due to the use of an
+            allen key to tighten them. Ideal for use where there is not enough clearance
+            to use a Hex Head Bolt. Suitable for applications where high strength
+            is required due to the high tensile strength. These screws are partially
+            threaded as standard after a certain length. Please note that these bolts
+            offer little to no protection from rusting and are more suited for indoor
+            use or for applications where they are protected from moisture.'
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: boltbase
+          supplier_id: SC12.9CP-3X25
+          supplier_part_number: SC12.9CP-3X25
+          supplier_website: https://boltbase.com/products/m3-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464729239933
+          tiers:
+          - maximum: 1
+            minimum: 1
+            source_text: Single Screw Buy 1 For £0.34
+            source_unit_price: '0.34'
+            source_vat_basis: exclusive
+            unit_price: '0.4080'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4
+            minimum: 2
+            source_text: Buy 2 + Save 40% Each £0.21 £0.34
+            source_unit_price: '0.21'
+            source_vat_basis: exclusive
+            unit_price: '0.2520'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 9
+            minimum: 5
+            source_text: Buy 5 + Save 49% Each £0.18 £0.34
+            source_unit_price: '0.18'
+            source_vat_basis: exclusive
+            unit_price: '0.2160'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 24
+            minimum: 10
+            source_text: Buy 10 + Save 67% Each £0.12 £0.34
+            source_unit_price: '0.12'
+            source_vat_basis: exclusive
+            unit_price: '0.1440'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 49
+            minimum: 25
+            source_text: Buy 25 + Save 75% Each £0.09 £0.34
+            source_unit_price: '0.09'
+            source_vat_basis: exclusive
+            unit_price: '0.1080'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 99
+            minimum: 50
+            source_text: Buy 50 + Save 77% Each £0.08 £0.34
+            source_unit_price: '0.08'
+            source_vat_basis: exclusive
+            unit_price: '0.0960'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 249
+            minimum: 100
+            source_text: Buy 100 + Save 81% Each £0.07 £0.34
+            source_unit_price: '0.07'
+            source_vat_basis: exclusive
+            unit_price: '0.0840'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 499
+            minimum: 250
+            source_text: Buy 250 + Save 83% Each £0.06 £0.34
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 500
+            source_text: Buy 500 + Save 86% Each £0.05 £0.34
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4999
+            minimum: 1000
+            source_text: Buy 1000 + Save 88% Each £0.05 £0.34
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 5000
+            minimum: 5000
+            source_text: Buy 5000 + Save 90% Each £0.04 £0.34
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.4080'
+          total_price_10: '1.4400'
+          total_price_100: '8.4000'
+          total_price_1000: '60.0000'
+          total_price_10000: '480.0000'
+          unit_price_1: '0.4080'
+          unit_price_10: '0.1440'
+          unit_price_100: '0.0840'
+          unit_price_1000: '0.0600'
+          unit_price_10000: '0.0480'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+        dibolt:
+          accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+          captured_at: '2026-10-13T23:32:37.952012+00:00'
+          currency: GBP
+          html_sha256: 8afd3582d0bca0af488be0cc2ca5c186461cb4e434c9a2b623afa2aca549a911
+          name: M3 x 25mm Socket Head Cap Screws (Fully Threaded) Grade 12.9 Self
+            Colour DIN 912
+          packages: '[]'
+          parsed_at: '2026-10-18T09:02:52.970348+00:00'
+          parser_version: dibolt-1.3-missing-price-review
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept the precision of rounded displayed per-100 prices."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          specifications: 'Thread Size: M3 (3mm); Length (L): 25mm; Head Diameter
+            (D): 5.5mm; Hexagon Depth (P): 1.3mm; Material: High Tensile (Grade 12.9);
+            Finish: Self Colour; Head Length (H): 3mm; Screw Thread Pitch: 0.5mm;
+            Socket Size (J): 2.5mm; Manufacturing Standard: 912; Material Specification:
+            High Tensile (Grade 12.9); Fine or Coarse?: Coarse; Fully Threaded: Yes'
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: dibolt
+          supplier_id: 50025.030.025
+          supplier_part_number: 50025.030.025
+          supplier_website: https://dibolt.co.uk/products/m3-x-25mm-socket-head-cap-screws-fully-threaded-grade-12-9-self-colour-din-912
+          tiers:
+          - maximum: 499
+            minimum: 1
+            source_text: 1 - 499 £4.50 Per 100 Units
+            source_unit_price: '0.045'
+            source_vat_basis: exclusive
+            unit_price: '0.05400'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 2499
+            minimum: 500
+            source_text: 500 - 2,499 £4.28 Per 100 Units
+            source_unit_price: '0.0428'
+            source_vat_basis: exclusive
+            unit_price: '0.051360'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 2500
+            source_text: 2,500+ £4.05 Per 100 Units
+            source_unit_price: '0.0405'
+            source_vat_basis: exclusive
+            unit_price: '0.048600'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.05400'
+          total_price_10: '0.54000'
+          total_price_100: '5.40000'
+          total_price_1000: '51.360000'
+          total_price_10000: '486.000000'
+          unit_price_1: '0.05400'
+          unit_price_10: '0.05400'
+          unit_price_100: '0.05400'
+          unit_price_1000: '0.051360'
+          unit_price_10000: '0.048600'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Dibolt per-100 displayed prices are rounded; derived totals use captured
+            display precision
+        kayfast:
+          accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+          captured_at: '2026-10-15T08:40:36.947951+00:00'
+          currency: GBP
+          family_description: Socket cap screws. Metric coarse threads. Self colour
+            plain finish. High tensile grade 12.9. Manufactured to DIN 912.
+          family_heading: SOCKET CAP SCREWS DIN 912 HIGH TENSILE SELF COLOUR
+          html_sha256: e6150f075d525a908b48420059468cd7dba0ff2b0d1f63775937503f6cf841ea
+          name: M3 x 25mm SOCKET CAP SCREW DIN 912 HIGH TENSILE 12.9 SELF COLOUR
+          packages: '[]'
+          parsed_at: '2026-10-18T09:30:16.121494+00:00'
+          parser_version: kayfast-1.6-family-description
+          price_breaks_description: M3 x 25mm SOCKET CAP SCREW DIN 912 HIGH TENSILE
+            12.9 SELF COLOUR
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+            "statement": "Use the exact row dropdown price per 100 divided by 100
+            with Decimal precision; accept the captured per-100 display precision."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+          specifications: SOCKET CAP SCREWS DIN 912 HIGH TENSILE SELF COLOUR; Socket
+            cap screws. Metric coarse threads. Self colour plain finish. High tensile
+            grade 12.9. Manufactured to DIN 912.
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: kayfast
+          supplier_id: M3-x-25mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+          supplier_id_basis: exact dimensional row description; spaces replaced by
+            hyphens (user clarification 2026-10-11)
+          supplier_part_number: M3-x-25mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+          supplier_website: https://www.kayfast.co.uk/view-product/SOCKET-CAP-SCREWS-DIN-912-HIGH-TENSILE-SELF-COLOUR
+          tiers:
+          - maximum: 49
+            minimum: 1
+            source_price_per_100: '18.47'
+            source_price_quantity: 100
+            source_text: QTY 1 - 49 @ £18.47 per 100
+            source_unit_price: '0.1847'
+            source_vat_basis: exclusive
+            unit_price: '0.221640'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 199
+            minimum: 50
+            source_price_per_100: '8.03'
+            source_price_quantity: 100
+            source_text: QTY 50 -  199 @ £8.03 per 100
+            source_unit_price: '0.0803'
+            source_vat_basis: exclusive
+            unit_price: '0.096360'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 200
+            source_price_per_100: '6.16'
+            source_price_quantity: 100
+            source_text: QTY 200 + @ £6.16 per 100
+            source_unit_price: '0.0616'
+            source_vat_basis: exclusive
+            unit_price: '0.073920'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.221640'
+          total_price_10: '2.216400'
+          total_price_100: '9.636000'
+          total_price_1000: '73.920000'
+          total_price_10000: '739.200000'
+          unit_price_1: '0.221640'
+          unit_price_10: '0.221640'
+          unit_price_100: '0.096360'
+          unit_price_1000: '0.073920'
+          unit_price_10000: '0.073920'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Kayfast per-100 displayed prices are rounded; derived totals use captured
+            display precision
+        orbitalfasteners:
+          accepted_warnings: '[]'
+          box_quantity: '200'
+          captured_at: '2026-10-18T08:43:49.213775+00:00'
+          catalogue_page: '78'
+          currency: GBP
+          description: ''
+          html_sha256: e137e1ca36a70f7627f60d24a8d0189f5668dc1c0c2ed43254d511415a9e65fb
+          name: M3 x 25 Socket Cap Screw, High Tensile Grade 12.9 Self Colour, DIN
+            912
+          parsed_at: '2026-10-18T08:49:30.780946+00:00'
+          parser_version: 1.2-review-policy
+          review_policy: ''
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: inclusive
+          status: ok
+          stock_as_of: 16th October 2026 10:01pm
+          stock_quantity: '1595'
+          supplier: orbitalfasteners
+          supplier_id: '1891052'
+          supplier_part_number: '1891052'
+          supplier_website: https://www.orbitalfasteners.co.uk/products/m3-x-25-socket-cap-screw-high-tensile-grade-12-9-self-colour-
+          tiers:
+          - maximum: 199
+            minimum: 1
+            source_text: 1 - 199 £0.048 Inc. VAT £4.80 Inc. VAT
+            source_unit_price: '0.048'
+            source_vat_basis: inclusive
+            unit_price: '0.048'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 200
+            source_text: 200 - 999 £0.0266 Inc. VAT £2.66 Inc. VAT
+            source_unit_price: '0.0266'
+            source_vat_basis: inclusive
+            unit_price: '0.0266'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4799
+            minimum: 1000
+            source_text: 1000 - 4799 £0.024 Inc. VAT £2.40 Inc. VAT
+            source_unit_price: '0.024'
+            source_vat_basis: inclusive
+            unit_price: '0.024'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 4800
+            source_text: 4800 + £0.0214 Inc. VAT £2.14 Inc. VAT
+            source_unit_price: '0.0214'
+            source_vat_basis: inclusive
+            unit_price: '0.0214'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.048'
+          total_price_10: '0.480'
+          total_price_100: '4.800'
+          total_price_1000: '24.000'
+          total_price_10000: '214.0000'
+          unit_price_1: '0.048'
+          unit_price_10: '0.048'
+          unit_price_100: '0.048'
+          unit_price_1000: '0.024'
+          unit_price_10000: '0.0214'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings: []
+        westfieldfasteners:
+          accepted_warnings: '["Westfield sliding-scale prices only verified at advertised
+            package quantities; other quantities withheld", "Quantity 10: no unique
+            verified source price/VAT band; price withheld", "Quantity 100: no unique
+            verified source price/VAT band; price withheld", "Quantity 1000: no unique
+            verified source price/VAT band; price withheld", "Quantity 10000: no unique
+            verified source price/VAT band; price withheld"]'
+          captured_at: '2026-10-12T01:06:04.721072+00:00'
+          currency: GBP
+          html_sha256: d617cdcb444bec76fa1640915c3aaea6bcbb1f0c8534d1658ef0a640bb9897c3
+          name: M3 Bolt Unbrako Socket Head Cap 25mm in Black - ISO 4762 (DIN 912)
+          packages: '[{"quantity": 1, "total_price": "1.7520", "source_text": "single
+            screw for £1.46", "source_total_price": "1.46", "source_vat_basis": "exclusive",
+            "vat_basis": "inclusive"}, {"quantity": 80, "total_price": "21.3600",
+            "source_text": "box of 80 for £17.80", "source_total_price": "17.80",
+            "source_vat_basis": "exclusive", "vat_basis": "inclusive"}, {"quantity":
+            400, "total_price": "92.8800", "source_text": "bulk of 400 for £77.40",
+            "source_total_price": "77.40", "source_vat_basis": "exclusive", "vat_basis":
+            "inclusive"}]'
+          parsed_at: '2026-10-18T09:33:17.095700+00:00'
+          parser_version: westfieldfasteners-1.3-allen-cap-heading
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Include advertised package prices only; other quantities
+            may remain blank."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          specifications: 'Thread Size: M3; Length: 25mm; M3 x 25mm Unbrako Socket
+            Head Cap Screw Part Thread in Black Oxide WF47915 - 201 in stock'
+          status: ok
+          stock_quantity: '201'
+          stock_status: ''
+          supplier: westfieldfasteners
+          supplier_id: WF47915
+          supplier_part_number: WF47915
+          supplier_website: https://www.westfieldfasteners.co.uk/Unbrako/M3-Bolt-Unbrako-Socket-Head-Cap-25-Black.html
+          tiers:
+          - maximum: 1
+            minimum: 1
+            source_text: single screw for £1.46
+            source_unit_price: '1.46'
+            source_vat_basis: exclusive
+            unit_price: '1.7520'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 80
+            minimum: 80
+            source_text: box of 80 for £17.80
+            source_unit_price: '0.2225'
+            source_vat_basis: exclusive
+            unit_price: '0.267000'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 400
+            minimum: 400
+            source_text: bulk of 400 for £77.40
+            source_unit_price: '0.1935'
+            source_vat_basis: exclusive
+            unit_price: '0.232200'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '1.7520'
+          total_price_10: ''
+          total_price_100: ''
+          total_price_1000: ''
+          total_price_10000: ''
+          unit_price_1: '1.7520'
+          unit_price_10: ''
+          unit_price_100: ''
+          unit_price_1000: ''
+          unit_price_10000: ''
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Westfield sliding-scale prices only verified at advertised package quantities;
+            other quantities withheld
+          - 'Quantity 10: no unique verified source price/VAT band; price withheld'
+          - 'Quantity 100: no unique verified source price/VAT band; price withheld'
+          - 'Quantity 1000: no unique verified source price/VAT band; price withheld'
+          - 'Quantity 10000: no unique verified source price/VAT band; price withheld'
+      svg_details:
+        diameter_mm: 3.0
+        drive_style: hex_head
+        drive_symbol_gap_mm: 1.7999999999999998
+        head_diameter_mm: 5.1
+        head_rim_mm: 0.22499999999999998
+        length_mm: 25.0
+        screw_style: socket_cap
+        socket_depth_mm: 0.9750000000000001
+        socket_width_mm: 1.9500000000000002
+        stylesheet: project_bolt
+        svg_name: screw_diagrams
+        thread_pitch_mm: 0.5
+        variants:
+          plain: diagram_plain.svg
+          solid: diagram_solid.svg
+          threaded: diagram_threaded.svg
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: screw
+      taxonomy_3: socket_cap
+      taxonomy_4: hex_head
+      taxonomy_5: black
+      taxonomy_6: m3_diameter
+      taxonomy_7: 25_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      thread_size: m3
+      three_d_model_details:
+        checked_on: '2026-10-11'
+        commercial_lengths_mm: []
+        coordinate_system:
+          axis: +Z towards head
+          glb_units: metres
+          glb_up_axis: Y
+          head_top_z_mm: 28.0
+          length_convention: under_head
+          origin: tip centre
+          stl_units: mm
+        dimension_status: standard_dimensions
+        dimensional_specification: Hexagon socket head cap screws
+        family: socket_cap
+        generation_status: ready
+        generator: parametric_screw
+        length_status: standard_length
+        material:
+          base_colour_srgb:
+          - 0.205
+          - 0.218
+          - 0.235
+          coat_roughness: 0.28
+          coat_weight: 0.08
+          metallic: 0.8
+          microtexture_height_um: 0.8
+          microtexture_spacing_mm: 0.025
+          name: Black oxide steel
+          note: Visual finish approximation; catalogue specifies colour only.
+          roughness: 0.31
+          roughness_variation: 0.045
+        model_formats:
+        - stl
+        - glb
+        modelling_choices:
+          catalogue_length: Unlisted lengths use the sourced size profile at the catalogue
+            length and are explicitly marked as extensions.
+          certification: Nominal catalogue geometry; not manufacturing certification.
+          display: Smooth nominal thread envelope with the same head and recessed
+            drive.
+          edges: Permitted 45 degree edge chamfers, selected small values; circular
+            countersink at socket mouth.
+          head: Plain cylindrical head; no knurling or unidentified manufacturer/property-class
+            stamps.
+          markings: Unidentified manufacturer and property-class stamps omitted.
+          runout: One-pitch taper; incomplete thread remains within 2P.
+          socket: Across-flats midpoint of ISO limits; minimum penetration, permissible
+            flat bottom.
+          thread: Nominal right-hand external metric profile; 60 degree flanks, H/6
+            rounded root; no ISO 965 tolerance offsets.
+          thread_coverage: ISO shank/grip table selects partial lengths; full-thread
+            commercial alternatives can be selected with thread_coverage=full.
+          tip: Selected 45 degree chamfer of P/2.
+        output_folder: three_d_model
+        parameters:
+          diameter_mm: 3.0
+          drive_style: hex_head
+          finish: black
+          handedness: right
+          head_diameter_mm: 5.5
+          head_edge_chamfer_mm: 0.15
+          head_height_mm: 3.0
+          head_style: cylindrical
+          head_top_z_mm: 28.0
+          hex_key_mm: 2.5
+          length_convention: under_head
+          length_mm: 25.0
+          overall_length_mm: 28.0
+          partial_thread_from_length_mm: 25
+          pitch_mm: 0.5
+          socket_across_flats_mm: 2.55
+          socket_depth_mm: 1.3
+          standard: ISO 4762:2004
+          thread_coverage: standard_reference
+          thread_flank_angle_deg: 60.0
+          thread_length_reference_mm: 18
+          thread_minor_diameter_mm: 2.3865653389860224
+          thread_pitch_diameter_mm: 2.6752404735808355
+          thread_root_radius_mm: 0.07216878364870322
+          thread_starts: 1
+          tip_chamfer_mm: 0.25
+          underhead_fillet_mm: 0.1
+        priority: 1
+        renders:
+          high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+          low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+          product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+          product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+        schema_version: 1
+        sources:
+        - title: ISO 4762:2004, Figure 1 and Table 1, pages 2–5
+          url: https://cdn.standards.iteh.ai/samples/34460/06335046afaf46fb8e84d91a3eda001d/ISO-4762-2004.pdf
+          use: Plain head dk, k, s limits, minimum t/r, b, shank/grip table and standard
+            length combinations.
+        - title: ISO 4762 scope and current edition
+          url: https://www.iso.org/standard/34460.html
+          use: Coarse metric M1.6–M64; M2 and M2.5 are within scope.
+        - title: Bossard BN 2052 fully threaded DIN 912 / ISO 4762 screws
+          url: https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-head-cap-screws-fully-threaded/p/2052/
+          use: Fully threaded commercial alternative; catalogue does not specify which
+            threading option was purchased.
+        standard: ISO 4762:2004
+        standard_lengths_mm:
+        - 4
+        - 5
+        - 6
+        - 8
+        - 10
+        - 12
+        - 16
+        - 20
+        - 25
+        - 30
+        standard_limits:
+          head_diameter_mm:
+          - 5.32
+          - 5.5
+          socket_across_flats_mm:
+          - 2.52
+          - 2.58
+          socket_depth_min_mm: 1.3
+        studio:
+          adaptive_threshold: 0.015
+          denoise: true
+          device: auto
+          engine: cycles
+          exposure: 0.0
+          floor_colour_srgb:
+          - 0.93
+          - 0.935
+          - 0.94
+          floor_roughness: 0.55
+          framing_margin: 0.13
+          high_samples: 160
+          lights:
+          - colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+          - colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+          - colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+          low_samples: 48
+          poses:
+            isometric:
+              camera_eye:
+              - 1
+              - -1
+              - 1
+              orientation: tip down, head up
+              projection: orthographic
+            product:
+              camera_eye:
+              - -6
+              - -10
+              - 6
+              orientation: lying on side, head to left
+              projection: orthographic
+              support: Head rim and threaded shaft rest on ground; solve tilt from
+                mesh.
+              yaw_degrees: -12.0
+          seed: 7991
+          view_transform: AgX
+          world_colour:
+          - 0.78
+          - 0.82
+          - 0.9
+          world_strength: 0.35
+        units: mm
+        variants:
+          display:
+            angular_segments: 32
+            fillet_segments: 4
+            samples_per_pitch: 1
+          full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+        views:
+        - isometric
+        - front
+        - back
+        - left
+        - right
+        - top
+        - bottom
+      url_chat: https://chatgpt.com/c/69f66e90-7800-83eb-aeef-42bd864b09d0
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_bolt_image.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_bolt_image.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_3:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    description: label_drawer
+    dict_data:
+      label_drawer: *id001
+    file_output: label_drawer.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+  file_test: ''
+oomp_key: oomp_hardware_screw_socket_cap_hex_head_black_m3_diameter_25_mm_length
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+screw_style: screw_socket_cap
+supplier_data:
+  accu:
+    accepted_warnings: '["Accu displayed prices are rounded; derived totals use the
+      captured display precision", "Final Accu price tier has no captured upper boundary;
+      final advertised unit price extended by user policy"]'
+    box_quantity: ''
+    captured_at: '2026-10-11T23:46:53.695253+00:00'
+    currency: GBP
+    description: 'Metric Socket Cap Head Screws feature an internal socket drive that
+      is designed for use with a Hex Key, otherwise known as an Allen Key. With the
+      terms ‘socket’ and ‘allen’ being so interchangeable within engineering, this
+      explains why these fasteners are also commonly referred to as Allen Key Bolts
+      or Socket Screws. Accu''s range of Cap Screws are manufactured in accordance
+      with industry standards, such as DIN 912 and ISO 4762. Screws within this range
+      are available in either a fully threaded or partially threaded form, with the
+      latter featuring an unthreaded portion below the head of the screw. The distinction
+      of whether the screw is fully threaded or not is detailed in each individual
+      product specification. If a larger unthreaded portion is required, Accu''s range
+      of Socket Shoulder Screws range may be more suitable, depending upon your application.
+      Metric Cap Head Captive Screws A number of Accu''s Metric & Imperial Socket
+      Cap Screws are also available to be modified to feature a precisely machined
+      unthreaded section, affording a retaining capability. These specialised Captive
+      Screws are used to provide a secure fixture and help to prevent damage or loss
+      of screws in a housing assembly. Accu''s range of Cap Head Captive Screws are
+      designed to aid compliance with EU Safety Directives. Vented Socket Screws Accu
+      can also offer Vented Cap Screws, which are a specially modified variant of
+      this component that allow the release of gases and pressure through a bore that
+      runs through the centre of the screw. Materials Socket Cap Screws within this
+      range are available in a wide selection of materials, including metals ranging
+      from A2, A4, A4-80, Duplex and Bumax Stainless Steel, 12.9 High Tensile Steel,
+      Aluminium and Titanium. Plastic variants are also available as standard in Nylon,
+      Polycarbonate, Reny and PEEK Thermoplastic.Optimise your Metric Socket Cap Head
+      Screws against vibrations and loosening with our pre-applied thread-locking
+      patches, from essential AccuLock Threadlocker, robust Anu-Lok 180 through to
+      our high performance Precote 80. Personalise your components with AccuBlack
+      chemical blackening to reduce reflections and add a premium finish aesthetic
+      finish. Metric Cap Head Screws Metric Socket Cap Screws are available from Accu
+      in sizes M1.4 to M30, and lengths of between 2mm and 300mm. Both partially threaded
+      and fully threaded varieties are available. Imperial Cap Head Screws Imperial
+      Socket Cap Head Screws are supplied in sizes between #0 (No. 0) and ¾ inches.
+      Lengths of between 3/32 inch and 5.½ inches are available as standard, and are
+      manufactured in both fully and partially threaded varieties. Minimum Thread
+      Length In accordance with DIN standards, Accu''s Socket Cap Screws are manufactured
+      to a minimum specified thread length - this measurement can be found within
+      each individual product page. If this dimension is critical to your application,
+      please contact us before placing your order.'
+    html_sha256: bbdf125e459f53bc030164d0a4e1a510da7e8fab5c97c0be781f954f9c582301
+    name: M3 x 25mm Socket Cap Head Screws (DIN 912) - High Tensile Steel (12.9)
+    parsed_at: '2026-10-18T08:52:21.658422+00:00'
+    parser_version: accu-1.9-base-material
+    price_inheritance: '{"1000": {"source_quantity": 200, "source_unit_price": "0.05",
+      "source_text": "Buy 200 £0.05 Save 93 %", "basis": "user policy 2026-10-13"},
+      "10000": {"source_quantity": 200, "source_unit_price": "0.05", "source_text":
+      "Buy 200 £0.05 Save 93 %", "basis": "user policy 2026-10-13"}}'
+    quote_minimum: ''
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept rounded displayed prices, open-ended final advertised tiers,
+      and quotes required from 400 units; quote-only prices remain blank."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.03", "highPrice": "0.78",
+      "priceCurrency": "GBP", "offerCount": "11", "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/metric-cap-head-screws/16009-SSC-M3-25-12-9",
+      "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type": "QuantitativeValue",
+      "value": 1, "unitCode": "ANN"}}}'
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "accus prices are all ex vat", "confirmed_on": "2026-10-13"}'
+    specifications: '{"Accu Product Code (APC)": "SSC-M3-25-12.9", "Thread Size":
+      "M3 (3 mm)", "Length (L)": "25 mm", "Full Thread": "No", "Material": "Steel
+      - High Tensile (12.9)", "Finish": "Natural", "Drive Depth (P)": "1.3 mm", "Head
+      Diameter (D)": "5.68 mm (Tolerance: +0/-0.36 mm)", "Head Height (H)": "3 mm
+      (Tolerance: +0/-0.14 mm)", "Manufacturing Standard": "DIN 912", "Material Family":
+      "Steel", "Socket Size (J)": "2.5 mm", "Thread Length (Min) (E)": "18 mm", "Thread
+      Pitch": "0.5 mm", "Thread Specification": "Metric Coarse"}'
+    status: ok
+    stock_quantity: ''
+    stock_status: https://schema.org/InStock
+    supplier: accu
+    supplier_id: SSC-M3-25-12.9
+    supplier_part_number: SSC-M3-25-12.9
+    supplier_website: https://www.accu.co.uk/metric-cap-head-screws/16009-SSC-M3-25-12-9
+    tiers:
+    - maximum: 1
+      minimum: 1
+      source_text: Buy 1 £0.78
+      source_unit_price: '0.78'
+      source_vat_basis: exclusive
+      unit_price: '0.9360'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 3
+      minimum: 2
+      source_text: Buy 2 £0.43 Save 44 %
+      source_unit_price: '0.43'
+      source_vat_basis: exclusive
+      unit_price: '0.5160'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 5
+      minimum: 4
+      source_text: Buy 4 £0.26 Save 66 %
+      source_unit_price: '0.26'
+      source_vat_basis: exclusive
+      unit_price: '0.3120'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 11
+      minimum: 6
+      source_text: Buy 6 £0.18 Save 76 %
+      source_unit_price: '0.18'
+      source_vat_basis: exclusive
+      unit_price: '0.2160'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 23
+      minimum: 12
+      source_text: Buy 12 £0.12 Save 84 %
+      source_unit_price: '0.12'
+      source_vat_basis: exclusive
+      unit_price: '0.1440'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 49
+      minimum: 24
+      source_text: Buy 24 £0.09 Save 88 %
+      source_unit_price: '0.09'
+      source_vat_basis: exclusive
+      unit_price: '0.1080'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 99
+      minimum: 50
+      source_text: Buy 50 £0.07 Save 91 %
+      source_unit_price: '0.07'
+      source_vat_basis: exclusive
+      unit_price: '0.0840'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 199
+      minimum: 100
+      source_text: Buy 100 £0.06 Save 92 %
+      source_unit_price: '0.06'
+      source_vat_basis: exclusive
+      unit_price: '0.0720'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      maximum_basis: user-approved open-ended final tier; no captured upper boundary
+      minimum: 200
+      source_text: Buy 200 £0.05 Save 93 %
+      source_unit_price: '0.05'
+      source_vat_basis: exclusive
+      unit_price: '0.0600'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.9360'
+    total_price_10: '2.1600'
+    total_price_100: '7.2000'
+    total_price_1000: '60.0000'
+    total_price_10000: '600.0000'
+    unit_price_1: '0.9360'
+    unit_price_10: '0.2160'
+    unit_price_100: '0.0720'
+    unit_price_1000: '0.0600'
+    unit_price_10000: '0.0600'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Accu displayed prices are rounded; derived totals use the captured display precision
+    - Final Accu price tier has no captured upper boundary; final advertised unit
+      price extended by user policy
+  boltbase:
+    accepted_warnings: '["Final Bolt Base threshold has no verified upper bound; extrapolation
+      withheld"]'
+    captured_at: '2026-10-12T21:36:11.260519+00:00'
+    currency: GBP
+    html_sha256: 1b9e010dc3f9fe821a2caae92e5893a16af4284f4afb8675a25561b80e83812a
+    name: M3 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
+    packages: '[]'
+    parsed_at: '2026-10-18T08:56:33.651531+00:00'
+    parser_version: boltbase-1.2-review-policy
+    price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price": "0.04",
+      "source_text": "Buy 5000 + Save 90% Each £0.04 £0.34", "basis": "user policy
+      2026-10-13"}}'
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "For a withheld 10000-unit price, inherit the highest available
+      lower-quantity unit price."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+    specifications: 'Thread Size: M3 (3mm); Length (Excluding Head): 25mm (Partially
+      Threaded); M3 (3mm Thread Diameter) Socket Cap Screws, also known as Allen Bolts.
+      Manufactured to DIN 912/ ISO 4762 in Self Colour High Tensile 12.9 Steel. Socket
+      Cap Screws are perfect for applications where space is limited or where the
+      screw head is installed in a recess due to the use of an allen key to tighten
+      them. Ideal for use where there is not enough clearance to use a Hex Head Bolt.
+      Suitable for applications where high strength is required due to the high tensile
+      strength. These screws are partially threaded as standard after a certain length.
+      Please note that these bolts offer little to no protection from rusting and
+      are more suited for indoor use or for applications where they are protected
+      from moisture.'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: boltbase
+    supplier_id: SC12.9CP-3X25
+    supplier_part_number: SC12.9CP-3X25
+    supplier_website: https://boltbase.com/products/m3-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464729239933
+    tiers:
+    - maximum: 1
+      minimum: 1
+      source_text: Single Screw Buy 1 For £0.34
+      source_unit_price: '0.34'
+      source_vat_basis: exclusive
+      unit_price: '0.4080'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4
+      minimum: 2
+      source_text: Buy 2 + Save 40% Each £0.21 £0.34
+      source_unit_price: '0.21'
+      source_vat_basis: exclusive
+      unit_price: '0.2520'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 9
+      minimum: 5
+      source_text: Buy 5 + Save 49% Each £0.18 £0.34
+      source_unit_price: '0.18'
+      source_vat_basis: exclusive
+      unit_price: '0.2160'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 24
+      minimum: 10
+      source_text: Buy 10 + Save 67% Each £0.12 £0.34
+      source_unit_price: '0.12'
+      source_vat_basis: exclusive
+      unit_price: '0.1440'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 49
+      minimum: 25
+      source_text: Buy 25 + Save 75% Each £0.09 £0.34
+      source_unit_price: '0.09'
+      source_vat_basis: exclusive
+      unit_price: '0.1080'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 99
+      minimum: 50
+      source_text: Buy 50 + Save 77% Each £0.08 £0.34
+      source_unit_price: '0.08'
+      source_vat_basis: exclusive
+      unit_price: '0.0960'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 249
+      minimum: 100
+      source_text: Buy 100 + Save 81% Each £0.07 £0.34
+      source_unit_price: '0.07'
+      source_vat_basis: exclusive
+      unit_price: '0.0840'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 499
+      minimum: 250
+      source_text: Buy 250 + Save 83% Each £0.06 £0.34
+      source_unit_price: '0.06'
+      source_vat_basis: exclusive
+      unit_price: '0.0720'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 500
+      source_text: Buy 500 + Save 86% Each £0.05 £0.34
+      source_unit_price: '0.05'
+      source_vat_basis: exclusive
+      unit_price: '0.0600'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4999
+      minimum: 1000
+      source_text: Buy 1000 + Save 88% Each £0.05 £0.34
+      source_unit_price: '0.05'
+      source_vat_basis: exclusive
+      unit_price: '0.0600'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 5000
+      minimum: 5000
+      source_text: Buy 5000 + Save 90% Each £0.04 £0.34
+      source_unit_price: '0.04'
+      source_vat_basis: exclusive
+      unit_price: '0.0480'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.4080'
+    total_price_10: '1.4400'
+    total_price_100: '8.4000'
+    total_price_1000: '60.0000'
+    total_price_10000: '480.0000'
+    unit_price_1: '0.4080'
+    unit_price_10: '0.1440'
+    unit_price_100: '0.0840'
+    unit_price_1000: '0.0600'
+    unit_price_10000: '0.0480'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+  dibolt:
+    accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-13T23:32:37.952012+00:00'
+    currency: GBP
+    html_sha256: 8afd3582d0bca0af488be0cc2ca5c186461cb4e434c9a2b623afa2aca549a911
+    name: M3 x 25mm Socket Head Cap Screws (Fully Threaded) Grade 12.9 Self Colour
+      DIN 912
+    packages: '[]'
+    parsed_at: '2026-10-18T09:02:52.970348+00:00'
+    parser_version: dibolt-1.3-missing-price-review
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept the precision of rounded displayed per-100 prices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M3 (3mm); Length (L): 25mm; Head Diameter (D): 5.5mm;
+      Hexagon Depth (P): 1.3mm; Material: High Tensile (Grade 12.9); Finish: Self
+      Colour; Head Length (H): 3mm; Screw Thread Pitch: 0.5mm; Socket Size (J): 2.5mm;
+      Manufacturing Standard: 912; Material Specification: High Tensile (Grade 12.9);
+      Fine or Coarse?: Coarse; Fully Threaded: Yes'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: dibolt
+    supplier_id: 50025.030.025
+    supplier_part_number: 50025.030.025
+    supplier_website: https://dibolt.co.uk/products/m3-x-25mm-socket-head-cap-screws-fully-threaded-grade-12-9-self-colour-din-912
+    tiers:
+    - maximum: 499
+      minimum: 1
+      source_text: 1 - 499 £4.50 Per 100 Units
+      source_unit_price: '0.045'
+      source_vat_basis: exclusive
+      unit_price: '0.05400'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 2499
+      minimum: 500
+      source_text: 500 - 2,499 £4.28 Per 100 Units
+      source_unit_price: '0.0428'
+      source_vat_basis: exclusive
+      unit_price: '0.051360'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 2500
+      source_text: 2,500+ £4.05 Per 100 Units
+      source_unit_price: '0.0405'
+      source_vat_basis: exclusive
+      unit_price: '0.048600'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.05400'
+    total_price_10: '0.54000'
+    total_price_100: '5.40000'
+    total_price_1000: '51.360000'
+    total_price_10000: '486.000000'
+    unit_price_1: '0.05400'
+    unit_price_10: '0.05400'
+    unit_price_100: '0.05400'
+    unit_price_1000: '0.051360'
+    unit_price_10000: '0.048600'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Dibolt per-100 displayed prices are rounded; derived totals use captured display
+      precision
+  kayfast:
+    accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-15T08:40:36.947951+00:00'
+    currency: GBP
+    family_description: Socket cap screws. Metric coarse threads. Self colour plain
+      finish. High tensile grade 12.9. Manufactured to DIN 912.
+    family_heading: SOCKET CAP SCREWS DIN 912 HIGH TENSILE SELF COLOUR
+    html_sha256: e6150f075d525a908b48420059468cd7dba0ff2b0d1f63775937503f6cf841ea
+    name: M3 x 25mm SOCKET CAP SCREW DIN 912 HIGH TENSILE 12.9 SELF COLOUR
+    packages: '[]'
+    parsed_at: '2026-10-18T09:30:16.121494+00:00'
+    parser_version: kayfast-1.6-family-description
+    price_breaks_description: M3 x 25mm SOCKET CAP SCREW DIN 912 HIGH TENSILE 12.9
+      SELF COLOUR
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+      "statement": "Use the exact row dropdown price per 100 divided by 100 with Decimal
+      precision; accept the captured per-100 display precision."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+    specifications: SOCKET CAP SCREWS DIN 912 HIGH TENSILE SELF COLOUR; Socket cap
+      screws. Metric coarse threads. Self colour plain finish. High tensile grade
+      12.9. Manufactured to DIN 912.
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: kayfast
+    supplier_id: M3-x-25mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+    supplier_id_basis: exact dimensional row description; spaces replaced by hyphens
+      (user clarification 2026-10-11)
+    supplier_part_number: M3-x-25mm-SOCKET-CAP-SCREW-DIN-912-HIGH-TENSILE-12.9-SELF-COLOUR
+    supplier_website: https://www.kayfast.co.uk/view-product/SOCKET-CAP-SCREWS-DIN-912-HIGH-TENSILE-SELF-COLOUR
+    tiers:
+    - maximum: 49
+      minimum: 1
+      source_price_per_100: '18.47'
+      source_price_quantity: 100
+      source_text: QTY 1 - 49 @ £18.47 per 100
+      source_unit_price: '0.1847'
+      source_vat_basis: exclusive
+      unit_price: '0.221640'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 199
+      minimum: 50
+      source_price_per_100: '8.03'
+      source_price_quantity: 100
+      source_text: QTY 50 -  199 @ £8.03 per 100
+      source_unit_price: '0.0803'
+      source_vat_basis: exclusive
+      unit_price: '0.096360'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 200
+      source_price_per_100: '6.16'
+      source_price_quantity: 100
+      source_text: QTY 200 + @ £6.16 per 100
+      source_unit_price: '0.0616'
+      source_vat_basis: exclusive
+      unit_price: '0.073920'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.221640'
+    total_price_10: '2.216400'
+    total_price_100: '9.636000'
+    total_price_1000: '73.920000'
+    total_price_10000: '739.200000'
+    unit_price_1: '0.221640'
+    unit_price_10: '0.221640'
+    unit_price_100: '0.096360'
+    unit_price_1000: '0.073920'
+    unit_price_10000: '0.073920'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Kayfast per-100 displayed prices are rounded; derived totals use captured display
+      precision
+  orbitalfasteners:
+    accepted_warnings: '[]'
+    box_quantity: '200'
+    captured_at: '2026-10-18T08:43:49.213775+00:00'
+    catalogue_page: '78'
+    currency: GBP
+    description: ''
+    html_sha256: e137e1ca36a70f7627f60d24a8d0189f5668dc1c0c2ed43254d511415a9e65fb
+    name: M3 x 25 Socket Cap Screw, High Tensile Grade 12.9 Self Colour, DIN 912
+    parsed_at: '2026-10-18T08:49:30.780946+00:00'
+    parser_version: 1.2-review-policy
+    review_policy: ''
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: inclusive
+    status: ok
+    stock_as_of: 16th October 2026 10:01pm
+    stock_quantity: '1595'
+    supplier: orbitalfasteners
+    supplier_id: '1891052'
+    supplier_part_number: '1891052'
+    supplier_website: https://www.orbitalfasteners.co.uk/products/m3-x-25-socket-cap-screw-high-tensile-grade-12-9-self-colour-
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_text: 1 - 199 £0.048 Inc. VAT £4.80 Inc. VAT
+      source_unit_price: '0.048'
+      source_vat_basis: inclusive
+      unit_price: '0.048'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_text: 200 - 999 £0.0266 Inc. VAT £2.66 Inc. VAT
+      source_unit_price: '0.0266'
+      source_vat_basis: inclusive
+      unit_price: '0.0266'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4799
+      minimum: 1000
+      source_text: 1000 - 4799 £0.024 Inc. VAT £2.40 Inc. VAT
+      source_unit_price: '0.024'
+      source_vat_basis: inclusive
+      unit_price: '0.024'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 4800
+      source_text: 4800 + £0.0214 Inc. VAT £2.14 Inc. VAT
+      source_unit_price: '0.0214'
+      source_vat_basis: inclusive
+      unit_price: '0.0214'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.048'
+    total_price_10: '0.480'
+    total_price_100: '4.800'
+    total_price_1000: '24.000'
+    total_price_10000: '214.0000'
+    unit_price_1: '0.048'
+    unit_price_10: '0.048'
+    unit_price_100: '0.048'
+    unit_price_1000: '0.024'
+    unit_price_10000: '0.0214'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings: []
+  westfieldfasteners:
+    accepted_warnings: '["Westfield sliding-scale prices only verified at advertised
+      package quantities; other quantities withheld", "Quantity 10: no unique verified
+      source price/VAT band; price withheld", "Quantity 100: no unique verified source
+      price/VAT band; price withheld", "Quantity 1000: no unique verified source price/VAT
+      band; price withheld", "Quantity 10000: no unique verified source price/VAT
+      band; price withheld"]'
+    captured_at: '2026-10-12T01:06:04.721072+00:00'
+    currency: GBP
+    html_sha256: d617cdcb444bec76fa1640915c3aaea6bcbb1f0c8534d1658ef0a640bb9897c3
+    name: M3 Bolt Unbrako Socket Head Cap 25mm in Black - ISO 4762 (DIN 912)
+    packages: '[{"quantity": 1, "total_price": "1.7520", "source_text": "single screw
+      for £1.46", "source_total_price": "1.46", "source_vat_basis": "exclusive", "vat_basis":
+      "inclusive"}, {"quantity": 80, "total_price": "21.3600", "source_text": "box
+      of 80 for £17.80", "source_total_price": "17.80", "source_vat_basis": "exclusive",
+      "vat_basis": "inclusive"}, {"quantity": 400, "total_price": "92.8800", "source_text":
+      "bulk of 400 for £77.40", "source_total_price": "77.40", "source_vat_basis":
+      "exclusive", "vat_basis": "inclusive"}]'
+    parsed_at: '2026-10-18T09:33:17.095700+00:00'
+    parser_version: westfieldfasteners-1.3-allen-cap-heading
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Include advertised package prices only; other quantities may remain
+      blank."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M3; Length: 25mm; M3 x 25mm Unbrako Socket Head
+      Cap Screw Part Thread in Black Oxide WF47915 - 201 in stock'
+    status: ok
+    stock_quantity: '201'
+    stock_status: ''
+    supplier: westfieldfasteners
+    supplier_id: WF47915
+    supplier_part_number: WF47915
+    supplier_website: https://www.westfieldfasteners.co.uk/Unbrako/M3-Bolt-Unbrako-Socket-Head-Cap-25-Black.html
+    tiers:
+    - maximum: 1
+      minimum: 1
+      source_text: single screw for £1.46
+      source_unit_price: '1.46'
+      source_vat_basis: exclusive
+      unit_price: '1.7520'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 80
+      minimum: 80
+      source_text: box of 80 for £17.80
+      source_unit_price: '0.2225'
+      source_vat_basis: exclusive
+      unit_price: '0.267000'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 400
+      minimum: 400
+      source_text: bulk of 400 for £77.40
+      source_unit_price: '0.1935'
+      source_vat_basis: exclusive
+      unit_price: '0.232200'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '1.7520'
+    total_price_10: ''
+    total_price_100: ''
+    total_price_1000: ''
+    total_price_10000: ''
+    unit_price_1: '1.7520'
+    unit_price_10: ''
+    unit_price_100: ''
+    unit_price_1000: ''
+    unit_price_10000: ''
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Westfield sliding-scale prices only verified at advertised package quantities;
+      other quantities withheld
+    - 'Quantity 10: no unique verified source price/VAT band; price withheld'
+    - 'Quantity 100: no unique verified source price/VAT band; price withheld'
+    - 'Quantity 1000: no unique verified source price/VAT band; price withheld'
+    - 'Quantity 10000: no unique verified source price/VAT band; price withheld'
+svg_details:
+  diameter_mm: 3.0
+  drive_style: hex_head
+  drive_symbol_gap_mm: 1.7999999999999998
+  head_diameter_mm: 5.1
+  head_rim_mm: 0.22499999999999998
+  length_mm: 25.0
+  screw_style: socket_cap
+  socket_depth_mm: 0.9750000000000001
+  socket_width_mm: 1.9500000000000002
+  stylesheet: project_bolt
+  svg_name: screw_diagrams
+  thread_pitch_mm: 0.5
+  variants:
+    plain: diagram_plain.svg
+    solid: diagram_solid.svg
+    threaded: diagram_threaded.svg
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: screw
+taxonomy_2_capital: Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: sc
+taxonomy_2_length_3: scr
+taxonomy_2_length_4: scre
+taxonomy_2_length_5: screw
+taxonomy_2_upper: SCREW
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: SC
+taxonomy_2_upper_length_3: SCR
+taxonomy_2_upper_length_4: SCRE
+taxonomy_2_upper_length_5: SCREW
+taxonomy_3: socket_cap
+taxonomy_3_capital: Socket Cap
+taxonomy_3_first_letter: s
+taxonomy_3_first_letter_upper: S
+taxonomy_3_length_1: s
+taxonomy_3_length_2: so
+taxonomy_3_length_3: soc
+taxonomy_3_length_4: sock
+taxonomy_3_length_5: socke
+taxonomy_3_upper: SOCKET_CAP
+taxonomy_3_upper_length_1: S
+taxonomy_3_upper_length_2: SO
+taxonomy_3_upper_length_3: SOC
+taxonomy_3_upper_length_4: SOCK
+taxonomy_3_upper_length_5: SOCKE
+taxonomy_4: hex_head
+taxonomy_4_capital: Hex Head
+taxonomy_4_first_letter: h
+taxonomy_4_first_letter_upper: H
+taxonomy_4_length_1: h
+taxonomy_4_length_2: he
+taxonomy_4_length_3: hex
+taxonomy_4_length_4: hex_
+taxonomy_4_length_5: hex_h
+taxonomy_4_upper: HEX_HEAD
+taxonomy_4_upper_length_1: H
+taxonomy_4_upper_length_2: HE
+taxonomy_4_upper_length_3: HEX
+taxonomy_4_upper_length_4: HEX_
+taxonomy_4_upper_length_5: HEX_H
+taxonomy_5: black
+taxonomy_5_capital: Black
+taxonomy_5_first_letter: b
+taxonomy_5_first_letter_upper: B
+taxonomy_5_length_1: b
+taxonomy_5_length_2: bl
+taxonomy_5_length_3: bla
+taxonomy_5_length_4: blac
+taxonomy_5_length_5: black
+taxonomy_5_upper: BLACK
+taxonomy_5_upper_length_1: B
+taxonomy_5_upper_length_2: BL
+taxonomy_5_upper_length_3: BLA
+taxonomy_5_upper_length_4: BLAC
+taxonomy_5_upper_length_5: BLACK
+taxonomy_6: m3_diameter
+taxonomy_6_capital: M3 Diameter
+taxonomy_6_first_letter: m
+taxonomy_6_first_letter_upper: M
+taxonomy_6_length_1: m
+taxonomy_6_length_2: m3
+taxonomy_6_length_3: m3_
+taxonomy_6_length_4: m3_d
+taxonomy_6_length_5: m3_di
+taxonomy_6_upper: M3_DIAMETER
+taxonomy_6_upper_length_1: M
+taxonomy_6_upper_length_2: M3
+taxonomy_6_upper_length_3: M3_
+taxonomy_6_upper_length_4: M3_D
+taxonomy_6_upper_length_5: M3_DI
+taxonomy_7: 25_mm_length
+taxonomy_7_capital: 25 mm Length
+taxonomy_7_first_letter: '2'
+taxonomy_7_first_letter_upper: '2'
+taxonomy_7_length_1: '2'
+taxonomy_7_length_2: '25'
+taxonomy_7_length_3: '25_'
+taxonomy_7_length_4: 25_m
+taxonomy_7_length_5: 25_mm
+taxonomy_7_upper: 25_MM_LENGTH
+taxonomy_7_upper_length_1: '2'
+taxonomy_7_upper_length_2: '25'
+taxonomy_7_upper_length_3: '25_'
+taxonomy_7_upper_length_4: 25_M
+taxonomy_7_upper_length_5: 25_MM
+taxonomy_8: ''
+taxonomy_9: ''
+thread_size: m3
+three_d_model_details:
+  checked_on: '2026-10-11'
+  commercial_lengths_mm: []
+  coordinate_system:
+    axis: +Z towards head
+    glb_units: metres
+    glb_up_axis: Y
+    head_top_z_mm: 28.0
+    length_convention: under_head
+    origin: tip centre
+    stl_units: mm
+  dimension_status: standard_dimensions
+  dimensional_specification: Hexagon socket head cap screws
+  family: socket_cap
+  generation_status: ready
+  generator: parametric_screw
+  length_status: standard_length
+  material:
+    base_colour_srgb:
+    - 0.205
+    - 0.218
+    - 0.235
+    coat_roughness: 0.28
+    coat_weight: 0.08
+    metallic: 0.8
+    microtexture_height_um: 0.8
+    microtexture_spacing_mm: 0.025
+    name: Black oxide steel
+    note: Visual finish approximation; catalogue specifies colour only.
+    roughness: 0.31
+    roughness_variation: 0.045
+  model_formats:
+  - stl
+  - glb
+  modelling_choices:
+    catalogue_length: Unlisted lengths use the sourced size profile at the catalogue
+      length and are explicitly marked as extensions.
+    certification: Nominal catalogue geometry; not manufacturing certification.
+    display: Smooth nominal thread envelope with the same head and recessed drive.
+    edges: Permitted 45 degree edge chamfers, selected small values; circular countersink
+      at socket mouth.
+    head: Plain cylindrical head; no knurling or unidentified manufacturer/property-class
+      stamps.
+    markings: Unidentified manufacturer and property-class stamps omitted.
+    runout: One-pitch taper; incomplete thread remains within 2P.
+    socket: Across-flats midpoint of ISO limits; minimum penetration, permissible
+      flat bottom.
+    thread: Nominal right-hand external metric profile; 60 degree flanks, H/6 rounded
+      root; no ISO 965 tolerance offsets.
+    thread_coverage: ISO shank/grip table selects partial lengths; full-thread commercial
+      alternatives can be selected with thread_coverage=full.
+    tip: Selected 45 degree chamfer of P/2.
+  output_folder: three_d_model
+  parameters:
+    diameter_mm: 3.0
+    drive_style: hex_head
+    finish: black
+    handedness: right
+    head_diameter_mm: 5.5
+    head_edge_chamfer_mm: 0.15
+    head_height_mm: 3.0
+    head_style: cylindrical
+    head_top_z_mm: 28.0
+    hex_key_mm: 2.5
+    length_convention: under_head
+    length_mm: 25.0
+    overall_length_mm: 28.0
+    partial_thread_from_length_mm: 25
+    pitch_mm: 0.5
+    socket_across_flats_mm: 2.55
+    socket_depth_mm: 1.3
+    standard: ISO 4762:2004
+    thread_coverage: standard_reference
+    thread_flank_angle_deg: 60.0
+    thread_length_reference_mm: 18
+    thread_minor_diameter_mm: 2.3865653389860224
+    thread_pitch_diameter_mm: 2.6752404735808355
+    thread_root_radius_mm: 0.07216878364870322
+    thread_starts: 1
+    tip_chamfer_mm: 0.25
+    underhead_fillet_mm: 0.1
+  priority: 1
+  renders:
+    high:
+      file: render_high.png
+      pixels: 2048
+      variant: full
+      view: isometric
+    low:
+      file: render_low.png
+      pixels: 512
+      variant: display
+      view: isometric
+    product_high:
+      file: render_product_high.png
+      pixels: 2048
+      variant: full
+      view: product
+    product_low:
+      file: render_product_low.png
+      pixels: 512
+      variant: display
+      view: product
+  schema_version: 1
+  sources:
+  - title: ISO 4762:2004, Figure 1 and Table 1, pages 2–5
+    url: https://cdn.standards.iteh.ai/samples/34460/06335046afaf46fb8e84d91a3eda001d/ISO-4762-2004.pdf
+    use: Plain head dk, k, s limits, minimum t/r, b, shank/grip table and standard
+      length combinations.
+  - title: ISO 4762 scope and current edition
+    url: https://www.iso.org/standard/34460.html
+    use: Coarse metric M1.6–M64; M2 and M2.5 are within scope.
+  - title: Bossard BN 2052 fully threaded DIN 912 / ISO 4762 screws
+    url: https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-head-cap-screws-fully-threaded/p/2052/
+    use: Fully threaded commercial alternative; catalogue does not specify which threading
+      option was purchased.
+  standard: ISO 4762:2004
+  standard_lengths_mm:
+  - 4
+  - 5
+  - 6
+  - 8
+  - 10
+  - 12
+  - 16
+  - 20
+  - 25
+  - 30
+  standard_limits:
+    head_diameter_mm:
+    - 5.32
+    - 5.5
+    socket_across_flats_mm:
+    - 2.52
+    - 2.58
+    socket_depth_min_mm: 1.3
+  studio:
+    adaptive_threshold: 0.015
+    denoise: true
+    device: auto
+    engine: cycles
+    exposure: 0.0
+    floor_colour_srgb:
+    - 0.93
+    - 0.935
+    - 0.94
+    floor_roughness: 0.55
+    framing_margin: 0.13
+    high_samples: 160
+    lights:
+    - colour:
+      - 1.0
+      - 0.96
+      - 0.9
+      height: 5.0
+      name: Key softbox
+      position:
+      - -3
+      - -4
+      - 6
+      power: 650.0
+      width: 4.0
+    - colour:
+      - 0.9
+      - 0.95
+      - 1.0
+      height: 4.0
+      name: Fill softbox
+      position:
+      - 4
+      - -1
+      - 3
+      power: 330.0
+      width: 3.0
+    - colour:
+      - 1.0
+      - 1.0
+      - 1.0
+      height: 5.0
+      name: Rim strip
+      position:
+      - 1
+      - 4
+      - 4
+      power: 850.0
+      width: 1.2
+    low_samples: 48
+    poses:
+      isometric:
+        camera_eye:
+        - 1
+        - -1
+        - 1
+        orientation: tip down, head up
+        projection: orthographic
+      product:
+        camera_eye:
+        - -6
+        - -10
+        - 6
+        orientation: lying on side, head to left
+        projection: orthographic
+        support: Head rim and threaded shaft rest on ground; solve tilt from mesh.
+        yaw_degrees: -12.0
+    seed: 7991
+    view_transform: AgX
+    world_colour:
+    - 0.78
+    - 0.82
+    - 0.9
+    world_strength: 0.35
+  units: mm
+  variants:
+    display:
+      angular_segments: 32
+      fillet_segments: 4
+      samples_per_pitch: 1
+    full:
+      angular_segments: 96
+      fillet_segments: 12
+      samples_per_pitch: 32
+  views:
+  - isometric
+  - front
+  - back
+  - left
+  - right
+  - top
+  - bottom
+url_chat: https://chatgpt.com/c/69f66e90-7800-83eb-aeef-42bd864b09d0
+```
+
+</details>
+
+## Parts
+
+[Open the canonical part folder](./) for the files available for this variant. Alternative model formats describe the same record; they are not extra components.
+
+## Assembly
+
+No assembly procedure is inferred from this catalogue record. Use any retained technical notes and the original manufacturer documentation for installation details.
+<!-- oomp-documentation:end -->

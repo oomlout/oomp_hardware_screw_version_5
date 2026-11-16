@@ -1,0 +1,45 @@
+include <BOSL2/std.scad>;
+include <version.scad>;
+include <constants.scad>;
+include <transforms.scad>;
+include <distributors.scad>;
+include <miscellaneous.scad>;
+include <color.scad>;
+include <attachments.scad>;
+include <beziers.scad>;
+include <shapes3d.scad>;
+include <shapes2d.scad>;
+include <drawing.scad>;
+include <masks.scad>;
+include <math.scad>;
+include <paths.scad>;
+include <lists.scad>;
+include <comparisons.scad>;
+include <linalg.scad>;
+include <trigonometry.scad>;
+include <vectors.scad>;
+include <affine.scad>;
+include <coords.scad>;
+include <geometry.scad>;
+include <regions.scad>;
+include <strings.scad>;
+include <vnf.scad>;
+include <structs.scad>;
+include <rounding.scad>;
+include <skin.scad>;
+include <utility.scad>;
+include <partitions.scad>;
+
+//////////////////////////////////////////////////////////////////////
+// LibFile: std.scad
+//   File that includes the standard BOSL include files.
+// Includes:
+//   //////////////////////////////////////////////////////////////////////
+
+assert(version_num()>=20210100, "BOSL2 requires OpenSCAD version 2021.01 or later.");
+                      
+_BOSL2_STD = true;
+
+// vim: expandtab tabstop=4 shiftwidth=4 softtabstop=4 nowrap
+
+

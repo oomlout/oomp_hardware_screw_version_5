@@ -1,0 +1,1418 @@
+<!-- oomp-documentation:start -->
+# Hardware Screw Countersunk Philips Black M2 Diameter 16 Mm Length
+
+## Summary
+
+OOMP catalogue record for Hardware Screw Countersunk Philips Black M2 Diameter 16 Mm Length. Use the metadata to identify this variant and the part folder to inspect its available assets.
+
+![Catalogue preview of Hardware Screw Countersunk Philips Black M2 Diameter 16 Mm Length](three_d_model/render_product_low.png)
+
+Catalogue illustration; consult the source dimensions and datasheet for specification.
+
+## Details
+
+**OOMP folder ID:** `hardware_screw_countersunk_philips_black_m2_diameter_16_mm_length`
+
+[Catalogue](../../README.md) · [Part metadata](working.yaml)
+
+| Field | Value |
+| --- | --- |
+| id | hardware_screw_countersunk_philips_black_m2_diameter_16_mm_length |
+| md5_6 | a71cd0 |
+| md5_6_alpha | 6iqj4 |
+| oomp_key | oomp_hardware_screw_countersunk_philips_black_m2_diameter_16_mm_length |
+| taxonomy_1 | hardware |
+| taxonomy_2 | screw |
+| taxonomy_3 | countersunk |
+| taxonomy_4 | philips |
+| taxonomy_5 | black |
+| taxonomy_6 | m2_diameter |
+| taxonomy_7 | 16_mm_length |
+
+<details>
+<summary>Full part metadata</summary>
+
+```yaml
+bip_39_2_word_array:
+- poem
+- track
+bip_39_2_word_no_space: poemtrack
+bip_39_2_word_space: poem track
+bip_39_2_word_underscore: poem_track
+bip_39_3_word_array:
+- poem
+- track
+- buffalo
+bip_39_3_word_no_space: poemtrackbuffalo
+bip_39_3_word_space: poem track buffalo
+bip_39_3_word_underscore: poem_track_buffalo
+bip_39_full_array:
+- poem
+- track
+- buffalo
+- other
+- prize
+- young
+- cargo
+- weather
+- top
+- island
+- fish
+- loop
+bip_39_full_no_space: poemtrackbuffalootherprizeyoungcargoweathertopislandfishloop
+bip_39_full_space: poem track buffalo other prize young cargo weather top island fish
+  loop
+bip_39_full_underscore: poem_track_buffalo_other_prize_young_cargo_weather_top_island_fish_loop
+directory: parts/hardware_screw_countersunk_philips_black_m2_diameter_16_mm_length
+generate_stl: true
+id: hardware_screw_countersunk_philips_black_m2_diameter_16_mm_length
+id_no_class: hardware_screw_countersunk_philips_black_m2_diameter_16_mm_length
+id_no_size: hardware_screw_countersunk_philips_black_m2_diameter_16_mm_length
+id_no_type: hardware_screw_countersunk_philips_black_m2_diameter_16_mm_length
+label_drawer: &id001
+  bip39: poem track buffalo
+  bip39_size: 2.35
+  code: SC
+  description: Countersunk screw / M2 / 16 mm / Phillips / Black
+  detail_lines:
+  - Phillips / Black
+  detail_size: 2.05
+  detail_y: 21.1
+  diagram: <path d="M2 2.5L6 5V9L2 11.5Z M2 6H3.5V8H2"/><path d="M6 5H18V9H6"/><path
+    d="M7 5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+  drive_symbol: <circle cx="5" cy="5" r="4.5" fill="#ffffff"/><path d="M4 1.7H6V4H8.3V6H6V8.3H4V6H1.7V4H4Z"
+    fill="#000000"/>
+  length: '16'
+  length_size: 7.8
+  length_x: 18.02234375
+  name: Countersunk screw
+  name_lines:
+  - Countersunk
+  - screw
+  name_size: 3.2
+  thread: M2
+  thread_size: 6.5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_countersunk_philips_black_m2_diameter_16_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_countersunk_philips_black_m2_diameter_16_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_countersunk_philips_black_m2_diameter_16_mm_length
+md5: a71cd076ce8ab5fe88afc5e4eecd5ec1
+md5_10: a71cd076ce
+md5_10_upper: A71CD076CE
+md5_5: a71cd
+md5_5_upper: A71CD
+md5_6: a71cd0
+md5_6_alpha: 6iqj4
+md5_6_alpha_upper: 6IQJ4
+md5_6_upper: A71CD0
+name: Hardware Screw Countersunk Philips Black M2 Diameter 16 Mm Length
+name_no_class: Hardware Screw Countersunk Philips Black M2 Diameter 16 Mm Length
+name_no_size: Hardware Screw Countersunk Philips Black M2 Diameter 16 Mm Length
+name_no_type: Hardware Screw Countersunk Philips Black M2 Diameter 16 Mm Length
+name_proper: Hardware Screw Countersunk Philips Black M2 Diameter 16 Mm Length
+name_space: hardware screw countersunk philips black m2 diameter 16 mm length
+name_upper: HARDWARE SCREW COUNTERSUNK PHILIPS BLACK M2 DIAMETER 16 MM LENGTH
+oobb_details:
+  drive_style: philips
+  length: 16_mm_length
+  oobb_name: screw
+  screw_colour: black
+  screw_style: countersunk
+  thread_size: m2_diameter
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      directory: parts\hardware_screw_countersunk_philips_black_m2_diameter_16_mm_length
+      name: hardware_screw_countersunk_philips_black_m2_diameter_16_mm_length
+      name_proper: Hardware Screw Countersunk Philips Black M2 Diameter 16 Mm Length
+      name_space: hardware screw countersunk philips black m2 diameter 16 mm length
+      name_upper: HARDWARE SCREW COUNTERSUNK PHILIPS BLACK M2 DIAMETER 16 MM LENGTH
+      oobb_details:
+        drive_style: philips
+        length: 16_mm_length
+        oobb_name: screw
+        screw_colour: black
+        screw_style: countersunk
+        thread_size: m2_diameter
+      svg_details:
+        diameter_mm: 2.0
+        drive_style: philips
+        drive_symbol_gap_mm: 1.2
+        head_diameter_mm: 4.0
+        head_rim_mm: 0.15
+        length_mm: 16.0
+        screw_style: countersunk
+        socket_depth_mm: 0.65
+        socket_width_mm: 1.3
+        stylesheet: project_bolt
+        svg_name: screw_diagrams
+        thread_pitch_mm: 0.4
+        variants:
+          plain: diagram_plain.svg
+          solid: diagram_solid.svg
+          threaded: diagram_threaded.svg
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: screw
+      taxonomy_3: countersunk
+      taxonomy_4: philips
+      taxonomy_5: black
+      taxonomy_6: m2_diameter
+      taxonomy_7: 16_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      three_d_model_details:
+        checked_on: '2026-10-11'
+        commercial_lengths_mm:
+        - 3
+        - 4
+        - 5
+        - 6
+        - 8
+        - 10
+        - 12
+        - 16
+        - 20
+        coordinate_system:
+          axis: +Z towards head
+          glb_units: metres
+          glb_up_axis: Y
+          head_top_z_mm: 16.0
+          length_convention: overall
+          origin: tip centre
+          stl_units: mm
+        dimension_status: supplier_dimensions
+        dimensional_specification: DIN 965 countersunk cross-recess screws, H and
+          Z profiles
+        family: countersunk
+        generation_status: ready
+        generator: parametric_screw
+        length_status: supplier_length
+        material:
+          base_colour_srgb:
+          - 0.205
+          - 0.218
+          - 0.235
+          coat_roughness: 0.28
+          coat_weight: 0.08
+          metallic: 0.8
+          microtexture_height_um: 0.8
+          microtexture_spacing_mm: 0.025
+          name: Black oxide steel
+          note: Visual finish approximation; catalogue specifies colour only.
+          roughness: 0.31
+          roughness_variation: 0.045
+        model_formats:
+        - stl
+        - glb
+        modelling_choices:
+          catalogue_length: Unlisted lengths use the sourced size profile at the catalogue
+            length and are explicitly marked as extensions.
+          certification: Nominal catalogue geometry; not manufacturing certification.
+          display: Smooth nominal thread envelope with the same head and recessed
+            drive.
+          head: Nominal dk with 90 degree cone and an adjusted positive rim within
+            k max. Small tangent under-head radius is selected, not a manufacturer
+            identification.
+          markings: Unidentified manufacturer and property-class stamps omitted.
+          recess: Published m and midpoint gauge penetration t select a nominal visual
+            cavity. ISO 4757 wing width and taper guide a four-wing punch with a rounded
+            centre and a conical floor; Z additionally has four shallow diagonal identification
+            grooves. Die-flow radii and gauge conformity are not certified.
+          runout: One-pitch taper; incomplete thread remains within 2P.
+          thread: Nominal right-hand external metric profile; 60 degree flanks, H/6
+            rounded root; no ISO 965 tolerance offsets.
+          thread_coverage: Full thread to the head as described by the Bossard products.
+            Commercial lengths beyond the sheet are flagged.
+          tip: Selected 45 degree chamfer of P/2.
+        output_folder: three_d_model
+        parameters:
+          countersink_angle_deg: 90
+          diameter_mm: 2.0
+          drive_style: philips
+          finish: black
+          handedness: right
+          head_diameter_mm: 3.8
+          head_height_mm: 1.2
+          head_rim_mm: 0.26686291501015247
+          head_style: countersunk
+          head_top_z_mm: 16.0
+          length_convention: overall
+          length_mm: 16.0
+          overall_length_mm: 16.0
+          partial_thread_from_length_mm: null
+          pitch_mm: 0.4
+          recess_core_width_mm: 0.97
+          recess_depth_mm: 1.1
+          recess_diameter_mm: 2.35
+          recess_floor_angle_deg: 28
+          recess_number: 1
+          recess_outer_slope_deg: 26.5
+          recess_type: H
+          recess_wall_taper_deg: 7
+          recess_wing_width_mm: 0.535
+          standard: DIN 965 A
+          thread_coverage: standard_reference
+          thread_flank_angle_deg: 60.0
+          thread_length_reference_mm: null
+          thread_minor_diameter_mm: 1.509252271188818
+          thread_pitch_diameter_mm: 1.7401923788646685
+          thread_root_radius_mm: 0.057735026918962574
+          thread_starts: 1
+          tip_chamfer_mm: 0.2
+          underhead_fillet_mm: 0.08
+        priority: 5
+        renders:
+          high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+          low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+          product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+          product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+        schema_version: 1
+        sources:
+        - title: Bossard BN 388 Phillips DIN 965 A dimension table
+          url: https://media.distrelec.com/Web/Downloads/_t/ds/1156330_eng_tds.pdf
+          use: M2 to M6 head, H recess number, m, penetration limits and commercial
+            lengths. DIN sizes are used without substitution of ISO head diameters.
+        - title: Bossard BN 3333 Pozidriv DIN 965 A dimension table
+          url: https://www.tme.eu/Document/b3c2bbb9412ad33d6d7c7272822eba01/BN3333-EN.pdf
+          use: Z recess number, m and penetration limits.
+        - title: Aspen Fasteners DIN 965 dimensional sheet
+          url: https://tvsat.com.pl/PDF/M/metric_din_965_aspen.pdf
+          use: M1.6 head and H recess dimensions. The M3.5 pitch misprint in this
+            sheet is not used.
+        - title: ISO 4757:1983, clauses 2 and 3, H and Z dimension tables and sections
+          url: https://cdn.standards.iteh.ai/samples/10742/d878fa0371e041b39de75de4d4426928/ISO-4757-1983.pdf
+          use: Wing width f selected at the middle of the tolerance band, centre width
+            b at its nominal value, outer wing slope 26 degrees 30 minutes, floor
+            cone 28 degrees. Simplified visualization rather than a gauge-certified
+            punch.
+        standard: DIN 965 A
+        standard_lengths_mm: []
+        standard_limits:
+          cross_penetration_mm:
+          - 0.95
+          - 1.25
+        studio:
+          adaptive_threshold: 0.015
+          denoise: true
+          device: auto
+          engine: cycles
+          exposure: 0.0
+          floor_colour_srgb:
+          - 0.93
+          - 0.935
+          - 0.94
+          floor_roughness: 0.55
+          framing_margin: 0.13
+          high_samples: 160
+          lights:
+          - colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+          - colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+          - colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+          low_samples: 48
+          poses:
+            isometric:
+              camera_eye:
+              - 1
+              - -1
+              - 1
+              orientation: tip down, head up
+              projection: orthographic
+            product:
+              camera_eye:
+              - -6
+              - -10
+              - 6
+              orientation: lying on side, head to left
+              projection: orthographic
+              support: Head rim and threaded shaft rest on ground; solve tilt from
+                mesh.
+              yaw_degrees: -12.0
+          seed: 7991
+          view_transform: AgX
+          world_colour:
+          - 0.78
+          - 0.82
+          - 0.9
+          world_strength: 0.35
+        units: mm
+        variants:
+          display:
+            angular_segments: 32
+            fillet_segments: 4
+            samples_per_pitch: 1
+          full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+        views:
+        - isometric
+        - front
+        - back
+        - left
+        - right
+        - top
+        - bottom
+      url_chat: https://chatgpt.com/c/6a03ad7b-0474-8396-b218-9d8ebad7cb4c
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_2:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      directory: parts\hardware_screw_countersunk_philips_black_m2_diameter_16_mm_length
+      name: hardware_screw_countersunk_philips_black_m2_diameter_16_mm_length
+      name_proper: Hardware Screw Countersunk Philips Black M2 Diameter 16 Mm Length
+      name_space: hardware screw countersunk philips black m2 diameter 16 mm length
+      name_upper: HARDWARE SCREW COUNTERSUNK PHILIPS BLACK M2 DIAMETER 16 MM LENGTH
+      oobb_details:
+        drive_style: philips
+        length: 16_mm_length
+        oobb_name: screw
+        screw_colour: black
+        screw_style: countersunk
+        thread_size: m2_diameter
+      oomlout_ai_roboclick_1:
+        actions:
+        - command: text_jinja_template
+          convert_to_pdf: false
+          convert_to_png: false
+          dict_data:
+            directory: parts\hardware_screw_countersunk_philips_black_m2_diameter_16_mm_length
+            name: hardware_screw_countersunk_philips_black_m2_diameter_16_mm_length
+            name_proper: Hardware Screw Countersunk Philips Black M2 Diameter 16 Mm
+              Length
+            name_space: hardware screw countersunk philips black m2 diameter 16 mm
+              length
+            name_upper: HARDWARE SCREW COUNTERSUNK PHILIPS BLACK M2 DIAMETER 16 MM
+              LENGTH
+            oobb_details:
+              drive_style: philips
+              length: 16_mm_length
+              oobb_name: screw
+              screw_colour: black
+              screw_style: countersunk
+              thread_size: m2_diameter
+            svg_details:
+              diameter_mm: 2.0
+              drive_style: philips
+              drive_symbol_gap_mm: 1.2
+              head_diameter_mm: 4.0
+              head_rim_mm: 0.15
+              length_mm: 16.0
+              screw_style: countersunk
+              socket_depth_mm: 0.65
+              socket_width_mm: 1.3
+              stylesheet: project_bolt
+              svg_name: screw_diagrams
+              thread_pitch_mm: 0.4
+              variants:
+                plain: diagram_plain.svg
+                solid: diagram_solid.svg
+                threaded: diagram_threaded.svg
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: countersunk
+            taxonomy_4: philips
+            taxonomy_5: black
+            taxonomy_6: m2_diameter
+            taxonomy_7: 16_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+              checked_on: '2026-10-11'
+              commercial_lengths_mm:
+              - 3
+              - 4
+              - 5
+              - 6
+              - 8
+              - 10
+              - 12
+              - 16
+              - 20
+              coordinate_system:
+                axis: +Z towards head
+                glb_units: metres
+                glb_up_axis: Y
+                head_top_z_mm: 16.0
+                length_convention: overall
+                origin: tip centre
+                stl_units: mm
+              dimension_status: supplier_dimensions
+              dimensional_specification: DIN 965 countersunk cross-recess screws,
+                H and Z profiles
+              family: countersunk
+              generation_status: ready
+              generator: parametric_screw
+              length_status: supplier_length
+              material:
+                base_colour_srgb:
+                - 0.205
+                - 0.218
+                - 0.235
+                coat_roughness: 0.28
+                coat_weight: 0.08
+                metallic: 0.8
+                microtexture_height_um: 0.8
+                microtexture_spacing_mm: 0.025
+                name: Black oxide steel
+                note: Visual finish approximation; catalogue specifies colour only.
+                roughness: 0.31
+                roughness_variation: 0.045
+              model_formats:
+              - stl
+              - glb
+              modelling_choices:
+                catalogue_length: Unlisted lengths use the sourced size profile at
+                  the catalogue length and are explicitly marked as extensions.
+                certification: Nominal catalogue geometry; not manufacturing certification.
+                display: Smooth nominal thread envelope with the same head and recessed
+                  drive.
+                head: Nominal dk with 90 degree cone and an adjusted positive rim
+                  within k max. Small tangent under-head radius is selected, not a
+                  manufacturer identification.
+                markings: Unidentified manufacturer and property-class stamps omitted.
+                recess: Published m and midpoint gauge penetration t select a nominal
+                  visual cavity. ISO 4757 wing width and taper guide a four-wing punch
+                  with a rounded centre and a conical floor; Z additionally has four
+                  shallow diagonal identification grooves. Die-flow radii and gauge
+                  conformity are not certified.
+                runout: One-pitch taper; incomplete thread remains within 2P.
+                thread: Nominal right-hand external metric profile; 60 degree flanks,
+                  H/6 rounded root; no ISO 965 tolerance offsets.
+                thread_coverage: Full thread to the head as described by the Bossard
+                  products. Commercial lengths beyond the sheet are flagged.
+                tip: Selected 45 degree chamfer of P/2.
+              output_folder: three_d_model
+              parameters:
+                countersink_angle_deg: 90
+                diameter_mm: 2.0
+                drive_style: philips
+                finish: black
+                handedness: right
+                head_diameter_mm: 3.8
+                head_height_mm: 1.2
+                head_rim_mm: 0.26686291501015247
+                head_style: countersunk
+                head_top_z_mm: 16.0
+                length_convention: overall
+                length_mm: 16.0
+                overall_length_mm: 16.0
+                partial_thread_from_length_mm: null
+                pitch_mm: 0.4
+                recess_core_width_mm: 0.97
+                recess_depth_mm: 1.1
+                recess_diameter_mm: 2.35
+                recess_floor_angle_deg: 28
+                recess_number: 1
+                recess_outer_slope_deg: 26.5
+                recess_type: H
+                recess_wall_taper_deg: 7
+                recess_wing_width_mm: 0.535
+                standard: DIN 965 A
+                thread_coverage: standard_reference
+                thread_flank_angle_deg: 60.0
+                thread_length_reference_mm: null
+                thread_minor_diameter_mm: 1.509252271188818
+                thread_pitch_diameter_mm: 1.7401923788646685
+                thread_root_radius_mm: 0.057735026918962574
+                thread_starts: 1
+                tip_chamfer_mm: 0.2
+                underhead_fillet_mm: 0.08
+              priority: 5
+              renders:
+                high:
+                  file: render_high.png
+                  pixels: 2048
+                  variant: full
+                  view: isometric
+                low:
+                  file: render_low.png
+                  pixels: 512
+                  variant: display
+                  view: isometric
+                product_high:
+                  file: render_product_high.png
+                  pixels: 2048
+                  variant: full
+                  view: product
+                product_low:
+                  file: render_product_low.png
+                  pixels: 512
+                  variant: display
+                  view: product
+              schema_version: 1
+              sources:
+              - title: Bossard BN 388 Phillips DIN 965 A dimension table
+                url: https://media.distrelec.com/Web/Downloads/_t/ds/1156330_eng_tds.pdf
+                use: M2 to M6 head, H recess number, m, penetration limits and commercial
+                  lengths. DIN sizes are used without substitution of ISO head diameters.
+              - title: Bossard BN 3333 Pozidriv DIN 965 A dimension table
+                url: https://www.tme.eu/Document/b3c2bbb9412ad33d6d7c7272822eba01/BN3333-EN.pdf
+                use: Z recess number, m and penetration limits.
+              - title: Aspen Fasteners DIN 965 dimensional sheet
+                url: https://tvsat.com.pl/PDF/M/metric_din_965_aspen.pdf
+                use: M1.6 head and H recess dimensions. The M3.5 pitch misprint in
+                  this sheet is not used.
+              - title: ISO 4757:1983, clauses 2 and 3, H and Z dimension tables and
+                  sections
+                url: https://cdn.standards.iteh.ai/samples/10742/d878fa0371e041b39de75de4d4426928/ISO-4757-1983.pdf
+                use: Wing width f selected at the middle of the tolerance band, centre
+                  width b at its nominal value, outer wing slope 26 degrees 30 minutes,
+                  floor cone 28 degrees. Simplified visualization rather than a gauge-certified
+                  punch.
+              standard: DIN 965 A
+              standard_lengths_mm: []
+              standard_limits:
+                cross_penetration_mm:
+                - 0.95
+                - 1.25
+              studio:
+                adaptive_threshold: 0.015
+                denoise: true
+                device: auto
+                engine: cycles
+                exposure: 0.0
+                floor_colour_srgb:
+                - 0.93
+                - 0.935
+                - 0.94
+                floor_roughness: 0.55
+                framing_margin: 0.13
+                high_samples: 160
+                lights:
+                - colour:
+                  - 1.0
+                  - 0.96
+                  - 0.9
+                  height: 5.0
+                  name: Key softbox
+                  position:
+                  - -3
+                  - -4
+                  - 6
+                  power: 650.0
+                  width: 4.0
+                - colour:
+                  - 0.9
+                  - 0.95
+                  - 1.0
+                  height: 4.0
+                  name: Fill softbox
+                  position:
+                  - 4
+                  - -1
+                  - 3
+                  power: 330.0
+                  width: 3.0
+                - colour:
+                  - 1.0
+                  - 1.0
+                  - 1.0
+                  height: 5.0
+                  name: Rim strip
+                  position:
+                  - 1
+                  - 4
+                  - 4
+                  power: 850.0
+                  width: 1.2
+                low_samples: 48
+                poses:
+                  isometric:
+                    camera_eye:
+                    - 1
+                    - -1
+                    - 1
+                    orientation: tip down, head up
+                    projection: orthographic
+                  product:
+                    camera_eye:
+                    - -6
+                    - -10
+                    - 6
+                    orientation: lying on side, head to left
+                    projection: orthographic
+                    support: Head rim and threaded shaft rest on ground; solve tilt
+                      from mesh.
+                    yaw_degrees: -12.0
+                seed: 7991
+                view_transform: AgX
+                world_colour:
+                - 0.78
+                - 0.82
+                - 0.9
+                world_strength: 0.35
+              units: mm
+              variants:
+                display:
+                  angular_segments: 32
+                  fillet_segments: 4
+                  samples_per_pitch: 1
+                full:
+                  angular_segments: 96
+                  fillet_segments: 12
+                  samples_per_pitch: 32
+              views:
+              - isometric
+              - front
+              - back
+              - left
+              - right
+              - top
+              - bottom
+            url_chat: https://chatgpt.com/c/6a03ad7b-0474-8396-b218-9d8ebad7cb4c
+          dict_data_files: {}
+          dict_data_files_exists: {}
+          file_output: label_oomp.svg
+          file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+          search_and_replace: []
+        file_test: label_oomp.pdf
+        retries_until_complete: 0
+      svg_details:
+        diameter_mm: 2.0
+        drive_style: philips
+        drive_symbol_gap_mm: 1.2
+        head_diameter_mm: 4.0
+        head_rim_mm: 0.15
+        length_mm: 16.0
+        screw_style: countersunk
+        socket_depth_mm: 0.65
+        socket_width_mm: 1.3
+        stylesheet: project_bolt
+        svg_name: screw_diagrams
+        thread_pitch_mm: 0.4
+        variants:
+          plain: diagram_plain.svg
+          solid: diagram_solid.svg
+          threaded: diagram_threaded.svg
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: screw
+      taxonomy_3: countersunk
+      taxonomy_4: philips
+      taxonomy_5: black
+      taxonomy_6: m2_diameter
+      taxonomy_7: 16_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      three_d_model_details:
+        checked_on: '2026-10-11'
+        commercial_lengths_mm:
+        - 3
+        - 4
+        - 5
+        - 6
+        - 8
+        - 10
+        - 12
+        - 16
+        - 20
+        coordinate_system:
+          axis: +Z towards head
+          glb_units: metres
+          glb_up_axis: Y
+          head_top_z_mm: 16.0
+          length_convention: overall
+          origin: tip centre
+          stl_units: mm
+        dimension_status: supplier_dimensions
+        dimensional_specification: DIN 965 countersunk cross-recess screws, H and
+          Z profiles
+        family: countersunk
+        generation_status: ready
+        generator: parametric_screw
+        length_status: supplier_length
+        material:
+          base_colour_srgb:
+          - 0.205
+          - 0.218
+          - 0.235
+          coat_roughness: 0.28
+          coat_weight: 0.08
+          metallic: 0.8
+          microtexture_height_um: 0.8
+          microtexture_spacing_mm: 0.025
+          name: Black oxide steel
+          note: Visual finish approximation; catalogue specifies colour only.
+          roughness: 0.31
+          roughness_variation: 0.045
+        model_formats:
+        - stl
+        - glb
+        modelling_choices:
+          catalogue_length: Unlisted lengths use the sourced size profile at the catalogue
+            length and are explicitly marked as extensions.
+          certification: Nominal catalogue geometry; not manufacturing certification.
+          display: Smooth nominal thread envelope with the same head and recessed
+            drive.
+          head: Nominal dk with 90 degree cone and an adjusted positive rim within
+            k max. Small tangent under-head radius is selected, not a manufacturer
+            identification.
+          markings: Unidentified manufacturer and property-class stamps omitted.
+          recess: Published m and midpoint gauge penetration t select a nominal visual
+            cavity. ISO 4757 wing width and taper guide a four-wing punch with a rounded
+            centre and a conical floor; Z additionally has four shallow diagonal identification
+            grooves. Die-flow radii and gauge conformity are not certified.
+          runout: One-pitch taper; incomplete thread remains within 2P.
+          thread: Nominal right-hand external metric profile; 60 degree flanks, H/6
+            rounded root; no ISO 965 tolerance offsets.
+          thread_coverage: Full thread to the head as described by the Bossard products.
+            Commercial lengths beyond the sheet are flagged.
+          tip: Selected 45 degree chamfer of P/2.
+        output_folder: three_d_model
+        parameters:
+          countersink_angle_deg: 90
+          diameter_mm: 2.0
+          drive_style: philips
+          finish: black
+          handedness: right
+          head_diameter_mm: 3.8
+          head_height_mm: 1.2
+          head_rim_mm: 0.26686291501015247
+          head_style: countersunk
+          head_top_z_mm: 16.0
+          length_convention: overall
+          length_mm: 16.0
+          overall_length_mm: 16.0
+          partial_thread_from_length_mm: null
+          pitch_mm: 0.4
+          recess_core_width_mm: 0.97
+          recess_depth_mm: 1.1
+          recess_diameter_mm: 2.35
+          recess_floor_angle_deg: 28
+          recess_number: 1
+          recess_outer_slope_deg: 26.5
+          recess_type: H
+          recess_wall_taper_deg: 7
+          recess_wing_width_mm: 0.535
+          standard: DIN 965 A
+          thread_coverage: standard_reference
+          thread_flank_angle_deg: 60.0
+          thread_length_reference_mm: null
+          thread_minor_diameter_mm: 1.509252271188818
+          thread_pitch_diameter_mm: 1.7401923788646685
+          thread_root_radius_mm: 0.057735026918962574
+          thread_starts: 1
+          tip_chamfer_mm: 0.2
+          underhead_fillet_mm: 0.08
+        priority: 5
+        renders:
+          high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+          low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+          product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+          product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+        schema_version: 1
+        sources:
+        - title: Bossard BN 388 Phillips DIN 965 A dimension table
+          url: https://media.distrelec.com/Web/Downloads/_t/ds/1156330_eng_tds.pdf
+          use: M2 to M6 head, H recess number, m, penetration limits and commercial
+            lengths. DIN sizes are used without substitution of ISO head diameters.
+        - title: Bossard BN 3333 Pozidriv DIN 965 A dimension table
+          url: https://www.tme.eu/Document/b3c2bbb9412ad33d6d7c7272822eba01/BN3333-EN.pdf
+          use: Z recess number, m and penetration limits.
+        - title: Aspen Fasteners DIN 965 dimensional sheet
+          url: https://tvsat.com.pl/PDF/M/metric_din_965_aspen.pdf
+          use: M1.6 head and H recess dimensions. The M3.5 pitch misprint in this
+            sheet is not used.
+        - title: ISO 4757:1983, clauses 2 and 3, H and Z dimension tables and sections
+          url: https://cdn.standards.iteh.ai/samples/10742/d878fa0371e041b39de75de4d4426928/ISO-4757-1983.pdf
+          use: Wing width f selected at the middle of the tolerance band, centre width
+            b at its nominal value, outer wing slope 26 degrees 30 minutes, floor
+            cone 28 degrees. Simplified visualization rather than a gauge-certified
+            punch.
+        standard: DIN 965 A
+        standard_lengths_mm: []
+        standard_limits:
+          cross_penetration_mm:
+          - 0.95
+          - 1.25
+        studio:
+          adaptive_threshold: 0.015
+          denoise: true
+          device: auto
+          engine: cycles
+          exposure: 0.0
+          floor_colour_srgb:
+          - 0.93
+          - 0.935
+          - 0.94
+          floor_roughness: 0.55
+          framing_margin: 0.13
+          high_samples: 160
+          lights:
+          - colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+          - colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+          - colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+          low_samples: 48
+          poses:
+            isometric:
+              camera_eye:
+              - 1
+              - -1
+              - 1
+              orientation: tip down, head up
+              projection: orthographic
+            product:
+              camera_eye:
+              - -6
+              - -10
+              - 6
+              orientation: lying on side, head to left
+              projection: orthographic
+              support: Head rim and threaded shaft rest on ground; solve tilt from
+                mesh.
+              yaw_degrees: -12.0
+          seed: 7991
+          view_transform: AgX
+          world_colour:
+          - 0.78
+          - 0.82
+          - 0.9
+          world_strength: 0.35
+        units: mm
+        variants:
+          display:
+            angular_segments: 32
+            fillet_segments: 4
+            samples_per_pitch: 1
+          full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+        views:
+        - isometric
+        - front
+        - back
+        - left
+        - right
+        - top
+        - bottom
+      url_chat: https://chatgpt.com/c/6a03ad7b-0474-8396-b218-9d8ebad7cb4c
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_bolt_image.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_bolt_image.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_3:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    description: label_drawer
+    dict_data:
+      label_drawer: *id001
+    file_output: label_drawer.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+  file_test: ''
+oomp_key: oomp_hardware_screw_countersunk_philips_black_m2_diameter_16_mm_length
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+svg_details:
+  diameter_mm: 2.0
+  drive_style: philips
+  drive_symbol_gap_mm: 1.2
+  head_diameter_mm: 4.0
+  head_rim_mm: 0.15
+  length_mm: 16.0
+  screw_style: countersunk
+  socket_depth_mm: 0.65
+  socket_width_mm: 1.3
+  stylesheet: project_bolt
+  svg_name: screw_diagrams
+  thread_pitch_mm: 0.4
+  variants:
+    plain: diagram_plain.svg
+    solid: diagram_solid.svg
+    threaded: diagram_threaded.svg
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: screw
+taxonomy_2_capital: Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: sc
+taxonomy_2_length_3: scr
+taxonomy_2_length_4: scre
+taxonomy_2_length_5: screw
+taxonomy_2_upper: SCREW
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: SC
+taxonomy_2_upper_length_3: SCR
+taxonomy_2_upper_length_4: SCRE
+taxonomy_2_upper_length_5: SCREW
+taxonomy_3: countersunk
+taxonomy_3_capital: Countersunk
+taxonomy_3_first_letter: c
+taxonomy_3_first_letter_upper: C
+taxonomy_3_length_1: c
+taxonomy_3_length_2: co
+taxonomy_3_length_3: cou
+taxonomy_3_length_4: coun
+taxonomy_3_length_5: count
+taxonomy_3_upper: COUNTERSUNK
+taxonomy_3_upper_length_1: C
+taxonomy_3_upper_length_2: CO
+taxonomy_3_upper_length_3: COU
+taxonomy_3_upper_length_4: COUN
+taxonomy_3_upper_length_5: COUNT
+taxonomy_4: philips
+taxonomy_4_capital: Philips
+taxonomy_4_first_letter: p
+taxonomy_4_first_letter_upper: P
+taxonomy_4_length_1: p
+taxonomy_4_length_2: ph
+taxonomy_4_length_3: phi
+taxonomy_4_length_4: phil
+taxonomy_4_length_5: phili
+taxonomy_4_upper: PHILIPS
+taxonomy_4_upper_length_1: P
+taxonomy_4_upper_length_2: PH
+taxonomy_4_upper_length_3: PHI
+taxonomy_4_upper_length_4: PHIL
+taxonomy_4_upper_length_5: PHILI
+taxonomy_5: black
+taxonomy_5_capital: Black
+taxonomy_5_first_letter: b
+taxonomy_5_first_letter_upper: B
+taxonomy_5_length_1: b
+taxonomy_5_length_2: bl
+taxonomy_5_length_3: bla
+taxonomy_5_length_4: blac
+taxonomy_5_length_5: black
+taxonomy_5_upper: BLACK
+taxonomy_5_upper_length_1: B
+taxonomy_5_upper_length_2: BL
+taxonomy_5_upper_length_3: BLA
+taxonomy_5_upper_length_4: BLAC
+taxonomy_5_upper_length_5: BLACK
+taxonomy_6: m2_diameter
+taxonomy_6_capital: M2 Diameter
+taxonomy_6_first_letter: m
+taxonomy_6_first_letter_upper: M
+taxonomy_6_length_1: m
+taxonomy_6_length_2: m2
+taxonomy_6_length_3: m2_
+taxonomy_6_length_4: m2_d
+taxonomy_6_length_5: m2_di
+taxonomy_6_upper: M2_DIAMETER
+taxonomy_6_upper_length_1: M
+taxonomy_6_upper_length_2: M2
+taxonomy_6_upper_length_3: M2_
+taxonomy_6_upper_length_4: M2_D
+taxonomy_6_upper_length_5: M2_DI
+taxonomy_7: 16_mm_length
+taxonomy_7_capital: 16 mm Length
+taxonomy_7_first_letter: '1'
+taxonomy_7_first_letter_upper: '1'
+taxonomy_7_length_1: '1'
+taxonomy_7_length_2: '16'
+taxonomy_7_length_3: '16_'
+taxonomy_7_length_4: 16_m
+taxonomy_7_length_5: 16_mm
+taxonomy_7_upper: 16_MM_LENGTH
+taxonomy_7_upper_length_1: '1'
+taxonomy_7_upper_length_2: '16'
+taxonomy_7_upper_length_3: '16_'
+taxonomy_7_upper_length_4: 16_M
+taxonomy_7_upper_length_5: 16_MM
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+  checked_on: '2026-10-11'
+  commercial_lengths_mm:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 8
+  - 10
+  - 12
+  - 16
+  - 20
+  coordinate_system:
+    axis: +Z towards head
+    glb_units: metres
+    glb_up_axis: Y
+    head_top_z_mm: 16.0
+    length_convention: overall
+    origin: tip centre
+    stl_units: mm
+  dimension_status: supplier_dimensions
+  dimensional_specification: DIN 965 countersunk cross-recess screws, H and Z profiles
+  family: countersunk
+  generation_status: ready
+  generator: parametric_screw
+  length_status: supplier_length
+  material:
+    base_colour_srgb:
+    - 0.205
+    - 0.218
+    - 0.235
+    coat_roughness: 0.28
+    coat_weight: 0.08
+    metallic: 0.8
+    microtexture_height_um: 0.8
+    microtexture_spacing_mm: 0.025
+    name: Black oxide steel
+    note: Visual finish approximation; catalogue specifies colour only.
+    roughness: 0.31
+    roughness_variation: 0.045
+  model_formats:
+  - stl
+  - glb
+  modelling_choices:
+    catalogue_length: Unlisted lengths use the sourced size profile at the catalogue
+      length and are explicitly marked as extensions.
+    certification: Nominal catalogue geometry; not manufacturing certification.
+    display: Smooth nominal thread envelope with the same head and recessed drive.
+    head: Nominal dk with 90 degree cone and an adjusted positive rim within k max.
+      Small tangent under-head radius is selected, not a manufacturer identification.
+    markings: Unidentified manufacturer and property-class stamps omitted.
+    recess: Published m and midpoint gauge penetration t select a nominal visual cavity.
+      ISO 4757 wing width and taper guide a four-wing punch with a rounded centre
+      and a conical floor; Z additionally has four shallow diagonal identification
+      grooves. Die-flow radii and gauge conformity are not certified.
+    runout: One-pitch taper; incomplete thread remains within 2P.
+    thread: Nominal right-hand external metric profile; 60 degree flanks, H/6 rounded
+      root; no ISO 965 tolerance offsets.
+    thread_coverage: Full thread to the head as described by the Bossard products.
+      Commercial lengths beyond the sheet are flagged.
+    tip: Selected 45 degree chamfer of P/2.
+  output_folder: three_d_model
+  parameters:
+    countersink_angle_deg: 90
+    diameter_mm: 2.0
+    drive_style: philips
+    finish: black
+    handedness: right
+    head_diameter_mm: 3.8
+    head_height_mm: 1.2
+    head_rim_mm: 0.26686291501015247
+    head_style: countersunk
+    head_top_z_mm: 16.0
+    length_convention: overall
+    length_mm: 16.0
+    overall_length_mm: 16.0
+    partial_thread_from_length_mm: null
+    pitch_mm: 0.4
+    recess_core_width_mm: 0.97
+    recess_depth_mm: 1.1
+    recess_diameter_mm: 2.35
+    recess_floor_angle_deg: 28
+    recess_number: 1
+    recess_outer_slope_deg: 26.5
+    recess_type: H
+    recess_wall_taper_deg: 7
+    recess_wing_width_mm: 0.535
+    standard: DIN 965 A
+    thread_coverage: standard_reference
+    thread_flank_angle_deg: 60.0
+    thread_length_reference_mm: null
+    thread_minor_diameter_mm: 1.509252271188818
+    thread_pitch_diameter_mm: 1.7401923788646685
+    thread_root_radius_mm: 0.057735026918962574
+    thread_starts: 1
+    tip_chamfer_mm: 0.2
+    underhead_fillet_mm: 0.08
+  priority: 5
+  renders:
+    high:
+      file: render_high.png
+      pixels: 2048
+      variant: full
+      view: isometric
+    low:
+      file: render_low.png
+      pixels: 512
+      variant: display
+      view: isometric
+    product_high:
+      file: render_product_high.png
+      pixels: 2048
+      variant: full
+      view: product
+    product_low:
+      file: render_product_low.png
+      pixels: 512
+      variant: display
+      view: product
+  schema_version: 1
+  sources:
+  - title: Bossard BN 388 Phillips DIN 965 A dimension table
+    url: https://media.distrelec.com/Web/Downloads/_t/ds/1156330_eng_tds.pdf
+    use: M2 to M6 head, H recess number, m, penetration limits and commercial lengths.
+      DIN sizes are used without substitution of ISO head diameters.
+  - title: Bossard BN 3333 Pozidriv DIN 965 A dimension table
+    url: https://www.tme.eu/Document/b3c2bbb9412ad33d6d7c7272822eba01/BN3333-EN.pdf
+    use: Z recess number, m and penetration limits.
+  - title: Aspen Fasteners DIN 965 dimensional sheet
+    url: https://tvsat.com.pl/PDF/M/metric_din_965_aspen.pdf
+    use: M1.6 head and H recess dimensions. The M3.5 pitch misprint in this sheet
+      is not used.
+  - title: ISO 4757:1983, clauses 2 and 3, H and Z dimension tables and sections
+    url: https://cdn.standards.iteh.ai/samples/10742/d878fa0371e041b39de75de4d4426928/ISO-4757-1983.pdf
+    use: Wing width f selected at the middle of the tolerance band, centre width b
+      at its nominal value, outer wing slope 26 degrees 30 minutes, floor cone 28
+      degrees. Simplified visualization rather than a gauge-certified punch.
+  standard: DIN 965 A
+  standard_lengths_mm: []
+  standard_limits:
+    cross_penetration_mm:
+    - 0.95
+    - 1.25
+  studio:
+    adaptive_threshold: 0.015
+    denoise: true
+    device: auto
+    engine: cycles
+    exposure: 0.0
+    floor_colour_srgb:
+    - 0.93
+    - 0.935
+    - 0.94
+    floor_roughness: 0.55
+    framing_margin: 0.13
+    high_samples: 160
+    lights:
+    - colour:
+      - 1.0
+      - 0.96
+      - 0.9
+      height: 5.0
+      name: Key softbox
+      position:
+      - -3
+      - -4
+      - 6
+      power: 650.0
+      width: 4.0
+    - colour:
+      - 0.9
+      - 0.95
+      - 1.0
+      height: 4.0
+      name: Fill softbox
+      position:
+      - 4
+      - -1
+      - 3
+      power: 330.0
+      width: 3.0
+    - colour:
+      - 1.0
+      - 1.0
+      - 1.0
+      height: 5.0
+      name: Rim strip
+      position:
+      - 1
+      - 4
+      - 4
+      power: 850.0
+      width: 1.2
+    low_samples: 48
+    poses:
+      isometric:
+        camera_eye:
+        - 1
+        - -1
+        - 1
+        orientation: tip down, head up
+        projection: orthographic
+      product:
+        camera_eye:
+        - -6
+        - -10
+        - 6
+        orientation: lying on side, head to left
+        projection: orthographic
+        support: Head rim and threaded shaft rest on ground; solve tilt from mesh.
+        yaw_degrees: -12.0
+    seed: 7991
+    view_transform: AgX
+    world_colour:
+    - 0.78
+    - 0.82
+    - 0.9
+    world_strength: 0.35
+  units: mm
+  variants:
+    display:
+      angular_segments: 32
+      fillet_segments: 4
+      samples_per_pitch: 1
+    full:
+      angular_segments: 96
+      fillet_segments: 12
+      samples_per_pitch: 32
+  views:
+  - isometric
+  - front
+  - back
+  - left
+  - right
+  - top
+  - bottom
+url_chat: https://chatgpt.com/c/6a03ad7b-0474-8396-b218-9d8ebad7cb4c
+```
+
+</details>
+
+## Parts
+
+[Open the canonical part folder](./) for the files available for this variant. Alternative model formats describe the same record; they are not extra components.
+
+## Assembly
+
+No assembly procedure is inferred from this catalogue record. Use any retained technical notes and the original manufacturer documentation for installation details.
+<!-- oomp-documentation:end -->

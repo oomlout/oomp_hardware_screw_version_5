@@ -1,0 +1,1351 @@
+<!-- oomp-documentation:start -->
+# Hardware Screw Socket Cap Low Head Ultra Hex Head Black M2 5 Diameter 20 Mm Length
+
+## Summary
+
+OOMP catalogue record for Hardware Screw Socket Cap Low Head Ultra Hex Head Black M2 5 Diameter 20 Mm Length. Use the metadata to identify this variant and the part folder to inspect its available assets.
+
+![Catalogue preview of Hardware Screw Socket Cap Low Head Ultra Hex Head Black M2 5 Diameter 20 Mm Length](three_d_model/render_product_low.png)
+
+Catalogue illustration; consult the source dimensions and datasheet for specification.
+
+## Details
+
+**OOMP folder ID:** `hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_20_mm_length`
+
+[Catalogue](../../README.md) · [Part metadata](working.yaml)
+
+| Field | Value |
+| --- | --- |
+| id | hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_20_mm_length |
+| md5_6 | 039f5b |
+| md5_6_alpha | 536j |
+| oomp_key | oomp_hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_20_mm_length |
+| taxonomy_1 | hardware |
+| taxonomy_2 | screw |
+| taxonomy_3 | socket_cap_low_head_ultra |
+| taxonomy_4 | hex_head |
+| taxonomy_5 | black |
+| taxonomy_6 | m2_5_diameter |
+| taxonomy_7 | 20_mm_length |
+
+<details>
+<summary>Full part metadata</summary>
+
+```yaml
+bip_39_2_word_array:
+- adjust
+- width
+bip_39_2_word_no_space: adjustwidth
+bip_39_2_word_space: adjust width
+bip_39_2_word_underscore: adjust_width
+bip_39_3_word_array:
+- adjust
+- width
+- word
+bip_39_3_word_no_space: adjustwidthword
+bip_39_3_word_space: adjust width word
+bip_39_3_word_underscore: adjust_width_word
+bip_39_full_array:
+- adjust
+- width
+- word
+- lady
+- axis
+- fringe
+- cover
+- jar
+- suit
+- only
+- dune
+- monster
+bip_39_full_no_space: adjustwidthwordladyaxisfringecoverjarsuitonlydunemonster
+bip_39_full_space: adjust width word lady axis fringe cover jar suit only dune monster
+bip_39_full_underscore: adjust_width_word_lady_axis_fringe_cover_jar_suit_only_dune_monster
+directory: parts/hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_20_mm_length
+generate_stl: true
+id: hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_20_mm_length
+id_no_class: hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_20_mm_length
+id_no_size: hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_20_mm_length
+id_no_type: hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_20_mm_length
+label_drawer: &id001
+  bip39: adjust width word
+  bip39_size: 2.35
+  code: SC
+  description: Ultra low head socket cap screw / M2.5 / 20 mm / Hex socket / Black
+  detail_lines:
+  - Hex socket / Black
+  detail_size: 2.05
+  detail_y: 21.1
+  diagram: <path d="M4.5 3H6V11H4.5Z M4.5 6H5.3V8H4.5"/><path d="M6 5H18V9H6"/><path
+    d="M7 5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+  drive_symbol: <circle cx="5" cy="5" r="4.5" fill="#ffffff"/><path d="M5 1L8.46 3V7L5
+    9L1.54 7V3Z" transform="translate(1.5 1.5) scale(0.7)" fill="#000000"/>
+  length: '20'
+  length_size: 7.8
+  length_x: 18.02234375
+  name: Ultra low head socket cap screw
+  name_lines:
+  - Ultra low head
+  - socket cap screw
+  name_size: 2.7
+  thread: M2.5
+  thread_size: 4.408
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_20_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_20_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_20_mm_length
+md5: 039f5bf5be410eba0c63bad913611047
+md5_10: 039f5bf5be
+md5_10_upper: 039F5BF5BE
+md5_5: 039f5
+md5_5_upper: 039F5
+md5_6: 039f5b
+md5_6_alpha: 536j
+md5_6_alpha_upper: 536J
+md5_6_upper: 039F5B
+name: Hardware Screw Socket Cap Low Head Ultra Hex Head Black M2 5 Diameter 20 Mm
+  Length
+name_no_class: Hardware Screw Socket Cap Low Head Ultra Hex Head Black M2 5 Diameter
+  20 Mm Length
+name_no_size: Hardware Screw Socket Cap Low Head Ultra Hex Head Black M2 5 Diameter
+  20 Mm Length
+name_no_type: Hardware Screw Socket Cap Low Head Ultra Hex Head Black M2 5 Diameter
+  20 Mm Length
+name_proper: Hardware Screw Socket Cap Low Head Ultra Hex Head Black M2 5 Diameter
+  20 Mm Length
+name_space: hardware screw socket cap low head ultra hex head black m2 5 diameter
+  20 mm length
+name_upper: HARDWARE SCREW SOCKET CAP LOW HEAD ULTRA HEX HEAD BLACK M2 5 DIAMETER
+  20 MM LENGTH
+oobb_details:
+  drive_style: hex_head
+  length: 20_mm_length
+  oobb_name: screw
+  screw_colour: black
+  screw_style: socket_cap_low_head_ultra
+  thread_size: m2_5_diameter
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      directory: parts\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_20_mm_length
+      name: hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_20_mm_length
+      name_proper: Hardware Screw Socket Cap Low Head Ultra Hex Head Black M2 5 Diameter
+        20 Mm Length
+      name_space: hardware screw socket cap low head ultra hex head black m2 5 diameter
+        20 mm length
+      name_upper: HARDWARE SCREW SOCKET CAP LOW HEAD ULTRA HEX HEAD BLACK M2 5 DIAMETER
+        20 MM LENGTH
+      oobb_details:
+        drive_style: hex_head
+        length: 20_mm_length
+        oobb_name: screw
+        screw_colour: black
+        screw_style: socket_cap_low_head_ultra
+        thread_size: m2_5_diameter
+      svg_details:
+        diameter_mm: 2.5
+        drive_style: hex_head
+        drive_symbol_gap_mm: 1.5
+        head_diameter_mm: 4.25
+        head_rim_mm: 0.1875
+        length_mm: 20.0
+        screw_style: socket_cap_low_head_ultra
+        socket_depth_mm: 0.8125
+        socket_width_mm: 1.625
+        stylesheet: project_bolt
+        svg_name: screw_diagrams
+        thread_pitch_mm: 0.45
+        variants:
+          plain: diagram_plain.svg
+          solid: diagram_solid.svg
+          threaded: diagram_threaded.svg
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: screw
+      taxonomy_3: socket_cap_low_head_ultra
+      taxonomy_4: hex_head
+      taxonomy_5: black
+      taxonomy_6: m2_5_diameter
+      taxonomy_7: 20_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      three_d_model_details:
+        checked_on: '2026-10-11'
+        commercial_lengths_mm:
+        - 5
+        - 6
+        - 8
+        - 10
+        - 12
+        coordinate_system:
+          axis: +Z towards head
+          glb_units: metres
+          glb_up_axis: Y
+          head_top_z_mm: 21.6
+          length_convention: under_head
+          origin: tip centre
+          stl_units: mm
+        dimension_status: supplier_dimensions
+        dimensional_specification: Low cylindrical head hexagon socket screws
+        family: socket_cap_low_head_ultra
+        generation_status: ready
+        generator: parametric_screw
+        length_status: catalogue_length_extension
+        material:
+          base_colour_srgb:
+          - 0.205
+          - 0.218
+          - 0.235
+          coat_roughness: 0.28
+          coat_weight: 0.08
+          metallic: 0.8
+          microtexture_height_um: 0.8
+          microtexture_spacing_mm: 0.025
+          name: Black oxide steel
+          note: Visual finish approximation; catalogue specifies colour only.
+          roughness: 0.31
+          roughness_variation: 0.045
+        model_formats:
+        - stl
+        - glb
+        modelling_choices:
+          catalogue_length: Unlisted lengths use the sourced size profile at the catalogue
+            length and are explicitly marked as extensions.
+          certification: Nominal catalogue geometry; not manufacturing certification.
+          display: Smooth nominal thread envelope with the same head and recessed
+            drive.
+          edges: Small explicitly selected edge chamfers and tangent underhead fillet;
+            drawing does not specify their limits.
+          identity: User confirmed DIN 7984 on 2026-10-11. This catalogue label shares
+            the low-head profile; no invented extra reduction.
+          markings: Unidentified manufacturer and property-class stamps omitted.
+          reference: NBK SLH drawing is a dimensional reference, not an assertion
+            that catalogue parts are manufactured by NBK.
+          runout: One-pitch taper; incomplete thread remains within 2P.
+          socket: Published nominal key width and penetration; no pilot recess.
+          thread: Nominal right-hand external metric profile; 60 degree flanks, H/6
+            rounded root; no ISO 965 tolerance offsets.
+          thread_coverage: Full by default; catalogue threading is unidentified. Specify
+            partial and its sourced length when the purchased variant is known.
+          tip: Selected 45 degree chamfer of P/2.
+        output_folder: three_d_model
+        parameters:
+          diameter_mm: 2.5
+          drive_style: hex_head
+          finish: black
+          handedness: right
+          head_diameter_mm: 4.5
+          head_edge_chamfer_mm: 0.08
+          head_height_mm: 1.6
+          head_style: cylindrical
+          head_top_z_mm: 21.6
+          hex_key_mm: 1.5
+          length_convention: under_head
+          length_mm: 20.0
+          overall_length_mm: 21.6
+          partial_thread_from_length_mm: null
+          pitch_mm: 0.45
+          socket_across_flats_mm: 1.5
+          socket_depth_mm: 1.0
+          standard: DIN 7984
+          thread_coverage: standard_reference
+          thread_flank_angle_deg: 60.0
+          thread_length_reference_mm: null
+          thread_minor_diameter_mm: 1.9479088050874203
+          thread_pitch_diameter_mm: 2.2077164262227518
+          thread_root_radius_mm: 0.06495190528383289
+          thread_starts: 1
+          tip_chamfer_mm: 0.225
+          underhead_fillet_mm: 0.1
+        priority: 8
+        renders:
+          high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+          low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+          product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+          product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+        schema_version: 1
+        sources:
+        - title: NBK SLH / SLH-TZB manufacturer dimensional drawing and table
+          url: https://static.nbk1560.com/images/en/product/lowsmallheadscrew/SLH-TZB/SLH-TZB_1.pdf
+          use: Published pitch, head diameter/height, key, penetration and commercial
+            lengths, including M2/M2.5.
+        - title: NBK SLH manufacturer catalogue
+          url: https://www.nbk1560.com/en-US/products/specialscrew/nedzicom/spacesaving/SLH/
+          use: Identifies DIN 7984 family; commercial miniature dimensions are recorded
+            as supplier rows.
+        - title: Bossard DIN 7984 low head and distinct DIN 6912 pilot recess
+          url: https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-head-cap-screws-with-low-head-partially-fully-threaded/p/17/
+          use: Head/drive identification, full/partial alternatives, and pilot recess
+            distinction.
+        standard: DIN 7984
+        standard_lengths_mm: []
+        standard_limits: {}
+        studio:
+          adaptive_threshold: 0.015
+          denoise: true
+          device: auto
+          engine: cycles
+          exposure: 0.0
+          floor_colour_srgb:
+          - 0.93
+          - 0.935
+          - 0.94
+          floor_roughness: 0.55
+          framing_margin: 0.13
+          high_samples: 160
+          lights:
+          - colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+          - colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+          - colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+          low_samples: 48
+          poses:
+            isometric:
+              camera_eye:
+              - 1
+              - -1
+              - 1
+              orientation: tip down, head up
+              projection: orthographic
+            product:
+              camera_eye:
+              - -6
+              - -10
+              - 6
+              orientation: lying on side, head to left
+              projection: orthographic
+              support: Head rim and threaded shaft rest on ground; solve tilt from
+                mesh.
+              yaw_degrees: -12.0
+          seed: 7991
+          view_transform: AgX
+          world_colour:
+          - 0.78
+          - 0.82
+          - 0.9
+          world_strength: 0.35
+        units: mm
+        variants:
+          display:
+            angular_segments: 32
+            fillet_segments: 4
+            samples_per_pitch: 1
+          full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+        views:
+        - isometric
+        - front
+        - back
+        - left
+        - right
+        - top
+        - bottom
+      url_chat: https://chatgpt.com/c/6a0e9dc3-5e8c-83eb-a881-b86dcb846aaa
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_2:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      directory: parts\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_20_mm_length
+      name: hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_20_mm_length
+      name_proper: Hardware Screw Socket Cap Low Head Ultra Hex Head Black M2 5 Diameter
+        20 Mm Length
+      name_space: hardware screw socket cap low head ultra hex head black m2 5 diameter
+        20 mm length
+      name_upper: HARDWARE SCREW SOCKET CAP LOW HEAD ULTRA HEX HEAD BLACK M2 5 DIAMETER
+        20 MM LENGTH
+      oobb_details:
+        drive_style: hex_head
+        length: 20_mm_length
+        oobb_name: screw
+        screw_colour: black
+        screw_style: socket_cap_low_head_ultra
+        thread_size: m2_5_diameter
+      oomlout_ai_roboclick_1:
+        actions:
+        - command: text_jinja_template
+          convert_to_pdf: false
+          convert_to_png: false
+          dict_data:
+            directory: parts\hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_20_mm_length
+            name: hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_20_mm_length
+            name_proper: Hardware Screw Socket Cap Low Head Ultra Hex Head Black M2
+              5 Diameter 20 Mm Length
+            name_space: hardware screw socket cap low head ultra hex head black m2
+              5 diameter 20 mm length
+            name_upper: HARDWARE SCREW SOCKET CAP LOW HEAD ULTRA HEX HEAD BLACK M2
+              5 DIAMETER 20 MM LENGTH
+            oobb_details:
+              drive_style: hex_head
+              length: 20_mm_length
+              oobb_name: screw
+              screw_colour: black
+              screw_style: socket_cap_low_head_ultra
+              thread_size: m2_5_diameter
+            svg_details:
+              diameter_mm: 2.5
+              drive_style: hex_head
+              drive_symbol_gap_mm: 1.5
+              head_diameter_mm: 4.25
+              head_rim_mm: 0.1875
+              length_mm: 20.0
+              screw_style: socket_cap_low_head_ultra
+              socket_depth_mm: 0.8125
+              socket_width_mm: 1.625
+              stylesheet: project_bolt
+              svg_name: screw_diagrams
+              thread_pitch_mm: 0.45
+              variants:
+                plain: diagram_plain.svg
+                solid: diagram_solid.svg
+                threaded: diagram_threaded.svg
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: socket_cap_low_head_ultra
+            taxonomy_4: hex_head
+            taxonomy_5: black
+            taxonomy_6: m2_5_diameter
+            taxonomy_7: 20_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+              checked_on: '2026-10-11'
+              commercial_lengths_mm:
+              - 5
+              - 6
+              - 8
+              - 10
+              - 12
+              coordinate_system:
+                axis: +Z towards head
+                glb_units: metres
+                glb_up_axis: Y
+                head_top_z_mm: 21.6
+                length_convention: under_head
+                origin: tip centre
+                stl_units: mm
+              dimension_status: supplier_dimensions
+              dimensional_specification: Low cylindrical head hexagon socket screws
+              family: socket_cap_low_head_ultra
+              generation_status: ready
+              generator: parametric_screw
+              length_status: catalogue_length_extension
+              material:
+                base_colour_srgb:
+                - 0.205
+                - 0.218
+                - 0.235
+                coat_roughness: 0.28
+                coat_weight: 0.08
+                metallic: 0.8
+                microtexture_height_um: 0.8
+                microtexture_spacing_mm: 0.025
+                name: Black oxide steel
+                note: Visual finish approximation; catalogue specifies colour only.
+                roughness: 0.31
+                roughness_variation: 0.045
+              model_formats:
+              - stl
+              - glb
+              modelling_choices:
+                catalogue_length: Unlisted lengths use the sourced size profile at
+                  the catalogue length and are explicitly marked as extensions.
+                certification: Nominal catalogue geometry; not manufacturing certification.
+                display: Smooth nominal thread envelope with the same head and recessed
+                  drive.
+                edges: Small explicitly selected edge chamfers and tangent underhead
+                  fillet; drawing does not specify their limits.
+                identity: User confirmed DIN 7984 on 2026-10-11. This catalogue label
+                  shares the low-head profile; no invented extra reduction.
+                markings: Unidentified manufacturer and property-class stamps omitted.
+                reference: NBK SLH drawing is a dimensional reference, not an assertion
+                  that catalogue parts are manufactured by NBK.
+                runout: One-pitch taper; incomplete thread remains within 2P.
+                socket: Published nominal key width and penetration; no pilot recess.
+                thread: Nominal right-hand external metric profile; 60 degree flanks,
+                  H/6 rounded root; no ISO 965 tolerance offsets.
+                thread_coverage: Full by default; catalogue threading is unidentified.
+                  Specify partial and its sourced length when the purchased variant
+                  is known.
+                tip: Selected 45 degree chamfer of P/2.
+              output_folder: three_d_model
+              parameters:
+                diameter_mm: 2.5
+                drive_style: hex_head
+                finish: black
+                handedness: right
+                head_diameter_mm: 4.5
+                head_edge_chamfer_mm: 0.08
+                head_height_mm: 1.6
+                head_style: cylindrical
+                head_top_z_mm: 21.6
+                hex_key_mm: 1.5
+                length_convention: under_head
+                length_mm: 20.0
+                overall_length_mm: 21.6
+                partial_thread_from_length_mm: null
+                pitch_mm: 0.45
+                socket_across_flats_mm: 1.5
+                socket_depth_mm: 1.0
+                standard: DIN 7984
+                thread_coverage: standard_reference
+                thread_flank_angle_deg: 60.0
+                thread_length_reference_mm: null
+                thread_minor_diameter_mm: 1.9479088050874203
+                thread_pitch_diameter_mm: 2.2077164262227518
+                thread_root_radius_mm: 0.06495190528383289
+                thread_starts: 1
+                tip_chamfer_mm: 0.225
+                underhead_fillet_mm: 0.1
+              priority: 8
+              renders:
+                high:
+                  file: render_high.png
+                  pixels: 2048
+                  variant: full
+                  view: isometric
+                low:
+                  file: render_low.png
+                  pixels: 512
+                  variant: display
+                  view: isometric
+                product_high:
+                  file: render_product_high.png
+                  pixels: 2048
+                  variant: full
+                  view: product
+                product_low:
+                  file: render_product_low.png
+                  pixels: 512
+                  variant: display
+                  view: product
+              schema_version: 1
+              sources:
+              - title: NBK SLH / SLH-TZB manufacturer dimensional drawing and table
+                url: https://static.nbk1560.com/images/en/product/lowsmallheadscrew/SLH-TZB/SLH-TZB_1.pdf
+                use: Published pitch, head diameter/height, key, penetration and commercial
+                  lengths, including M2/M2.5.
+              - title: NBK SLH manufacturer catalogue
+                url: https://www.nbk1560.com/en-US/products/specialscrew/nedzicom/spacesaving/SLH/
+                use: Identifies DIN 7984 family; commercial miniature dimensions are
+                  recorded as supplier rows.
+              - title: Bossard DIN 7984 low head and distinct DIN 6912 pilot recess
+                url: https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-head-cap-screws-with-low-head-partially-fully-threaded/p/17/
+                use: Head/drive identification, full/partial alternatives, and pilot
+                  recess distinction.
+              standard: DIN 7984
+              standard_lengths_mm: []
+              standard_limits: {}
+              studio:
+                adaptive_threshold: 0.015
+                denoise: true
+                device: auto
+                engine: cycles
+                exposure: 0.0
+                floor_colour_srgb:
+                - 0.93
+                - 0.935
+                - 0.94
+                floor_roughness: 0.55
+                framing_margin: 0.13
+                high_samples: 160
+                lights:
+                - colour:
+                  - 1.0
+                  - 0.96
+                  - 0.9
+                  height: 5.0
+                  name: Key softbox
+                  position:
+                  - -3
+                  - -4
+                  - 6
+                  power: 650.0
+                  width: 4.0
+                - colour:
+                  - 0.9
+                  - 0.95
+                  - 1.0
+                  height: 4.0
+                  name: Fill softbox
+                  position:
+                  - 4
+                  - -1
+                  - 3
+                  power: 330.0
+                  width: 3.0
+                - colour:
+                  - 1.0
+                  - 1.0
+                  - 1.0
+                  height: 5.0
+                  name: Rim strip
+                  position:
+                  - 1
+                  - 4
+                  - 4
+                  power: 850.0
+                  width: 1.2
+                low_samples: 48
+                poses:
+                  isometric:
+                    camera_eye:
+                    - 1
+                    - -1
+                    - 1
+                    orientation: tip down, head up
+                    projection: orthographic
+                  product:
+                    camera_eye:
+                    - -6
+                    - -10
+                    - 6
+                    orientation: lying on side, head to left
+                    projection: orthographic
+                    support: Head rim and threaded shaft rest on ground; solve tilt
+                      from mesh.
+                    yaw_degrees: -12.0
+                seed: 7991
+                view_transform: AgX
+                world_colour:
+                - 0.78
+                - 0.82
+                - 0.9
+                world_strength: 0.35
+              units: mm
+              variants:
+                display:
+                  angular_segments: 32
+                  fillet_segments: 4
+                  samples_per_pitch: 1
+                full:
+                  angular_segments: 96
+                  fillet_segments: 12
+                  samples_per_pitch: 32
+              views:
+              - isometric
+              - front
+              - back
+              - left
+              - right
+              - top
+              - bottom
+            url_chat: https://chatgpt.com/c/6a0e9dc3-5e8c-83eb-a881-b86dcb846aaa
+          dict_data_files: {}
+          dict_data_files_exists: {}
+          file_output: label_oomp.svg
+          file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+          search_and_replace: []
+        file_test: label_oomp.pdf
+        retries_until_complete: 0
+      svg_details:
+        diameter_mm: 2.5
+        drive_style: hex_head
+        drive_symbol_gap_mm: 1.5
+        head_diameter_mm: 4.25
+        head_rim_mm: 0.1875
+        length_mm: 20.0
+        screw_style: socket_cap_low_head_ultra
+        socket_depth_mm: 0.8125
+        socket_width_mm: 1.625
+        stylesheet: project_bolt
+        svg_name: screw_diagrams
+        thread_pitch_mm: 0.45
+        variants:
+          plain: diagram_plain.svg
+          solid: diagram_solid.svg
+          threaded: diagram_threaded.svg
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: screw
+      taxonomy_3: socket_cap_low_head_ultra
+      taxonomy_4: hex_head
+      taxonomy_5: black
+      taxonomy_6: m2_5_diameter
+      taxonomy_7: 20_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      three_d_model_details:
+        checked_on: '2026-10-11'
+        commercial_lengths_mm:
+        - 5
+        - 6
+        - 8
+        - 10
+        - 12
+        coordinate_system:
+          axis: +Z towards head
+          glb_units: metres
+          glb_up_axis: Y
+          head_top_z_mm: 21.6
+          length_convention: under_head
+          origin: tip centre
+          stl_units: mm
+        dimension_status: supplier_dimensions
+        dimensional_specification: Low cylindrical head hexagon socket screws
+        family: socket_cap_low_head_ultra
+        generation_status: ready
+        generator: parametric_screw
+        length_status: catalogue_length_extension
+        material:
+          base_colour_srgb:
+          - 0.205
+          - 0.218
+          - 0.235
+          coat_roughness: 0.28
+          coat_weight: 0.08
+          metallic: 0.8
+          microtexture_height_um: 0.8
+          microtexture_spacing_mm: 0.025
+          name: Black oxide steel
+          note: Visual finish approximation; catalogue specifies colour only.
+          roughness: 0.31
+          roughness_variation: 0.045
+        model_formats:
+        - stl
+        - glb
+        modelling_choices:
+          catalogue_length: Unlisted lengths use the sourced size profile at the catalogue
+            length and are explicitly marked as extensions.
+          certification: Nominal catalogue geometry; not manufacturing certification.
+          display: Smooth nominal thread envelope with the same head and recessed
+            drive.
+          edges: Small explicitly selected edge chamfers and tangent underhead fillet;
+            drawing does not specify their limits.
+          identity: User confirmed DIN 7984 on 2026-10-11. This catalogue label shares
+            the low-head profile; no invented extra reduction.
+          markings: Unidentified manufacturer and property-class stamps omitted.
+          reference: NBK SLH drawing is a dimensional reference, not an assertion
+            that catalogue parts are manufactured by NBK.
+          runout: One-pitch taper; incomplete thread remains within 2P.
+          socket: Published nominal key width and penetration; no pilot recess.
+          thread: Nominal right-hand external metric profile; 60 degree flanks, H/6
+            rounded root; no ISO 965 tolerance offsets.
+          thread_coverage: Full by default; catalogue threading is unidentified. Specify
+            partial and its sourced length when the purchased variant is known.
+          tip: Selected 45 degree chamfer of P/2.
+        output_folder: three_d_model
+        parameters:
+          diameter_mm: 2.5
+          drive_style: hex_head
+          finish: black
+          handedness: right
+          head_diameter_mm: 4.5
+          head_edge_chamfer_mm: 0.08
+          head_height_mm: 1.6
+          head_style: cylindrical
+          head_top_z_mm: 21.6
+          hex_key_mm: 1.5
+          length_convention: under_head
+          length_mm: 20.0
+          overall_length_mm: 21.6
+          partial_thread_from_length_mm: null
+          pitch_mm: 0.45
+          socket_across_flats_mm: 1.5
+          socket_depth_mm: 1.0
+          standard: DIN 7984
+          thread_coverage: standard_reference
+          thread_flank_angle_deg: 60.0
+          thread_length_reference_mm: null
+          thread_minor_diameter_mm: 1.9479088050874203
+          thread_pitch_diameter_mm: 2.2077164262227518
+          thread_root_radius_mm: 0.06495190528383289
+          thread_starts: 1
+          tip_chamfer_mm: 0.225
+          underhead_fillet_mm: 0.1
+        priority: 8
+        renders:
+          high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+          low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+          product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+          product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+        schema_version: 1
+        sources:
+        - title: NBK SLH / SLH-TZB manufacturer dimensional drawing and table
+          url: https://static.nbk1560.com/images/en/product/lowsmallheadscrew/SLH-TZB/SLH-TZB_1.pdf
+          use: Published pitch, head diameter/height, key, penetration and commercial
+            lengths, including M2/M2.5.
+        - title: NBK SLH manufacturer catalogue
+          url: https://www.nbk1560.com/en-US/products/specialscrew/nedzicom/spacesaving/SLH/
+          use: Identifies DIN 7984 family; commercial miniature dimensions are recorded
+            as supplier rows.
+        - title: Bossard DIN 7984 low head and distinct DIN 6912 pilot recess
+          url: https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-head-cap-screws-with-low-head-partially-fully-threaded/p/17/
+          use: Head/drive identification, full/partial alternatives, and pilot recess
+            distinction.
+        standard: DIN 7984
+        standard_lengths_mm: []
+        standard_limits: {}
+        studio:
+          adaptive_threshold: 0.015
+          denoise: true
+          device: auto
+          engine: cycles
+          exposure: 0.0
+          floor_colour_srgb:
+          - 0.93
+          - 0.935
+          - 0.94
+          floor_roughness: 0.55
+          framing_margin: 0.13
+          high_samples: 160
+          lights:
+          - colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+          - colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+          - colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+          low_samples: 48
+          poses:
+            isometric:
+              camera_eye:
+              - 1
+              - -1
+              - 1
+              orientation: tip down, head up
+              projection: orthographic
+            product:
+              camera_eye:
+              - -6
+              - -10
+              - 6
+              orientation: lying on side, head to left
+              projection: orthographic
+              support: Head rim and threaded shaft rest on ground; solve tilt from
+                mesh.
+              yaw_degrees: -12.0
+          seed: 7991
+          view_transform: AgX
+          world_colour:
+          - 0.78
+          - 0.82
+          - 0.9
+          world_strength: 0.35
+        units: mm
+        variants:
+          display:
+            angular_segments: 32
+            fillet_segments: 4
+            samples_per_pitch: 1
+          full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+        views:
+        - isometric
+        - front
+        - back
+        - left
+        - right
+        - top
+        - bottom
+      url_chat: https://chatgpt.com/c/6a0e9dc3-5e8c-83eb-a881-b86dcb846aaa
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_bolt_image.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_bolt_image.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_3:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    description: label_drawer
+    dict_data:
+      label_drawer: *id001
+    file_output: label_drawer.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+  file_test: ''
+oomp_key: oomp_hardware_screw_socket_cap_low_head_ultra_hex_head_black_m2_5_diameter_20_mm_length
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+svg_details:
+  diameter_mm: 2.5
+  drive_style: hex_head
+  drive_symbol_gap_mm: 1.5
+  head_diameter_mm: 4.25
+  head_rim_mm: 0.1875
+  length_mm: 20.0
+  screw_style: socket_cap_low_head_ultra
+  socket_depth_mm: 0.8125
+  socket_width_mm: 1.625
+  stylesheet: project_bolt
+  svg_name: screw_diagrams
+  thread_pitch_mm: 0.45
+  variants:
+    plain: diagram_plain.svg
+    solid: diagram_solid.svg
+    threaded: diagram_threaded.svg
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: screw
+taxonomy_2_capital: Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: sc
+taxonomy_2_length_3: scr
+taxonomy_2_length_4: scre
+taxonomy_2_length_5: screw
+taxonomy_2_upper: SCREW
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: SC
+taxonomy_2_upper_length_3: SCR
+taxonomy_2_upper_length_4: SCRE
+taxonomy_2_upper_length_5: SCREW
+taxonomy_3: socket_cap_low_head_ultra
+taxonomy_3_capital: Socket Cap Low Head Ultra
+taxonomy_3_first_letter: s
+taxonomy_3_first_letter_upper: S
+taxonomy_3_length_1: s
+taxonomy_3_length_2: so
+taxonomy_3_length_3: soc
+taxonomy_3_length_4: sock
+taxonomy_3_length_5: socke
+taxonomy_3_upper: SOCKET_CAP_LOW_HEAD_ULTRA
+taxonomy_3_upper_length_1: S
+taxonomy_3_upper_length_2: SO
+taxonomy_3_upper_length_3: SOC
+taxonomy_3_upper_length_4: SOCK
+taxonomy_3_upper_length_5: SOCKE
+taxonomy_4: hex_head
+taxonomy_4_capital: Hex Head
+taxonomy_4_first_letter: h
+taxonomy_4_first_letter_upper: H
+taxonomy_4_length_1: h
+taxonomy_4_length_2: he
+taxonomy_4_length_3: hex
+taxonomy_4_length_4: hex_
+taxonomy_4_length_5: hex_h
+taxonomy_4_upper: HEX_HEAD
+taxonomy_4_upper_length_1: H
+taxonomy_4_upper_length_2: HE
+taxonomy_4_upper_length_3: HEX
+taxonomy_4_upper_length_4: HEX_
+taxonomy_4_upper_length_5: HEX_H
+taxonomy_5: black
+taxonomy_5_capital: Black
+taxonomy_5_first_letter: b
+taxonomy_5_first_letter_upper: B
+taxonomy_5_length_1: b
+taxonomy_5_length_2: bl
+taxonomy_5_length_3: bla
+taxonomy_5_length_4: blac
+taxonomy_5_length_5: black
+taxonomy_5_upper: BLACK
+taxonomy_5_upper_length_1: B
+taxonomy_5_upper_length_2: BL
+taxonomy_5_upper_length_3: BLA
+taxonomy_5_upper_length_4: BLAC
+taxonomy_5_upper_length_5: BLACK
+taxonomy_6: m2_5_diameter
+taxonomy_6_capital: M2.5 Diameter
+taxonomy_6_first_letter: m
+taxonomy_6_first_letter_upper: M
+taxonomy_6_length_1: m
+taxonomy_6_length_2: m2
+taxonomy_6_length_3: m2_
+taxonomy_6_length_4: m2_5
+taxonomy_6_length_5: m2_5_
+taxonomy_6_upper: M2_5_DIAMETER
+taxonomy_6_upper_length_1: M
+taxonomy_6_upper_length_2: M2
+taxonomy_6_upper_length_3: M2_
+taxonomy_6_upper_length_4: M2_5
+taxonomy_6_upper_length_5: M2_5_
+taxonomy_7: 20_mm_length
+taxonomy_7_capital: 20 mm Length
+taxonomy_7_first_letter: '2'
+taxonomy_7_first_letter_upper: '2'
+taxonomy_7_length_1: '2'
+taxonomy_7_length_2: '20'
+taxonomy_7_length_3: '20_'
+taxonomy_7_length_4: 20_m
+taxonomy_7_length_5: 20_mm
+taxonomy_7_upper: 20_MM_LENGTH
+taxonomy_7_upper_length_1: '2'
+taxonomy_7_upper_length_2: '20'
+taxonomy_7_upper_length_3: '20_'
+taxonomy_7_upper_length_4: 20_M
+taxonomy_7_upper_length_5: 20_MM
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+  checked_on: '2026-10-11'
+  commercial_lengths_mm:
+  - 5
+  - 6
+  - 8
+  - 10
+  - 12
+  coordinate_system:
+    axis: +Z towards head
+    glb_units: metres
+    glb_up_axis: Y
+    head_top_z_mm: 21.6
+    length_convention: under_head
+    origin: tip centre
+    stl_units: mm
+  dimension_status: supplier_dimensions
+  dimensional_specification: Low cylindrical head hexagon socket screws
+  family: socket_cap_low_head_ultra
+  generation_status: ready
+  generator: parametric_screw
+  length_status: catalogue_length_extension
+  material:
+    base_colour_srgb:
+    - 0.205
+    - 0.218
+    - 0.235
+    coat_roughness: 0.28
+    coat_weight: 0.08
+    metallic: 0.8
+    microtexture_height_um: 0.8
+    microtexture_spacing_mm: 0.025
+    name: Black oxide steel
+    note: Visual finish approximation; catalogue specifies colour only.
+    roughness: 0.31
+    roughness_variation: 0.045
+  model_formats:
+  - stl
+  - glb
+  modelling_choices:
+    catalogue_length: Unlisted lengths use the sourced size profile at the catalogue
+      length and are explicitly marked as extensions.
+    certification: Nominal catalogue geometry; not manufacturing certification.
+    display: Smooth nominal thread envelope with the same head and recessed drive.
+    edges: Small explicitly selected edge chamfers and tangent underhead fillet; drawing
+      does not specify their limits.
+    identity: User confirmed DIN 7984 on 2026-10-11. This catalogue label shares the
+      low-head profile; no invented extra reduction.
+    markings: Unidentified manufacturer and property-class stamps omitted.
+    reference: NBK SLH drawing is a dimensional reference, not an assertion that catalogue
+      parts are manufactured by NBK.
+    runout: One-pitch taper; incomplete thread remains within 2P.
+    socket: Published nominal key width and penetration; no pilot recess.
+    thread: Nominal right-hand external metric profile; 60 degree flanks, H/6 rounded
+      root; no ISO 965 tolerance offsets.
+    thread_coverage: Full by default; catalogue threading is unidentified. Specify
+      partial and its sourced length when the purchased variant is known.
+    tip: Selected 45 degree chamfer of P/2.
+  output_folder: three_d_model
+  parameters:
+    diameter_mm: 2.5
+    drive_style: hex_head
+    finish: black
+    handedness: right
+    head_diameter_mm: 4.5
+    head_edge_chamfer_mm: 0.08
+    head_height_mm: 1.6
+    head_style: cylindrical
+    head_top_z_mm: 21.6
+    hex_key_mm: 1.5
+    length_convention: under_head
+    length_mm: 20.0
+    overall_length_mm: 21.6
+    partial_thread_from_length_mm: null
+    pitch_mm: 0.45
+    socket_across_flats_mm: 1.5
+    socket_depth_mm: 1.0
+    standard: DIN 7984
+    thread_coverage: standard_reference
+    thread_flank_angle_deg: 60.0
+    thread_length_reference_mm: null
+    thread_minor_diameter_mm: 1.9479088050874203
+    thread_pitch_diameter_mm: 2.2077164262227518
+    thread_root_radius_mm: 0.06495190528383289
+    thread_starts: 1
+    tip_chamfer_mm: 0.225
+    underhead_fillet_mm: 0.1
+  priority: 8
+  renders:
+    high:
+      file: render_high.png
+      pixels: 2048
+      variant: full
+      view: isometric
+    low:
+      file: render_low.png
+      pixels: 512
+      variant: display
+      view: isometric
+    product_high:
+      file: render_product_high.png
+      pixels: 2048
+      variant: full
+      view: product
+    product_low:
+      file: render_product_low.png
+      pixels: 512
+      variant: display
+      view: product
+  schema_version: 1
+  sources:
+  - title: NBK SLH / SLH-TZB manufacturer dimensional drawing and table
+    url: https://static.nbk1560.com/images/en/product/lowsmallheadscrew/SLH-TZB/SLH-TZB_1.pdf
+    use: Published pitch, head diameter/height, key, penetration and commercial lengths,
+      including M2/M2.5.
+  - title: NBK SLH manufacturer catalogue
+    url: https://www.nbk1560.com/en-US/products/specialscrew/nedzicom/spacesaving/SLH/
+    use: Identifies DIN 7984 family; commercial miniature dimensions are recorded
+      as supplier rows.
+  - title: Bossard DIN 7984 low head and distinct DIN 6912 pilot recess
+    url: https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-head-cap-screws-with-low-head-partially-fully-threaded/p/17/
+    use: Head/drive identification, full/partial alternatives, and pilot recess distinction.
+  standard: DIN 7984
+  standard_lengths_mm: []
+  standard_limits: {}
+  studio:
+    adaptive_threshold: 0.015
+    denoise: true
+    device: auto
+    engine: cycles
+    exposure: 0.0
+    floor_colour_srgb:
+    - 0.93
+    - 0.935
+    - 0.94
+    floor_roughness: 0.55
+    framing_margin: 0.13
+    high_samples: 160
+    lights:
+    - colour:
+      - 1.0
+      - 0.96
+      - 0.9
+      height: 5.0
+      name: Key softbox
+      position:
+      - -3
+      - -4
+      - 6
+      power: 650.0
+      width: 4.0
+    - colour:
+      - 0.9
+      - 0.95
+      - 1.0
+      height: 4.0
+      name: Fill softbox
+      position:
+      - 4
+      - -1
+      - 3
+      power: 330.0
+      width: 3.0
+    - colour:
+      - 1.0
+      - 1.0
+      - 1.0
+      height: 5.0
+      name: Rim strip
+      position:
+      - 1
+      - 4
+      - 4
+      power: 850.0
+      width: 1.2
+    low_samples: 48
+    poses:
+      isometric:
+        camera_eye:
+        - 1
+        - -1
+        - 1
+        orientation: tip down, head up
+        projection: orthographic
+      product:
+        camera_eye:
+        - -6
+        - -10
+        - 6
+        orientation: lying on side, head to left
+        projection: orthographic
+        support: Head rim and threaded shaft rest on ground; solve tilt from mesh.
+        yaw_degrees: -12.0
+    seed: 7991
+    view_transform: AgX
+    world_colour:
+    - 0.78
+    - 0.82
+    - 0.9
+    world_strength: 0.35
+  units: mm
+  variants:
+    display:
+      angular_segments: 32
+      fillet_segments: 4
+      samples_per_pitch: 1
+    full:
+      angular_segments: 96
+      fillet_segments: 12
+      samples_per_pitch: 32
+  views:
+  - isometric
+  - front
+  - back
+  - left
+  - right
+  - top
+  - bottom
+url_chat: https://chatgpt.com/c/6a0e9dc3-5e8c-83eb-a881-b86dcb846aaa
+```
+
+</details>
+
+## Parts
+
+[Open the canonical part folder](./) for the files available for this variant. Alternative model formats describe the same record; they are not extra components.
+
+## Assembly
+
+No assembly procedure is inferred from this catalogue record. Use any retained technical notes and the original manufacturer documentation for installation details.
+<!-- oomp-documentation:end -->

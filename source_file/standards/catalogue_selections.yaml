@@ -1,0 +1,47 @@
+# Explicit product identity choices. Edit here so normal population retains them.
+# A per-part three_d_model_selection block takes precedence over these defaults.
+schema_version: 1
+families:
+  grub:
+    standard_file: din_916.yaml
+    point_style: cup
+    identity_note: User confirmed cup point DIN 916 / ISO 4029 on 2026-10-11.
+  socket_cap_low_head_ultra:
+    standard_file: din_7984.yaml
+    identity_note: User confirmed DIN 7984 on 2026-10-11. This catalogue label shares the low-head profile; no invented extra reduction.
+  machine_screw:
+    standard_file: din_7985.yaml
+    identity_note: User confirmed pan head on 2026-10-11.
+  flat_head:
+    standard_file: din_965.yaml
+    identity_note: User confirmed countersunk on 2026-10-11.
+  self_tapping:
+    standard_file: self_tapping_visualization.yaml
+    thread_coverage: full
+    research_profile: miniature_self_tapping
+    supplier_url: https://www.aliexpress.com/item/1005004774076999.html
+    reference_urls:
+      - https://www.ebay.co.uk/itm/383102775525
+      - https://www.ebay.co.uk/itm/377271086738
+    head_style: pan
+    finish_identity: black_zinc
+    identity_note: User selected the supplied dimensions, 0.3 mm pitch for 1/1.2 mm and 2.2 mm replacement on 2026-10-13, then confirmed full threading and authorized image-based core, point and Phillips recess estimates. Use a labelled visual approximation with black finish.
+  thread_forming:
+    excluded: true
+    identity_note: User requested skipping this family on 2026-10-11.
+  wood:
+    standard_file: wood_similar_product.yaml
+    research_profile: screw_tite
+    supplier_url: https://www.tite-fix.co.uk/product/screw-tite-multipurpose-screw/
+    reference_urls:
+      - https://www.screwfix.com/p/screw-tite-2-pz-double-countersunk-thread-cutting-screws-4mm-x-50mm-200-pack/127fy
+    identity_note: User selected Screw-Tite from Screwfix and authorized filling missing measurements from similar products on 2026-10-12. On 2026-10-13 the catalogue was replaced with verified Screwfix product codes and Net-Coat Yellow-Plated finish. Retain the explicitly labelled slender-shank modern chipboard visualization proxy and separate proprietary geometry evidence.
+part_filters:
+  - filter: hardware_screw_countersunk_philips_black_m1_4_diameter_*
+    selection:
+      standard_file: jcis_type_3_countersunk.yaml
+      identity_note: Sourced Type 3 miniature supplier profile selected for nominal visualization on 2026-10-12; not a manufacturer identification or DIN 965 extension.
+  - filter: hardware_screw_countersunk_philips_black_m1_6_diameter_*
+    selection:
+      standard_file: din_965.yaml
+      identity_note: User corrected M1.5 countersunk entries to the existing M1.6 range on 2026-10-13. Use the sourced M1.6 dimensions; retain one entry per length.

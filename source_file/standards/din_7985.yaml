@@ -1,0 +1,399 @@
+schema_version: 1
+standard: DIN 7985 A
+title: DIN 7985 pan-head machine screws with H or Z recess
+units: mm
+head_style: pan
+length_convention: under_head
+checked_on: '2026-10-11'
+sources:
+- title: Bossard BN 384 Phillips pan-head dimension table
+  url: https://www.tme.eu/Document/6dcfa6f98cf6e40290aa56258c19b5d6/BN384.pdf
+  use: DIN head maximum diameter and height, H recess and fully threaded commercial
+    products.
+- title: Bossard BN 3311 Pozidriv pan-head dimension table
+  url: https://www.tme.eu/Document/193f9ad1cddd45cf9c89db8245477de8/BN3311-DE.pdf
+  use: Z recess dimensions.
+- title: DIN 7985:1990 original Table 1, hosted by Shenzhen Fine Technology
+  url: https://www.finesz.com/pic/DIN7985.pdf
+  use: M3.5 Z recess m=4, t=1.65 to 2.11; approximate head crown radii rf and under-head
+    radius bounds. Handwritten alterations in this scan are ignored.
+modelling_choices:
+  head: Pan profile uses the published approximate spherical crown radius rf over
+    a cylindrical skirt; k and dk use the supplier maximum dimensions. The recess
+    removes the theoretical crown apex. Head edge die-flow rounding is omitted.
+  thread_coverage: Full thread to head follows the Bossard product descriptions. Longer
+    catalogue entries are marked as extensions.
+  material: Empty finish labels use a satin steel visual placeholder; this does not
+    identify the actual product finish.
+sizes:
+  '2':
+    dimension_status: supplier_dimensions
+    pitch_mm: 0.4
+    head_diameter_mm: 4
+    head_height_mm: 1.72
+    head_crown_radius_mm: 4
+    underhead_fillet_mm: 0.1
+    thread_length_reference_mm: null
+    partial_thread_from_length_mm: null
+    commercial_lengths_mm: &id001
+    - 3
+    - 4
+    - 5
+    - 6
+    - 8
+    - 10
+    - 12
+    - 16
+    - 20
+    recesses:
+      philips:
+        recess_type: H
+        recess_number: 1
+        recess_diameter_mm: 2.5
+        recess_depth_mm: 1.25
+        penetration_limits_mm:
+        - 1.1
+        - 1.4
+        commercial_lengths_mm: *id001
+      pozidriv:
+        recess_type: Z
+        recess_number: 1
+        recess_diameter_mm: 2.4
+        recess_depth_mm: 1.225
+        penetration_limits_mm:
+        - 1.1
+        - 1.35
+        commercial_lengths_mm:
+        - 3
+        - 4
+        - 5
+        - 6
+        - 8
+        - 10
+        - 12
+        - 16
+        - 20
+  '2.5':
+    dimension_status: supplier_dimensions
+    pitch_mm: 0.45
+    head_diameter_mm: 5
+    head_height_mm: 2.12
+    head_crown_radius_mm: 5
+    underhead_fillet_mm: 0.1
+    thread_length_reference_mm: null
+    partial_thread_from_length_mm: null
+    commercial_lengths_mm: &id002
+    - 3
+    - 4
+    - 5
+    - 6
+    - 8
+    - 10
+    - 12
+    - 16
+    - 20
+    - 25
+    recesses:
+      philips:
+        recess_type: H
+        recess_number: 1
+        recess_diameter_mm: 2.7
+        recess_depth_mm: 1.45
+        penetration_limits_mm:
+        - 1.3
+        - 1.6
+        commercial_lengths_mm: *id002
+      pozidriv:
+        recess_type: Z
+        recess_number: 1
+        recess_diameter_mm: 2.6
+        recess_depth_mm: 1.395
+        penetration_limits_mm:
+        - 1.27
+        - 1.52
+        commercial_lengths_mm:
+        - 3
+        - 4
+        - 5
+        - 6
+        - 8
+        - 10
+        - 12
+        - 16
+        - 20
+        - 25
+  '3':
+    dimension_status: supplier_dimensions
+    pitch_mm: 0.5
+    head_diameter_mm: 6
+    head_height_mm: 2.52
+    head_crown_radius_mm: 6
+    underhead_fillet_mm: 0.1
+    thread_length_reference_mm: null
+    partial_thread_from_length_mm: null
+    commercial_lengths_mm: &id003
+    - 3
+    - 4
+    - 5
+    - 6
+    - 8
+    - 10
+    - 12
+    - 14
+    - 16
+    - 18
+    - 20
+    - 22
+    - 25
+    - 30
+    - 35
+    - 40
+    - 45
+    - 50
+    recesses:
+      philips:
+        recess_type: H
+        recess_number: 1
+        recess_diameter_mm: 3.1
+        recess_depth_mm: 1.85
+        penetration_limits_mm:
+        - 1.7
+        - 2
+        commercial_lengths_mm: *id003
+      pozidriv:
+        recess_type: Z
+        recess_number: 1
+        recess_diameter_mm: 3
+        recess_depth_mm: 1.805
+        penetration_limits_mm:
+        - 1.68
+        - 1.93
+        commercial_lengths_mm:
+        - 4
+        - 5
+        - 6
+        - 8
+        - 10
+        - 12
+        - 14
+        - 16
+        - 18
+        - 20
+        - 25
+        - 30
+        - 35
+        - 40
+        - 45
+        - 50
+  '3.5':
+    dimension_status: supplier_dimensions
+    pitch_mm: 0.6
+    head_diameter_mm: 7
+    head_height_mm: 2.82
+    head_crown_radius_mm: 7
+    underhead_fillet_mm: 0.2
+    thread_length_reference_mm: null
+    partial_thread_from_length_mm: null
+    recesses:
+      philips:
+        recess_type: H
+        recess_number: 2
+        recess_diameter_mm: 4.2
+        recess_depth_mm: 1.99
+        penetration_limits_mm:
+        - 1.74
+        - 2.24
+        commercial_lengths_mm: []
+      pozidriv:
+        recess_type: Z
+        recess_number: 2
+        recess_diameter_mm: 4
+        recess_depth_mm: 1.88
+        penetration_limits_mm:
+        - 1.65
+        - 2.11
+        commercial_lengths_mm: []
+  '4':
+    dimension_status: supplier_dimensions
+    pitch_mm: 0.7
+    head_diameter_mm: 8
+    head_height_mm: 3.25
+    head_crown_radius_mm: 8
+    underhead_fillet_mm: 0.2
+    thread_length_reference_mm: null
+    partial_thread_from_length_mm: null
+    commercial_lengths_mm: &id004
+    - 4
+    - 5
+    - 6
+    - 8
+    - 10
+    - 12
+    - 14
+    - 16
+    - 18
+    - 20
+    - 22
+    - 25
+    - 30
+    - 35
+    - 40
+    - 45
+    - 50
+    - 60
+    - 70
+    - 80
+    recesses:
+      philips:
+        recess_type: H
+        recess_number: 2
+        recess_diameter_mm: 4.6
+        recess_depth_mm: 2.29
+        penetration_limits_mm:
+        - 2.04
+        - 2.54
+        commercial_lengths_mm: *id004
+      pozidriv:
+        recess_type: Z
+        recess_number: 2
+        recess_diameter_mm: 4.3
+        recess_depth_mm: 2.13
+        penetration_limits_mm:
+        - 1.9
+        - 2.36
+        commercial_lengths_mm:
+        - 5
+        - 6
+        - 8
+        - 10
+        - 12
+        - 14
+        - 16
+        - 18
+        - 20
+        - 25
+        - 30
+        - 35
+        - 40
+        - 45
+        - 50
+        - 60
+  '5':
+    dimension_status: supplier_dimensions
+    pitch_mm: 0.8
+    head_diameter_mm: 10
+    head_height_mm: 3.95
+    head_crown_radius_mm: 8
+    underhead_fillet_mm: 0.2
+    thread_length_reference_mm: null
+    partial_thread_from_length_mm: null
+    commercial_lengths_mm: &id005
+    - 5
+    - 6
+    - 8
+    - 10
+    - 12
+    - 14
+    - 16
+    - 18
+    - 20
+    - 22
+    - 25
+    - 30
+    - 35
+    - 40
+    - 45
+    - 50
+    - 60
+    - 70
+    - 80
+    recesses:
+      philips:
+        recess_type: H
+        recess_number: 2
+        recess_diameter_mm: 5.3
+        recess_depth_mm: 3.02
+        penetration_limits_mm:
+        - 2.77
+        - 3.27
+        commercial_lengths_mm: *id005
+      pozidriv:
+        recess_type: Z
+        recess_number: 2
+        recess_diameter_mm: 5
+        recess_depth_mm: 2.87
+        penetration_limits_mm:
+        - 2.64
+        - 3.1
+        commercial_lengths_mm:
+        - 6
+        - 8
+        - 10
+        - 12
+        - 14
+        - 16
+        - 18
+        - 20
+        - 25
+        - 30
+        - 35
+        - 40
+        - 45
+        - 50
+        - 60
+  '6':
+    dimension_status: supplier_dimensions
+    pitch_mm: 1
+    head_diameter_mm: 12
+    head_height_mm: 4.75
+    head_crown_radius_mm: 12
+    underhead_fillet_mm: 0.25
+    thread_length_reference_mm: null
+    partial_thread_from_length_mm: null
+    commercial_lengths_mm: &id006
+    - 6
+    - 8
+    - 10
+    - 12
+    - 14
+    - 16
+    - 18
+    - 20
+    - 22
+    - 25
+    - 30
+    - 35
+    - 40
+    - 45
+    - 50
+    - 60
+    - 70
+    - 80
+    recesses:
+      philips:
+        recess_type: H
+        recess_number: 3
+        recess_diameter_mm: 6.8
+        recess_depth_mm: 3.28
+        penetration_limits_mm:
+        - 3.03
+        - 3.53
+        commercial_lengths_mm: *id006
+      pozidriv:
+        recess_type: Z
+        recess_number: 3
+        recess_diameter_mm: 6.7
+        recess_depth_mm: 3.25
+        penetration_limits_mm:
+        - 3.02
+        - 3.48
+        commercial_lengths_mm:
+        - 8
+        - 10
+        - 12
+        - 16
+        - 20
+        - 25
+        - 30
+        - 35
+        - 40

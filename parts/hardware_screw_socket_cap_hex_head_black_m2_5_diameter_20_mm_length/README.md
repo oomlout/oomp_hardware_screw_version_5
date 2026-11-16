@@ -1,0 +1,2545 @@
+<!-- oomp-documentation:start -->
+# Hardware Screw Socket Cap Hex Head Black M2 5 Diameter 20 Mm Length
+
+## Summary
+
+OOMP catalogue record for Hardware Screw Socket Cap Hex Head Black M2 5 Diameter 20 Mm Length. Use the metadata to identify this variant and the part folder to inspect its available assets.
+
+![Catalogue preview of Hardware Screw Socket Cap Hex Head Black M2 5 Diameter 20 Mm Length](three_d_model/render_product_low.png)
+
+Catalogue illustration; consult the source dimensions and datasheet for specification.
+
+## Details
+
+**OOMP folder ID:** `hardware_screw_socket_cap_hex_head_black_m2_5_diameter_20_mm_length`
+
+[Catalogue](../../README.md) · [Part metadata](working.yaml)
+
+| Field | Value |
+| --- | --- |
+| id | hardware_screw_socket_cap_hex_head_black_m2_5_diameter_20_mm_length |
+| md5_6 | b28355 |
+| md5_6_alpha | 6yr11 |
+| oomp_key | oomp_hardware_screw_socket_cap_hex_head_black_m2_5_diameter_20_mm_length |
+| taxonomy_1 | hardware |
+| taxonomy_2 | screw |
+| taxonomy_3 | socket_cap |
+| taxonomy_4 | hex_head |
+| taxonomy_5 | black |
+| taxonomy_6 | m2_5_diameter |
+| taxonomy_7 | 20_mm_length |
+
+<details>
+<summary>Full part metadata</summary>
+
+```yaml
+bip_39_2_word_array:
+- raw
+- boy
+bip_39_2_word_no_space: rawboy
+bip_39_2_word_space: raw boy
+bip_39_2_word_underscore: raw_boy
+bip_39_3_word_array:
+- raw
+- boy
+- firm
+bip_39_3_word_no_space: rawboyfirm
+bip_39_3_word_space: raw boy firm
+bip_39_3_word_underscore: raw_boy_firm
+bip_39_full_array:
+- raw
+- boy
+- firm
+- balance
+- grace
+- afford
+- link
+- february
+- gadget
+- ski
+- average
+- sting
+bip_39_full_no_space: rawboyfirmbalancegraceaffordlinkfebruarygadgetskiaveragesting
+bip_39_full_space: raw boy firm balance grace afford link february gadget ski average
+  sting
+bip_39_full_underscore: raw_boy_firm_balance_grace_afford_link_february_gadget_ski_average_sting
+color_band_project_bolt_1: blue
+color_band_project_bolt_1_string: 20 mm length
+color_band_project_bolt_2: red
+color_band_project_bolt_2_string: m2 5
+color_band_project_bolt_3: orange
+color_band_project_bolt_3_string: socket cap
+color_band_string_project_bolt: colour_band_orange_red_blue
+color_band_taxonomy_3: blue
+color_band_taxonomy_6: orange
+color_band_taxonomy_7: red
+directory: parts/hardware_screw_socket_cap_hex_head_black_m2_5_diameter_20_mm_length
+generate_stl: true
+id: hardware_screw_socket_cap_hex_head_black_m2_5_diameter_20_mm_length
+id_no_class: hardware_screw_socket_cap_hex_head_black_m2_5_diameter_20_mm_length
+id_no_size: hardware_screw_socket_cap_hex_head_black_m2_5_diameter_20_mm_length
+id_no_type: hardware_screw_socket_cap_hex_head_black_m2_5_diameter_20_mm_length
+label_drawer: &id001
+  bip39: raw boy firm
+  bip39_size: 2.35
+  code: SC
+  description: Socket cap screw / M2.5 / 20 mm / Hex socket / Black
+  detail_lines:
+  - Hex socket / Black
+  detail_size: 2.05
+  detail_y: 21.1
+  diagram: <path d="M2 3H6V11H2Z M2 6H2.8V8H2"/><path d="M6 5H18V9H6"/><path d="M7
+    5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+  drive_symbol: <circle cx="5" cy="5" r="4.5" fill="#ffffff"/><path d="M5 1L8.46 3V7L5
+    9L1.54 7V3Z" transform="translate(1.5 1.5) scale(0.7)" fill="#000000"/>
+  length: '20'
+  length_size: 7.8
+  length_x: 18.02234375
+  name: Socket cap screw
+  name_lines:
+  - Socket cap
+  - screw
+  name_size: 3.2
+  thread: M2.5
+  thread_size: 4.408
+length: 20
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m2_5_diameter_20_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m2_5_diameter_20_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m2_5_diameter_20_mm_length
+md5: b283555d08d65608e082a25eb9483f6a
+md5_10: b283555d08
+md5_10_upper: B283555D08
+md5_5: b2835
+md5_5_upper: B2835
+md5_6: b28355
+md5_6_alpha: 6yr11
+md5_6_alpha_upper: 6YR11
+md5_6_upper: B28355
+name: Hardware Screw Socket Cap Hex Head Black M2 5 Diameter 20 Mm Length
+name_no_class: Hardware Screw Socket Cap Hex Head Black M2 5 Diameter 20 Mm Length
+name_no_size: Hardware Screw Socket Cap Hex Head Black M2 5 Diameter 20 Mm Length
+name_no_type: Hardware Screw Socket Cap Hex Head Black M2 5 Diameter 20 Mm Length
+name_proper: Hardware Screw Socket Cap Hex Head Black M2 5 Diameter 20 Mm Length
+name_space: hardware screw socket cap hex head black m2 5 diameter 20 mm length
+name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M2 5 DIAMETER 20 MM LENGTH
+oobb_details:
+  drive_style: hex_head
+  length: 20_mm_length
+  oobb_name: screw
+  screw_colour: black
+  screw_style: socket_cap
+  thread_size: m2_5_diameter
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      color_band_project_bolt_1: blue
+      color_band_project_bolt_1_string: 20 mm length
+      color_band_project_bolt_2: red
+      color_band_project_bolt_2_string: m2 5
+      color_band_project_bolt_3: orange
+      color_band_project_bolt_3_string: socket cap
+      color_band_string_project_bolt: colour_band_orange_red_blue
+      color_band_taxonomy_3: blue
+      color_band_taxonomy_6: orange
+      color_band_taxonomy_7: red
+      directory: parts\hardware_screw_socket_cap_hex_head_black_m2_5_diameter_20_mm_length
+      length: 20
+      name: hardware_screw_socket_cap_hex_head_black_m2_5_diameter_20_mm_length
+      name_proper: Hardware Screw Socket Cap Hex Head Black M2 5 Diameter 20 Mm Length
+      name_space: hardware screw socket cap hex head black m2 5 diameter 20 mm length
+      name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M2 5 DIAMETER 20 MM LENGTH
+      oobb_details:
+        drive_style: hex_head
+        length: 20_mm_length
+        oobb_name: screw
+        screw_colour: black
+        screw_style: socket_cap
+        thread_size: m2_5_diameter
+      screw_style: screw_socket_cap
+      supplier_data:
+        boltbase:
+          accepted_warnings: '["Final Bolt Base threshold has no verified upper bound;
+            extrapolation withheld"]'
+          captured_at: '2026-10-12T21:22:18.306512+00:00'
+          currency: GBP
+          html_sha256: f4a3bedfb7f752c740c93780e5fa767bdc2612ada13e026be251940d5b00d78d
+          name: M2.5 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
+          packages: '[]'
+          parsed_at: '2026-10-18T08:56:28.705418+00:00'
+          parser_version: boltbase-1.2-review-policy
+          price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
+            "0.05", "source_text": "Buy 5000 + Save 90% Each £0.05 £0.49", "basis":
+            "user policy 2026-10-13"}}'
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "For a withheld 10000-unit price, inherit the highest available
+            lower-quantity unit price."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+          specifications: 'Thread Size: M2.5 (2.5mm); Length (Excluding Head): 20mm;
+            M2.5 (2.5mm Thread Diameter) Socket Cap Screws, also known as Allen Bolts.
+            Manufactured to DIN 912/ ISO 4762 in Self Colour High Tensile 12.9 Steel.
+            Socket Cap Screws are perfect for applications where space is limited
+            or where the screw head is installed in a recess due to the use of an
+            allen key to tighten them. Ideal for use where there is not enough clearance
+            to use a Hex Head Bolt. Suitable for applications where high strength
+            is required due to the high tensile strength. These screws are partially
+            threaded as standard after a certain length. Please note that these bolts
+            offer little to no protection from rusting and are more suited for indoor
+            use or for applications where they are protected from moisture.'
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: boltbase
+          supplier_id: SC12.9CP-2.5X20
+          supplier_part_number: SC12.9CP-2.5X20
+          supplier_website: https://boltbase.com/products/m2-5-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464728191357
+          tiers:
+          - maximum: 1
+            minimum: 1
+            source_text: Single Screw Buy 1 For £0.49
+            source_unit_price: '0.49'
+            source_vat_basis: exclusive
+            unit_price: '0.5880'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4
+            minimum: 2
+            source_text: Buy 2 + Save 50% Each £0.25 £0.49
+            source_unit_price: '0.25'
+            source_vat_basis: exclusive
+            unit_price: '0.3000'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 9
+            minimum: 5
+            source_text: Buy 5 + Save 69% Each £0.16 £0.49
+            source_unit_price: '0.16'
+            source_vat_basis: exclusive
+            unit_price: '0.1920'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 24
+            minimum: 10
+            source_text: Buy 10 + Save 72% Each £0.14 £0.49
+            source_unit_price: '0.14'
+            source_vat_basis: exclusive
+            unit_price: '0.1680'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 49
+            minimum: 25
+            source_text: Buy 25 + Save 77% Each £0.12 £0.49
+            source_unit_price: '0.12'
+            source_vat_basis: exclusive
+            unit_price: '0.1440'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 99
+            minimum: 50
+            source_text: Buy 50 + Save 81% Each £0.10 £0.49
+            source_unit_price: '0.10'
+            source_vat_basis: exclusive
+            unit_price: '0.1200'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 249
+            minimum: 100
+            source_text: Buy 100 + Save 83% Each £0.09 £0.49
+            source_unit_price: '0.09'
+            source_vat_basis: exclusive
+            unit_price: '0.1080'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 499
+            minimum: 250
+            source_text: Buy 250 + Save 85% Each £0.08 £0.49
+            source_unit_price: '0.08'
+            source_vat_basis: exclusive
+            unit_price: '0.0960'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 500
+            source_text: Buy 500 + Save 86% Each £0.07 £0.49
+            source_unit_price: '0.07'
+            source_vat_basis: exclusive
+            unit_price: '0.0840'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4999
+            minimum: 1000
+            source_text: Buy 1000 + Save 87% Each £0.07 £0.49
+            source_unit_price: '0.07'
+            source_vat_basis: exclusive
+            unit_price: '0.0840'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 5000
+            minimum: 5000
+            source_text: Buy 5000 + Save 90% Each £0.05 £0.49
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.5880'
+          total_price_10: '1.6800'
+          total_price_100: '10.8000'
+          total_price_1000: '84.0000'
+          total_price_10000: '600.0000'
+          unit_price_1: '0.5880'
+          unit_price_10: '0.1680'
+          unit_price_100: '0.1080'
+          unit_price_1000: '0.0840'
+          unit_price_10000: '0.0600'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+        dibolt:
+          accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+          captured_at: '2026-10-13T23:19:46.814992+00:00'
+          currency: GBP
+          html_sha256: 7f491ff03821bdf46d5c7e43602a21b84250936eca428764d0e44a84234b3c33
+          name: M2.5 x 20mm Socket Cap Screw High Tensile Grade 12.9 Self Colour ,
+            DIN 912
+          packages: '[]'
+          parsed_at: '2026-10-18T09:02:46.758100+00:00'
+          parser_version: dibolt-1.3-missing-price-review
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept the precision of rounded displayed per-100 prices."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          specifications: 'Thread Size: M2.5 (2.5mm); Length (L): 20mm; Head Diameter
+            (D): 4.5mm; Hexagon Depth (P): 1.1mm; Material: High Tensile (Grade 12.9);
+            Finish: Self Colour; Head Length (H): 2.5mm; Screw Thread Pitch: 0.45mm;
+            Socket Size (J): 2mm; Manufacturing Standard: 912; Material Specification:
+            High Tensile (Grade 12.9); Fine or Coarse?: Coarse; Fully Threaded: Yes'
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: dibolt
+          supplier_id: 10161.025.020
+          supplier_part_number: 10161.025.020
+          supplier_website: https://dibolt.co.uk/products/m2-5-x-20mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
+          tiers:
+          - maximum: 199
+            minimum: 1
+            source_text: 1 - 199 £36.00 Per 100 Units
+            source_unit_price: '0.36'
+            source_vat_basis: exclusive
+            unit_price: '0.4320'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 200
+            source_text: 200 - 999 £34.20 Per 100 Units
+            source_unit_price: '0.342'
+            source_vat_basis: exclusive
+            unit_price: '0.41040'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 1000
+            source_text: 1,000+ £32.40 Per 100 Units
+            source_unit_price: '0.324'
+            source_vat_basis: exclusive
+            unit_price: '0.38880'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.4320'
+          total_price_10: '4.3200'
+          total_price_100: '43.2000'
+          total_price_1000: '388.80000'
+          total_price_10000: '3888.00000'
+          unit_price_1: '0.4320'
+          unit_price_10: '0.4320'
+          unit_price_100: '0.4320'
+          unit_price_1000: '0.38880'
+          unit_price_10000: '0.38880'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Dibolt per-100 displayed prices are rounded; derived totals use captured
+            display precision
+        orbitalfasteners:
+          accepted_warnings: '[]'
+          box_quantity: '200'
+          captured_at: '2026-10-12T13:56:26.069451+00:00'
+          catalogue_page: ''
+          currency: GBP
+          description: ''
+          html_sha256: 4ba2ea05156adb73e5161f5498928d31e7b0b9b0941d1c869b9552ec39f221f8
+          name: M2.5 x 20 Socket Cap Screw, High Tensile Grade 12.9 Self Colour, DIN
+            912
+          parsed_at: '2026-10-18T08:49:29.910547+00:00'
+          parser_version: 1.2-review-policy
+          review_policy: ''
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: inclusive
+          status: ok
+          stock_as_of: 9th October 2026 10:01pm More Info
+          stock_quantity: '4446'
+          supplier: orbitalfasteners
+          supplier_id: '1890610'
+          supplier_part_number: '1890610'
+          supplier_website: https://www.orbitalfasteners.co.uk/products/m2-5x20-socket-cap-hd-
+          tiers:
+          - maximum: 199
+            minimum: 1
+            source_text: 1 - 199 £0.432 Inc. VAT £43.20 Inc. VAT
+            source_unit_price: '0.432'
+            source_vat_basis: inclusive
+            unit_price: '0.432'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 200
+            source_text: 200 - 999 £0.324 Inc. VAT £32.40 Inc. VAT
+            source_unit_price: '0.324'
+            source_vat_basis: inclusive
+            unit_price: '0.324'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 1000
+            source_text: 1000 + £0.27 Inc. VAT £27.00 Inc. VAT
+            source_unit_price: '0.27'
+            source_vat_basis: inclusive
+            unit_price: '0.27'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.432'
+          total_price_10: '4.320'
+          total_price_100: '43.200'
+          total_price_1000: '270.00'
+          total_price_10000: '2700.00'
+          unit_price_1: '0.432'
+          unit_price_10: '0.432'
+          unit_price_100: '0.432'
+          unit_price_1000: '0.27'
+          unit_price_10000: '0.27'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings: []
+      svg_details:
+        diameter_mm: 2.5
+        drive_style: hex_head
+        drive_symbol_gap_mm: 1.5
+        head_diameter_mm: 4.25
+        head_rim_mm: 0.1875
+        length_mm: 20.0
+        screw_style: socket_cap
+        socket_depth_mm: 0.8125
+        socket_width_mm: 1.625
+        stylesheet: project_bolt
+        svg_name: screw_diagrams
+        thread_pitch_mm: 0.45
+        variants:
+          plain: diagram_plain.svg
+          solid: diagram_solid.svg
+          threaded: diagram_threaded.svg
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: screw
+      taxonomy_3: socket_cap
+      taxonomy_4: hex_head
+      taxonomy_5: black
+      taxonomy_6: m2_5_diameter
+      taxonomy_7: 20_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      thread_size: m2_5
+      three_d_model_details:
+        checked_on: '2026-10-11'
+        commercial_lengths_mm: []
+        coordinate_system:
+          axis: +Z towards head
+          glb_units: metres
+          glb_up_axis: Y
+          head_top_z_mm: 22.5
+          length_convention: under_head
+          origin: tip centre
+          stl_units: mm
+        dimension_status: standard_dimensions
+        dimensional_specification: Hexagon socket head cap screws
+        family: socket_cap
+        generation_status: ready
+        generator: parametric_screw
+        length_status: standard_length
+        material:
+          base_colour_srgb:
+          - 0.205
+          - 0.218
+          - 0.235
+          coat_roughness: 0.28
+          coat_weight: 0.08
+          metallic: 0.8
+          microtexture_height_um: 0.8
+          microtexture_spacing_mm: 0.025
+          name: Black oxide steel
+          note: Visual finish approximation; catalogue specifies colour only.
+          roughness: 0.31
+          roughness_variation: 0.045
+        model_formats:
+        - stl
+        - glb
+        modelling_choices:
+          catalogue_length: Unlisted lengths use the sourced size profile at the catalogue
+            length and are explicitly marked as extensions.
+          certification: Nominal catalogue geometry; not manufacturing certification.
+          display: Smooth nominal thread envelope with the same head and recessed
+            drive.
+          edges: Permitted 45 degree edge chamfers, selected small values; circular
+            countersink at socket mouth.
+          head: Plain cylindrical head; no knurling or unidentified manufacturer/property-class
+            stamps.
+          markings: Unidentified manufacturer and property-class stamps omitted.
+          runout: One-pitch taper; incomplete thread remains within 2P.
+          socket: Across-flats midpoint of ISO limits; minimum penetration, permissible
+            flat bottom.
+          thread: Nominal right-hand external metric profile; 60 degree flanks, H/6
+            rounded root; no ISO 965 tolerance offsets.
+          thread_coverage: ISO shank/grip table selects partial lengths; full-thread
+            commercial alternatives can be selected with thread_coverage=full.
+          tip: Selected 45 degree chamfer of P/2.
+        output_folder: three_d_model
+        parameters:
+          diameter_mm: 2.5
+          drive_style: hex_head
+          finish: black
+          handedness: right
+          head_diameter_mm: 4.5
+          head_edge_chamfer_mm: 0.125
+          head_height_mm: 2.5
+          head_style: cylindrical
+          head_top_z_mm: 22.5
+          hex_key_mm: 2.0
+          length_convention: under_head
+          length_mm: 20.0
+          overall_length_mm: 22.5
+          partial_thread_from_length_mm: 25
+          pitch_mm: 0.45
+          socket_across_flats_mm: 2.05
+          socket_depth_mm: 1.1
+          standard: ISO 4762:2004
+          thread_coverage: standard_reference
+          thread_flank_angle_deg: 60.0
+          thread_length_reference_mm: 17
+          thread_minor_diameter_mm: 1.9479088050874203
+          thread_pitch_diameter_mm: 2.2077164262227518
+          thread_root_radius_mm: 0.06495190528383289
+          thread_starts: 1
+          tip_chamfer_mm: 0.225
+          underhead_fillet_mm: 0.1
+        priority: 1
+        renders:
+          high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+          low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+          product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+          product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+        schema_version: 1
+        sources:
+        - title: ISO 4762:2004, Figure 1 and Table 1, pages 2–5
+          url: https://cdn.standards.iteh.ai/samples/34460/06335046afaf46fb8e84d91a3eda001d/ISO-4762-2004.pdf
+          use: Plain head dk, k, s limits, minimum t/r, b, shank/grip table and standard
+            length combinations.
+        - title: ISO 4762 scope and current edition
+          url: https://www.iso.org/standard/34460.html
+          use: Coarse metric M1.6–M64; M2 and M2.5 are within scope.
+        - title: Bossard BN 2052 fully threaded DIN 912 / ISO 4762 screws
+          url: https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-head-cap-screws-fully-threaded/p/2052/
+          use: Fully threaded commercial alternative; catalogue does not specify which
+            threading option was purchased.
+        standard: ISO 4762:2004
+        standard_lengths_mm:
+        - 3
+        - 4
+        - 5
+        - 6
+        - 8
+        - 10
+        - 12
+        - 16
+        - 20
+        - 25
+        standard_limits:
+          head_diameter_mm:
+          - 4.32
+          - 4.5
+          socket_across_flats_mm:
+          - 2.02
+          - 2.08
+          socket_depth_min_mm: 1.1
+        studio:
+          adaptive_threshold: 0.015
+          denoise: true
+          device: auto
+          engine: cycles
+          exposure: 0.0
+          floor_colour_srgb:
+          - 0.93
+          - 0.935
+          - 0.94
+          floor_roughness: 0.55
+          framing_margin: 0.13
+          high_samples: 160
+          lights:
+          - colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+          - colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+          - colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+          low_samples: 48
+          poses:
+            isometric:
+              camera_eye:
+              - 1
+              - -1
+              - 1
+              orientation: tip down, head up
+              projection: orthographic
+            product:
+              camera_eye:
+              - -6
+              - -10
+              - 6
+              orientation: lying on side, head to left
+              projection: orthographic
+              support: Head rim and threaded shaft rest on ground; solve tilt from
+                mesh.
+              yaw_degrees: -12.0
+          seed: 7991
+          view_transform: AgX
+          world_colour:
+          - 0.78
+          - 0.82
+          - 0.9
+          world_strength: 0.35
+        units: mm
+        variants:
+          display:
+            angular_segments: 32
+            fillet_segments: 4
+            samples_per_pitch: 1
+          full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+        views:
+        - isometric
+        - front
+        - back
+        - left
+        - right
+        - top
+        - bottom
+      url_chat: https://chatgpt.com/c/69f5abf7-4118-83eb-b089-545264d0fd88
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_2:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      color_band_project_bolt_1: blue
+      color_band_project_bolt_1_string: 20 mm length
+      color_band_project_bolt_2: red
+      color_band_project_bolt_2_string: m2 5
+      color_band_project_bolt_3: orange
+      color_band_project_bolt_3_string: socket cap
+      color_band_string_project_bolt: colour_band_orange_red_blue
+      color_band_taxonomy_3: blue
+      color_band_taxonomy_6: orange
+      color_band_taxonomy_7: red
+      directory: parts\hardware_screw_socket_cap_hex_head_black_m2_5_diameter_20_mm_length
+      length: 20
+      name: hardware_screw_socket_cap_hex_head_black_m2_5_diameter_20_mm_length
+      name_proper: Hardware Screw Socket Cap Hex Head Black M2 5 Diameter 20 Mm Length
+      name_space: hardware screw socket cap hex head black m2 5 diameter 20 mm length
+      name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M2 5 DIAMETER 20 MM LENGTH
+      oobb_details:
+        drive_style: hex_head
+        length: 20_mm_length
+        oobb_name: screw
+        screw_colour: black
+        screw_style: socket_cap
+        thread_size: m2_5_diameter
+      oomlout_ai_roboclick_1:
+        actions:
+        - command: text_jinja_template
+          convert_to_pdf: false
+          convert_to_png: false
+          dict_data:
+            color_band_project_bolt_1: blue
+            color_band_project_bolt_1_string: 20 mm length
+            color_band_project_bolt_2: red
+            color_band_project_bolt_2_string: m2 5
+            color_band_project_bolt_3: orange
+            color_band_project_bolt_3_string: socket cap
+            color_band_string_project_bolt: colour_band_orange_red_blue
+            color_band_taxonomy_3: blue
+            color_band_taxonomy_6: orange
+            color_band_taxonomy_7: red
+            directory: parts\hardware_screw_socket_cap_hex_head_black_m2_5_diameter_20_mm_length
+            length: 20
+            name: hardware_screw_socket_cap_hex_head_black_m2_5_diameter_20_mm_length
+            name_proper: Hardware Screw Socket Cap Hex Head Black M2 5 Diameter 20
+              Mm Length
+            name_space: hardware screw socket cap hex head black m2 5 diameter 20
+              mm length
+            name_upper: HARDWARE SCREW SOCKET CAP HEX HEAD BLACK M2 5 DIAMETER 20
+              MM LENGTH
+            oobb_details:
+              drive_style: hex_head
+              length: 20_mm_length
+              oobb_name: screw
+              screw_colour: black
+              screw_style: socket_cap
+              thread_size: m2_5_diameter
+            screw_style: screw_socket_cap
+            supplier_data:
+              boltbase:
+                accepted_warnings: '["Final Bolt Base threshold has no verified upper
+                  bound; extrapolation withheld"]'
+                captured_at: '2026-10-12T21:22:18.306512+00:00'
+                currency: GBP
+                html_sha256: f4a3bedfb7f752c740c93780e5fa767bdc2612ada13e026be251940d5b00d78d
+                name: M2.5 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
+                packages: '[]'
+                parsed_at: '2026-10-18T08:56:28.705418+00:00'
+                parser_version: boltbase-1.2-review-policy
+                price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
+                  "0.05", "source_text": "Buy 5000 + Save 90% Each £0.05 £0.49", "basis":
+                  "user policy 2026-10-13"}}'
+                review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+                  "statement": "For a withheld 10000-unit price, inherit the highest
+                  available lower-quantity unit price."}'
+                review_warnings: '[]'
+                selected_by_current_filter: true
+                source_vat_basis: exclusive
+                source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user
+                  clarification", "statement": "bolt base prices are ex vat", "confirmed_on":
+                  "2026-10-11"}'
+                specifications: 'Thread Size: M2.5 (2.5mm); Length (Excluding Head):
+                  20mm; M2.5 (2.5mm Thread Diameter) Socket Cap Screws, also known
+                  as Allen Bolts. Manufactured to DIN 912/ ISO 4762 in Self Colour
+                  High Tensile 12.9 Steel. Socket Cap Screws are perfect for applications
+                  where space is limited or where the screw head is installed in a
+                  recess due to the use of an allen key to tighten them. Ideal for
+                  use where there is not enough clearance to use a Hex Head Bolt.
+                  Suitable for applications where high strength is required due to
+                  the high tensile strength. These screws are partially threaded as
+                  standard after a certain length. Please note that these bolts offer
+                  little to no protection from rusting and are more suited for indoor
+                  use or for applications where they are protected from moisture.'
+                status: ok
+                stock_quantity: ''
+                stock_status: ''
+                supplier: boltbase
+                supplier_id: SC12.9CP-2.5X20
+                supplier_part_number: SC12.9CP-2.5X20
+                supplier_website: https://boltbase.com/products/m2-5-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464728191357
+                tiers:
+                - maximum: 1
+                  minimum: 1
+                  source_text: Single Screw Buy 1 For £0.49
+                  source_unit_price: '0.49'
+                  source_vat_basis: exclusive
+                  unit_price: '0.5880'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 4
+                  minimum: 2
+                  source_text: Buy 2 + Save 50% Each £0.25 £0.49
+                  source_unit_price: '0.25'
+                  source_vat_basis: exclusive
+                  unit_price: '0.3000'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 9
+                  minimum: 5
+                  source_text: Buy 5 + Save 69% Each £0.16 £0.49
+                  source_unit_price: '0.16'
+                  source_vat_basis: exclusive
+                  unit_price: '0.1920'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 24
+                  minimum: 10
+                  source_text: Buy 10 + Save 72% Each £0.14 £0.49
+                  source_unit_price: '0.14'
+                  source_vat_basis: exclusive
+                  unit_price: '0.1680'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 49
+                  minimum: 25
+                  source_text: Buy 25 + Save 77% Each £0.12 £0.49
+                  source_unit_price: '0.12'
+                  source_vat_basis: exclusive
+                  unit_price: '0.1440'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 99
+                  minimum: 50
+                  source_text: Buy 50 + Save 81% Each £0.10 £0.49
+                  source_unit_price: '0.10'
+                  source_vat_basis: exclusive
+                  unit_price: '0.1200'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 249
+                  minimum: 100
+                  source_text: Buy 100 + Save 83% Each £0.09 £0.49
+                  source_unit_price: '0.09'
+                  source_vat_basis: exclusive
+                  unit_price: '0.1080'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 499
+                  minimum: 250
+                  source_text: Buy 250 + Save 85% Each £0.08 £0.49
+                  source_unit_price: '0.08'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0960'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 999
+                  minimum: 500
+                  source_text: Buy 500 + Save 86% Each £0.07 £0.49
+                  source_unit_price: '0.07'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0840'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 4999
+                  minimum: 1000
+                  source_text: Buy 1000 + Save 87% Each £0.07 £0.49
+                  source_unit_price: '0.07'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0840'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 5000
+                  minimum: 5000
+                  source_text: Buy 5000 + Save 90% Each £0.05 £0.49
+                  source_unit_price: '0.05'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0600'
+                  valid: true
+                  vat_basis: inclusive
+                total_price_1: '0.5880'
+                total_price_10: '1.6800'
+                total_price_100: '10.8000'
+                total_price_1000: '84.0000'
+                total_price_10000: '600.0000'
+                unit_price_1: '0.5880'
+                unit_price_10: '0.1680'
+                unit_price_100: '0.1080'
+                unit_price_1000: '0.0840'
+                unit_price_10000: '0.0600'
+                vat_basis: inclusive
+                vat_rate: '0.20'
+                vat_rate_checked: '2026-10-11'
+                vat_rate_source: https://www.gov.uk/vat-rates
+                warnings:
+                - Final Bolt Base threshold has no verified upper bound; extrapolation
+                  withheld
+              dibolt:
+                accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                  derived totals use captured display precision"]'
+                captured_at: '2026-10-13T23:19:46.814992+00:00'
+                currency: GBP
+                html_sha256: 7f491ff03821bdf46d5c7e43602a21b84250936eca428764d0e44a84234b3c33
+                name: M2.5 x 20mm Socket Cap Screw High Tensile Grade 12.9 Self Colour
+                  , DIN 912
+                packages: '[]'
+                parsed_at: '2026-10-18T09:02:46.758100+00:00'
+                parser_version: dibolt-1.3-missing-price-review
+                review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+                  "statement": "Accept the precision of rounded displayed per-100
+                  prices."}'
+                review_warnings: '[]'
+                selected_by_current_filter: true
+                source_vat_basis: exclusive
+                specifications: 'Thread Size: M2.5 (2.5mm); Length (L): 20mm; Head
+                  Diameter (D): 4.5mm; Hexagon Depth (P): 1.1mm; Material: High Tensile
+                  (Grade 12.9); Finish: Self Colour; Head Length (H): 2.5mm; Screw
+                  Thread Pitch: 0.45mm; Socket Size (J): 2mm; Manufacturing Standard:
+                  912; Material Specification: High Tensile (Grade 12.9); Fine or
+                  Coarse?: Coarse; Fully Threaded: Yes'
+                status: ok
+                stock_quantity: ''
+                stock_status: ''
+                supplier: dibolt
+                supplier_id: 10161.025.020
+                supplier_part_number: 10161.025.020
+                supplier_website: https://dibolt.co.uk/products/m2-5-x-20mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
+                tiers:
+                - maximum: 199
+                  minimum: 1
+                  source_text: 1 - 199 £36.00 Per 100 Units
+                  source_unit_price: '0.36'
+                  source_vat_basis: exclusive
+                  unit_price: '0.4320'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 999
+                  minimum: 200
+                  source_text: 200 - 999 £34.20 Per 100 Units
+                  source_unit_price: '0.342'
+                  source_vat_basis: exclusive
+                  unit_price: '0.41040'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: null
+                  minimum: 1000
+                  source_text: 1,000+ £32.40 Per 100 Units
+                  source_unit_price: '0.324'
+                  source_vat_basis: exclusive
+                  unit_price: '0.38880'
+                  valid: true
+                  vat_basis: inclusive
+                total_price_1: '0.4320'
+                total_price_10: '4.3200'
+                total_price_100: '43.2000'
+                total_price_1000: '388.80000'
+                total_price_10000: '3888.00000'
+                unit_price_1: '0.4320'
+                unit_price_10: '0.4320'
+                unit_price_100: '0.4320'
+                unit_price_1000: '0.38880'
+                unit_price_10000: '0.38880'
+                vat_basis: inclusive
+                vat_rate: '0.20'
+                vat_rate_checked: '2026-10-11'
+                vat_rate_source: https://www.gov.uk/vat-rates
+                warnings:
+                - Dibolt per-100 displayed prices are rounded; derived totals use
+                  captured display precision
+              orbitalfasteners:
+                accepted_warnings: '[]'
+                box_quantity: '200'
+                captured_at: '2026-10-12T13:56:26.069451+00:00'
+                catalogue_page: ''
+                currency: GBP
+                description: ''
+                html_sha256: 4ba2ea05156adb73e5161f5498928d31e7b0b9b0941d1c869b9552ec39f221f8
+                name: M2.5 x 20 Socket Cap Screw, High Tensile Grade 12.9 Self Colour,
+                  DIN 912
+                parsed_at: '2026-10-18T08:49:29.910547+00:00'
+                parser_version: 1.2-review-policy
+                review_policy: ''
+                review_warnings: '[]'
+                selected_by_current_filter: true
+                source_vat_basis: inclusive
+                status: ok
+                stock_as_of: 9th October 2026 10:01pm More Info
+                stock_quantity: '4446'
+                supplier: orbitalfasteners
+                supplier_id: '1890610'
+                supplier_part_number: '1890610'
+                supplier_website: https://www.orbitalfasteners.co.uk/products/m2-5x20-socket-cap-hd-
+                tiers:
+                - maximum: 199
+                  minimum: 1
+                  source_text: 1 - 199 £0.432 Inc. VAT £43.20 Inc. VAT
+                  source_unit_price: '0.432'
+                  source_vat_basis: inclusive
+                  unit_price: '0.432'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 999
+                  minimum: 200
+                  source_text: 200 - 999 £0.324 Inc. VAT £32.40 Inc. VAT
+                  source_unit_price: '0.324'
+                  source_vat_basis: inclusive
+                  unit_price: '0.324'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: null
+                  minimum: 1000
+                  source_text: 1000 + £0.27 Inc. VAT £27.00 Inc. VAT
+                  source_unit_price: '0.27'
+                  source_vat_basis: inclusive
+                  unit_price: '0.27'
+                  valid: true
+                  vat_basis: inclusive
+                total_price_1: '0.432'
+                total_price_10: '4.320'
+                total_price_100: '43.200'
+                total_price_1000: '270.00'
+                total_price_10000: '2700.00'
+                unit_price_1: '0.432'
+                unit_price_10: '0.432'
+                unit_price_100: '0.432'
+                unit_price_1000: '0.27'
+                unit_price_10000: '0.27'
+                vat_basis: inclusive
+                vat_rate: '0.20'
+                vat_rate_checked: '2026-10-11'
+                vat_rate_source: https://www.gov.uk/vat-rates
+                warnings: []
+            svg_details:
+              diameter_mm: 2.5
+              drive_style: hex_head
+              drive_symbol_gap_mm: 1.5
+              head_diameter_mm: 4.25
+              head_rim_mm: 0.1875
+              length_mm: 20.0
+              screw_style: socket_cap
+              socket_depth_mm: 0.8125
+              socket_width_mm: 1.625
+              stylesheet: project_bolt
+              svg_name: screw_diagrams
+              thread_pitch_mm: 0.45
+              variants:
+                plain: diagram_plain.svg
+                solid: diagram_solid.svg
+                threaded: diagram_threaded.svg
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: socket_cap
+            taxonomy_4: hex_head
+            taxonomy_5: black
+            taxonomy_6: m2_5_diameter
+            taxonomy_7: 20_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            thread_size: m2_5
+            three_d_model_details:
+              checked_on: '2026-10-11'
+              commercial_lengths_mm: []
+              coordinate_system:
+                axis: +Z towards head
+                glb_units: metres
+                glb_up_axis: Y
+                head_top_z_mm: 22.5
+                length_convention: under_head
+                origin: tip centre
+                stl_units: mm
+              dimension_status: standard_dimensions
+              dimensional_specification: Hexagon socket head cap screws
+              family: socket_cap
+              generation_status: ready
+              generator: parametric_screw
+              length_status: standard_length
+              material:
+                base_colour_srgb:
+                - 0.205
+                - 0.218
+                - 0.235
+                coat_roughness: 0.28
+                coat_weight: 0.08
+                metallic: 0.8
+                microtexture_height_um: 0.8
+                microtexture_spacing_mm: 0.025
+                name: Black oxide steel
+                note: Visual finish approximation; catalogue specifies colour only.
+                roughness: 0.31
+                roughness_variation: 0.045
+              model_formats:
+              - stl
+              - glb
+              modelling_choices:
+                catalogue_length: Unlisted lengths use the sourced size profile at
+                  the catalogue length and are explicitly marked as extensions.
+                certification: Nominal catalogue geometry; not manufacturing certification.
+                display: Smooth nominal thread envelope with the same head and recessed
+                  drive.
+                edges: Permitted 45 degree edge chamfers, selected small values; circular
+                  countersink at socket mouth.
+                head: Plain cylindrical head; no knurling or unidentified manufacturer/property-class
+                  stamps.
+                markings: Unidentified manufacturer and property-class stamps omitted.
+                runout: One-pitch taper; incomplete thread remains within 2P.
+                socket: Across-flats midpoint of ISO limits; minimum penetration,
+                  permissible flat bottom.
+                thread: Nominal right-hand external metric profile; 60 degree flanks,
+                  H/6 rounded root; no ISO 965 tolerance offsets.
+                thread_coverage: ISO shank/grip table selects partial lengths; full-thread
+                  commercial alternatives can be selected with thread_coverage=full.
+                tip: Selected 45 degree chamfer of P/2.
+              output_folder: three_d_model
+              parameters:
+                diameter_mm: 2.5
+                drive_style: hex_head
+                finish: black
+                handedness: right
+                head_diameter_mm: 4.5
+                head_edge_chamfer_mm: 0.125
+                head_height_mm: 2.5
+                head_style: cylindrical
+                head_top_z_mm: 22.5
+                hex_key_mm: 2.0
+                length_convention: under_head
+                length_mm: 20.0
+                overall_length_mm: 22.5
+                partial_thread_from_length_mm: 25
+                pitch_mm: 0.45
+                socket_across_flats_mm: 2.05
+                socket_depth_mm: 1.1
+                standard: ISO 4762:2004
+                thread_coverage: standard_reference
+                thread_flank_angle_deg: 60.0
+                thread_length_reference_mm: 17
+                thread_minor_diameter_mm: 1.9479088050874203
+                thread_pitch_diameter_mm: 2.2077164262227518
+                thread_root_radius_mm: 0.06495190528383289
+                thread_starts: 1
+                tip_chamfer_mm: 0.225
+                underhead_fillet_mm: 0.1
+              priority: 1
+              renders:
+                high:
+                  file: render_high.png
+                  pixels: 2048
+                  variant: full
+                  view: isometric
+                low:
+                  file: render_low.png
+                  pixels: 512
+                  variant: display
+                  view: isometric
+                product_high:
+                  file: render_product_high.png
+                  pixels: 2048
+                  variant: full
+                  view: product
+                product_low:
+                  file: render_product_low.png
+                  pixels: 512
+                  variant: display
+                  view: product
+              schema_version: 1
+              sources:
+              - title: ISO 4762:2004, Figure 1 and Table 1, pages 2–5
+                url: https://cdn.standards.iteh.ai/samples/34460/06335046afaf46fb8e84d91a3eda001d/ISO-4762-2004.pdf
+                use: Plain head dk, k, s limits, minimum t/r, b, shank/grip table
+                  and standard length combinations.
+              - title: ISO 4762 scope and current edition
+                url: https://www.iso.org/standard/34460.html
+                use: Coarse metric M1.6–M64; M2 and M2.5 are within scope.
+              - title: Bossard BN 2052 fully threaded DIN 912 / ISO 4762 screws
+                url: https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-head-cap-screws-fully-threaded/p/2052/
+                use: Fully threaded commercial alternative; catalogue does not specify
+                  which threading option was purchased.
+              standard: ISO 4762:2004
+              standard_lengths_mm:
+              - 3
+              - 4
+              - 5
+              - 6
+              - 8
+              - 10
+              - 12
+              - 16
+              - 20
+              - 25
+              standard_limits:
+                head_diameter_mm:
+                - 4.32
+                - 4.5
+                socket_across_flats_mm:
+                - 2.02
+                - 2.08
+                socket_depth_min_mm: 1.1
+              studio:
+                adaptive_threshold: 0.015
+                denoise: true
+                device: auto
+                engine: cycles
+                exposure: 0.0
+                floor_colour_srgb:
+                - 0.93
+                - 0.935
+                - 0.94
+                floor_roughness: 0.55
+                framing_margin: 0.13
+                high_samples: 160
+                lights:
+                - colour:
+                  - 1.0
+                  - 0.96
+                  - 0.9
+                  height: 5.0
+                  name: Key softbox
+                  position:
+                  - -3
+                  - -4
+                  - 6
+                  power: 650.0
+                  width: 4.0
+                - colour:
+                  - 0.9
+                  - 0.95
+                  - 1.0
+                  height: 4.0
+                  name: Fill softbox
+                  position:
+                  - 4
+                  - -1
+                  - 3
+                  power: 330.0
+                  width: 3.0
+                - colour:
+                  - 1.0
+                  - 1.0
+                  - 1.0
+                  height: 5.0
+                  name: Rim strip
+                  position:
+                  - 1
+                  - 4
+                  - 4
+                  power: 850.0
+                  width: 1.2
+                low_samples: 48
+                poses:
+                  isometric:
+                    camera_eye:
+                    - 1
+                    - -1
+                    - 1
+                    orientation: tip down, head up
+                    projection: orthographic
+                  product:
+                    camera_eye:
+                    - -6
+                    - -10
+                    - 6
+                    orientation: lying on side, head to left
+                    projection: orthographic
+                    support: Head rim and threaded shaft rest on ground; solve tilt
+                      from mesh.
+                    yaw_degrees: -12.0
+                seed: 7991
+                view_transform: AgX
+                world_colour:
+                - 0.78
+                - 0.82
+                - 0.9
+                world_strength: 0.35
+              units: mm
+              variants:
+                display:
+                  angular_segments: 32
+                  fillet_segments: 4
+                  samples_per_pitch: 1
+                full:
+                  angular_segments: 96
+                  fillet_segments: 12
+                  samples_per_pitch: 32
+              views:
+              - isometric
+              - front
+              - back
+              - left
+              - right
+              - top
+              - bottom
+            url_chat: https://chatgpt.com/c/69f5abf7-4118-83eb-b089-545264d0fd88
+          dict_data_files: {}
+          dict_data_files_exists: {}
+          file_output: label_oomp.svg
+          file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+          search_and_replace: []
+        file_test: label_oomp.pdf
+        retries_until_complete: 0
+      screw_style: screw_socket_cap
+      supplier_data:
+        boltbase:
+          accepted_warnings: '["Final Bolt Base threshold has no verified upper bound;
+            extrapolation withheld"]'
+          captured_at: '2026-10-12T21:22:18.306512+00:00'
+          currency: GBP
+          html_sha256: f4a3bedfb7f752c740c93780e5fa767bdc2612ada13e026be251940d5b00d78d
+          name: M2.5 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
+          packages: '[]'
+          parsed_at: '2026-10-18T08:56:28.705418+00:00'
+          parser_version: boltbase-1.2-review-policy
+          price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
+            "0.05", "source_text": "Buy 5000 + Save 90% Each £0.05 £0.49", "basis":
+            "user policy 2026-10-13"}}'
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "For a withheld 10000-unit price, inherit the highest available
+            lower-quantity unit price."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+          specifications: 'Thread Size: M2.5 (2.5mm); Length (Excluding Head): 20mm;
+            M2.5 (2.5mm Thread Diameter) Socket Cap Screws, also known as Allen Bolts.
+            Manufactured to DIN 912/ ISO 4762 in Self Colour High Tensile 12.9 Steel.
+            Socket Cap Screws are perfect for applications where space is limited
+            or where the screw head is installed in a recess due to the use of an
+            allen key to tighten them. Ideal for use where there is not enough clearance
+            to use a Hex Head Bolt. Suitable for applications where high strength
+            is required due to the high tensile strength. These screws are partially
+            threaded as standard after a certain length. Please note that these bolts
+            offer little to no protection from rusting and are more suited for indoor
+            use or for applications where they are protected from moisture.'
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: boltbase
+          supplier_id: SC12.9CP-2.5X20
+          supplier_part_number: SC12.9CP-2.5X20
+          supplier_website: https://boltbase.com/products/m2-5-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464728191357
+          tiers:
+          - maximum: 1
+            minimum: 1
+            source_text: Single Screw Buy 1 For £0.49
+            source_unit_price: '0.49'
+            source_vat_basis: exclusive
+            unit_price: '0.5880'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4
+            minimum: 2
+            source_text: Buy 2 + Save 50% Each £0.25 £0.49
+            source_unit_price: '0.25'
+            source_vat_basis: exclusive
+            unit_price: '0.3000'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 9
+            minimum: 5
+            source_text: Buy 5 + Save 69% Each £0.16 £0.49
+            source_unit_price: '0.16'
+            source_vat_basis: exclusive
+            unit_price: '0.1920'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 24
+            minimum: 10
+            source_text: Buy 10 + Save 72% Each £0.14 £0.49
+            source_unit_price: '0.14'
+            source_vat_basis: exclusive
+            unit_price: '0.1680'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 49
+            minimum: 25
+            source_text: Buy 25 + Save 77% Each £0.12 £0.49
+            source_unit_price: '0.12'
+            source_vat_basis: exclusive
+            unit_price: '0.1440'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 99
+            minimum: 50
+            source_text: Buy 50 + Save 81% Each £0.10 £0.49
+            source_unit_price: '0.10'
+            source_vat_basis: exclusive
+            unit_price: '0.1200'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 249
+            minimum: 100
+            source_text: Buy 100 + Save 83% Each £0.09 £0.49
+            source_unit_price: '0.09'
+            source_vat_basis: exclusive
+            unit_price: '0.1080'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 499
+            minimum: 250
+            source_text: Buy 250 + Save 85% Each £0.08 £0.49
+            source_unit_price: '0.08'
+            source_vat_basis: exclusive
+            unit_price: '0.0960'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 500
+            source_text: Buy 500 + Save 86% Each £0.07 £0.49
+            source_unit_price: '0.07'
+            source_vat_basis: exclusive
+            unit_price: '0.0840'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4999
+            minimum: 1000
+            source_text: Buy 1000 + Save 87% Each £0.07 £0.49
+            source_unit_price: '0.07'
+            source_vat_basis: exclusive
+            unit_price: '0.0840'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 5000
+            minimum: 5000
+            source_text: Buy 5000 + Save 90% Each £0.05 £0.49
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.5880'
+          total_price_10: '1.6800'
+          total_price_100: '10.8000'
+          total_price_1000: '84.0000'
+          total_price_10000: '600.0000'
+          unit_price_1: '0.5880'
+          unit_price_10: '0.1680'
+          unit_price_100: '0.1080'
+          unit_price_1000: '0.0840'
+          unit_price_10000: '0.0600'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+        dibolt:
+          accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+          captured_at: '2026-10-13T23:19:46.814992+00:00'
+          currency: GBP
+          html_sha256: 7f491ff03821bdf46d5c7e43602a21b84250936eca428764d0e44a84234b3c33
+          name: M2.5 x 20mm Socket Cap Screw High Tensile Grade 12.9 Self Colour ,
+            DIN 912
+          packages: '[]'
+          parsed_at: '2026-10-18T09:02:46.758100+00:00'
+          parser_version: dibolt-1.3-missing-price-review
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept the precision of rounded displayed per-100 prices."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          specifications: 'Thread Size: M2.5 (2.5mm); Length (L): 20mm; Head Diameter
+            (D): 4.5mm; Hexagon Depth (P): 1.1mm; Material: High Tensile (Grade 12.9);
+            Finish: Self Colour; Head Length (H): 2.5mm; Screw Thread Pitch: 0.45mm;
+            Socket Size (J): 2mm; Manufacturing Standard: 912; Material Specification:
+            High Tensile (Grade 12.9); Fine or Coarse?: Coarse; Fully Threaded: Yes'
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: dibolt
+          supplier_id: 10161.025.020
+          supplier_part_number: 10161.025.020
+          supplier_website: https://dibolt.co.uk/products/m2-5-x-20mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
+          tiers:
+          - maximum: 199
+            minimum: 1
+            source_text: 1 - 199 £36.00 Per 100 Units
+            source_unit_price: '0.36'
+            source_vat_basis: exclusive
+            unit_price: '0.4320'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 200
+            source_text: 200 - 999 £34.20 Per 100 Units
+            source_unit_price: '0.342'
+            source_vat_basis: exclusive
+            unit_price: '0.41040'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 1000
+            source_text: 1,000+ £32.40 Per 100 Units
+            source_unit_price: '0.324'
+            source_vat_basis: exclusive
+            unit_price: '0.38880'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.4320'
+          total_price_10: '4.3200'
+          total_price_100: '43.2000'
+          total_price_1000: '388.80000'
+          total_price_10000: '3888.00000'
+          unit_price_1: '0.4320'
+          unit_price_10: '0.4320'
+          unit_price_100: '0.4320'
+          unit_price_1000: '0.38880'
+          unit_price_10000: '0.38880'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Dibolt per-100 displayed prices are rounded; derived totals use captured
+            display precision
+        orbitalfasteners:
+          accepted_warnings: '[]'
+          box_quantity: '200'
+          captured_at: '2026-10-12T13:56:26.069451+00:00'
+          catalogue_page: ''
+          currency: GBP
+          description: ''
+          html_sha256: 4ba2ea05156adb73e5161f5498928d31e7b0b9b0941d1c869b9552ec39f221f8
+          name: M2.5 x 20 Socket Cap Screw, High Tensile Grade 12.9 Self Colour, DIN
+            912
+          parsed_at: '2026-10-18T08:49:29.910547+00:00'
+          parser_version: 1.2-review-policy
+          review_policy: ''
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: inclusive
+          status: ok
+          stock_as_of: 9th October 2026 10:01pm More Info
+          stock_quantity: '4446'
+          supplier: orbitalfasteners
+          supplier_id: '1890610'
+          supplier_part_number: '1890610'
+          supplier_website: https://www.orbitalfasteners.co.uk/products/m2-5x20-socket-cap-hd-
+          tiers:
+          - maximum: 199
+            minimum: 1
+            source_text: 1 - 199 £0.432 Inc. VAT £43.20 Inc. VAT
+            source_unit_price: '0.432'
+            source_vat_basis: inclusive
+            unit_price: '0.432'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 200
+            source_text: 200 - 999 £0.324 Inc. VAT £32.40 Inc. VAT
+            source_unit_price: '0.324'
+            source_vat_basis: inclusive
+            unit_price: '0.324'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 1000
+            source_text: 1000 + £0.27 Inc. VAT £27.00 Inc. VAT
+            source_unit_price: '0.27'
+            source_vat_basis: inclusive
+            unit_price: '0.27'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.432'
+          total_price_10: '4.320'
+          total_price_100: '43.200'
+          total_price_1000: '270.00'
+          total_price_10000: '2700.00'
+          unit_price_1: '0.432'
+          unit_price_10: '0.432'
+          unit_price_100: '0.432'
+          unit_price_1000: '0.27'
+          unit_price_10000: '0.27'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings: []
+      svg_details:
+        diameter_mm: 2.5
+        drive_style: hex_head
+        drive_symbol_gap_mm: 1.5
+        head_diameter_mm: 4.25
+        head_rim_mm: 0.1875
+        length_mm: 20.0
+        screw_style: socket_cap
+        socket_depth_mm: 0.8125
+        socket_width_mm: 1.625
+        stylesheet: project_bolt
+        svg_name: screw_diagrams
+        thread_pitch_mm: 0.45
+        variants:
+          plain: diagram_plain.svg
+          solid: diagram_solid.svg
+          threaded: diagram_threaded.svg
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: screw
+      taxonomy_3: socket_cap
+      taxonomy_4: hex_head
+      taxonomy_5: black
+      taxonomy_6: m2_5_diameter
+      taxonomy_7: 20_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      thread_size: m2_5
+      three_d_model_details:
+        checked_on: '2026-10-11'
+        commercial_lengths_mm: []
+        coordinate_system:
+          axis: +Z towards head
+          glb_units: metres
+          glb_up_axis: Y
+          head_top_z_mm: 22.5
+          length_convention: under_head
+          origin: tip centre
+          stl_units: mm
+        dimension_status: standard_dimensions
+        dimensional_specification: Hexagon socket head cap screws
+        family: socket_cap
+        generation_status: ready
+        generator: parametric_screw
+        length_status: standard_length
+        material:
+          base_colour_srgb:
+          - 0.205
+          - 0.218
+          - 0.235
+          coat_roughness: 0.28
+          coat_weight: 0.08
+          metallic: 0.8
+          microtexture_height_um: 0.8
+          microtexture_spacing_mm: 0.025
+          name: Black oxide steel
+          note: Visual finish approximation; catalogue specifies colour only.
+          roughness: 0.31
+          roughness_variation: 0.045
+        model_formats:
+        - stl
+        - glb
+        modelling_choices:
+          catalogue_length: Unlisted lengths use the sourced size profile at the catalogue
+            length and are explicitly marked as extensions.
+          certification: Nominal catalogue geometry; not manufacturing certification.
+          display: Smooth nominal thread envelope with the same head and recessed
+            drive.
+          edges: Permitted 45 degree edge chamfers, selected small values; circular
+            countersink at socket mouth.
+          head: Plain cylindrical head; no knurling or unidentified manufacturer/property-class
+            stamps.
+          markings: Unidentified manufacturer and property-class stamps omitted.
+          runout: One-pitch taper; incomplete thread remains within 2P.
+          socket: Across-flats midpoint of ISO limits; minimum penetration, permissible
+            flat bottom.
+          thread: Nominal right-hand external metric profile; 60 degree flanks, H/6
+            rounded root; no ISO 965 tolerance offsets.
+          thread_coverage: ISO shank/grip table selects partial lengths; full-thread
+            commercial alternatives can be selected with thread_coverage=full.
+          tip: Selected 45 degree chamfer of P/2.
+        output_folder: three_d_model
+        parameters:
+          diameter_mm: 2.5
+          drive_style: hex_head
+          finish: black
+          handedness: right
+          head_diameter_mm: 4.5
+          head_edge_chamfer_mm: 0.125
+          head_height_mm: 2.5
+          head_style: cylindrical
+          head_top_z_mm: 22.5
+          hex_key_mm: 2.0
+          length_convention: under_head
+          length_mm: 20.0
+          overall_length_mm: 22.5
+          partial_thread_from_length_mm: 25
+          pitch_mm: 0.45
+          socket_across_flats_mm: 2.05
+          socket_depth_mm: 1.1
+          standard: ISO 4762:2004
+          thread_coverage: standard_reference
+          thread_flank_angle_deg: 60.0
+          thread_length_reference_mm: 17
+          thread_minor_diameter_mm: 1.9479088050874203
+          thread_pitch_diameter_mm: 2.2077164262227518
+          thread_root_radius_mm: 0.06495190528383289
+          thread_starts: 1
+          tip_chamfer_mm: 0.225
+          underhead_fillet_mm: 0.1
+        priority: 1
+        renders:
+          high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+          low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+          product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+          product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+        schema_version: 1
+        sources:
+        - title: ISO 4762:2004, Figure 1 and Table 1, pages 2–5
+          url: https://cdn.standards.iteh.ai/samples/34460/06335046afaf46fb8e84d91a3eda001d/ISO-4762-2004.pdf
+          use: Plain head dk, k, s limits, minimum t/r, b, shank/grip table and standard
+            length combinations.
+        - title: ISO 4762 scope and current edition
+          url: https://www.iso.org/standard/34460.html
+          use: Coarse metric M1.6–M64; M2 and M2.5 are within scope.
+        - title: Bossard BN 2052 fully threaded DIN 912 / ISO 4762 screws
+          url: https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-head-cap-screws-fully-threaded/p/2052/
+          use: Fully threaded commercial alternative; catalogue does not specify which
+            threading option was purchased.
+        standard: ISO 4762:2004
+        standard_lengths_mm:
+        - 3
+        - 4
+        - 5
+        - 6
+        - 8
+        - 10
+        - 12
+        - 16
+        - 20
+        - 25
+        standard_limits:
+          head_diameter_mm:
+          - 4.32
+          - 4.5
+          socket_across_flats_mm:
+          - 2.02
+          - 2.08
+          socket_depth_min_mm: 1.1
+        studio:
+          adaptive_threshold: 0.015
+          denoise: true
+          device: auto
+          engine: cycles
+          exposure: 0.0
+          floor_colour_srgb:
+          - 0.93
+          - 0.935
+          - 0.94
+          floor_roughness: 0.55
+          framing_margin: 0.13
+          high_samples: 160
+          lights:
+          - colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+          - colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+          - colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+          low_samples: 48
+          poses:
+            isometric:
+              camera_eye:
+              - 1
+              - -1
+              - 1
+              orientation: tip down, head up
+              projection: orthographic
+            product:
+              camera_eye:
+              - -6
+              - -10
+              - 6
+              orientation: lying on side, head to left
+              projection: orthographic
+              support: Head rim and threaded shaft rest on ground; solve tilt from
+                mesh.
+              yaw_degrees: -12.0
+          seed: 7991
+          view_transform: AgX
+          world_colour:
+          - 0.78
+          - 0.82
+          - 0.9
+          world_strength: 0.35
+        units: mm
+        variants:
+          display:
+            angular_segments: 32
+            fillet_segments: 4
+            samples_per_pitch: 1
+          full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+        views:
+        - isometric
+        - front
+        - back
+        - left
+        - right
+        - top
+        - bottom
+      url_chat: https://chatgpt.com/c/69f5abf7-4118-83eb-b089-545264d0fd88
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_bolt_image.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_bolt_image.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_3:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    description: label_drawer
+    dict_data:
+      label_drawer: *id001
+    file_output: label_drawer.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+  file_test: ''
+oomp_key: oomp_hardware_screw_socket_cap_hex_head_black_m2_5_diameter_20_mm_length
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+screw_style: screw_socket_cap
+supplier_data:
+  boltbase:
+    accepted_warnings: '["Final Bolt Base threshold has no verified upper bound; extrapolation
+      withheld"]'
+    captured_at: '2026-10-12T21:22:18.306512+00:00'
+    currency: GBP
+    html_sha256: f4a3bedfb7f752c740c93780e5fa767bdc2612ada13e026be251940d5b00d78d
+    name: M2.5 Self Colour 12.9 High Tensile Socket Cap Screws DIN 912
+    packages: '[]'
+    parsed_at: '2026-10-18T08:56:28.705418+00:00'
+    parser_version: boltbase-1.2-review-policy
+    price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price": "0.05",
+      "source_text": "Buy 5000 + Save 90% Each £0.05 £0.49", "basis": "user policy
+      2026-10-13"}}'
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "For a withheld 10000-unit price, inherit the highest available
+      lower-quantity unit price."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+    specifications: 'Thread Size: M2.5 (2.5mm); Length (Excluding Head): 20mm; M2.5
+      (2.5mm Thread Diameter) Socket Cap Screws, also known as Allen Bolts. Manufactured
+      to DIN 912/ ISO 4762 in Self Colour High Tensile 12.9 Steel. Socket Cap Screws
+      are perfect for applications where space is limited or where the screw head
+      is installed in a recess due to the use of an allen key to tighten them. Ideal
+      for use where there is not enough clearance to use a Hex Head Bolt. Suitable
+      for applications where high strength is required due to the high tensile strength.
+      These screws are partially threaded as standard after a certain length. Please
+      note that these bolts offer little to no protection from rusting and are more
+      suited for indoor use or for applications where they are protected from moisture.'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: boltbase
+    supplier_id: SC12.9CP-2.5X20
+    supplier_part_number: SC12.9CP-2.5X20
+    supplier_website: https://boltbase.com/products/m2-5-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464728191357
+    tiers:
+    - maximum: 1
+      minimum: 1
+      source_text: Single Screw Buy 1 For £0.49
+      source_unit_price: '0.49'
+      source_vat_basis: exclusive
+      unit_price: '0.5880'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4
+      minimum: 2
+      source_text: Buy 2 + Save 50% Each £0.25 £0.49
+      source_unit_price: '0.25'
+      source_vat_basis: exclusive
+      unit_price: '0.3000'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 9
+      minimum: 5
+      source_text: Buy 5 + Save 69% Each £0.16 £0.49
+      source_unit_price: '0.16'
+      source_vat_basis: exclusive
+      unit_price: '0.1920'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 24
+      minimum: 10
+      source_text: Buy 10 + Save 72% Each £0.14 £0.49
+      source_unit_price: '0.14'
+      source_vat_basis: exclusive
+      unit_price: '0.1680'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 49
+      minimum: 25
+      source_text: Buy 25 + Save 77% Each £0.12 £0.49
+      source_unit_price: '0.12'
+      source_vat_basis: exclusive
+      unit_price: '0.1440'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 99
+      minimum: 50
+      source_text: Buy 50 + Save 81% Each £0.10 £0.49
+      source_unit_price: '0.10'
+      source_vat_basis: exclusive
+      unit_price: '0.1200'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 249
+      minimum: 100
+      source_text: Buy 100 + Save 83% Each £0.09 £0.49
+      source_unit_price: '0.09'
+      source_vat_basis: exclusive
+      unit_price: '0.1080'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 499
+      minimum: 250
+      source_text: Buy 250 + Save 85% Each £0.08 £0.49
+      source_unit_price: '0.08'
+      source_vat_basis: exclusive
+      unit_price: '0.0960'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 500
+      source_text: Buy 500 + Save 86% Each £0.07 £0.49
+      source_unit_price: '0.07'
+      source_vat_basis: exclusive
+      unit_price: '0.0840'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4999
+      minimum: 1000
+      source_text: Buy 1000 + Save 87% Each £0.07 £0.49
+      source_unit_price: '0.07'
+      source_vat_basis: exclusive
+      unit_price: '0.0840'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 5000
+      minimum: 5000
+      source_text: Buy 5000 + Save 90% Each £0.05 £0.49
+      source_unit_price: '0.05'
+      source_vat_basis: exclusive
+      unit_price: '0.0600'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.5880'
+    total_price_10: '1.6800'
+    total_price_100: '10.8000'
+    total_price_1000: '84.0000'
+    total_price_10000: '600.0000'
+    unit_price_1: '0.5880'
+    unit_price_10: '0.1680'
+    unit_price_100: '0.1080'
+    unit_price_1000: '0.0840'
+    unit_price_10000: '0.0600'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+  dibolt:
+    accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-13T23:19:46.814992+00:00'
+    currency: GBP
+    html_sha256: 7f491ff03821bdf46d5c7e43602a21b84250936eca428764d0e44a84234b3c33
+    name: M2.5 x 20mm Socket Cap Screw High Tensile Grade 12.9 Self Colour , DIN 912
+    packages: '[]'
+    parsed_at: '2026-10-18T09:02:46.758100+00:00'
+    parser_version: dibolt-1.3-missing-price-review
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept the precision of rounded displayed per-100 prices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M2.5 (2.5mm); Length (L): 20mm; Head Diameter (D):
+      4.5mm; Hexagon Depth (P): 1.1mm; Material: High Tensile (Grade 12.9); Finish:
+      Self Colour; Head Length (H): 2.5mm; Screw Thread Pitch: 0.45mm; Socket Size
+      (J): 2mm; Manufacturing Standard: 912; Material Specification: High Tensile
+      (Grade 12.9); Fine or Coarse?: Coarse; Fully Threaded: Yes'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: dibolt
+    supplier_id: 10161.025.020
+    supplier_part_number: 10161.025.020
+    supplier_website: https://dibolt.co.uk/products/m2-5-x-20mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_text: 1 - 199 £36.00 Per 100 Units
+      source_unit_price: '0.36'
+      source_vat_basis: exclusive
+      unit_price: '0.4320'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_text: 200 - 999 £34.20 Per 100 Units
+      source_unit_price: '0.342'
+      source_vat_basis: exclusive
+      unit_price: '0.41040'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 1000
+      source_text: 1,000+ £32.40 Per 100 Units
+      source_unit_price: '0.324'
+      source_vat_basis: exclusive
+      unit_price: '0.38880'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.4320'
+    total_price_10: '4.3200'
+    total_price_100: '43.2000'
+    total_price_1000: '388.80000'
+    total_price_10000: '3888.00000'
+    unit_price_1: '0.4320'
+    unit_price_10: '0.4320'
+    unit_price_100: '0.4320'
+    unit_price_1000: '0.38880'
+    unit_price_10000: '0.38880'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Dibolt per-100 displayed prices are rounded; derived totals use captured display
+      precision
+  orbitalfasteners:
+    accepted_warnings: '[]'
+    box_quantity: '200'
+    captured_at: '2026-10-12T13:56:26.069451+00:00'
+    catalogue_page: ''
+    currency: GBP
+    description: ''
+    html_sha256: 4ba2ea05156adb73e5161f5498928d31e7b0b9b0941d1c869b9552ec39f221f8
+    name: M2.5 x 20 Socket Cap Screw, High Tensile Grade 12.9 Self Colour, DIN 912
+    parsed_at: '2026-10-18T08:49:29.910547+00:00'
+    parser_version: 1.2-review-policy
+    review_policy: ''
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: inclusive
+    status: ok
+    stock_as_of: 9th October 2026 10:01pm More Info
+    stock_quantity: '4446'
+    supplier: orbitalfasteners
+    supplier_id: '1890610'
+    supplier_part_number: '1890610'
+    supplier_website: https://www.orbitalfasteners.co.uk/products/m2-5x20-socket-cap-hd-
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_text: 1 - 199 £0.432 Inc. VAT £43.20 Inc. VAT
+      source_unit_price: '0.432'
+      source_vat_basis: inclusive
+      unit_price: '0.432'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_text: 200 - 999 £0.324 Inc. VAT £32.40 Inc. VAT
+      source_unit_price: '0.324'
+      source_vat_basis: inclusive
+      unit_price: '0.324'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 1000
+      source_text: 1000 + £0.27 Inc. VAT £27.00 Inc. VAT
+      source_unit_price: '0.27'
+      source_vat_basis: inclusive
+      unit_price: '0.27'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.432'
+    total_price_10: '4.320'
+    total_price_100: '43.200'
+    total_price_1000: '270.00'
+    total_price_10000: '2700.00'
+    unit_price_1: '0.432'
+    unit_price_10: '0.432'
+    unit_price_100: '0.432'
+    unit_price_1000: '0.27'
+    unit_price_10000: '0.27'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings: []
+svg_details:
+  diameter_mm: 2.5
+  drive_style: hex_head
+  drive_symbol_gap_mm: 1.5
+  head_diameter_mm: 4.25
+  head_rim_mm: 0.1875
+  length_mm: 20.0
+  screw_style: socket_cap
+  socket_depth_mm: 0.8125
+  socket_width_mm: 1.625
+  stylesheet: project_bolt
+  svg_name: screw_diagrams
+  thread_pitch_mm: 0.45
+  variants:
+    plain: diagram_plain.svg
+    solid: diagram_solid.svg
+    threaded: diagram_threaded.svg
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: screw
+taxonomy_2_capital: Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: sc
+taxonomy_2_length_3: scr
+taxonomy_2_length_4: scre
+taxonomy_2_length_5: screw
+taxonomy_2_upper: SCREW
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: SC
+taxonomy_2_upper_length_3: SCR
+taxonomy_2_upper_length_4: SCRE
+taxonomy_2_upper_length_5: SCREW
+taxonomy_3: socket_cap
+taxonomy_3_capital: Socket Cap
+taxonomy_3_first_letter: s
+taxonomy_3_first_letter_upper: S
+taxonomy_3_length_1: s
+taxonomy_3_length_2: so
+taxonomy_3_length_3: soc
+taxonomy_3_length_4: sock
+taxonomy_3_length_5: socke
+taxonomy_3_upper: SOCKET_CAP
+taxonomy_3_upper_length_1: S
+taxonomy_3_upper_length_2: SO
+taxonomy_3_upper_length_3: SOC
+taxonomy_3_upper_length_4: SOCK
+taxonomy_3_upper_length_5: SOCKE
+taxonomy_4: hex_head
+taxonomy_4_capital: Hex Head
+taxonomy_4_first_letter: h
+taxonomy_4_first_letter_upper: H
+taxonomy_4_length_1: h
+taxonomy_4_length_2: he
+taxonomy_4_length_3: hex
+taxonomy_4_length_4: hex_
+taxonomy_4_length_5: hex_h
+taxonomy_4_upper: HEX_HEAD
+taxonomy_4_upper_length_1: H
+taxonomy_4_upper_length_2: HE
+taxonomy_4_upper_length_3: HEX
+taxonomy_4_upper_length_4: HEX_
+taxonomy_4_upper_length_5: HEX_H
+taxonomy_5: black
+taxonomy_5_capital: Black
+taxonomy_5_first_letter: b
+taxonomy_5_first_letter_upper: B
+taxonomy_5_length_1: b
+taxonomy_5_length_2: bl
+taxonomy_5_length_3: bla
+taxonomy_5_length_4: blac
+taxonomy_5_length_5: black
+taxonomy_5_upper: BLACK
+taxonomy_5_upper_length_1: B
+taxonomy_5_upper_length_2: BL
+taxonomy_5_upper_length_3: BLA
+taxonomy_5_upper_length_4: BLAC
+taxonomy_5_upper_length_5: BLACK
+taxonomy_6: m2_5_diameter
+taxonomy_6_capital: M2.5 Diameter
+taxonomy_6_first_letter: m
+taxonomy_6_first_letter_upper: M
+taxonomy_6_length_1: m
+taxonomy_6_length_2: m2
+taxonomy_6_length_3: m2_
+taxonomy_6_length_4: m2_5
+taxonomy_6_length_5: m2_5_
+taxonomy_6_upper: M2_5_DIAMETER
+taxonomy_6_upper_length_1: M
+taxonomy_6_upper_length_2: M2
+taxonomy_6_upper_length_3: M2_
+taxonomy_6_upper_length_4: M2_5
+taxonomy_6_upper_length_5: M2_5_
+taxonomy_7: 20_mm_length
+taxonomy_7_capital: 20 mm Length
+taxonomy_7_first_letter: '2'
+taxonomy_7_first_letter_upper: '2'
+taxonomy_7_length_1: '2'
+taxonomy_7_length_2: '20'
+taxonomy_7_length_3: '20_'
+taxonomy_7_length_4: 20_m
+taxonomy_7_length_5: 20_mm
+taxonomy_7_upper: 20_MM_LENGTH
+taxonomy_7_upper_length_1: '2'
+taxonomy_7_upper_length_2: '20'
+taxonomy_7_upper_length_3: '20_'
+taxonomy_7_upper_length_4: 20_M
+taxonomy_7_upper_length_5: 20_MM
+taxonomy_8: ''
+taxonomy_9: ''
+thread_size: m2_5
+three_d_model_details:
+  checked_on: '2026-10-11'
+  commercial_lengths_mm: []
+  coordinate_system:
+    axis: +Z towards head
+    glb_units: metres
+    glb_up_axis: Y
+    head_top_z_mm: 22.5
+    length_convention: under_head
+    origin: tip centre
+    stl_units: mm
+  dimension_status: standard_dimensions
+  dimensional_specification: Hexagon socket head cap screws
+  family: socket_cap
+  generation_status: ready
+  generator: parametric_screw
+  length_status: standard_length
+  material:
+    base_colour_srgb:
+    - 0.205
+    - 0.218
+    - 0.235
+    coat_roughness: 0.28
+    coat_weight: 0.08
+    metallic: 0.8
+    microtexture_height_um: 0.8
+    microtexture_spacing_mm: 0.025
+    name: Black oxide steel
+    note: Visual finish approximation; catalogue specifies colour only.
+    roughness: 0.31
+    roughness_variation: 0.045
+  model_formats:
+  - stl
+  - glb
+  modelling_choices:
+    catalogue_length: Unlisted lengths use the sourced size profile at the catalogue
+      length and are explicitly marked as extensions.
+    certification: Nominal catalogue geometry; not manufacturing certification.
+    display: Smooth nominal thread envelope with the same head and recessed drive.
+    edges: Permitted 45 degree edge chamfers, selected small values; circular countersink
+      at socket mouth.
+    head: Plain cylindrical head; no knurling or unidentified manufacturer/property-class
+      stamps.
+    markings: Unidentified manufacturer and property-class stamps omitted.
+    runout: One-pitch taper; incomplete thread remains within 2P.
+    socket: Across-flats midpoint of ISO limits; minimum penetration, permissible
+      flat bottom.
+    thread: Nominal right-hand external metric profile; 60 degree flanks, H/6 rounded
+      root; no ISO 965 tolerance offsets.
+    thread_coverage: ISO shank/grip table selects partial lengths; full-thread commercial
+      alternatives can be selected with thread_coverage=full.
+    tip: Selected 45 degree chamfer of P/2.
+  output_folder: three_d_model
+  parameters:
+    diameter_mm: 2.5
+    drive_style: hex_head
+    finish: black
+    handedness: right
+    head_diameter_mm: 4.5
+    head_edge_chamfer_mm: 0.125
+    head_height_mm: 2.5
+    head_style: cylindrical
+    head_top_z_mm: 22.5
+    hex_key_mm: 2.0
+    length_convention: under_head
+    length_mm: 20.0
+    overall_length_mm: 22.5
+    partial_thread_from_length_mm: 25
+    pitch_mm: 0.45
+    socket_across_flats_mm: 2.05
+    socket_depth_mm: 1.1
+    standard: ISO 4762:2004
+    thread_coverage: standard_reference
+    thread_flank_angle_deg: 60.0
+    thread_length_reference_mm: 17
+    thread_minor_diameter_mm: 1.9479088050874203
+    thread_pitch_diameter_mm: 2.2077164262227518
+    thread_root_radius_mm: 0.06495190528383289
+    thread_starts: 1
+    tip_chamfer_mm: 0.225
+    underhead_fillet_mm: 0.1
+  priority: 1
+  renders:
+    high:
+      file: render_high.png
+      pixels: 2048
+      variant: full
+      view: isometric
+    low:
+      file: render_low.png
+      pixels: 512
+      variant: display
+      view: isometric
+    product_high:
+      file: render_product_high.png
+      pixels: 2048
+      variant: full
+      view: product
+    product_low:
+      file: render_product_low.png
+      pixels: 512
+      variant: display
+      view: product
+  schema_version: 1
+  sources:
+  - title: ISO 4762:2004, Figure 1 and Table 1, pages 2–5
+    url: https://cdn.standards.iteh.ai/samples/34460/06335046afaf46fb8e84d91a3eda001d/ISO-4762-2004.pdf
+    use: Plain head dk, k, s limits, minimum t/r, b, shank/grip table and standard
+      length combinations.
+  - title: ISO 4762 scope and current edition
+    url: https://www.iso.org/standard/34460.html
+    use: Coarse metric M1.6–M64; M2 and M2.5 are within scope.
+  - title: Bossard BN 2052 fully threaded DIN 912 / ISO 4762 screws
+    url: https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-head-cap-screws-fully-threaded/p/2052/
+    use: Fully threaded commercial alternative; catalogue does not specify which threading
+      option was purchased.
+  standard: ISO 4762:2004
+  standard_lengths_mm:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 8
+  - 10
+  - 12
+  - 16
+  - 20
+  - 25
+  standard_limits:
+    head_diameter_mm:
+    - 4.32
+    - 4.5
+    socket_across_flats_mm:
+    - 2.02
+    - 2.08
+    socket_depth_min_mm: 1.1
+  studio:
+    adaptive_threshold: 0.015
+    denoise: true
+    device: auto
+    engine: cycles
+    exposure: 0.0
+    floor_colour_srgb:
+    - 0.93
+    - 0.935
+    - 0.94
+    floor_roughness: 0.55
+    framing_margin: 0.13
+    high_samples: 160
+    lights:
+    - colour:
+      - 1.0
+      - 0.96
+      - 0.9
+      height: 5.0
+      name: Key softbox
+      position:
+      - -3
+      - -4
+      - 6
+      power: 650.0
+      width: 4.0
+    - colour:
+      - 0.9
+      - 0.95
+      - 1.0
+      height: 4.0
+      name: Fill softbox
+      position:
+      - 4
+      - -1
+      - 3
+      power: 330.0
+      width: 3.0
+    - colour:
+      - 1.0
+      - 1.0
+      - 1.0
+      height: 5.0
+      name: Rim strip
+      position:
+      - 1
+      - 4
+      - 4
+      power: 850.0
+      width: 1.2
+    low_samples: 48
+    poses:
+      isometric:
+        camera_eye:
+        - 1
+        - -1
+        - 1
+        orientation: tip down, head up
+        projection: orthographic
+      product:
+        camera_eye:
+        - -6
+        - -10
+        - 6
+        orientation: lying on side, head to left
+        projection: orthographic
+        support: Head rim and threaded shaft rest on ground; solve tilt from mesh.
+        yaw_degrees: -12.0
+    seed: 7991
+    view_transform: AgX
+    world_colour:
+    - 0.78
+    - 0.82
+    - 0.9
+    world_strength: 0.35
+  units: mm
+  variants:
+    display:
+      angular_segments: 32
+      fillet_segments: 4
+      samples_per_pitch: 1
+    full:
+      angular_segments: 96
+      fillet_segments: 12
+      samples_per_pitch: 32
+  views:
+  - isometric
+  - front
+  - back
+  - left
+  - right
+  - top
+  - bottom
+url_chat: https://chatgpt.com/c/69f5abf7-4118-83eb-b089-545264d0fd88
+```
+
+</details>
+
+## Parts
+
+[Open the canonical part folder](./) for the files available for this variant. Alternative model formats describe the same record; they are not extra components.
+
+## Assembly
+
+No assembly procedure is inferred from this catalogue record. Use any retained technical notes and the original manufacturer documentation for installation details.
+<!-- oomp-documentation:end -->

@@ -1,0 +1,3914 @@
+<!-- oomp-documentation:start -->
+# Hardware Screw Countersunk Hex Head Black M3 Diameter 8 Mm Length
+
+## Summary
+
+OOMP catalogue record for Hardware Screw Countersunk Hex Head Black M3 Diameter 8 Mm Length. Use the metadata to identify this variant and the part folder to inspect its available assets.
+
+![Catalogue preview of Hardware Screw Countersunk Hex Head Black M3 Diameter 8 Mm Length](three_d_model/render_product_low.png)
+
+Catalogue illustration; consult the source dimensions and datasheet for specification.
+
+## Details
+
+**OOMP folder ID:** `hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length`
+
+[Catalogue](../../README.md) · [Part metadata](working.yaml)
+
+| Field | Value |
+| --- | --- |
+| id | hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length |
+| md5_6 | e91880 |
+| md5_6_alpha | 93f5s |
+| oomp_key | oomp_hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length |
+| taxonomy_1 | hardware |
+| taxonomy_2 | screw |
+| taxonomy_3 | countersunk |
+| taxonomy_4 | hex_head |
+| taxonomy_5 | black |
+| taxonomy_6 | m3_diameter |
+| taxonomy_7 | 8_mm_length |
+
+<details>
+<summary>Full part metadata</summary>
+
+```yaml
+bip_39_2_word_array:
+- trouble
+- series
+bip_39_2_word_no_space: troubleseries
+bip_39_2_word_space: trouble series
+bip_39_2_word_underscore: trouble_series
+bip_39_3_word_array:
+- trouble
+- series
+- collect
+bip_39_3_word_no_space: troubleseriescollect
+bip_39_3_word_space: trouble series collect
+bip_39_3_word_underscore: trouble_series_collect
+bip_39_full_array:
+- trouble
+- series
+- collect
+- convince
+- hundred
+- armed
+- ugly
+- dish
+- lens
+- surge
+- vacuum
+- design
+bip_39_full_no_space: troubleseriescollectconvincehundredarmeduglydishlenssurgevacuumdesign
+bip_39_full_space: trouble series collect convince hundred armed ugly dish lens surge
+  vacuum design
+bip_39_full_underscore: trouble_series_collect_convince_hundred_armed_ugly_dish_lens_surge_vacuum_design
+color_band_project_bolt_1: red
+color_band_project_bolt_1_string: 8 mm length
+color_band_project_bolt_2: yellow
+color_band_project_bolt_2_string: m3
+color_band_project_bolt_3: red
+color_band_project_bolt_3_string: countersunk
+color_band_string_project_bolt: colour_band_red_yellow_red
+color_band_taxonomy_3: red
+color_band_taxonomy_6: red
+color_band_taxonomy_7: yellow
+directory: parts/hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length
+generate_stl: true
+id: hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length
+id_no_class: hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length
+id_no_size: hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length
+id_no_type: hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length
+label_drawer: &id001
+  bip39: trouble series collect
+  bip39_size: 2.249
+  code: SC
+  description: Countersunk screw / M3 / 8 mm / Hex socket / Black
+  detail_lines:
+  - Hex socket / Black
+  detail_size: 2.05
+  detail_y: 21.1
+  diagram: <path d="M2 2.5L6 5V9L2 11.5Z M2 6H3.5V8H2"/><path d="M6 5H18V9H6"/><path
+    d="M7 5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+  drive_symbol: <circle cx="5" cy="5" r="4.5" fill="#ffffff"/><path d="M5 1L8.46 3V7L5
+    9L1.54 7V3Z" transform="translate(1.5 1.5) scale(0.7)" fill="#000000"/>
+  length: '8'
+  length_size: 7.8
+  length_x: 20.191353125
+  name: Countersunk screw
+  name_lines:
+  - Countersunk
+  - screw
+  name_size: 3.2
+  thread: M3
+  thread_size: 6.5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length
+md5: e91880b617c6f217bb01f9803b4bc21d
+md5_10: e91880b617
+md5_10_upper: E91880B617
+md5_5: e9188
+md5_5_upper: E9188
+md5_6: e91880
+md5_6_alpha: 93f5s
+md5_6_alpha_upper: 93F5S
+md5_6_upper: E91880
+name: Hardware Screw Countersunk Hex Head Black M3 Diameter 8 Mm Length
+name_no_class: Hardware Screw Countersunk Hex Head Black M3 Diameter 8 Mm Length
+name_no_size: Hardware Screw Countersunk Hex Head Black M3 Diameter 8 Mm Length
+name_no_type: Hardware Screw Countersunk Hex Head Black M3 Diameter 8 Mm Length
+name_proper: Hardware Screw Countersunk Hex Head Black M3 Diameter 8 Mm Length
+name_space: hardware screw countersunk hex head black m3 diameter 8 mm length
+name_upper: HARDWARE SCREW COUNTERSUNK HEX HEAD BLACK M3 DIAMETER 8 MM LENGTH
+oobb_details:
+  drive_style: hex_head
+  length: 8_mm_length
+  oobb_name: screw
+  screw_colour: black
+  screw_style: countersunk
+  thread_size: m3_diameter
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      color_band_project_bolt_1: red
+      color_band_project_bolt_1_string: 8 mm length
+      color_band_project_bolt_2: yellow
+      color_band_project_bolt_2_string: m3
+      color_band_project_bolt_3: red
+      color_band_project_bolt_3_string: countersunk
+      color_band_string_project_bolt: colour_band_red_yellow_red
+      color_band_taxonomy_3: red
+      color_band_taxonomy_6: red
+      color_band_taxonomy_7: yellow
+      directory: parts\hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length
+      name: hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length
+      name_proper: Hardware Screw Countersunk Hex Head Black M3 Diameter 8 Mm Length
+      name_space: hardware screw countersunk hex head black m3 diameter 8 mm length
+      name_upper: HARDWARE SCREW COUNTERSUNK HEX HEAD BLACK M3 DIAMETER 8 MM LENGTH
+      oobb_details:
+        drive_style: hex_head
+        length: 8_mm_length
+        oobb_name: screw
+        screw_colour: black
+        screw_style: countersunk
+        thread_size: m3_diameter
+      supplier_data:
+        aanddfasteners:
+          accepted_warnings: '["Source quantity band starts at zero; normalized minimum
+            to one item"]'
+          captured_at: '2026-10-12T14:11:07.931731+00:00'
+          currency: GBP
+          html_sha256: 3a635ce907845aea02f8a21b0532b8aeca6c120dc47df3c917942e516a878b31
+          name: M3 x 8 Socket Countersunk Screw, steel self colour, Din 7991
+          packages: '[]'
+          parsed_at: '2026-10-18T08:57:30.120641+00:00'
+          parser_version: aanddfasteners-1.2-review-policy
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept zero-to-one quantity normalization and low-stock
+            notices."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          specifications: Product information These High Tensile socket countersunk
+            screws are made out of 10.9 steel material with a self colour black finish
+            to Din 7991 with metric coarse thread. Measured from end to end. They
+            are also known as FHSC (Flat head socket caps) or SKT CSK. The screw is
+            designed to be seated into a countersunk hole, providing a flush finish.
+            A hex key ( sometimes referred to as an Allen wrench of Allen key) or
+            hex driver is required to tighten or loosen a socket screw. Socket screws
+            are commonly used in assemblies that do not provide sufficient clearance
+            for a conventional wrench or spanner. Please note that not all socket
+            countersunk screws are fully threaded, if thread length is critical please
+            contact us for more info.
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: aanddfasteners
+          supplier_id: ST799103008SC
+          supplier_part_number: ST799103008SC
+          supplier_website: https://www.aanddfasteners.co.uk/shop/socket-screws/socket-countersunk/metric-din-7991-iso-10642-steel-self-colour/m3-x-8-socket-countersunk-screw-steel-self-colour-din-7991/details
+          tiers:
+          - maximum: 25
+            minimum: 1
+            source_text: 0 - 25 £ 0.05
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 50
+            minimum: 26
+            source_text: 26 -50 £ 0.04
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 51
+            source_text: 51+ £ 0.03
+            source_unit_price: '0.03'
+            source_vat_basis: exclusive
+            unit_price: '0.0360'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.0600'
+          total_price_10: '0.6000'
+          total_price_100: '3.6000'
+          total_price_1000: '36.0000'
+          total_price_10000: '360.0000'
+          unit_price_1: '0.0600'
+          unit_price_10: '0.0600'
+          unit_price_100: '0.0360'
+          unit_price_1000: '0.0360'
+          unit_price_10000: '0.0360'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Source quantity band starts at zero; normalized minimum to one item
+        accu:
+          accepted_warnings: '["Accu displayed prices are rounded; derived totals
+            use the captured display precision", "Accu requires a quote from 400 units;
+            prices beyond that withheld", "Quantity 1000: no verified price/VAT band;
+            price withheld", "Quantity 10000: no verified price/VAT band; price withheld"]'
+          box_quantity: ''
+          captured_at: '2026-10-11T23:27:46.852576+00:00'
+          currency: GBP
+          description: 'Countersunk Socket Head Screws feature a countersunk head
+            type, which allows them to sit flush with their target housing. The socket
+            head of these screws makes them ideal for use alongside Accu’s Hex Drive
+            Bits or Allen Keys & Wrenches. Countersunk Screws are designed to be used
+            alongside pre-drilled countersunk recesses, which can be made with the
+            use of angle cutters called countersinks.  Countersunk Captive Fasteners
+            Captive screw variants of Accu''s Metric Countersunk Screws are available
+            in A2 and A4 Stainless Steel, with other materials such as thermoplastic
+            PEEK available on request. Our range of Socket Countersunk Captive Screws
+            are designed to be used in conjunction with Captive Washers to prevent
+            the screws from falling out of housing assemblies and conform to EU Safety
+            regulations. Materials Countersunk Socket Head Screws can be manufactured
+            from a range of materials, including A2 and A4 Stainless Steel, Bumax
+            and Aluminium options as standard. Accu also supplies Socket Countersunk
+            Screws in 10.9 and 12.9 High Tensile Steel, with materials such as Titanium
+            and PEEK available through our custom manufacture service. Enhance the
+            security of your Metric Socket Countersunk Screws against vibrations and
+            self-loosening with our pre-applied thread-locking solutions. Choose from
+            AccuLock Threadlocker for essential fastening, Anu-Lok 180 for added robustness,
+            or Precote 80 for high-performance locking. Elevate the aesthetics of
+            your components with AccuBlack chemical blackening, reducing reflections
+            and delivering a premium finish. Security Screw Variant For applications
+            requiring a tamper-proof drive, this component is also available in a
+            security variant, which can be found in Accu''s Security Socket Countersunk
+            Screws range.  Metric Sizes Accu’s Metric Socket Countersunk Screws are
+            available in thread sizes ranging from M2 to M24, and lengths from 3mm
+            up to 200mm. Imperial Sizes Imperial Countersunk Socket Screws are also
+            available in diameters from #0 to 7/8 inch. Lengths are available from
+            1/8 inch up to 10 inches. Minimum Thread Length In accordance with DIN
+            standard 7991, Accu''s Socket Countersunk Screws are manufactured to a
+            minimum specified thread length. Please contact us before placing your
+            order if this dimension is critical to your application.'
+          html_sha256: 1f0be9226266d856d012031c0949c1436275e403a2145cb3f81e597f808badc4
+          name: M3 x 8mm Socket Countersunk Screws (DIN 7991) - High Tensile Steel
+            (10.9)
+          parsed_at: '2026-10-18T08:52:11.758271+00:00'
+          parser_version: accu-1.9-base-material
+          price_inheritance: ''
+          quote_minimum: '400'
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept rounded displayed prices, open-ended final advertised
+            tiers, and quotes required from 400 units; quote-only prices remain blank."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.02", "highPrice":
+            "0.74", "priceCurrency": "GBP", "offerCount": "8", "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/countersunk-socket-head-screws/472022-SSK-M3-8-10-9",
+            "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type":
+            "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+          source_vat_basis: exclusive
+          source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "accus prices are all ex vat", "confirmed_on": "2026-10-13"}'
+          specifications: '{"Accu Product Code (APC)": "SSK-M3-8-10.9", "Thread Size":
+            "M3 (3 mm)", "Overall Length (L)": "8 mm", "Socket Size (J)": "2 mm",
+            "Material": "Steel - High Tensile (10.9)", "Finish": "Natural", "Countersunk
+            Angle (CA)": "90 Degrees (Tolerance: +2/-0 Degrees)", "Countersunk Length
+            (H)": "1.7 mm", "Full Thread": "Yes", "Head Diameter (D)": "6 mm (Tolerance:
+            +0/-0.3 mm)", "Hexagon Depth (P)": "1.2 mm", "Manufacturing Standard":
+            "DIN 7991", "Material Family": "Steel", "System of Measurement": "Metric",
+            "Thread Pitch": "0.5 mm"}'
+          status: ok
+          stock_quantity: ''
+          stock_status: https://schema.org/InStock
+          supplier: accu
+          supplier_id: SSK-M3-8-10.9
+          supplier_part_number: SSK-M3-8-10.9
+          supplier_website: https://www.accu.co.uk/countersunk-socket-head-screws/472022-SSK-M3-8-10-9
+          tiers:
+          - maximum: 1
+            minimum: 1
+            source_text: Buy 1 £0.74
+            source_unit_price: '0.74'
+            source_vat_basis: exclusive
+            unit_price: '0.8880'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 5
+            minimum: 2
+            source_text: Buy 2 £0.40 Save 45 %
+            source_unit_price: '0.40'
+            source_vat_basis: exclusive
+            unit_price: '0.4800'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 11
+            minimum: 6
+            source_text: Buy 6 £0.15 Save 79 %
+            source_unit_price: '0.15'
+            source_vat_basis: exclusive
+            unit_price: '0.1800'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 23
+            minimum: 12
+            source_text: Buy 12 £0.09 Save 87 %
+            source_unit_price: '0.09'
+            source_vat_basis: exclusive
+            unit_price: '0.1080'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 49
+            minimum: 24
+            source_text: Buy 24 £0.06 Save 91 %
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 99
+            minimum: 50
+            source_text: Buy 50 £0.04 Save 94 %
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 199
+            minimum: 100
+            source_text: Buy 100 £0.03 Save 95 %
+            source_unit_price: '0.03'
+            source_vat_basis: exclusive
+            unit_price: '0.0360'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 399
+            minimum: 200
+            source_text: Buy 200 £0.02 Save 97 %
+            source_unit_price: '0.02'
+            source_vat_basis: exclusive
+            unit_price: '0.0240'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.8880'
+          total_price_10: '1.8000'
+          total_price_100: '3.6000'
+          total_price_1000: ''
+          total_price_10000: ''
+          unit_price_1: '0.8880'
+          unit_price_10: '0.1800'
+          unit_price_100: '0.0360'
+          unit_price_1000: ''
+          unit_price_10000: ''
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Accu displayed prices are rounded; derived totals use the captured display
+            precision
+          - Accu requires a quote from 400 units; prices beyond that withheld
+          - 'Quantity 1000: no verified price/VAT band; price withheld'
+          - 'Quantity 10000: no verified price/VAT band; price withheld'
+        boltbase:
+          accepted_warnings: '["Final Bolt Base threshold has no verified upper bound;
+            extrapolation withheld"]'
+          captured_at: '2026-10-12T02:07:25.516553+00:00'
+          currency: GBP
+          html_sha256: cfb62f86bcbba112a94580f3c3eef77aabc2c07ee0f8b85bcbd83cf145d2c108
+          name: M3 Self Colour 10.9 High Tensile Socket Countersunk Screws
+          packages: '[]'
+          parsed_at: '2026-10-18T08:56:24.925522+00:00'
+          parser_version: boltbase-1.2-review-policy
+          price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
+            "0.02", "source_text": "Buy 5000 + - 90% Each £0.02 £0.20", "basis": "user
+            policy 2026-10-13"}}'
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "For a withheld 10000-unit price, inherit the highest available
+            lower-quantity unit price."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+          specifications: 'Thread Size: M3 (3mm); Length (Including Head): 8mm; M3
+            Socket Countersunk Screws. Manufactured to DIN 7991 / ISO 10642 in Self
+            Colour ( Black ) High Tensile 10.9 Steel with a 3mm thread diameter and
+            0.5mm thread pitch. Socket countersunk screws are typically used when
+            a flush fitting screw is required. Ideal when a screw with a low profile
+            is required or for when the screw head can not protrude from the work
+            surface. Ideal for high stress applications or for where a high strength
+            bolt is required. These screws come mostly part threaded as standard after
+            a certain length. Please note that these bolts offer little to no protection
+            from rusting and are more suited for indoor use or for applications where
+            they are protected from moisture.'
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: boltbase
+          supplier_id: 109SCCSK-3X8
+          supplier_part_number: 109SCCSK-3X8
+          supplier_website: https://boltbase.com/products/m3-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464508973437
+          tiers:
+          - maximum: 1
+            minimum: 1
+            source_text: Single Screw Buy 1 For £0.20
+            source_unit_price: '0.20'
+            source_vat_basis: exclusive
+            unit_price: '0.2400'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4
+            minimum: 2
+            source_text: Buy 2 + - 40% Each £0.12 £0.20
+            source_unit_price: '0.12'
+            source_vat_basis: exclusive
+            unit_price: '0.1440'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 9
+            minimum: 5
+            source_text: Buy 5 + - 49% Each £0.11 £0.20
+            source_unit_price: '0.11'
+            source_vat_basis: exclusive
+            unit_price: '0.1320'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 24
+            minimum: 10
+            source_text: Buy 10 + - 67% Each £0.07 £0.20
+            source_unit_price: '0.07'
+            source_vat_basis: exclusive
+            unit_price: '0.0840'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 49
+            minimum: 25
+            source_text: Buy 25 + - 75% Each £0.05 £0.20
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 99
+            minimum: 50
+            source_text: Buy 50 + - 77% Each £0.05 £0.20
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 249
+            minimum: 100
+            source_text: Buy 100 + - 81% Each £0.04 £0.20
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 499
+            minimum: 250
+            source_text: Buy 250 + - 83% Each £0.04 £0.20
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 500
+            source_text: Buy 500 + - 86% Each £0.03 £0.20
+            source_unit_price: '0.03'
+            source_vat_basis: exclusive
+            unit_price: '0.0360'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4999
+            minimum: 1000
+            source_text: Buy 1000 + - 88% Each £0.03 £0.20
+            source_unit_price: '0.03'
+            source_vat_basis: exclusive
+            unit_price: '0.0360'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 5000
+            minimum: 5000
+            source_text: Buy 5000 + - 90% Each £0.02 £0.20
+            source_unit_price: '0.02'
+            source_vat_basis: exclusive
+            unit_price: '0.0240'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.2400'
+          total_price_10: '0.8400'
+          total_price_100: '4.8000'
+          total_price_1000: '36.0000'
+          total_price_10000: '240.0000'
+          unit_price_1: '0.2400'
+          unit_price_10: '0.0840'
+          unit_price_100: '0.0480'
+          unit_price_1000: '0.0360'
+          unit_price_10000: '0.0240'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+        dibolt:
+          accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+          captured_at: '2026-10-13T23:09:55.271466+00:00'
+          currency: GBP
+          html_sha256: d4861c388fd02d7368f505d8f566d30ea4ed3a66f0a7b8eccbaddea86fe0e0d3
+          name: M3 x 8mm Socket Screw/Bolt, Countersunk, High Tensile Grade 10.9 Self
+            Colour, DIN 7991
+          packages: '[]'
+          parsed_at: '2026-10-18T09:02:42.123134+00:00'
+          parser_version: dibolt-1.3-missing-price-review
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept the precision of rounded displayed per-100 prices."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          specifications: 'Thread Size: M3 (3mm); Length (L): 8mm; Head Diameter (D):
+            6mm; Countersunk Angle (CA): 90 Degree; Material: High Tensile (Grade
+            10.9); Finish: Self Colour; Countersunk Length (Max) (H): 1.7mm; Hexagon
+            Depth (P): 1.2mm; Screw Thread Pitch: 0.5mm; Socket Size (J): 2mm; Manufacturing
+            Standard: DIN 7991; Material Specification: High Tensile (Grade 10.9);
+            Metric or Imperial?: Metric'
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: dibolt
+          supplier_id: 10170.030.008
+          supplier_part_number: 10170.030.008
+          supplier_website: https://dibolt.co.uk/products/m3-x-8mm-socket-screw-bolt-countersunk-high-tensile-grade-10-9-self-colour-din-799
+          tiers:
+          - maximum: 199
+            minimum: 1
+            source_text: 1 - 199 £2.97 Per 100 Units
+            source_unit_price: '0.0297'
+            source_vat_basis: exclusive
+            unit_price: '0.035640'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 200
+            source_text: 200 - 999 £1.65 Per 100 Units
+            source_unit_price: '0.0165'
+            source_vat_basis: exclusive
+            unit_price: '0.019800'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 1000
+            source_text: 1,000+ £1.49 Per 100 Units
+            source_unit_price: '0.0149'
+            source_vat_basis: exclusive
+            unit_price: '0.017880'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.035640'
+          total_price_10: '0.356400'
+          total_price_100: '3.564000'
+          total_price_1000: '17.880000'
+          total_price_10000: '178.800000'
+          unit_price_1: '0.035640'
+          unit_price_10: '0.035640'
+          unit_price_100: '0.035640'
+          unit_price_1000: '0.017880'
+          unit_price_10000: '0.017880'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Dibolt per-100 displayed prices are rounded; derived totals use captured
+            display precision
+        kayfast:
+          accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+          captured_at: '2026-10-14T12:40:21.162040+00:00'
+          currency: GBP
+          family_description: Metric coarse threads. High tensile grade 10.9 Self
+            colour plain finish. Manufactured to DIN 7991 Screw lengths include the
+            head. All sizes are fully threaded.
+          family_heading: COUNTERSUNK SOCKET SCREWS HIGH TENSILE 10.9 SELF COLOUR
+          html_sha256: 2fcc9e7a872c62b040c6efc914e2a2a00c0cb3a4b51273a79e67023fed55d0f6
+          name: M3 x 8mm COUNTERSUNK SOCKET SCREWS DIN 7991 HIGH TENSILE 10.9 SELF
+            COLOUR
+          packages: '[]'
+          parsed_at: '2026-10-18T09:30:01.690049+00:00'
+          parser_version: kayfast-1.6-family-description
+          price_breaks_description: M3 x 8mm COUNTERSUNK SOCKET SCREWS DIN 7991 HIGH
+            TENSILE 10.9 SELF COLOUR
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+            "statement": "Use the exact row dropdown price per 100 divided by 100
+            with Decimal precision; accept the captured per-100 display precision."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+          specifications: COUNTERSUNK SOCKET SCREWS HIGH TENSILE 10.9 SELF COLOUR;
+            Metric coarse threads. High tensile grade 10.9 Self colour plain finish.
+            Manufactured to DIN 7991 Screw lengths include the head. All sizes are
+            fully threaded.
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: kayfast
+          supplier_id: M3-x-8mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+          supplier_id_basis: exact dimensional row description; spaces replaced by
+            hyphens (user clarification 2026-10-11)
+          supplier_part_number: M3-x-8mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+          supplier_website: https://www.kayfast.co.uk/view-product/COUNTERSUNK-SOCKET-SCREWS-HIGH-TENSILE-109-SELF-COLOUR
+          tiers:
+          - maximum: 199
+            minimum: 1
+            source_price_per_100: '3.51'
+            source_price_quantity: 100
+            source_text: QTY 1 - 199 @ £3.51 per 100
+            source_unit_price: '0.0351'
+            source_vat_basis: exclusive
+            unit_price: '0.042120'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 200
+            source_price_per_100: '2.92'
+            source_price_quantity: 100
+            source_text: QTY 200 -  999 @ £2.92 per 100
+            source_unit_price: '0.0292'
+            source_vat_basis: exclusive
+            unit_price: '0.035040'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 1000
+            source_price_per_100: '2.10'
+            source_price_quantity: 100
+            source_text: QTY 1000 + @ £2.10 per 100
+            source_unit_price: '0.021'
+            source_vat_basis: exclusive
+            unit_price: '0.02520'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.042120'
+          total_price_10: '0.421200'
+          total_price_100: '4.212000'
+          total_price_1000: '25.20000'
+          total_price_10000: '252.00000'
+          unit_price_1: '0.042120'
+          unit_price_10: '0.042120'
+          unit_price_100: '0.042120'
+          unit_price_1000: '0.02520'
+          unit_price_10000: '0.02520'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Kayfast per-100 displayed prices are rounded; derived totals use captured
+            display precision
+        orbitalfasteners:
+          accepted_warnings: '[]'
+          box_quantity: '200'
+          captured_at: '2026-10-18T08:40:08.699298+00:00'
+          catalogue_page: '80'
+          currency: GBP
+          description: Fully threaded. *Guide only, some variation possible. (Contact
+            us before ordering if this information is important)
+          html_sha256: 17e5a35370a908338fcabc21c5b030df64287277cf66bf36aa919e09fdd5b8fe
+          name: M3 x 8 Socket Screw, Countersunk, High Tensile Grade 10.9 Self Colour,
+            DIN 7991
+          parsed_at: '2026-10-18T08:49:29.019253+00:00'
+          parser_version: 1.2-review-policy
+          review_policy: ''
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: inclusive
+          status: ok
+          stock_as_of: 16th October 2026 10:01pm
+          stock_quantity: '1946'
+          supplier: orbitalfasteners
+          supplier_id: '1901010'
+          supplier_part_number: '1901010'
+          supplier_website: https://www.orbitalfasteners.co.uk/products/m3-x-8-socket-screw-countersunk-high-tensile-grade-10-9-self-colour-din-7991
+          tiers:
+          - maximum: 199
+            minimum: 1
+            source_text: 1 - 199 £0.0286 Inc. VAT £2.86 Inc. VAT
+            source_unit_price: '0.0286'
+            source_vat_basis: inclusive
+            unit_price: '0.0286'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 200
+            source_text: 200 - 999 £0.0158 Inc. VAT £1.58 Inc. VAT
+            source_unit_price: '0.0158'
+            source_vat_basis: inclusive
+            unit_price: '0.0158'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4799
+            minimum: 1000
+            source_text: 1000 - 4799 £0.0143 Inc. VAT £1.43 Inc. VAT
+            source_unit_price: '0.0143'
+            source_vat_basis: inclusive
+            unit_price: '0.0143'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 4800
+            source_text: 4800 + £0.0127 Inc. VAT £1.27 Inc. VAT
+            source_unit_price: '0.0127'
+            source_vat_basis: inclusive
+            unit_price: '0.0127'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.0286'
+          total_price_10: '0.2860'
+          total_price_100: '2.8600'
+          total_price_1000: '14.3000'
+          total_price_10000: '127.0000'
+          unit_price_1: '0.0286'
+          unit_price_10: '0.0286'
+          unit_price_100: '0.0286'
+          unit_price_1000: '0.0143'
+          unit_price_10000: '0.0127'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings: []
+      svg_details:
+        diameter_mm: 3.0
+        drive_style: hex_head
+        drive_symbol_gap_mm: 1.7999999999999998
+        head_diameter_mm: 6.0
+        head_rim_mm: 0.22499999999999998
+        length_mm: 8.0
+        screw_style: countersunk
+        socket_depth_mm: 0.9750000000000001
+        socket_width_mm: 1.9500000000000002
+        stylesheet: project_bolt
+        svg_name: screw_diagrams
+        thread_pitch_mm: 0.5
+        variants:
+          plain: diagram_plain.svg
+          solid: diagram_solid.svg
+          threaded: diagram_threaded.svg
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: screw
+      taxonomy_3: countersunk
+      taxonomy_4: hex_head
+      taxonomy_5: black
+      taxonomy_6: m3_diameter
+      taxonomy_7: 8_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      three_d_model_details:
+        checked_on: '2026-10-11'
+        coordinate_system:
+          axis: +Z towards head
+          glb_units: metres
+          glb_up_axis: Y
+          head_top_z_mm: 8.0
+          origin: tip centre
+          stl_units: mm
+        dimension_status: standard_dimensions
+        dimensional_specification: DIN 7991:1986-01
+        generator: din_7991_countersunk
+        length_status: standard_length
+        material:
+          base_colour_srgb:
+          - 0.205
+          - 0.218
+          - 0.235
+          coat_roughness: 0.28
+          coat_weight: 0.08
+          metallic: 0.8
+          microtexture_height_um: 0.8
+          microtexture_spacing_mm: 0.025
+          name: Black oxide steel
+          note: Visual finish approximation; catalogue specifies colour only.
+          roughness: 0.31
+          roughness_variation: 0.045
+        model_formats:
+        - stl
+        - glb
+        modelling_choices:
+          certification: Standards-based nominal catalogue geometry, not a tolerance-gauged
+            manufacturing certification.
+          dimension_selection: Nominal/max head and shaft, midpoint socket limits
+            for M3/M4.
+          display: Smooth nominal-diameter thread envelope; lower tessellation, same
+            head/recess/end dimensions.
+          head_rim: Approximate DIN c reference reduced by r*tan(22.5 degrees) so
+            the fillet fits within k max.
+          markings: 'Manufacturer identity and property-class stamps omitted: catalogue
+            does not identify them.'
+          runout: One pitch taper to nominal shaft diameter; maximum incomplete thread
+            is 2P.
+          size_note: DIN 7991:1986 dimensional row.
+          socket: Flat bottom hex socket with permissible circular mouth countersink
+            within hex corners.
+          thread: ISO metric nominal external profile; rounded root R=H/6; no ISO
+            965 tolerance offsets.
+          tip: 45 degree tip chamfer of P/2; selected end form under DIN 78.
+        output_folder: three_d_model
+        parameters:
+          countersink_angle_deg: 90.0
+          diameter_mm: 3.0
+          fillet_start_z_mm: 6.3
+          finish: black
+          grip_length_mm: 2.2
+          handedness: right
+          head_diameter_mm: 6.0
+          head_height_mm: 1.7
+          head_rim_mm: 0.15857864376269046
+          head_rim_reference_mm: 0.2
+          hex_key_mm: 2.0
+          length_mm: 8.0
+          partial_thread_from_length_mm: 25
+          pitch_mm: 0.5
+          shank_length_min_mm: 0
+          socket_across_flats_mm: 2.06
+          socket_depth_mm: 1.075
+          thread_end_z_mm: 6.3
+          thread_flank_angle_deg: 60.0
+          thread_length_mm: 5.8
+          thread_length_reference_mm: 12
+          thread_minor_diameter_mm: 2.3865653389860224
+          thread_mode: full_to_head
+          thread_pitch_diameter_mm: 2.6752404735808355
+          thread_root_radius_mm: 0.07216878364870322
+          thread_runout_mm: 0.5
+          thread_starts: 1
+          tip_chamfer_mm: 0.25
+          underhead_fillet_mm: 0.1
+        renders:
+          high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+          low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+          product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+          product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+        schema_version: 1
+        sources:
+        - title: DIN 7991 January 1986, pages 1–3 (standard scan)
+          url: https://www.finesz.com/pic/DIN7991.pdf
+          use: Scope, head geometry, dimensional limits and shank/grip length table.
+        - title: Böllhoff DIN 7991 product dimensional sheet
+          url: https://eshop.boellhoff.de/out/media/pdf/DIN_7991_Edelstahl_A4___en.pdf
+          use: Independent supplier check of M3/M4 dimensions.
+        - title: Newstar Fastenings M2 x 4 DIN 7991 commercial extension
+          url: https://www.newstarfastenings.com/en-gb/products/m2-x-4-socket-countersunk-din-7991-a4-stainless-steel
+          use: M2 pitch, head diameter/height, hex key and minimum penetration.
+        - title: Bossard BN 20 supplier drawing and size table
+          url: https://www.laskakit.cz/user/related_files/30112021090237-din7991ocel.pdf
+          use: Black M2 extension, M3 x 5/x 6/x 35 and M4 x 6 commercial lengths;
+            M2 explicitly outside DIN scope.
+        - title: Newstar Fastenings M3 x 4 commercial short screw
+          url: https://www.newstarfastenings.com/en-gb/products/m3-x-4-socket-countersunk-din-7991-a4-stainless-steel
+          use: Confirms standard M3 head, key and pitch for the nonstandard 4 mm overall
+            length.
+        - title: ISO 68-1 external metric thread profile
+          url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+          use: 60 degree metric thread basic profile.
+        standard: DIN 7991:1986-01
+        standard_lengths_mm:
+        - 8
+        - 10
+        - 12
+        - 16
+        - 20
+        - 25
+        - 30
+        standard_limits:
+          countersink_angle_deg:
+          - 90
+          - 92
+          head_diameter_mm:
+          - 5.7
+          - 6.0
+          head_height_max_mm: 1.7
+          shank_diameter_mm:
+          - 2.86
+          - 3.0
+          socket_across_corners_min_mm: 2.3
+          socket_across_flats_mm:
+          - 2.02
+          - 2.1
+          socket_depth_mm:
+          - 0.95
+          - 1.2
+          underhead_fillet_min_mm: 0.1
+        studio:
+          adaptive_threshold: 0.015
+          denoise: true
+          device: auto
+          engine: cycles
+          exposure: 0.0
+          floor_colour_srgb:
+          - 0.93
+          - 0.935
+          - 0.94
+          floor_roughness: 0.55
+          framing_margin: 0.13
+          high_samples: 160
+          lights:
+          - colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+          - colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+          - colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+          low_samples: 48
+          poses:
+            isometric:
+              camera_eye:
+              - 1
+              - -1
+              - 1
+              orientation: tip down, head up
+              projection: orthographic
+            product:
+              camera_eye:
+              - -6
+              - -10
+              - 6
+              orientation: lying on side, head to left
+              projection: orthographic
+              support: Head rim and threaded shaft rest on ground; solve tilt from
+                mesh.
+              yaw_degrees: -12.0
+          seed: 7991
+          view_transform: AgX
+          world_colour:
+          - 0.78
+          - 0.82
+          - 0.9
+          world_strength: 0.35
+        units: mm
+        variants:
+          display:
+            angular_segments: 32
+            fillet_segments: 4
+            samples_per_pitch: 1
+          full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+        views:
+        - isometric
+        - front
+        - back
+        - left
+        - right
+        - top
+        - bottom
+      url_chat: https://chatgpt.com/c/69f56f92-0318-83eb-8338-d52e61c87af2
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_2:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      color_band_project_bolt_1: red
+      color_band_project_bolt_1_string: 8 mm length
+      color_band_project_bolt_2: yellow
+      color_band_project_bolt_2_string: m3
+      color_band_project_bolt_3: red
+      color_band_project_bolt_3_string: countersunk
+      color_band_string_project_bolt: colour_band_red_yellow_red
+      color_band_taxonomy_3: red
+      color_band_taxonomy_6: red
+      color_band_taxonomy_7: yellow
+      directory: parts\hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length
+      name: hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length
+      name_proper: Hardware Screw Countersunk Hex Head Black M3 Diameter 8 Mm Length
+      name_space: hardware screw countersunk hex head black m3 diameter 8 mm length
+      name_upper: HARDWARE SCREW COUNTERSUNK HEX HEAD BLACK M3 DIAMETER 8 MM LENGTH
+      oobb_details:
+        drive_style: hex_head
+        length: 8_mm_length
+        oobb_name: screw
+        screw_colour: black
+        screw_style: countersunk
+        thread_size: m3_diameter
+      oomlout_ai_roboclick_1:
+        actions:
+        - command: text_jinja_template
+          convert_to_pdf: false
+          convert_to_png: false
+          dict_data:
+            color_band_project_bolt_1: red
+            color_band_project_bolt_1_string: 8 mm length
+            color_band_project_bolt_2: yellow
+            color_band_project_bolt_2_string: m3
+            color_band_project_bolt_3: red
+            color_band_project_bolt_3_string: countersunk
+            color_band_string_project_bolt: colour_band_red_yellow_red
+            color_band_taxonomy_3: red
+            color_band_taxonomy_6: red
+            color_band_taxonomy_7: yellow
+            directory: parts\hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length
+            name: hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length
+            name_proper: Hardware Screw Countersunk Hex Head Black M3 Diameter 8 Mm
+              Length
+            name_space: hardware screw countersunk hex head black m3 diameter 8 mm
+              length
+            name_upper: HARDWARE SCREW COUNTERSUNK HEX HEAD BLACK M3 DIAMETER 8 MM
+              LENGTH
+            oobb_details:
+              drive_style: hex_head
+              length: 8_mm_length
+              oobb_name: screw
+              screw_colour: black
+              screw_style: countersunk
+              thread_size: m3_diameter
+            supplier_data:
+              aanddfasteners:
+                accepted_warnings: '["Source quantity band starts at zero; normalized
+                  minimum to one item"]'
+                captured_at: '2026-10-12T14:11:07.931731+00:00'
+                currency: GBP
+                html_sha256: 3a635ce907845aea02f8a21b0532b8aeca6c120dc47df3c917942e516a878b31
+                name: M3 x 8 Socket Countersunk Screw, steel self colour, Din 7991
+                packages: '[]'
+                parsed_at: '2026-10-18T08:57:30.120641+00:00'
+                parser_version: aanddfasteners-1.2-review-policy
+                review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+                  "statement": "Accept zero-to-one quantity normalization and low-stock
+                  notices."}'
+                review_warnings: '[]'
+                selected_by_current_filter: true
+                source_vat_basis: exclusive
+                specifications: Product information These High Tensile socket countersunk
+                  screws are made out of 10.9 steel material with a self colour black
+                  finish to Din 7991 with metric coarse thread. Measured from end
+                  to end. They are also known as FHSC (Flat head socket caps) or SKT
+                  CSK. The screw is designed to be seated into a countersunk hole,
+                  providing a flush finish. A hex key ( sometimes referred to as an
+                  Allen wrench of Allen key) or hex driver is required to tighten
+                  or loosen a socket screw. Socket screws are commonly used in assemblies
+                  that do not provide sufficient clearance for a conventional wrench
+                  or spanner. Please note that not all socket countersunk screws are
+                  fully threaded, if thread length is critical please contact us for
+                  more info.
+                status: ok
+                stock_quantity: ''
+                stock_status: ''
+                supplier: aanddfasteners
+                supplier_id: ST799103008SC
+                supplier_part_number: ST799103008SC
+                supplier_website: https://www.aanddfasteners.co.uk/shop/socket-screws/socket-countersunk/metric-din-7991-iso-10642-steel-self-colour/m3-x-8-socket-countersunk-screw-steel-self-colour-din-7991/details
+                tiers:
+                - maximum: 25
+                  minimum: 1
+                  source_text: 0 - 25 £ 0.05
+                  source_unit_price: '0.05'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0600'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 50
+                  minimum: 26
+                  source_text: 26 -50 £ 0.04
+                  source_unit_price: '0.04'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0480'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: null
+                  minimum: 51
+                  source_text: 51+ £ 0.03
+                  source_unit_price: '0.03'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0360'
+                  valid: true
+                  vat_basis: inclusive
+                total_price_1: '0.0600'
+                total_price_10: '0.6000'
+                total_price_100: '3.6000'
+                total_price_1000: '36.0000'
+                total_price_10000: '360.0000'
+                unit_price_1: '0.0600'
+                unit_price_10: '0.0600'
+                unit_price_100: '0.0360'
+                unit_price_1000: '0.0360'
+                unit_price_10000: '0.0360'
+                vat_basis: inclusive
+                vat_rate: '0.20'
+                vat_rate_checked: '2026-10-11'
+                vat_rate_source: https://www.gov.uk/vat-rates
+                warnings:
+                - Source quantity band starts at zero; normalized minimum to one item
+              accu:
+                accepted_warnings: '["Accu displayed prices are rounded; derived totals
+                  use the captured display precision", "Accu requires a quote from
+                  400 units; prices beyond that withheld", "Quantity 1000: no verified
+                  price/VAT band; price withheld", "Quantity 10000: no verified price/VAT
+                  band; price withheld"]'
+                box_quantity: ''
+                captured_at: '2026-10-11T23:27:46.852576+00:00'
+                currency: GBP
+                description: 'Countersunk Socket Head Screws feature a countersunk
+                  head type, which allows them to sit flush with their target housing.
+                  The socket head of these screws makes them ideal for use alongside
+                  Accu’s Hex Drive Bits or Allen Keys & Wrenches. Countersunk Screws
+                  are designed to be used alongside pre-drilled countersunk recesses,
+                  which can be made with the use of angle cutters called countersinks. 
+                  Countersunk Captive Fasteners Captive screw variants of Accu''s
+                  Metric Countersunk Screws are available in A2 and A4 Stainless Steel,
+                  with other materials such as thermoplastic PEEK available on request.
+                  Our range of Socket Countersunk Captive Screws are designed to be
+                  used in conjunction with Captive Washers to prevent the screws from
+                  falling out of housing assemblies and conform to EU Safety regulations.
+                  Materials Countersunk Socket Head Screws can be manufactured from
+                  a range of materials, including A2 and A4 Stainless Steel, Bumax
+                  and Aluminium options as standard. Accu also supplies Socket Countersunk
+                  Screws in 10.9 and 12.9 High Tensile Steel, with materials such
+                  as Titanium and PEEK available through our custom manufacture service.
+                  Enhance the security of your Metric Socket Countersunk Screws against
+                  vibrations and self-loosening with our pre-applied thread-locking
+                  solutions. Choose from AccuLock Threadlocker for essential fastening,
+                  Anu-Lok 180 for added robustness, or Precote 80 for high-performance
+                  locking. Elevate the aesthetics of your components with AccuBlack
+                  chemical blackening, reducing reflections and delivering a premium
+                  finish. Security Screw Variant For applications requiring a tamper-proof
+                  drive, this component is also available in a security variant, which
+                  can be found in Accu''s Security Socket Countersunk Screws range. 
+                  Metric Sizes Accu’s Metric Socket Countersunk Screws are available
+                  in thread sizes ranging from M2 to M24, and lengths from 3mm up
+                  to 200mm. Imperial Sizes Imperial Countersunk Socket Screws are
+                  also available in diameters from #0 to 7/8 inch. Lengths are available
+                  from 1/8 inch up to 10 inches. Minimum Thread Length In accordance
+                  with DIN standard 7991, Accu''s Socket Countersunk Screws are manufactured
+                  to a minimum specified thread length. Please contact us before placing
+                  your order if this dimension is critical to your application.'
+                html_sha256: 1f0be9226266d856d012031c0949c1436275e403a2145cb3f81e597f808badc4
+                name: M3 x 8mm Socket Countersunk Screws (DIN 7991) - High Tensile
+                  Steel (10.9)
+                parsed_at: '2026-10-18T08:52:11.758271+00:00'
+                parser_version: accu-1.9-base-material
+                price_inheritance: ''
+                quote_minimum: '400'
+                review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+                  "statement": "Accept rounded displayed prices, open-ended final
+                  advertised tiers, and quotes required from 400 units; quote-only
+                  prices remain blank."}'
+                review_warnings: '[]'
+                selected_by_current_filter: true
+                source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.02", "highPrice":
+                  "0.74", "priceCurrency": "GBP", "offerCount": "8", "availability":
+                  "https://schema.org/InStock", "itemCondition": "https://schema.org/NewCondition",
+                  "url": "https://www.accu.co.uk/countersunk-socket-head-screws/472022-SSK-M3-8-10-9",
+                  "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type":
+                  "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+                source_vat_basis: exclusive
+                source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user
+                  clarification", "statement": "accus prices are all ex vat", "confirmed_on":
+                  "2026-10-13"}'
+                specifications: '{"Accu Product Code (APC)": "SSK-M3-8-10.9", "Thread
+                  Size": "M3 (3 mm)", "Overall Length (L)": "8 mm", "Socket Size (J)":
+                  "2 mm", "Material": "Steel - High Tensile (10.9)", "Finish": "Natural",
+                  "Countersunk Angle (CA)": "90 Degrees (Tolerance: +2/-0 Degrees)",
+                  "Countersunk Length (H)": "1.7 mm", "Full Thread": "Yes", "Head
+                  Diameter (D)": "6 mm (Tolerance: +0/-0.3 mm)", "Hexagon Depth (P)":
+                  "1.2 mm", "Manufacturing Standard": "DIN 7991", "Material Family":
+                  "Steel", "System of Measurement": "Metric", "Thread Pitch": "0.5
+                  mm"}'
+                status: ok
+                stock_quantity: ''
+                stock_status: https://schema.org/InStock
+                supplier: accu
+                supplier_id: SSK-M3-8-10.9
+                supplier_part_number: SSK-M3-8-10.9
+                supplier_website: https://www.accu.co.uk/countersunk-socket-head-screws/472022-SSK-M3-8-10-9
+                tiers:
+                - maximum: 1
+                  minimum: 1
+                  source_text: Buy 1 £0.74
+                  source_unit_price: '0.74'
+                  source_vat_basis: exclusive
+                  unit_price: '0.8880'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 5
+                  minimum: 2
+                  source_text: Buy 2 £0.40 Save 45 %
+                  source_unit_price: '0.40'
+                  source_vat_basis: exclusive
+                  unit_price: '0.4800'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 11
+                  minimum: 6
+                  source_text: Buy 6 £0.15 Save 79 %
+                  source_unit_price: '0.15'
+                  source_vat_basis: exclusive
+                  unit_price: '0.1800'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 23
+                  minimum: 12
+                  source_text: Buy 12 £0.09 Save 87 %
+                  source_unit_price: '0.09'
+                  source_vat_basis: exclusive
+                  unit_price: '0.1080'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 49
+                  minimum: 24
+                  source_text: Buy 24 £0.06 Save 91 %
+                  source_unit_price: '0.06'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0720'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 99
+                  minimum: 50
+                  source_text: Buy 50 £0.04 Save 94 %
+                  source_unit_price: '0.04'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0480'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 199
+                  minimum: 100
+                  source_text: Buy 100 £0.03 Save 95 %
+                  source_unit_price: '0.03'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0360'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 399
+                  minimum: 200
+                  source_text: Buy 200 £0.02 Save 97 %
+                  source_unit_price: '0.02'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0240'
+                  valid: true
+                  vat_basis: inclusive
+                total_price_1: '0.8880'
+                total_price_10: '1.8000'
+                total_price_100: '3.6000'
+                total_price_1000: ''
+                total_price_10000: ''
+                unit_price_1: '0.8880'
+                unit_price_10: '0.1800'
+                unit_price_100: '0.0360'
+                unit_price_1000: ''
+                unit_price_10000: ''
+                vat_basis: inclusive
+                vat_rate: '0.20'
+                vat_rate_checked: '2026-10-11'
+                vat_rate_source: https://www.gov.uk/vat-rates
+                warnings:
+                - Accu displayed prices are rounded; derived totals use the captured
+                  display precision
+                - Accu requires a quote from 400 units; prices beyond that withheld
+                - 'Quantity 1000: no verified price/VAT band; price withheld'
+                - 'Quantity 10000: no verified price/VAT band; price withheld'
+              boltbase:
+                accepted_warnings: '["Final Bolt Base threshold has no verified upper
+                  bound; extrapolation withheld"]'
+                captured_at: '2026-10-12T02:07:25.516553+00:00'
+                currency: GBP
+                html_sha256: cfb62f86bcbba112a94580f3c3eef77aabc2c07ee0f8b85bcbd83cf145d2c108
+                name: M3 Self Colour 10.9 High Tensile Socket Countersunk Screws
+                packages: '[]'
+                parsed_at: '2026-10-18T08:56:24.925522+00:00'
+                parser_version: boltbase-1.2-review-policy
+                price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
+                  "0.02", "source_text": "Buy 5000 + - 90% Each £0.02 £0.20", "basis":
+                  "user policy 2026-10-13"}}'
+                review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+                  "statement": "For a withheld 10000-unit price, inherit the highest
+                  available lower-quantity unit price."}'
+                review_warnings: '[]'
+                selected_by_current_filter: true
+                source_vat_basis: exclusive
+                source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user
+                  clarification", "statement": "bolt base prices are ex vat", "confirmed_on":
+                  "2026-10-11"}'
+                specifications: 'Thread Size: M3 (3mm); Length (Including Head): 8mm;
+                  M3 Socket Countersunk Screws. Manufactured to DIN 7991 / ISO 10642
+                  in Self Colour ( Black ) High Tensile 10.9 Steel with a 3mm thread
+                  diameter and 0.5mm thread pitch. Socket countersunk screws are typically
+                  used when a flush fitting screw is required. Ideal when a screw
+                  with a low profile is required or for when the screw head can not
+                  protrude from the work surface. Ideal for high stress applications
+                  or for where a high strength bolt is required. These screws come
+                  mostly part threaded as standard after a certain length. Please
+                  note that these bolts offer little to no protection from rusting
+                  and are more suited for indoor use or for applications where they
+                  are protected from moisture.'
+                status: ok
+                stock_quantity: ''
+                stock_status: ''
+                supplier: boltbase
+                supplier_id: 109SCCSK-3X8
+                supplier_part_number: 109SCCSK-3X8
+                supplier_website: https://boltbase.com/products/m3-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464508973437
+                tiers:
+                - maximum: 1
+                  minimum: 1
+                  source_text: Single Screw Buy 1 For £0.20
+                  source_unit_price: '0.20'
+                  source_vat_basis: exclusive
+                  unit_price: '0.2400'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 4
+                  minimum: 2
+                  source_text: Buy 2 + - 40% Each £0.12 £0.20
+                  source_unit_price: '0.12'
+                  source_vat_basis: exclusive
+                  unit_price: '0.1440'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 9
+                  minimum: 5
+                  source_text: Buy 5 + - 49% Each £0.11 £0.20
+                  source_unit_price: '0.11'
+                  source_vat_basis: exclusive
+                  unit_price: '0.1320'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 24
+                  minimum: 10
+                  source_text: Buy 10 + - 67% Each £0.07 £0.20
+                  source_unit_price: '0.07'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0840'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 49
+                  minimum: 25
+                  source_text: Buy 25 + - 75% Each £0.05 £0.20
+                  source_unit_price: '0.05'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0600'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 99
+                  minimum: 50
+                  source_text: Buy 50 + - 77% Each £0.05 £0.20
+                  source_unit_price: '0.05'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0600'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 249
+                  minimum: 100
+                  source_text: Buy 100 + - 81% Each £0.04 £0.20
+                  source_unit_price: '0.04'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0480'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 499
+                  minimum: 250
+                  source_text: Buy 250 + - 83% Each £0.04 £0.20
+                  source_unit_price: '0.04'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0480'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 999
+                  minimum: 500
+                  source_text: Buy 500 + - 86% Each £0.03 £0.20
+                  source_unit_price: '0.03'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0360'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 4999
+                  minimum: 1000
+                  source_text: Buy 1000 + - 88% Each £0.03 £0.20
+                  source_unit_price: '0.03'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0360'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 5000
+                  minimum: 5000
+                  source_text: Buy 5000 + - 90% Each £0.02 £0.20
+                  source_unit_price: '0.02'
+                  source_vat_basis: exclusive
+                  unit_price: '0.0240'
+                  valid: true
+                  vat_basis: inclusive
+                total_price_1: '0.2400'
+                total_price_10: '0.8400'
+                total_price_100: '4.8000'
+                total_price_1000: '36.0000'
+                total_price_10000: '240.0000'
+                unit_price_1: '0.2400'
+                unit_price_10: '0.0840'
+                unit_price_100: '0.0480'
+                unit_price_1000: '0.0360'
+                unit_price_10000: '0.0240'
+                vat_basis: inclusive
+                vat_rate: '0.20'
+                vat_rate_checked: '2026-10-11'
+                vat_rate_source: https://www.gov.uk/vat-rates
+                warnings:
+                - Final Bolt Base threshold has no verified upper bound; extrapolation
+                  withheld
+              dibolt:
+                accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                  derived totals use captured display precision"]'
+                captured_at: '2026-10-13T23:09:55.271466+00:00'
+                currency: GBP
+                html_sha256: d4861c388fd02d7368f505d8f566d30ea4ed3a66f0a7b8eccbaddea86fe0e0d3
+                name: M3 x 8mm Socket Screw/Bolt, Countersunk, High Tensile Grade
+                  10.9 Self Colour, DIN 7991
+                packages: '[]'
+                parsed_at: '2026-10-18T09:02:42.123134+00:00'
+                parser_version: dibolt-1.3-missing-price-review
+                review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+                  "statement": "Accept the precision of rounded displayed per-100
+                  prices."}'
+                review_warnings: '[]'
+                selected_by_current_filter: true
+                source_vat_basis: exclusive
+                specifications: 'Thread Size: M3 (3mm); Length (L): 8mm; Head Diameter
+                  (D): 6mm; Countersunk Angle (CA): 90 Degree; Material: High Tensile
+                  (Grade 10.9); Finish: Self Colour; Countersunk Length (Max) (H):
+                  1.7mm; Hexagon Depth (P): 1.2mm; Screw Thread Pitch: 0.5mm; Socket
+                  Size (J): 2mm; Manufacturing Standard: DIN 7991; Material Specification:
+                  High Tensile (Grade 10.9); Metric or Imperial?: Metric'
+                status: ok
+                stock_quantity: ''
+                stock_status: ''
+                supplier: dibolt
+                supplier_id: 10170.030.008
+                supplier_part_number: 10170.030.008
+                supplier_website: https://dibolt.co.uk/products/m3-x-8mm-socket-screw-bolt-countersunk-high-tensile-grade-10-9-self-colour-din-799
+                tiers:
+                - maximum: 199
+                  minimum: 1
+                  source_text: 1 - 199 £2.97 Per 100 Units
+                  source_unit_price: '0.0297'
+                  source_vat_basis: exclusive
+                  unit_price: '0.035640'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 999
+                  minimum: 200
+                  source_text: 200 - 999 £1.65 Per 100 Units
+                  source_unit_price: '0.0165'
+                  source_vat_basis: exclusive
+                  unit_price: '0.019800'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: null
+                  minimum: 1000
+                  source_text: 1,000+ £1.49 Per 100 Units
+                  source_unit_price: '0.0149'
+                  source_vat_basis: exclusive
+                  unit_price: '0.017880'
+                  valid: true
+                  vat_basis: inclusive
+                total_price_1: '0.035640'
+                total_price_10: '0.356400'
+                total_price_100: '3.564000'
+                total_price_1000: '17.880000'
+                total_price_10000: '178.800000'
+                unit_price_1: '0.035640'
+                unit_price_10: '0.035640'
+                unit_price_100: '0.035640'
+                unit_price_1000: '0.017880'
+                unit_price_10000: '0.017880'
+                vat_basis: inclusive
+                vat_rate: '0.20'
+                vat_rate_checked: '2026-10-11'
+                vat_rate_source: https://www.gov.uk/vat-rates
+                warnings:
+                - Dibolt per-100 displayed prices are rounded; derived totals use
+                  captured display precision
+              kayfast:
+                accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                  derived totals use captured display precision"]'
+                captured_at: '2026-10-14T12:40:21.162040+00:00'
+                currency: GBP
+                family_description: Metric coarse threads. High tensile grade 10.9
+                  Self colour plain finish. Manufactured to DIN 7991 Screw lengths
+                  include the head. All sizes are fully threaded.
+                family_heading: COUNTERSUNK SOCKET SCREWS HIGH TENSILE 10.9 SELF COLOUR
+                html_sha256: 2fcc9e7a872c62b040c6efc914e2a2a00c0cb3a4b51273a79e67023fed55d0f6
+                name: M3 x 8mm COUNTERSUNK SOCKET SCREWS DIN 7991 HIGH TENSILE 10.9
+                  SELF COLOUR
+                packages: '[]'
+                parsed_at: '2026-10-18T09:30:01.690049+00:00'
+                parser_version: kayfast-1.6-family-description
+                price_breaks_description: M3 x 8mm COUNTERSUNK SOCKET SCREWS DIN 7991
+                  HIGH TENSILE 10.9 SELF COLOUR
+                review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+                  "statement": "Use the exact row dropdown price per 100 divided by
+                  100 with Decimal precision; accept the captured per-100 display
+                  precision."}'
+                review_warnings: '[]'
+                selected_by_current_filter: true
+                source_vat_basis: exclusive
+                source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user
+                  clarification", "statement": "Kayfast prices are ex VAT.", "confirmed_on":
+                  "2026-10-17"}'
+                specifications: COUNTERSUNK SOCKET SCREWS HIGH TENSILE 10.9 SELF COLOUR;
+                  Metric coarse threads. High tensile grade 10.9 Self colour plain
+                  finish. Manufactured to DIN 7991 Screw lengths include the head.
+                  All sizes are fully threaded.
+                status: ok
+                stock_quantity: ''
+                stock_status: ''
+                supplier: kayfast
+                supplier_id: M3-x-8mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+                supplier_id_basis: exact dimensional row description; spaces replaced
+                  by hyphens (user clarification 2026-10-11)
+                supplier_part_number: M3-x-8mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+                supplier_website: https://www.kayfast.co.uk/view-product/COUNTERSUNK-SOCKET-SCREWS-HIGH-TENSILE-109-SELF-COLOUR
+                tiers:
+                - maximum: 199
+                  minimum: 1
+                  source_price_per_100: '3.51'
+                  source_price_quantity: 100
+                  source_text: QTY 1 - 199 @ £3.51 per 100
+                  source_unit_price: '0.0351'
+                  source_vat_basis: exclusive
+                  unit_price: '0.042120'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 999
+                  minimum: 200
+                  source_price_per_100: '2.92'
+                  source_price_quantity: 100
+                  source_text: QTY 200 -  999 @ £2.92 per 100
+                  source_unit_price: '0.0292'
+                  source_vat_basis: exclusive
+                  unit_price: '0.035040'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: null
+                  minimum: 1000
+                  source_price_per_100: '2.10'
+                  source_price_quantity: 100
+                  source_text: QTY 1000 + @ £2.10 per 100
+                  source_unit_price: '0.021'
+                  source_vat_basis: exclusive
+                  unit_price: '0.02520'
+                  valid: true
+                  vat_basis: inclusive
+                total_price_1: '0.042120'
+                total_price_10: '0.421200'
+                total_price_100: '4.212000'
+                total_price_1000: '25.20000'
+                total_price_10000: '252.00000'
+                unit_price_1: '0.042120'
+                unit_price_10: '0.042120'
+                unit_price_100: '0.042120'
+                unit_price_1000: '0.02520'
+                unit_price_10000: '0.02520'
+                vat_basis: inclusive
+                vat_rate: '0.20'
+                vat_rate_checked: '2026-10-11'
+                vat_rate_source: https://www.gov.uk/vat-rates
+                warnings:
+                - Kayfast per-100 displayed prices are rounded; derived totals use
+                  captured display precision
+              orbitalfasteners:
+                accepted_warnings: '[]'
+                box_quantity: '200'
+                captured_at: '2026-10-18T08:40:08.699298+00:00'
+                catalogue_page: '80'
+                currency: GBP
+                description: Fully threaded. *Guide only, some variation possible.
+                  (Contact us before ordering if this information is important)
+                html_sha256: 17e5a35370a908338fcabc21c5b030df64287277cf66bf36aa919e09fdd5b8fe
+                name: M3 x 8 Socket Screw, Countersunk, High Tensile Grade 10.9 Self
+                  Colour, DIN 7991
+                parsed_at: '2026-10-18T08:49:29.019253+00:00'
+                parser_version: 1.2-review-policy
+                review_policy: ''
+                review_warnings: '[]'
+                selected_by_current_filter: true
+                source_vat_basis: inclusive
+                status: ok
+                stock_as_of: 16th October 2026 10:01pm
+                stock_quantity: '1946'
+                supplier: orbitalfasteners
+                supplier_id: '1901010'
+                supplier_part_number: '1901010'
+                supplier_website: https://www.orbitalfasteners.co.uk/products/m3-x-8-socket-screw-countersunk-high-tensile-grade-10-9-self-colour-din-7991
+                tiers:
+                - maximum: 199
+                  minimum: 1
+                  source_text: 1 - 199 £0.0286 Inc. VAT £2.86 Inc. VAT
+                  source_unit_price: '0.0286'
+                  source_vat_basis: inclusive
+                  unit_price: '0.0286'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 999
+                  minimum: 200
+                  source_text: 200 - 999 £0.0158 Inc. VAT £1.58 Inc. VAT
+                  source_unit_price: '0.0158'
+                  source_vat_basis: inclusive
+                  unit_price: '0.0158'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: 4799
+                  minimum: 1000
+                  source_text: 1000 - 4799 £0.0143 Inc. VAT £1.43 Inc. VAT
+                  source_unit_price: '0.0143'
+                  source_vat_basis: inclusive
+                  unit_price: '0.0143'
+                  valid: true
+                  vat_basis: inclusive
+                - maximum: null
+                  minimum: 4800
+                  source_text: 4800 + £0.0127 Inc. VAT £1.27 Inc. VAT
+                  source_unit_price: '0.0127'
+                  source_vat_basis: inclusive
+                  unit_price: '0.0127'
+                  valid: true
+                  vat_basis: inclusive
+                total_price_1: '0.0286'
+                total_price_10: '0.2860'
+                total_price_100: '2.8600'
+                total_price_1000: '14.3000'
+                total_price_10000: '127.0000'
+                unit_price_1: '0.0286'
+                unit_price_10: '0.0286'
+                unit_price_100: '0.0286'
+                unit_price_1000: '0.0143'
+                unit_price_10000: '0.0127'
+                vat_basis: inclusive
+                vat_rate: '0.20'
+                vat_rate_checked: '2026-10-11'
+                vat_rate_source: https://www.gov.uk/vat-rates
+                warnings: []
+            svg_details:
+              diameter_mm: 3.0
+              drive_style: hex_head
+              drive_symbol_gap_mm: 1.7999999999999998
+              head_diameter_mm: 6.0
+              head_rim_mm: 0.22499999999999998
+              length_mm: 8.0
+              screw_style: countersunk
+              socket_depth_mm: 0.9750000000000001
+              socket_width_mm: 1.9500000000000002
+              stylesheet: project_bolt
+              svg_name: screw_diagrams
+              thread_pitch_mm: 0.5
+              variants:
+                plain: diagram_plain.svg
+                solid: diagram_solid.svg
+                threaded: diagram_threaded.svg
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: countersunk
+            taxonomy_4: hex_head
+            taxonomy_5: black
+            taxonomy_6: m3_diameter
+            taxonomy_7: 8_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+              checked_on: '2026-10-11'
+              coordinate_system:
+                axis: +Z towards head
+                glb_units: metres
+                glb_up_axis: Y
+                head_top_z_mm: 8.0
+                origin: tip centre
+                stl_units: mm
+              dimension_status: standard_dimensions
+              dimensional_specification: DIN 7991:1986-01
+              generator: din_7991_countersunk
+              length_status: standard_length
+              material:
+                base_colour_srgb:
+                - 0.205
+                - 0.218
+                - 0.235
+                coat_roughness: 0.28
+                coat_weight: 0.08
+                metallic: 0.8
+                microtexture_height_um: 0.8
+                microtexture_spacing_mm: 0.025
+                name: Black oxide steel
+                note: Visual finish approximation; catalogue specifies colour only.
+                roughness: 0.31
+                roughness_variation: 0.045
+              model_formats:
+              - stl
+              - glb
+              modelling_choices:
+                certification: Standards-based nominal catalogue geometry, not a tolerance-gauged
+                  manufacturing certification.
+                dimension_selection: Nominal/max head and shaft, midpoint socket limits
+                  for M3/M4.
+                display: Smooth nominal-diameter thread envelope; lower tessellation,
+                  same head/recess/end dimensions.
+                head_rim: Approximate DIN c reference reduced by r*tan(22.5 degrees)
+                  so the fillet fits within k max.
+                markings: 'Manufacturer identity and property-class stamps omitted:
+                  catalogue does not identify them.'
+                runout: One pitch taper to nominal shaft diameter; maximum incomplete
+                  thread is 2P.
+                size_note: DIN 7991:1986 dimensional row.
+                socket: Flat bottom hex socket with permissible circular mouth countersink
+                  within hex corners.
+                thread: ISO metric nominal external profile; rounded root R=H/6; no
+                  ISO 965 tolerance offsets.
+                tip: 45 degree tip chamfer of P/2; selected end form under DIN 78.
+              output_folder: three_d_model
+              parameters:
+                countersink_angle_deg: 90.0
+                diameter_mm: 3.0
+                fillet_start_z_mm: 6.3
+                finish: black
+                grip_length_mm: 2.2
+                handedness: right
+                head_diameter_mm: 6.0
+                head_height_mm: 1.7
+                head_rim_mm: 0.15857864376269046
+                head_rim_reference_mm: 0.2
+                hex_key_mm: 2.0
+                length_mm: 8.0
+                partial_thread_from_length_mm: 25
+                pitch_mm: 0.5
+                shank_length_min_mm: 0
+                socket_across_flats_mm: 2.06
+                socket_depth_mm: 1.075
+                thread_end_z_mm: 6.3
+                thread_flank_angle_deg: 60.0
+                thread_length_mm: 5.8
+                thread_length_reference_mm: 12
+                thread_minor_diameter_mm: 2.3865653389860224
+                thread_mode: full_to_head
+                thread_pitch_diameter_mm: 2.6752404735808355
+                thread_root_radius_mm: 0.07216878364870322
+                thread_runout_mm: 0.5
+                thread_starts: 1
+                tip_chamfer_mm: 0.25
+                underhead_fillet_mm: 0.1
+              renders:
+                high:
+                  file: render_high.png
+                  pixels: 2048
+                  variant: full
+                  view: isometric
+                low:
+                  file: render_low.png
+                  pixels: 512
+                  variant: display
+                  view: isometric
+                product_high:
+                  file: render_product_high.png
+                  pixels: 2048
+                  variant: full
+                  view: product
+                product_low:
+                  file: render_product_low.png
+                  pixels: 512
+                  variant: display
+                  view: product
+              schema_version: 1
+              sources:
+              - title: DIN 7991 January 1986, pages 1–3 (standard scan)
+                url: https://www.finesz.com/pic/DIN7991.pdf
+                use: Scope, head geometry, dimensional limits and shank/grip length
+                  table.
+              - title: Böllhoff DIN 7991 product dimensional sheet
+                url: https://eshop.boellhoff.de/out/media/pdf/DIN_7991_Edelstahl_A4___en.pdf
+                use: Independent supplier check of M3/M4 dimensions.
+              - title: Newstar Fastenings M2 x 4 DIN 7991 commercial extension
+                url: https://www.newstarfastenings.com/en-gb/products/m2-x-4-socket-countersunk-din-7991-a4-stainless-steel
+                use: M2 pitch, head diameter/height, hex key and minimum penetration.
+              - title: Bossard BN 20 supplier drawing and size table
+                url: https://www.laskakit.cz/user/related_files/30112021090237-din7991ocel.pdf
+                use: Black M2 extension, M3 x 5/x 6/x 35 and M4 x 6 commercial lengths;
+                  M2 explicitly outside DIN scope.
+              - title: Newstar Fastenings M3 x 4 commercial short screw
+                url: https://www.newstarfastenings.com/en-gb/products/m3-x-4-socket-countersunk-din-7991-a4-stainless-steel
+                use: Confirms standard M3 head, key and pitch for the nonstandard
+                  4 mm overall length.
+              - title: ISO 68-1 external metric thread profile
+                url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                use: 60 degree metric thread basic profile.
+              standard: DIN 7991:1986-01
+              standard_lengths_mm:
+              - 8
+              - 10
+              - 12
+              - 16
+              - 20
+              - 25
+              - 30
+              standard_limits:
+                countersink_angle_deg:
+                - 90
+                - 92
+                head_diameter_mm:
+                - 5.7
+                - 6.0
+                head_height_max_mm: 1.7
+                shank_diameter_mm:
+                - 2.86
+                - 3.0
+                socket_across_corners_min_mm: 2.3
+                socket_across_flats_mm:
+                - 2.02
+                - 2.1
+                socket_depth_mm:
+                - 0.95
+                - 1.2
+                underhead_fillet_min_mm: 0.1
+              studio:
+                adaptive_threshold: 0.015
+                denoise: true
+                device: auto
+                engine: cycles
+                exposure: 0.0
+                floor_colour_srgb:
+                - 0.93
+                - 0.935
+                - 0.94
+                floor_roughness: 0.55
+                framing_margin: 0.13
+                high_samples: 160
+                lights:
+                - colour:
+                  - 1.0
+                  - 0.96
+                  - 0.9
+                  height: 5.0
+                  name: Key softbox
+                  position:
+                  - -3
+                  - -4
+                  - 6
+                  power: 650.0
+                  width: 4.0
+                - colour:
+                  - 0.9
+                  - 0.95
+                  - 1.0
+                  height: 4.0
+                  name: Fill softbox
+                  position:
+                  - 4
+                  - -1
+                  - 3
+                  power: 330.0
+                  width: 3.0
+                - colour:
+                  - 1.0
+                  - 1.0
+                  - 1.0
+                  height: 5.0
+                  name: Rim strip
+                  position:
+                  - 1
+                  - 4
+                  - 4
+                  power: 850.0
+                  width: 1.2
+                low_samples: 48
+                poses:
+                  isometric:
+                    camera_eye:
+                    - 1
+                    - -1
+                    - 1
+                    orientation: tip down, head up
+                    projection: orthographic
+                  product:
+                    camera_eye:
+                    - -6
+                    - -10
+                    - 6
+                    orientation: lying on side, head to left
+                    projection: orthographic
+                    support: Head rim and threaded shaft rest on ground; solve tilt
+                      from mesh.
+                    yaw_degrees: -12.0
+                seed: 7991
+                view_transform: AgX
+                world_colour:
+                - 0.78
+                - 0.82
+                - 0.9
+                world_strength: 0.35
+              units: mm
+              variants:
+                display:
+                  angular_segments: 32
+                  fillet_segments: 4
+                  samples_per_pitch: 1
+                full:
+                  angular_segments: 96
+                  fillet_segments: 12
+                  samples_per_pitch: 32
+              views:
+              - isometric
+              - front
+              - back
+              - left
+              - right
+              - top
+              - bottom
+            url_chat: https://chatgpt.com/c/69f56f92-0318-83eb-8338-d52e61c87af2
+          dict_data_files: {}
+          dict_data_files_exists: {}
+          file_output: label_oomp.svg
+          file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+          search_and_replace: []
+        file_test: label_oomp.pdf
+        retries_until_complete: 0
+      supplier_data:
+        aanddfasteners:
+          accepted_warnings: '["Source quantity band starts at zero; normalized minimum
+            to one item"]'
+          captured_at: '2026-10-12T14:11:07.931731+00:00'
+          currency: GBP
+          html_sha256: 3a635ce907845aea02f8a21b0532b8aeca6c120dc47df3c917942e516a878b31
+          name: M3 x 8 Socket Countersunk Screw, steel self colour, Din 7991
+          packages: '[]'
+          parsed_at: '2026-10-18T08:57:30.120641+00:00'
+          parser_version: aanddfasteners-1.2-review-policy
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept zero-to-one quantity normalization and low-stock
+            notices."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          specifications: Product information These High Tensile socket countersunk
+            screws are made out of 10.9 steel material with a self colour black finish
+            to Din 7991 with metric coarse thread. Measured from end to end. They
+            are also known as FHSC (Flat head socket caps) or SKT CSK. The screw is
+            designed to be seated into a countersunk hole, providing a flush finish.
+            A hex key ( sometimes referred to as an Allen wrench of Allen key) or
+            hex driver is required to tighten or loosen a socket screw. Socket screws
+            are commonly used in assemblies that do not provide sufficient clearance
+            for a conventional wrench or spanner. Please note that not all socket
+            countersunk screws are fully threaded, if thread length is critical please
+            contact us for more info.
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: aanddfasteners
+          supplier_id: ST799103008SC
+          supplier_part_number: ST799103008SC
+          supplier_website: https://www.aanddfasteners.co.uk/shop/socket-screws/socket-countersunk/metric-din-7991-iso-10642-steel-self-colour/m3-x-8-socket-countersunk-screw-steel-self-colour-din-7991/details
+          tiers:
+          - maximum: 25
+            minimum: 1
+            source_text: 0 - 25 £ 0.05
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 50
+            minimum: 26
+            source_text: 26 -50 £ 0.04
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 51
+            source_text: 51+ £ 0.03
+            source_unit_price: '0.03'
+            source_vat_basis: exclusive
+            unit_price: '0.0360'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.0600'
+          total_price_10: '0.6000'
+          total_price_100: '3.6000'
+          total_price_1000: '36.0000'
+          total_price_10000: '360.0000'
+          unit_price_1: '0.0600'
+          unit_price_10: '0.0600'
+          unit_price_100: '0.0360'
+          unit_price_1000: '0.0360'
+          unit_price_10000: '0.0360'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Source quantity band starts at zero; normalized minimum to one item
+        accu:
+          accepted_warnings: '["Accu displayed prices are rounded; derived totals
+            use the captured display precision", "Accu requires a quote from 400 units;
+            prices beyond that withheld", "Quantity 1000: no verified price/VAT band;
+            price withheld", "Quantity 10000: no verified price/VAT band; price withheld"]'
+          box_quantity: ''
+          captured_at: '2026-10-11T23:27:46.852576+00:00'
+          currency: GBP
+          description: 'Countersunk Socket Head Screws feature a countersunk head
+            type, which allows them to sit flush with their target housing. The socket
+            head of these screws makes them ideal for use alongside Accu’s Hex Drive
+            Bits or Allen Keys & Wrenches. Countersunk Screws are designed to be used
+            alongside pre-drilled countersunk recesses, which can be made with the
+            use of angle cutters called countersinks.  Countersunk Captive Fasteners
+            Captive screw variants of Accu''s Metric Countersunk Screws are available
+            in A2 and A4 Stainless Steel, with other materials such as thermoplastic
+            PEEK available on request. Our range of Socket Countersunk Captive Screws
+            are designed to be used in conjunction with Captive Washers to prevent
+            the screws from falling out of housing assemblies and conform to EU Safety
+            regulations. Materials Countersunk Socket Head Screws can be manufactured
+            from a range of materials, including A2 and A4 Stainless Steel, Bumax
+            and Aluminium options as standard. Accu also supplies Socket Countersunk
+            Screws in 10.9 and 12.9 High Tensile Steel, with materials such as Titanium
+            and PEEK available through our custom manufacture service. Enhance the
+            security of your Metric Socket Countersunk Screws against vibrations and
+            self-loosening with our pre-applied thread-locking solutions. Choose from
+            AccuLock Threadlocker for essential fastening, Anu-Lok 180 for added robustness,
+            or Precote 80 for high-performance locking. Elevate the aesthetics of
+            your components with AccuBlack chemical blackening, reducing reflections
+            and delivering a premium finish. Security Screw Variant For applications
+            requiring a tamper-proof drive, this component is also available in a
+            security variant, which can be found in Accu''s Security Socket Countersunk
+            Screws range.  Metric Sizes Accu’s Metric Socket Countersunk Screws are
+            available in thread sizes ranging from M2 to M24, and lengths from 3mm
+            up to 200mm. Imperial Sizes Imperial Countersunk Socket Screws are also
+            available in diameters from #0 to 7/8 inch. Lengths are available from
+            1/8 inch up to 10 inches. Minimum Thread Length In accordance with DIN
+            standard 7991, Accu''s Socket Countersunk Screws are manufactured to a
+            minimum specified thread length. Please contact us before placing your
+            order if this dimension is critical to your application.'
+          html_sha256: 1f0be9226266d856d012031c0949c1436275e403a2145cb3f81e597f808badc4
+          name: M3 x 8mm Socket Countersunk Screws (DIN 7991) - High Tensile Steel
+            (10.9)
+          parsed_at: '2026-10-18T08:52:11.758271+00:00'
+          parser_version: accu-1.9-base-material
+          price_inheritance: ''
+          quote_minimum: '400'
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept rounded displayed prices, open-ended final advertised
+            tiers, and quotes required from 400 units; quote-only prices remain blank."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.02", "highPrice":
+            "0.74", "priceCurrency": "GBP", "offerCount": "8", "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/countersunk-socket-head-screws/472022-SSK-M3-8-10-9",
+            "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type":
+            "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+          source_vat_basis: exclusive
+          source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "accus prices are all ex vat", "confirmed_on": "2026-10-13"}'
+          specifications: '{"Accu Product Code (APC)": "SSK-M3-8-10.9", "Thread Size":
+            "M3 (3 mm)", "Overall Length (L)": "8 mm", "Socket Size (J)": "2 mm",
+            "Material": "Steel - High Tensile (10.9)", "Finish": "Natural", "Countersunk
+            Angle (CA)": "90 Degrees (Tolerance: +2/-0 Degrees)", "Countersunk Length
+            (H)": "1.7 mm", "Full Thread": "Yes", "Head Diameter (D)": "6 mm (Tolerance:
+            +0/-0.3 mm)", "Hexagon Depth (P)": "1.2 mm", "Manufacturing Standard":
+            "DIN 7991", "Material Family": "Steel", "System of Measurement": "Metric",
+            "Thread Pitch": "0.5 mm"}'
+          status: ok
+          stock_quantity: ''
+          stock_status: https://schema.org/InStock
+          supplier: accu
+          supplier_id: SSK-M3-8-10.9
+          supplier_part_number: SSK-M3-8-10.9
+          supplier_website: https://www.accu.co.uk/countersunk-socket-head-screws/472022-SSK-M3-8-10-9
+          tiers:
+          - maximum: 1
+            minimum: 1
+            source_text: Buy 1 £0.74
+            source_unit_price: '0.74'
+            source_vat_basis: exclusive
+            unit_price: '0.8880'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 5
+            minimum: 2
+            source_text: Buy 2 £0.40 Save 45 %
+            source_unit_price: '0.40'
+            source_vat_basis: exclusive
+            unit_price: '0.4800'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 11
+            minimum: 6
+            source_text: Buy 6 £0.15 Save 79 %
+            source_unit_price: '0.15'
+            source_vat_basis: exclusive
+            unit_price: '0.1800'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 23
+            minimum: 12
+            source_text: Buy 12 £0.09 Save 87 %
+            source_unit_price: '0.09'
+            source_vat_basis: exclusive
+            unit_price: '0.1080'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 49
+            minimum: 24
+            source_text: Buy 24 £0.06 Save 91 %
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 99
+            minimum: 50
+            source_text: Buy 50 £0.04 Save 94 %
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 199
+            minimum: 100
+            source_text: Buy 100 £0.03 Save 95 %
+            source_unit_price: '0.03'
+            source_vat_basis: exclusive
+            unit_price: '0.0360'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 399
+            minimum: 200
+            source_text: Buy 200 £0.02 Save 97 %
+            source_unit_price: '0.02'
+            source_vat_basis: exclusive
+            unit_price: '0.0240'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.8880'
+          total_price_10: '1.8000'
+          total_price_100: '3.6000'
+          total_price_1000: ''
+          total_price_10000: ''
+          unit_price_1: '0.8880'
+          unit_price_10: '0.1800'
+          unit_price_100: '0.0360'
+          unit_price_1000: ''
+          unit_price_10000: ''
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Accu displayed prices are rounded; derived totals use the captured display
+            precision
+          - Accu requires a quote from 400 units; prices beyond that withheld
+          - 'Quantity 1000: no verified price/VAT band; price withheld'
+          - 'Quantity 10000: no verified price/VAT band; price withheld'
+        boltbase:
+          accepted_warnings: '["Final Bolt Base threshold has no verified upper bound;
+            extrapolation withheld"]'
+          captured_at: '2026-10-12T02:07:25.516553+00:00'
+          currency: GBP
+          html_sha256: cfb62f86bcbba112a94580f3c3eef77aabc2c07ee0f8b85bcbd83cf145d2c108
+          name: M3 Self Colour 10.9 High Tensile Socket Countersunk Screws
+          packages: '[]'
+          parsed_at: '2026-10-18T08:56:24.925522+00:00'
+          parser_version: boltbase-1.2-review-policy
+          price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price":
+            "0.02", "source_text": "Buy 5000 + - 90% Each £0.02 £0.20", "basis": "user
+            policy 2026-10-13"}}'
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "For a withheld 10000-unit price, inherit the highest available
+            lower-quantity unit price."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+          specifications: 'Thread Size: M3 (3mm); Length (Including Head): 8mm; M3
+            Socket Countersunk Screws. Manufactured to DIN 7991 / ISO 10642 in Self
+            Colour ( Black ) High Tensile 10.9 Steel with a 3mm thread diameter and
+            0.5mm thread pitch. Socket countersunk screws are typically used when
+            a flush fitting screw is required. Ideal when a screw with a low profile
+            is required or for when the screw head can not protrude from the work
+            surface. Ideal for high stress applications or for where a high strength
+            bolt is required. These screws come mostly part threaded as standard after
+            a certain length. Please note that these bolts offer little to no protection
+            from rusting and are more suited for indoor use or for applications where
+            they are protected from moisture.'
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: boltbase
+          supplier_id: 109SCCSK-3X8
+          supplier_part_number: 109SCCSK-3X8
+          supplier_website: https://boltbase.com/products/m3-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464508973437
+          tiers:
+          - maximum: 1
+            minimum: 1
+            source_text: Single Screw Buy 1 For £0.20
+            source_unit_price: '0.20'
+            source_vat_basis: exclusive
+            unit_price: '0.2400'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4
+            minimum: 2
+            source_text: Buy 2 + - 40% Each £0.12 £0.20
+            source_unit_price: '0.12'
+            source_vat_basis: exclusive
+            unit_price: '0.1440'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 9
+            minimum: 5
+            source_text: Buy 5 + - 49% Each £0.11 £0.20
+            source_unit_price: '0.11'
+            source_vat_basis: exclusive
+            unit_price: '0.1320'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 24
+            minimum: 10
+            source_text: Buy 10 + - 67% Each £0.07 £0.20
+            source_unit_price: '0.07'
+            source_vat_basis: exclusive
+            unit_price: '0.0840'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 49
+            minimum: 25
+            source_text: Buy 25 + - 75% Each £0.05 £0.20
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 99
+            minimum: 50
+            source_text: Buy 50 + - 77% Each £0.05 £0.20
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 249
+            minimum: 100
+            source_text: Buy 100 + - 81% Each £0.04 £0.20
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 499
+            minimum: 250
+            source_text: Buy 250 + - 83% Each £0.04 £0.20
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 500
+            source_text: Buy 500 + - 86% Each £0.03 £0.20
+            source_unit_price: '0.03'
+            source_vat_basis: exclusive
+            unit_price: '0.0360'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4999
+            minimum: 1000
+            source_text: Buy 1000 + - 88% Each £0.03 £0.20
+            source_unit_price: '0.03'
+            source_vat_basis: exclusive
+            unit_price: '0.0360'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 5000
+            minimum: 5000
+            source_text: Buy 5000 + - 90% Each £0.02 £0.20
+            source_unit_price: '0.02'
+            source_vat_basis: exclusive
+            unit_price: '0.0240'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.2400'
+          total_price_10: '0.8400'
+          total_price_100: '4.8000'
+          total_price_1000: '36.0000'
+          total_price_10000: '240.0000'
+          unit_price_1: '0.2400'
+          unit_price_10: '0.0840'
+          unit_price_100: '0.0480'
+          unit_price_1000: '0.0360'
+          unit_price_10000: '0.0240'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+        dibolt:
+          accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+          captured_at: '2026-10-13T23:09:55.271466+00:00'
+          currency: GBP
+          html_sha256: d4861c388fd02d7368f505d8f566d30ea4ed3a66f0a7b8eccbaddea86fe0e0d3
+          name: M3 x 8mm Socket Screw/Bolt, Countersunk, High Tensile Grade 10.9 Self
+            Colour, DIN 7991
+          packages: '[]'
+          parsed_at: '2026-10-18T09:02:42.123134+00:00'
+          parser_version: dibolt-1.3-missing-price-review
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept the precision of rounded displayed per-100 prices."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          specifications: 'Thread Size: M3 (3mm); Length (L): 8mm; Head Diameter (D):
+            6mm; Countersunk Angle (CA): 90 Degree; Material: High Tensile (Grade
+            10.9); Finish: Self Colour; Countersunk Length (Max) (H): 1.7mm; Hexagon
+            Depth (P): 1.2mm; Screw Thread Pitch: 0.5mm; Socket Size (J): 2mm; Manufacturing
+            Standard: DIN 7991; Material Specification: High Tensile (Grade 10.9);
+            Metric or Imperial?: Metric'
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: dibolt
+          supplier_id: 10170.030.008
+          supplier_part_number: 10170.030.008
+          supplier_website: https://dibolt.co.uk/products/m3-x-8mm-socket-screw-bolt-countersunk-high-tensile-grade-10-9-self-colour-din-799
+          tiers:
+          - maximum: 199
+            minimum: 1
+            source_text: 1 - 199 £2.97 Per 100 Units
+            source_unit_price: '0.0297'
+            source_vat_basis: exclusive
+            unit_price: '0.035640'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 200
+            source_text: 200 - 999 £1.65 Per 100 Units
+            source_unit_price: '0.0165'
+            source_vat_basis: exclusive
+            unit_price: '0.019800'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 1000
+            source_text: 1,000+ £1.49 Per 100 Units
+            source_unit_price: '0.0149'
+            source_vat_basis: exclusive
+            unit_price: '0.017880'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.035640'
+          total_price_10: '0.356400'
+          total_price_100: '3.564000'
+          total_price_1000: '17.880000'
+          total_price_10000: '178.800000'
+          unit_price_1: '0.035640'
+          unit_price_10: '0.035640'
+          unit_price_100: '0.035640'
+          unit_price_1000: '0.017880'
+          unit_price_10000: '0.017880'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Dibolt per-100 displayed prices are rounded; derived totals use captured
+            display precision
+        kayfast:
+          accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+          captured_at: '2026-10-14T12:40:21.162040+00:00'
+          currency: GBP
+          family_description: Metric coarse threads. High tensile grade 10.9 Self
+            colour plain finish. Manufactured to DIN 7991 Screw lengths include the
+            head. All sizes are fully threaded.
+          family_heading: COUNTERSUNK SOCKET SCREWS HIGH TENSILE 10.9 SELF COLOUR
+          html_sha256: 2fcc9e7a872c62b040c6efc914e2a2a00c0cb3a4b51273a79e67023fed55d0f6
+          name: M3 x 8mm COUNTERSUNK SOCKET SCREWS DIN 7991 HIGH TENSILE 10.9 SELF
+            COLOUR
+          packages: '[]'
+          parsed_at: '2026-10-18T09:30:01.690049+00:00'
+          parser_version: kayfast-1.6-family-description
+          price_breaks_description: M3 x 8mm COUNTERSUNK SOCKET SCREWS DIN 7991 HIGH
+            TENSILE 10.9 SELF COLOUR
+          review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+            "statement": "Use the exact row dropdown price per 100 divided by 100
+            with Decimal precision; accept the captured per-100 display precision."}'
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: exclusive
+          source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+          specifications: COUNTERSUNK SOCKET SCREWS HIGH TENSILE 10.9 SELF COLOUR;
+            Metric coarse threads. High tensile grade 10.9 Self colour plain finish.
+            Manufactured to DIN 7991 Screw lengths include the head. All sizes are
+            fully threaded.
+          status: ok
+          stock_quantity: ''
+          stock_status: ''
+          supplier: kayfast
+          supplier_id: M3-x-8mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+          supplier_id_basis: exact dimensional row description; spaces replaced by
+            hyphens (user clarification 2026-10-11)
+          supplier_part_number: M3-x-8mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+          supplier_website: https://www.kayfast.co.uk/view-product/COUNTERSUNK-SOCKET-SCREWS-HIGH-TENSILE-109-SELF-COLOUR
+          tiers:
+          - maximum: 199
+            minimum: 1
+            source_price_per_100: '3.51'
+            source_price_quantity: 100
+            source_text: QTY 1 - 199 @ £3.51 per 100
+            source_unit_price: '0.0351'
+            source_vat_basis: exclusive
+            unit_price: '0.042120'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 200
+            source_price_per_100: '2.92'
+            source_price_quantity: 100
+            source_text: QTY 200 -  999 @ £2.92 per 100
+            source_unit_price: '0.0292'
+            source_vat_basis: exclusive
+            unit_price: '0.035040'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 1000
+            source_price_per_100: '2.10'
+            source_price_quantity: 100
+            source_text: QTY 1000 + @ £2.10 per 100
+            source_unit_price: '0.021'
+            source_vat_basis: exclusive
+            unit_price: '0.02520'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.042120'
+          total_price_10: '0.421200'
+          total_price_100: '4.212000'
+          total_price_1000: '25.20000'
+          total_price_10000: '252.00000'
+          unit_price_1: '0.042120'
+          unit_price_10: '0.042120'
+          unit_price_100: '0.042120'
+          unit_price_1000: '0.02520'
+          unit_price_10000: '0.02520'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings:
+          - Kayfast per-100 displayed prices are rounded; derived totals use captured
+            display precision
+        orbitalfasteners:
+          accepted_warnings: '[]'
+          box_quantity: '200'
+          captured_at: '2026-10-18T08:40:08.699298+00:00'
+          catalogue_page: '80'
+          currency: GBP
+          description: Fully threaded. *Guide only, some variation possible. (Contact
+            us before ordering if this information is important)
+          html_sha256: 17e5a35370a908338fcabc21c5b030df64287277cf66bf36aa919e09fdd5b8fe
+          name: M3 x 8 Socket Screw, Countersunk, High Tensile Grade 10.9 Self Colour,
+            DIN 7991
+          parsed_at: '2026-10-18T08:49:29.019253+00:00'
+          parser_version: 1.2-review-policy
+          review_policy: ''
+          review_warnings: '[]'
+          selected_by_current_filter: true
+          source_vat_basis: inclusive
+          status: ok
+          stock_as_of: 16th October 2026 10:01pm
+          stock_quantity: '1946'
+          supplier: orbitalfasteners
+          supplier_id: '1901010'
+          supplier_part_number: '1901010'
+          supplier_website: https://www.orbitalfasteners.co.uk/products/m3-x-8-socket-screw-countersunk-high-tensile-grade-10-9-self-colour-din-7991
+          tiers:
+          - maximum: 199
+            minimum: 1
+            source_text: 1 - 199 £0.0286 Inc. VAT £2.86 Inc. VAT
+            source_unit_price: '0.0286'
+            source_vat_basis: inclusive
+            unit_price: '0.0286'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 999
+            minimum: 200
+            source_text: 200 - 999 £0.0158 Inc. VAT £1.58 Inc. VAT
+            source_unit_price: '0.0158'
+            source_vat_basis: inclusive
+            unit_price: '0.0158'
+            valid: true
+            vat_basis: inclusive
+          - maximum: 4799
+            minimum: 1000
+            source_text: 1000 - 4799 £0.0143 Inc. VAT £1.43 Inc. VAT
+            source_unit_price: '0.0143'
+            source_vat_basis: inclusive
+            unit_price: '0.0143'
+            valid: true
+            vat_basis: inclusive
+          - maximum: null
+            minimum: 4800
+            source_text: 4800 + £0.0127 Inc. VAT £1.27 Inc. VAT
+            source_unit_price: '0.0127'
+            source_vat_basis: inclusive
+            unit_price: '0.0127'
+            valid: true
+            vat_basis: inclusive
+          total_price_1: '0.0286'
+          total_price_10: '0.2860'
+          total_price_100: '2.8600'
+          total_price_1000: '14.3000'
+          total_price_10000: '127.0000'
+          unit_price_1: '0.0286'
+          unit_price_10: '0.0286'
+          unit_price_100: '0.0286'
+          unit_price_1000: '0.0143'
+          unit_price_10000: '0.0127'
+          vat_basis: inclusive
+          vat_rate: '0.20'
+          vat_rate_checked: '2026-10-11'
+          vat_rate_source: https://www.gov.uk/vat-rates
+          warnings: []
+      svg_details:
+        diameter_mm: 3.0
+        drive_style: hex_head
+        drive_symbol_gap_mm: 1.7999999999999998
+        head_diameter_mm: 6.0
+        head_rim_mm: 0.22499999999999998
+        length_mm: 8.0
+        screw_style: countersunk
+        socket_depth_mm: 0.9750000000000001
+        socket_width_mm: 1.9500000000000002
+        stylesheet: project_bolt
+        svg_name: screw_diagrams
+        thread_pitch_mm: 0.5
+        variants:
+          plain: diagram_plain.svg
+          solid: diagram_solid.svg
+          threaded: diagram_threaded.svg
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: screw
+      taxonomy_3: countersunk
+      taxonomy_4: hex_head
+      taxonomy_5: black
+      taxonomy_6: m3_diameter
+      taxonomy_7: 8_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      three_d_model_details:
+        checked_on: '2026-10-11'
+        coordinate_system:
+          axis: +Z towards head
+          glb_units: metres
+          glb_up_axis: Y
+          head_top_z_mm: 8.0
+          origin: tip centre
+          stl_units: mm
+        dimension_status: standard_dimensions
+        dimensional_specification: DIN 7991:1986-01
+        generator: din_7991_countersunk
+        length_status: standard_length
+        material:
+          base_colour_srgb:
+          - 0.205
+          - 0.218
+          - 0.235
+          coat_roughness: 0.28
+          coat_weight: 0.08
+          metallic: 0.8
+          microtexture_height_um: 0.8
+          microtexture_spacing_mm: 0.025
+          name: Black oxide steel
+          note: Visual finish approximation; catalogue specifies colour only.
+          roughness: 0.31
+          roughness_variation: 0.045
+        model_formats:
+        - stl
+        - glb
+        modelling_choices:
+          certification: Standards-based nominal catalogue geometry, not a tolerance-gauged
+            manufacturing certification.
+          dimension_selection: Nominal/max head and shaft, midpoint socket limits
+            for M3/M4.
+          display: Smooth nominal-diameter thread envelope; lower tessellation, same
+            head/recess/end dimensions.
+          head_rim: Approximate DIN c reference reduced by r*tan(22.5 degrees) so
+            the fillet fits within k max.
+          markings: 'Manufacturer identity and property-class stamps omitted: catalogue
+            does not identify them.'
+          runout: One pitch taper to nominal shaft diameter; maximum incomplete thread
+            is 2P.
+          size_note: DIN 7991:1986 dimensional row.
+          socket: Flat bottom hex socket with permissible circular mouth countersink
+            within hex corners.
+          thread: ISO metric nominal external profile; rounded root R=H/6; no ISO
+            965 tolerance offsets.
+          tip: 45 degree tip chamfer of P/2; selected end form under DIN 78.
+        output_folder: three_d_model
+        parameters:
+          countersink_angle_deg: 90.0
+          diameter_mm: 3.0
+          fillet_start_z_mm: 6.3
+          finish: black
+          grip_length_mm: 2.2
+          handedness: right
+          head_diameter_mm: 6.0
+          head_height_mm: 1.7
+          head_rim_mm: 0.15857864376269046
+          head_rim_reference_mm: 0.2
+          hex_key_mm: 2.0
+          length_mm: 8.0
+          partial_thread_from_length_mm: 25
+          pitch_mm: 0.5
+          shank_length_min_mm: 0
+          socket_across_flats_mm: 2.06
+          socket_depth_mm: 1.075
+          thread_end_z_mm: 6.3
+          thread_flank_angle_deg: 60.0
+          thread_length_mm: 5.8
+          thread_length_reference_mm: 12
+          thread_minor_diameter_mm: 2.3865653389860224
+          thread_mode: full_to_head
+          thread_pitch_diameter_mm: 2.6752404735808355
+          thread_root_radius_mm: 0.07216878364870322
+          thread_runout_mm: 0.5
+          thread_starts: 1
+          tip_chamfer_mm: 0.25
+          underhead_fillet_mm: 0.1
+        renders:
+          high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+          low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+          product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+          product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+        schema_version: 1
+        sources:
+        - title: DIN 7991 January 1986, pages 1–3 (standard scan)
+          url: https://www.finesz.com/pic/DIN7991.pdf
+          use: Scope, head geometry, dimensional limits and shank/grip length table.
+        - title: Böllhoff DIN 7991 product dimensional sheet
+          url: https://eshop.boellhoff.de/out/media/pdf/DIN_7991_Edelstahl_A4___en.pdf
+          use: Independent supplier check of M3/M4 dimensions.
+        - title: Newstar Fastenings M2 x 4 DIN 7991 commercial extension
+          url: https://www.newstarfastenings.com/en-gb/products/m2-x-4-socket-countersunk-din-7991-a4-stainless-steel
+          use: M2 pitch, head diameter/height, hex key and minimum penetration.
+        - title: Bossard BN 20 supplier drawing and size table
+          url: https://www.laskakit.cz/user/related_files/30112021090237-din7991ocel.pdf
+          use: Black M2 extension, M3 x 5/x 6/x 35 and M4 x 6 commercial lengths;
+            M2 explicitly outside DIN scope.
+        - title: Newstar Fastenings M3 x 4 commercial short screw
+          url: https://www.newstarfastenings.com/en-gb/products/m3-x-4-socket-countersunk-din-7991-a4-stainless-steel
+          use: Confirms standard M3 head, key and pitch for the nonstandard 4 mm overall
+            length.
+        - title: ISO 68-1 external metric thread profile
+          url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+          use: 60 degree metric thread basic profile.
+        standard: DIN 7991:1986-01
+        standard_lengths_mm:
+        - 8
+        - 10
+        - 12
+        - 16
+        - 20
+        - 25
+        - 30
+        standard_limits:
+          countersink_angle_deg:
+          - 90
+          - 92
+          head_diameter_mm:
+          - 5.7
+          - 6.0
+          head_height_max_mm: 1.7
+          shank_diameter_mm:
+          - 2.86
+          - 3.0
+          socket_across_corners_min_mm: 2.3
+          socket_across_flats_mm:
+          - 2.02
+          - 2.1
+          socket_depth_mm:
+          - 0.95
+          - 1.2
+          underhead_fillet_min_mm: 0.1
+        studio:
+          adaptive_threshold: 0.015
+          denoise: true
+          device: auto
+          engine: cycles
+          exposure: 0.0
+          floor_colour_srgb:
+          - 0.93
+          - 0.935
+          - 0.94
+          floor_roughness: 0.55
+          framing_margin: 0.13
+          high_samples: 160
+          lights:
+          - colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+          - colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+          - colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+          low_samples: 48
+          poses:
+            isometric:
+              camera_eye:
+              - 1
+              - -1
+              - 1
+              orientation: tip down, head up
+              projection: orthographic
+            product:
+              camera_eye:
+              - -6
+              - -10
+              - 6
+              orientation: lying on side, head to left
+              projection: orthographic
+              support: Head rim and threaded shaft rest on ground; solve tilt from
+                mesh.
+              yaw_degrees: -12.0
+          seed: 7991
+          view_transform: AgX
+          world_colour:
+          - 0.78
+          - 0.82
+          - 0.9
+          world_strength: 0.35
+        units: mm
+        variants:
+          display:
+            angular_segments: 32
+            fillet_segments: 4
+            samples_per_pitch: 1
+          full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+        views:
+        - isometric
+        - front
+        - back
+        - left
+        - right
+        - top
+        - bottom
+      url_chat: https://chatgpt.com/c/69f56f92-0318-83eb-8338-d52e61c87af2
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_bolt_image.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_bolt_image.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_3:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    description: label_drawer
+    dict_data:
+      label_drawer: *id001
+    file_output: label_drawer.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+  file_test: ''
+oomp_key: oomp_hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+supplier_data:
+  aanddfasteners:
+    accepted_warnings: '["Source quantity band starts at zero; normalized minimum
+      to one item"]'
+    captured_at: '2026-10-12T14:11:07.931731+00:00'
+    currency: GBP
+    html_sha256: 3a635ce907845aea02f8a21b0532b8aeca6c120dc47df3c917942e516a878b31
+    name: M3 x 8 Socket Countersunk Screw, steel self colour, Din 7991
+    packages: '[]'
+    parsed_at: '2026-10-18T08:57:30.120641+00:00'
+    parser_version: aanddfasteners-1.2-review-policy
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept zero-to-one quantity normalization and low-stock notices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: Product information These High Tensile socket countersunk screws
+      are made out of 10.9 steel material with a self colour black finish to Din 7991
+      with metric coarse thread. Measured from end to end. They are also known as
+      FHSC (Flat head socket caps) or SKT CSK. The screw is designed to be seated
+      into a countersunk hole, providing a flush finish. A hex key ( sometimes referred
+      to as an Allen wrench of Allen key) or hex driver is required to tighten or
+      loosen a socket screw. Socket screws are commonly used in assemblies that do
+      not provide sufficient clearance for a conventional wrench or spanner. Please
+      note that not all socket countersunk screws are fully threaded, if thread length
+      is critical please contact us for more info.
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: aanddfasteners
+    supplier_id: ST799103008SC
+    supplier_part_number: ST799103008SC
+    supplier_website: https://www.aanddfasteners.co.uk/shop/socket-screws/socket-countersunk/metric-din-7991-iso-10642-steel-self-colour/m3-x-8-socket-countersunk-screw-steel-self-colour-din-7991/details
+    tiers:
+    - maximum: 25
+      minimum: 1
+      source_text: 0 - 25 £ 0.05
+      source_unit_price: '0.05'
+      source_vat_basis: exclusive
+      unit_price: '0.0600'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 50
+      minimum: 26
+      source_text: 26 -50 £ 0.04
+      source_unit_price: '0.04'
+      source_vat_basis: exclusive
+      unit_price: '0.0480'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 51
+      source_text: 51+ £ 0.03
+      source_unit_price: '0.03'
+      source_vat_basis: exclusive
+      unit_price: '0.0360'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.0600'
+    total_price_10: '0.6000'
+    total_price_100: '3.6000'
+    total_price_1000: '36.0000'
+    total_price_10000: '360.0000'
+    unit_price_1: '0.0600'
+    unit_price_10: '0.0600'
+    unit_price_100: '0.0360'
+    unit_price_1000: '0.0360'
+    unit_price_10000: '0.0360'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Source quantity band starts at zero; normalized minimum to one item
+  accu:
+    accepted_warnings: '["Accu displayed prices are rounded; derived totals use the
+      captured display precision", "Accu requires a quote from 400 units; prices beyond
+      that withheld", "Quantity 1000: no verified price/VAT band; price withheld",
+      "Quantity 10000: no verified price/VAT band; price withheld"]'
+    box_quantity: ''
+    captured_at: '2026-10-11T23:27:46.852576+00:00'
+    currency: GBP
+    description: 'Countersunk Socket Head Screws feature a countersunk head type,
+      which allows them to sit flush with their target housing. The socket head of
+      these screws makes them ideal for use alongside Accu’s Hex Drive Bits or Allen
+      Keys & Wrenches. Countersunk Screws are designed to be used alongside pre-drilled
+      countersunk recesses, which can be made with the use of angle cutters called
+      countersinks.  Countersunk Captive Fasteners Captive screw variants of Accu''s
+      Metric Countersunk Screws are available in A2 and A4 Stainless Steel, with other
+      materials such as thermoplastic PEEK available on request. Our range of Socket
+      Countersunk Captive Screws are designed to be used in conjunction with Captive
+      Washers to prevent the screws from falling out of housing assemblies and conform
+      to EU Safety regulations. Materials Countersunk Socket Head Screws can be manufactured
+      from a range of materials, including A2 and A4 Stainless Steel, Bumax and Aluminium
+      options as standard. Accu also supplies Socket Countersunk Screws in 10.9 and
+      12.9 High Tensile Steel, with materials such as Titanium and PEEK available
+      through our custom manufacture service. Enhance the security of your Metric
+      Socket Countersunk Screws against vibrations and self-loosening with our pre-applied
+      thread-locking solutions. Choose from AccuLock Threadlocker for essential fastening,
+      Anu-Lok 180 for added robustness, or Precote 80 for high-performance locking.
+      Elevate the aesthetics of your components with AccuBlack chemical blackening,
+      reducing reflections and delivering a premium finish. Security Screw Variant
+      For applications requiring a tamper-proof drive, this component is also available
+      in a security variant, which can be found in Accu''s Security Socket Countersunk
+      Screws range.  Metric Sizes Accu’s Metric Socket Countersunk Screws are available
+      in thread sizes ranging from M2 to M24, and lengths from 3mm up to 200mm. Imperial
+      Sizes Imperial Countersunk Socket Screws are also available in diameters from
+      #0 to 7/8 inch. Lengths are available from 1/8 inch up to 10 inches. Minimum
+      Thread Length In accordance with DIN standard 7991, Accu''s Socket Countersunk
+      Screws are manufactured to a minimum specified thread length. Please contact
+      us before placing your order if this dimension is critical to your application.'
+    html_sha256: 1f0be9226266d856d012031c0949c1436275e403a2145cb3f81e597f808badc4
+    name: M3 x 8mm Socket Countersunk Screws (DIN 7991) - High Tensile Steel (10.9)
+    parsed_at: '2026-10-18T08:52:11.758271+00:00'
+    parser_version: accu-1.9-base-material
+    price_inheritance: ''
+    quote_minimum: '400'
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept rounded displayed prices, open-ended final advertised tiers,
+      and quotes required from 400 units; quote-only prices remain blank."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.02", "highPrice": "0.74",
+      "priceCurrency": "GBP", "offerCount": "8", "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/countersunk-socket-head-screws/472022-SSK-M3-8-10-9",
+      "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type": "QuantitativeValue",
+      "value": 1, "unitCode": "ANN"}}}'
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "accus prices are all ex vat", "confirmed_on": "2026-10-13"}'
+    specifications: '{"Accu Product Code (APC)": "SSK-M3-8-10.9", "Thread Size": "M3
+      (3 mm)", "Overall Length (L)": "8 mm", "Socket Size (J)": "2 mm", "Material":
+      "Steel - High Tensile (10.9)", "Finish": "Natural", "Countersunk Angle (CA)":
+      "90 Degrees (Tolerance: +2/-0 Degrees)", "Countersunk Length (H)": "1.7 mm",
+      "Full Thread": "Yes", "Head Diameter (D)": "6 mm (Tolerance: +0/-0.3 mm)", "Hexagon
+      Depth (P)": "1.2 mm", "Manufacturing Standard": "DIN 7991", "Material Family":
+      "Steel", "System of Measurement": "Metric", "Thread Pitch": "0.5 mm"}'
+    status: ok
+    stock_quantity: ''
+    stock_status: https://schema.org/InStock
+    supplier: accu
+    supplier_id: SSK-M3-8-10.9
+    supplier_part_number: SSK-M3-8-10.9
+    supplier_website: https://www.accu.co.uk/countersunk-socket-head-screws/472022-SSK-M3-8-10-9
+    tiers:
+    - maximum: 1
+      minimum: 1
+      source_text: Buy 1 £0.74
+      source_unit_price: '0.74'
+      source_vat_basis: exclusive
+      unit_price: '0.8880'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 5
+      minimum: 2
+      source_text: Buy 2 £0.40 Save 45 %
+      source_unit_price: '0.40'
+      source_vat_basis: exclusive
+      unit_price: '0.4800'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 11
+      minimum: 6
+      source_text: Buy 6 £0.15 Save 79 %
+      source_unit_price: '0.15'
+      source_vat_basis: exclusive
+      unit_price: '0.1800'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 23
+      minimum: 12
+      source_text: Buy 12 £0.09 Save 87 %
+      source_unit_price: '0.09'
+      source_vat_basis: exclusive
+      unit_price: '0.1080'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 49
+      minimum: 24
+      source_text: Buy 24 £0.06 Save 91 %
+      source_unit_price: '0.06'
+      source_vat_basis: exclusive
+      unit_price: '0.0720'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 99
+      minimum: 50
+      source_text: Buy 50 £0.04 Save 94 %
+      source_unit_price: '0.04'
+      source_vat_basis: exclusive
+      unit_price: '0.0480'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 199
+      minimum: 100
+      source_text: Buy 100 £0.03 Save 95 %
+      source_unit_price: '0.03'
+      source_vat_basis: exclusive
+      unit_price: '0.0360'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 399
+      minimum: 200
+      source_text: Buy 200 £0.02 Save 97 %
+      source_unit_price: '0.02'
+      source_vat_basis: exclusive
+      unit_price: '0.0240'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.8880'
+    total_price_10: '1.8000'
+    total_price_100: '3.6000'
+    total_price_1000: ''
+    total_price_10000: ''
+    unit_price_1: '0.8880'
+    unit_price_10: '0.1800'
+    unit_price_100: '0.0360'
+    unit_price_1000: ''
+    unit_price_10000: ''
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Accu displayed prices are rounded; derived totals use the captured display precision
+    - Accu requires a quote from 400 units; prices beyond that withheld
+    - 'Quantity 1000: no verified price/VAT band; price withheld'
+    - 'Quantity 10000: no verified price/VAT band; price withheld'
+  boltbase:
+    accepted_warnings: '["Final Bolt Base threshold has no verified upper bound; extrapolation
+      withheld"]'
+    captured_at: '2026-10-12T02:07:25.516553+00:00'
+    currency: GBP
+    html_sha256: cfb62f86bcbba112a94580f3c3eef77aabc2c07ee0f8b85bcbd83cf145d2c108
+    name: M3 Self Colour 10.9 High Tensile Socket Countersunk Screws
+    packages: '[]'
+    parsed_at: '2026-10-18T08:56:24.925522+00:00'
+    parser_version: boltbase-1.2-review-policy
+    price_inheritance: '{"10000": {"source_quantity": 5000, "source_unit_price": "0.02",
+      "source_text": "Buy 5000 + - 90% Each £0.02 £0.20", "basis": "user policy 2026-10-13"}}'
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "For a withheld 10000-unit price, inherit the highest available
+      lower-quantity unit price."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+    specifications: 'Thread Size: M3 (3mm); Length (Including Head): 8mm; M3 Socket
+      Countersunk Screws. Manufactured to DIN 7991 / ISO 10642 in Self Colour ( Black
+      ) High Tensile 10.9 Steel with a 3mm thread diameter and 0.5mm thread pitch.
+      Socket countersunk screws are typically used when a flush fitting screw is required.
+      Ideal when a screw with a low profile is required or for when the screw head
+      can not protrude from the work surface. Ideal for high stress applications or
+      for where a high strength bolt is required. These screws come mostly part threaded
+      as standard after a certain length. Please note that these bolts offer little
+      to no protection from rusting and are more suited for indoor use or for applications
+      where they are protected from moisture.'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: boltbase
+    supplier_id: 109SCCSK-3X8
+    supplier_part_number: 109SCCSK-3X8
+    supplier_website: https://boltbase.com/products/m3-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464508973437
+    tiers:
+    - maximum: 1
+      minimum: 1
+      source_text: Single Screw Buy 1 For £0.20
+      source_unit_price: '0.20'
+      source_vat_basis: exclusive
+      unit_price: '0.2400'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4
+      minimum: 2
+      source_text: Buy 2 + - 40% Each £0.12 £0.20
+      source_unit_price: '0.12'
+      source_vat_basis: exclusive
+      unit_price: '0.1440'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 9
+      minimum: 5
+      source_text: Buy 5 + - 49% Each £0.11 £0.20
+      source_unit_price: '0.11'
+      source_vat_basis: exclusive
+      unit_price: '0.1320'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 24
+      minimum: 10
+      source_text: Buy 10 + - 67% Each £0.07 £0.20
+      source_unit_price: '0.07'
+      source_vat_basis: exclusive
+      unit_price: '0.0840'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 49
+      minimum: 25
+      source_text: Buy 25 + - 75% Each £0.05 £0.20
+      source_unit_price: '0.05'
+      source_vat_basis: exclusive
+      unit_price: '0.0600'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 99
+      minimum: 50
+      source_text: Buy 50 + - 77% Each £0.05 £0.20
+      source_unit_price: '0.05'
+      source_vat_basis: exclusive
+      unit_price: '0.0600'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 249
+      minimum: 100
+      source_text: Buy 100 + - 81% Each £0.04 £0.20
+      source_unit_price: '0.04'
+      source_vat_basis: exclusive
+      unit_price: '0.0480'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 499
+      minimum: 250
+      source_text: Buy 250 + - 83% Each £0.04 £0.20
+      source_unit_price: '0.04'
+      source_vat_basis: exclusive
+      unit_price: '0.0480'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 500
+      source_text: Buy 500 + - 86% Each £0.03 £0.20
+      source_unit_price: '0.03'
+      source_vat_basis: exclusive
+      unit_price: '0.0360'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4999
+      minimum: 1000
+      source_text: Buy 1000 + - 88% Each £0.03 £0.20
+      source_unit_price: '0.03'
+      source_vat_basis: exclusive
+      unit_price: '0.0360'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 5000
+      minimum: 5000
+      source_text: Buy 5000 + - 90% Each £0.02 £0.20
+      source_unit_price: '0.02'
+      source_vat_basis: exclusive
+      unit_price: '0.0240'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.2400'
+    total_price_10: '0.8400'
+    total_price_100: '4.8000'
+    total_price_1000: '36.0000'
+    total_price_10000: '240.0000'
+    unit_price_1: '0.2400'
+    unit_price_10: '0.0840'
+    unit_price_100: '0.0480'
+    unit_price_1000: '0.0360'
+    unit_price_10000: '0.0240'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+  dibolt:
+    accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-13T23:09:55.271466+00:00'
+    currency: GBP
+    html_sha256: d4861c388fd02d7368f505d8f566d30ea4ed3a66f0a7b8eccbaddea86fe0e0d3
+    name: M3 x 8mm Socket Screw/Bolt, Countersunk, High Tensile Grade 10.9 Self Colour,
+      DIN 7991
+    packages: '[]'
+    parsed_at: '2026-10-18T09:02:42.123134+00:00'
+    parser_version: dibolt-1.3-missing-price-review
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept the precision of rounded displayed per-100 prices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M3 (3mm); Length (L): 8mm; Head Diameter (D): 6mm;
+      Countersunk Angle (CA): 90 Degree; Material: High Tensile (Grade 10.9); Finish:
+      Self Colour; Countersunk Length (Max) (H): 1.7mm; Hexagon Depth (P): 1.2mm;
+      Screw Thread Pitch: 0.5mm; Socket Size (J): 2mm; Manufacturing Standard: DIN
+      7991; Material Specification: High Tensile (Grade 10.9); Metric or Imperial?:
+      Metric'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: dibolt
+    supplier_id: 10170.030.008
+    supplier_part_number: 10170.030.008
+    supplier_website: https://dibolt.co.uk/products/m3-x-8mm-socket-screw-bolt-countersunk-high-tensile-grade-10-9-self-colour-din-799
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_text: 1 - 199 £2.97 Per 100 Units
+      source_unit_price: '0.0297'
+      source_vat_basis: exclusive
+      unit_price: '0.035640'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_text: 200 - 999 £1.65 Per 100 Units
+      source_unit_price: '0.0165'
+      source_vat_basis: exclusive
+      unit_price: '0.019800'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 1000
+      source_text: 1,000+ £1.49 Per 100 Units
+      source_unit_price: '0.0149'
+      source_vat_basis: exclusive
+      unit_price: '0.017880'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.035640'
+    total_price_10: '0.356400'
+    total_price_100: '3.564000'
+    total_price_1000: '17.880000'
+    total_price_10000: '178.800000'
+    unit_price_1: '0.035640'
+    unit_price_10: '0.035640'
+    unit_price_100: '0.035640'
+    unit_price_1000: '0.017880'
+    unit_price_10000: '0.017880'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Dibolt per-100 displayed prices are rounded; derived totals use captured display
+      precision
+  kayfast:
+    accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-14T12:40:21.162040+00:00'
+    currency: GBP
+    family_description: Metric coarse threads. High tensile grade 10.9 Self colour
+      plain finish. Manufactured to DIN 7991 Screw lengths include the head. All sizes
+      are fully threaded.
+    family_heading: COUNTERSUNK SOCKET SCREWS HIGH TENSILE 10.9 SELF COLOUR
+    html_sha256: 2fcc9e7a872c62b040c6efc914e2a2a00c0cb3a4b51273a79e67023fed55d0f6
+    name: M3 x 8mm COUNTERSUNK SOCKET SCREWS DIN 7991 HIGH TENSILE 10.9 SELF COLOUR
+    packages: '[]'
+    parsed_at: '2026-10-18T09:30:01.690049+00:00'
+    parser_version: kayfast-1.6-family-description
+    price_breaks_description: M3 x 8mm COUNTERSUNK SOCKET SCREWS DIN 7991 HIGH TENSILE
+      10.9 SELF COLOUR
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+      "statement": "Use the exact row dropdown price per 100 divided by 100 with Decimal
+      precision; accept the captured per-100 display precision."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+    specifications: COUNTERSUNK SOCKET SCREWS HIGH TENSILE 10.9 SELF COLOUR; Metric
+      coarse threads. High tensile grade 10.9 Self colour plain finish. Manufactured
+      to DIN 7991 Screw lengths include the head. All sizes are fully threaded.
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: kayfast
+    supplier_id: M3-x-8mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+    supplier_id_basis: exact dimensional row description; spaces replaced by hyphens
+      (user clarification 2026-10-11)
+    supplier_part_number: M3-x-8mm-COUNTERSUNK-SOCKET-SCREWS-DIN-7991-HIGH-TENSILE-10.9-SELF-COLOUR
+    supplier_website: https://www.kayfast.co.uk/view-product/COUNTERSUNK-SOCKET-SCREWS-HIGH-TENSILE-109-SELF-COLOUR
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_price_per_100: '3.51'
+      source_price_quantity: 100
+      source_text: QTY 1 - 199 @ £3.51 per 100
+      source_unit_price: '0.0351'
+      source_vat_basis: exclusive
+      unit_price: '0.042120'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_price_per_100: '2.92'
+      source_price_quantity: 100
+      source_text: QTY 200 -  999 @ £2.92 per 100
+      source_unit_price: '0.0292'
+      source_vat_basis: exclusive
+      unit_price: '0.035040'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 1000
+      source_price_per_100: '2.10'
+      source_price_quantity: 100
+      source_text: QTY 1000 + @ £2.10 per 100
+      source_unit_price: '0.021'
+      source_vat_basis: exclusive
+      unit_price: '0.02520'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.042120'
+    total_price_10: '0.421200'
+    total_price_100: '4.212000'
+    total_price_1000: '25.20000'
+    total_price_10000: '252.00000'
+    unit_price_1: '0.042120'
+    unit_price_10: '0.042120'
+    unit_price_100: '0.042120'
+    unit_price_1000: '0.02520'
+    unit_price_10000: '0.02520'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Kayfast per-100 displayed prices are rounded; derived totals use captured display
+      precision
+  orbitalfasteners:
+    accepted_warnings: '[]'
+    box_quantity: '200'
+    captured_at: '2026-10-18T08:40:08.699298+00:00'
+    catalogue_page: '80'
+    currency: GBP
+    description: Fully threaded. *Guide only, some variation possible. (Contact us
+      before ordering if this information is important)
+    html_sha256: 17e5a35370a908338fcabc21c5b030df64287277cf66bf36aa919e09fdd5b8fe
+    name: M3 x 8 Socket Screw, Countersunk, High Tensile Grade 10.9 Self Colour, DIN
+      7991
+    parsed_at: '2026-10-18T08:49:29.019253+00:00'
+    parser_version: 1.2-review-policy
+    review_policy: ''
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: inclusive
+    status: ok
+    stock_as_of: 16th October 2026 10:01pm
+    stock_quantity: '1946'
+    supplier: orbitalfasteners
+    supplier_id: '1901010'
+    supplier_part_number: '1901010'
+    supplier_website: https://www.orbitalfasteners.co.uk/products/m3-x-8-socket-screw-countersunk-high-tensile-grade-10-9-self-colour-din-7991
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_text: 1 - 199 £0.0286 Inc. VAT £2.86 Inc. VAT
+      source_unit_price: '0.0286'
+      source_vat_basis: inclusive
+      unit_price: '0.0286'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_text: 200 - 999 £0.0158 Inc. VAT £1.58 Inc. VAT
+      source_unit_price: '0.0158'
+      source_vat_basis: inclusive
+      unit_price: '0.0158'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4799
+      minimum: 1000
+      source_text: 1000 - 4799 £0.0143 Inc. VAT £1.43 Inc. VAT
+      source_unit_price: '0.0143'
+      source_vat_basis: inclusive
+      unit_price: '0.0143'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 4800
+      source_text: 4800 + £0.0127 Inc. VAT £1.27 Inc. VAT
+      source_unit_price: '0.0127'
+      source_vat_basis: inclusive
+      unit_price: '0.0127'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.0286'
+    total_price_10: '0.2860'
+    total_price_100: '2.8600'
+    total_price_1000: '14.3000'
+    total_price_10000: '127.0000'
+    unit_price_1: '0.0286'
+    unit_price_10: '0.0286'
+    unit_price_100: '0.0286'
+    unit_price_1000: '0.0143'
+    unit_price_10000: '0.0127'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings: []
+svg_details:
+  diameter_mm: 3.0
+  drive_style: hex_head
+  drive_symbol_gap_mm: 1.7999999999999998
+  head_diameter_mm: 6.0
+  head_rim_mm: 0.22499999999999998
+  length_mm: 8.0
+  screw_style: countersunk
+  socket_depth_mm: 0.9750000000000001
+  socket_width_mm: 1.9500000000000002
+  stylesheet: project_bolt
+  svg_name: screw_diagrams
+  thread_pitch_mm: 0.5
+  variants:
+    plain: diagram_plain.svg
+    solid: diagram_solid.svg
+    threaded: diagram_threaded.svg
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: screw
+taxonomy_2_capital: Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: sc
+taxonomy_2_length_3: scr
+taxonomy_2_length_4: scre
+taxonomy_2_length_5: screw
+taxonomy_2_upper: SCREW
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: SC
+taxonomy_2_upper_length_3: SCR
+taxonomy_2_upper_length_4: SCRE
+taxonomy_2_upper_length_5: SCREW
+taxonomy_3: countersunk
+taxonomy_3_capital: Countersunk
+taxonomy_3_first_letter: c
+taxonomy_3_first_letter_upper: C
+taxonomy_3_length_1: c
+taxonomy_3_length_2: co
+taxonomy_3_length_3: cou
+taxonomy_3_length_4: coun
+taxonomy_3_length_5: count
+taxonomy_3_upper: COUNTERSUNK
+taxonomy_3_upper_length_1: C
+taxonomy_3_upper_length_2: CO
+taxonomy_3_upper_length_3: COU
+taxonomy_3_upper_length_4: COUN
+taxonomy_3_upper_length_5: COUNT
+taxonomy_4: hex_head
+taxonomy_4_capital: Hex Head
+taxonomy_4_first_letter: h
+taxonomy_4_first_letter_upper: H
+taxonomy_4_length_1: h
+taxonomy_4_length_2: he
+taxonomy_4_length_3: hex
+taxonomy_4_length_4: hex_
+taxonomy_4_length_5: hex_h
+taxonomy_4_upper: HEX_HEAD
+taxonomy_4_upper_length_1: H
+taxonomy_4_upper_length_2: HE
+taxonomy_4_upper_length_3: HEX
+taxonomy_4_upper_length_4: HEX_
+taxonomy_4_upper_length_5: HEX_H
+taxonomy_5: black
+taxonomy_5_capital: Black
+taxonomy_5_first_letter: b
+taxonomy_5_first_letter_upper: B
+taxonomy_5_length_1: b
+taxonomy_5_length_2: bl
+taxonomy_5_length_3: bla
+taxonomy_5_length_4: blac
+taxonomy_5_length_5: black
+taxonomy_5_upper: BLACK
+taxonomy_5_upper_length_1: B
+taxonomy_5_upper_length_2: BL
+taxonomy_5_upper_length_3: BLA
+taxonomy_5_upper_length_4: BLAC
+taxonomy_5_upper_length_5: BLACK
+taxonomy_6: m3_diameter
+taxonomy_6_capital: M3 Diameter
+taxonomy_6_first_letter: m
+taxonomy_6_first_letter_upper: M
+taxonomy_6_length_1: m
+taxonomy_6_length_2: m3
+taxonomy_6_length_3: m3_
+taxonomy_6_length_4: m3_d
+taxonomy_6_length_5: m3_di
+taxonomy_6_upper: M3_DIAMETER
+taxonomy_6_upper_length_1: M
+taxonomy_6_upper_length_2: M3
+taxonomy_6_upper_length_3: M3_
+taxonomy_6_upper_length_4: M3_D
+taxonomy_6_upper_length_5: M3_DI
+taxonomy_7: 8_mm_length
+taxonomy_7_capital: 8 mm Length
+taxonomy_7_first_letter: '8'
+taxonomy_7_first_letter_upper: '8'
+taxonomy_7_length_1: '8'
+taxonomy_7_length_2: '8_'
+taxonomy_7_length_3: 8_m
+taxonomy_7_length_4: 8_mm
+taxonomy_7_length_5: 8_mm_
+taxonomy_7_upper: 8_MM_LENGTH
+taxonomy_7_upper_length_1: '8'
+taxonomy_7_upper_length_2: '8_'
+taxonomy_7_upper_length_3: 8_M
+taxonomy_7_upper_length_4: 8_MM
+taxonomy_7_upper_length_5: 8_MM_
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+  checked_on: '2026-10-11'
+  coordinate_system:
+    axis: +Z towards head
+    glb_units: metres
+    glb_up_axis: Y
+    head_top_z_mm: 8.0
+    origin: tip centre
+    stl_units: mm
+  dimension_status: standard_dimensions
+  dimensional_specification: DIN 7991:1986-01
+  generator: din_7991_countersunk
+  length_status: standard_length
+  material:
+    base_colour_srgb:
+    - 0.205
+    - 0.218
+    - 0.235
+    coat_roughness: 0.28
+    coat_weight: 0.08
+    metallic: 0.8
+    microtexture_height_um: 0.8
+    microtexture_spacing_mm: 0.025
+    name: Black oxide steel
+    note: Visual finish approximation; catalogue specifies colour only.
+    roughness: 0.31
+    roughness_variation: 0.045
+  model_formats:
+  - stl
+  - glb
+  modelling_choices:
+    certification: Standards-based nominal catalogue geometry, not a tolerance-gauged
+      manufacturing certification.
+    dimension_selection: Nominal/max head and shaft, midpoint socket limits for M3/M4.
+    display: Smooth nominal-diameter thread envelope; lower tessellation, same head/recess/end
+      dimensions.
+    head_rim: Approximate DIN c reference reduced by r*tan(22.5 degrees) so the fillet
+      fits within k max.
+    markings: 'Manufacturer identity and property-class stamps omitted: catalogue
+      does not identify them.'
+    runout: One pitch taper to nominal shaft diameter; maximum incomplete thread is
+      2P.
+    size_note: DIN 7991:1986 dimensional row.
+    socket: Flat bottom hex socket with permissible circular mouth countersink within
+      hex corners.
+    thread: ISO metric nominal external profile; rounded root R=H/6; no ISO 965 tolerance
+      offsets.
+    tip: 45 degree tip chamfer of P/2; selected end form under DIN 78.
+  output_folder: three_d_model
+  parameters:
+    countersink_angle_deg: 90.0
+    diameter_mm: 3.0
+    fillet_start_z_mm: 6.3
+    finish: black
+    grip_length_mm: 2.2
+    handedness: right
+    head_diameter_mm: 6.0
+    head_height_mm: 1.7
+    head_rim_mm: 0.15857864376269046
+    head_rim_reference_mm: 0.2
+    hex_key_mm: 2.0
+    length_mm: 8.0
+    partial_thread_from_length_mm: 25
+    pitch_mm: 0.5
+    shank_length_min_mm: 0
+    socket_across_flats_mm: 2.06
+    socket_depth_mm: 1.075
+    thread_end_z_mm: 6.3
+    thread_flank_angle_deg: 60.0
+    thread_length_mm: 5.8
+    thread_length_reference_mm: 12
+    thread_minor_diameter_mm: 2.3865653389860224
+    thread_mode: full_to_head
+    thread_pitch_diameter_mm: 2.6752404735808355
+    thread_root_radius_mm: 0.07216878364870322
+    thread_runout_mm: 0.5
+    thread_starts: 1
+    tip_chamfer_mm: 0.25
+    underhead_fillet_mm: 0.1
+  renders:
+    high:
+      file: render_high.png
+      pixels: 2048
+      variant: full
+      view: isometric
+    low:
+      file: render_low.png
+      pixels: 512
+      variant: display
+      view: isometric
+    product_high:
+      file: render_product_high.png
+      pixels: 2048
+      variant: full
+      view: product
+    product_low:
+      file: render_product_low.png
+      pixels: 512
+      variant: display
+      view: product
+  schema_version: 1
+  sources:
+  - title: DIN 7991 January 1986, pages 1–3 (standard scan)
+    url: https://www.finesz.com/pic/DIN7991.pdf
+    use: Scope, head geometry, dimensional limits and shank/grip length table.
+  - title: Böllhoff DIN 7991 product dimensional sheet
+    url: https://eshop.boellhoff.de/out/media/pdf/DIN_7991_Edelstahl_A4___en.pdf
+    use: Independent supplier check of M3/M4 dimensions.
+  - title: Newstar Fastenings M2 x 4 DIN 7991 commercial extension
+    url: https://www.newstarfastenings.com/en-gb/products/m2-x-4-socket-countersunk-din-7991-a4-stainless-steel
+    use: M2 pitch, head diameter/height, hex key and minimum penetration.
+  - title: Bossard BN 20 supplier drawing and size table
+    url: https://www.laskakit.cz/user/related_files/30112021090237-din7991ocel.pdf
+    use: Black M2 extension, M3 x 5/x 6/x 35 and M4 x 6 commercial lengths; M2 explicitly
+      outside DIN scope.
+  - title: Newstar Fastenings M3 x 4 commercial short screw
+    url: https://www.newstarfastenings.com/en-gb/products/m3-x-4-socket-countersunk-din-7991-a4-stainless-steel
+    use: Confirms standard M3 head, key and pitch for the nonstandard 4 mm overall
+      length.
+  - title: ISO 68-1 external metric thread profile
+    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+    use: 60 degree metric thread basic profile.
+  standard: DIN 7991:1986-01
+  standard_lengths_mm:
+  - 8
+  - 10
+  - 12
+  - 16
+  - 20
+  - 25
+  - 30
+  standard_limits:
+    countersink_angle_deg:
+    - 90
+    - 92
+    head_diameter_mm:
+    - 5.7
+    - 6.0
+    head_height_max_mm: 1.7
+    shank_diameter_mm:
+    - 2.86
+    - 3.0
+    socket_across_corners_min_mm: 2.3
+    socket_across_flats_mm:
+    - 2.02
+    - 2.1
+    socket_depth_mm:
+    - 0.95
+    - 1.2
+    underhead_fillet_min_mm: 0.1
+  studio:
+    adaptive_threshold: 0.015
+    denoise: true
+    device: auto
+    engine: cycles
+    exposure: 0.0
+    floor_colour_srgb:
+    - 0.93
+    - 0.935
+    - 0.94
+    floor_roughness: 0.55
+    framing_margin: 0.13
+    high_samples: 160
+    lights:
+    - colour:
+      - 1.0
+      - 0.96
+      - 0.9
+      height: 5.0
+      name: Key softbox
+      position:
+      - -3
+      - -4
+      - 6
+      power: 650.0
+      width: 4.0
+    - colour:
+      - 0.9
+      - 0.95
+      - 1.0
+      height: 4.0
+      name: Fill softbox
+      position:
+      - 4
+      - -1
+      - 3
+      power: 330.0
+      width: 3.0
+    - colour:
+      - 1.0
+      - 1.0
+      - 1.0
+      height: 5.0
+      name: Rim strip
+      position:
+      - 1
+      - 4
+      - 4
+      power: 850.0
+      width: 1.2
+    low_samples: 48
+    poses:
+      isometric:
+        camera_eye:
+        - 1
+        - -1
+        - 1
+        orientation: tip down, head up
+        projection: orthographic
+      product:
+        camera_eye:
+        - -6
+        - -10
+        - 6
+        orientation: lying on side, head to left
+        projection: orthographic
+        support: Head rim and threaded shaft rest on ground; solve tilt from mesh.
+        yaw_degrees: -12.0
+    seed: 7991
+    view_transform: AgX
+    world_colour:
+    - 0.78
+    - 0.82
+    - 0.9
+    world_strength: 0.35
+  units: mm
+  variants:
+    display:
+      angular_segments: 32
+      fillet_segments: 4
+      samples_per_pitch: 1
+    full:
+      angular_segments: 96
+      fillet_segments: 12
+      samples_per_pitch: 32
+  views:
+  - isometric
+  - front
+  - back
+  - left
+  - right
+  - top
+  - bottom
+url_chat: https://chatgpt.com/c/69f56f92-0318-83eb-8338-d52e61c87af2
+```
+
+</details>
+
+## Parts
+
+[Open the canonical part folder](./) for the files available for this variant. Alternative model formats describe the same record; they are not extra components.
+
+## Assembly
+
+No assembly procedure is inferred from this catalogue record. Use any retained technical notes and the original manufacturer documentation for installation details.
+<!-- oomp-documentation:end -->

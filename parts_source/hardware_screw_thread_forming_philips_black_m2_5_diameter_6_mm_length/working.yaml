@@ -1,0 +1,53 @@
+oobb_details:
+  drive_style: philips
+  length: 6_mm_length
+  oobb_name: screw
+  screw_colour: black
+  screw_style: thread_forming
+  thread_size: m2_5_diameter
+svg_details:
+  diameter_mm: 2.5
+  drive_style: philips
+  drive_symbol_gap_mm: 1.5
+  head_diameter_mm: 5.0
+  head_rim_mm: 0.1875
+  length_mm: 6.0
+  screw_style: thread_forming
+  socket_depth_mm: 0.8125
+  socket_width_mm: 1.625
+  stylesheet: project_bolt
+  svg_name: screw_diagrams
+  thread_pitch_mm: 1.0
+  variants:
+    plain: diagram_plain.svg
+    solid: diagram_solid.svg
+    threaded: diagram_threaded.svg
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: screw
+taxonomy_3: thread_forming
+taxonomy_4: philips
+taxonomy_5: black
+taxonomy_6: m2_5_diameter
+taxonomy_7: 6_mm_length
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+  family: thread_forming
+  generation_status: excluded
+  generator: unresolved
+  note: User requested skipping this family on 2026-10-11.
+  output_folder: three_d_model
+  parameters:
+    diameter_mm: 2.5
+    drive_style: philips
+    finish: black
+    length_mm: 6.0
+  priority: 11
+  schema_version: 1
+  units: mm

@@ -1,0 +1,423 @@
+schema_version: 1
+standard: DIN 965 A
+title: DIN 965 countersunk cross-recess screws, H and Z profiles
+units: mm
+head_style: countersunk
+length_convention: overall
+checked_on: '2026-10-11'
+sources:
+- title: Bossard BN 388 Phillips DIN 965 A dimension table
+  url: https://media.distrelec.com/Web/Downloads/_t/ds/1156330_eng_tds.pdf
+  use: M2 to M6 head, H recess number, m, penetration limits and commercial lengths.
+    DIN sizes are used without substitution of ISO head diameters.
+- title: Bossard BN 3333 Pozidriv DIN 965 A dimension table
+  url: https://www.tme.eu/Document/b3c2bbb9412ad33d6d7c7272822eba01/BN3333-EN.pdf
+  use: Z recess number, m and penetration limits.
+- title: Aspen Fasteners DIN 965 dimensional sheet
+  url: https://tvsat.com.pl/PDF/M/metric_din_965_aspen.pdf
+  use: M1.6 head and H recess dimensions. The M3.5 pitch misprint in this sheet is
+    not used.
+modelling_choices:
+  head: Nominal dk with 90 degree cone and an adjusted positive rim within k max.
+    Small tangent under-head radius is selected, not a manufacturer identification.
+  thread_coverage: Full thread to the head as described by the Bossard products. Commercial
+    lengths beyond the sheet are flagged.
+sizes:
+  '1.6':
+    dimension_status: supplier_dimensions
+    pitch_mm: 0.35
+    head_diameter_mm: 3
+    head_height_mm: 0.96
+    countersink_angle_deg: 90
+    underhead_fillet_mm: 0.05
+    thread_length_reference_mm: null
+    partial_thread_from_length_mm: null
+    recesses:
+      philips:
+        recess_type: H
+        recess_number: 0
+        recess_diameter_mm: 1.7
+        recess_depth_mm: 0.785
+        penetration_limits_mm:
+        - 0.66
+        - 0.91
+        commercial_lengths_mm: []
+  '2':
+    dimension_status: supplier_dimensions
+    pitch_mm: 0.4
+    head_diameter_mm: 3.8
+    head_height_mm: 1.2
+    countersink_angle_deg: 90
+    underhead_fillet_mm: 0.08
+    thread_length_reference_mm: null
+    partial_thread_from_length_mm: null
+    commercial_lengths_mm: &id001
+    - 3
+    - 4
+    - 5
+    - 6
+    - 8
+    - 10
+    - 12
+    - 16
+    - 20
+    recesses:
+      philips:
+        recess_type: H
+        recess_number: 1
+        recess_diameter_mm: 2.35
+        recess_depth_mm: 1.1
+        penetration_limits_mm:
+        - 0.95
+        - 1.25
+        commercial_lengths_mm: *id001
+      pozidriv:
+        recess_type: Z
+        recess_number: 1
+        recess_diameter_mm: 2.2
+        recess_depth_mm: 1.045
+        penetration_limits_mm:
+        - 0.92
+        - 1.17
+        commercial_lengths_mm:
+        - 4
+        - 5
+        - 6
+        - 8
+        - 10
+        - 12
+        - 16
+        - 20
+  '2.5':
+    dimension_status: supplier_dimensions
+    pitch_mm: 0.45
+    head_diameter_mm: 4.7
+    head_height_mm: 1.5
+    countersink_angle_deg: 90
+    underhead_fillet_mm: 0.08
+    thread_length_reference_mm: null
+    partial_thread_from_length_mm: null
+    commercial_lengths_mm: &id002
+    - 3
+    - 4
+    - 5
+    - 6
+    - 8
+    - 10
+    - 12
+    - 16
+    - 20
+    - 25
+    recesses:
+      philips:
+        recess_type: H
+        recess_number: 1
+        recess_diameter_mm: 2.7
+        recess_depth_mm: 1.4
+        penetration_limits_mm:
+        - 1.25
+        - 1.55
+        commercial_lengths_mm: *id002
+      pozidriv:
+        recess_type: Z
+        recess_number: 1
+        recess_diameter_mm: 2.5
+        recess_depth_mm: 1.345
+        penetration_limits_mm:
+        - 1.22
+        - 1.47
+        commercial_lengths_mm:
+        - 4
+        - 5
+        - 6
+        - 8
+        - 10
+        - 12
+        - 16
+        - 20
+  '3':
+    dimension_status: supplier_dimensions
+    pitch_mm: 0.5
+    head_diameter_mm: 5.6
+    head_height_mm: 1.65
+    countersink_angle_deg: 90
+    underhead_fillet_mm: 0.1
+    thread_length_reference_mm: null
+    partial_thread_from_length_mm: null
+    commercial_lengths_mm: &id003
+    - 3
+    - 4
+    - 5
+    - 6
+    - 8
+    - 10
+    - 12
+    - 14
+    - 16
+    - 18
+    - 20
+    - 22
+    - 25
+    - 30
+    - 35
+    - 40
+    - 45
+    - 50
+    recesses:
+      philips:
+        recess_type: H
+        recess_number: 1
+        recess_diameter_mm: 2.9
+        recess_depth_mm: 1.65
+        penetration_limits_mm:
+        - 1.5
+        - 1.8
+        commercial_lengths_mm: *id003
+      pozidriv:
+        recess_type: Z
+        recess_number: 1
+        recess_diameter_mm: 2.8
+        recess_depth_mm: 1.605
+        penetration_limits_mm:
+        - 1.48
+        - 1.73
+        commercial_lengths_mm:
+        - 4
+        - 5
+        - 6
+        - 8
+        - 10
+        - 12
+        - 16
+        - 20
+        - 25
+        - 30
+        - 35
+        - 40
+        - 50
+  '3.5':
+    dimension_status: supplier_dimensions
+    pitch_mm: 0.6
+    head_diameter_mm: 6.5
+    head_height_mm: 1.93
+    countersink_angle_deg: 90
+    underhead_fillet_mm: 0.1
+    thread_length_reference_mm: null
+    partial_thread_from_length_mm: null
+    commercial_lengths_mm: &id004
+    - 5
+    - 6
+    - 8
+    - 10
+    - 12
+    - 14
+    - 16
+    - 20
+    - 25
+    - 30
+    recesses:
+      philips:
+        recess_type: H
+        recess_number: 2
+        recess_diameter_mm: 3.9
+        recess_depth_mm: 1.65
+        penetration_limits_mm:
+        - 1.4
+        - 1.9
+        commercial_lengths_mm: *id004
+      pozidriv:
+        recess_type: Z
+        recess_number: 2
+        recess_diameter_mm: 3.7
+        recess_depth_mm: 1.57
+        penetration_limits_mm:
+        - 1.34
+        - 1.8
+        commercial_lengths_mm:
+        - 6
+        - 8
+        - 10
+        - 12
+        - 16
+        - 20
+  '4':
+    dimension_status: supplier_dimensions
+    pitch_mm: 0.7
+    head_diameter_mm: 7.5
+    head_height_mm: 2.2
+    countersink_angle_deg: 90
+    underhead_fillet_mm: 0.15
+    thread_length_reference_mm: null
+    partial_thread_from_length_mm: null
+    commercial_lengths_mm: &id005
+    - 5
+    - 6
+    - 8
+    - 10
+    - 12
+    - 14
+    - 16
+    - 18
+    - 20
+    - 22
+    - 25
+    - 30
+    - 35
+    - 40
+    - 45
+    - 50
+    - 60
+    - 70
+    - 80
+    recesses:
+      philips:
+        recess_type: H
+        recess_number: 2
+        recess_diameter_mm: 4.4
+        recess_depth_mm: 2.15
+        penetration_limits_mm:
+        - 1.9
+        - 2.4
+        commercial_lengths_mm: *id005
+      pozidriv:
+        recess_type: Z
+        recess_number: 2
+        recess_diameter_mm: 4
+        recess_depth_mm: 1.83
+        penetration_limits_mm:
+        - 1.6
+        - 2.06
+        commercial_lengths_mm:
+        - 5
+        - 6
+        - 8
+        - 10
+        - 12
+        - 16
+        - 20
+        - 25
+        - 30
+        - 35
+        - 40
+        - 45
+        - 50
+        - 60
+  '5':
+    dimension_status: supplier_dimensions
+    pitch_mm: 0.8
+    head_diameter_mm: 9.2
+    head_height_mm: 2.5
+    countersink_angle_deg: 90
+    underhead_fillet_mm: 0.2
+    thread_length_reference_mm: null
+    partial_thread_from_length_mm: null
+    commercial_lengths_mm: &id006
+    - 6
+    - 8
+    - 10
+    - 12
+    - 14
+    - 16
+    - 18
+    - 20
+    - 22
+    - 25
+    - 30
+    - 35
+    - 40
+    - 45
+    - 50
+    - 60
+    - 70
+    - 80
+    recesses:
+      philips:
+        recess_type: H
+        recess_number: 2
+        recess_diameter_mm: 4.6
+        recess_depth_mm: 2.35
+        penetration_limits_mm:
+        - 2.1
+        - 2.6
+        commercial_lengths_mm: *id006
+      pozidriv:
+        recess_type: Z
+        recess_number: 2
+        recess_diameter_mm: 4.4
+        recess_depth_mm: 2.28
+        penetration_limits_mm:
+        - 2.05
+        - 2.51
+        commercial_lengths_mm:
+        - 6
+        - 8
+        - 10
+        - 12
+        - 16
+        - 20
+        - 25
+        - 30
+        - 35
+        - 40
+        - 45
+        - 50
+        - 60
+        - 70
+  '6':
+    dimension_status: supplier_dimensions
+    pitch_mm: 1
+    head_diameter_mm: 11
+    head_height_mm: 3
+    countersink_angle_deg: 90
+    underhead_fillet_mm: 0.25
+    thread_length_reference_mm: null
+    partial_thread_from_length_mm: null
+    commercial_lengths_mm: &id007
+    - 8
+    - 10
+    - 12
+    - 14
+    - 16
+    - 18
+    - 20
+    - 22
+    - 25
+    - 30
+    - 35
+    - 40
+    - 45
+    - 50
+    - 60
+    - 70
+    - 80
+    recesses:
+      philips:
+        recess_type: H
+        recess_number: 3
+        recess_diameter_mm: 6.6
+        recess_depth_mm: 3.05
+        penetration_limits_mm:
+        - 2.8
+        - 3.3
+        commercial_lengths_mm: *id007
+      pozidriv:
+        recess_type: Z
+        recess_number: 3
+        recess_diameter_mm: 6.1
+        recess_depth_mm: 2.69
+        penetration_limits_mm:
+        - 2.46
+        - 2.92
+        commercial_lengths_mm:
+        - 10
+        - 12
+        - 16
+        - 20
+        - 25
+        - 30
+        - 35
+        - 40
+        - 45
+        - 50
+        - 60
+        - 70

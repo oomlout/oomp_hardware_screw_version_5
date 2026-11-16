@@ -1,0 +1,1507 @@
+<!-- oomp-documentation:start -->
+# Hardware Screw Self Tapping Philips Black M1 7 Diameter 16 Mm Length
+
+## Summary
+
+OOMP catalogue record for Hardware Screw Self Tapping Philips Black M1 7 Diameter 16 Mm Length. Use the metadata to identify this variant and the part folder to inspect its available assets.
+
+![Catalogue preview of Hardware Screw Self Tapping Philips Black M1 7 Diameter 16 Mm Length](three_d_model/render_product_low.png)
+
+Catalogue illustration; consult the source dimensions and datasheet for specification.
+
+## Details
+
+**OOMP folder ID:** `hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length`
+
+[Catalogue](../../README.md) · [Part metadata](working.yaml)
+
+| Field | Value |
+| --- | --- |
+| id | hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length |
+| md5_6 | bb3f46 |
+| md5_6_alpha | 7b0p2 |
+| oomp_key | oomp_hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length |
+| taxonomy_1 | hardware |
+| taxonomy_2 | screw |
+| taxonomy_3 | self_tapping |
+| taxonomy_4 | philips |
+| taxonomy_5 | black |
+| taxonomy_6 | m1_7_diameter |
+| taxonomy_7 | 16_mm_length |
+
+<details>
+<summary>Full part metadata</summary>
+
+```yaml
+bip_39_2_word_array:
+- robot
+- when
+bip_39_2_word_no_space: robotwhen
+bip_39_2_word_space: robot when
+bip_39_2_word_underscore: robot_when
+bip_39_3_word_array:
+- robot
+- when
+- pet
+bip_39_3_word_no_space: robotwhenpet
+bip_39_3_word_space: robot when pet
+bip_39_3_word_underscore: robot_when_pet
+bip_39_full_array:
+- robot
+- when
+- pet
+- unfold
+- hub
+- flag
+- traffic
+- razor
+- coil
+- divide
+- census
+- allow
+bip_39_full_no_space: robotwhenpetunfoldhubflagtrafficrazorcoildividecensusallow
+bip_39_full_space: robot when pet unfold hub flag traffic razor coil divide census
+  allow
+bip_39_full_underscore: robot_when_pet_unfold_hub_flag_traffic_razor_coil_divide_census_allow
+directory: parts/hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length
+generate_stl: true
+id: hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length
+id_no_class: hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length
+id_no_size: hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length
+id_no_type: hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length
+label_drawer: &id001
+  bip39: robot when pet
+  bip39_size: 2.35
+  code: SC
+  description: Self-tapping screw / M1.7 / 16 mm / Phillips / Black
+  detail_lines:
+  - Phillips / Black
+  detail_size: 2.05
+  detail_y: 21.1
+  diagram: <path d="M2 3H6V11H2Z M2 6H2.8V8H2"/><path d="M6 5H15L19 7L15 9H6"/><path
+    d="M7 5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9"/>
+  drive_symbol: <circle cx="5" cy="5" r="4.5" fill="#ffffff"/><path d="M4 1.7H6V4H8.3V6H6V8.3H4V6H1.7V4H4Z"
+    fill="#000000"/>
+  length: '16'
+  length_size: 7.8
+  length_x: 18.02234375
+  name: Self-tapping screw
+  name_lines:
+  - Self-tapping
+  - screw
+  name_size: 3.2
+  thread: M1.7
+  thread_size: 4.408
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length
+md5: bb3f468df696e8b079b5952d47fc9503
+md5_10: bb3f468df6
+md5_10_upper: BB3F468DF6
+md5_5: bb3f4
+md5_5_upper: BB3F4
+md5_6: bb3f46
+md5_6_alpha: 7b0p2
+md5_6_alpha_upper: 7B0P2
+md5_6_upper: BB3F46
+name: Hardware Screw Self Tapping Philips Black M1 7 Diameter 16 Mm Length
+name_no_class: Hardware Screw Self Tapping Philips Black M1 7 Diameter 16 Mm Length
+name_no_size: Hardware Screw Self Tapping Philips Black M1 7 Diameter 16 Mm Length
+name_no_type: Hardware Screw Self Tapping Philips Black M1 7 Diameter 16 Mm Length
+name_proper: Hardware Screw Self Tapping Philips Black M1 7 Diameter 16 Mm Length
+name_space: hardware screw self tapping philips black m1 7 diameter 16 mm length
+name_upper: HARDWARE SCREW SELF TAPPING PHILIPS BLACK M1 7 DIAMETER 16 MM LENGTH
+oobb_details:
+  drive_style: philips
+  length: 16_mm_length
+  oobb_name: screw
+  screw_colour: black
+  screw_style: self_tapping
+  thread_size: m1_7_diameter
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      directory: parts\hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length
+      name: hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length
+      name_proper: Hardware Screw Self Tapping Philips Black M1 7 Diameter 16 Mm Length
+      name_space: hardware screw self tapping philips black m1 7 diameter 16 mm length
+      name_upper: HARDWARE SCREW SELF TAPPING PHILIPS BLACK M1 7 DIAMETER 16 MM LENGTH
+      oobb_details:
+        drive_style: philips
+        length: 16_mm_length
+        oobb_name: screw
+        screw_colour: black
+        screw_style: self_tapping
+        thread_size: m1_7_diameter
+      svg_details:
+        diameter_mm: 1.7
+        drive_style: philips
+        drive_symbol_gap_mm: 1.02
+        head_diameter_mm: 3.1
+        head_height_mm: 1.0
+        head_rim_mm: 0.1275
+        length_mm: 16.0
+        screw_style: self_tapping
+        socket_depth_mm: 0.5525
+        socket_width_mm: 1.105
+        stylesheet: project_bolt
+        svg_name: screw_diagrams
+        thread_pitch_mm: 0.5
+        variants:
+          plain: diagram_plain.svg
+          solid: diagram_solid.svg
+          threaded: diagram_threaded.svg
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: screw
+      taxonomy_3: self_tapping
+      taxonomy_4: philips
+      taxonomy_5: black
+      taxonomy_6: m1_7_diameter
+      taxonomy_7: 16_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      three_d_model_details:
+        checked_on: '2026-10-13'
+        commercial_lengths_mm: []
+        coordinate_system:
+          axis: +Z towards head
+          glb_units: metres
+          glb_up_axis: Y
+          head_top_z_mm: 17.0
+          length_convention: under_head
+          origin: tip centre
+          stl_units: mm
+        dimension_status: image_based_visualization
+        dimensional_specification: Phillips pan-head self-tapper from supplied diagram
+          and visual estimates
+        family: self_tapping
+        generation_status: ready
+        generator: parametric_screw
+        length_status: catalogue_length_extension
+        material:
+          base_colour_srgb:
+          - 0.205
+          - 0.218
+          - 0.235
+          coat_roughness: 0.28
+          coat_weight: 0.08
+          metallic: 0.8
+          microtexture_height_um: 0.8
+          microtexture_spacing_mm: 0.025
+          name: Black oxide steel
+          note: Visual finish approximation; catalogue specifies colour only.
+          roughness: 0.31
+          roughness_variation: 0.045
+        model_formats:
+        - stl
+        - glb
+        modelling_choices:
+          catalogue_length: Unlisted lengths use the sourced size profile at the catalogue
+            length and are explicitly marked as extensions.
+          certification: Visualization only; estimated features are not manufacturing
+            dimensions.
+          dimensions: Use the supplied head dimensions and pitches; 1 and 1.2 mm use
+            the user's explicit 0.3 mm pitch. All lengths are measured beneath the
+            head.
+          display: Smooth pointed nominal thread envelope with the same recessed pan
+            head.
+          head: Estimated spherical crown uses up to 55% of head height, with a cylindrical
+            skirt and a small 35%-head-diameter crown land to preserve the specified
+            height around the recess.
+          identity: User-authorized visual approximation of the supplied pan-head
+            self-tapper; black catalogue finish retained. No DIN, ISO or manufacturer
+            conformity claimed.
+          markings: Unidentified manufacturer and property-class stamps omitted.
+          recess: Estimated Phillips cross spans 52% of head diameter and penetrates
+            60% of head height; wing/core widths 16%/18% of head diameter, tapered
+            walls and floor.
+          runout: A short 0.12P blend joins the thread to a 0.015d head fillet; no
+            plain shank.
+          thread: Single-start right-hand helix, estimated core 0.65d, 60 degree flanks,
+            and narrow 0.02P crest land. Core and profile are visual estimates, not
+            metric threads.
+          thread_coverage: Full thread to the head, with no smooth neck or length-dependent
+            partial thread.
+          tip: Estimated conical point one diameter long, capped at 60% of available
+            shaft for unusually short edits. Thread and core taper together; no cutting
+            flutes.
+        note: User-authorized image-based self-tapping visualization. Head dimensions
+          and pitch are specified; core, point, crown and recess are documented visual
+          estimates.
+        output_folder: three_d_model
+        parameters:
+          diameter_mm: 1.7
+          drive_style: philips
+          finish: black
+          handedness: right
+          head_crown_flat_diameter_mm: 1.085
+          head_crown_radius_mm: 2.4590909090909094
+          head_diameter_mm: 3.1
+          head_height_mm: 1.0
+          head_style: pan
+          head_top_z_mm: 17.0
+          length_convention: under_head
+          length_mm: 16.0
+          overall_length_mm: 17.0
+          partial_thread_from_length_mm: null
+          pitch_mm: 0.5
+          point_length_diameters: 1.0
+          recess_core_width_mm: 0.5579999999999999
+          recess_depth_mm: 0.6
+          recess_diameter_mm: 1.612
+          recess_floor_angle_deg: 28.0
+          recess_outer_slope_deg: 26.5
+          recess_type: H
+          recess_wall_taper_deg: 7.0
+          recess_wing_width_mm: 0.49600000000000005
+          standard: User-selected miniature self-tapping visualization
+          thread_coverage: full
+          thread_crest_fraction: 0.02
+          thread_flank_angle_deg: 60
+          thread_length_reference_mm: null
+          thread_minor_diameter_mm: 1.105
+          thread_profile: self_tapping_visualization
+          thread_runout_pitch_fraction: 0.12
+          thread_starts: 1
+          tip_chamfer_mm: 0.25
+          underhead_fillet_mm: 0.0255
+        priority: 10
+        renders:
+          high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+          low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+          product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+          product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+        schema_version: 1
+        selection:
+          finish_identity: black_zinc
+          head_style: pan
+          identity_note: User selected the supplied dimensions, 0.3 mm pitch for 1/1.2
+            mm and 2.2 mm replacement on 2026-10-13, then confirmed full threading
+            and authorized image-based core, point and Phillips recess estimates.
+            Use a labelled visual approximation with black finish.
+          reference_urls:
+          - https://www.ebay.co.uk/itm/383102775525
+          - https://www.ebay.co.uk/itm/377271086738
+          research_profile: miniature_self_tapping
+          standard_file: self_tapping_visualization.yaml
+          supplier_url: https://www.aliexpress.com/item/1005004774076999.html
+          thread_coverage: full
+        sources:
+        - local_reference: references/ebay_377271086738_dimensions_full.webp
+          title: User-supplied eBay dimensional diagram, image 6
+          url: https://www.ebay.co.uk/itm/377271086738
+          use: Diameter, head diameter and height; pitches at 1.4, 1.7, 2 and 2.2
+            mm.
+        - title: User modelling instructions, 2026-10-13
+          url: references/ebay_377271086738_dimensions_full.webp
+          use: User specifies 0.3 mm pitch at 1 and 1.2 mm, corrects 2.3 to 2.2 mm,
+            confirms thread to the head, and authorizes image-based estimates for
+            core, thread shape, point and a reasonable Phillips recess.
+        standard: User-selected miniature self-tapping visualization
+        standard_lengths_mm: []
+        standard_limits: {}
+        studio:
+          adaptive_threshold: 0.015
+          denoise: true
+          device: auto
+          engine: cycles
+          exposure: 0.0
+          floor_colour_srgb:
+          - 0.93
+          - 0.935
+          - 0.94
+          floor_roughness: 0.55
+          framing_margin: 0.13
+          high_samples: 160
+          lights:
+          - colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+          - colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+          - colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+          low_samples: 48
+          poses:
+            isometric:
+              camera_eye:
+              - 1
+              - -1
+              - 1
+              orientation: tip down, head up
+              projection: orthographic
+            product:
+              camera_eye:
+              - -6
+              - -10
+              - 6
+              orientation: lying on side, head to left
+              projection: orthographic
+              support: Head rim and threaded shaft rest on ground; solve tilt from
+                mesh.
+              yaw_degrees: -12.0
+          seed: 7991
+          view_transform: AgX
+          world_colour:
+          - 0.78
+          - 0.82
+          - 0.9
+          world_strength: 0.35
+        units: mm
+        variants:
+          display:
+            angular_segments: 32
+            fillet_segments: 4
+            samples_per_pitch: 1
+          full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+        views:
+        - isometric
+        - front
+        - back
+        - left
+        - right
+        - top
+        - bottom
+        visual_assumptions:
+          core_diameter_fraction: 0.65
+          crown_flat_diameter_head_fraction: 0.35
+          crown_sag_height_fraction: 0.55
+          point_length_diameters: 1.0
+          recess_core_width_head_fraction: 0.18
+          recess_depth_height_fraction: 0.6
+          recess_diameter_head_fraction: 0.52
+          recess_wing_width_head_fraction: 0.16
+          thread_crest_fraction: 0.02
+          thread_flank_angle_deg: 60
+          thread_runout_pitch_fraction: 0.12
+          underhead_fillet_diameters: 0.015
+      url_chat: https://chatgpt.com/c/6a0c7905-598c-8395-a44e-6c480d63f952
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_2:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      directory: parts\hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length
+      name: hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length
+      name_proper: Hardware Screw Self Tapping Philips Black M1 7 Diameter 16 Mm Length
+      name_space: hardware screw self tapping philips black m1 7 diameter 16 mm length
+      name_upper: HARDWARE SCREW SELF TAPPING PHILIPS BLACK M1 7 DIAMETER 16 MM LENGTH
+      oobb_details:
+        drive_style: philips
+        length: 16_mm_length
+        oobb_name: screw
+        screw_colour: black
+        screw_style: self_tapping
+        thread_size: m1_7_diameter
+      oomlout_ai_roboclick_1:
+        actions:
+        - command: text_jinja_template
+          convert_to_pdf: false
+          convert_to_png: false
+          dict_data:
+            directory: parts\hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length
+            name: hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length
+            name_proper: Hardware Screw Self Tapping Philips Black M1 7 Diameter 16
+              Mm Length
+            name_space: hardware screw self tapping philips black m1 7 diameter 16
+              mm length
+            name_upper: HARDWARE SCREW SELF TAPPING PHILIPS BLACK M1 7 DIAMETER 16
+              MM LENGTH
+            oobb_details:
+              drive_style: philips
+              length: 16_mm_length
+              oobb_name: screw
+              screw_colour: black
+              screw_style: self_tapping
+              thread_size: m1_7_diameter
+            svg_details:
+              diameter_mm: 1.7
+              drive_style: philips
+              drive_symbol_gap_mm: 1.02
+              head_diameter_mm: 3.1
+              head_height_mm: 1.0
+              head_rim_mm: 0.1275
+              length_mm: 16.0
+              screw_style: self_tapping
+              socket_depth_mm: 0.5525
+              socket_width_mm: 1.105
+              stylesheet: project_bolt
+              svg_name: screw_diagrams
+              thread_pitch_mm: 0.5
+              variants:
+                plain: diagram_plain.svg
+                solid: diagram_solid.svg
+                threaded: diagram_threaded.svg
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: screw
+            taxonomy_3: self_tapping
+            taxonomy_4: philips
+            taxonomy_5: black
+            taxonomy_6: m1_7_diameter
+            taxonomy_7: 16_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+              checked_on: '2026-10-13'
+              commercial_lengths_mm: []
+              coordinate_system:
+                axis: +Z towards head
+                glb_units: metres
+                glb_up_axis: Y
+                head_top_z_mm: 17.0
+                length_convention: under_head
+                origin: tip centre
+                stl_units: mm
+              dimension_status: image_based_visualization
+              dimensional_specification: Phillips pan-head self-tapper from supplied
+                diagram and visual estimates
+              family: self_tapping
+              generation_status: ready
+              generator: parametric_screw
+              length_status: catalogue_length_extension
+              material:
+                base_colour_srgb:
+                - 0.205
+                - 0.218
+                - 0.235
+                coat_roughness: 0.28
+                coat_weight: 0.08
+                metallic: 0.8
+                microtexture_height_um: 0.8
+                microtexture_spacing_mm: 0.025
+                name: Black oxide steel
+                note: Visual finish approximation; catalogue specifies colour only.
+                roughness: 0.31
+                roughness_variation: 0.045
+              model_formats:
+              - stl
+              - glb
+              modelling_choices:
+                catalogue_length: Unlisted lengths use the sourced size profile at
+                  the catalogue length and are explicitly marked as extensions.
+                certification: Visualization only; estimated features are not manufacturing
+                  dimensions.
+                dimensions: Use the supplied head dimensions and pitches; 1 and 1.2
+                  mm use the user's explicit 0.3 mm pitch. All lengths are measured
+                  beneath the head.
+                display: Smooth pointed nominal thread envelope with the same recessed
+                  pan head.
+                head: Estimated spherical crown uses up to 55% of head height, with
+                  a cylindrical skirt and a small 35%-head-diameter crown land to
+                  preserve the specified height around the recess.
+                identity: User-authorized visual approximation of the supplied pan-head
+                  self-tapper; black catalogue finish retained. No DIN, ISO or manufacturer
+                  conformity claimed.
+                markings: Unidentified manufacturer and property-class stamps omitted.
+                recess: Estimated Phillips cross spans 52% of head diameter and penetrates
+                  60% of head height; wing/core widths 16%/18% of head diameter, tapered
+                  walls and floor.
+                runout: A short 0.12P blend joins the thread to a 0.015d head fillet;
+                  no plain shank.
+                thread: Single-start right-hand helix, estimated core 0.65d, 60 degree
+                  flanks, and narrow 0.02P crest land. Core and profile are visual
+                  estimates, not metric threads.
+                thread_coverage: Full thread to the head, with no smooth neck or length-dependent
+                  partial thread.
+                tip: Estimated conical point one diameter long, capped at 60% of available
+                  shaft for unusually short edits. Thread and core taper together;
+                  no cutting flutes.
+              note: User-authorized image-based self-tapping visualization. Head dimensions
+                and pitch are specified; core, point, crown and recess are documented
+                visual estimates.
+              output_folder: three_d_model
+              parameters:
+                diameter_mm: 1.7
+                drive_style: philips
+                finish: black
+                handedness: right
+                head_crown_flat_diameter_mm: 1.085
+                head_crown_radius_mm: 2.4590909090909094
+                head_diameter_mm: 3.1
+                head_height_mm: 1.0
+                head_style: pan
+                head_top_z_mm: 17.0
+                length_convention: under_head
+                length_mm: 16.0
+                overall_length_mm: 17.0
+                partial_thread_from_length_mm: null
+                pitch_mm: 0.5
+                point_length_diameters: 1.0
+                recess_core_width_mm: 0.5579999999999999
+                recess_depth_mm: 0.6
+                recess_diameter_mm: 1.612
+                recess_floor_angle_deg: 28.0
+                recess_outer_slope_deg: 26.5
+                recess_type: H
+                recess_wall_taper_deg: 7.0
+                recess_wing_width_mm: 0.49600000000000005
+                standard: User-selected miniature self-tapping visualization
+                thread_coverage: full
+                thread_crest_fraction: 0.02
+                thread_flank_angle_deg: 60
+                thread_length_reference_mm: null
+                thread_minor_diameter_mm: 1.105
+                thread_profile: self_tapping_visualization
+                thread_runout_pitch_fraction: 0.12
+                thread_starts: 1
+                tip_chamfer_mm: 0.25
+                underhead_fillet_mm: 0.0255
+              priority: 10
+              renders:
+                high:
+                  file: render_high.png
+                  pixels: 2048
+                  variant: full
+                  view: isometric
+                low:
+                  file: render_low.png
+                  pixels: 512
+                  variant: display
+                  view: isometric
+                product_high:
+                  file: render_product_high.png
+                  pixels: 2048
+                  variant: full
+                  view: product
+                product_low:
+                  file: render_product_low.png
+                  pixels: 512
+                  variant: display
+                  view: product
+              schema_version: 1
+              selection:
+                finish_identity: black_zinc
+                head_style: pan
+                identity_note: User selected the supplied dimensions, 0.3 mm pitch
+                  for 1/1.2 mm and 2.2 mm replacement on 2026-10-13, then confirmed
+                  full threading and authorized image-based core, point and Phillips
+                  recess estimates. Use a labelled visual approximation with black
+                  finish.
+                reference_urls:
+                - https://www.ebay.co.uk/itm/383102775525
+                - https://www.ebay.co.uk/itm/377271086738
+                research_profile: miniature_self_tapping
+                standard_file: self_tapping_visualization.yaml
+                supplier_url: https://www.aliexpress.com/item/1005004774076999.html
+                thread_coverage: full
+              sources:
+              - local_reference: references/ebay_377271086738_dimensions_full.webp
+                title: User-supplied eBay dimensional diagram, image 6
+                url: https://www.ebay.co.uk/itm/377271086738
+                use: Diameter, head diameter and height; pitches at 1.4, 1.7, 2 and
+                  2.2 mm.
+              - title: User modelling instructions, 2026-10-13
+                url: references/ebay_377271086738_dimensions_full.webp
+                use: User specifies 0.3 mm pitch at 1 and 1.2 mm, corrects 2.3 to
+                  2.2 mm, confirms thread to the head, and authorizes image-based
+                  estimates for core, thread shape, point and a reasonable Phillips
+                  recess.
+              standard: User-selected miniature self-tapping visualization
+              standard_lengths_mm: []
+              standard_limits: {}
+              studio:
+                adaptive_threshold: 0.015
+                denoise: true
+                device: auto
+                engine: cycles
+                exposure: 0.0
+                floor_colour_srgb:
+                - 0.93
+                - 0.935
+                - 0.94
+                floor_roughness: 0.55
+                framing_margin: 0.13
+                high_samples: 160
+                lights:
+                - colour:
+                  - 1.0
+                  - 0.96
+                  - 0.9
+                  height: 5.0
+                  name: Key softbox
+                  position:
+                  - -3
+                  - -4
+                  - 6
+                  power: 650.0
+                  width: 4.0
+                - colour:
+                  - 0.9
+                  - 0.95
+                  - 1.0
+                  height: 4.0
+                  name: Fill softbox
+                  position:
+                  - 4
+                  - -1
+                  - 3
+                  power: 330.0
+                  width: 3.0
+                - colour:
+                  - 1.0
+                  - 1.0
+                  - 1.0
+                  height: 5.0
+                  name: Rim strip
+                  position:
+                  - 1
+                  - 4
+                  - 4
+                  power: 850.0
+                  width: 1.2
+                low_samples: 48
+                poses:
+                  isometric:
+                    camera_eye:
+                    - 1
+                    - -1
+                    - 1
+                    orientation: tip down, head up
+                    projection: orthographic
+                  product:
+                    camera_eye:
+                    - -6
+                    - -10
+                    - 6
+                    orientation: lying on side, head to left
+                    projection: orthographic
+                    support: Head rim and threaded shaft rest on ground; solve tilt
+                      from mesh.
+                    yaw_degrees: -12.0
+                seed: 7991
+                view_transform: AgX
+                world_colour:
+                - 0.78
+                - 0.82
+                - 0.9
+                world_strength: 0.35
+              units: mm
+              variants:
+                display:
+                  angular_segments: 32
+                  fillet_segments: 4
+                  samples_per_pitch: 1
+                full:
+                  angular_segments: 96
+                  fillet_segments: 12
+                  samples_per_pitch: 32
+              views:
+              - isometric
+              - front
+              - back
+              - left
+              - right
+              - top
+              - bottom
+              visual_assumptions:
+                core_diameter_fraction: 0.65
+                crown_flat_diameter_head_fraction: 0.35
+                crown_sag_height_fraction: 0.55
+                point_length_diameters: 1.0
+                recess_core_width_head_fraction: 0.18
+                recess_depth_height_fraction: 0.6
+                recess_diameter_head_fraction: 0.52
+                recess_wing_width_head_fraction: 0.16
+                thread_crest_fraction: 0.02
+                thread_flank_angle_deg: 60
+                thread_runout_pitch_fraction: 0.12
+                underhead_fillet_diameters: 0.015
+            url_chat: https://chatgpt.com/c/6a0c7905-598c-8395-a44e-6c480d63f952
+          dict_data_files: {}
+          dict_data_files_exists: {}
+          file_output: label_oomp.svg
+          file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+          search_and_replace: []
+        file_test: label_oomp.pdf
+        retries_until_complete: 0
+      svg_details:
+        diameter_mm: 1.7
+        drive_style: philips
+        drive_symbol_gap_mm: 1.02
+        head_diameter_mm: 3.1
+        head_height_mm: 1.0
+        head_rim_mm: 0.1275
+        length_mm: 16.0
+        screw_style: self_tapping
+        socket_depth_mm: 0.5525
+        socket_width_mm: 1.105
+        stylesheet: project_bolt
+        svg_name: screw_diagrams
+        thread_pitch_mm: 0.5
+        variants:
+          plain: diagram_plain.svg
+          solid: diagram_solid.svg
+          threaded: diagram_threaded.svg
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: screw
+      taxonomy_3: self_tapping
+      taxonomy_4: philips
+      taxonomy_5: black
+      taxonomy_6: m1_7_diameter
+      taxonomy_7: 16_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      three_d_model_details:
+        checked_on: '2026-10-13'
+        commercial_lengths_mm: []
+        coordinate_system:
+          axis: +Z towards head
+          glb_units: metres
+          glb_up_axis: Y
+          head_top_z_mm: 17.0
+          length_convention: under_head
+          origin: tip centre
+          stl_units: mm
+        dimension_status: image_based_visualization
+        dimensional_specification: Phillips pan-head self-tapper from supplied diagram
+          and visual estimates
+        family: self_tapping
+        generation_status: ready
+        generator: parametric_screw
+        length_status: catalogue_length_extension
+        material:
+          base_colour_srgb:
+          - 0.205
+          - 0.218
+          - 0.235
+          coat_roughness: 0.28
+          coat_weight: 0.08
+          metallic: 0.8
+          microtexture_height_um: 0.8
+          microtexture_spacing_mm: 0.025
+          name: Black oxide steel
+          note: Visual finish approximation; catalogue specifies colour only.
+          roughness: 0.31
+          roughness_variation: 0.045
+        model_formats:
+        - stl
+        - glb
+        modelling_choices:
+          catalogue_length: Unlisted lengths use the sourced size profile at the catalogue
+            length and are explicitly marked as extensions.
+          certification: Visualization only; estimated features are not manufacturing
+            dimensions.
+          dimensions: Use the supplied head dimensions and pitches; 1 and 1.2 mm use
+            the user's explicit 0.3 mm pitch. All lengths are measured beneath the
+            head.
+          display: Smooth pointed nominal thread envelope with the same recessed pan
+            head.
+          head: Estimated spherical crown uses up to 55% of head height, with a cylindrical
+            skirt and a small 35%-head-diameter crown land to preserve the specified
+            height around the recess.
+          identity: User-authorized visual approximation of the supplied pan-head
+            self-tapper; black catalogue finish retained. No DIN, ISO or manufacturer
+            conformity claimed.
+          markings: Unidentified manufacturer and property-class stamps omitted.
+          recess: Estimated Phillips cross spans 52% of head diameter and penetrates
+            60% of head height; wing/core widths 16%/18% of head diameter, tapered
+            walls and floor.
+          runout: A short 0.12P blend joins the thread to a 0.015d head fillet; no
+            plain shank.
+          thread: Single-start right-hand helix, estimated core 0.65d, 60 degree flanks,
+            and narrow 0.02P crest land. Core and profile are visual estimates, not
+            metric threads.
+          thread_coverage: Full thread to the head, with no smooth neck or length-dependent
+            partial thread.
+          tip: Estimated conical point one diameter long, capped at 60% of available
+            shaft for unusually short edits. Thread and core taper together; no cutting
+            flutes.
+        note: User-authorized image-based self-tapping visualization. Head dimensions
+          and pitch are specified; core, point, crown and recess are documented visual
+          estimates.
+        output_folder: three_d_model
+        parameters:
+          diameter_mm: 1.7
+          drive_style: philips
+          finish: black
+          handedness: right
+          head_crown_flat_diameter_mm: 1.085
+          head_crown_radius_mm: 2.4590909090909094
+          head_diameter_mm: 3.1
+          head_height_mm: 1.0
+          head_style: pan
+          head_top_z_mm: 17.0
+          length_convention: under_head
+          length_mm: 16.0
+          overall_length_mm: 17.0
+          partial_thread_from_length_mm: null
+          pitch_mm: 0.5
+          point_length_diameters: 1.0
+          recess_core_width_mm: 0.5579999999999999
+          recess_depth_mm: 0.6
+          recess_diameter_mm: 1.612
+          recess_floor_angle_deg: 28.0
+          recess_outer_slope_deg: 26.5
+          recess_type: H
+          recess_wall_taper_deg: 7.0
+          recess_wing_width_mm: 0.49600000000000005
+          standard: User-selected miniature self-tapping visualization
+          thread_coverage: full
+          thread_crest_fraction: 0.02
+          thread_flank_angle_deg: 60
+          thread_length_reference_mm: null
+          thread_minor_diameter_mm: 1.105
+          thread_profile: self_tapping_visualization
+          thread_runout_pitch_fraction: 0.12
+          thread_starts: 1
+          tip_chamfer_mm: 0.25
+          underhead_fillet_mm: 0.0255
+        priority: 10
+        renders:
+          high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+          low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+          product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+          product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+        schema_version: 1
+        selection:
+          finish_identity: black_zinc
+          head_style: pan
+          identity_note: User selected the supplied dimensions, 0.3 mm pitch for 1/1.2
+            mm and 2.2 mm replacement on 2026-10-13, then confirmed full threading
+            and authorized image-based core, point and Phillips recess estimates.
+            Use a labelled visual approximation with black finish.
+          reference_urls:
+          - https://www.ebay.co.uk/itm/383102775525
+          - https://www.ebay.co.uk/itm/377271086738
+          research_profile: miniature_self_tapping
+          standard_file: self_tapping_visualization.yaml
+          supplier_url: https://www.aliexpress.com/item/1005004774076999.html
+          thread_coverage: full
+        sources:
+        - local_reference: references/ebay_377271086738_dimensions_full.webp
+          title: User-supplied eBay dimensional diagram, image 6
+          url: https://www.ebay.co.uk/itm/377271086738
+          use: Diameter, head diameter and height; pitches at 1.4, 1.7, 2 and 2.2
+            mm.
+        - title: User modelling instructions, 2026-10-13
+          url: references/ebay_377271086738_dimensions_full.webp
+          use: User specifies 0.3 mm pitch at 1 and 1.2 mm, corrects 2.3 to 2.2 mm,
+            confirms thread to the head, and authorizes image-based estimates for
+            core, thread shape, point and a reasonable Phillips recess.
+        standard: User-selected miniature self-tapping visualization
+        standard_lengths_mm: []
+        standard_limits: {}
+        studio:
+          adaptive_threshold: 0.015
+          denoise: true
+          device: auto
+          engine: cycles
+          exposure: 0.0
+          floor_colour_srgb:
+          - 0.93
+          - 0.935
+          - 0.94
+          floor_roughness: 0.55
+          framing_margin: 0.13
+          high_samples: 160
+          lights:
+          - colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+          - colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+          - colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+          low_samples: 48
+          poses:
+            isometric:
+              camera_eye:
+              - 1
+              - -1
+              - 1
+              orientation: tip down, head up
+              projection: orthographic
+            product:
+              camera_eye:
+              - -6
+              - -10
+              - 6
+              orientation: lying on side, head to left
+              projection: orthographic
+              support: Head rim and threaded shaft rest on ground; solve tilt from
+                mesh.
+              yaw_degrees: -12.0
+          seed: 7991
+          view_transform: AgX
+          world_colour:
+          - 0.78
+          - 0.82
+          - 0.9
+          world_strength: 0.35
+        units: mm
+        variants:
+          display:
+            angular_segments: 32
+            fillet_segments: 4
+            samples_per_pitch: 1
+          full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+        views:
+        - isometric
+        - front
+        - back
+        - left
+        - right
+        - top
+        - bottom
+        visual_assumptions:
+          core_diameter_fraction: 0.65
+          crown_flat_diameter_head_fraction: 0.35
+          crown_sag_height_fraction: 0.55
+          point_length_diameters: 1.0
+          recess_core_width_head_fraction: 0.18
+          recess_depth_height_fraction: 0.6
+          recess_diameter_head_fraction: 0.52
+          recess_wing_width_head_fraction: 0.16
+          thread_crest_fraction: 0.02
+          thread_flank_angle_deg: 60
+          thread_runout_pitch_fraction: 0.12
+          underhead_fillet_diameters: 0.015
+      url_chat: https://chatgpt.com/c/6a0c7905-598c-8395-a44e-6c480d63f952
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_bolt_image.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_bolt_image.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_3:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    description: label_drawer
+    dict_data:
+      label_drawer: *id001
+    file_output: label_drawer.svg
+    file_template: C:\gh\oomp_hardware_screw_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+  file_test: ''
+oomp_key: oomp_hardware_screw_self_tapping_philips_black_m1_7_diameter_16_mm_length
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+svg_details:
+  diameter_mm: 1.7
+  drive_style: philips
+  drive_symbol_gap_mm: 1.02
+  head_diameter_mm: 3.1
+  head_height_mm: 1.0
+  head_rim_mm: 0.1275
+  length_mm: 16.0
+  screw_style: self_tapping
+  socket_depth_mm: 0.5525
+  socket_width_mm: 1.105
+  stylesheet: project_bolt
+  svg_name: screw_diagrams
+  thread_pitch_mm: 0.5
+  variants:
+    plain: diagram_plain.svg
+    solid: diagram_solid.svg
+    threaded: diagram_threaded.svg
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: screw
+taxonomy_2_capital: Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: sc
+taxonomy_2_length_3: scr
+taxonomy_2_length_4: scre
+taxonomy_2_length_5: screw
+taxonomy_2_upper: SCREW
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: SC
+taxonomy_2_upper_length_3: SCR
+taxonomy_2_upper_length_4: SCRE
+taxonomy_2_upper_length_5: SCREW
+taxonomy_3: self_tapping
+taxonomy_3_capital: Self Tapping
+taxonomy_3_first_letter: s
+taxonomy_3_first_letter_upper: S
+taxonomy_3_length_1: s
+taxonomy_3_length_2: se
+taxonomy_3_length_3: sel
+taxonomy_3_length_4: self
+taxonomy_3_length_5: self_
+taxonomy_3_upper: SELF_TAPPING
+taxonomy_3_upper_length_1: S
+taxonomy_3_upper_length_2: SE
+taxonomy_3_upper_length_3: SEL
+taxonomy_3_upper_length_4: SELF
+taxonomy_3_upper_length_5: SELF_
+taxonomy_4: philips
+taxonomy_4_capital: Philips
+taxonomy_4_first_letter: p
+taxonomy_4_first_letter_upper: P
+taxonomy_4_length_1: p
+taxonomy_4_length_2: ph
+taxonomy_4_length_3: phi
+taxonomy_4_length_4: phil
+taxonomy_4_length_5: phili
+taxonomy_4_upper: PHILIPS
+taxonomy_4_upper_length_1: P
+taxonomy_4_upper_length_2: PH
+taxonomy_4_upper_length_3: PHI
+taxonomy_4_upper_length_4: PHIL
+taxonomy_4_upper_length_5: PHILI
+taxonomy_5: black
+taxonomy_5_capital: Black
+taxonomy_5_first_letter: b
+taxonomy_5_first_letter_upper: B
+taxonomy_5_length_1: b
+taxonomy_5_length_2: bl
+taxonomy_5_length_3: bla
+taxonomy_5_length_4: blac
+taxonomy_5_length_5: black
+taxonomy_5_upper: BLACK
+taxonomy_5_upper_length_1: B
+taxonomy_5_upper_length_2: BL
+taxonomy_5_upper_length_3: BLA
+taxonomy_5_upper_length_4: BLAC
+taxonomy_5_upper_length_5: BLACK
+taxonomy_6: m1_7_diameter
+taxonomy_6_capital: M1.7 Diameter
+taxonomy_6_first_letter: m
+taxonomy_6_first_letter_upper: M
+taxonomy_6_length_1: m
+taxonomy_6_length_2: m1
+taxonomy_6_length_3: m1_
+taxonomy_6_length_4: m1_7
+taxonomy_6_length_5: m1_7_
+taxonomy_6_upper: M1_7_DIAMETER
+taxonomy_6_upper_length_1: M
+taxonomy_6_upper_length_2: M1
+taxonomy_6_upper_length_3: M1_
+taxonomy_6_upper_length_4: M1_7
+taxonomy_6_upper_length_5: M1_7_
+taxonomy_7: 16_mm_length
+taxonomy_7_capital: 16 mm Length
+taxonomy_7_first_letter: '1'
+taxonomy_7_first_letter_upper: '1'
+taxonomy_7_length_1: '1'
+taxonomy_7_length_2: '16'
+taxonomy_7_length_3: '16_'
+taxonomy_7_length_4: 16_m
+taxonomy_7_length_5: 16_mm
+taxonomy_7_upper: 16_MM_LENGTH
+taxonomy_7_upper_length_1: '1'
+taxonomy_7_upper_length_2: '16'
+taxonomy_7_upper_length_3: '16_'
+taxonomy_7_upper_length_4: 16_M
+taxonomy_7_upper_length_5: 16_MM
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+  checked_on: '2026-10-13'
+  commercial_lengths_mm: []
+  coordinate_system:
+    axis: +Z towards head
+    glb_units: metres
+    glb_up_axis: Y
+    head_top_z_mm: 17.0
+    length_convention: under_head
+    origin: tip centre
+    stl_units: mm
+  dimension_status: image_based_visualization
+  dimensional_specification: Phillips pan-head self-tapper from supplied diagram and
+    visual estimates
+  family: self_tapping
+  generation_status: ready
+  generator: parametric_screw
+  length_status: catalogue_length_extension
+  material:
+    base_colour_srgb:
+    - 0.205
+    - 0.218
+    - 0.235
+    coat_roughness: 0.28
+    coat_weight: 0.08
+    metallic: 0.8
+    microtexture_height_um: 0.8
+    microtexture_spacing_mm: 0.025
+    name: Black oxide steel
+    note: Visual finish approximation; catalogue specifies colour only.
+    roughness: 0.31
+    roughness_variation: 0.045
+  model_formats:
+  - stl
+  - glb
+  modelling_choices:
+    catalogue_length: Unlisted lengths use the sourced size profile at the catalogue
+      length and are explicitly marked as extensions.
+    certification: Visualization only; estimated features are not manufacturing dimensions.
+    dimensions: Use the supplied head dimensions and pitches; 1 and 1.2 mm use the
+      user's explicit 0.3 mm pitch. All lengths are measured beneath the head.
+    display: Smooth pointed nominal thread envelope with the same recessed pan head.
+    head: Estimated spherical crown uses up to 55% of head height, with a cylindrical
+      skirt and a small 35%-head-diameter crown land to preserve the specified height
+      around the recess.
+    identity: User-authorized visual approximation of the supplied pan-head self-tapper;
+      black catalogue finish retained. No DIN, ISO or manufacturer conformity claimed.
+    markings: Unidentified manufacturer and property-class stamps omitted.
+    recess: Estimated Phillips cross spans 52% of head diameter and penetrates 60%
+      of head height; wing/core widths 16%/18% of head diameter, tapered walls and
+      floor.
+    runout: A short 0.12P blend joins the thread to a 0.015d head fillet; no plain
+      shank.
+    thread: Single-start right-hand helix, estimated core 0.65d, 60 degree flanks,
+      and narrow 0.02P crest land. Core and profile are visual estimates, not metric
+      threads.
+    thread_coverage: Full thread to the head, with no smooth neck or length-dependent
+      partial thread.
+    tip: Estimated conical point one diameter long, capped at 60% of available shaft
+      for unusually short edits. Thread and core taper together; no cutting flutes.
+  note: User-authorized image-based self-tapping visualization. Head dimensions and
+    pitch are specified; core, point, crown and recess are documented visual estimates.
+  output_folder: three_d_model
+  parameters:
+    diameter_mm: 1.7
+    drive_style: philips
+    finish: black
+    handedness: right
+    head_crown_flat_diameter_mm: 1.085
+    head_crown_radius_mm: 2.4590909090909094
+    head_diameter_mm: 3.1
+    head_height_mm: 1.0
+    head_style: pan
+    head_top_z_mm: 17.0
+    length_convention: under_head
+    length_mm: 16.0
+    overall_length_mm: 17.0
+    partial_thread_from_length_mm: null
+    pitch_mm: 0.5
+    point_length_diameters: 1.0
+    recess_core_width_mm: 0.5579999999999999
+    recess_depth_mm: 0.6
+    recess_diameter_mm: 1.612
+    recess_floor_angle_deg: 28.0
+    recess_outer_slope_deg: 26.5
+    recess_type: H
+    recess_wall_taper_deg: 7.0
+    recess_wing_width_mm: 0.49600000000000005
+    standard: User-selected miniature self-tapping visualization
+    thread_coverage: full
+    thread_crest_fraction: 0.02
+    thread_flank_angle_deg: 60
+    thread_length_reference_mm: null
+    thread_minor_diameter_mm: 1.105
+    thread_profile: self_tapping_visualization
+    thread_runout_pitch_fraction: 0.12
+    thread_starts: 1
+    tip_chamfer_mm: 0.25
+    underhead_fillet_mm: 0.0255
+  priority: 10
+  renders:
+    high:
+      file: render_high.png
+      pixels: 2048
+      variant: full
+      view: isometric
+    low:
+      file: render_low.png
+      pixels: 512
+      variant: display
+      view: isometric
+    product_high:
+      file: render_product_high.png
+      pixels: 2048
+      variant: full
+      view: product
+    product_low:
+      file: render_product_low.png
+      pixels: 512
+      variant: display
+      view: product
+  schema_version: 1
+  selection:
+    finish_identity: black_zinc
+    head_style: pan
+    identity_note: User selected the supplied dimensions, 0.3 mm pitch for 1/1.2 mm
+      and 2.2 mm replacement on 2026-10-13, then confirmed full threading and authorized
+      image-based core, point and Phillips recess estimates. Use a labelled visual
+      approximation with black finish.
+    reference_urls:
+    - https://www.ebay.co.uk/itm/383102775525
+    - https://www.ebay.co.uk/itm/377271086738
+    research_profile: miniature_self_tapping
+    standard_file: self_tapping_visualization.yaml
+    supplier_url: https://www.aliexpress.com/item/1005004774076999.html
+    thread_coverage: full
+  sources:
+  - local_reference: references/ebay_377271086738_dimensions_full.webp
+    title: User-supplied eBay dimensional diagram, image 6
+    url: https://www.ebay.co.uk/itm/377271086738
+    use: Diameter, head diameter and height; pitches at 1.4, 1.7, 2 and 2.2 mm.
+  - title: User modelling instructions, 2026-10-13
+    url: references/ebay_377271086738_dimensions_full.webp
+    use: User specifies 0.3 mm pitch at 1 and 1.2 mm, corrects 2.3 to 2.2 mm, confirms
+      thread to the head, and authorizes image-based estimates for core, thread shape,
+      point and a reasonable Phillips recess.
+  standard: User-selected miniature self-tapping visualization
+  standard_lengths_mm: []
+  standard_limits: {}
+  studio:
+    adaptive_threshold: 0.015
+    denoise: true
+    device: auto
+    engine: cycles
+    exposure: 0.0
+    floor_colour_srgb:
+    - 0.93
+    - 0.935
+    - 0.94
+    floor_roughness: 0.55
+    framing_margin: 0.13
+    high_samples: 160
+    lights:
+    - colour:
+      - 1.0
+      - 0.96
+      - 0.9
+      height: 5.0
+      name: Key softbox
+      position:
+      - -3
+      - -4
+      - 6
+      power: 650.0
+      width: 4.0
+    - colour:
+      - 0.9
+      - 0.95
+      - 1.0
+      height: 4.0
+      name: Fill softbox
+      position:
+      - 4
+      - -1
+      - 3
+      power: 330.0
+      width: 3.0
+    - colour:
+      - 1.0
+      - 1.0
+      - 1.0
+      height: 5.0
+      name: Rim strip
+      position:
+      - 1
+      - 4
+      - 4
+      power: 850.0
+      width: 1.2
+    low_samples: 48
+    poses:
+      isometric:
+        camera_eye:
+        - 1
+        - -1
+        - 1
+        orientation: tip down, head up
+        projection: orthographic
+      product:
+        camera_eye:
+        - -6
+        - -10
+        - 6
+        orientation: lying on side, head to left
+        projection: orthographic
+        support: Head rim and threaded shaft rest on ground; solve tilt from mesh.
+        yaw_degrees: -12.0
+    seed: 7991
+    view_transform: AgX
+    world_colour:
+    - 0.78
+    - 0.82
+    - 0.9
+    world_strength: 0.35
+  units: mm
+  variants:
+    display:
+      angular_segments: 32
+      fillet_segments: 4
+      samples_per_pitch: 1
+    full:
+      angular_segments: 96
+      fillet_segments: 12
+      samples_per_pitch: 32
+  views:
+  - isometric
+  - front
+  - back
+  - left
+  - right
+  - top
+  - bottom
+  visual_assumptions:
+    core_diameter_fraction: 0.65
+    crown_flat_diameter_head_fraction: 0.35
+    crown_sag_height_fraction: 0.55
+    point_length_diameters: 1.0
+    recess_core_width_head_fraction: 0.18
+    recess_depth_height_fraction: 0.6
+    recess_diameter_head_fraction: 0.52
+    recess_wing_width_head_fraction: 0.16
+    thread_crest_fraction: 0.02
+    thread_flank_angle_deg: 60
+    thread_runout_pitch_fraction: 0.12
+    underhead_fillet_diameters: 0.015
+url_chat: https://chatgpt.com/c/6a0c7905-598c-8395-a44e-6c480d63f952
+```
+
+</details>
+
+## Parts
+
+[Open the canonical part folder](./) for the files available for this variant. Alternative model formats describe the same record; they are not extra components.
+
+## Assembly
+
+No assembly procedure is inferred from this catalogue record. Use any retained technical notes and the original manufacturer documentation for installation details.
+<!-- oomp-documentation:end -->
